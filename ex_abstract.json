@@ -1,0 +1,1871 @@
+{
+  "_client": "<elsapy.elsclient.ElsClientobjectat0x0000017D57E4E080>",
+  "_data": {
+    "affiliation": {
+      "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024825",
+      "@id": "60024825",
+      "affiliation-city": "Aveiro",
+      "affiliation-country": "Portugal",
+      "affilname": "Universidade de Aveiro"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "$": "active learning",
+          "@_fa": "true"
+        },
+        {
+          "$": "curriculum design",
+          "@_fa": "true"
+        },
+        {
+          "$": "Project-based learning",
+          "@_fa": "true"
+        },
+        {
+          "$":"soft-skills",
+          "@_fa": "true"
+        },
+        {
+          "$": "transferrable skills",
+          "@_fa": "true"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "@_fa": "true",
+          "@auid": "7005166330",
+          "@seq": "1",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024825",
+            "@id": "60024825"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/7005166330",
+          "ce:given-name": "Pedro",
+          "ce:indexed-name": "Fonseca P.",
+          "ce:initials": "P.",
+          "ce:surname": "Fonseca",
+          "preferred-name": {
+            "ce:given-name": "Pedro",
+            "ce:indexed-name": "Fonseca P.",
+            "ce:initials": "P.",
+            "ce:surname": "Fonseca"
+          }
+        },
+        {
+          "@_fa": "true",
+          "@auid": "7101681923",
+          "@seq": "2",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024825",
+            "@id": "60024825"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/7101681923",
+          "ce:given-name": "Paulo Pereira",
+          "ce:indexed-name": "Monteiro P.P.",
+          "ce:initials": "P.P.",
+          "ce:surname": "Monteiro",
+          "preferred-name": {
+            "ce:given-name": "Paulo Pereira",
+            "ce:indexed-name": "Monteiro P.P.",
+            "ce:initials": "P.P.",
+            "ce:surname": "Monteiro"
+          }
+        },
+        {
+          "@_fa": "true",
+          "@auid": "43461712600",
+          "@seq": "3",
+          "affiliation": {
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024825",
+            "@id": "60024825"
+          },
+          "author-url": "https://api.elsevier.com/content/author/author_id/43461712600",
+          "ce:given-name": "Antonio J. R.",
+          "ce:indexed-name": "Neves A.J.R.",
+          "ce:initials": "A.J.R.",
+          "ce:surname": "Neves",
+          "preferred-name": {
+            "ce:given-name": "Antonio J.R.",
+            "ce:indexed-name": "Neves A.J.R.",
+            "ce:initials": "A.J.R.",
+            "ce:surname": "Neves"
+          }
+        }
+      ]
+    },
+    "coredata": {
+      "citedby-count": "0",
+      "dc:creator": {
+        "author": [
+          {
+            "@_fa": "true",
+            "@auid": "7005166330",
+            "@seq": "1",
+            "affiliation": {
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024825",
+              "@id": "60024825"
+            },
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005166330",
+            "ce:given-name": "Pedro",
+            "ce:indexed-name": "Fonseca P.",
+            "ce:initials": "P.",
+            "ce:surname": "Fonseca",
+            "preferred-name": {
+              "ce:given-name": "Pedro",
+              "ce:indexed-name": "Fonseca P.",
+              "ce:initials": "P.",
+              "ce:surname": "Fonseca"
+            }
+          }
+        ]
+      },
+      "dc:description": "⌐ 2021 IEEE.In 2017, the authors Department decided to promote a major change in its Electronics and Telecommunications degree. This is a 5-year degree, that corresponds to a 1st and 2nd cycle degrees in the Bologna qualification framework. One of the touchstones in the review process was the introduction of a project-related track across all 5 years of the degree. In this way, students would be permanently exposed to project-based unit courses throughout their degree. We describe the approach followed in this reorganization. The project-based track is progressive and tries to focus on different aspects of what is required for developing a project, from the first year, when students are exposed to two small projects (one per semester) to the fifth year, where the study plan includes the Dissertation, Project or Internship, corresponding to the traditional approach in master's degrees. This course structure has been welcomed by both the students and the companies employing the degree graduates. There is not yet an evidence-based assessment of the full study plan, but some results exist for the individual course units. The informal feedback collected, both from students representatives and from companies, are of general approval of the changes that have been introduced.",
+      "dc:identifier":"sCOPUS_ID:85124808238",
+      "dc:publisher": "Institute of Electrical and Electronics Engineers Inc.",
+      "dc:title": "Creating a Project track in a 5-year integrated Engineering Curricullum",
+      "eid": "2-s2.0-85124808238",
+      "link": [
+        {
+          "@_fa": "true",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85124808238",
+          "@rel":"self"
+        },
+        {
+          "@_fa": "true",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124808238&origin=inward",
+          "@rel":"scopus"
+        },
+        {
+          "@_fa": "true",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85124808238&origin=inward",
+          "@rel":"scopus-citedby"
+        }
+      ],
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:aggregationType": "Conference Proceeding",
+      "prism:coverDate": "2021-01-01",
+      "prism:doi": "10.1109/WEEF/GEDC53299.2021.9657160",
+      "prism:endingPage": "460",
+      "prism:isbn": "9781665424882",
+      "prism:pageRange": "455-460",
+      "prism:publicationName": "Proceedings of 2021 World Engineering Education Forum/Global Engineering Deans Council, WEEF/GEDC 2021",
+      "prism:startingPage": "455",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85124808238",
+     "source-id": "21101076190",
+     "srctype": "p",
+     "subtype": "cp",
+     "subtypeDescription": "Conference Paper"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Active Learning",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Curricula design",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Exposed to",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Integrated engineering",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Project based learning",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Project-based",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Review process",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$":"soft skills",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$":"study plans",
+          "@candidate": "n",
+          "@weight": "b"
+        },
+        {
+          "$": "Transferrable skill",
+          "@candidate": "n",
+          "@weight": "b"
+        }
+      ]
+    },
+    "item": {
+      "ait:process-info": {
+        "ait:date-delivered": {
+          "@day": "23",
+          "@month": "02",
+          "@timestamp": "2022-02-23T05:01:20.000020-05:00",
+          "@year": "2022"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@month": "01",
+          "@year": "2021"
+        },
+        "ait:status": {
+          "@stage":"s300",
+          "@state": "new",
+          "@type": "core"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "abstracts": "⌐ 2021 IEEE.In 2017, the authors Department decided to promote a major change in its Electronics and Telecommunications degree. This is a 5-year degree, that corresponds to a 1st and 2nd cycle degrees in the Bologna qualification framework. One of the touchstones in the review process was the introduction of a project-related track across all 5 years of the degree. In this way, students would be permanently exposed to project-based unit courses throughout their degree. We describe the approach followed in this reorganization. The project-based track is progressive and tries to focus on different aspects of what is required for developing a project, from the first year, when students are exposed to two small projects (one per semester) to the fifth year, where the study plan includes the Dissertation, Project or Internship, corresponding to the traditional approach in master's degrees. This course structure has been welcomed by both the students and the companies employing the degree graduates. There is not yet an evidence-based assessment of the full study plan, but some results exist for the individual course units. The informal feedback collected, both from students representatives and from companies, are of general approval of the changes that have been introduced.",
+          "author-group": {
+            "affiliation": {
+              "@afid": "60024825",
+              "@country": "prt",
+              "@dptid": "123330145",
+              "affiliation-id": {
+                "@afid": "60024825",
+                "@dptid": "123330145"
+              },
+              "ce:source-text": "Telecommunications and Informatics University of Aveiro,Dep. of Eletronics,Aveiro,Portugal",
+              "city": "Aveiro",
+              "country": "Portugal",
+              "organization": [
+                {
+                  "$": "Telecommunications and Informatics University of Aveiro"
+                },
+                {
+                  "$": "Dep. of Eletronics"
+                }
+              ]
+            },
+            "author": [
+              {
+                "@_fa": "true",
+                "@auid": "7005166330",
+                "@seq": "1",
+                "@type": "auth",
+                "ce:given-name": "Pedro",
+                "ce:indexed-name": "Fonseca P.",
+                "ce:initials": "P.",
+                "ce:surname": "Fonseca",
+                "preferred-name": {
+                  "ce:given-name": "Pedro",
+                  "ce:indexed-name": "Fonseca P.",
+                  "ce:initials": "P.",
+                  "ce:surname": "Fonseca"
+                }
+              },
+              {
+                "@_fa": "true",
+                "@auid": "7101681923",
+                "@seq": "2",
+                "@type": "auth",
+                "ce:given-name": "Paulo Pereira",
+                "ce:indexed-name": "Monteiro P.P.",
+                "ce:initials": "P.P.",
+                "ce:surname": "Monteiro",
+                "preferred-name": {
+                  "ce:given-name": "Paulo Pereira",
+                  "ce:indexed-name": "Monteiro P.P.",
+                  "ce:initials": "P.P.",
+                  "ce:surname": "Monteiro"
+                }
+              },
+              {
+                "@_fa": "true",
+                "@auid": "43461712600",
+                "@seq": "3",
+                "@type": "auth",
+                "ce:given-name": "Antonio J. R.",
+                "ce:indexed-name": "Neves A.J.R.",
+                "ce:initials": "A.J.R.",
+                "ce:surname": "Neves",
+                "preferred-name": {
+                  "ce:given-name": "Antonio J.R.",
+                  "ce:indexed-name": "Neves A.J.R.",
+                  "ce:initials": "A.J.R.",
+                  "ce:surname": "Neves"
+                }
+              }
+            ]
+          },
+          "citation-info": {
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "active learning",
+                  "@original": "y",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "curriculum design",
+                  "@original": "y",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Project-based learning",
+                  "@original": "y",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$":"soft-skills",
+                  "@original": "y",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "transferrable skills",
+                  "@original": "y",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "citation-type": {
+              "@code": "cp"
+            }
+          },
+          "citation-title": "Creating a Project track in a 5-year integrated Engineering Curricullum",
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "1706"
+                    },
+                    {
+                      "$": "2201"
+                    },
+                    {
+                      "$": "3304"
+                    }
+                  ]
+                },
+                {
+                  "@type": "CPXCLASS",
+                  "classification": {
+                    "classification-code": "901.2",
+                    "classification-description": "Education"
+                  }
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type":"sUBJABBR",
+                  "classification": [
+                    {
+                      "$": "COMP"
+                    },
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$":"sOCI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+         "source": {
+            "@country": "usa",
+            "@srcid": "21101076190",
+            "@type": "p",
+            "additional-srcinfo": {
+              "conferenceinfo": {
+                "confevent": {
+                  "confcatnumber": "CFP21Q68-ART",
+                  "confcode": "176150",
+                  "confdate": {
+                    "enddate": {
+                      "@day": "18",
+                      "@month": "11",
+                      "@year": "2021"
+                    },
+                   "startdate": {
+                      "@day": "15",
+                      "@month": "11",
+                      "@year": "2021"
+                    }
+                  },
+                  "conflocation": {
+                    "@country": "esp",
+                    "city": "Madrid"
+                  },
+                  "confname": "2021 World Engineering Education Forum/Global Engineering Deans Council, WEEF/GEDC 2021",
+                  "confseriestitle": "World Engineering Education Forum/Global Engineering Deans Council",
+                  "confsponsors": {
+                    "@complete": "n",
+                    "confsponsor": [
+                      {
+                        "$": "Coursera"
+                      },
+                      {
+                        "$": "Dassault Systemes"
+                      },
+                      {
+                        "$": "et al."
+                      },
+                      {
+                        "$": "Mathworks"
+                      },
+                      {
+                        "$": "Quanser"
+                      },
+                      {
+                        "$":"siemens"
+                      }
+                    ]
+                  },
+                  "conftheme": "Diversity and Ethics in Education for an Inclusive and SustainableWorld"
+                },
+                "confpublication": {
+                  "procpartno": "1 of 1"
+                }
+              }
+            },
+            "isbn": {
+              "$": "9781665424882",
+              "@length": "13",
+              "@level": "volume",
+              "@type": "electronic"
+            },
+            "issuetitle": "Proceedings of 2021 World Engineering Education Forum/Global Engineering Deans Council, WEEF/GEDC 2021",
+            "publicationdate": {
+              "date-text": {
+                "$": "2021",
+                "@xfab-added": "true"
+              },
+              "year": "2021"
+            },
+            "publicationyear": {
+              "@first": "2021"
+            },
+            "publisher": {
+              "publishername": "Institute of Electrical and Electronics Engineers Inc."
+            },
+           "sourcetitle": "Proceedings of 2021 World Engineering Education Forum/Global Engineering Deans Council, WEEF/GEDC 2021",
+           "sourcetitle-abbrev": "Proc. World Eng. Educ. Forum/Glob. Eng. Deans Counc., WEEF/GEDC",
+            "translated-sourcetitle": {
+              "$": "Proceedings of 2021 World Engineering Education Forum/Global Engineering Deans Council, WEEF/GEDC 2021",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "pagerange": {
+                "@first": "455",
+                "@last": "460"
+              }
+            },
+            "website": {
+              "ce:e-address": {
+                "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9657196",
+                "@type": "email"
+              }
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$":"sCOPUS"
+            },
+            {
+              "$":"scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "22",
+              "@month": "02",
+              "@timestamp": "BST 07:08:47",
+              "@year": "2022"
+            }
+          },
+          "itemidlist": {
+            "ce:doi": "10.1109/WEEF/GEDC53299.2021.9657160",
+            "itemid": [
+              {
+                "$": "637283833",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "938625059",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20220811682626",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20220636298",
+                "@idtype":"sCOPUS"
+              },
+              {
+                "$": "85124808238",
+                "@idtype":"sCP"
+              },
+              {
+                "$": "85124808238",
+                "@idtype":"sGR"
+              }
+            ]
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "24",
+            "reference": [
+              {
+                "@id": "1",
+                "ce:source-text": "F. Suleman, Employability Skills of Higher Education Graduates: Little Consensus on a Much-discussed Subject, Procedia-Social and Behavioral Sciences, vol. 228, pp. 169-174, Jul. 2016, doi: 10.1016/j.sbspro.2016.07.025.",
+                "ref-fulltext": "F. Suleman, Employability Skills of Higher Education Graduates: Little Consensus on a Much-discussed Subject, Procedia-Social and Behavioral Sciences, vol. 228, pp. 169-174, Jul. 2016, doi: 10.1016/j.sbspro.2016.07.025.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name":"suleman F.",
+                        "ce:initials": "F.",
+                        "ce:surname":"suleman"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-sourcetitle": "Procedia-Social and Behavioral Sciences",
+                  "ref-text": "Jul.",
+                  "ref-title": {
+                    "ref-titletext": "Employability Skills of Higher Education Graduates: Little Consensus on a Much-discussed Subject"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "169",
+                      "@last": "174"
+                    },
+                    "voliss": {
+                      "@volume": "228"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sbspro.2016.07.025",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85027552216",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "2",
+                "ce:source-text": "M. Osmani et al., Identifying the trends and impact of graduate attributes on employability: a literature review, Tertiary Education and Management, vol. 21, no. 4, pp. 367-379, Oct. 2015, doi: 10.1080/13583883.2015.1114139.",
+                "ref-fulltext": "M. Osmani et al., Identifying the trends and impact of graduate attributes on employability: a literature review, Tertiary Education and Management, vol. 21, no. 4, pp. 367-379, Oct. 2015, doi: 10.1080/13583883.2015.1114139.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Osmani M.",
+                        "ce:initials": "M.",
+                        "ce:surname": "Osmani"
+                      }
+                    ],
+                    "et-al": "None"
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-sourcetitle": "Tertiary Education and Management",
+                  "ref-text": "Oct",
+                  "ref-title": {
+                    "ref-titletext": "Identifying the trends and impact of graduate attributes on employability: A literature review"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "367",
+                      "@last": "379"
+                    },
+                    "voliss": {
+                      "@issue": "4",
+                      "@volume": "21"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/13583883.2015.1114139",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84949188347",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "3",
+                "ce:source-text": "B. D. Jones, C. M. Epler, P. Mokri, L. H. Bryant, and M. C. Paretti, The Effects of a Collaborative Problem-based Learning Experience on Students Motivation in Engineering Capstone Courses, Interdisciplinary Journal of Problem-based Learning, vol. 7, no. 2, May 2013, doi: 10.7771/1541-5015.1344.",
+                "ref-fulltext": "B. D. Jones, C. M. Epler, P. Mokri, L. H. Bryant, and M. C. Paretti, The Effects of a Collaborative Problem-based Learning Experience on Students Motivation in Engineering Capstone Courses, Interdisciplinary Journal of Problem-based Learning, vol. 7, no. 2, May 2013, doi: 10.7771/1541-5015.1344.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Jones B.D.",
+                        "ce:initials": "B.D.",
+                        "ce:surname": "Jones"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Epler C.M.",
+                        "ce:initials": "C.M.",
+                        "ce:surname": "Epler"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Mokri P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Mokri"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Bryant L.H.",
+                        "ce:initials": "L.H.",
+                        "ce:surname": "Bryant"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "ce:indexed-name": "Paretti M.C.",
+                        "ce:initials": "M.C.",
+                        "ce:surname": "Paretti"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-sourcetitle": "Interdisciplinary Journal of Problem-based Learning",
+                  "ref-text": "May",
+                  "ref-title": {
+                    "ref-titletext": "The Effects of a Collaborative Problem-based Learning Experience on Students Motivation in Engineering Capstone Courses"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "7"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.7771/1541-5015.1344",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84901247738",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "4",
+                "ce:source-text": "J. S. Lee, S. Blackwell, J. Drake, and K. A. Moran, Taking a Leap of Faith: Redefining Teaching and Learning in Higher Education Through Project-Based Learning, Interdisciplinary Journal of Problem-Based Learning, vol. 8, no. 2, Mar. 2014, doi: 10.7771/1541-5015.1426.",
+                "ref-fulltext": "J. S. Lee, S. Blackwell, J. Drake, and K. A. Moran, Taking a Leap of Faith: Redefining Teaching and Learning in Higher Education Through Project-Based Learning, Interdisciplinary Journal of Problem-Based Learning, vol. 8, no. 2, Mar. 2014, doi: 10.7771/1541-5015.1426.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Lee J.S.",
+                        "ce:initials": "J.S.",
+                        "ce:surname": "Lee"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Blackwell S.",
+                        "ce:initials":"s.",
+                        "ce:surname": "Blackwell"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Drake J.",
+                        "ce:initials": "J.",
+                        "ce:surname": "Drake"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Moran K.A.",
+                        "ce:initials": "K.A.",
+                        "ce:surname": "Moran"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-sourcetitle": "Interdisciplinary Journal of Problem-Based Learning",
+                  "ref-text": "Mar",
+                  "ref-title": {
+                    "ref-titletext": "Taking a Leap of Faith: Redefining Teaching and Learning in Higher Education Through Project-Based Learning"
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "8"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.7771/1541-5015.1426",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84951312820",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "5",
+                "ce:source-text": "R. Hanney and M. Savin-Baden, The problem of projects: understanding the theoretical underpinnings of project-led PBL, London Review of Education, Mar. 2013, doi: 10.1080/14748460.2012.761816.",
+                "ref-fulltext": "R. Hanney and M. Savin-Baden, The problem of projects: understanding the theoretical underpinnings of project-led PBL, London Review of Education, Mar. 2013, doi: 10.1080/14748460.2012.761816.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Hanney R.",
+                        "ce:initials": "R.",
+                        "ce:surname": "Hanney"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name":"savin-Baden M.",
+                        "ce:initials": "M.",
+                        "ce:surname":"savin-Baden"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-sourcetitle": "London Review of Education",
+                  "ref-text": "Mar",
+                  "ref-title": {
+                    "ref-titletext": "The problem of projects: Understanding the theoretical underpinnings of project-led PBL"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/14748460.2012.761816",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84873908070",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "6",
+                "ce:source-text": "H. A. Hadim and S. K. Esche, Enhancing the engineering curriculum through project-based learning, in 32nd Annual Frontiers in Education, Boston, ma, usa, 2002, vol. 2, pp. f3f-1-f3f-6. doi: 10.1109/fie.2002.1158200.",
+                "ref-fulltext": "H. A. Hadim and S. K. Esche, Enhancing the engineering curriculum through project-based learning, in 32nd Annual Frontiers in Education, Boston, ma, usa, 2002, vol. 2, pp. f3f-1-f3f-6. doi: 10.1109/fie.2002.1158200.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Hadim H.A.",
+                        "ce:initials": "H.A.",
+                        "ce:surname": "Hadim"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Esche S.K.",
+                        "ce:initials":"s.K.",
+                        "ce:surname": "Esche"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-sourcetitle": "32nd Annual Frontiers in Education",
+                  "ref-text": "Boston, ma, usa",
+                  "ref-title": {
+                    "ref-titletext": "Enhancing the engineering curriculum through project-based learning"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "f3f1",
+                      "@last": "f3f6"
+                    },
+                    "voliss": {
+                      "@volume": "2"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/fie.2002.1158200",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "0036957196",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "7",
+                "ce:source-text": "I. de los Rφos, A. Cazorla, J. M. Dφaz-Puente, and J. L. Yagⁿe, Project-based learning in engineering higher education: two decades of teaching competences in real environments, Procedia-Social and Behavioral Sciences, vol. 2, no. 2, pp. 1368-1378, 2010, doi: 10.1016/j.sbspro.2010.03.202.",
+                "ref-fulltext": "I. de los Rφos, A. Cazorla, J. M. Dφaz-Puente, and J. L. Yagⁿe, Project-based learning in engineering higher education: two decades of teaching competences in real environments, Procedia-Social and Behavioral Sciences, vol. 2, no. 2, pp. 1368-1378, 2010, doi: 10.1016/j.sbspro.2010.03.202.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Rios Los I.De",
+                        "ce:initials": "I.De",
+                        "ce:surname": "Rφos Los"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Cazorla A.",
+                        "ce:initials": "A.",
+                        "ce:surname": "Cazorla"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Diaz-Puente J.M.",
+                        "ce:initials": "J.M.",
+                        "ce:surname": "Dφaz-Puente"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Yague J.L.",
+                        "ce:initials": "J.L.",
+                        "ce:surname": "Yagⁿe"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-sourcetitle": "Procedia-Social and Behavioral Sciences",
+                  "ref-title": {
+                    "ref-titletext": "Project-based learning in engineering higher education: Two decades of teaching competences in real environments"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1368",
+                      "@last": "1378"
+                    },
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "2"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sbspro.2010.03.202",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "77957715109",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "8",
+                "ce:source-text": "I. M. Munoz-Baell, R. Ortiz-Moncada, D. L. Parra, M. C. Davo, and J. S. Alvarez-Garcia, "The European Higher Education Area and Project Based Learning: Implementing the Pbl Approach in a New Degree Course: General Linguistics I", in INTED2012 Proceedings, Mar. 2012, pp. 467-476.",
+                "ref-fulltext": "I. M. Munoz-Baell, R. Ortiz-Moncada, D. L. Parra, M. C. Davo, and J. S. Alvarez-Garcia, "The European Higher Education Area and Project Based Learning: Implementing the Pbl Approach in a New Degree Course: General Linguistics I", in INTED2012 Proceedings, Mar. 2012, pp. 467-476.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Munoz-Baell I.M.",
+                        "ce:initials": "I.M.",
+                        "ce:surname": "Munoz-Baell"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Ortiz-Moncada R.",
+                        "ce:initials": "R.",
+                        "ce:surname": "Ortiz-Moncada"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Parra D.L.",
+                        "ce:initials": "D.L.",
+                        "ce:surname": "Parra"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Davo M.C.",
+                        "ce:initials": "M.C.",
+                        "ce:surname": "Davo"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "ce:indexed-name": "Alvarez-Garcia J.S.",
+                        "ce:initials": "J.S.",
+                        "ce:surname": "Alvarez-Garcia"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-sourcetitle": "INTED2012 Proceedings",
+                  "ref-text": "Mar",
+                  "ref-title": {
+                    "ref-titletext": "The European Higher Education Area and Project Based Learning: Implementing the Pbl Approach in a New Degree Course: General Linguistics I"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "467",
+                      "@last": "476"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85098594574",
+                      "@idtype":"sGR"
+                    }
+                  }
+                }
+              },
+              {
+                "@id": "9",
+                "ce:source-text": "J. E. Mitchell, A. Nyamapfene, K. Roach, and E. Tilley, "Faculty wide curriculum reform: the integrated engineering programme", European Journal of Engineering Education, vol. 46, no. 1, pp. 48-66, Jan. 2021, doi: 10.1080/03043797.2019.1593324.",
+                "ref-fulltext": "J. E. Mitchell, A. Nyamapfene, K. Roach, and E. Tilley, "Faculty wide curriculum reform: the integrated engineering programme", European Journal of Engineering Education, vol. 46, no. 1, pp. 48-66, Jan. 2021, doi: 10.1080/03043797.2019.1593324.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Mitchell J.E.",
+                        "ce:initials": "J.E.",
+                        "ce:surname": "Mitchell"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Nyamapfene A.",
+                        "ce:initials": "A.",
+                        "ce:surname": "Nyamapfene"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Roach K.",
+                        "ce:initials": "K.",
+                        "ce:surname": "Roach"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Tilley E.",
+                        "ce:initials": "E.",
+                        "ce:surname": "Tilley"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-sourcetitle": "European Journal of Engineering Education",
+                  "ref-text": "Jan",
+                  "ref-title": {
+                    "ref-titletext": "Faculty wide curriculum reform: The integrated engineering programme"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "48",
+                      "@last": "66"
+                    },
+                    "voliss": {
+                      "@issue": "1",
+                      "@volume": "46"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/03043797.2019.1593324",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85063025019",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "10",
+                "ce:source-text": "unesCO, "Glossary of curriculum terminology; 2013", Geneva, Switzerland, ibe/2013/kpm/pi/01, 2013. [Online]. Available: http://www.ibe.unesco.org/fileadmin/user-upload/Publications/IBE-GlossaryCurriculumTerminology2013-eng.pdf",
+                "ref-fulltext": "unesCO, "Glossary of curriculum terminology; 2013", Geneva, Switzerland, ibe/2013/kpm/pi/01, 2013. [Online]. Available: http://www.ibe.unesco.org/fileadmin/user-upload/Publications/IBE-GlossaryCurriculumTerminology2013-eng.pdf",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-sourcetitle": "Glossary of Curriculum Terminology",
+                  "ref-text": "unesCO, Geneva, Switzerland, ibe/2013/kpm/pi/01,2013. [Online].",
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "http://www.ibe.unesco.org/fileadmin/user-upload/Publications/IBE-GlossaryCurriculumTerminology2013-eng.pdf",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84975254059",
+                      "@idtype":"sGR"
+                    }
+                  }
+                }
+              },
+              {
+                "@id": "11",
+                "ce:source-text": "H. Idrus, "Developing well-rounded graduates through integration of soft skills in the teaching of engineering courses", in 2014 IEEE Frontiers in Education Conference (FIE) Proceedings, Madrid, Spain, Oct. 2014, pp. 1-9. doi: 10.1109/FIE.2014.7044123.",
+                "ref-fulltext": "H. Idrus, "Developing well-rounded graduates through integration of soft skills in the teaching of engineering courses", in 2014 IEEE Frontiers in Education Conference (FIE) Proceedings, Madrid, Spain, Oct. 2014, pp. 1-9. doi: 10.1109/FIE.2014.7044123.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Idrus H.",
+                        "ce:initials": "H.",
+                        "ce:surname": "Idrus"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-sourcetitle": "2014 Ieee Frontiers in Education Conference (FIE) Proceedings",
+                  "ref-text": "Madrid, Spain, Oct",
+                  "ref-title": {
+                    "ref-titletext": "Developing well-rounded graduates through integration of soft skills in the teaching of engineering courses"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "9"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/FIE.2014.7044123",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84938099280",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "12",
+                "ce:source-text": "M. Cinque, \Lost in translation". Soft skills development in European countries", Tuning Journal for Higher Education, vol. 3, no. 2, P. 389, May 2016, doi: 10.18543/tjhe-3(2)-2016pp389-427.",
+                "ref-fulltext": "M. Cinque, \Lost in translation". Soft skills development in European countries", Tuning Journal for Higher Education, vol. 3, no. 2, P. 389, May 2016, doi: 10.18543/tjhe-3(2)-2016pp389-427.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Cinque M.",
+                        "ce:initials": "M.",
+                        "ce:surname": "Cinque"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-sourcetitle": "Tuning Journal for Higher Education",
+                  "ref-text": "May",
+                  "ref-title": {
+                    "ref-titletext": "Lost in translation". Soft skills development in European countries"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "389"
+                    },
+                    "voliss": {
+                      "@issue": "2",
+                      "@volume": "3"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.18543/tjhe-3(2)-2016pp389-427",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85013450658",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "13",
+                "ce:source-text": "F. Musa, N. Mufti, R. A. Latiff, and M. M. Amin, "Project-based Learning (PjBL): Inculcating Soft Skills in 21st Century Workplace", Procedia-Social and Behavioral Sciences, vol. 59, pp. 565-573, Oct. 2012, doi: 10.1016/j.sbspro.2012.09.315.",
+                "ref-fulltext": "F. Musa, N. Mufti, R. A. Latiff, and M. M. Amin, "Project-based Learning (PjBL): Inculcating Soft Skills in 21st Century Workplace", Procedia-Social and Behavioral Sciences, vol. 59, pp. 565-573, Oct. 2012, doi: 10.1016/j.sbspro.2012.09.315.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Musa F.",
+                        "ce:initials": "F.",
+                        "ce:surname": "Musa"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Mufti N.",
+                        "ce:initials": "N.",
+                        "ce:surname": "Mufti"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Latiff R.A.",
+                        "ce:initials": "R.A.",
+                        "ce:surname": "Latiff"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Amin M.M.",
+                        "ce:initials": "M.M.",
+                        "ce:surname": "Amin"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-sourcetitle": "Procedia-Social and Behavioral Sciences",
+                  "ref-text": "Oct",
+                  "ref-title": {
+                    "ref-titletext": "Project-based Learning (PjBL): Inculcating Soft Skills in 21st Century Workplace"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "565",
+                      "@last": "573"
+                    },
+                    "voliss": {
+                      "@volume": "59"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sbspro.2012.09.315",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84878035711",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "14",
+                "ce:source-text": "J. E. Mitchell and L. Rogers,"staff perceptions of implementing project-based learning in engineering education", European Journal of Engineering Education, vol. 45, no. 3, pp. 349-362, May 2020, doi: 10.1080/03043797.2019.1641471.",
+                "ref-fulltext": "J. E. Mitchell and L. Rogers,"staff perceptions of implementing project-based learning in engineering education", European Journal of Engineering Education, vol. 45, no. 3, pp. 349-362, May 2020, doi: 10.1080/03043797.2019.1641471.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Mitchell J.E.",
+                        "ce:initials": "J.E.",
+                        "ce:surname": "Mitchell"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Rogers L.",
+                        "ce:initials": "L.",
+                        "ce:surname": "Rogers"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-sourcetitle": "European Journal of Engineering Education",
+                  "ref-text": "May",
+                  "ref-title": {
+                    "ref-titletext":"staff perceptions of implementing project-based learning in engineering education"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "349",
+                      "@last": "362"
+                    },
+                    "voliss": {
+                      "@issue": "3",
+                      "@volume": "45"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/03043797.2019.1641471",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85069048894",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "15",
+                "ce:source-text": "N. R. Jackson and A. E. Ward, "Curiosity based learning: Impact study in 1st year electronics undergraduates", in Information Technology Based Higher Education and Training (ITHET), 2012 International Conference on, Jun. 2012, pp. 1-6. doi: 10.1109/ITHET.2012.6246005.",
+                "ref-fulltext": "N. R. Jackson and A. E. Ward, "Curiosity based learning: Impact study in 1st year electronics undergraduates", in Information Technology Based Higher Education and Training (ITHET), 2012 International Conference on, Jun. 2012, pp. 1-6. doi: 10.1109/ITHET.2012.6246005.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Jackson N.R.",
+                        "ce:initials": "N.R.",
+                        "ce:surname": "Jackson"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Ward A.E.",
+                        "ce:initials": "A.E.",
+                        "ce:surname": "Ward"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-sourcetitle": "Information Technology Based Higher Education and Training (ITHET), 2012 International Conference on",
+                  "ref-text": "Jun",
+                  "ref-title": {
+                    "ref-titletext": "Curiosity based learning: Impact study in 1st year electronics undergraduates"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "6"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/ITHET.2012.6246005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84866623290",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "16",
+                "ce:source-text": "J. J. Kellar et al., "A problem based learning approach for freshman engineering", in Frontiers in Education Conference, 2000. FIE 2000. 30th Annual, 2000, vol. 2, P. F2G/7-F2G10 vol.2. doi: 10.1109/FIE.2000.896561.",
+                "ref-fulltext": "J. J. Kellar et al., "A problem based learning approach for freshman engineering", in Frontiers in Education Conference, 2000. FIE 2000. 30th Annual, 2000, vol. 2, P. F2G/7-F2G10 vol.2. doi: 10.1109/FIE.2000.896561.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Kellar J.J.",
+                        "ce:initials": "J.J.",
+                        "ce:surname": "Kellar"
+                      }
+                    ],
+                    "et-al": None
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-sourcetitle": "Frontiers in Education Conference, 2000. Fie 2000. 30th Annual",
+                  "ref-text": "vol.2",
+                  "ref-title": {
+                    "ref-titletext": "A problem based learning approach for freshman engineering"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "F2G7",
+                      "@last": "F2G10"
+                    },
+                    "voliss": {
+                      "@volume": "2"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/FIE.2000.896561",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "77955929296",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "17",
+                "ce:source-text": "P. Horowitz and W. Hill, The art of electronics, Third edition. New York, NY: Cambridge University Press, 2015.",
+                "ref-fulltext": "P. Horowitz and W. Hill, The art of electronics, Third edition. New York, NY: Cambridge University Press, 2015.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Horowitz P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Horowitz"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Hill W.",
+                        "ce:initials": "W.",
+                        "ce:surname": "Hill"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-sourcetitle": "The Art of Electronics Third Edition",
+                  "ref-text": "New York NY: Cambridge University Press",
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0004266734",
+                      "@idtype":"sGR"
+                    }
+                  }
+                }
+              },
+              {
+                "@id": "18",
+                "ce:source-text":"s. Gadzhanov, A. Nafalski, and Z. Nedic,"sensor data acquisition, processing and presentation in first year engineering programmes", in Teaching, Assessment and Learning (TALE), 2014 International Conference on, Dec. 2014, pp. 45-50. doi: 10.1109/TALE.2014.7062568.",
+                "ref-fulltext":"s. Gadzhanov, A. Nafalski, and Z. Nedic,"sensor data acquisition, processing and presentation in first year engineering programmes", in Teaching, Assessment and Learning (TALE), 2014 International Conference on, Dec. 2014, pp. 45-50. doi: 10.1109/TALE.2014.7062568.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Gadzhanov S.",
+                        "ce:initials":"s.",
+                        "ce:surname": "Gadzhanov"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Nafalski A.",
+                        "ce:initials": "A.",
+                        "ce:surname": "Nafalski"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Nedic Z.",
+                        "ce:initials": "Z.",
+                        "ce:surname": "Nedic"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-sourcetitle": "Teaching, Assessment and Learning (TALE), 2014 International Conference on",
+                  "ref-text": "Dec",
+                  "ref-title": {
+                    "ref-titletext":"sensor data acquisition, processing and presentation in first year engineering programmes"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "45",
+                      "@last": "50"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/TALE.2014.7062568",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "84928251744",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "19",
+                "ce:source-text": "P. Fonseca, P. Pedreiras, P. Cabral, B. Cunha, F. Silva, and J. N. Matos, "Motivating First Year Students for an Engineering Degree", presented at the CISPEE 2016-2.a ConferΩncia Internacional na Sociedade Portuguesa para a Educaτπo em Engenharia, Vila Real, Portugal, Oct. 2016. doi: 10.1109/CISPEE.2016.7777745.",
+                "ref-fulltext": "P. Fonseca, P. Pedreiras, P. Cabral, B. Cunha, F. Silva, and J. N. Matos, "Motivating First Year Students for an Engineering Degree", presented at the CISPEE 2016-2.a ConferΩncia Internacional na Sociedade Portuguesa para a Educaτπo em Engenharia, Vila Real, Portugal, Oct. 2016. doi: 10.1109/CISPEE.2016.7777745.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Fonseca P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Fonseca"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Pedreiras P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Pedreiras"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Cabral P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Cabral"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "ce:indexed-name": "Cunha B.",
+                        "ce:initials": "B.",
+                        "ce:surname": "Cunha"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "ce:indexed-name":"silva F.",
+                        "ce:initials": "F.",
+                        "ce:surname":"silva"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "6",
+                        "ce:indexed-name": "Matos J.N.",
+                        "ce:initials": "J.N.",
+                        "ce:surname": "Matos"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-sourcetitle": "Cispee 2016-2.a ConferΩncia Internacional Na Sociedade Portuguesa Para a Educaτπo em Engenharia",
+                  "ref-text": "Vila Real, Portugal, Oct",
+                  "ref-title": {
+                    "ref-titletext": "Motivating First Year Students for an Engineering Degree"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/CISPEE.2016.7777745",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85010380078",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "20",
+                "ce:source-text": "P. Fonseca, P. Pedreiras, and F. Silva, "Mobile Robots as a Tool to Teach First Year Engineering Electronics", in ROBOT 2017: Third Iberian Robotics Conference, vol. 694, A. Ollero, A. Sanfeliu, L. Montano, N. Lau, and C. Cardeira, Eds. Cham: Springer International Publishing, 2018, pp. 382-393. doi: 10.1007/978-3-319-70836-2-32.",
+                "ref-fulltext": "P. Fonseca, P. Pedreiras, and F. Silva, "Mobile Robots as a Tool to Teach First Year Engineering Electronics", in ROBOT 2017: Third Iberian Robotics Conference, vol. 694, A. Ollero, A. Sanfeliu, L. Montano, N. Lau, and C. Cardeira, Eds. Cham: Springer International Publishing, 2018, pp. 382-393. doi: 10.1007/978-3-319-70836-2-32.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Fonseca P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Fonseca"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Pedreiras P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Pedreiras"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name":"silva F.",
+                        "ce:initials": "F.",
+                        "ce:surname":"silva"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-sourcetitle": "Robot 2017: Third Iberian Robotics Conference",
+                  "ref-text": "A. Ollero, A. Sanfeliu, L. Montano, N. Lau, and C. Cardeira, Eds. Cham: Springer International Publishing",
+                  "ref-title": {
+                    "ref-titletext": "Mobile Robots as a Tool to Teach First Year Engineering Electronics"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "382",
+                      "@last": "393"
+                    },
+                    "voliss": {
+                      "@volume": "694"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/978-3-319-70836-2-32",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85042223965",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "21",
+                "ce:source-text": "J. Liedtka and T. Ogilvie, Designing for growth: a design thinking tool kit for managers. New York: Columbia Business School Pub., Columbia University Press, 2011.",
+                "ref-fulltext": "J. Liedtka and T. Ogilvie, Designing for growth: a design thinking tool kit for managers. New York: Columbia Business School Pub., Columbia University Press, 2011.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Liedtka J.",
+                        "ce:initials": "J.",
+                        "ce:surname": "Liedtka"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Ogilvie T.",
+                        "ce:initials": "T.",
+                        "ce:surname": "Ogilvie"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-sourcetitle": "Designing for Growth: A Design Thinking Tool Kit for Managers",
+                  "ref-text": "New York: Columbia Business School Pub., Columbia University Press",
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84867175290",
+                      "@idtype":"sGR"
+                    }
+                  }
+                }
+              },
+              {
+                "@id": "22",
+                "ce:source-text": "T. Brown and B. Katz, Change by design: how design thinking transforms organizations and inspires innovation, 1st ed. New York: Harper Business, 2009.",
+                "ref-fulltext": "T. Brown and B. Katz, Change by design: how design thinking transforms organizations and inspires innovation, 1st ed. New York: Harper Business, 2009.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Brown T.",
+                        "ce:initials": "T.",
+                        "ce:surname": "Brown"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Katz B.",
+                        "ce:initials": "B.",
+                        "ce:surname": "Katz"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-sourcetitle": "Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation, 1St Ed",
+                  "ref-text": "New York: Harper Business",
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "77953428825",
+                      "@idtype":"sGR"
+                    }
+                  }
+                }
+              },
+              {
+                "@id": "23",
+                "ce:source-text": "A. M. de Oliveira Duarte, I. C. Oliveira, and I. Direito,"stimulating Learning in Engineering Students by Collaborative Entrepreneurship Training", in 2010 IEEE Transforming Engineering Education: Creating Interdisciplinary Skills for Complex Global Environments, Dublin, Ireland, Apr. 2010, pp. 1-13. doi: 10.1109/TEE.2010.5508848.",
+                "ref-fulltext": "A. M. de Oliveira Duarte, I. C. Oliveira, and I. Direito,"stimulating Learning in Engineering Students by Collaborative Entrepreneurship Training", in 2010 IEEE Transforming Engineering Education: Creating Interdisciplinary Skills for Complex Global Environments, Dublin, Ireland, Apr. 2010, pp. 1-13. doi: 10.1109/TEE.2010.5508848.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Duarte Oliveira De A.M.",
+                        "ce:initials": "A.M.",
+                        "ce:surname": "Duarte Oliveira De"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name": "Oliveira I.C.",
+                        "ce:initials": "I.C.",
+                        "ce:surname": "Oliveira"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Direito I.",
+                        "ce:initials": "I.",
+                        "ce:surname": "Direito"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-sourcetitle": "2010 Ieee Transforming Engineering Education: Creating Interdisciplinary Skills for Complex Global Environments, Dublin, Ireland",
+                  "ref-text": "Apr",
+                  "ref-title": {
+                    "ref-titletext":"stimulating Learning in Engineering Students by Collaborative Entrepreneurship Training"
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "13"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/TEE.2010.5508848",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "77955625148",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "@id": "24",
+                "ce:source-text": "Pedro Fonseca, Susana Sargento, and Arnaldo Oliveira, "Bringing Students and Companies together by means of Project development", presented at the EDUCON 2020 IEEE Global Engineering Education Conference, Porto, Portugal, Apr. 2020. doi: 10.1109/EDUCON45650.2020.9125204.",
+                "ref-fulltext": "Pedro Fonseca, Susana Sargento, and Arnaldo Oliveira, "Bringing Students and Companies together by means of Project development", presented at the EDUCON 2020 IEEE Global Engineering Education Conference, Porto, Portugal, Apr. 2020. doi: 10.1109/EDUCON45650.2020.9125204.",
+                "ref-info": {
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "ce:indexed-name": "Fonseca P.",
+                        "ce:initials": "P.",
+                        "ce:surname": "Fonseca"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "ce:indexed-name":"sargento S.",
+                        "ce:initials":"s.",
+                        "ce:surname":"sargento"
+                      },
+                      {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "ce:indexed-name": "Oliveira A.",
+                        "ce:initials": "A.",
+                        "ce:surname": "Oliveira"
+                      }
+                    ]
+                  },
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-sourcetitle": "Educon 2020 Ieee Global Engineering Education Conference",
+                  "ref-text": "Porto, Portugal, Apr",
+                  "ref-title": {
+                    "ref-titletext": "Bringing Students and Companies together by means of Project development"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1109/EDUCON45650.2020.9125204",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85087872478",
+                        "@idtype":"sGR"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+   "subject-areas": {
+     "subject-area": [
+        {
+          "$": "Computer Science Applications",
+          "@_fa": "true",
+          "@abbrev": "COMP",
+          "@code": "1706"
+        },
+        {
+          "$": "Engineering (miscellaneous)",
+          "@_fa": "true",
+          "@abbrev": "ENGI",
+          "@code": "2201"
+        },
+        {
+          "$": "Education",
+          "@_fa": "true",
+          "@abbrev":"sOCI",
+          "@code": "3304"
+        }
+      ]
+    }
+  },
+  "_uri": "https://api.elsevier.com/content/abstract/scopus_id/SCOPUS_ID:85124808238"
+}
