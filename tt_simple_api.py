@@ -1,5 +1,3 @@
-"""An example program that uses the elsapy module"""
-
 from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
@@ -8,16 +6,92 @@ import json
 
 from pprint import pprint
 
+################################################################################
+
 class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
+    HEADER =	'\033[95m'
+    OKBLUE =	'\033[94m'
+    OKCYAN =	'\033[96m'
+    OKGREEN =	'\033[92m'
+    WARNING =	'\033[93m'
+    FAIL =		'\033[91m'
+    ENDC =		'\033[0m'
+    BOLD =		'\033[1m'
     UNDERLINE = '\033[4m'
+
+################################################################################
+
+class Author:						# EXAMPLES // DESCRIPTION
+	def __init__(self,				
+		name,						# António J.R. Neves
+		scopus_id,					# 43461712600
+		orcid_id,					# 0000-0001-5433-6667
+		name_list,					# ['A.J.R.', 'A. Neves', ...]
+
+									# Following 3 fields should become relations
+									# in a proper database scenario
+
+		current_affiliation_list,	# [Affiliation(name='Universidade de Aveiro'
+									# , ...), ...]
+									# // Not sure if affiliation history has to
+									# // include the current affiliations
+
+		affiliation_history_list,	# [Affiliation(name='Universidade de Aveiro'
+									#, ...), ...]
+
+		document_list,				# [Document(...), ...]
+
+		citation_count,				# 
+		cited_by_count,				# Author cited by n documents
+
+		area_freq					# {Area(name='Artificial Intelligence'): 10}
+									# // Areas and the amount of times they
+									# // appeared in the author's documents
+
+		# TO DO'S
+
+		# PEER REVIEWS
+		# COURSES TAUGHT
+		# ACTUATION DOMAINS
+		#
+		# PROJECTS
+		# 
+		# LANGUAGES
+		
+		
+		
+		):
+		pass
+
+class Affiliation:					# EXAMPLES // DESCRIPTION
+	def __init__(self,
+		name,						# Universidade de Aveiro
+		scopus_id):					# 60024825
+		pass
+
+class Area:							# EXAMPLES // DESCRIPTION
+	def __init__(self,
+		name,						# Software
+		abbreviation,				# COMP // Can be the same for many areas
+		code):						# 1712
+		pass
+
+class Document:						# EXAMPLES // DESCRIPTION
+	def __init__(self,
+		name,						# Creating a Project track in a 5-year
+									# integrated Engineering Curricullum
+		scopus_id,					# 85124808238
+		doi,						# 10.1109/WEEF/GEDC53299.2021.9657160
+		eid,						# 2-s2.0-85124808238
+		date,						# 2021-01-01
+		type,						# Conference Paper
+		area_list,					# [Area(), ...]
+		keyword_list,				# ['Active Learning', 'Soft skills', ...]
+		full_text					# // Full document text
+		):
+		pass
+
+################################################################################
 
 ## Load configuration
 con_file = open("config.json")
@@ -110,9 +184,9 @@ for author_id in ids:
 		doc_srch.execute(client, get_all = True)
 		print ("\ndoc_srch has", len(doc_srch.results), "results.\n")
 
-		for doc in doc_srch.results:
-		#if len(doc_srch.results) != 0:
-			#doc = doc_srch.results[0]
+		#for doc in doc_srch.results:
+		if len(doc_srch.results) != 0:
+			doc = doc_srch.results[0]
 
 			print(bcolors.OKCYAN + "Document:", doc['dc:title'], bcolors.ENDC )
 			doc_scopus_id = doc['dc:identifier']
@@ -177,8 +251,7 @@ for author_id in ids:
 	else:
 		print ("Read author failed.")
 
-
-
+################################################################################
 
 if False:
 
