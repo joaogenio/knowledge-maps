@@ -1,0 +1,85 @@
+Author: António J.R. Neves
+    Scopus ID: 43461712600
+    ORCID ID: 0000-0001-5433-6667
+    Name Variants: 5
+
+    Current Affiliation: Universidade de Aveiro
+        Scopus ID: 60024825
+        Affiliation History: 4
+
+    Document Count: 78
+    Citation Count: 554
+    Cited-By Count: 396
+
+    Areas: 36 [ Industrial and Manufacturing Engineering , Radiological and Ultrasound Technology , Computer Networks and Communications , ... ]
+
+doc_srch has 78 results.
+
+Document: Creating a Project track in a 5-year integrated Engineering Curricullum 
+    Scopus ID: SCOPUS_ID:85124808238
+    DOI (Document Object Identifier): 10.1109/WEEF/GEDC53299.2021.9657160
+    EID (Electronic ID): 2-s2.0-85124808238
+    Date: 2021-01-01
+    Type: Conference Paper
+
+    Areas: 3 ['Computer Science Applications', 'Engineering (miscellaneous)', 'Education']
+    Keywords: 10 ['Active Learning', 'Curricula design', 'Exposed to', 'Integrated engineering', 'Project based learning', 'Project-based', 'Review process', 'Soft skills', 'Study plans', 'Transferrable skill']
+
+
+
+BIO
+
+PEER REVIEWS
+
+11
+
+COURSES TAUGHT
+
+
+
+ACTUATION DOMAINS
+
+Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics
+
+PROJECTS
+
+
+
+LANGUAGES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

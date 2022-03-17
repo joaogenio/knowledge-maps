@@ -50,6 +50,7 @@ class Author:						# EXAMPLES // DESCRIPTION
 
 		# TO DO'S
 
+		# BIO
 		# PEER REVIEWS
 		# COURSES TAUGHT
 		# ACTUATION DOMAINS
@@ -61,20 +62,32 @@ class Author:						# EXAMPLES // DESCRIPTION
 		
 		
 		):
-		pass
+		self.name = name
+		self.scopus_id = scopus_id
+		self.orcid_id = orcid_id
+		self.name_list = name_list
+		self.current_affiliation_list = current_affiliation_list
+		self.affiliation_history_list = affiliation_history_list
+		self.document_list = document_list
+		self.citation_count = citation_count
+		self.cited_by_count = cited_by_count
+		self.area_freq = area_freq
 
 class Affiliation:					# EXAMPLES // DESCRIPTION
 	def __init__(self,
 		name,						# Universidade de Aveiro
 		scopus_id):					# 60024825
-		pass
+		self.name = name
+		self.scopus_id = scopus_id
 
 class Area:							# EXAMPLES // DESCRIPTION
 	def __init__(self,
 		name,						# Software
 		abbreviation,				# COMP // Can be the same for many areas
 		code):						# 1712
-		pass
+		self.name = name
+		self.abbreviation = abbreviation
+		self.code = code
 
 class Document:						# EXAMPLES // DESCRIPTION
 	def __init__(self,
@@ -84,12 +97,20 @@ class Document:						# EXAMPLES // DESCRIPTION
 		doi,						# 10.1109/WEEF/GEDC53299.2021.9657160
 		eid,						# 2-s2.0-85124808238
 		date,						# 2021-01-01
-		type,						# Conference Paper
+		d_type,						# Conference Paper
 		area_list,					# [Area(), ...]
 		keyword_list,				# ['Active Learning', 'Soft skills', ...]
 		full_text					# // Full document text
 		):
-		pass
+		self.name = name
+		self.scopus_id = scopus_id
+		self.doi = doi
+		self.eid = eid
+		self.date = date
+		self.d_type = d_type
+		self.area_list = area_list
+		self.keyword_list = keyword_list
+		self.full_text = full_text
 
 ################################################################################
 
@@ -113,7 +134,7 @@ client.inst_token = config['insttoken']
 
 
 
-ids = ['43461712600', '57188881218', '57203431176', '57199578161', '49361962700', '54987996200']
+ids = ['43461712600']#, '57188881218', '57203431176', '57199578161', '49361962700', '54987996200']
 
 for author_id in ids:
 
@@ -130,9 +151,19 @@ for author_id in ids:
 
 		### AUTHOR ###
 
+		author_name = my_auth.full_name
+		author_scopus_id = 		my_auth._data['coredata']['dc:identifier'].split(':')[1]
+		author_orcid_id = my_auth._data['coredata']['orcid']
+
+		author_name_list = []
+		if 'name-variant' in my_auth._data['author-profile']:
+			for variant in my_auth._data['author-profile']:
+				author_name_list.append(variant)
+		
+
+
 		print("\n-----------------------------------------------")
 		print(bcolors.OKGREEN + "\nAuthor:" , 		my_auth.full_name, bcolors.ENDC)
-		author_scopus_id = 		my_auth._data['coredata']['dc:identifier'].split(':')[1]
 		print("    Scopus ID:", author_scopus_id  )
 		print("    ORCID ID:",  my_auth._data['coredata']['orcid']  )
 		if 'name-variant' in my_auth._data['author-profile']:
@@ -140,7 +171,9 @@ for author_id in ids:
 
 
 
-		### AFFILIATION ###
+		### AFFILIATION ### ### STRUCTURE ###
+
+		author_current_affiliation_list = []
 
 		affiliation = my_auth._data['author-profile']['affiliation-current']['affiliation']
 		if isinstance(affiliation, list):
