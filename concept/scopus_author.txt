@@ -1,0 +1,256 @@
+-- SCOPUS -- AUTHOR RETRIEVAL EXAMPLE
+
+{'author_areas': [{'area_abbreviation': 'ENGI',
+                   'area_code': '2209',
+                   'area_name': 'Industrial and Manufacturing Engineering'},
+                  {'area_abbreviation': 'HEAL',
+                   'area_code': '3614',
+                   'area_name': 'Radiological and Ultrasound Technology'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1705',
+                   'area_name': 'Computer Networks and Communications'},
+                  {'area_abbreviation': 'MATE',
+                   'area_code': '2504',
+                   'area_name': 'Electronic, Optical and Magnetic Materials'},
+                  {'area_abbreviation': 'CENG',
+                   'area_code': '1507',
+                   'area_name': 'Fluid Flow and Transfer Processes'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2207',
+                   'area_name': 'Control and Systems Engineering'},
+                  {'area_abbreviation': 'SOCI',
+                   'area_code': '3315',
+                   'area_name': 'Communication'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2200',
+                   'area_name': 'Engineering (all)'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1703',
+                   'area_name': 'Computational Theory and Mathematics'},
+                  {'area_abbreviation': 'BIOC',
+                   'area_code': '1300',
+                   'area_name': 'Biochemistry, Genetics and Molecular Biology '
+                                '(all)'},
+                  {'area_abbreviation': 'PHYS',
+                   'area_code': '3105',
+                   'area_name': 'Instrumentation'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1711',
+                   'area_name': 'Signal Processing'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2204',
+                   'area_name': 'Biomedical Engineering'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1706',
+                   'area_name': 'Computer Science Applications'},
+                  {'area_abbreviation': 'SOCI',
+                   'area_code': '3313',
+                   'area_name': 'Transportation'},
+                  {'area_abbreviation': 'MATH',
+                   'area_code': '2600',
+                   'area_name': 'Mathematics (all)'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1708',
+                   'area_name': 'Hardware and Architecture'},
+                  {'area_abbreviation': 'AGRI',
+                   'area_code': '1100',
+                   'area_name': 'Agricultural and Biological Sciences (all)'},
+                  {'area_abbreviation': 'MATE',
+                   'area_code': '2500',
+                   'area_name': 'Materials Science (all)'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2203',
+                   'area_name': 'Automotive Engineering'},
+                  {'area_abbreviation': 'MATH',
+                   'area_code': '2604',
+                   'area_name': 'Applied Mathematics'},
+                  {'area_abbreviation': 'CENG',
+                   'area_code': '1508',
+                   'area_name': 'Process Chemistry and Technology'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2201',
+                   'area_name': 'Engineering (miscellaneous)'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1700',
+                   'area_name': 'Computer Science (all)'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1704',
+                   'area_name': 'Computer Graphics and Computer-Aided Design'},
+                  {'area_abbreviation': 'SOCI',
+                   'area_code': '3304',
+                   'area_name': 'Education'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1707',
+                   'area_name': 'Computer Vision and Pattern Recognition'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2208',
+                   'area_name': 'Electrical and Electronic Engineering'},
+                  {'area_abbreviation': 'ENGI',
+                   'area_code': '2210',
+                   'area_name': 'Mechanical Engineering'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1709',
+                   'area_name': 'Human-Computer Interaction'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1702',
+                   'area_name': 'Artificial Intelligence'},
+                  {'area_abbreviation': 'MEDI',
+                   'area_code': '2700',
+                   'area_name': 'Medicine (all)'},
+                  {'area_abbreviation': 'COMP',
+                   'area_code': '1712',
+                   'area_name': 'Software'},
+                  {'area_abbreviation': 'PHYS',
+                   'area_code': '3104',
+                   'area_name': 'Condensed Matter Physics'},
+                  {'area_abbreviation': 'MATH',
+                   'area_code': '2614',
+                   'area_name': 'Theoretical Computer Science'},
+                  {'area_abbreviation': 'PHYS',
+                   'area_code': '3102',
+                   'area_name': 'Acoustics and Ultrasonics'}],
+ 'author_citation_count': '557',
+ 'author_cited_by_count': '399',
+ 'author_current_affiliation_list': [{'affiliation_id': '60024825',
+                                      'affiliation_name': 'Universidade de '
+                                                          'Aveiro',
+                                      'affiliation_parent': None}],
+ 'author_document_count': '78',
+ 'author_name': 'António J.R. Neves',
+ 'author_name_list': ['António Neves',
+                      'Antonio J.R. Neves',
+                      'A. J.R. Neves',
+                      'Antóio J.R. Neves',
+                      'António J.R. Neves'],
+ 'author_orcid_id': '0000-0001-5433-6667',
+ 'author_previous_affiliation_list': [{'affiliation_id': '123330145',
+                                       'affiliation_name': 'Universidade de '
+                                                           'Aveiro, Department '
+                                                           'of Eletronics',
+                                       'affiliation_parent': '60024825'},
+                                      {'affiliation_id': '60079336',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro',
+                                       'affiliation_parent': None},
+                                      {'affiliation_id': '113005820',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Department '
+                                                           'of Electronics',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '121701328',
+                                       'affiliation_name': 'FollowInspiration, '
+                                                           'S.A.',
+                                       'affiliation_parent': None},
+                                      {'affiliation_id': '60024825',
+                                       'affiliation_name': 'Universidade de '
+                                                           'Aveiro',
+                                       'affiliation_parent': None},
+                                      {'affiliation_id': '106595303',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Department '
+                                                           'of Electronics, '
+                                                           'Telecommunications '
+                                                           'and Informatics',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '117782570',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, IRIS '
+                                                           'Laboratory',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '106511971',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Signal '
+                                                           'Processing Lab',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '104251958',
+                                       'affiliation_name': 'Universidade de '
+                                                           'Aveiro, Department '
+                                                           'of Electronics, '
+                                                           'Telecomunications '
+                                                           'and Informatics',
+                                       'affiliation_parent': '60024825'},
+                                      {'affiliation_id': '114578832',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, IRIS Group',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '115925939',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, '
+                                                           'Intelligent '
+                                                           'Robotics and '
+                                                           'Intelligent '
+                                                           'Systems Lab',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '104251888',
+                                       'affiliation_name': 'Universidade de '
+                                                           'Aveiro, Department '
+                                                           'of Economics',
+                                       'affiliation_parent': '60024825'},
+                                      {'affiliation_id': '106907631',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Dep. '
+                                                           'Electrónica '
+                                                           'Telecom and '
+                                                           'Informática',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '104251935',
+                                       'affiliation_name': 'Universidade de '
+                                                           'Aveiro, Signal '
+                                                           'Processing '
+                                                           'Laboratory',
+                                       'affiliation_parent': '60024825'},
+                                      {'affiliation_id': '60000251',
+                                       'affiliation_name': 'IEEE',
+                                       'affiliation_parent': None},
+                                      {'affiliation_id': '106511972',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Dept. de '
+                                                           'Electrónica e '
+                                                           'Telecomunicações',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '113982971',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Dept. de '
+                                                           'Electrónica e '
+                                                           'Telecomunicaç Ões',
+                                       'affiliation_parent': '60079336'},
+                                      {'affiliation_id': '106542866',
+                                       'affiliation_name': 'Instituto de '
+                                                           'Engenharia '
+                                                           'Electrónica e '
+                                                           'Telemática de '
+                                                           'Aveiro, Department '
+                                                           'of Electronics',
+                                       'affiliation_parent': '60079336'}],
+ 'author_scopus_id': '43461712600'}
+

@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Knowledge App - Index</title>{% endblock %}
+
+{% block content %}
+
+<h1>Add Author</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ authorform }}
+    <input name="add-author" type="submit" value="Submit">
+</form>
+
+<h1>All Authors</h1>
+    
+{% for author in authors %}
+
+<table>
+    <tr>
+        <td>
+            <form method="post">
+                {% csrf_token %}
+                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                <input name="sync-scopus-author" type="submit" value="Sync Scopus Author Data">
+            </form>
+        </td>
+        <td>
+            <form method="post">
+                {% csrf_token %}
+                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                <input name="sync-scopus-docs" type="submit" value="Sync Scopus Documents">
+            </form>
+        </td>
+        <td>
+            <form method="post">
+                {% csrf_token %}
+                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                <input name="sync-ciencia" type="submit" value="Sync Ciência">
+            </form>
+        </td>
+        <td>
+            <form method="post">
+                {% csrf_token %}
+                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                <input name="delete_author" type="submit" value="Delete Author">
+            </form>
+        </td>
+    </tr>
+</table>
+
+<table class="author">
+
+    <tr><td class="bold">Scopus ID</td><td>{{author.scopus_id}}</td></tr>
+    <tr><td class="bold">Ciência ID</td><td>{{author.ciencia_id}}</td></tr>
+    <tr><td class="bold">ORCID ID</td><td>{{author.orcid_id}}</td></tr>
+
+    <tr><td class="scopus bold">Name</td><td class="scopus">{{author.name}}</td></tr>
+    <tr><td class="scopus bold">Name List</td><td class="scopus">{{author.load_name_list}}</td></tr>
+    <tr><td class="scopus bold">Citation Count</td><td class="scopus">{{author.citation_count}}</td></tr>
+    <tr><td class="scopus bold">Cited-by Count</td><td class="scopus">{{author.cited_by_count}}</td></tr>
+    <tr><td class="scopus bold">Current Affiliations</td><td class="scopus">{% for affiliation in author.current_affiliations.all %}{{affiliation.name}}<br>{% endfor %}</td></tr>
+    <tr><td class="scopus bold">Previous Affiliations</td><td class="scopus"><details><summary></summary><p>{% for affiliation in author.previous_affiliations.all %}{{affiliation.name}}<br>{% endfor %}</p></details></td></tr>
+    
+    <tr><td class="ciencia bold">Bio</td><td class="ciencia"><details><summary></summary><p>{{author.bio}}</p></details></td></tr>
+    <tr><td class="ciencia bold">Degrees</td><td class="ciencia"><details><summary></summary><p>{{author.load_degrees}}</p></details></td></tr>
+    <tr><td class="ciencia bold">Distinctions</td><td class="ciencia"><details><summary></summary><p>{{author.load_distinctions}}</p></details></td></tr>
+    <tr><td class="ciencia bold">Projects</td><td class="ciencia"><details><summary>{{author.projects.all|length}} Projects</summary><p>{{author.projects.all|length}}</p></details></td></tr>
+    
+    <tr><td class="bold">Domains</td><td><details><summary></summary><p>{% for area in author.domains.all %}{{area.name}}<br>{% endfor %}</p></details></td></tr>
+    <tr><td class="bold">Publications</td>
+        <td><details><summary>{{author.publications.all|length}} Publications</summary><p>
+            <table class="noborder">
+                {% for publication in author.publications.all %}
+                    <tr>
+                        {% if publication.abstract != None %}
+                            <td class="orange">Abstract</td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
+                        {% if publication.available %}
+                            <td class="red">Full&nbsptext</td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
+                        <td>{{publication.date}}</td>
+                        <td class="bold">{{publication.title}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </p></details></td>
+    </tr>
+    
+</table>
+<br>
+{% endfor %}
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}

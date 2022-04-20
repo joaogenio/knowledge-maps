@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Knowledge App - Login</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link href="/static/img/icons8-innovation-48.png" rel="icon">
+</head>
+
+<body>
+
+    <p>Login page</p>
+
+    <form id="login-form" method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        <label for="id_username">Username</label>
+        <input id="id_username" name="username" type="text">
+        <label for="id_password">Password</label>
+        <input id="id_password" name="password" type="password">
+        {% if auth_fail %}
+            <p class="label label-danger">
+                Your username and password didn't match. 
+                Please try again.
+            </p>
+        {% endif %}
+
+        <input type="submit" value="Login"/>
+        <input type="hidden" name="next" value="{{ next }}"/>
+    </form>
+
+</body>
+
+</html>

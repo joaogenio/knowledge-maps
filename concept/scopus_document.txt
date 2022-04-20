@@ -1,0 +1,51 @@
+-- SCOPUS -- DOCUMENT RETRIEVAL EXAMPLE
+
+[{'available': False,
+  'clean_text': '',
+  'doc_abstract': "© 2021 IEEE.In 2017, the authors' Department decided to "
+                  'promote a major change in its Electronics and '
+                  'Telecommunications degree. This is a 5-year degree, that '
+                  'corresponds to a 1st and 2nd cycle degrees in the Bologna '
+                  'qualification framework. One of the touchstones in the '
+                  'review process was the introduction of a project-related '
+                  'track across all 5 years of the degree. In this way, '
+                  'students would be permanently exposed to project-based unit '
+                  'courses throughout their degree. We describe the approach '
+                  'followed in this reorganization. The project-based track is '
+                  'progressive and tries to focus on different aspects of what '
+                  'is required for developing a project, from the first year, '
+                  'when students are exposed to two small projects (one per '
+                  'semester) to the fifth year, where the study plan includes '
+                  'the Dissertation, Project or Internship, corresponding to '
+                  "the traditional approach in master's degrees. This course "
+                  'structure has been welcomed by both the students and the '
+                  'companies employing the degree graduates. There is not yet '
+                  'an evidence-based assessment of the full study plan, but '
+                  'some results exist for the individual course units. The '
+                  "informal feedback collected, both from students' "
+                  'representatives and from companies, are of general approval '
+                  'of the changes that have been introduced.',
+  'doc_areas': [{'area_abbreviation': 'COMP',
+                 'area_code': '1706',
+                 'area_name': 'Computer Science Applications'},
+                {'area_abbreviation': 'ENGI',
+                 'area_code': '2201',
+                 'area_name': 'Engineering (miscellaneous)'},
+                {'area_abbreviation': 'SOCI',
+                 'area_code': '3304',
+                 'area_name': 'Education'}],
+  'doc_date': '2021-01-01',
+  'doc_doi': '10.1109/WEEF/GEDC53299.2021.9657160',
+  'doc_eid': '2-s2.0-85124808238',
+  'doc_keywords': ['Active Learning',
+                   'Curricula design',
+                   'Exposed to',
+                   'Review process',
+                   'Soft skills',
+                   'Study plans',
+                   'Transferrable skill'],
+  'doc_scopus_id': '85124808238',
+  'doc_title': 'Creating a Project track in a 5-year integrated Engineering '
+               'Curricullum',
+  'doc_type': 'Conference Paper'}]
+

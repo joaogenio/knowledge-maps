@@ -1,0 +1,27 @@
+table.author td {
+    border: 1px solid;
+}
+
+table.noborder td {
+    border: 10px solid transparent;
+}
+
+td.scopus {
+    background-color: rgba(255, 0, 0, 0.300);
+}
+
+td.ciencia {
+    background-color: rgba(0, 255, 0, 0.300);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}

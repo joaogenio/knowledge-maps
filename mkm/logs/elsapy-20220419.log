@@ -1,0 +1,1163 @@
+2022-04-19 00:46:32,383 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 00:46:33,480 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 00:46:33,481 - elsapy.utils - INFO - Module loaded.
+2022-04-19 00:46:33,481 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 00:46:33,482 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 00:46:33,483 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 00:47:23,405 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 00:47:23,730 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 00:47:23,730 - elsapy.utils - INFO - Module loaded.
+2022-04-19 00:47:23,731 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 00:47:23,731 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 00:47:23,732 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 00:47:24,507 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:47:25,890 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:47:25,893 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 00:47:36,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:47:36,781 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:47:36,784 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 00:48:15,749 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 00:48:16,074 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 00:48:16,075 - elsapy.utils - INFO - Module loaded.
+2022-04-19 00:48:16,075 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 00:48:16,076 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 00:48:16,077 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 00:48:17,005 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:48:17,736 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:48:17,739 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 00:48:42,227 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 00:48:42,547 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 00:48:42,548 - elsapy.utils - INFO - Module loaded.
+2022-04-19 00:48:42,548 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 00:48:42,549 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 00:48:42,549 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 00:57:53,028 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:57:53,907 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 00:57:53,910 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:10:44,590 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:10:44,910 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:10:44,911 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:10:44,911 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:10:44,912 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:10:44,912 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:10:50,085 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:10:50,420 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:10:50,421 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:10:50,421 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:10:50,422 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:10:50,422 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:11:34,869 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:11:35,148 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:11:35,148 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:11:35,148 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:11:35,149 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:11:35,150 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:13:03,362 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:13:03,647 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:13:03,648 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:13:03,648 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:13:03,649 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:13:03,649 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:13:23,266 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:13:23,548 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:13:23,549 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:13:23,549 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:13:23,550 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:13:23,551 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:14:02,824 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:14:03,102 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:14:03,103 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:14:03,103 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:14:03,104 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:14:03,105 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:14:19,610 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:14:19,890 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:14:19,891 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:14:19,891 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:14:19,892 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:14:19,892 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:14:29,111 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:14:29,388 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:14:29,389 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:14:29,389 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:14:29,390 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:14:29,391 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:14:38,653 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:14:38,932 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:14:38,933 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:14:38,933 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:14:38,934 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:14:38,935 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:14:45,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:14:46,872 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:14:46,875 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:19:36,876 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:19:37,157 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:19:37,158 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:19:37,158 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:19:37,159 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:19:37,160 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:19:52,245 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:19:52,538 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:19:52,539 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:19:52,539 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:19:52,540 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:19:52,540 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:20:26,943 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:20:27,236 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:20:27,237 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:20:27,237 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:20:27,238 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:20:27,239 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:20:36,490 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:20:36,775 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:20:36,775 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:20:36,776 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:20:36,776 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:20:36,777 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:20:48,104 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:20:48,385 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:20:48,386 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:20:48,386 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:20:48,387 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:20:48,388 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:20:55,623 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:20:55,921 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:20:55,922 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:20:55,922 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:20:55,923 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:20:55,923 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:01,082 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:21:01,368 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:21:01,369 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:21:01,369 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:21:01,370 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:21:01,370 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:11,680 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:21:11,976 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:21:11,977 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:21:11,977 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:21:11,978 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:21:11,978 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:19,256 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:21:19,579 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:21:19,580 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:21:19,580 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:21:19,581 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:21:19,582 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:22,804 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:23,691 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:23,694 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:21:33,481 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:21:33,793 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:21:33,794 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:21:33,794 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:21:33,795 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:21:33,796 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:34,486 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:34,899 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:34,901 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:21:56,568 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:21:56,893 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:21:56,893 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:21:56,894 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:21:56,895 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:21:56,895 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:21:59,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:59,497 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:21:59,500 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:22:11,804 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:22:12,087 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:22:12,088 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:22:12,088 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:22:12,089 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:22:12,089 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:22:20,151 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:22:20,595 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:22:20,598 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:22:37,374 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:22:37,675 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:22:37,675 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:22:37,676 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:22:37,676 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:22:37,677 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:22:55,206 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:22:55,489 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:22:55,489 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:22:55,489 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:22:55,490 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:22:55,491 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:23:05,829 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:23:06,147 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:23:06,147 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:23:06,148 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:23:06,149 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:23:06,149 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:23:38,515 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:23:38,827 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:23:38,828 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:23:38,828 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:23:38,829 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:23:38,830 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:24:28,588 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:24:28,881 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:24:28,882 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:24:28,882 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:24:28,882 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:24:28,883 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:25:43,709 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:25:44,012 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:25:44,012 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:25:44,013 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:25:44,013 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:25:44,014 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:25:55,570 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:25:56,434 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:25:56,437 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:38:20,967 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:38:21,867 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:38:21,869 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:40:41,485 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:40:41,765 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:40:41,766 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:40:41,766 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:40:41,767 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:40:41,768 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:43:04,387 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:43:04,664 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:43:04,665 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:43:04,665 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:43:04,666 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:43:04,666 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:43:48,053 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:43:48,334 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:43:48,335 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:43:48,335 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:43:48,336 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:43:48,336 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:44:04,823 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:44:05,102 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:44:05,103 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:44:05,103 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:44:05,104 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:44:05,104 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:44:27,780 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:44:28,068 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:44:28,069 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:44:28,069 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:44:28,070 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:44:28,071 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:44:45,634 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:44:45,921 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:44:45,922 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:44:45,922 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:44:45,923 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:44:45,923 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:44:50,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:44:51,443 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:44:51,446 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:45:33,860 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:45:34,156 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:45:34,157 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:45:34,157 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:45:34,158 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:45:34,159 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:45:49,895 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:45:50,187 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:45:50,188 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:45:50,188 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:45:50,189 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:45:50,190 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:47:17,421 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:47:17,707 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:47:17,707 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:47:17,708 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:47:17,708 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:47:17,709 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:47:21,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:47:22,415 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 01:47:22,418 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 01:50:26,426 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:50:26,714 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:50:26,715 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:50:26,715 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:50:26,716 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:50:26,717 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:52:43,472 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:52:43,777 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:52:43,778 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:52:43,778 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:52:43,779 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:52:43,780 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:55:05,464 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:55:05,742 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:55:05,743 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:55:05,743 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:55:05,743 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:55:05,744 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:57:46,889 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:57:47,171 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:57:47,172 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:57:47,172 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:57:47,173 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:57:47,174 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:57:52,301 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:57:52,588 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:57:52,589 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:57:52,589 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:57:52,590 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:57:52,590 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:57:57,719 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:57:57,998 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:57:57,999 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:57:57,999 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:57:58,000 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:57:58,000 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:58:27,906 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:58:28,197 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:58:28,198 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:58:28,198 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:58:28,199 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:58:28,200 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:58:31,222 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:58:31,501 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:58:31,502 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:58:31,502 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:58:31,503 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:58:31,504 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:58:56,233 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:58:56,540 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:58:56,541 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:58:56,541 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:58:56,542 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:58:56,542 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:59:00,629 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:59:00,902 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:59:00,902 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:59:00,902 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:59:00,903 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:59:00,904 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:59:32,294 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:59:32,574 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:59:32,574 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:59:32,574 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:59:32,575 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:59:32,576 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:59:38,719 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:59:38,996 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:59:38,997 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:59:38,997 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:59:38,998 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:59:38,999 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:59:46,162 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:59:46,443 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:59:46,444 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:59:46,444 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:59:46,444 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:59:46,445 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 01:59:57,769 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 01:59:58,046 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 01:59:58,047 - elsapy.utils - INFO - Module loaded.
+2022-04-19 01:59:58,047 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 01:59:58,048 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 01:59:58,049 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:00:02,141 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:00:02,426 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:00:02,427 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:00:02,427 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:00:02,428 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:00:02,429 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:00:08,574 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:00:08,851 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:00:08,852 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:00:08,852 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:00:08,853 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:00:08,854 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:00:23,254 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:00:23,534 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:00:23,535 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:00:23,535 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:00:23,536 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:00:23,537 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:00:41,065 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:00:41,339 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:00:41,340 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:00:41,340 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:00:41,341 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:00:41,342 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:01:24,692 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:01:24,975 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:01:24,976 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:01:24,976 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:01:24,977 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:01:24,978 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:01:39,456 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:01:39,752 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:01:39,753 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:01:39,753 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:01:39,754 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:01:39,754 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:01:43,866 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:01:44,148 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:01:44,149 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:01:44,149 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:01:44,150 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:01:44,150 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:01:48,198 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:01:48,474 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:01:48,475 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:01:48,475 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:01:48,476 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:01:48,477 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:02:04,980 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:02:05,262 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:02:05,263 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:02:05,263 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:02:05,264 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:02:05,264 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:02:29,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:02:29,906 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:02:29,909 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:03:10,734 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:03:11,014 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:03:11,015 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:03:11,015 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:03:11,016 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:03:11,016 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:03:26,469 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:03:26,744 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:03:26,745 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:03:26,745 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:03:26,745 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:03:26,746 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:03:30,454 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:03:31,263 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:03:31,266 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:03:54,175 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:03:54,459 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:03:54,460 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:03:54,460 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:03:54,461 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:03:54,461 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:04:04,708 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:04:04,991 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:04:04,991 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:04:04,992 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:04:04,993 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:04:04,993 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:04:17,391 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:04:17,698 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:04:17,698 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:04:17,699 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:04:17,699 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:04:17,700 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:04:20,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:20,547 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:20,550 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:04:23,502 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:23,868 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:23,870 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:04:27,783 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:28,614 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:04:28,616 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:05:43,789 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:05:44,103 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:05:44,104 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:05:44,104 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:05:44,105 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:05:44,106 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:06:22,898 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:06:23,195 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:06:23,195 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:06:23,195 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:06:23,196 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:06:23,197 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:06:26,925 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:06:27,732 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 02:06:27,734 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 02:08:46,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6602800488
+2022-04-19 02:08:47,222 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/6602800488
+2022-04-19 02:08:47,225 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/6602800488 to file
+2022-04-19 02:10:50,630 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:10:50,928 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:10:50,929 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:10:50,929 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:10:50,930 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:10:50,931 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:16:54,021 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:16:54,310 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:16:54,311 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:16:54,311 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:16:54,312 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:16:54,312 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:17:57,358 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:17:57,641 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:17:57,641 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:17:57,642 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:17:57,642 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:17:57,643 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:18:00,710 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:18:00,990 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:18:00,990 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:18:00,991 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:18:00,992 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:18:00,992 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:24:12,848 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:24:13,139 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:24:13,140 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:24:13,140 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:24:13,141 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:24:13,142 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 02:25:36,902 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 02:25:37,180 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 02:25:37,180 - elsapy.utils - INFO - Module loaded.
+2022-04-19 02:25:37,181 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 02:25:37,181 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 02:25:37,182 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:13:44,652 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:13:45,769 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:13:45,770 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:13:45,770 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:13:45,771 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:13:45,772 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:14:37,434 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:14:37,716 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:14:37,717 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:14:37,717 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:14:37,718 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:14:37,718 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:15:33,461 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:15:33,737 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:15:33,737 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:15:33,738 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:15:33,738 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:15:33,739 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:18:43,097 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:18:43,387 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:18:43,387 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:18:43,387 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:18:43,388 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:18:43,389 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:21:58,388 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:21:58,667 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:21:58,667 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:21:58,667 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:21:58,668 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:21:58,669 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:23:52,234 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:23:52,509 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:23:52,509 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:23:52,510 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:23:52,510 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:23:52,511 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:24:11,869 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:24:12,149 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:24:12,149 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:24:12,150 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:24:12,150 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:24:12,151 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:24:34,969 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:24:35,243 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:24:35,243 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:24:35,243 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:24:35,244 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:24:35,245 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 03:26:00,443 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 03:26:00,720 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 03:26:00,721 - elsapy.utils - INFO - Module loaded.
+2022-04-19 03:26:00,721 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 03:26:00,722 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 03:26:00,723 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 20:58:09,104 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 20:58:10,595 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 20:58:10,596 - elsapy.utils - INFO - Module loaded.
+2022-04-19 20:58:10,596 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 20:58:10,597 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 20:58:10,599 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:05:23,638 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:05:23,922 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:05:23,923 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:05:23,923 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:05:23,923 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:05:23,924 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:06:11,431 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:06:11,717 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:06:11,718 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:06:11,718 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:06:11,719 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:06:11,720 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:06:27,193 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:06:27,483 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:06:27,483 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:06:27,484 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:06:27,484 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:06:27,485 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:06:30,523 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:06:30,838 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:06:30,838 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:06:30,839 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:06:30,839 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:06:30,840 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:06:38,037 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:06:38,342 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:06:38,343 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:06:38,343 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:06:38,344 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:06:38,345 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 21:07:08,273 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 21:07:08,564 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 21:07:08,565 - elsapy.utils - INFO - Module loaded.
+2022-04-19 21:07:08,565 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 21:07:08,565 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 21:07:08,566 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:45:37,038 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:45:38,215 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:45:38,216 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:45:38,216 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:45:38,217 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:45:38,217 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:45:47,484 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:45:47,769 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:45:47,769 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:45:47,769 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:45:47,770 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:45:47,771 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:49:05,502 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:49:05,804 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:49:05,805 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:49:05,805 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:49:05,806 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:49:05,807 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:49:40,993 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:49:41,277 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:49:41,278 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:49:41,278 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:49:41,279 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:49:41,279 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:49:49,556 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:49:49,847 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:49:49,848 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:49:49,848 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:49:49,849 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:49:49,850 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:50:20,867 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:50:21,149 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:50:21,149 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:50:21,149 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:50:21,150 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:50:21,151 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:50:34,545 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:50:34,833 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:50:34,833 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:50:34,834 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:50:34,834 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:50:34,835 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:50:38,921 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:50:39,203 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:50:39,203 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:50:39,204 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:50:39,204 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:50:39,205 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:50:42,271 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:50:42,558 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:50:42,558 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:50:42,559 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:50:42,559 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:50:42,560 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:52:25,996 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:52:26,282 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:52:26,283 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:52:26,283 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:52:26,283 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:52:26,284 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:52:37,705 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:52:37,989 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:52:37,989 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:52:37,990 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:52:37,990 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:52:37,991 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:53:14,573 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:53:14,879 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:53:14,880 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:53:14,880 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:53:14,881 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:53:14,882 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 22:58:57,898 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 22:58:58,200 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 22:58:58,201 - elsapy.utils - INFO - Module loaded.
+2022-04-19 22:58:58,201 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 22:58:58,202 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 22:58:58,203 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:22:04,325 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:22:04,627 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:22:04,628 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:22:04,628 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:22:04,629 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:22:04,629 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:22:07,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:22:08,346 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:22:39,272 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:22:39,563 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:22:39,564 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:22:39,564 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:22:39,565 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:22:39,566 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:22:45,972 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:22:46,583 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:22:47,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:22:49,676 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:22:51,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:22:54,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:22:55,244 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:22:56,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:22:56,744 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:22:56,749 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:22:57,755 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:22:58,178 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:23:28,707 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:23:29,002 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:23:29,003 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:23:29,003 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:23:29,004 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:23:29,005 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:24:38,440 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:24:38,719 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:24:38,720 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:24:38,721 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:24:38,721 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:24:38,722 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:25:11,846 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:25:12,127 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:25:12,128 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:25:12,128 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:25:12,129 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:25:12,129 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:26:19,492 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:26:19,806 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:26:19,807 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:26:19,807 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:26:19,807 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:26:19,808 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:26:59,158 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:26:59,436 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:26:59,437 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:26:59,437 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:26:59,438 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:26:59,439 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:27:05,677 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:27:05,959 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:27:05,959 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:27:05,960 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:27:05,961 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:27:05,961 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:27:13,194 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:27:13,473 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:27:13,474 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:27:13,474 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:27:13,475 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:27:13,475 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:28:19,816 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:28:20,099 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:28:20,099 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:28:20,100 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:28:20,100 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:28:20,101 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:28:37,695 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:28:37,976 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:28:37,977 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:28:37,977 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:28:37,978 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:28:37,978 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:28:43,155 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:28:43,433 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:28:43,433 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:28:43,434 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:28:43,435 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:28:43,435 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:29:24,885 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:29:25,184 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:29:25,185 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:29:25,185 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:29:25,186 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:29:25,186 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:29:54,155 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:29:54,440 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:29:54,440 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:29:54,440 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:29:54,441 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:29:54,442 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:31:06,940 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:31:07,223 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:31:07,224 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:31:07,224 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:31:07,225 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:31:07,226 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:31:28,939 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:31:29,218 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:31:29,218 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:31:29,219 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:31:29,219 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:31:29,220 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:31:57,171 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:31:57,460 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:31:57,461 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:31:57,461 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:31:57,462 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:31:57,463 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:32:25,467 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:32:25,771 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:32:25,771 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:32:25,772 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:32:25,772 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:32:25,773 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:32:37,123 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:32:37,401 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:32:37,402 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:32:37,403 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:32:37,403 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:32:37,404 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:32:57,131 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:32:57,443 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:32:57,444 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:32:57,444 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:32:57,445 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:32:57,445 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:33:47,684 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:33:47,970 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:33:47,971 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:33:47,971 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:33:47,972 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:33:47,972 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:34:05,575 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:34:05,872 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:34:05,873 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:34:05,874 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:34:05,875 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:34:05,875 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:34:36,939 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:34:37,220 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:34:37,221 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:34:37,221 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:34:37,222 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:34:37,222 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:36:00,051 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:36:00,339 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:36:00,340 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:36:00,340 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:36:00,341 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:36:00,342 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:36:07,594 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:36:07,901 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:36:07,901 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:36:07,902 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:36:07,903 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:36:07,903 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:36:17,232 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:36:17,508 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:36:17,509 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:36:17,509 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:36:17,510 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:36:17,510 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:38:28,060 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:38:28,347 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:38:28,348 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:38:28,348 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:38:28,349 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:38:28,349 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:38:33,503 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:38:33,787 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:38:33,788 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:38:33,788 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:38:33,789 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:38:33,789 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:39:07,969 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:39:08,274 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:39:08,275 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:39:08,276 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:39:08,276 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:39:08,277 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:39:16,571 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:39:16,869 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:39:16,870 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:39:16,870 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:39:16,871 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:39:16,872 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:39:27,231 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:39:27,516 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:39:27,517 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:39:27,517 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:39:27,518 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:39:27,519 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:39:48,212 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:39:48,508 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:39:48,509 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:39:48,509 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:39:48,510 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:39:48,511 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:40:04,029 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:40:04,328 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:40:04,328 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:40:04,329 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:40:04,330 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:40:04,331 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:40:38,498 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:40:38,775 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:40:38,776 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:40:38,776 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:40:38,777 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:40:38,777 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:40:54,320 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:40:54,608 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:40:54,609 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:40:54,609 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:40:54,610 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:40:54,611 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:40:59,768 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:41:00,050 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:41:00,050 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:41:00,051 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:41:00,051 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:41:00,052 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:41:08,357 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:41:08,653 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:41:08,654 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:41:08,654 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:41:08,655 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:41:08,656 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:41:12,780 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:41:13,066 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:41:13,066 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:41:13,066 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:41:13,067 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:41:13,068 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:41:35,819 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:41:36,103 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:41:36,104 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:41:36,104 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:41:36,105 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:41:36,105 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:41:59,875 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:42:00,161 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:42:00,162 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:42:00,162 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:42:00,163 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:42:00,164 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:42:12,160 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:42:12,932 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:42:13,935 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:42:16,069 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:18,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:20,611 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:21,429 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:42:22,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:42:23,015 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:42:23,020 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:42:24,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:42:24,352 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:42:33,984 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:42:34,267 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:42:34,267 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:42:34,268 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:42:34,268 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:42:34,269 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:42:46,690 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:42:47,017 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:42:47,017 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:42:47,017 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:42:47,018 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:42:47,019 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:42:50,573 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:42:51,001 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:42:52,005 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:42:53,704 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:55,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:56,978 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:42:57,608 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:42:58,605 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:42:59,004 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:42:59,009 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:43:00,014 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:43:00,317 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:43:33,203 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:43:33,511 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:43:33,512 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:43:33,512 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:43:33,513 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:43:33,514 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:43:35,802 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:43:36,190 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:43:37,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:43:39,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:43:41,886 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:43:44,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:43:44,446 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:43:45,456 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:43:45,956 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:43:45,961 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:43:46,971 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:43:47,648 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:44:09,239 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:44:09,523 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:44:09,524 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:44:09,524 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:44:09,525 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:44:09,525 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:44:19,616 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:44:20,003 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:44:21,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:44:22,627 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:44:27,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:44:29,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:44:29,789 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:44:30,786 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:44:31,506 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:44:31,511 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:44:32,517 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:44:32,819 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:46:41,665 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:46:41,974 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:46:41,974 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:46:41,975 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:46:41,975 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:46:41,976 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:47:05,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:47:05,613 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:47:06,621 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:47:08,288 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:10,374 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:11,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:12,876 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:47:13,881 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:47:14,823 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:47:14,828 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:47:15,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:47:16,143 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:47:36,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:47:36,902 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:47:37,908 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:47:40,069 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:41,797 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:44,128 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:47:44,581 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:47:45,578 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:47:46,414 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:47:46,419 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:47:47,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:47:47,730 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:50:12,214 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:50:12,509 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:50:12,510 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:50:12,510 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:50:12,511 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:50:12,512 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:50:17,666 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:50:17,951 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:50:17,952 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:50:17,952 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:50:17,953 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:50:17,954 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:50:27,309 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:50:27,588 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:50:27,589 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:50:27,589 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:50:27,590 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:50:27,591 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:50:34,426 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:50:34,701 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:50:34,702 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:50:34,702 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:50:34,703 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:50:34,703 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:50:38,258 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:50:38,549 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:50:38,549 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:50:38,550 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:50:38,550 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:50:38,551 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:50:45,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:50:45,940 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:50:46,953 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:50:48,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:50:50,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:50:52,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:50:52,773 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:50:53,776 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:50:54,324 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:50:54,329 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:50:55,335 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:50:55,661 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2022-04-19 23:51:18,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:51:19,336 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:51:19,339 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/author/author_id/43461712600 to file
+2022-04-19 23:55:43,800 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:55:44,128 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:55:44,129 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:55:44,129 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:55:44,130 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:55:44,131 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:21,481 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:21,766 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:21,767 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:21,767 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:21,768 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:21,768 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:30,061 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:30,344 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:30,344 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:30,344 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:30,345 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:30,346 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:44,904 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:45,184 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:45,185 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:45,185 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:45,186 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:45,187 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:50,667 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:50,945 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:50,946 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:50,946 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:50,947 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:50,947 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:55,451 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:55,731 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:55,732 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:55,732 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:55,733 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:55,733 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:57:59,005 - elsapy.elsclient - INFO - Module loaded.
+2022-04-19 23:57:59,285 - elsapy.elsentity - INFO - Module loaded.
+2022-04-19 23:57:59,285 - elsapy.utils - INFO - Module loaded.
+2022-04-19 23:57:59,286 - elsapy.elsprofile - INFO - Module loaded.
+2022-04-19 23:57:59,286 - elsapy.elsdoc - INFO - Module loaded.
+2022-04-19 23:57:59,287 - elsapy.elssearch - INFO - Module loaded.
+2022-04-19 23:58:11,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:58:11,763 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/author/author_id/43461712600
+2022-04-19 23:58:12,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AU-ID%2843461712600%29
+2022-04-19 23:58:14,472 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:58:16,123 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:58:17,792 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AU-ID%2843461712600%29
+2022-04-19 23:58:18,317 - elsapy.utils - INFO - Converting prism:coverDate
+2022-04-19 23:58:19,323 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:58:19,783 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/85124808238
+2022-04-19 23:58:19,789 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/85124808238 to file
+2022-04-19 23:58:20,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+2022-04-19 23:58:21,251 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/WEEF/GEDC53299.2021.9657160
+and using headers {'X-ELS-APIKey': '5993bfc49e0c6e07aa0265dc6578be84', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
