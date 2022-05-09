@@ -12,10 +12,10 @@ class Area(models.Model):
     )
 
     class Meta:
-        ordering = ['name']
+        ordering = ['-code']
     
     def __str__(self):
-        return self.name
+        return f"{self.code} - {self.name}"
 
 class Affiliation(models.Model):
     scopus_id = models.IntegerField(
@@ -27,7 +27,7 @@ class Affiliation(models.Model):
         null = True
     )
     name = models.CharField(
-        max_length = 100
+        max_length = 200
     )
 
     class Meta:
@@ -37,33 +37,43 @@ class Affiliation(models.Model):
         return self.name
 
 class Author(models.Model):
+    # NULL=TRUE IN TEXT FIELDS DOESNT MAKE SENSE
+
     scopus_id = models.IntegerField(
-        null = True
+        null = True,
+        blank = True
     )
     ciencia_id = models.CharField(
         max_length = 100,
-        null = True
+        blank = True
     )
     orcid_id = models.CharField(
         max_length = 100,
-        null = True
+        blank = True
     )
 
     # SCOPUS / CIENCIA
+    name = models.CharField(
+        max_length = 100,
+        blank = True
+    )
     domains = models.ManyToManyField(
-        'Area'
+        'Area',
+        blank = True
     )
     publications = models.ManyToManyField(
-        'Publication'
+        'Publication',
+        blank = True
     )
 
     # SCOPUS
-    name = models.CharField(
-        max_length = 100,
-        null = True
-    )
     name_list = models.TextField(
-        null = True
+        default = "[]"
+    )
+
+    h_index = models.IntegerField(
+        null = True,
+        blank = True
     )
 
     citation_count = models.IntegerField(
@@ -75,51 +85,68 @@ class Author(models.Model):
 
     current_affiliations = models.ManyToManyField(
         'Affiliation',
-        related_name = 'Current'
+        related_name = 'Current',
+        blank = True
     )
     previous_affiliations = models.ManyToManyField(
         'Affiliation',
-        related_name = 'Previous'
+        related_name = 'Previous',
+        blank = True
     )
 
     # CIENCIA
     bio = models.TextField(
-        null = True
+        blank = True
     )
     degrees = models.TextField(
-        null = True
+        default = "[]"
     )
     distinctions = models.TextField(
-        null = True
+        default = "[]"
     )
     projects = models.ManyToManyField(
-        'Project'
+        'Project',
+        blank = True
+    )
+
+    # Indicates that author has been synced with Ciencia Vitae at least once
+    synced_ciencia = models.BooleanField(
+        default = False
     )
 
     class Meta:
-        ordering = ['name']
+        ordering = ['id']
+        #ordering = ['name']
 
         unique_together = [
             ['scopus_id', 'ciencia_id', 'orcid_id'],
-            ['scopus_id', 'ciencia_id'],
-            ['ciencia_id', 'orcid_id'],
-            ['scopus_id', 'orcid_id'],
+
+            # COMMENTED BECAUSE MULTIPLE AUTHORS COULD HAVE 2 FIELDS BEING NULL
+
+            # BUT STILL NEEDS TO BE ENFORCED IN A FORM / VIEW BECAUSE THIS
+            # ALLOWS FOR THE SAME ID TO EXIST IN MULTIPLE AUTHORS (BECAUSE WE
+            # NEED TO ALLOW NULL)
+
+            #['scopus_id', 'ciencia_id'],
+            #['ciencia_id', 'orcid_id'],
+            #['scopus_id', 'orcid_id'],
         ]
     
     def __str__(self):
-        return self.name
+        return self.name if self.name != "" else str(self.id)
     
     def load_name_list(self):
-        return json.loads(self.name_list) if self.name_list != None else None
+        return json.loads(self.name_list)
     
     def load_degrees(self):
-        return json.loads(self.degrees) if self.degrees != None else None
+        return json.loads(self.degrees)
     
     def load_distinctions(self):
-        return json.loads(self.distinctions) if self.distinctions != None else None
+        return json.loads(self.distinctions)
 
 class Publication(models.Model):
-    scopus_id = models.IntegerField(
+    scopus_id = models.CharField(
+        max_length = 100,
         null = True
     )
     ciencia_id = models.CharField(
@@ -137,7 +164,7 @@ class Publication(models.Model):
     )
     date = models.DateField()
     keywords = models.TextField(
-        null = True
+        default = "[]"
     )
     publication_type = models.ForeignKey(
         'PublicationType',
@@ -147,19 +174,20 @@ class Publication(models.Model):
     # SCOPUS
     available = models.BooleanField()
     clean_text = models.TextField(
-        null = True
+        blank = True
     )
     abstract = models.TextField(
-        null = True
+        blank = True
     )
     areas = models.ManyToManyField(
         'Area'
     )
 
     # CIENCIA
-    authors = models.ManyToManyField(
-        'Author'
-    )
+    # No need for this! We have the reverse relation of Author-publication!
+    #authors = models.ManyToManyField(
+    #    'Author'
+    #)
 
     class Meta:
         ordering = ['-date', 'title']
@@ -191,7 +219,7 @@ class Project(models.Model):
         max_length = 200
     )
     desc = models.TextField(
-        null = True
+        blank = True
     )
     date = models.DateField()
     areas = models.ManyToManyField(

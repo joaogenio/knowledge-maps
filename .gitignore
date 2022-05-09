@@ -1,5 +1,12 @@
+# h_index.py creates stuff (log folders, etc) in current working dir. tt_simple_api.py creates in it's own dir.
+mkm/knowledge/api_utils/config.ini
+mkm/data/
+mkm/logs/
+mkm/ENHANCED/
+
 mkm/knowledge/api_utils/config.json
 mkm/knowledge/api_utils/dump.json
 mkm/knowledge/api_utils/data/*
 mkm/knowledge/api_utils/logs/*
+
 *.pyc

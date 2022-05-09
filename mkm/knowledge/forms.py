@@ -4,6 +4,11 @@ from knowledge.models import *
 from django.utils.translation import gettext_lazy as _
 
 class AuthorForm(ModelForm):
+
+    scopus_id = forms.IntegerField(required=False)
+    ciencia_id = forms.CharField(required=False)
+    orcid_id = forms.CharField(required=False)
+
     class Meta:
         model = Author
         fields = ['scopus_id', 'ciencia_id', 'orcid_id']

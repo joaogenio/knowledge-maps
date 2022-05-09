@@ -44,6 +44,10 @@ def ciencia_author(person_id):
 		"authorization": config['authorization']
 	}
 
+	params = {
+			'lang': 'EN',
+		}
+
 	output_types = {
 		"journal-article": True,
 		"journal-issue": True,
@@ -104,8 +108,11 @@ def ciencia_author(person_id):
 
 	is_bad = False
 
-	url = "https://qa.cienciavitae.pt/api/v1.1/curriculum/"+person_id+"/identifying-info?lang=EN"
-	response = requests.get(url, headers=headers)
+	#print("fetching", person_id)
+
+	url = "https://api.cienciavitae.pt/v1.1/curriculum/"+person_id
+	response = requests.get(url, headers=headers, params=params)
+	#pprint(response.json())
 	sleep(0.51) # max 2 requests/second
 
 	#print(person_id)
@@ -115,7 +122,7 @@ def ciencia_author(person_id):
 
 	# NAME
 	try:
-		name = response.json()["person-info"]["full-name"]
+		name = response.json()["identifying-info"]["person-info"]["full-name"]
 
 		#if len(name) > 20:
 		#	print("{:17s}... | ".format(str(name)[:17]), end='')
@@ -128,7 +135,7 @@ def ciencia_author(person_id):
 
 	# BIO
 	try:
-		bio = response.json()["resume"]["value"]
+		bio = response.json()["identifying-info"]["resume"]["value"]
 
 		#print("{:10s} | ".format(str(len(bio))), end='')
 	except:
@@ -138,7 +145,7 @@ def ciencia_author(person_id):
 	
 	# DOMAINS ACTIVITY
 	try:
-		domains = response.json()["domains-activity"]["domain-activity"]
+		domains = response.json()["identifying-info"]["domains-activity"]["domain-activity"]
 		d = []
 		for domain in domains:
 			d.append({
@@ -153,39 +160,22 @@ def ciencia_author(person_id):
 		#is_bad = True
 		domains = []
 	
-	# LANGUAGES
-	#try:
-	#	langs = response.json()["language-competencies"]["language-competency"]
-
-		#print("{:9s} | ".format(str(len(langs))), end='')
-	#except:
-		#print(""+bcolors.FAIL+"{:9s}".format("0")+bcolors.ENDC+" | ", end='')
-		#is_bad = True
-	#	langs = []
-	
 	# DEGREES
 	try:
-		url = "https://qa.cienciavitae.pt/api/v1.1/curriculum/"+person_id+"/degree?lang=EN"
-		response = requests.get(url, headers=headers)
-		sleep(0.51) # max 2 requests/second
-
-		degrees = response.json()["degree"]
+		degrees = response.json()["degrees"]["degree"]
 		d1 = []
 		for degree in degrees:
 			d1.append(degree["degree-name"])
+		
 		#print("{:7s} | ".format(str(len(d1))), end='')
 	except:
 		#print(""+bcolors.FAIL+"{:7s}".format("0")+bcolors.ENDC+" | ", end='')
 		#is_bad = True
 		d1 = []
-	
+
 	# DISTINCTIONS
 	try:
-		url = "https://qa.cienciavitae.pt/api/v1.1/curriculum/"+person_id+"/distinction?lang=EN"
-		response = requests.get(url, headers=headers)
-		sleep(0.51) # max 2 requests/second
-
-		distinctions = response.json()["distinction"]
+		distinctions = response.json()["distinctions"]["distinction"]
 		d2 = []
 		for distinction in distinctions:
 			d2.append(distinction["distinction-name"])
@@ -197,19 +187,16 @@ def ciencia_author(person_id):
 	
 	# PROJECTS
 	try:
-		url = "https://qa.cienciavitae.pt/api/v1.1/curriculum/"+person_id+"/funding?lang=EN"
-		response = requests.get(url, headers=headers)
-		sleep(0.51) # max 2 requests/second
-
-		projects = response.json()["funding"]
+		projects = response.json()["fundings"]["funding"]
 		p = []
 		for project in projects:
 			areas = []
-			for area in project['research-classifications']['research-classification']:
-				areas.append({
-					'name': area['value'],
-					'code': area['code']
-				})
+			if project['research-classifications'] != None:
+				for area in project['research-classifications']['research-classification']:
+					areas.append({
+						'name': area['value'],
+						'code': area['code']
+					})
 			p.append({
 				'name': project['project-title'],
 				'desc': project['project-description'],
@@ -224,11 +211,6 @@ def ciencia_author(person_id):
 		projects = []
 	
 	# PUBLICATIONS (PAPERS, ARTICLES, ETC...)
-
-	url = "https://qa.cienciavitae.pt/api/v1.1/curriculum/"+person_id+"/output?lang=EN"
-	response = requests.get(url, headers=headers)
-	sleep(0.51) # max 2 requests/second
-
 	author_dict = {
 		'ciencia_id': person_id,
 		'name': name,
@@ -245,128 +227,129 @@ def ciencia_author(person_id):
 			
 			return author_dict
 
-	outputs = response.json()["output"]
-
 	publications = []
 
-	for output in outputs:
+	if response.json()["outputs"] != None:
 
-		o_type = output["output-type"]["value"] # debug
-		
-		title = None
-		date = None
-		keywords = []
-		ciencia_id = None
-		doi = None
-		scopus_id = None
-		authors = []
+		outputs = response.json()["outputs"]["output"]
+		for output in outputs:
 
-		for output_type in output_types:
-			if output[output_type] != None:
+			o_type = output["output-type"]["value"] # debug
+			
+			title = None
+			date = None
+			keywords = []
+			ciencia_id = None
+			doi = None
+			scopus_id = None
+			authors = []
 
-				# !!!!!! USE sub_output INSTEAD OF output !!!!!!
-				sub_output = output[output_type]
+			for output_type in output_types:
+				if output[output_type] != None:
 
-				# TITLE
-				title_types = ['title', 'article-title', 'book-title', 'report-title', 'paper-title', 'entry-title']
-				for title_type in title_types:
-					if title_type in sub_output:
-						title = sub_output[title_type]
-						break
-				
-				# DATE
+					# !!!!!! USE sub_output INSTEAD OF output !!!!!!
+					sub_output = output[output_type]
 
-				date_types = ['publication-date', 'creation-date', 'completion-date', 'date-submitted', 'presentation-date', 'date', 'release-date', 'conference-date']
-				for date_type in date_types:
-					if date_type in sub_output and sub_output[date_type] != None:
-						#pprint(sub_output)
-						y = sub_output[date_type]['year']
-						m = sub_output[date_type]['month']
-						d = sub_output[date_type]['day']
-						if y != None:
-							if m == None or d == None:
-								date = y + "-01-01"
-							else:
-								date = y + "-" + m + "-" + d
-						break
-				
-				if 'publication-year' in sub_output:
-					if sub_output['publication-year'] != None:
-						date = sub_output['publication-year'] + "-01-01"
+					# TITLE
+					title_types = ['title', 'article-title', 'book-title', 'report-title', 'paper-title', 'entry-title']
+					for title_type in title_types:
+						if title_type in sub_output:
+							title = sub_output[title_type]
+							break
+					
+					# DATE
 
-				# KEYWORDS
+					date_types = ['publication-date', 'creation-date', 'completion-date', 'date-submitted', 'presentation-date', 'date', 'release-date', 'conference-date']
+					for date_type in date_types:
+						if date_type in sub_output and sub_output[date_type] != None:
+							#pprint(sub_output)
+							y = sub_output[date_type]['year']
+							m = sub_output[date_type]['month']
+							d = sub_output[date_type]['day']
+							if y != None:
+								if m == None or d == None:
+									date = y + "-01-01"
+								else:
+									date = y + "-" + m + "-" + d
+							break
+					
+					if 'publication-year' in sub_output:
+						if sub_output['publication-year'] != None:
+							date = sub_output['publication-year'] + "-01-01"
 
-				if 'keywords' in sub_output and sub_output['keywords'] != None:
-					if 'keyword' in sub_output['keywords']:
-						for keyword in sub_output['keywords']['keyword']:
-							keywords.append(keyword)
-				
-				# ID'S
+					# KEYWORDS
 
-				for identifier in sub_output['identifiers']['identifier']:
-					id_type = identifier['identifier-type']['code']
-					id_val = identifier['identifier']
-					if id_type == 'source-work-id':
-						ciencia_id = id_val
-					elif id_type == 'doi':
-						doi = id_val
-					elif id_type == 'eid':
-						scopus_id = id_val
+					if 'keywords' in sub_output and sub_output['keywords'] != None:
+						if 'keyword' in sub_output['keywords']:
+							for keyword in sub_output['keywords']['keyword']:
+								keywords.append(keyword)
+					
+					# ID'S
 
-				# AUTHORS
+					for identifier in sub_output['identifiers']['identifier']:
+						id_type = identifier['identifier-type']['code']
+						id_val = identifier['identifier']
+						if id_type == 'source-work-id':
+							ciencia_id = id_val
+						elif id_type == 'doi':
+							doi = id_val
+						elif id_type == 'eid':
+							scopus_id = id_val
 
-				if 'authors' in sub_output and sub_output['authors'] != None:
-					for author in sub_output['authors']['author']:
-						author_id = author['ciencia-id']
-						if author_id != None:
-							authors.append(author_id)
+					# AUTHORS
 
-				# END
+					if 'authors' in sub_output and sub_output['authors'] != None:
+						for author in sub_output['authors']['author']:
+							author_id = author['ciencia-id']
+							if author_id != None:
+								authors.append(author_id)
 
-				break
+					# END
+
+					break
 
 
 
 
 
-		if title == None:
-			#pprint(sub_output)
-			#print("\t\tBAD (TITLE)", o_type)
-			#input()
-			continue # DISCARD THIS OUTPUT. FOR LOOP GOES TO NEXT ITERATION
-		elif date == None:
-			#pprint(sub_output)
-			#print("\t\t\t\tBAD (DATE)", o_type)
-			#input()
-			continue # DISCARD THIS OUTPUT. FOR LOOP GOES TO NEXT ITERATION
-		#else:
-		#	print("GOOD", authors )
+			if title == None:
+				#pprint(sub_output)
+				#print("\t\tBAD (TITLE)", o_type)
+				#input()
+				continue # DISCARD THIS OUTPUT. FOR LOOP GOES TO NEXT ITERATION
+			elif date == None:
+				#pprint(sub_output)
+				#print("\t\t\t\tBAD (DATE)", o_type)
+				#input()
+				continue # DISCARD THIS OUTPUT. FOR LOOP GOES TO NEXT ITERATION
+			#else:
+			#	print("GOOD", authors )
 
-		pub_dict = {
-			'type': o_type,
-			'title': title,
-			'date': date,
-			'keywords': keywords,
-			'ciencia_id': ciencia_id,
-			'doi': doi,
-			'scopus_id': scopus_id,
-			'authors': authors,
-		}
+			pub_dict = {
+				'type': o_type,
+				'title': title,
+				'date': date,
+				'keywords': keywords,
+				'ciencia_id': ciencia_id,
+				'doi': doi,
+				'scopus_id': scopus_id,
+				'authors': authors,
+			}
 
-		publications.append(pub_dict)
+			publications.append(pub_dict)
 
-		#for output_type in output_types:
-		#	if output[output_type] != None and output_types[output_type]:
-		#		
-		#		pprint(output[output_type])
+			#for output_type in output_types:
+			#	if output[output_type] != None and output_types[output_type]:
+			#		
+			#		pprint(output[output_type])
 
-		#		print("\n" + output_type)
-				
-		#		print("\nPress ENTER to continue")
-		#		input()
+			#		print("\n" + output_type)
+					
+			#		print("\nPress ENTER to continue")
+			#		input()
 
-		#		output_types[output_type] = False
-		#		break
+			#		output_types[output_type] = False
+			#		break
 	
 	author_dict['publications'] = publications
 
@@ -374,25 +357,35 @@ def ciencia_author(person_id):
 
 	#input()
 
-# TEST CIENCIA FUNCTIONS
+#ciencia_author("6016-3F49-8427")# 9C1C-C52C-A1E2
 
+# TEST CIENCIA FUNCTIONS
 if False:
 
 	config = load_config()
 
 	headers = {
 		"accept": "application/json",
-		"authorization": config['authorization']
+		"authorization": config["authorization"]
 	}
 
 	# GET SOME ID's
 
 	ids = []
-	for i in range(3):
-		url = "https://qa.cienciavitae.pt/api/v1.1/searches/persons/all?order=Ascending&pagination=true&rows=60&page="+str(i+1)+"&lang=EN"
-		response = requests.get(url, headers=headers)
+	for i in range(1):
+
+		params = {
+			'order': 'Ascending',
+			'pagination': 'true',
+			'rows': '60',
+			'page': str(i+1),
+			'lang': 'EN',
+		}
+		url = "https://api.cienciavitae.pt/v1.1/searches/persons/all"
+
+		response = requests.get(url, headers=headers, params=params)
 		sleep(0.51) # max 2 requests/second
-		#print(response.json())
+
 		for person in response.json()["result"]["person"]:
 			for identification in person["author-identifiers"]["author-identifier"]:
 				if (identification["identifier-type"]["code"] == "CIENCIAID"):
@@ -415,7 +408,8 @@ if False:
 
 		if person_id not in bad_ids:
 
-			pprint(ciencia_author(person_id))
+			print(person_id, end=' ')
+			#pprint(ciencia_author(person_id))
 
 #print()
 
@@ -505,6 +499,8 @@ def scopus_author(author_id):
 
 		author_previous_affiliation_list = []
 		for prev_affiliation in my_auth._data['author-profile']['affiliation-history']['affiliation']:
+			if not 'afdispname' in prev_affiliation['ip-doc']:
+				continue
 			affiliation_name = prev_affiliation['ip-doc']['afdispname']
 			affiliation_id = prev_affiliation['@affiliation-id']
 			if '@parent' in prev_affiliation:
