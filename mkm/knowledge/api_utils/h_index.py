@@ -1,6 +1,6 @@
 import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
-os.environ['PYB_CONFIG_FILE'] = dir_path + "/config.ini"
+os.environ['PYB_CONFIG_FILE'] = os.path.join(dir_path, "config.ini")
 from pybliometrics.scopus import AbstractRetrieval, AuthorRetrieval, AffiliationRetrieval
 
 def scopus_h_index(author_id):

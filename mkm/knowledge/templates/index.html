@@ -1,334 +1,683 @@
 {% extends "base.html" %}
 
-{% block title %}<title>Knowledge App - Index</title>{% endblock %}
+{% block title %}<title>Index - Knowledge App</title>{% endblock %}
+{% load static %}
 
 {% block content %}
 
-<h1>Add Author</h1>
-<form method="post">
-    {% csrf_token %}
-    {{ authorform }}
-    <input name="add-author" type="submit" value="Submit">
-</form>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 823px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Dashboard</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
 
-<h1>All Authors</h1>
+    <!-- Main content -->
+    <section class="content">
+        
+        <div class="container-fluid">
 
-{% if True %}
-{% else %}
-{% endif %}
-
-{% for author in authors %}
-
-<!-- FORMS -->
-<table>
-    <tr>
-        <td>
-            <form method="post">
-                {% csrf_token %}
-                <input name="author_pk" type="hidden" value="{{ author.id }}" />
-                <input name="sync-scopus-author" type="submit" value="Sync Scopus Author Data">
-            </form>
-        </td>
-        <td>
-            <form method="post">
-                {% csrf_token %}
-                <input name="author_pk" type="hidden" value="{{ author.id }}" />
-                <input name="sync-scopus-docs" type="submit" value="Sync Scopus Documents">
-            </form>
-        </td>
-        <td>
-            <form method="post">
-                {% csrf_token %}
-                <input name="author_pk" type="hidden" value="{{ author.id }}" />
-                <input name="sync-ciencia" type="submit" value="Sync Ciência">
-            </form>
-        </td>
-        <td>
-            <form method="post">
-                {% csrf_token %}
-                <input name="author_pk" type="hidden" value="{{ author.id }}" />
-                <input name="delete_author" type="submit" value="Delete Author">
-            </form>
-        </td>
-    </tr>
-</table>
-
-<table class="author">
-
-    <tr>
-        <td class="bold">
-            Photo
-        </td>
-        <td>
-            <img src="https://www.cienciavitae.pt/fotos/publico/{{author.ciencia_id}}.jpg">
-        </td>
-    </tr>
-
-    <tr><td class="bold
-        {% if author.name == "" %}
-            ">Name</td><td class="">
-        {% elif author.synced_ciencia %}
-            ciencia">Name</td><td class="ciencia">{{author.name}}
-        {% else %}
-            scopus">Name</td><td class="scopus">{{author.name}}
-        {% endif %}
-    </td></tr>
-
-    <tr><td class="bold">Scopus ID</td><td>
-        {% if author.scopus_id != None %}
-            <a href="https://www.scopus.com/authid/detail.uri?authorId={{author.scopus_id}}">
-                {{author.scopus_id}}
-            </a>
-        {% endif %}
-    </td></tr>
-
-    <tr><td class="bold">Ciência ID</td><td>
-        {% if author.ciencia_id != None %}
-            <a href="https://www.cienciavitae.pt//{{author.ciencia_id}}">
-                {{author.ciencia_id}}
-            </a>
-        {% endif %}
-    </td></tr>
-
-    <tr><td class="bold">ORCID ID</td><td>
-        {% if author.orcid_id != None %}
-            <a href="https://orcid.org/{{author.orcid_id}}">
-                {{author.orcid_id}}
-            </a>
-        {% endif %}
-    </td></tr>
-
-    <tr><td class="scopus bold">Name List</td><td class="scopus">
-        {% if author.load_name_list|length == 0 %}
             
-        {% else %}
-            {{author.load_name_list}}
-        {% endif %}
-    </td></tr>
 
-    <tr><td class="scopus bold">H-index</td><td class="scopus">
-        {% if author.h_index == None %}
-            
-        {% else %}
-            {{author.h_index}}
-        {% endif %}
-    </td></tr>
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>{{ cnt_authors }}</h3>
 
-    <tr><td class="scopus bold">Citation Count</td><td class="scopus">
-        {% if author.citation_count == 0 %}
-            
-        {% else %}
-            {{author.citation_count}}
-        {% endif %}
-    </td></tr>
+                            <p>Authors</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3>{{ cnt_publications }}</h3>
 
-    <tr><td class="scopus bold">Cited-by Count</td><td class="scopus">
-        {% if author.cited_by_count == 0 %}
-            
-        {% else %}
-            {{author.cited_by_count}}
-        {% endif %}
-    </td></tr>
+                            <p>Publications</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-document-text"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>{{ cnt_keywords }}</h3>
 
-    <tr><td class="scopus bold">Current Affiliations</td><td class="scopus">
-        {% if author.current_affiliations.all|length == 0 %}
-            
-        {% else %}
-            {% for affiliation in author.current_affiliations.all %}
-                {{affiliation.name}}<br>
-            {% endfor %}
-        {% endif %}
-    </td></tr>
+                            <p>Keywords</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-lightbulb"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-danger">
+                        <div class="inner">
+                            <h3>{{ cnt_areas }}</h3>
 
-    <tr><td class="scopus bold">Previous Affiliations</td><td class="scopus">
-        {% if author.previous_affiliations.all|length == 0 %}
-            
-        {% else %}
-            <details>
-                <summary>
-                    {{author.previous_affiliations.all|length}} Affiliations
-                </summary>
-                <p>
-                    {% for affiliation in author.previous_affiliations.all %}
-                        {{affiliation.name}}<br>
-                    {% endfor %}
-                </p>
-            </details>
-        {% endif %}
-    </td></tr>
-    
-    <tr><td class="ciencia bold">Bio</td><td class="ciencia">
-        {% if author.bio == "" %}
-            
-        {% else %}
-            <details>
-                <summary>
-                    Available
-                </summary>
-                <p>
-                    {{author.bio}}
-                </p>
-            </details>
-        {% endif %}
-    </td></tr>
+                            <p>Areas</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-university"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
 
-    <tr><td class="ciencia bold">Degrees</td><td class="ciencia">
-        {% if author.load_degrees|length == 0 %}
-            
-        {% else %}
-            <details>
-                <summary>
-                    {{author.load_degrees|length}} Degrees
-                </summary>
-                <p>
-                    {{author.load_degrees}}
-                </p>
-            </details>
-        {% endif %}
-    </td></tr>
-    
-    <tr><td class="ciencia bold">Distinctions</td><td class="ciencia">
-        {% if author.load_distinctions|length == 0 %}
-            
-        {% else %}
-            <details>
-                <summary>
-                    {{author.load_distinctions|length}} Distinctions
-                </summary>
-                <p>
-                    {{author.load_distinctions}}
-                </p>
-            </details>
-        {% endif %}
-    </tr>
-    
-    <tr><td class="ciencia bold">Projects</td>
-        <td class="ciencia">
-            {% if author.projects.all|length == 0 %}
+
+
+            <!-- Main row -->
+            <div class="row">
+                <!-- Left col -->
+                <section class="col-lg-7 connectedSortable ui-sortable">
+
+
+                    <!-- BAR CHART -->
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Publications between {{ labels_publications|first }} and {{ labels_publications|last }}</h3>
+
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart_publications"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                    <!-- BAR CHART -->
+                    <div class="card card-info">
+                        <div class="card-header">
+                            <h3 class="card-title">Projects between {{ labels_projects|first }} and {{ labels_projects|last }}</h3>
+
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart_projects"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+
+                </section>
+                <!-- /.Left col -->
+                <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                <section class="col-lg-5 connectedSortable ui-sortable">
+
+
+
+
+                    <div class="card card-warning">
+                        <div class="card-header">
+                            <h3 class="card-title">Most active authors</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Author</th>
+                                        <th>Publications</th>
+                                        <th>With Abstract</th>
+                                        <th>With full text</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {% for author in authors %}
+
+                                        {% if forloop.counter <= 20 %}
+
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>{{ author.name }}</td>
+                                                <td><span class="badge bg-info">
+                                                    {{ author.publications.count }}
+                                                </span></td>
+                                                <td><span class="badge bg-success">
+                                                    {{ author.publications_abstract }}
+                                                </span></td>
+                                                <td><span class="badge bg-danger">
+                                                    {{ author.publications_fulltext }}
+                                                </span></td>
+                                            </tr>
+
+                                        {% endif %}
+
+                                    {% endfor %}
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+
+
+                </section>
+                <!-- right col -->
+
+
+
+
+                <form method="post" action="{% url 'login' %}">
+                    {% csrf_token %}
+                    Hello <b>{{ user }}</b>!
+                    <input type="submit" name="logout" value="Log out" />
+                </form>
                 
-            {% else %}
-                <details>
-                    <summary>
-                        {{author.projects.all|length}} Projects
-                    </summary>
-                    <p>
-                        <table class="noborder">
-                            {% for project in author.projects.all %}
-                                <tr>
-                                    <td>{{project.date}}</td>
-                                    <td class="bold">{{project.name}}</td>
-                                </tr>
-                            {% endfor %}
-                        </table>
-                    </p>
-                </details>
-            {% endif %}
-        </td>
-    </tr>
-    
-    <tr><td class="bold">Domains</td>
-        <td>
-            {% if author.domains.all|length == 0 %}
+                <h1>Add Author</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    {{ authorform }}
+                    <input name="add-author" type="submit" value="Submit">
+                </form>
                 
-            {% else %}
-                <details>
-                    <summary>
-                        {{author.domains.all|length}} Domains
-                    </summary>
-                    <p>
-                        {% for area in author.domains.all %}
-                            {{area.name}}<br>
+                <h1>All Authors</h1>
+                
+                <form method="post">
+                    {% csrf_token %}
+                    <input name="test" type="submit" value="Test">
+                </form>
+                
+                {% for author in authors %}
+                
+                <!-- FORMS -->
+                <table>
+                    <tr>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-scopus-author" type="submit" value="Sync Scopus Author Data">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-scopus-docs" type="submit" value="Sync Scopus Documents">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-ciencia" type="submit" value="Sync Ciência">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="delete_author" type="submit" value="Delete Author">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table class="author">
+                
+                    <tr>
+                        <td class="bold">
+                            Photo
+                        </td>
+                        <td>
+                            <img src="https://www.cienciavitae.pt/fotos/publico/{{author.ciencia_id}}.jpg">
+                        </td>
+                    </tr>
+                
+                    <tr><td class="bold
+                        {% if author.name == "" %}
+                            ">Name</td><td class="">
+                        {% elif author.synced_ciencia %}
+                            ciencia">Name</td><td class="ciencia">{{author.name}}
+                        {% else %}
+                            scopus">Name</td><td class="scopus">{{author.name}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">Scopus ID</td><td>
+                        {% if author.scopus_id != None %}
+                            <a href="https://www.scopus.com/authid/detail.uri?authorId={{author.scopus_id}}">
+                                {{author.scopus_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">Ciência ID</td><td>
+                        {% if author.ciencia_id != None %}
+                            <a href="https://www.cienciavitae.pt//{{author.ciencia_id}}">
+                                {{author.ciencia_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">ORCID ID</td><td>
+                        {% if author.orcid_id != None %}
+                            <a href="https://orcid.org/{{author.orcid_id}}">
+                                {{author.orcid_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Name List</td><td class="scopus">
+                        {% if author.load_name_list|length == 0 %}
+                            
+                        {% else %}
+                            {{author.load_name_list}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">H-index</td><td class="scopus">
+                        {% if author.h_index == None %}
+                            
+                        {% else %}
+                            {{author.h_index}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Citation Count</td><td class="scopus">
+                        {% if author.citation_count == 0 %}
+                            
+                        {% else %}
+                            {{author.citation_count}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Cited-by Count</td><td class="scopus">
+                        {% if author.cited_by_count == 0 %}
+                            
+                        {% else %}
+                            {{author.cited_by_count}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Current Affiliations</td><td class="scopus">
+                        {% for affiliation in author.current_affiliations.all %}
+                            {{affiliation.name}}<br>
                         {% endfor %}
-                    </p>
-                </details>
-            {% endif %}
-        </td>
-    </tr>
-
-    <tr><td class="bold">Publications</td>
-        <td>
-            {% if author.publications.all|length == 0 %}
+                    </td></tr>
                 
-            {% else %}
-                <details>
-                    <summary>
-                        {{author.publications.all|length}} Publications
-                    </summary>
-                    <p>
-                        <table class="noborder">
-                            {% for publication in author.publications.all %}
-                                <tr>
-                                    {% if publication.author_set.all|length != 1 %}
-                                        <td class="">
-                                            <p
-                                                title="{% for author in publication.author_set.all %}{{author.name}}     {% endfor %}"
-                                                class="inline">
-                                                {{publication.author_set.all|length}} Authors
-                                            </p>
-                                        </td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
-                                    {% if publication.load_keywords|length != 0 %}
-                                        <td class="orange">
-                                            <p
-                                                title="{{publication.load_keywords}}"
-                                                class="inline">
-                                                {{publication.load_keywords|length}} Keywords
-                                            </p>
-                                        </td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
-                                    {% if publication.areas.all|length != 0 %}
-                                        <td class="red">
-                                            <p
-                                                title="{% for area in publication.areas.all %}{{area.name}}     {% endfor %}"
-                                                class="inline">
-                                                {{publication.areas.all|length}} Areas
-                                            </p>
-                                        </td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
-                                    {% if publication.abstract != "" %}
-                                        <td class="red">
-                                            <p
-                                                title="{{publication.abstract}}"
-                                                class="inline">
-                                                Abstract
-                                            </p>
-                                        </td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
-                                    {% if publication.available %}
-                                        <td class="red">
-                                            <p
-                                                class="inline">
-                                                Full Text
-                                            </p>
-                                        </td>
-                                    {% else %}
-                                        <td></td>
-                                    {% endif %}
-                                    <td><p class="inline">{{publication.date}}</p></td>
-                                    <td class="bold"><p>{{publication.title}}</p></td>
-                                </tr>
-                            {% endfor %}
-                        </table>
-                    </p>
-                </details>
-            {% endif %}
-        </td>
-    </tr>
-    
-</table>
-<br>
-{% endfor %}
+                    <tr><td class="scopus bold">Previous Affiliations</td><td class="scopus">
+                        {% if author.previous_affiliations.all|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.previous_affiliations.all|length}} Affiliations
+                                </summary>
+                                <p>
+                                    {% for affiliation in author.previous_affiliations.all %}
+                                        {{affiliation.name}}<br>
+                                    {% endfor %}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                    
+                    <tr><td class="ciencia bold">Bio</td><td class="ciencia">
+                        {% if author.bio == "" %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    Available
+                                </summary>
+                                <p>
+                                    {{author.bio}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="ciencia bold">Degrees</td><td class="ciencia">
+                        {% if author.load_degrees|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.load_degrees|length}} Degrees
+                                </summary>
+                                <p>
+                                    {{author.load_degrees}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                    
+                    <tr><td class="ciencia bold">Distinctions</td><td class="ciencia">
+                        {% if author.load_distinctions|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.load_distinctions|length}} Distinctions
+                                </summary>
+                                <p>
+                                    {{author.load_distinctions}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </tr>
+                    
+                    <tr><td class="ciencia bold">Projects</td>
+                        <td class="ciencia">
+                            {% if author.projects.all|length == 0 %}
+                                
+                            {% else %}
+                                <details>
+                                    <summary>
+                                        {{author.projects.all|length}} Projects
+                                    </summary>
+                                    <p>
+                                        <table class="noborder">
+                                            {% for project in author.projects.all %}
+                                                <tr>
+                                                    {% if project.areas.all|length != 0 %}
+                                                        <td class="bold">
+                                                            <p
+                                                                title="{% for area in project.areas.all %}{{area.name}}     {% endfor %}"
+                                                                class="inline">
+                                                                {{project.areas.all|length}} Areas
+                                                            </p>
+                                                        </td>
+                                                    {% else %}
+                                                        <td></td>
+                                                    {% endif %}
+                                                    {% if project.desc != "" %}
+                                                        <td class="bold">
+                                                            <p
+                                                                title="{{project.desc}}"
+                                                                class="inline">
+                                                                Description
+                                                            </p>
+                                                        </td>
+                                                    {% else %}
+                                                        <td></td>
+                                                    {% endif %}
+                                                    <td><p class="inline">{{project.date}}</p></td>
+                                                    <td class="bold"><p>{{project.name}}</p></td>
+                                                </tr>
+                                            {% endfor %}
+                                        </table>
+                                    </p>
+                                </details>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    
+                    <tr><td class="bold">Domains</td>
+                        <td>
+                            {% with domains=author.domains.all %}
+                                {% if domains|length == 0 %}
+                                    
+                                {% else %}
+                                    <details>
+                                        <summary>
+                                            {{domains|length}} Domains
+                                        </summary>
+                                        <p>
+                                            {% for area in domains %}
+                                                {{area.name}}<br>
+                                            {% endfor %}
+                                        </p>
+                                    </details>
+                                {% endif %}
+                            {% endwith %}
+                        </td>
+                    </tr>
+                
+                    <tr><td class="bold">Publications</td>
+                        <td>
+                            {% with publications=author.publications.all %}
+                                {% if publications|length == 0 %}
+                                    
+                                {% else %}
+                                    <details>
+                                        <summary>
+                                            {{publications|length}} Publications
+                                        </summary>
+                                        <p>
+                                            <table class="noborder">
+                                                {% for publication in publications %}
+                                                    <tr>
+                                                        {% if publication.author_set.all|length != 1 %}
+                                                            <td class="">
+                                                                <p
+                                                                    title="{% for author in publication.author_set.all %}{{author.name}}     {% endfor %}"
+                                                                    class="inline">
+                                                                    {{publication.author_set.all|length}} Authors
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.keywords.all|length != 0 %}
+                                                            <td class="orange">
+                                                                <p
+                                                                    title="{% for keyword in publication.keywords.all %}{{keyword.name}}     {% endfor %}"
+                                                                    class="inline">
+                                                                    {{publication.keywords.all|length}} Keywords
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.areas.all|length != 0 %}
+                                                            <td class="red">
+                                                                <p
+                                                                    title="{% for area in publication.areas.all %}{{area.name}}     {% endfor %}"
+                                                                    class="inline">
+                                                                    {{publication.areas.all|length}} Areas
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.abstract != "" %}
+                                                            <td class="red">
+                                                                <p
+                                                                    title="{{publication.abstract}}"
+                                                                    class="inline">
+                                                                    Abstract
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.available %}
+                                                            <td class="red">
+                                                                <p
+                                                                    class="inline">
+                                                                    Full Text
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        <td><p class="inline">{{publication.date}}</p></td>
+                                                        <td class="bold"><p>{{publication.title}}</p></td>
+                                                    </tr>
+                                                {% endfor %}
+                                            </table>
+                                        </p>
+                                    </details>
+                                {% endif %}
+                            {% endwith %}
+                        </td>
+                    </tr>
+                
+                </table>
+                <br>
+                {% endfor %}
+
+
+
+
+
+            </div>
+            <!-- /.row (main row) -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+
 
 {% endblock %}
 
 {% block scripts %}
+
+<!-- Page specific script -->
+<script>
+    $(function () {
+        /* ChartJS
+            * -------
+            * Here we will create a few charts using ChartJS
+            */
+
+        //-------------
+        //- BAR CHART -
+        //-------------
+        var areaChartData = {
+            labels: {{ labels_publications|safe }},
+
+            datasets: [
+                {
+                    label: 'Number of publications',
+                    backgroundColor: 'rgba(92, 184, 92, 0.9)',
+                    borderColor: 'rgba(92, 184, 92, 0.8)',
+                    pointRadius: false,
+                    pointColor: '#3b8bba',
+                    pointStrokeColor: 'rgba(92, 184, 92, 1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(92, 184, 92, 1)',
+
+                    data: {{ data_publications|safe }}
+                },
+            ]
+        }
+
+        var barChartCanvas = $('#barChart_publications').get(0).getContext('2d')
+        var barChartData = $.extend(true, {}, areaChartData)
+        var temp0 = areaChartData.datasets[0]
+        barChartData.datasets[0] = temp0
+
+        var barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            datasetFill: false
+        }
+
+        new Chart(barChartCanvas, {
+            type: 'bar',
+            data: barChartData,
+            options: barChartOptions
+        })
+
+        //-------------
+        //- BAR CHART -
+        //-------------
+        var areaChartData = {
+            labels: {{ labels_projects|safe }},
+
+            datasets: [
+                {
+                    label: 'Number of projects',
+                    backgroundColor: 'rgba(91, 192, 222, 0.9)',
+                    borderColor: 'rgba(91, 192, 222, 0.8)',
+                    pointRadius: false,
+                    pointColor: '#3b8bba',
+                    pointStrokeColor: 'rgba(91, 192, 222, 1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(91, 192, 222, 1)',
+
+                    data: {{ data_projects|safe }}
+                },
+            ]
+        }
+
+        var barChartCanvas = $('#barChart_projects').get(0).getContext('2d')
+        var barChartData = $.extend(true, {}, areaChartData)
+        var temp0 = areaChartData.datasets[0]
+        barChartData.datasets[0] = temp0
+
+        var barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            datasetFill: false
+        }
+
+        new Chart(barChartCanvas, {
+            type: 'bar',
+            data: barChartData,
+            options: barChartOptions
+        })
+    })
+</script>
 
 {% endblock %}

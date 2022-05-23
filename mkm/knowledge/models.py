@@ -115,8 +115,8 @@ class Author(models.Model):
     )
 
     class Meta:
-        ordering = ['id']
-        #ordering = ['name']
+        #ordering = ['-id']
+        ordering = ['name']
 
         unique_together = [
             ['scopus_id', 'ciencia_id', 'orcid_id'],
@@ -143,6 +143,20 @@ class Author(models.Model):
     
     def load_distinctions(self):
         return json.loads(self.distinctions)
+    
+    def publications_abstract(self):
+        cnt = 0
+        for publication in self.publications.all():
+            if publication.abstract != "":
+                cnt += 1
+        return cnt
+    
+    def publications_fulltext(self):
+        cnt = 0
+        for publication in self.publications.all():
+            if publication.available:
+                cnt += 1
+        return cnt
 
 class Publication(models.Model):
     scopus_id = models.CharField(
@@ -163,8 +177,8 @@ class Publication(models.Model):
         max_length = 200
     )
     date = models.DateField()
-    keywords = models.TextField(
-        default = "[]"
+    keywords = models.ManyToManyField(
+        'Keyword'
     )
     publication_type = models.ForeignKey(
         'PublicationType',
@@ -198,8 +212,8 @@ class Publication(models.Model):
     def __str__(self):
         return "[{}] {}".format( str(self.date), self.title )
     
-    def load_keywords(self):
-        return json.loads(self.keywords) if self.keywords != None else None
+    #def load_keywords(self):
+    #    return json.loads(self.keywords) if self.keywords != None else None
 
 class PublicationType(models.Model):
     name = models.CharField(
@@ -231,3 +245,15 @@ class Project(models.Model):
 
     def __str__(self):
         return "[{}] {}".format( str(self.date), self.name )
+
+class Keyword(models.Model):
+    name = models.CharField(
+        primary_key = True,
+        max_length = 100
+    )
+
+    class Meta:
+        ordering = ['name']
+    
+    def __str__(self):
+        return self.name

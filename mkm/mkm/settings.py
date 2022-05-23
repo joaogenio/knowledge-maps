@@ -45,10 +45,20 @@ INSTALLED_APPS = [
 
     'knowledge.apps.KnowledgeConfig',
 
-    'django_extensions', # python manage.py graph_models --pydot -a -g -I Author,Publication,PublicationType,Project,Area,Affiliation -o my_project_visualized.png
+    #'django_extensions', # python manage.py graph_models --pydot -a -g -I Author,Publication,PublicationType,Project,Area,Affiliation -o my_project_visualized.png
+
+    'debug_toolbar', # https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+]
+
+INTERNAL_IPS = [
+    # ...
+    "127.0.0.1",
+    # ...
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

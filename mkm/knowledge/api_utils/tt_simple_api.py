@@ -499,7 +499,7 @@ def scopus_author(author_id):
 
 		author_previous_affiliation_list = []
 		for prev_affiliation in my_auth._data['author-profile']['affiliation-history']['affiliation']:
-			if not 'afdispname' in prev_affiliation['ip-doc']:
+			if not isinstance(prev_affiliation, dict) or not 'afdispname' in prev_affiliation['ip-doc']:
 				continue
 			affiliation_name = prev_affiliation['ip-doc']['afdispname']
 			affiliation_id = prev_affiliation['@affiliation-id']
@@ -635,20 +635,23 @@ def scopus_author_docs(author_id):
 
 				#print("scp_doc.title: ", scp_doc.title)
 				
-				for area in scp_doc._data['subject-areas']['subject-area']:
-					area_name = area['$']
-					area_abbreviation = area['@abbrev']
-					area_code = area['@code']
+				try:
+					for area in scp_doc._data['subject-areas']['subject-area']:
+						area_name = area['$']
+						area_abbreviation = area['@abbrev']
+						area_code = area['@code']
 
-					area_dict = {
-						'area_name': area_name,
-						'area_abbreviation': area_abbreviation,
-						'area_code': area_code
-					}
-					doc_areas.append(area_dict)
-				
-				#print( "    Areas:", len(doc_areas), end=' ' )
-				#print(doc_areas)
+						area_dict = {
+							'area_name': area_name,
+							'area_abbreviation': area_abbreviation,
+							'area_code': area_code
+						}
+						doc_areas.append(area_dict)
+
+					#print( "    Areas:", len(doc_areas), end=' ' )
+					#print(doc_areas)
+				except:
+					pass
 
 				try:
 					#print( "    Keywords:", len(scp_doc._data['idxterms']['mainterm']), end=' ' )
@@ -680,39 +683,46 @@ def scopus_author_docs(author_id):
 
 					# ORIGINAL TEXT WITH IMAGE LINKS AND OTHER 'TRASH'
 					original_text = doi_doc._data['originalText']
-					# SPLIT ALL WORDS INTO ARRAY
-					original_text_split = original_text.split(" ")
 
-					# INITIALIZE CLEAN TEXT
-					#clean_text = "" # already done outside
-					bad_words = [':/', 'sml', 'jpg', '-s2', 'pdf', 'gif', 'png', 'svg', 'ALTIMG', 'IMAGE-DOWNSAMPLED', 'IMAGE-THUMBNAIL', 'IMAGE-HIGH-RES', 'AAM-PDF', 'AAM-PAGE-IMAGE']
-					for word in original_text_split:
-						clean = True # Assume word is clean until we find a bad expression
-						for expression in bad_words:
-							#print(expression, "in", word, expression in word)
-							if expression in word:
-								clean = False
-								break # Found a bad expression. "next word please!"
-						if clean:
-							clean_text += word + " "
-					# SPLIT CLEAN TEXT (for visually checking against original)
-					#clean_text_split = clean_text.split(" ")
-					
-					# CREATE AN "ORIGINAL" TEXT WITH THE CLEAN WORDS HIGHLIGHTED
-					#overlap_text = ""
-					#for word in original_text_split:
-					#	if word in clean_text_split:
-					#		word = bcolors.ENDC + word + bcolors.FAIL
-					#	overlap_text += word + " "
+					if isinstance(original_text, str):
+
+						# SPLIT ALL WORDS INTO ARRAY
+						original_text_split = original_text.split(" ")
+
+						# INITIALIZE CLEAN TEXT
+						#clean_text = "" # already done outside
+						bad_words = [':/', 'sml', 'jpg', '-s2', 'pdf', 'gif', 'png', 'svg', 'ALTIMG', 'IMAGE-DOWNSAMPLED', 'IMAGE-THUMBNAIL', 'IMAGE-HIGH-RES', 'AAM-PDF', 'AAM-PAGE-IMAGE']
+						for word in original_text_split:
+							clean = True # Assume word is clean until we find a bad expression
+							for expression in bad_words:
+								#print(expression, "in", word, expression in word)
+								if expression in word:
+									clean = False
+									break # Found a bad expression. "next word please!"
+							if clean:
+								clean_text += word + " "
+						# SPLIT CLEAN TEXT (for visually checking against original)
+						#clean_text_split = clean_text.split(" ")
 						
-					#print(clean_text)
+						# CREATE AN "ORIGINAL" TEXT WITH THE CLEAN WORDS HIGHLIGHTED
+						#overlap_text = ""
+						#for word in original_text_split:
+						#	if word in clean_text_split:
+						#		word = bcolors.ENDC + word + bcolors.FAIL
+						#	overlap_text += word + " "
+							
+						#print(clean_text)
 
-					#print ( "TEXT:", bcolors.FAIL + overlap_text + bcolors.ENDC )
-					#print("\nPress ENTER to continue")
-					#input()
+						#print ( "TEXT:", bcolors.FAIL + overlap_text + bcolors.ENDC )
+						#print("\nPress ENTER to continue")
+						#input()
 
-					#print(vars(doi_doc))
-					doi_doc.write()
+						#print(vars(doi_doc))
+						doi_doc.write()
+
+					else:
+						available = False
+
 				else:
 					#print(bcolors.FAIL + "    Read text failed" + bcolors.ENDC)
 					available = False
