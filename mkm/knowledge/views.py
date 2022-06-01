@@ -104,7 +104,7 @@ def index_view(request):
                                                     'previous_affiliations'
                                                 ).annotate(num_publications=Count('publications')).order_by('-num_publications')[:20]
 
-        cnt_authors = Author.objects.all().count()
+        cnt_authors = authors.count()
         cnt_publications = Publication.objects.all().count()
         cnt_keywords = Keyword.objects.all().count()
         cnt_areas = Area.objects.all().count()
@@ -176,7 +176,13 @@ def publications_from_year_interval(start_year, end_year):
             cnt_year
         )
         data.append(
-            publications_from_year(cnt_year).count()
+            #publications_from_year(cnt_year).count()
+            Publication.objects.filter(
+                date__range=(
+                    date(cnt_year, 1, 1),
+                    date(cnt_year, 12, 31)
+                )
+            ).count()
         )
         cnt_year += 1
 
@@ -540,8 +546,5 @@ def sync_ciencia(pk):
     author.synced_ciencia = True
     author.save()
 
-# PUBLICACOES "REPETIDAS"
-# KEYWORDS "REPETIDAS"
-# JUNTAR AREAS E KEYWORDS?
-# KEYWORDS NUMA CLASSE?
-# PROJS DESC AREAS
+
+
