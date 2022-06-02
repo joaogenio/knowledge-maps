@@ -85,15 +85,6 @@ def index_view(request):
                 sync_ciencia(pk)
         
         authorform = AuthorForm()
-
-        #authors = Author.objects.prefetch_related(  'projects__areas',
-        #                                            'publications__author_set',
-        #                                            'publications__keywords',
-        #                                            'publications__areas',
-        #                                            'domains',
-        #                                            'current_affiliations',
-        #                                            'previous_affiliations'
-        #                                        ).all()
         
         authors = Author.objects.prefetch_related(  'projects__areas',
                                                     'publications__author_set',
@@ -104,13 +95,13 @@ def index_view(request):
                                                     'previous_affiliations'
                                                 ).annotate(num_publications=Count('publications')).order_by('-num_publications')[:20]
 
-        cnt_authors = authors.count()
         cnt_publications = Publication.objects.all().count()
+        cnt_projects = Project.objects.all().count()
         cnt_keywords = Keyword.objects.all().count()
         cnt_areas = Area.objects.all().count()
 
-        labels_publications, data_publications = publications_from_year_interval(2012, 2022)
-        labels_projects, data_projects = projects_from_year_interval(2012, 2022)
+        labels_publications, data_publications = documents_from_year_interval('Publication', 2012, 2022)
+        labels_projects, data_projects = documents_from_year_interval('Project', 2012, 2022)
 
         context = {
             'user': request.user,
@@ -119,8 +110,8 @@ def index_view(request):
 
             'authors': authors,
 
-            'cnt_authors': cnt_authors,
             'cnt_publications': cnt_publications,
+            'cnt_projects': cnt_projects,
             'cnt_keywords': cnt_keywords,
             'cnt_areas': cnt_areas,
 
@@ -134,77 +125,140 @@ def index_view(request):
 
     return redirect('login')
 
-def projects_from_year_interval(start_year, end_year):
+def author_detail_view(request, pk):
+
+    if request.user.is_authenticated:
+
+        try:
+            author = Author.objects.get(pk = pk)
+        except Author.DoesNotExist:
+            raise Http404('Author does not exist')
+
+        publications = Publication.objects.filter(author__id=pk)
+        projects = Project.objects.filter(author__id=pk)
+    
+        labels_publications, data_publications = documents_from_year_interval('Publication', 2012, 2022, author=pk)
+        labels_projects, data_projects = documents_from_year_interval('Project', 2012, 2022, author=pk)
+
+        author_keywords = {}
+        author_areas = {}
+        collaborators = {}
+
+        for publication in publications:
+
+            for keyword in publication.keywords.all():
+                if not keyword.name in author_keywords:
+                    author_keywords[keyword.name] = 1
+                else:
+                    author_keywords[keyword.name] += 1
+
+            for area in publication.areas.all():
+                if not area.name in author_areas:
+                    author_areas[area.name] = [1, 0]
+                else:
+                    author_areas[area.name][0] += 1
+            
+            for author in publication.author_set.all():
+                if author.pk != pk:
+                    if not author.pk in collaborators:
+                        collaborators[author.pk] = [1, 0]
+                    else:
+                        collaborators[author.pk][0] += 1
+        
+        for project in projects:
+
+            for area in project.areas.all():
+                if not area.name in author_areas:
+                    author_areas[area.name] = [0, 1]
+                else:
+                    author_areas[area.name][1] += 1
+            
+            for author in publication.author_set.all():
+                if author.pk != pk:
+                    if not author.pk in collaborators:
+                        collaborators[author.pk] = [0, 1]
+                    else:
+                        collaborators[author.pk][1] += 1
+        
+        sorted_author_keywords = dict(sorted(author_keywords.items(), key=lambda item: item[1], reverse=True))
+        sorted_author_areas = dict(sorted(author_areas.items(), key=lambda item: item[1][0] + item[1][1], reverse=True))
+        sorted_collaborators = dict(sorted(collaborators.items(), key=lambda item: item[1][0] + item[1][1], reverse=True))
+
+        x = {}
+        for key, value in sorted_collaborators.items():
+            collaborator = Author.objects.get(pk=key)
+            x[collaborator] = value
+
+        context = {
+            'user': request.user,
+
+            'author': author,
+            'publications': publications,
+            'projects': projects,
+
+            'sorted_author_keywords': sorted_author_keywords,
+            'sorted_author_areas': sorted_author_areas,
+            'sorted_collaborators': x,
+
+            'labels_publications': labels_publications,
+            'data_publications': data_publications,
+            'labels_projects': labels_projects,
+            'data_projects': data_projects,
+        }
+
+        return render(request, 'author_detail.html', context)
+
+    return redirect('login')
+
+def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1, 1), end_year=date.today(), author=None):
     labels = []
     data = []
     cnt_year = start_year
+
     while(cnt_year <= end_year):
         labels.append(
             cnt_year
         )
-        data.append(
-            projects_from_year(cnt_year).count()
-        )
+
+        if doctype == 'Publication' and author == None:
+            data.append(
+                Publication.objects.filter(
+                    date__range=(
+                        date(cnt_year, 1, 1),
+                        date(cnt_year, 12, 31)
+                    )
+                ).count()
+            )
+        elif doctype == 'Publication' and author != None:
+            data.append(
+                Publication.objects.filter(
+                    date__range=(
+                        date(cnt_year, 1, 1),
+                        date(cnt_year, 12, 31)
+                    )
+                ).filter(author__id=author).count()
+            )
+        elif doctype == 'Project' and author == None:
+            data.append(
+                Project.objects.filter(
+                    date__range=(
+                        date(cnt_year, 1, 1),
+                        date(cnt_year, 12, 31)
+                    )
+                ).count()
+            )
+        elif doctype == 'Project' and author != None:
+            data.append(
+                Project.objects.filter(
+                    date__range=(
+                        date(cnt_year, 1, 1),
+                        date(cnt_year, 12, 31)
+                    )
+                ).filter(author__id=author).count()
+            )
         cnt_year += 1
 
     return labels, data
-
-def projects_from_year(year):
-    start = date(year, 1, 1)
-    end = date(year+1, 1, 1)
-
-    return projects_interval(start, end)
-
-def projects_interval(start=date(1980, 1, 1), end=date.today(), inclusive_left=True, inclusive_right=False):
-    if inclusive_left and inclusive_right:
-        projects = Project.objects.filter(date__gte=start, date__lte=end)
-    elif inclusive_left and not inclusive_right:
-        projects = Project.objects.filter(date__gte=start, date__lt=end)
-    elif not inclusive_left and inclusive_right:
-        projects = Project.objects.filter(date__gt=start, date__lte=end)
-    else: # not inclusive_left and not inclusive_right:
-        projects = Project.objects.filter(date__gt=start, date__lt=end)
-    
-    return projects
-
-def publications_from_year_interval(start_year, end_year):
-    labels = []
-    data = []
-    cnt_year = start_year
-    while(cnt_year <= end_year):
-        labels.append(
-            cnt_year
-        )
-        data.append(
-            #publications_from_year(cnt_year).count()
-            Publication.objects.filter(
-                date__range=(
-                    date(cnt_year, 1, 1),
-                    date(cnt_year, 12, 31)
-                )
-            ).count()
-        )
-        cnt_year += 1
-
-    return labels, data
-
-def publications_from_year(year):
-    start = date(year, 1, 1)
-    end = date(year+1, 1, 1)
-
-    return publications_interval(start, end)
-
-def publications_interval(start=date(1980, 1, 1), end=date.today(), inclusive_left=True, inclusive_right=False):
-    if inclusive_left and inclusive_right:
-        publications = Publication.objects.filter(date__gte=start, date__lte=end)
-    elif inclusive_left and not inclusive_right:
-        publications = Publication.objects.filter(date__gte=start, date__lt=end)
-    elif not inclusive_left and inclusive_right:
-        publications = Publication.objects.filter(date__gt=start, date__lte=end)
-    else: # not inclusive_left and not inclusive_right:
-        publications = Publication.objects.filter(date__gt=start, date__lt=end)
-    
-    return publications
 
 def sync_scopus_docs(pk):
     author = Author.objects.get(pk=pk)

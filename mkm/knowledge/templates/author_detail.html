@@ -1,0 +1,398 @@
+{% extends "base.html" %}
+
+{% block title %}<title>{{ author.name }} - Knowledge App</title>{% endblock %}
+{% load static %}
+
+{% block content %}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 823px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">{{ author.name }}</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+        
+        <div class="container-fluid">
+
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>{{ publications.count }}</h3>
+
+                            <p>Publications</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-document-text"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3>{{ projects.count }}</h3>
+
+                            <p>Projects</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-edit"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>{{ sorted_author_keywords|length }}</h3>
+
+                            <p>Keywords</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-lightbulb"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-danger">
+                        <div class="inner">
+                            <h3>{{ sorted_author_areas|length }}</h3>
+
+                            <p>Areas</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-university"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
+
+            <!-- Main row -->
+            <div class="row">
+                <!-- Left col -->
+                <section class="col-lg-7 connectedSortable ui-sortable">
+
+
+                    <!-- BAR CHART -->
+                    <div class="card card-info">
+                        <div class="card-header">
+                            <h3 class="card-title">Publications between {{ labels_publications|first }} and {{ labels_publications|last }}</h3>
+
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart_publications"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                    <!-- BAR CHART -->
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Projects between {{ labels_projects|first }} and {{ labels_projects|last }}</h3>
+
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart_projects"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                    <div class="card card-light">
+                        <div class="card-header">
+                            <h3 class="card-title">Top collaborators</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Name</th>
+                                        <th>From publications</th>
+                                        <th>From projects</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {% for author, cnt in sorted_collaborators.items %}
+
+                                        {% if forloop.counter <= 50 %}
+
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>
+                                                    <a href="{% url 'author_detail' author.pk %}">{{ author.name }}</a>
+                                                </td>
+                                                <td>
+                                                    {{ cnt.0 }}
+                                                </td>
+                                                <td>
+                                                    {{ cnt.1 }}
+                                                </td>
+                                            </tr>
+
+                                        {% endif %}
+
+                                    {% endfor %}
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+
+                </section>
+                <!-- /.Left col -->
+                <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                <section class="col-lg-5 connectedSortable ui-sortable">
+
+
+                    <div class="card card-warning">
+                        <div class="card-header">
+                            <h3 class="card-title">Most common keywords</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Keyword</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {% for name, cnt in sorted_author_keywords.items %}
+
+                                        {% if forloop.counter <= 15 %}
+
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>
+                                                    {{ name }}
+                                                </td>
+                                                <td>
+                                                    {{ cnt }}
+                                                </td>
+                                            </tr>
+
+                                        {% endif %}
+
+                                    {% endfor %}
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h3 class="card-title">Most common areas</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Area</th>
+                                        <th>From publications</th>
+                                        <th>From projects</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {% for name, cnt in sorted_author_areas.items %}
+
+                                        {% if forloop.counter <= 15 %}
+
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>
+                                                    {{ name }}
+                                                </td>
+                                                <td>
+                                                    {{ cnt.0 }}
+                                                </td>
+                                                <td>
+                                                    {{ cnt.1 }}
+                                                </td>
+                                            </tr>
+
+                                        {% endif %}
+
+                                    {% endfor %}
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                </section>
+                <!-- right col -->
+
+            </div>
+            <!-- /.row (main row) -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+{% endblock %}
+
+{% block scripts %}
+
+<!-- Page specific script -->
+<script>
+    $(function () {
+        /* ChartJS
+            * -------
+            * Here we will create a few charts using ChartJS
+            */
+
+        //-------------
+        //- BAR CHART -
+        //-------------
+        var areaChartData = {
+            labels: {{ labels_publications|safe }},
+
+            datasets: [
+                {
+                    label: 'Number of publications',
+                    backgroundColor: 'rgba(91, 192, 222, 0.9)',
+                    borderColor: 'rgba(91, 192, 222, 0.8)',
+                    pointRadius: false,
+                    pointColor: '#3b8bba',
+                    pointStrokeColor: 'rgba(91, 192, 222, 1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(91, 192, 222, 1)',
+
+                    data: {{ data_publications|safe }}
+                },
+            ]
+        }
+
+        var barChartCanvas = $('#barChart_publications').get(0).getContext('2d')
+        var barChartData = $.extend(true, {}, areaChartData)
+        var temp0 = areaChartData.datasets[0]
+        barChartData.datasets[0] = temp0
+
+        var barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            datasetFill: false
+        }
+
+        new Chart(barChartCanvas, {
+            type: 'bar',
+            data: barChartData,
+            options: barChartOptions
+        })
+
+        //-------------
+        //- BAR CHART -
+        //-------------
+        var areaChartData = {
+            labels: {{ labels_projects|safe }},
+
+            datasets: [
+                {
+                    label: 'Number of projects',
+                    backgroundColor: 'rgba(92, 184, 92, 0.9)',
+                    borderColor: 'rgba(92, 184, 92, 0.8)',
+                    pointRadius: false,
+                    pointColor: '#3b8bba',
+                    pointStrokeColor: 'rgba(92, 184, 92, 1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(92, 184, 92, 1)',
+
+                    data: {{ data_projects|safe }}
+                },
+            ]
+        }
+
+        var barChartCanvas = $('#barChart_projects').get(0).getContext('2d')
+        var barChartData = $.extend(true, {}, areaChartData)
+        var temp0 = areaChartData.datasets[0]
+        barChartData.datasets[0] = temp0
+
+        var barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            datasetFill: false
+        }
+
+        new Chart(barChartCanvas, {
+            type: 'bar',
+            data: barChartData,
+            options: barChartOptions
+        })
+    })
+</script>
+
+{% endblock %}

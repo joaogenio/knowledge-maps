@@ -20,8 +20,10 @@ from knowledge import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', views.index_view, name='index'),
+
     path('login/', views.login_view, name='login'),
+    path('', views.index_view, name='index'),
+    path('authors/<int:pk>', views.author_detail_view, name='author_detail'),
 
     path('__debug__/', include('debug_toolbar.urls')),
 ]
