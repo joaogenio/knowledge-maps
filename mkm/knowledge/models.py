@@ -159,7 +159,7 @@ class Author(models.Model):
         return cnt
 
 class Publication(models.Model):
-    scopus_id = models.CharField(
+    scopus_id = models.CharField(           # WATCH OUT FOR THIS BEING A STRING CALLED 'None' IN THE FUTURE :p
         max_length = 100,
         null = True
     )
@@ -184,6 +184,9 @@ class Publication(models.Model):
         'PublicationType',
         on_delete = models.CASCADE
     )
+
+    from_scopus = models.BooleanField()
+    from_ciencia = models.BooleanField()
 
     # SCOPUS
     available = models.BooleanField()

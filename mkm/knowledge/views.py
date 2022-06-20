@@ -8,8 +8,23 @@ from pprint import pprint
 from datetime import datetime, date
 import time
 from django.db.models import Avg, Count, Min, Sum
+from django.db.models import Q
+
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+from difflib import SequenceMatcher
 
 # Create your views here.
+
+# Define important Publication Types for sorting
+publication_types_options = ['Conference Paper', 'Book', 'Article', 'Review']
+publication_types_options = sorted(publication_types_options)
+publication_types_options.insert(0, 'All')
+publication_types_options.append('Other')
 
 def login_view(request):
 
@@ -52,9 +67,176 @@ def index_view(request):
     if request.user.is_authenticated:
         
         if request.method == 'POST':
+
+            if 'test2' in request.POST:
+
+                authors = Author.objects.all()
+
+                for author in authors:
+
+                    sync_scopus_docs(author.pk)
             
             if 'test' in request.POST:
-                pass
+
+                authors = Author.objects.prefetch_related(
+                    'projects__areas',
+                    'publications__author_set',
+                    'publications__keywords',
+                    'publications__areas',
+                    'publications__publication_type',
+                    'domains',
+                    'current_affiliations',
+                    'previous_affiliations'
+                ).annotate(num_publications=Count('publications')).order_by('-num_publications')#[:20]
+
+                erratum_id = PublicationType.objects.get(name='Erratum')
+
+                matches = 0
+                total = 0
+                i = 1
+
+                same_scopus = 0
+                same_ciencia = 0
+                same_doi = 0
+
+                # Id's of iterated publications
+                # We want to test A vs B. But then B vs A will be unnecessary
+                iterated_pubs = []
+
+                for author in authors:
+
+                    if author.pk == 62:
+
+                        publications = author.publications.all()
+                        
+                        for publication in publications:
+
+                            if publication.publication_type != erratum_id:
+
+                                iterated_pubs.append(publication.pk)
+
+                                #print(publication.pk, end=' ')
+                                #print("\n\nTesting \"" + publication.title + "\"")
+
+                                # NAME TEST
+
+                                # Lower case
+                                name_a = publication.title.lower()
+
+                                # Separate words. Example: 'system-on-chip' -> 'system on chip'
+                                name_a = name_a.replace('-', ' ').replace('/', ' ').replace("'", ' ')
+
+                                # Tokenize
+                                # Won't exclude '16:9', 'systems-on-chip', 'ua.pt', ...
+                                tokenized_a = word_tokenize(name_a)
+
+                                # Remove non alphanumeric tokens
+                                new_tokanized_a = []
+                                for token in tokenized_a:
+                                    if token.isalnum():
+                                        new_tokanized_a.append(token)
+
+                                # Remove stop words
+                                stop_tokanized_a = []
+                                stop_words = set(stopwords.words('english'))
+                                for token in new_tokanized_a:
+                                    if not token in stop_words:
+                                        stop_tokanized_a.append(token)
+
+                                a = " ".join(stop_tokanized_a)
+
+                                for test in publications:
+                                    if test.pk not in iterated_pubs and \
+                                        publication.pk != test.pk and \
+                                        test.publication_type != erratum_id and \
+                                        test.publication_type == publication.publication_type:
+                                        
+                                        # NAME TEST
+
+                                        # Lower case
+                                        name_b = test.title.lower()
+
+                                        # Separate words. Example: 'system-on-chip' -> 'system on chip', "CAMBADA'2008" -> 'CAMBADA 2008'
+                                        name_b = name_b.replace('-', ' ').replace('/', ' ').replace("'", ' ')
+
+                                        # Tokenize
+                                        # Won't exclude '16:9', 'systems-on-chip', 'ua.pt', ...
+                                        tokenized_b = word_tokenize(name_b)
+
+                                        # Remove non alphanumeric tokens
+                                        new_tokanized_b = []
+                                        for token in tokenized_b:
+                                            if token.isalnum():
+                                                new_tokanized_b.append(token)
+
+                                        # Remove stop words
+                                        stop_tokanized_b = []
+                                        stop_words = set(stopwords.words('english'))
+                                        for token in new_tokanized_b:
+                                            if not token in stop_words:
+                                                stop_tokanized_b.append(token)
+
+                                        b = " ".join(stop_tokanized_b)
+
+                                        # https://www.educative.io/answers/what-is-sequencematcher-in-python
+                                        match = SequenceMatcher(None, a, b).ratio()
+
+                                        abstract_count = 0
+                                        if publication.abstract != "":
+                                            abstract_count += 1
+                                        if test.abstract != "":
+                                            abstract_count += 1
+                                        
+                                        f_same_scopus = False
+                                        f_same_ciencia = False
+                                        f_same_doi = False
+                                        if publication.scopus_id == test.scopus_id and publication.scopus_id != None:
+                                            same_scopus += 1
+                                            f_same_scopus = True
+                                        if publication.ciencia_id == test.ciencia_id and publication.ciencia_id != None:
+                                            same_ciencia += 1
+                                            f_same_ciencia = True
+                                        if publication.doi == test.doi and publication.doi != None:
+                                            same_doi += 1
+                                            f_same_doi = True
+
+                                        if match > 0.7:# and abstract_count == 0:# and match != 1:
+
+                                            print()
+                                            print(a)
+                                            print(b)
+                                            #print(match, publication.pk, test.pk)
+
+                                            print()
+                                            print(publication.publication_type.name + "s")
+                                            print(publication.pk, "[{}]".format( str(publication.date) ), "("+str(len(publication.author_set.all()))+")", publication.title)
+                                            print(publication.scopus_id, publication.ciencia_id, publication.doi, publication.from_scopus, publication.from_ciencia)
+                                            print("vs")
+                                            print(test.pk, "[{}]".format( str(test.date) ), "("+str(len(test.author_set.all()))+")", test.title)
+                                            print(test.scopus_id, test.ciencia_id, test.doi, test.from_scopus, test.from_ciencia)
+                                            print("\nMatch:", match)
+                                            print("\n" + publication.abstract[:300])
+                                            print("vs")
+                                            print(test.abstract[:300])
+                                            #print("\nSame? [y/n] ")
+                                            #x = None
+                                            #while(x != 'y' and x != 'n'):
+                                            #    x = input()
+                                            #if x == 'y':
+                                            #    matches += 1
+                                            matches += 1
+                                        
+                                        total += 1
+                            
+                print("\nmatches: " + str(matches) + " out of " + str(total))
+                print("same_scopus: " + str(same_scopus) + " out of " + str(total))
+                print("same_ciencia: " + str(same_ciencia) + " out of " + str(total))
+                print("same_doi: " + str(same_doi) + " out of " + str(total))
+                print()
+                                        
+
+                                        
+
 
             if 'add-author' in request.POST:
                 authorform = AuthorForm(request.POST)
@@ -72,6 +254,8 @@ def index_view(request):
                 author = Author.objects.get(pk=pk)
                 author.delete()
 
+
+            # Sync operations
             elif 'sync-scopus-docs' in request.POST:
                 pk = request.POST['author_pk']
                 sync_scopus_docs(pk)
@@ -83,25 +267,99 @@ def index_view(request):
             elif 'sync-ciencia' in request.POST:
                 pk = request.POST['author_pk']
                 sync_ciencia(pk)
+            
+
+            # Publications Chart
+            elif 'publication-type' in request.POST:
+                request.session['index-publication-type'] = request.POST['publication-type']
+            elif 'publication-start' in request.POST:
+                request.session['index-publication-start'] = int(request.POST['publication-start'])
+            elif 'publication-end' in request.POST:
+                request.session['index-publication-end'] = int(request.POST['publication-end'])
+
+            # Projects Chart
+            elif 'project-start' in request.POST:
+                request.session['index-project-start'] = int(request.POST['project-start'])
+            elif 'project-end' in request.POST:
+                request.session['index-project-end'] = int(request.POST['project-end'])
+        
+
+        # Publications Chart
+        # Moved to top of file
+        #publication_types_options = ['All', 'Conference Paper', 'Book', 'Other']
+
+        try:
+            earliest_publication = Publication.objects.earliest('date')
+            latest_publication = Publication.objects.latest('date')
+
+            if not 'index-publication-type' in request.session:
+                request.session['index-publication-type'] = "Conference Paper"
+            if not 'index-publication-start' in request.session:
+                request.session['index-publication-start'] = earliest_publication.date.year
+            if not 'index-publication-end' in request.session:
+                request.session['index-publication-end'] = latest_publication.date.year
+            
+            publication_start_range = list(reversed(range(earliest_publication.date.year, request.session['index-publication-end'] + 1)))
+            publication_end_range = list(reversed(range(request.session['index-publication-start'], latest_publication.date.year + 1)))
+
+        except Publication.DoesNotExist:
+            earliest_publication = None
+            latest_publication = None
+            publication_start_range = None
+            publication_end_range = None
+        
+        # Projects Chart
+        try:
+            earliest_project = Project.objects.earliest('date')
+            latest_project = Project.objects.latest('date')
+
+            if not 'index-project-start' in request.session:
+                request.session['index-project-start'] = earliest_project.date.year
+            if not 'index-project-end' in request.session:
+                request.session['index-project-end'] = latest_project.date.year
+            
+            project_start_range = list(reversed(range(earliest_project.date.year, request.session['index-project-end'] + 1)))
+            project_end_range = list(reversed(range(request.session['index-project-start'], latest_project.date.year + 1)))
+
+        except Publication.DoesNotExist:
+            earliest_project = None
+            latest_project = None
+            project_start_range = None
+            project_end_range = None
+
+
+        # Charts
+    
+        labels_publications, data_publications = documents_from_year_interval(
+            'Publication',
+            request.session['index-publication-start'],
+            request.session['index-publication-end'],
+            pub_type=request.session['index-publication-type'],
+            pub_types=publication_types_options.copy()
+        )
+        labels_projects, data_projects = documents_from_year_interval(
+            'Project',
+            request.session['index-project-start'],
+            request.session['index-project-end'],
+        )
         
         authorform = AuthorForm()
         
-        authors = Author.objects.prefetch_related(  'projects__areas',
-                                                    'publications__author_set',
-                                                    'publications__keywords',
-                                                    'publications__areas',
-                                                    'domains',
-                                                    'current_affiliations',
-                                                    'previous_affiliations'
-                                                ).annotate(num_publications=Count('publications')).order_by('-num_publications')[:20]
+        authors = Author.objects.prefetch_related(  
+            'projects__areas',
+            'publications__author_set',
+            'publications__keywords',
+            'publications__areas',
+            'publications__publication_type',
+            'domains',
+            'current_affiliations',
+            'previous_affiliations'
+        ).annotate(num_publications=Count('publications')).order_by('-num_publications')#[:20]
 
         cnt_publications = Publication.objects.all().count()
         cnt_projects = Project.objects.all().count()
         cnt_keywords = Keyword.objects.all().count()
         cnt_areas = Area.objects.all().count()
-
-        labels_publications, data_publications = documents_from_year_interval('Publication', 2012, 2022)
-        labels_projects, data_projects = documents_from_year_interval('Project', 2012, 2022)
 
         context = {
             'user': request.user,
@@ -110,15 +368,34 @@ def index_view(request):
 
             'authors': authors,
 
+            # Publications Chart
+            'publication_types': publication_types_options,
+            'publication_type': request.session['index-publication-type'],
+            'publication_start': request.session['index-publication-start'],
+            'publication_end': request.session['index-publication-end'],
+            'publication_start_range': publication_start_range,
+            'publication_end_range': publication_end_range,
+
+            # Projects Chart
+            'project_start': request.session['index-project-start'],
+            'project_end': request.session['index-project-end'],
+            'project_start_range': project_start_range,
+            'project_end_range': project_end_range,
+
+            # Stats
             'cnt_publications': cnt_publications,
             'cnt_projects': cnt_projects,
             'cnt_keywords': cnt_keywords,
             'cnt_areas': cnt_areas,
 
+            # Charts data
             'labels_publications': labels_publications,
             'data_publications': data_publications,
+            'total_data_publications': sum(data_publications),
+
             'labels_projects': labels_projects,
             'data_projects': data_projects,
+            'total_data_projects': sum(data_projects),
         }
         
         return render(request, 'index.html', context)
@@ -129,16 +406,104 @@ def author_detail_view(request, pk):
 
     if request.user.is_authenticated:
 
+        #del request.session['publication-type']
+        #del request.session['publication-start']
+        #del request.session['publication-end']
+
         try:
             author = Author.objects.get(pk = pk)
         except Author.DoesNotExist:
             raise Http404('Author does not exist')
 
-        publications = Publication.objects.filter(author__id=pk)
-        projects = Project.objects.filter(author__id=pk)
+        if request.method == 'POST':
+            
+            # Publications Chart
+            if 'publication-type' in request.POST:
+                request.session['publication-type'] = request.POST['publication-type']
+            elif 'publication-start' in request.POST:
+                request.session['publication-start'] = int(request.POST['publication-start'])
+            elif 'publication-end' in request.POST:
+                request.session['publication-end'] = int(request.POST['publication-end'])
+
+            # Projects Chart
+            elif 'project-start' in request.POST:
+                request.session['project-start'] = int(request.POST['project-start'])
+            elif 'project-end' in request.POST:
+                request.session['project-end'] = int(request.POST['project-end'])
+
+
+        # Publications Chart
+        # Moved to top of file
+        #publication_types_options = ['All', 'Conference Paper', 'Book', 'Other']
+        
+        try:
+            earliest_publication = Publication.objects.earliest('date')
+            latest_publication = Publication.objects.latest('date')
+
+            if not 'publication-type' in request.session:
+                request.session['publication-type'] = "Conference Paper"
+            if not 'publication-start' in request.session:
+                request.session['publication-start'] = earliest_publication.date.year
+            if not 'publication-end' in request.session:
+                request.session['publication-end'] = latest_publication.date.year
+            
+            publication_start_range = list(reversed(range(earliest_publication.date.year, request.session['publication-end'] + 1)))
+            publication_end_range = list(reversed(range(request.session['publication-start'], latest_publication.date.year + 1)))
+
+        except Publication.DoesNotExist:
+            earliest_publication = None
+            latest_publication = None
+            publication_start_range = None
+            publication_end_range = None
+
+        
+        # Projects Chart
+        
+        try:
+            earliest_project = Project.objects.earliest('date')
+            latest_project = Project.objects.latest('date')
+
+            if not 'project-start' in request.session:
+                request.session['project-start'] = earliest_project.date.year
+            if not 'project-end' in request.session:
+                request.session['project-end'] = latest_project.date.year
+            
+            project_start_range = list(reversed(range(earliest_project.date.year, request.session['project-end'] + 1)))
+            project_end_range = list(reversed(range(request.session['project-start'], latest_project.date.year + 1)))
+
+        except Publication.DoesNotExist:
+            earliest_project = None
+            latest_project = None
+            project_start_range = None
+            project_end_range = None
+
+        # Charts
     
-        labels_publications, data_publications = documents_from_year_interval('Publication', 2012, 2022, author=pk)
-        labels_projects, data_projects = documents_from_year_interval('Project', 2012, 2022, author=pk)
+        labels_publications, data_publications = documents_from_year_interval(
+            'Publication',
+            request.session['publication-start'],
+            request.session['publication-end'],
+            author=pk,
+            pub_type=request.session['publication-type'],
+            pub_types=publication_types_options.copy()
+        )
+        labels_projects, data_projects = documents_from_year_interval(
+            'Project',
+            request.session['project-start'],
+            request.session['project-end'],
+            author=pk
+        )
+
+        # Top stats
+
+        publications = Publication.objects.filter(author__id=pk).prefetch_related(
+            'keywords',
+            'areas',
+            'author_set'
+        )
+        projects = Project.objects.filter(author__id=pk).prefetch_related(
+            'areas'
+        )
 
         author_keywords = {}
         author_areas = {}
@@ -173,7 +538,7 @@ def author_detail_view(request, pk):
                 else:
                     author_areas[area.name][1] += 1
             
-            for author in publication.author_set.all():
+            for author in project.author_set.all():
                 if author.pk != pk:
                     if not author.pk in collaborators:
                         collaborators[author.pk] = [0, 1]
@@ -184,6 +549,7 @@ def author_detail_view(request, pk):
         sorted_author_areas = dict(sorted(author_areas.items(), key=lambda item: item[1][0] + item[1][1], reverse=True))
         sorted_collaborators = dict(sorted(collaborators.items(), key=lambda item: item[1][0] + item[1][1], reverse=True))
 
+        # Change id to actual object
         x = {}
         for key, value in sorted_collaborators.items():
             collaborator = Author.objects.get(pk=key)
@@ -196,73 +562,370 @@ def author_detail_view(request, pk):
             'publications': publications,
             'projects': projects,
 
+            # Publications Chart
+            'publication_types': publication_types_options,
+            'publication_type': request.session['publication-type'],
+            'publication_start': request.session['publication-start'],
+            'publication_end': request.session['publication-end'],
+            'publication_start_range': publication_start_range,
+            'publication_end_range': publication_end_range,
+            
+            # Projects Chart
+            'project_start': request.session['project-start'],
+            'project_end': request.session['project-end'],
+            'project_start_range': project_start_range,
+            'project_end_range': project_end_range,
+
+            # Stats
             'sorted_author_keywords': sorted_author_keywords,
             'sorted_author_areas': sorted_author_areas,
-            'sorted_collaborators': x,
+            'sorted_collaborators': x, # sorted_collaborators but with the actual objects
 
+            # Charts data
             'labels_publications': labels_publications,
             'data_publications': data_publications,
+            'total_data_publications': sum(data_publications),
+
             'labels_projects': labels_projects,
             'data_projects': data_projects,
+            'total_data_projects': sum(data_projects),
         }
 
         return render(request, 'author_detail.html', context)
 
     return redirect('login')
 
-def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1, 1), end_year=date.today(), author=None):
+def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1, 1), end_year=date.today(), author=None, pub_type='All', pub_types=[]):
     labels = []
     data = []
     cnt_year = start_year
+
+    if 'All' in pub_types:
+        pub_types.remove('All')
+    if 'Other' in pub_types:
+        pub_types.remove('Other')
 
     while(cnt_year <= end_year):
         labels.append(
             cnt_year
         )
 
-        if doctype == 'Publication' and author == None:
-            data.append(
-                Publication.objects.filter(
-                    date__range=(
-                        date(cnt_year, 1, 1),
-                        date(cnt_year, 12, 31)
-                    )
-                ).count()
+        if doctype == 'Publication':
+            publications = Publication.objects.filter(
+                date__range=(
+                    date(cnt_year, 1, 1),
+                    date(cnt_year, 12, 31)
+                )
             )
-        elif doctype == 'Publication' and author != None:
-            data.append(
-                Publication.objects.filter(
-                    date__range=(
-                        date(cnt_year, 1, 1),
-                        date(cnt_year, 12, 31)
-                    )
-                ).filter(author__id=author).count()
+
+            # Author filter
+            tmp_publications = publications.filter(author__id=author) if author != None else publications
+
+            if pub_type == 'All':
+                data.append( tmp_publications.count() )
+
+            elif pub_type == 'Other':
+
+                tmp2_publications = tmp_publications
+
+                for i in pub_types: # Iterate important types like Conference Papers and reject them for this query (Therefore, others)
+                    
+                    if PublicationType.objects.filter(name=i).exists():
+                        pub_type_id = PublicationType.objects.get(name=i)
+                        tmp2_publications = tmp2_publications.filter(
+                            ~Q(publication_type=pub_type_id)
+                        )
+
+                data.append( tmp2_publications.count() )
+
+            else:
+                try:
+                    pub_type_id = PublicationType.objects.get(name=pub_type)
+                    tmp2_publications = tmp_publications.filter(publication_type=pub_type_id)
+
+                    data.append( tmp2_publications.count() )
+
+                except PublicationType.DoesNotExist:
+                    data.append( 0 )
+                
+                
+
+        elif doctype == 'Project':
+            projects = Project.objects.filter(
+                date__range=(
+                    date(cnt_year, 1, 1),
+                    date(cnt_year, 12, 31)
+                )
             )
-        elif doctype == 'Project' and author == None:
-            data.append(
-                Project.objects.filter(
-                    date__range=(
-                        date(cnt_year, 1, 1),
-                        date(cnt_year, 12, 31)
-                    )
-                ).count()
-            )
-        elif doctype == 'Project' and author != None:
-            data.append(
-                Project.objects.filter(
-                    date__range=(
-                        date(cnt_year, 1, 1),
-                        date(cnt_year, 12, 31)
-                    )
-                ).filter(author__id=author).count()
-            )
+
+            # Author filter
+            tmp_projects = projects.filter(author__id=author) if author != None else projects
+            data.append( tmp_projects.count() )
+
         cnt_year += 1
 
     return labels, data
 
+def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
+    keywords, publication_type, from_scopus, from_ciencia, \
+    available, clean_text, abstract, areas):
+
+    debug_text = "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {}".format(
+        scopus_id,
+        ciencia_id,
+        doi,
+        date,
+        title,
+        from_scopus,
+        from_ciencia,
+        available
+    )
+    
+    merge = False
+    reason = ''
+
+    for test in author.publications.all():
+
+        # test -> The publication that we are 'testing' against.
+        # if the 'test' publication already has the info that we're trying to add,
+        # we need to merge the data from both publications (onto the existing one, that being 'test').
+
+        # Same pub. type (Yes)
+        # We only want to merge publications from the same type.
+        # If there's a Conference Paper and an Article about the same thing, we want to keep them
+        # for counting/statistic purposes.
+        if publication_type == test.publication_type:
+
+            # Same scopus_id (Yes)
+            if scopus_id != None and scopus_id == test.scopus_id:
+                
+                merge = True
+                reason = 'same scopus'
+
+                # Verifying that there's no different 'id info' between the 2 publications.
+                # Example: They have the same 'scopus_id', but then specify different "doi"s.
+
+                # Long code to make it understandable (only first time).
+
+                # None and !None
+                if test.ciencia_id == None and ciencia_id != None:
+                    # Add new info to the test publication.
+                    test.ciencia_id = ciencia_id
+                # !None and None
+                elif test.ciencia_id != None and ciencia_id == None:
+                    # Only test publication . Do nothing.
+                    pass
+                # None and None
+                elif test.ciencia_id == None and ciencia_id == None:
+                    # Neither of them provide info. Do nothing.
+                    pass
+                # !None and !None
+                else: # test.ciencia_id != None and ciencia_id != None:
+                    if test.ciencia_id != ciencia_id:
+                        # They provide different info. There may be no way to handle this merge.
+                        # Same 'scopus_id' but different 'ciencia_id'
+                        print(debug_text)
+                        print("\n  -1-  I N C O N S I S T E N C Y  --\n")
+                        print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                        
+                        reason += ' different ciencia'
+                        #merge = False
+                        #continue
+                    else:
+                        # They already provide the same info (!None info).
+                        pass
+
+                if test.doi == None and doi != None:
+                    test.doi = doi
+                elif test.doi != None and doi != None:
+                    if test.doi != doi:
+                        # Same 'scopus_id' but different 'doi'
+                        print(debug_text)
+                        print("\n  -2-  I N C O N S I S T E N C Y  --\n")
+                        print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                        
+                        reason += ' different doi'
+                        #merge = False
+                        #continue
+                
+                debug_text += "\n                    SAME SCOPUS_ID"
+                break
+            else:
+
+                # Same ciencia_id (Yes)
+                if ciencia_id != None and ciencia_id == test.ciencia_id:
+
+                    merge = True
+                    reason = 'same ciencia'
+
+                    if test.scopus_id == None and scopus_id != None:
+                        test.scopus_id = scopus_id
+                    elif test.scopus_id != None and scopus_id != None:
+                        if test.scopus_id != scopus_id:
+                            # Same 'ciencia_id' but different 'scopus_id'
+                            print(debug_text)
+                            print("\n  -3-  I N C O N S I S T E N C Y  --\n")
+                            print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                            
+                            reason += ' different scopus'
+                            #merge = False
+                            #continue
+
+                    if test.doi == None and doi != None:
+                        test.doi = doi
+                    elif test.doi != None and doi != None:
+                        if test.doi != doi:
+                            # Same 'ciencia_id' but different 'doi'
+                            print(debug_text)
+                            print("\n  -4-  I N C O N S I S T E N C Y  --\n")
+                            print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                            
+                            reason += ' different doi'
+                            #merge = False
+                            #continue
+                    
+                    debug_text += "\n                    SAME CIENCIA_ID"
+                    break
+                else:
+
+                    # Same doi (Yes)
+                    if doi != None and doi == test.doi:
+
+                        merge = True
+                        reason = 'same doi'
+
+                        if test.scopus_id == None and scopus_id != None:
+                            test.scopus_id = scopus_id
+                        elif test.scopus_id != None and scopus_id != None:
+                            if test.scopus_id != scopus_id:
+                                # Same 'doi' but different 'scopus_id'
+                                print(debug_text)
+                                print("\n  -5-  I N C O N S I S T E N C Y  --\n")
+                                print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+
+                                reason += ' different scopus'
+                                #merge = False
+                                #continue
+
+                        if test.ciencia_id == None and ciencia_id != None:
+                            test.ciencia_id = ciencia_id
+                        elif test.ciencia_id != None and ciencia_id != None:
+                            if test.ciencia_id != ciencia_id:
+                                # Same 'doi' but different 'ciencia_id'
+                                print(debug_text)
+                                print("\n  -6-  I N C O N S I S T E N C Y  --\n")
+                                print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                                
+                                reason += ' different ciencia'
+                                #merge = False
+                                #continue
+                        
+                        debug_text += "\n                    SAME DOI"
+                        break
+                    else:
+
+                        # Title processing
+                        pass
+
+    if merge:
+
+        debug_text += "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk)
+        print(debug_text)
+
+        # The 3 main fields are already taken care of
+        # (scopus_id, ciencia_id, doi)
+
+        if from_scopus:
+            test.title = title
+            test.date = date
+            test.from_scopus = True
+            test.available = available
+            test.clean_text = clean_text
+            test.abstract = abstract
+
+            # Merge areas
+            for area in areas:
+                test.areas.add(area)
+
+        else:
+            test.from_ciencia = True
+
+        # Merge keywords
+        for keyword in keywords:
+            test.keywords.add(keyword)
+        
+        test.save()
+        author.publications.add(test)
+        author.save()
+
+        return reason
+    
+    else:
+
+        print("", end=".")
+
+        if from_scopus:
+            from_scopus = True
+            from_ciencia = False
+            available = available
+            clean_text = clean_text
+            abstract = abstract
+        else:
+            from_scopus = False
+            from_ciencia = True
+            available = False
+            clean_text = ""
+            abstract = ""
+
+        publication = Publication(
+            scopus_id = scopus_id,
+            ciencia_id = ciencia_id,
+            doi = doi,
+            title = title,
+            date = date,
+            publication_type = publication_type,
+
+            from_scopus = from_scopus,
+            from_ciencia = from_ciencia,
+            available = available,
+            clean_text = clean_text,
+            abstract = abstract
+        )
+        publication.save()
+
+        for keyword in keywords:
+            publication.keywords.add(keyword)
+        
+        if from_scopus:
+
+            for area in areas:
+                publication.areas.add(area)
+        
+        publication.save()
+        author.publications.add(publication)
+        author.save()
+
+        return 'new'
+
 def sync_scopus_docs(pk):
     author = Author.objects.get(pk=pk)
+    
+    
     data = scopus_author_docs(author.scopus_id)
+
+    #with open(str(pk)+'.json', encoding="utf-8") as fh:
+    #    data = json.load(fh)
+    
+    new = 0
+    s_sc = 0
+    s_sc_d_cv = 0
+    s_sc_d_doi = 0
+    s_cv = 0
+    s_cv_d_sc = 0
+    s_cv_d_doi = 0
+    s_doi = 0
+    s_doi_d_sc = 0
+    s_doi_d_cv = 0
 
     for data_pub in data:
 
@@ -283,33 +946,9 @@ def sync_scopus_docs(pk):
         scopus_id = data_pub['doc_scopus_id']
         doi = data_pub['doc_doi']
 
-        # Check if publication with scopus id already exists
-        if Publication.objects.filter(scopus_id=scopus_id).exists():
-            publication = Publication.objects.get(scopus_id=scopus_id)
-            # Override
-            publication.title = title
-            publication.date = date
-            publication.available = available
-            publication.publication_type = publication_type
-            publication.scopus_id = scopus_id
-            publication.doi = doi
-            #print("Case X: Already a scopus doc. Overwrite.")
-        else:
-            publication = Publication(
-                title = title,
-                date = date,
-                available = available,
-                publication_type = publication_type,
-                scopus_id = scopus_id,
-                doi = doi
-            )
-            publication.save()
-            #print("Case Y: New doc.")
-
         # KEYWORDS
+        keywords = []
 
-        # Moved from text to an actual model
-        #publication.keywords = json.dumps(   list(   set( json.loads(publication.keywords) + data_pub['doc_keywords'] )   )   )
         for name in data_pub['doc_keywords']:
             name = ' '.join(elem[0].upper() + elem[1:] for elem in name.split())
             name = ' '.join(elem[0].upper() + elem[1:] for elem in name.split('-'))
@@ -321,15 +960,17 @@ def sync_scopus_docs(pk):
                     name = name
                 )
                 keyword.save()
-            publication.keywords.add(keyword)
+            keywords.append(keyword)
 
         # DOCUMENT TEXT
-        publication.clean_text = data_pub['clean_text']
+        clean_text = data_pub['clean_text']
 
         abst = data_pub['doc_abstract']
-        publication.abstract = abst if abst != None else ""
+        abstract = abst if abst != None else ""
 
         # AREAS
+        areas = []
+
         for data_area in data_pub['doc_areas']:
             code = data_area['area_code']
             name = data_area['area_name']
@@ -343,12 +984,64 @@ def sync_scopus_docs(pk):
                     name = name
                 )
                 area.save()
-            publication.areas.add(area)
+            areas.append(area)
+
+        reason = add_publication(
+            author = author,
+            scopus_id = scopus_id,
+            ciencia_id = None,
+            doi = doi,
+            title = title,
+            date = date,
+            keywords = keywords,
+            publication_type = publication_type,
+            from_scopus = True, # SCOPUS
+            from_ciencia = False,
+            available = available,
+            clean_text = clean_text,
+            abstract = abstract,
+            areas = areas
+        )
+
+        reason_F2 = " ".join( reason.split(' ')[:2] )
+        reason_L2 = " ".join( reason.split(' ')[2:] )
+        print(reason, "---", reason_F2, "---", reason_L2)
+        if reason == 'new':
+            new += 1
+        elif reason_F2 == 'same scopus':
+            s_sc += 1
+            if reason_L2 == 'different ciencia':
+                s_sc_d_cv += 1
+            elif reason_L2 == 'different doi':
+                s_sc_d_doi += 1
+        elif reason_F2 == 'same ciencia':
+            s_cv += 1
+            if reason_L2 == 'different scopus':
+                s_cv_d_sc += 1
+            elif reason_L2 == 'different doi':
+                s_cv_d_doi += 1
+        elif reason_F2 == 'same doi':
+            s_doi += 1
+            if reason_L2 == 'different scopus':
+                s_doi_d_sc += 1
+            elif reason_L2 == 'different ciencia':
+                s_doi_d_cv += 1
     
-        publication.save()
-        author.publications.add(publication)
-    
-    author.save()
+    print()
+    print('new       '  , new)
+    print()
+    print('s_sc      '  , s_sc)
+    print('  s_sc_d_cv ', s_sc_d_cv)
+    print('  s_sc_d_doi', s_sc_d_doi)
+    print()
+    print('s_cv      '  , s_cv)
+    print('  s_cv_d_sc ', s_cv_d_sc)
+    print('  s_cv_d_doi', s_cv_d_doi)
+    print()
+    print('s_doi     '  , s_doi)
+    print('  s_doi_d_sc', s_doi_d_sc)
+    print('  s_doi_d_cv', s_doi_d_cv)
+
 
 def sync_scopus_author(pk):
     author = Author.objects.get(pk=pk)
@@ -450,9 +1143,18 @@ def sync_ciencia(pk):
         author.domains.add(area)
     
     # PUBLICATIONS
-    case_a = 0
-    case_b = 0
-    case_c = 0
+
+    new = 0
+    s_sc = 0
+    s_sc_d_cv = 0
+    s_sc_d_doi = 0
+    s_cv = 0
+    s_cv_d_sc = 0
+    s_cv_d_doi = 0
+    s_doi = 0
+    s_doi_d_sc = 0
+    s_doi_d_cv = 0
+
     for data_publication in data['publications']:
 
         ciencia_id = data_publication['ciencia_id']
@@ -463,6 +1165,7 @@ def sync_ciencia(pk):
 
         # TYPE (MANDATORY)
         doc_type = data_publication['type'].title()
+        doc_type = 'Article' if doc_type == 'Journal Article' else doc_type
         if PublicationType.objects.filter(name=doc_type).exists():
             publication_type = PublicationType.objects.get(name=doc_type)
         else:
@@ -471,65 +1174,15 @@ def sync_ciencia(pk):
 
         available = False
 
-        has_scopus_id = False
-        ciencia_id_exists = False
-
-        # Check if this has a scopus id
-        if scopus_id != 'None':
-            scopus_id = int(scopus_id)
-
-            # Check if publication already exists as scopus doc
-            if Publication.objects.filter(scopus_id=scopus_id).exists():
-                publication = Publication.objects.get(scopus_id=scopus_id)
-                publication.ciencia_id = ciencia_id
-                has_scopus_id = True
-                # Don't override existing scopus fields
-                #print("Case A: Already a scopus doc. Don't overwrite scopus fields.")
-                case_a += 1
-
-        # If this doesn't have a scopus id, then it's a Ciência exclusive
-        if ciencia_id != None and not has_scopus_id:
-            if Publication.objects.filter(ciencia_id=ciencia_id).exists():
-                publication = Publication.objects.get(ciencia_id=ciencia_id)
-                # Override existing ciencia fields
-                publication.title = title
-                publication.date = date
-                publication.available = available
-                publication.publication_type = publication_type
-                publication.scopus_id = scopus_id
-                publication.doi = doi
-                publication.ciencia_id = ciencia_id
-                ciencia_id_exists = True
-                #print("Case B: Already a ciencia doc.")
-                case_b += 1
+        if scopus_id == 'None':
+            scopus_id = None
         
-        if not has_scopus_id and ciencia_id_exists == False:
-            # Create new publication
-            publication = Publication(
-                title = title,
-                date = date,
-                available = available,
-                publication_type = publication_type,
-                scopus_id = scopus_id,
-                doi = doi,
-                ciencia_id = ciencia_id
-            )
-            publication.save()
-            #print("Case C: New doc.")
-            case_c += 1
-        
-        # Doesn't make sense! If the author exists, then this publication will eventually be added to him/her.
-        # This is adding authors to publications (Publication-author relationship) when what we
-        # actually want is to add publications to authors (Author-publication relationship)
-        #for ciencia_id in data_publication['authors']:
-        #    if Author.objects.filter(ciencia_id=ciencia_id).exists() and ciencia_id != None:
-        #        author = Author.objects.get(ciencia_id=ciencia_id)
-        #        publication.authors.add(author)
+        keywords = []
 
-        # Moved from text to an actual model
-        #publication.keywords = json.dumps(   list(   set( json.loads(publication.keywords) + data_publication['keywords'] )   )   )
         for name in data_publication['keywords']:
+            # Example: a-b cd -> A-b Cd
             name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split())
+            # Example: A-b Cd -> A-B Cd
             name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split('-'))
             # Check keyword
             if Keyword.objects.filter(name=name).exists():
@@ -539,16 +1192,65 @@ def sync_ciencia(pk):
                     name = name
                 )
                 keyword.save()
-            publication.keywords.add(keyword)
+            keywords.append(keyword)
 
-        publication.save()
+        areas = []
 
-        author.publications.add(publication)
-        author.save()
+        reason = add_publication(
+            author = author,
+            scopus_id = scopus_id,
+            ciencia_id = ciencia_id,
+            doi = doi,
+            title = title,
+            date = date,
+            keywords = keywords,
+            publication_type = publication_type,
+            from_scopus = False,
+            from_ciencia = True, # CIENCIA
+            available = None,
+            clean_text = None,
+            abstract = None,
+            areas = areas
+        )
 
-    #print(case_a, ": Already a scopus doc. Don't overwrite scopus fields.")
-    #print(case_b, ": Already a ciencia doc.")
-    #print(case_c, ": New doc.")
+        reason_F2 = " ".join( reason.split(' ')[:2] )
+        reason_L2 = " ".join( reason.split(' ')[2:] )
+        print(reason, "---", reason_F2, "---", reason_L2)
+        if reason == 'new':
+            new += 1
+        elif reason_F2 == 'same scopus':
+            s_sc += 1
+            if reason_L2 == 'different ciencia':
+                s_sc_d_cv += 1
+            elif reason_L2 == 'different doi':
+                s_sc_d_doi += 1
+        elif reason_F2 == 'same ciencia':
+            s_cv += 1
+            if reason_L2 == 'different scopus':
+                s_cv_d_sc += 1
+            elif reason_L2 == 'different doi':
+                s_cv_d_doi += 1
+        elif reason_F2 == 'same doi':
+            s_doi += 1
+            if reason_L2 == 'different scopus':
+                s_doi_d_sc += 1
+            elif reason_L2 == 'different ciencia':
+                s_doi_d_cv += 1
+
+    print()
+    print('new       '  , new)
+    print()
+    print('s_sc      '  , s_sc)
+    print('  s_sc_d_cv ', s_sc_d_cv)
+    print('  s_sc_d_doi', s_sc_d_doi)
+    print()
+    print('s_cv      '  , s_cv)
+    print('  s_cv_d_sc ', s_cv_d_sc)
+    print('  s_cv_d_doi', s_cv_d_doi)
+    print()
+    print('s_doi     '  , s_doi)
+    print('  s_doi_d_sc', s_doi_d_sc)
+    print('  s_doi_d_cv', s_doi_d_cv)
 
     # NAME
     # Some names come uppercased. This can uppercase wrong names but

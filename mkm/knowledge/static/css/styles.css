@@ -1,3 +1,21 @@
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+input {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+.selected {
+    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.1);
+}
+input:hover {
+    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.2);
+}
+
+
 table.author td {
     border: 1px solid;
 }

@@ -1,0 +1,756 @@
+[
+    {
+        "doc_title": "Radar-Based Gesture Recognition Towards Supporting Communication in Aphasia: The Bedroom Scenario",
+        "doc_scopus_id": "85125218898",
+        "doc_doi": "10.1007/978-3-030-94822-1_30",
+        "doc_eid": "2-s2.0-85125218898",
+        "doc_date": "2022-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Aphasia",
+            "Assistive technology",
+            "Communication disorders",
+            "Daily lives",
+            "FMCW radar",
+            "Gesture",
+            "Gestures recognition",
+            "In-bed scenario",
+            "Input modalities",
+            "Smart environment"
+        ],
+        "doc_abstract": "© 2022, ICST Institute for Computer Sciences, Social Informatics and Telecommunications Engineering.Aphasia and other communication disorders affect a person’s daily life, leading to isolation and lack of self-confidence, affecting independence, and hindering the ability to express themselves easily, including asking for help. Even though assistive technology for these disorders already exists, solutions rely mostly on a graphical output and touch, gaze, or brain-activated input modalities, which do not provide all the necessary features to cover all periods of the day (e.g., night-time). In the scope of the AAL APH-ALARM project, we aim at providing communication support to users with speech difficulties (mainly aphasics), while lying in bed. Towards this end, we propose a system based on gesture recognition using a radar deployed, for example, in a wall of the bedroom. A first prototype was implemented and used to evaluate gesture recognition, relying on radar data and transfer learning. The initial results are encouraging, indicating that using a radar can be a viable option to enhance the communication of people with speech difficulties, in the in-bed scenario.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Enhanced Communication Support for Aphasia Using Gesture Recognition: The Bedroom Scenario",
+        "doc_scopus_id": "85118133283",
+        "doc_doi": "10.1109/ISC253183.2021.9562810",
+        "doc_eid": "2-s2.0-85118133283",
+        "doc_date": "2021-09-07",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Information Systems and Management",
+                "area_abbreviation": "DECI",
+                "area_code": "1802"
+            },
+            {
+                "area_name": "Energy Engineering and Power Technology",
+                "area_abbreviation": "ENER",
+                "area_code": "2102"
+            },
+            {
+                "area_name": "Renewable Energy, Sustainability and the Environment",
+                "area_abbreviation": "ENER",
+                "area_code": "2105"
+            },
+            {
+                "area_name": "Transportation",
+                "area_abbreviation": "SOCI",
+                "area_code": "3313"
+            },
+            {
+                "area_name": "Urban Studies",
+                "area_abbreviation": "SOCI",
+                "area_code": "3322"
+            },
+            {
+                "area_name": "Artificial Intelligence",
+                "area_abbreviation": "COMP",
+                "area_code": "1702"
+            }
+        ],
+        "doc_keywords": [
+            "Aphasia",
+            "Assistive technology",
+            "Communication support",
+            "Gesture",
+            "Gestures recognition",
+            "In-bed scenario",
+            "Language disorders",
+            "Sensor",
+            "Smart environment",
+            "Speech disorders"
+        ],
+        "doc_abstract": "© 2021 IEEE.Citizens with speech and language disorders, such as Aphasia, often experience difficulties in expressing their needs. Assistive technologies for these disorders rely mostly on graphical interfaces activated by touch or gaze, which do not effectively cover all communication contexts throughout the day and may raise privacy concerns. In the scope of the AAL APH-ALARM project, our main aim is to extend communication support for users with speech and language difficulties (mainly aphasics) in the bedroom environment. We propose a system for supporting communication based on gesture recognition using non-invasive compact sensors worn by the user or deployed in the environment (e.g., bed). A first prototype was implemented using wrist-worn sensors and machine learning to recognize a small set of gestures. Initial results suggest that gesture recognition to enhance communication for people with speech and language impairments is viable, even when in bed.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "An accessible smart home based on integrated multimodal interaction",
+        "doc_scopus_id": "85112347183",
+        "doc_doi": "10.3390/s21165464",
+        "doc_eid": "2-s2.0-85112347183",
+        "doc_date": "2021-08-02",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Analytical Chemistry",
+                "area_abbreviation": "CHEM",
+                "area_code": "1602"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            },
+            {
+                "area_name": "Atomic and Molecular Physics, and Optics",
+                "area_abbreviation": "PHYS",
+                "area_code": "3107"
+            },
+            {
+                "area_name": "Biochemistry",
+                "area_abbreviation": "BIOC",
+                "area_code": "1303"
+            },
+            {
+                "area_name": "Instrumentation",
+                "area_abbreviation": "PHYS",
+                "area_code": "3105"
+            },
+            {
+                "area_name": "Electrical and Electronic Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2208"
+            }
+        ],
+        "doc_keywords": [
+            "Adaptive interaction",
+            "Environmentally friendly homes",
+            "Green homes",
+            "Information and communications technology",
+            "Multi-modal",
+            "Multi-Modal Interactions",
+            "Multiple devices",
+            "Suitable solutions",
+            "Attitude",
+            "Ecosystem",
+            "Humans"
+        ],
+        "doc_abstract": "© 2021 by the authors. Licensee MDPI, Basel, Switzerland. aa.Our homes are becoming increasingly sensorized and smarter. However, they are also becoming increasingly complex, making accessing them and their advantages difficult. Assistants have the potential for improving the accessibility of smart homes, by providing everyone with an integrated, natural, and multimodal way of interacting with the home’s ecosystem. To demonstrate this potential and contribute to more environmentally friendly homes, in the scope of the project Smart Green Homes, a home assistant highly integrated with an ICT (Information and communications technology) home infrastructure was developed, deployed in a demonstrator, and evaluated by seventy users. The users’ global impression of our home assistant is in general positive, with 61% of the participants rating it as good or excellent overall and 51% being likely or very likely to recommend it to others. Moreover, most think that the assistant enhances interaction with the smart home’s multiple devices and is easy to use by everyone. These results show that a home assistant providing an integrated view of a smart home, through natural, multimodal, and adaptive interaction, is a suitable solution for enhancing the accessibility of smart homes and thus contributing to a better living ambient for all of their inhabitants.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Supporting the Assessment of Hereditary Transthyretin Amyloidosis Patients Based on 3-D Gait Analysis and Machine Learning",
+        "doc_scopus_id": "85110860562",
+        "doc_doi": "10.1109/TNSRE.2021.3096433",
+        "doc_eid": "2-s2.0-85110860562",
+        "doc_date": "2021-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Internal Medicine",
+                "area_abbreviation": "MEDI",
+                "area_code": "2724"
+            },
+            {
+                "area_name": "Neuroscience (all)",
+                "area_abbreviation": "NEUR",
+                "area_code": "2800"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Rehabilitation",
+                "area_abbreviation": "MEDI",
+                "area_code": "2742"
+            }
+        ],
+        "doc_keywords": [
+            "Follow up",
+            "Gait cycles",
+            "Gait parameters",
+            "Healthy controls",
+            "K-nearest neighbors",
+            "Ml algorithms",
+            "Onset detection",
+            "Transthyretin",
+            "Amyloid Neuropathies, Familial",
+            "Gait",
+            "Gait Analysis",
+            "Humans",
+            "Neural Networks, Computer",
+            "Support Vector Machine"
+        ],
+        "doc_abstract": "© 2001-2011 IEEE.Hereditary Transthyretin Amyloidosis (vATTR-V30M) is a rare and highly incapacitating sensorimotor neuropathy caused by an inherited mutation (Val30Met), which typically affects gait, among other symptoms. In this context, we investigated the possibility of using machine learning (ML) techniques to build a model(s) that can be used to support the detection of the Val30Met mutation (possibility of developing the disease), as well as symptom onset detection for the disease, given the gait characteristics of a person. These characteristics correspond to 24 gait parameters computed from 3-D body data, provided by a Kinect v2 camera, acquired from a person while walking towards the camera. To build the model(s), different ML algorithms were explored: k-nearest neighbors, decision tree, random forest, support vector machines (SVM), and multilayer perceptron. For a dataset corresponding to 66 subjects (25 healthy controls, 14 asymptomatic mutation carriers, and 27 patients) and several gait cycles per subject, we were able to obtain a model that distinguishes between controls and vATTR-V30M mutation carriers (with or without symptoms) with a mean accuracy of 92% (SVM). We also obtained a model that distinguishes between asymptomatic and symptomatic carriers with a mean accuracy of 98% (SVM). These results are very relevant, since this is the first study that proposes a ML approach to support vATTR-V30M patient assessment based on gait, being a promising foundation for the development of a computer-aided diagnosis tool to help clinicians in the identification and follow-up of this disease. Furthermore, the proposed method may also be used for other neuropathies.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A Smart Home for All Supported by User and Context Adaptation",
+        "doc_scopus_id": "85108058459",
+        "doc_doi": "10.1145/3439231.3439259",
+        "doc_eid": "2-s2.0-85108058459",
+        "doc_date": "2020-12-02",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Human-Computer Interaction",
+                "area_abbreviation": "COMP",
+                "area_code": "1709"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Low light",
+            "Smart appliances",
+            "Smart homes",
+            "User and context adaptation"
+        ],
+        "doc_abstract": "© 2020 Owner/Author.Homes are becoming increasingly smarter, enabling us to control their smart appliances and devices, as well as obtain relevant information on the home. However, accessibility in smart homes for all is still a challenge, with information being presented in the same way to the different users and in distinct contexts. If the interaction is not adapted to the user, certain citizens (e.g., children, and older/impaired people) can be excluded from exploiting the full potential of smart homes. Furthermore, without adaptation to the context, interaction becomes more difficult in some situations (e.g., noisy or low-light environments). With the aim of enhancing smart home accessibility, we propose a solution for adapting the information presented during interaction with the home to the user's characteristics, capabilities and preferences, as well as to the context, namely the environment's noise and luminosity, and user distance.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Clinical 3-D Gait Assessment of Patients With Polyneuropathy Associated With Hereditary Transthyretin Amyloidosis",
+        "doc_scopus_id": "85097304023",
+        "doc_doi": "10.3389/fneur.2020.605282",
+        "doc_eid": "2-s2.0-85097304023",
+        "doc_date": "2020-11-23",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Neurology",
+                "area_abbreviation": "NEUR",
+                "area_code": "2808"
+            },
+            {
+                "area_name": "Neurology (clinical)",
+                "area_abbreviation": "MEDI",
+                "area_code": "2728"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "© Copyright © 2020 Vilas-Boas, Rocha, Cardoso, Fernandes, Coelho and Cunha.Hereditary amyloidosis associated with transthyretin V30M (ATTRv V30M) is a rare and inherited multisystemic disease, with a variable presentation and a challenging diagnosis, follow-up and treatment. This condition entails a definitive and progressive motor impairment that compromises walking ability from near onset. The detection of the latter is key for the disease's diagnosis. The aim of this work is to perform quantitative 3-D gait analysis in ATTRv V30M patients, at different disease stages, and explore the potential of the obtained gait information for supporting early diagnosis and/or stage distinction during follow-up. Sixty-six subjects (25 healthy controls, 14 asymptomatic ATTRv V30M carriers, and 27 symptomatic patients) were included in this case-control study. All subjects were asked to walk back and forth for 2 min, in front of a Kinect v2 camera prepared for body motion tracking. We then used our own software to extract gait-related parameters from the camera's 3-D body data. For each parameter, the main subject groups and symptomatic patient subgroups were statistically compared. Most of the explored gait parameters can potentially be used to distinguish between the considered group pairs. Despite of statistically significant differences being found, most of them were undetected to the naked eye. Our Kinect camera-based system is easy to use in clinical settings and provides quantitative gait information that can be useful for supporting clinical assessment during ATTRv V30M onset detection and follow-up, as well as developing more objective and fine-grained rating scales to further support the clinical decisions.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Subject Identification Based on Gait Using a RGB-D Camera",
+        "doc_scopus_id": "85064957482",
+        "doc_doi": "10.1007/978-3-030-17065-3_8",
+        "doc_eid": "2-s2.0-85064957482",
+        "doc_date": "2020-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Control and Systems Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2207"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Biological characteristic",
+            "Biometric authentication",
+            "Gait",
+            "K-nearest neighbors",
+            "Kinect v2",
+            "Machine learning techniques",
+            "Rgb-d cameras",
+            "Subject identification"
+        ],
+        "doc_abstract": "© 2020, Springer Nature Switzerland AG.Biometric authentication (i.e., verification of a given subject’s identity using biological characteristics) relying on gait characteristics obtained in a non-intrusive way can be very useful in the area of security, for smart surveillance and access control. In this contribution, we investigated the possibility of carrying out subject identification based on a predictive model built using machine learning techniques, and features extracted from 3-D body joint data provided by a single low-cost RGB-D camera (Microsoft Kinect v2). We obtained a dataset including 400 gait cycles from 20 healthy subjects, and 25 anthropometric measures and gait parameters per gait cycle. Different machine learning algorithms were explored: k-nearest neighbors, decision tree, random forest, support vector machines, multilayer perceptron, and multilayer perceptron ensemble. The algorithm that led to the model with best trade-off between the considered evaluation metrics was the random forest: overall accuracy of 99%, class accuracy of 100Â±Â0%, and F1 score of 99Â±Â2%. These results show the potential of using a RGB-D camera for subject identification based on quantitative gait analysis.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Validation of a single RGB-D camera for gait assessment of polyneuropathy patients",
+        "doc_scopus_id": "85074813878",
+        "doc_doi": "10.3390/s19224929",
+        "doc_eid": "2-s2.0-85074813878",
+        "doc_date": "2019-11-02",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Analytical Chemistry",
+                "area_abbreviation": "CHEM",
+                "area_code": "1602"
+            },
+            {
+                "area_name": "Biochemistry",
+                "area_abbreviation": "BIOC",
+                "area_code": "1303"
+            },
+            {
+                "area_name": "Atomic and Molecular Physics, and Optics",
+                "area_abbreviation": "PHYS",
+                "area_code": "3107"
+            },
+            {
+                "area_name": "Instrumentation",
+                "area_abbreviation": "PHYS",
+                "area_code": "3105"
+            },
+            {
+                "area_name": "Electrical and Electronic Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2208"
+            }
+        ],
+        "doc_keywords": [
+            "3-D motion analysis",
+            "Gait",
+            "Neuropathy",
+            "Rgb-d cameras",
+            "System validity",
+            "Amyloid Neuropathies, Familial",
+            "Biomechanical Phenomena",
+            "Gait",
+            "Humans",
+            "Polyneuropathies",
+            "Quality of Life"
+        ],
+        "doc_abstract": "© 2019 by the authors. Licensee MDPI, Basel, Switzerland.Motion analysis systems based on a single markerless RGB-D camera are more suitable for clinical practice than multi-camera marker-based reference systems. Nevertheless, the validity of RGB-D cameras for motor function assessment in some diseases affecting gait, such as Transthyretin Familial Amyloid Polyneuropathy (TTR-FAP), is yet to be investigated. In this study, the agreement between the Kinect v2 and a reference system for obtaining spatiotemporal and kinematic gait parameters was evaluated in the context of TTR-FAP. 3-D body joint data provided by both systems were acquired from ten TTR-FAP symptomatic patients, while performing ten gait trials. For each gait cycle, we computed several spatiotemporal and kinematic gait parameters. We then determined, for each parameter, the Bland Altman’s bias and 95% limits of agreement, as well as the Pearson’s and concordance correlation coefficients, between systems. The obtained results show that an affordable, portable and non-invasive system based on an RGB-D camera can accurately obtain most of the studied gait parameters (excellent or good agreement for eleven spatiotemporal and one kinematic). This system can bring more objectivity to motor function assessment of polyneuropathy patients, potentially contributing to an improvement of TTR-FAP treatment and understanding, with great benefits to the patients’ quality of life.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "TTR-FAP Progression Evaluation Based on Gait Analysis Using a Single RGB-D Camera",
+        "doc_scopus_id": "85077850306",
+        "doc_doi": "10.1109/EMBC.2019.8857354",
+        "doc_eid": "2-s2.0-85077850306",
+        "doc_date": "2019-07-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Camera systems",
+            "Gait analysis systems",
+            "Gait parameters",
+            "Motor function",
+            "Neurological disorders",
+            "Quality of life",
+            "Reference systems",
+            "Statistically significant difference",
+            "Amyloid Neuropathies, Familial",
+            "Gait",
+            "Gait Analysis",
+            "Humans",
+            "Prealbumin",
+            "Quality of Life"
+        ],
+        "doc_abstract": "© 2019 IEEE.Transthyretin Familial Amyloid Polyneuropathy (TTR-FAP) is a rare and disabling neurological disorder caused by a mutation of the transthyretin gene. One of the disease's characteristics that mostly affects patients' quality of life is its influence on locomotion, with a variable evolution timing. Quantitative motion analysis is useful for assessing motor function, including gait, in diseases affecting movement. However, it is still an evolving field, especially in TTR-FAP, with only a few available studies. A single markerless RGB-D camera provides 3-D body joint data in a less expensive, more portable and less intrusive way than reference multi-camera marker-based systems for motion capture. In this contribution, we investigate if a gait analysis system based on a RGB-D camera can be used to detect gait changes over time for a given TTR-FAP patient. 3-D data provided by that system and a reference system were acquired from six TTR-FAP patients, while performing a simple gait task, once and then a year and a half later. For each gait cycle and system, several gait parameters were computed. For each patient, we investigated if the RBG-D camera system is able to detect the existence or not of statistically significant differences between the two different acquisitions (separated by 1.5 years of disease evolution), in a similar way to the reference system. The obtained results show the potential of using a single RGB-D camera to detect relevant changes in spatiotemporal gait parameters (e.g., stride duration and stride length), during TTR-FAP patient follow-up.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Full-body motion assessment: Concurrent validation of two body tracking depth sensors versus a gold standard system during gait",
+        "doc_scopus_id": "85063288984",
+        "doc_doi": "10.1016/j.jbiomech.2019.03.008",
+        "doc_eid": "2-s2.0-85063288984",
+        "doc_date": "2019-04-18",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Biophysics",
+                "area_abbreviation": "BIOC",
+                "area_code": "1304"
+            },
+            {
+                "area_name": "Orthopedics and Sports Medicine",
+                "area_abbreviation": "MEDI",
+                "area_code": "2732"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Rehabilitation",
+                "area_abbreviation": "MEDI",
+                "area_code": "2742"
+            }
+        ],
+        "doc_keywords": [
+            "3-D motion analysis",
+            "Gait",
+            "Kinect",
+            "Qualisys",
+            "Rgb-d cameras",
+            "System validity",
+            "Adult",
+            "Biomechanical Phenomena",
+            "Biosensing Techniques",
+            "Female",
+            "Gait",
+            "Humans",
+            "Knee Joint",
+            "Male",
+            "Middle Aged",
+            "Motion",
+            "Reproducibility of Results",
+            "Software",
+            "Walking",
+            "Young Adult"
+        ],
+        "doc_abstract": "© 2019 Elsevier LtdRGB-D cameras provide 3-D body joint data in a low-cost, portable and non-intrusive way, when compared with reference motion capture systems used in laboratory settings. In this contribution, we evaluate the validity of both Microsoft Kinect versions (v1 and v2) for motion analysis against a Qualisys system in a simultaneous protocol. Two different walking directions in relation to the Kinect (towards – WT, and away – WA) were explored. For each gait trial, measures related with all body parts were computed: velocity of all joints, distance between symmetrical joints, and angle at some joints. For each measure, we compared each Kinect version and Qualisys by obtaining the mean true error and mean absolute error, Pearson's correlation coefficient, and optical-to-depth ratio. Although both Kinect v1 and v2 and/or WT and WA data present similar accuracy for some measures, better results were achieved, overall, when using WT data provided by the Kinect v2, especially for velocity measures. Moreover, the velocity and distance presented better results than angle measures. Our results show that both Kinect versions can be an alternative to more expensive systems such as Qualisys, for obtaining distance and velocity measures as well as some angles metrics (namely the knee angles). This conclusion is important towards the off-lab non-intrusive assessment of motor function in different areas, including sports and healthcare.",
+        "available": true,
+        "clean_text": "serial JL 271132 291210 291695 291880 31 Journal of Biomechanics JOURNALBIOMECHANICS 2019-03-18 2019-03-18 2019-03-30 2019-03-30 2019-05-08T20:42:58 S0021-9290(19)30186-1 S0021929019301861 10.1016/j.jbiomech.2019.03.008 S300 S300.2 FULL-TEXT 2019-06-05T10:37:56.337598Z 0 0 20190418 2019 2019-03-18T07:40:15.514394Z articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist yearnav figure table e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid primabst pubtype ref 0021-9290 00219290 true 87 87 C Volume 87 26 189 196 189 196 20190418 18 April 2019 2019-04-18 2019 Short Communications article sco © 2019 Elsevier Ltd. All rights reserved. FULLBODYMOTIONASSESSMENTCONCURRENTVALIDATIONTWOBODYTRACKINGDEPTHSENSORSVERSUSAGOLDSTANDARDSYSTEMDURINGGAIT VILASBOAS M 1 Introduction 2 Methods 2.1 Subjects and experimental setup 2.2 Experimental protocol and data acquisition 2.3 Data processing 2.4 System validation 3 Results 4 Discussion 5 Data availability Appendix A Supplementary material References BEHRENS 2014 89 J BEHRENS 2016 1596 1606 J CAPECCI 2016 M PROCEEDINGS38THANNUALINTERNATIONALCONFERENCEIEEEENGINEERINGINMEDICINEBIOLOGYSOCIETYEMBCORLANDOFLORIDAUSA ACCURACYEVALUATIONKINECTV2SENSORDURINGDYNAMICMOVEMENTSINAREHABILITATIONSCENARIO CHEN 2017 e0170472 X CLARK 2013 2722 2725 R CLARK 2012 372 377 R CLARK 2015 210 213 R CUNHA 2016 e0145669 J GALNA 2014 1062 1068 B GEERSE 2015 e0139913 D GROBELNY 2017 e0189281 A MENTIPLAY 2015 2166 2170 B MULLER 2017 e0175813 B NAPOLI 2017 265 280 A OTTE 2016 e0166532 K PFISTER 2014 274 280 A PORTNEY 2015 L FOUNDATIONSCLINICALRESEARCHAPPLICATIONSPRACTICE RCORETEAM 2015 RALANGUAGEENVIRONMENTFORSTATISTICALCOMPUTING ROCHA 2014 A PROCEEDINGS36THANNUALINTERNATIONALCONFERENCEIEEEENGINEERINGINMEDICINEBIOLOGYSOCIETYEMBCCHICAGOILLINOISUSA PARKINSONSDISEASEASSESSMENTBASEDGAITANALYSISUSINGINNOVATIVERGBDCAMERASYSTEM ROCHA 2015 A PROCEEDINGS7THANNUALINTERNATIONALCONFERENCEIEEEENGINEERINGINMEDICINEBIOLOGYSOCIETYEMBCMILANITALY KINECTV2BASEDSYSTEMFORPARKINSONSDISEASEASSESSMENT ROCHA 2018 e0201728 A WANG 2015 Q PROCEEDINGSINTERNATIONALCONFERENCEHEALTHCAREINFORMATICSICHIDALLASTXUSA EVALUATIONPOSETRACKINGACCURACYINFIRSTSECONDGENERATIONSMICROSOFTKINECT XU 2015 47 54 X XU 2015 145 151 X VILASBOASX2019X189 VILASBOASX2019X189X196 VILASBOASX2019X189XM VILASBOASX2019X189X196XM 2020-03-30T00:00:00.000Z 2020-03-30T00:00:00.000Z © 2019 Elsevier Ltd. All rights reserved. item S0021-9290(19)30186-1 S0021929019301861 10.1016/j.jbiomech.2019.03.008 271132 2019-06-05T10:37:56.337598Z 2019-04-18 true 659541 MAIN 8 57687 849 656 IMAGE-WEB-PDF 1 gr1 17624 142 219 gr1 88448 503 774 gr1 503547 2226 3425 mmc1 mmc1.pptx pptx 125354 APPLICATION si1 2412 43 334 am 2186425 BM 9106 S0021-9290(19)30186-1 10.1016/j.jbiomech.2019.03.008 Elsevier Ltd Fig 1 Overall Pearson’s correlation coefficient results, for both Kinects (v1 and v2), the three types of computed measures (velocity, distance and angle), and walking towards (WT) and away (WA) from the sensor. Green stands for excellent (≥0.90), yellow for good (≥0.75 and <0.90), orange for moderate (≥0.50 and <0.75) and red for poor correlation (<0.50). Results are indicated for the main body segments/joints with the exception of the trunk for the distance measure. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Table 1 Summary of the state-of-the-art concerning the validity of the Kinect. n.d. stands for not-disclosed. Author, Year Goal Kinect version Experimental setup No. of subjects Performed task(s) Measures Evaluation metrics Main conclusions Clark et al., 2012 Postural control assessment v1 Subject at 2.5 m from Kinect 20 healthy Three postural tasks Joint displacement and trunk flexion angle Pearson’s correlation coefficient (r), ordinary least products regression, and Bland-Altman 95% limits of agreement (LoA) The Kinect can be used to assess kinematic variables during postural control tasks. Clark et al., 2013 Gait assessment v1 n.d. 21 healthy Walking (comfortable pace) Spatiotemporal gait parameters Bland-Altman bias and 95% LoA, percentage error, r, and concordance correlation coefficient (r c) Gait speed, step length and stride length present excellent relative and overall agreement. For the remaining variables, agreement varies between poor and excellent. Galna et al., 2014 Movement measurement in Parkinson's disease patients v1 1 Kinect w/ 1 m height, tilt angle of 0°; subjects at 3 m from Kinect 9 w/ Parkinson’s disease + 10 healthy Clinically relevant tasks (including walking) Temporal and spatial measures Bland-Altman bias and 95% LoA, r, and intraclass correlation coefficient (ICC) The Kinect accurately measures timing for all movements, and spatial characteristics for gross movements. Pfister et al., 2014 Gait assessment during treadmill walking v1 1 Kinect w/ 43 cm height, placed 45˚ to the left of treadmill 20 healthy Treadmill walking (three different speeds) Stride timing; hip and knee flexion and extension angles Bland-Altman bias, r The Kinect under-estimates joint flexion, while it over-estimated joint extension. The hip angular displacement has very low correlation and a large error. The knee measurements were better correlated than the hip, but were not consistent enough for clinical applications. For stride timing, correlation was high, and error was relatively small. Behrens et al., 2014 Feasibility of computerized versions of walking tests v1 1 Kinect in front of subject 140 cm above ground, angled −9° towards the floor 22 w/ Multiple Sclerosis + 22 healthy Short Maximum Speed Walk test gait speed and degree of sway feasibility, reliability and correlation with EDSS and the T25FW Detection of ambulation speed via the joint hip-centre was feasible and reliable. SMSW average walking speed was a valid parameter asdemonstrated by retest reliability results and the strongcorrelation with established clinical scores. Xu & McGorry, 2015 Kinect's joint tracking algorithm evaluation v1 and v2 n.d. 20 + 20 healthy Standing and sitting postures Joint position (time series) Distance between joint position provided by Kinect and ground truth system Accuracy is better for standing than sitting, and for upper than lower limb joints. The average error for all joints is slightly higher for Kinect v2 comparing with v1 (difference of 1 cm). Clark et al., 2015 Standing balance and postural control assessment v2 Subjects at 2.5 m from Kinect 30 healthy Standing and dynamic balance tasks Trunk angle range; sternum and pelvis range and path length Bland-Altman plots with 95% LoA, and r Relative agreement was excellent for trunk angle (dynamic tasks), as well as for anterior-posterior range and path length (static tasks). For the medial–lateral range an path length, the agreement varied between poor and modest for all static tasks expect one. Xu et al., 2015 Gait assessment during treadmill walking v1 1 Kinect in front of treadmill 20 healthy Treadmill walking (three different speeds) Spatiotemporal and kinematic gait parameters Bland-Altman bias, r and r c (spatiotemporal parameters); Bland-Altman bias (kinematic parameters and associated timing); root mean square error (angle at knee and hip, joint time series) Accuracy varies across the gait parameters. The Kinect is able to follow the trend of the knee and hip joint trajectories, despite substantial error in magnitudes. Mentiplay et al., 2015 Gait assessment v2 n.d. 30 healthy Walking (comfortable and fast pace) Spatiotemporal and kinematic gait parameters Bland-Altman plots, r, and r c Most spatiotemporal parameters presented excellent agreement, while agreement was poor to modest for kinematic parameters . Geerse et al., 2015 Gait assessment v2 4 Kinects alongside a walkway (first sensor at 4 m from start, and 2.5 m of inter-sensor distance) w/ 0.75 m height 21 healthy Walking (comfortable and maximum speeds) Joint position time series; spatiotemporal gait parameters; 10 m walking time Bland-Altman’s bias and limits of agreement, ICC Joint location time series obtained with the multi-Kinect v2 setup agree well with those derived with a gold standard. Agreement was also high for the time to walk 10 m and all gait parameters except one. Wang et al., 2015 Pose tracking v1 and v2 1 Kinect w/ 1.5 m height; three different viewpoints 10 healthy Standing and sitting tasks Joint position (20 joints); bone length Distance/difference between joint position/bone length provided by Kinect and ground truth system Kinect v2 has better accuracy in joint position estimation (more robust to occlusions and body rotation). Capecci et al., 2016 Low-back pain rehabilitation v2 n.d. 12 healthy Low-back pain physiotherapy exercises Joint angle, distance, and position Absolute and relative error for maximum and minimum value (angle and position); offset and root mean square error (distance); absolute error for time-peak distance (angle and position) Temporal accuracy: Kinect v2 can accurately measure timing characteristics of physical exercises. Spatial accuracy: Better for tasks involving upper limbs comparing with lower limbs. Otte et al., 2016 Clinical measurement of motor function v2 1 Kinect w/ 1.4 m height, tilt angle of − 8° 19 healthy Sitting, standing and walking tasks Joint position (21 out of 25 joints); spatiotemporal and kinematic measures Distance, r, and signal to noise ratio (SNR) for joint position provided by Kinect and ground truth system; Bland-Altman bias and 95% LoA, r, and ICC, for the spatiotemporal and kinematic measures Accuracy of Kinect v2 joint estimation is moderate to excellent, w/ larger noise for ankles and feet. Agreement is good to excellent for most spatiotemporal and kinematic measures. Behrens et al., 2016 Visual perceptive computing (VPC) for static posturography v1 1 Kinect w/ 1.4 m height, mean distance of 2.3 m 90 w/ Multiple Sclerosis + 59 healthy Static stance tests in three conditions with eyes open and closed. Body’s centre of mass displacement Clinical scores and intra-class correlation coefficients at retest Closed stance test showed best applicability and reliability. Postural control can be reliably assessed by VPC-based static posturography in patients with MS. Muller et al., 2017 Gait assessment v2 6 Kinects placed pairwise in rows along 7 m 10 healthy Walking (comfortable pace) Spatiotemporal gait parameters Bland-Altman bias, reproducibility coefficient, and coefficient of variation, r, and ICC Kinect's joint tracking is sensitive to view angle. Better accuracy for two-sided than one-sided setup, mainly due to better lower body joint tracking. Excellent agreement for all gait parameters for two-sided setup. Temporal synchronization between Kinects is essential. Napoli et al., 2017 Dynamic posture assessment v2 2 Kinects placed at 2 m and 4 m in front of the subject 4 healthy Several dynamic postures Joint displacement (time series) Cross correlation coefficients (CCR), root mean squared error (RMSE), and a new summary metric combining the two first metrics High levels of agreement when tracking joint displacements, but lower agreement levels were achieved when tracking joint angles. Grobelny et al., 2017 Gait assessment v1 1 Kinect in front of the subjects who walked from 3.5 to 1.5 m from the camera 95 w/ Multiple Sclerosis + 60 healthy Gait Average speed, Speed deviation, Vertical deviation, Mediolateral deviation and 3D deviation, based on the coordinates of the “hip center joint” Skewness and kurtosis, Mann-Whitney U test, Spearman’s Rho, ICC, Standard error of measurement, smallest real difference, one-wayrepeated measures ANOVA, multivariate linearregressions per variable, Pearson correlation, Bland-Altman-Plot, Student‘s t-test, Levene‘s test, Welch‘s t-test Average speed was the most reliable parameter. VPC-assessed walking parameters during SMSW can reliably detect gait disturbance in PwMS over very short distance Table 2 Mean and standard deviation values for the mean true and absolute errors, Pearson’s correlation coefficient (r), and optical-to-depth ratio (ODR), for velocity, distance and angle of the considered body segments (trunk, upper limbs (UL), upper lower limbs (upper-LL), and lower lower limbs (lower-LL)), and joints (hips, knees, ankles and feet). The values are indicated for both Kinect versions (v1 and v2), and for walking both towards (WT) and away (WA) from the sensors. Results were obtained from 20 participants, 10 trials each (200 trials in total). The presented values correspond to the mean value of: each body side (left and right for individual joints); segment’ joints (for body segments); and the full-body results (in bold) represent the mean values of all body segments. Measure a & Body segments/Joints b Kinect version Walking towards the sensor (WT) Walking away from the sensor (WA) Mean True error (m/s) Mean Absolute error (m/s) r ODR (dB) Mean True error (m/s) Mean Absolute error (m/s) r ODR (dB) Vel. Trunk v1 0.06 ± 0.02 0.09 ± 0.02 0.79 ± 0.13 2.44 ± 3.19 0.10 ± 0.04 0.13 ± 0.04 0.61 ± 0.24 −1.86 ± 4.64 v2 0.01 ± 0.01 0.06 ± 0.01 0.86 ± 0.10 6.06 ± 3.78 0.02 ± 0.02 0.08 ± 0.03 0.64 ± 0.24 −0.16 ± 5.68 Vel. UL v1 0.09 ± 0.03 0.15 ± 0.04 0.90 ± 0.07 7.37 ± 2.95 0.09 ± 0.04 0.17 ± 0.07 0.83 ± 0.17 5.10 ± 3.67 v2 0.01 ± 0.02 0.10 ± 0.07 0.92 ± 0.15 10.51 ± 3.43 0.03 ± 0.04 0.12 ± 0.09 0.82 ± 0.25 7.06 ± 5.37 Vel. Upper-LL v1 0.08 ± 0.03 0.17 ± 0.03 0.82 ± 0.08 5.95 ± 2.01 0.10 ± 0.05 0.21 ± 0.06 0.74 ± 0.16 3.56 ± 2.58 v2 0.02 ± 0.02 0.15 ± 0.05 0.84 ± 0.13 6.59 ± 2.13 0.04 ± 0.03 0.19 ± 0.07 0.74 ± 0.20 3.94 ± 3.01 Vel. Lower-LL v1 0.12 ± 0.06 0.40 ± 0.12 0.92 ± 0.05 9.28 ± 2.53 0.13 ± 0.09 0.47 ± 0.17 0.90 ± 0.13 7.98 ± 2.50 v2 0.06 ± 0.05 0.37 ± 0.16 0.92 ± 0.14 9.71 ± 2.33 0.11 ± 0.07 0.47 ± 0.23 0.89 ± 0.20 8.39 ± 2.61 Vel. Full-Body v1 0.09 ± 0.04 0.19 ± 0.05 0.87 ± 0.08 6.48 ± 2.73 0.10 ± 0.05 0.23 ± 0.08 0.78 ± 0.17 3.98 ± 3.41 v2 0.02 ± 0.02 0.15 ± 0.07 0.89 ± 0.13 8.68 ± 3.02 0.05 ± 0.04 0.19 ± 0.10 0.78 ± 0.23 5.26 ± 4.41 Dist. UL v1 20.43 ± 10.96 24.42 ± 8.53 0.88 ± 0.10 5.71 ± 3.37 19.37 ± 10.92 23.25 ± 9.69 0.77 ± 0.17 3.66 ± 4.39 v2 26.26 ± 8.31 29.13 ± 8.15 0.90 ± 0.15 7.24 ± 3.87 21.97 ± 11.14 25.40 ± 12.32 0.82 ± 0.21 5.41 ± 5.60 Dist. Knees v1 18.23 ± 15.52 24.55 ± 12.41 0.89 ± 0.12 7.41 ± 3.49 45.07 ± 14.72 48.24 ± 13.60 0.84 ± 0.12 5.54 ± 3.05 v2 13.04 ± 7.89 18.94 ± 6.50 0.93 ± 0.08 8.98 ± 2.53 26.14 ± 8.98 31.36 ± 8.89 0.88 ± 0.12 6.31 ± 3.07 Dist. Ankles v1 31.35 ± 25.82 40.19 ± 24.66 0.95 ± 0.09 12.58 ± 4.47 29.02 ± 23.50 44.96 ± 21.24 0.94 ± 0.08 10.87 ± 3.50 v2 44.44 ± 17.06 48.67 ± 21.04 0.94 ± 0.13 12.58 ± 4.58 36.24 ± 15.82 44.64 ± 21.05 0.96 ± 0.11 12.55 ± 3.62 Dist. Feet v1 77.01 ± 32.76 81.88 ± 29.46 0.92 ± 0.10 9.20 ± 3.18 89.62 ± 22.49 93.83 ± 20.84 0.93 ± 0.08 9.88 ± 2.86 v2 88.14 ± 27.03 91.25 ± 27.04 0.92 ± 0.12 9.30 ± 2.92 109.64 ± 20.32 114.0 ± 19.82 0.92 ± 0.11 8.84 ± 2.55 Dist. Full-Body v1 31.31 ± 17.83 36.64 ± 15.35 0.90 ± 0.10 7.72 ± 3.54 36.97 ± 15.58 42.80 ± 14.13 0.84 ± 0.13 6.21 ± 3.76 v2 37.40 ± 12.82 41.04 ± 13.17 0.91 ± 0.13 8.76 ± 3.61 39.65 ± 13.09 44.37 ± 14.45 0.87 ± 0.16 7.32 ± 4.34 Ang. Trunk v1 3.37 ± 2.84 4.21 ± 2.54 0.23 ± 0.45 3.56 ± 3.11 8.15 ± 5.87 9.36 ± 5.27 0.08 ± 0.41 −8.30 ± 5.63 v2 8.87 ± 3.77 9.04 ± 3.60 0.41 ± 0.44 0.36 ± 4.28 5.14 ± 5.25 5.74 ± 4.96 0.08 ± 0.44 −4.28 ± 4.39 Ang. UL v1 9.09 ± 2.27 10.02 ± 1.97 0.60 ± 0.29 3.54 ± 3.29 12.50 ± 3.74 13.12 ± 3.43 0.15 ± 0.30 −0.87 ± 2.90 v2 5.94 ± 2.05 6.90 ± 1.92 0.59 ± 0.29 4.00 ± 3.06 10.49 ± 2.84 11.16 ± 2.44 0.10 ± 0.28 −0.77 ± 2.94 Ang. Hips v1 5.21 ± 2.73 6.19 ± 2.07 0.62 ± 0.23 2.14 ± 2.18 5.15 ± 2.81 7.34 ± 2.54 0.13 ± 0.42 −1.66 ± 2.74 v2 6.32 ± 2.84 8.55 ± 2.07 0.13 ± 0.33 −2.75 ± 2.84 4.47 ± 2.62 6.60 ± 1.66 0.54 ± 0.26 −0.80 ± 2.70 Ang. Knees v1 8.16 ± 2.87 9.04 ± 2.81 0.93 ± 0.11 8.42 ± 2.95 3.34 ± 2.29 7.31 ± 2.70 0.87 ± 0.18 6.79 ± 3.05 v2 2.62 ± 1.60 5.22 ± 1.71 0.94 ± 0.10 9.47 ± 2.13 4.52 ± 2.67 7.12 ± 2.84 0.91 ± 0.20 8.17 ± 2.74 Ang. Ankles v1 15.88 ± 8.91 27.21 ± 5.57 −0.18 ± 0.25 −10.12 ± 1.78 27.26 ± 7.53 33.63 ± 5.30 0.01 ± 0.24 −10.38 ± 3.06 v2 6.61 ± 5.44 17.72 ± 2.88 −0.15 ± 0.24 −9.02 ± 1.45 20.83 ± 7.31 32.08 ± 5.89 −0.02 ± 0.21 −11.33 ± 2.35 Ang. Full-Body v1 8.47 ± 3.65 11.11 ± 2.82 0.46 ± 0.27 0.60 ± 3.15 11.48 ± 4.33 13.98 ± 3.78 0.23 ± 0.31 −2.55 ± 3.38 v2 6.27 ± 3.02 9.05 ± 2.44 0.42 ± 0.30 0.96 ± 2.92 9.32 ± 3.92 12.31 ± 3.37 0.29 ± 0.28 −1.63 ± 3.01 a Vel., Dist. and Ang. stand for velocity, distance and angle, respectively. b UL e LL stand for upper and lower limb, respectively. Short communication Full-body motion assessment: Concurrent validation of two body tracking depth sensors versus a gold standard system during gait Maria do Carmo Vilas-Boas a Hugo Miguel Pereira Choupina a Ana Patrícia Rocha b José Maria Fernandes b João Paulo Silva Cunha a ⁎ a Institute for Systems Engineering and Computers – Technology and Science (INESC TEC), and Faculty of Engineering (FEUP), University of Porto, 4200-391 Porto, Portugal Institute for Systems Engineering and Computers – Technology and Science (INESC TEC), and Faculty of Engineering (FEUP) University of Porto 4200-391 Porto Portugal b Institute of Electronics and Informatics Engineering of Aveiro (IEETA), and Department of Electronics, Telecommunications and Informatics, University of Aveiro, Campus Universitário de Santiago, 3810-193 Aveiro, Portugal Institute of Electronics and Informatics Engineering of Aveiro (IEETA), and Department of Electronics, Telecommunications and Informatics University of Aveiro Campus Universitário de Santiago 3810-193 Aveiro Portugal ⁎ Corresponding author. RGB-D cameras provide 3-D body joint data in a low-cost, portable and non-intrusive way, when compared with reference motion capture systems used in laboratory settings. In this contribution, we evaluate the validity of both Microsoft Kinect versions (v1 and v2) for motion analysis against a Qualisys system in a simultaneous protocol. Two different walking directions in relation to the Kinect (towards – WT, and away – WA) were explored. For each gait trial, measures related with all body parts were computed: velocity of all joints, distance between symmetrical joints, and angle at some joints. For each measure, we compared each Kinect version and Qualisys by obtaining the mean true error and mean absolute error, Pearson’s correlation coefficient, and optical-to-depth ratio. Although both Kinect v1 and v2 and/or WT and WA data present similar accuracy for some measures, better results were achieved, overall, when using WT data provided by the Kinect v2, especially for velocity measures. Moreover, the velocity and distance presented better results than angle measures. Our results show that both Kinect versions can be an alternative to more expensive systems such as Qualisys, for obtaining distance and velocity measures as well as some angles metrics (namely the knee angles). This conclusion is important towards the off-lab non-intrusive assessment of motor function in different areas, including sports and healthcare. Keywords RGB-D camera Kinect Qualisys System validity 3-D motion analysis Gait 1 Introduction A single RGB-D camera, such as the Microsoft Kinect, is able to track the 3-D position of several body joints, without interfering with the scene or requiring calibration. Currently, there are two versions of this sensor: Kinect v1 (Kv1, released in 2010), and Kinect v2 (Kv2, released in 2014). Data provided by the Kinect includes RGB images, depth information, and 3-D position of twenty and twenty-five body joints for Kv1 and Kv2, respectively. The Kv2 further provides infrared images. These sensors are low-cost and portable, when compared with reference systems (e.g., Vicon or Qualisys) typically only available in specialized laboratories and requiring complex and time-consuming setups. To ensure that the information provided by RGB-D cameras is trustworthy for the intended application, it is important to evaluate its accuracy for a specific goal against a reference system. An overview of the state-of-the-art using the Kinect for motion assessment is presented in Table 1 , including studies related with posture and balance (Behrens et al., 2016; Clark et al., 2012; Clark et al., 2015; Wang et al., 2015), gait (Behrens et al., 2014; Pfister et al., 2014; Clark et al., 2013; Mentiplay et al., 2015; Muller et al., 2017), movement-related diseases (Chen et al., 2017; Galna et al., 2014; Grobelny et al., 2017), rehabilitation (Capecci et al., 2016) and joint position estimation (Otte et al., 2016; Xu and McGorry, 2015; Xu et al., 2015, Napoli et al., 2017). To our knowledge, no contribution compared both Kinects simultaneously in the context of gait. When conducting gait analysis, researchers usually rely only on data acquired while participants walk towards the sensor (Clark et al., 2012; Galna et al., 2014; Geerse et al., 2015; Muller et al., 2017; Otte et al., 2016; Xu et al., 2015). This requires the subject to perform multiple repetitions to acquire sufficient data. If walking away from the sensor and towards it present comparable quality and usefulness, the former data could also be used, bringing benefits (reduced entropy and time) to gait-related applications. In this contribution, we evaluate the validity of both Kv1 and Kv2 for 3-D gait analysis when compared with a reference multi-camera marker-based system (Qualisys). We aim to study the compromise in terms of accuracy when using a single RGB-D camera, mimicking a possible clinical scenario. We acquired 3-D body joint data from twenty healthy subjects during ten trials consisting of walking towards (WT) and away (WA) from the Kinects. For each trial, we compared each Kinect version with Qualisys by obtaining the mean true and mean absolute errors, Pearson’s correlation coefficient and optical-to-depth ratio, for several measures associated with all body parts (velocity, distance and angle). 2 Methods 2.1 Subjects and experimental setup Our experiment was conducted at LABIOMEP (Porto Biomechanics Laboratory), with the participation of twenty healthy individuals (10 male and 10 female, age: 30.5 ± 8.07 [22–51] years, height: 1.71 ± 10.9 [1.50–1.94] m, body mass index: 23.1 ± 3.2 [17–31] kg/m2). Results presented below are only applicable to cohorts of the same age range. None of the participants had any history of movement impairment or physical limitation. This study was conducted according to the Helsinki Declaration and approved by the Ethics Committee of Santo António University Hospital (Portugal). All participants signed an informed consent form. The experimental setup comprised three systems: Qualisys system (Qualisys AB, Sweden), Kv1 and Kv2 (Microsoft Corporation, USA). The Qualisys system included 12 Oqus infrared cameras, and thirty-six retroreflective markers placed on the subject’s body according to the marker setup used in (Rocha et al., 2018). The Kinects were placed in front of the subject, at a height of 1 m, with a tilt angle of −10°/−5° (Kv1/Kv2), as shown in (Rocha et al., 2018). The angle was chosen to maximize the practical depth range: 1.84 m (WT) and 2.06 m (WA) for Kv1; 2.71 m (WT) and 2.66 m (WA) for Kv2. 2.2 Experimental protocol and data acquisition For each participant, the experiment consisted of performing ten gait trials (20 subjects, 200 trials). Each trial included walking towards (WT) the RGB-D cameras and walking away (WA) from them, for 14 m, at a self-selected comfortable pace. Data provided by the Kinects were acquired simultaneously at 30 Hz, using our KinecTracker (KiT) software application that enables online visualization and acquisition of the data provided by a Kinect (Cunha et al., 2016). At the same time, the 3-D position of the Qualisys markers were acquired at 200 Hz. The body joints tracked by both versions of the Kinect are shown in (Rocha et al., 2015). The joint nomenclature used in this contribution follows the Kv2 labelling (Microsoft, 2018). Body joints tracked exclusively by Kv2 were not considered. 2.3 Data processing Qualisys data were processed using a zero-lag low-pass fourth order Butterworth filter with a cut-off frequency of 15 Hz (values chosen based on the signals’ frequency content). For both Kinects, joint data were filtered using a similar filter but with a cut-off frequency of 4 Hz. Furthermore, Kinect data were resampled to 200 Hz so that data from all systems have an identical fixed sampling rate. The synchronization of the three systems was possible using a specific temporal event visible to all of them: dropping an extra marker at the beginning of each trial. The following measures were computed for each frame: velocity of all 20 joints; distance between symmetrical joints; angle at specific joints (Rocha et al., 2014). Trials with outliers for Qualisys data were not taken into account. Data corresponding to WT and WA trials were automatically selected based on data provided by the Kinects. Further information on data processing is presented in Supplementary Data. 2.4 System validation For each trial and measure, we computed the mean true error and mean absolute error, Pearson’s correlation coefficient (r) and optical-to-depth ratio (ODR), between the time series obtained from each Kinect version and Qualisys. The mean true error is the mean value for the difference between the Kinect and Qualisys values for all frames. The mean absolute error is similar, but the absolute difference value is considered. The correlation coefficient r shows the strength and direction of the relationship between two signals. The following thresholds were set for r, according to the guidelines given by Portney and Watkins (Portney and Watkins, 2015): poor (<0.5), moderate (≥0.5 and <0.75), good (≥0.75 and <0.9) and excellent (≥0.9). ODR quantifies the noise behavior of the Kinect when compared with Qualisys. ODR was computed based on signal-to-noise ratio definition using (1), where var(Qualisys) is the variance of the measure extracted from Qualisys data and var(Kinect − Qualisys) is the variance of the true error of the Kinect comparing with Qualisys (Otte et al., 2016). Large negative values (< −10 dB) indicate that the Kinect data has considerably more noise than Qualisys data. An ODR value higher than 10 dB indicates that the difference between the two systems’ signals is negligible (the variance of the Qualisys signal is 10 times larger than the noise variance). (1) ODR = 10 log 10 var ( Q u a l i s y s ) var ( K i n e c t - Q u a l i s y s ) d B To verify if there are statistically significant differences between the four considered cases (Kv1 + WT, Kv1 + WA, Kv2 + WT, Kv2 + WA), we performed a one-way repeated-measures analysis of variance (ANOVA), for each measure and evaluation metric. If a significant difference was detected (p-value ≤ 0.05), a post-hoc Tukey test was then carried out to find which cases are significantly different. All data processing and statistical analysis described in this section were performed in MATLAB (The MathWorks Inc.), except for the ANOVA and Tukey tests which were performed in the R environment (version 3.5.1) (R Core Team, 2015). 3 Results Table 2 presents the mean and standard deviation values for the mean true error and mean absolute error, Pearson’s correlation coefficient (r) and ODR, for each measure, body segment/joint, Kinect version and walking trial (WT or WA). Complete results obtained for each individual joint are available on Supplementary Tables S8–S16. The results consider the following body segments: trunk (head, neck, spine base, spine middle), upper limbs (shoulders, elbows, wrists, hands), upper-lower limbs (upper-LL: hips and knees) and lower-LL (ankles and feet). Fig. 1 illustrates the correlation coefficient results for the different measures, body segments/joints, Kinect versions and WT/WA trials. 4 Discussion Comparing the two Kinect versions, the obtained mean errors were overall lower for Kv2, which may be due to the improvements made to the tracking algorithm over Kv1. Although Wang et al. evaluated other measures and activities (Wang et al., 2015), our findings are in accordance with their results. Furthermore, the mean error for velocity and distance measures was lower for upper than lower limbs (LL) – in agreement with (Capecci et al., 2016; Xu and McGorry, 2015). This error tends to be higher for joints closer to the ground, which was expected due to the greater movement of the limbs’ extremities during gait and possible interferences from infrared reflections on the floor. On the other hand, for the velocity, trunk and upper-LL have the lowest ODR values. For WT trials, correlation is excellent (upper limbs and lower-LL) or good. Analyzing the opposite direction (WA), correlation is excellent and good for the lower-LL (Kv1 and Kv2, respectively), moderate for trunk and upper-LL, and good for other segments. Velocity measures extracted from Kinects data are noisier than Qualisys data, which is reflected in lower ODR values. As for the distance, the mean estimation errors are between 1 and 11 cm, which is in line with the literature (Clark et al., 2015; Galna et al., 2014) and may be acceptable for some applications. However, caution should be taken when preparing or interpreting fine movements' studies. Nevertheless, correlation is excellent or good for all considered body segments, Kinect versions and walking directions. Additionally, the mean ODR values are higher for distances than for the other measures. When analyzing angle measures, correlation ranges from moderate (hips and upper limbs) to poor, and mean ODR values are low (except for the knees, which may be due to the higher range of motion). For WA, the trunk and ankle angles have the worst mean r and ODR values. To the best of our knowledge, no other study analyzed upper body angles during gait. The poor results for most joint angles, when compared with other measures, can be due to the angle computation involving three joints. Thus, less accurate joint position estimations have a larger negative effect. Moreover, the physical configuration of the RGB-D sensors may not be the most adequate for measuring angles. Further studies are necessary to verify if angle measurement can be improved. Although for some cases there are no statistically significant differences between Kv1 and Kv2 and/or between WT and WA, significant differences were found between two or more of the four considered conditions (Kv1 + WT, Kv1 + WA, Kv2 + WT, Kv2 + WA) for most measures/metrics. For the velocity measures, the best results are achieved when using the Kv2 and WT data, overall. However, for the distance and angle measures, this depends on the considered joint. Although further investigation is needed, from the present study, it seems that WA data may be used in some cases. In conclusion, our results show that both Kinect versions can be an alternative to more expensive and intrusive reference systems, such as Qualisys, for obtaining distance and velocity measures as well as some angle measures (namely the knee angles). However, as the practical depth range is larger for Kv2, using it allows acquiring more data for the same number of trials. Regarding the comparison between WT and WA, although for some joints both data can be used with similar accuracy, better results were achieved, overall, for the traditional approach of using WT (especially for velocity measures). 5 Data availability The dataset used is available with the corresponding author. Acknowledgements This work was supported by European Union funds through POCH2020, and by national funds through Portuguese Foundation for Science and Technology (FCT), in the context of scholarship SFRH/BD/110438/2015, and projects UID/CEC/00127/2013, Incentivo/EEI/UI0127/2014, FCOMP-01-0124-FEDER-028943 and FCOMP-01-0124-FEDER-029673. It was also partially funded by NORTE2020 Integrated Projects NanoSTIMA “NORTE-01-0145-FEDER-000016” and SMILES-1 “NORTE-01-0145-FEDER-000020”, under the PORTUGAL 2020 Partnership Agreement and through the European Regional Development Fund. We would like to thank Débora Pereira for coding contributions and Pedro Fonseca for assistance in data collection. Author Contributions Statement JPSC, HMPC, MCVB and APR conceptualized the article. MCVB, HMPC and APR performed project administration, data curation and software development. MCVB, HMPC and APR performed the experiments, formal analysis and investigation. JMF and JPSC were the supervisors of the project. MCVB and HMPC wrote the original draft. All authors reviewed the manuscript. Conflict of interest statement The authors declare no competing financial interests. Appendix A Supplementary material Supplementary data to this article can be found online at Appendix A Supplementary material The following are the Supplementary data to this article: Supplementary Data 1 References Behrens et al., 2014 J. Behrens C. Pfüller S. Mansow-Model Using perceptive computing in multiple sclerosis the Short Maximum Speed Walk test J. NeuroEng. Rehab. 11 1 2014 89 Behrens et al., 2016 J.R. Behrens S. Mertens T. Kruger Validity of visual perceptive computing for static posturography in patients with multiple sclerosis Mult. Scler. J. 22 12 2016 1596 1606 Capecci et al., 2016 M. Capecci M.G. Ceravolo F. Ferracuti Accuracy evaluation of the Kinect v2 sensor during dynamic movements in a rehabilitation scenario Proceedings of the 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). Orlando, Florida, USA 2016 Chen et al., 2017 X. Chen J. Siebourg-Polster D. Wolf Feasibility of using Microsoft Kinect to assess upper limb movement in type III spinal muscular atrophy patients PLoS One 12 1 2017 e0170472 Clark et al., 2013 R.A. Clark K.J. Bower B.F. Mentiplay Concurrent validity of the Microsoft Kinect for assessment of spatiotemporal gait variables J. Biomech. 46 15 2013 2722 2725 Clark et al., 2012 R.A. Clark Y.H. Pua K. Fortin Validity of the Microsoft Kinect for assessment of postural control Gait Posture 36 3 2012 372 377 Clark et al., 2015 R.A. Clark Y.H. Pua C.C. Oliveira Reliability and concurrent validity of the Microsoft Xbox One Kinect for assessment of standing balance and postural control Gait Posture 42 2 2015 210 213 Cunha et al., 2016 J.P. Cunha H.M. Choupina A.P. Rocha NeuroKinect: a novel low-cost 3Dvideo-EEG system for epileptic seizure motion quantification PLoS One 11 1 2016 e0145669 Galna et al., 2014 B. Galna G. Barry D. Jackson Accuracy of the Microsoft Kinect sensor for measuring movement in people with Parkinson's disease Gait Posture 39 4 2014 1062 1068 Geerse et al., 2015 D.J. Geerse B.H. Coolen M. Roerdink Kinematic validation of a Multi-Kinect v2 instrumented 10-meter walkway for quantitative gait assessments PLoS One 10 10 2015 e0139913 Grobelny et al., 2017 A. Grobelny J.R. Behrens S. Mertens Maximum walking speed in multiple sclerosis assessed with visual perceptive computing PLoS One 12 12 2017 e0189281 Mentiplay et al., 2015 B.F. Mentiplay L.G. Perraton K.J. Bower Gait assessment using the Microsoft Xbox One Kinect: concurrent validity and inter-day reliability of spatiotemporal and kinematic variables J. Biomech. 48 10 2015 2166 2170 Microsoft, 2018 Microsoft, 2018, JointType Enumeration, Muller et al., 2017 B. Muller W. Ilg M.A. Giese N. Ludolph Validation of enhanced kinect sensor based motion capturing for gait assessment PLoS One 12 4 2017 e0175813 Napoli et al., 2017 A. Napoli S. Glass C. Ward Performance analysis of a generalized motion capture system using microsoft kinect 2.0 Biomed. Signal Processing and Control 38 2017 265 280 Otte et al., 2016 K. Otte B. Kayser S. Mansow-Model Accuracy and reliability of the Kinect Version 2 for clinical measurement of motor function PLoS One 11 11 2016 e0166532 Pfister et al., 2014 A. Pfister A.M. West S. Bronner J.A. Noah Comparative abilities of Microsoft Kinect and Vicon 3D motion capture for gait analysis J Med Eng Technol 38 5 2014 274 280 Portney and Watkins, 2015 L.G. Portney M.P. Watkins Foundations of Clinical Research: Applications to Practice 3rd revised ed 2015 F.A. Davis Company Philadelphia R Core Team, 2015 R Core Team R: A Language and Environment for Statistical Computing 2015 Austria Vienna Rocha et al., 2014 A.P. Rocha H.M.P. Choupina J.M. Fernandes Parkinson’s Disease Assessment Based on Gait Analysis Using an Innovative RGB-D Camera System Proceedings of the 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC). Chicago, Illinois, USA 2014 Rocha et al., 2015 A.P. Rocha H.M.P. Choupina J.M. Fernandes Kinect v2 Based System for Parkinson’s Disease Assessment Proceedings of the 7th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Milan, Italy 2015 Rocha et al., 2018 A.P. Rocha H.M.P. Choupina M.C. Vilas-Boas System for automatic gait analysis based on a single RGB-D camera PLoS One 13 8 2018 e0201728 The MathWorks Inc. The MathWorks Inc., MATLAB R2016b, Natick, Massachusetts, United States, Wang et al., 2015 Q. Wang G. Kurillo F. Ofli R. Bajcsy Evaluation of Pose Tracking Accuracy in the First and Second Generations of Microsoft Kinect Proceedings of the International Conference on Healthcare Informatics (ICHI), Dallas, TX, USA 2015 Xu and McGorry, 2015 X. Xu R.W. McGorry The validity of the first and second generation Microsoft Kinect for identifying joint center locations during static postures Appl. Ergon. 49 2015 47 54 Xu et al., 2015 X. Xu R.W. McGorry L.S. Chou Accuracy of the Microsoft Kinect for measuring gait parameters during treadmill walking Gait Posture 42 2 2015 145 151 "
+    },
+    {
+        "doc_title": "System for automatic gait analysis based on a single RGB-D camera",
+        "doc_scopus_id": "85052395331",
+        "doc_doi": "10.1371/journal.pone.0201728",
+        "doc_eid": "2-s2.0-85052395331",
+        "doc_date": "2018-08-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Biochemistry, Genetics and Molecular Biology (all)",
+                "area_abbreviation": "BIOC",
+                "area_code": "1300"
+            },
+            {
+                "area_name": "Agricultural and Biological Sciences (all)",
+                "area_abbreviation": "AGRI",
+                "area_code": "1100"
+            },
+            {
+                "area_name": "Multidisciplinary",
+                "area_abbreviation": "MULT",
+                "area_code": "1000"
+            }
+        ],
+        "doc_keywords": [
+            "Automation",
+            "Biomechanical Phenomena",
+            "Gait",
+            "Gait Analysis",
+            "Humans"
+        ],
+        "doc_abstract": "© 2018 Rocha et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.Human gait analysis provides valuable information regarding the way of walking of a given subject. Low-cost RGB-D cameras, such as the Microsoft Kinect, are able to estimate the 3-D position of several body joints without requiring the use of markers. This 3-D information can be used to perform objective gait analysis in an affordable, portable, and non-intrusive way. In this contribution, we present a system for fully automatic gait analysis using a single RGB-D camera, namely the second version of the Kinect. Our system does not require any manual intervention (except for starting/stopping the data acquisition), since it firstly recognizes whether the subject is walking or not, and identifies the different gait cycles only when walking is detected. For each gait cycle, it then computes several gait parameters, which can provide useful information in various contexts, such as sports, healthcare, and biometric identification. The activity recognition is performed by a predictive model that distinguishes between three activities (walking, standing and marching), and between two postures of the subject (facing the sensor, and facing away from it). The model was built using a multilayer perceptron algorithm and several measures extracted from 3-D joint data, achieving an overall accuracy and F1 score of 98%. For gait cycle detection, we implemented an algorithm that estimates the instants corresponding to left and right heel strikes, relying on the distance between ankles, and the velocity of left and right ankles. The algorithm achieved errors for heel strike instant and stride duration estimation of 15 ± 25 ms and 1 ± 29 ms (walking towards the sensor), and 12 ± 23 ms and 2 ± 24 ms (walking away from the sensor). Our gait cycle detection solution can be used with any other RGB-D camera that provides the 3-D position of the main body joints.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "NeuroKinect 3.0: Multi-bed 3Dvideo-EEG system for epilepsy clinical motion monitoring",
+        "doc_scopus_id": "85046552825",
+        "doc_doi": "10.3233/978-1-61499-852-5-46",
+        "doc_eid": "2-s2.0-85046552825",
+        "doc_date": "2018-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Clinical routine",
+            "Epilepsy",
+            "Epilepsy monitoring units",
+            "Kinect v2",
+            "Markerless",
+            "Multimedia data",
+            "Rgb-d cameras",
+            "Electroencephalography",
+            "Epilepsy",
+            "Humans",
+            "Monitoring, Physiologic",
+            "Motion",
+            "Movement"
+        ],
+        "doc_abstract": "© 2018 European Federation for Medical Informatics (EFMI) and IOS Press.Epilepsy diagnosis is typically performed through 2Dvideo-EEG monitoring, relying on the viewer's subjective interpretation of the patient's movements of interest. Several attempts at quantifying seizure movements have been performed in the past using 2D marker-based approaches, which have several drawbacks for the clinical routine (e.g. occlusions, lack of precision, and discomfort for the patient). These drawbacks are overcome with a 3D markerless approach. Recently, we published the development of a single-bed 3Dvideo-EEG system using a single RGB-D camera (Kinect v1). In this contribution, we describe how we expanded the previous single-bed system to a multi-bed departmental one that has been managing 6.61 Terabytes per day since March 2016. Our unique dataset collected so far includes 2.13 Terabytes of multimedia data, corresponding to 278 3Dvideo-EEG seizures from 111 patients. To the best of the authors' knowledge, this system is unique and has the potential of being spread to multiple EMUs around the world for the benefit of a greater number of patients.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "The first Transthyretin Familial Amyloid Polyneuropathy gait quantification study - Preliminary results",
+        "doc_scopus_id": "85032230564",
+        "doc_doi": "10.1109/EMBC.2017.8037087",
+        "doc_eid": "2-s2.0-85032230564",
+        "doc_date": "2017-09-13",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Amyloid Neuropathies, Familial",
+            "Gait",
+            "Humans",
+            "Mutation",
+            "Prealbumin",
+            "Quality of Life"
+        ],
+        "doc_abstract": "© 2017 IEEE.Transthyretin Familial Amyloid Polyneuropathy (TTR-FAP) is a rare neurological disease caused by a genetic mutation with a variable presentation and consequent challenging diagnosis, complex follow-up and treatment. At this moment, this condition has no cure and treatment options are under development. One of the disease's implications is a definite and progressive motor impairment that from the early stages compromises walking ability and daily life activities. The detection of this impairment is key for the disease onset diagnosis. With the goal of improving diagnosis of the symptoms and patients' quality of life, the authors have assessed the gait characteristics of subjects suffering from this condition. This contribution shows the results of a preliminary study, using a non-intrusive, markerless vision-based gait analysis tool. To the best of our knowledge, the reported results constitute the first gait analysis data of TTR-FAP mutation carriers.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A novel portable, low-cost kinect-based system for motion analysis in neurological diseases",
+        "doc_scopus_id": "85009135298",
+        "doc_doi": "10.1109/EMBC.2016.7591199",
+        "doc_eid": "2-s2.0-85009135298",
+        "doc_date": "2016-10-13",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Humans",
+            "Image Processing, Computer-Assisted",
+            "Motion",
+            "Movement",
+            "Parkinson Disease",
+            "Photography",
+            "Quality of Life",
+            "Software"
+        ],
+        "doc_abstract": "© 2016 IEEE.Many neurological diseases, such as Parkinson's disease and epilepsy, can significantly impair the motor function of the patients, often leading to a dramatic loss of their quality of life. Human motion analysis is regarded as fundamental towards an early diagnosis and enhanced follow-up in this type of diseases. In this contribution, we present NeuroKinect, a novel system designed for motion analysis in neurological diseases. This system includes an RGB-D camera (Microsoft Kinect) and two integrated software applications, KiT (KinecTracker) and KiMA (Kinect Motion Analyzer). The applications enable the preview, acquisition, review and management of data provided by the sensor, which are then used for motion analysis of relevant events. NeuroKinect is a portable, low-cost and markerless solution that is suitable for use in the clinical environment. Furthermore, it is able to provide quantitative support to the clinical assessment of different neurological diseases with movement impairments, as demonstrated by its usage in two different clinical routine scenarios: gait analysis in Parkinson's disease and seizure semiology analysis in epilepsy.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "NeuroKinect: A novel low-cost 3Dvideo-EEG ystem for epileptic seizure motion quantification",
+        "doc_scopus_id": "84958211363",
+        "doc_doi": "10.1371/journal.pone.0145669",
+        "doc_eid": "2-s2.0-84958211363",
+        "doc_date": "2016-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Multidisciplinary",
+                "area_abbreviation": "MULT",
+                "area_code": "1000"
+            }
+        ],
+        "doc_keywords": [
+            "Algorithms",
+            "Electroencephalography",
+            "Epilepsy",
+            "Equipment Design",
+            "Humans",
+            "Image Processing, Computer-Assisted",
+            "Monitoring, Physiologic",
+            "Motion",
+            "Video Recording"
+        ],
+        "doc_abstract": "© 2016 Cunha et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.Epilepsy is a common neurological disorder which affects 0.5-1% of the world population. Its diagnosis relies both on Electroencephalogram (EEG) findings and characteristic seizure induced body movements called seizure semiology. Thus, synchronous EEG and (2D)video recording systems (known as VideoEEG) are the most accurate tools for epilepsy diagnosis. Despite the establishment of several quantitative methods for EEG analysis, seizure semiology is still analyzed by visual inspection, based on epileptologists' subjective interpretation of the movements of interest (MOIs) that occur during recorded seizures. In this contribution, we present NeuroKinect, a low-cost, easy to setup and operate solution for a novel 3Dvideo-EEG system. It is based on a RGB-D sensor (Microsoft Kinect camera) and performs 24/7 monitoring of an Epilepsy Monitoring Unit (EMU) bed. It does not require the attachment of any reflectors or sensors to the patient's body and has a very low maintenance load. To evaluate its performance and usability, we mounted a state-ofthe-Art 6-camera motion-capture system and our low-cost solution over the same EMU bed. A comparative study of seizure-simulated MOIs showed an average correlation of the resulting 3D motion trajectories of 84.2%. Then, we used our system on the routine of an EMU and collected 9 different seizures where we could perform 3D kinematic analysis of 42 MOIs arising from the temporal (TLE) (n = 19) and extratemporal (ETE) brain regions (n = 23). The obtained results showed that movement displacement and movement extent discriminated both seizure MOI groups with statistically significant levels (mean = 0.15 m vs. 0.44 m, p0.001; mean = 0.068 m3 vs. 0.14 m3, p0.05, respectively). Furthermore, TLE MOIs were significantly shorter than ETE (mean = 23 seconds vs 35 seconds, p0.01) and presented higher jerking levels (mean = 345 ms3 vs 172 ms3, p0.05). Our newly implemented 3D approach is faster by 87.5% in extracting body motion trajectories when compared to a 2D frame by frame tracking procedure. We conclude that this new approach provides a more comfortable (both for patients and clinical professionals), simpler, faster and lower-cost procedure than previous approaches, therefore providing a reliable tool to quantitatively analyze MOI patterns of epileptic seizures in the routine of EMUs around the world. We hope this study encourages other EMUs to adopt similar approaches so that more quantitative information is used to improve epilepsy diagnosis.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Kinect v2 based system for Parkinson's disease assessment",
+        "doc_scopus_id": "84953208317",
+        "doc_doi": "10.1109/EMBC.2015.7318601",
+        "doc_eid": "2-s2.0-84953208317",
+        "doc_date": "2015-11-04",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Deep Brain Stimulation",
+            "Gait",
+            "Humans",
+            "Parkinson Disease",
+            "Subthalamic Nucleus"
+        ],
+        "doc_abstract": "© 2015 IEEE.Human motion analysis can provide valuable information for supporting the clinical assessment of movement disorders, such as Parkinson's disease (PD). In this contribution, we study the suitability of a Kinect v2 based system for supporting PD assessment in a clinical environment, in comparison to the original Kinect (v1). In this study, 3-D body joint data were acquired from both normal subjects, and PD patients treated with deep brain stimulation (DBS). Then, several gait parameters were extracted from the gathered data. The obtained results show that 96% of the considered parameters are appropriate for distinguishing between non-PD subjects, PD patients with DBS stimulator switched on, and PD patients with stimulator switched off (p-value < 0.001, Kruskal-Wallis test). These results are markedly better than the ones obtained using Kinect v1, where only 73% of the parameters are considered appropriate (p-value < 0.001).",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Parkinson's disease assessment based on gait analysis using an innovative RGB-D camera system",
+        "doc_scopus_id": "84929494064",
+        "doc_doi": "10.1109/EMBC.2014.6944285",
+        "doc_eid": "2-s2.0-84929494064",
+        "doc_date": "2014-11-02",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Medicine (all)",
+                "area_abbreviation": "MEDI",
+                "area_code": "2700"
+            }
+        ],
+        "doc_keywords": [
+            "Clinical assessments",
+            "Deep brain stimulation",
+            "Discriminative power",
+            "Hospital environment",
+            "Human motion analysis",
+            "Microsoft kinect",
+            "Motor impairments",
+            "Parkinson's disease",
+            "Deep Brain Stimulation",
+            "Female",
+            "Gait",
+            "Humans",
+            "Joints",
+            "Male",
+            "Middle Aged",
+            "Parkinson Disease",
+            "Photography",
+            "User-Computer Interface"
+        ],
+        "doc_abstract": "© 2014 IEEE.Movement-related diseases, such as Parkinson's disease (PD), progressively affect the motor function, many times leading to severe motor impairment and dramatic loss of the patients' quality of life. Human motion analysis techniques can be very useful to support clinical assessment of this type of diseases. In this contribution, we present a RGB-D camera (Microsoft Kinect) system and its evaluation for PD assessment. Based on skeleton data extracted from the gait of three PD patients treated with deep brain stimulation and three control subjects, several gait parameters were computed and analyzed, with the aim of discriminating between non-PD and PD subjects, as well as between two PD states (stimulator ON and OFF). We verified that among the several quantitative gait parameters, the variance of the center shoulder velocity presented the highest discriminative power to distinguish between non-PD, PD ON and PD OFF states (p = 0.004). Furthermore, we have shown that our low-cost portable system can be easily mounted in any hospital environment for evaluating patients' gait. These results demonstrate the potential of using a RGB-D camera as a PD assessment tool.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "MonitorMe: Online video monitoring for first responders using a smartphone",
+        "doc_scopus_id": "84894174245",
+        "doc_doi": "10.1109/HealthCom.2013.6720774",
+        "doc_eid": "2-s2.0-84894174245",
+        "doc_date": "2013-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "Video can be a valuable source of information for monitoring first responders during operations in the field. In this paper we propose the MonitorMe, an application that supports online video monitoring of first responders. MonitorMe allows capturing video from a personal perspective, using a smartphone camera, and sending it to a remote observer. In order to reduce battery consumption and bandwidth usage, MonitorMe modulates the video frame rate according to the user activity/speed. The latter are estimated using the smartphone built-in accelerometer. The results have shown the potential of MonitorMe as a reliable non-GPS solution, which can be used for remote online monitoring of first responders in action. © 2013 IEEE.",
+        "available": false,
+        "clean_text": ""
+    }
+]

@@ -1,0 +1,891 @@
+[
+    {
+        "doc_title": "eFish – An innovative fresh fish evaluation system",
+        "doc_scopus_id": "85086254935",
+        "doc_doi": "10.1007/978-3-030-45691-7_20",
+        "doc_eid": "2-s2.0-85086254935",
+        "doc_date": "2020-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Control and Systems Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2207"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "European union",
+            "Fish consumption",
+            "Food poisoning",
+            "Fresh fish",
+            "Mobile applications",
+            "Portugal"
+        ],
+        "doc_abstract": "© The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Switzerland AG 2020.Portugal is a country with a large coastal extension and a fishing and sea tradition which place it on the top of fresh, salty and deep-frozen fish consumption in the European Union. The incapacity by consumers to evaluate the degree of freshness and quality of fish for consumption may cause health problems, such as food poisoning, hence the preference of consumers for deep-frozen products instead of healthier fish that is sold fresh. In this project we intend to contribute to an improvement in the evaluation by the final consumer of the quality of fresh fish sold to them through creating a reference table of fish degradation (at this experimental stage for mackerel and sardine) and the development of a mobile application allowing, in a near future, for users to determine the rate of freshness of fish they wish to acquire. The reference table creation is based on the degradation/dehydration of the fish’s eye as well as a respective coloration (opaqueness), which changes according to the time since the fish was caught.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Key factors for implementation and success of destination management systems. Empirical evidence from European countries",
+        "doc_scopus_id": "85085203529",
+        "doc_doi": "10.1108/IMDS-11-2019-0598",
+        "doc_eid": "2-s2.0-85085203529",
+        "doc_date": "2020-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Management Information Systems",
+                "area_abbreviation": "BUSI",
+                "area_code": "1404"
+            },
+            {
+                "area_name": "Industrial Relations",
+                "area_abbreviation": "BUSI",
+                "area_code": "1410"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Strategy and Management",
+                "area_abbreviation": "BUSI",
+                "area_code": "1408"
+            },
+            {
+                "area_name": "Industrial and Manufacturing Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2209"
+            }
+        ],
+        "doc_keywords": [
+            "Design/methodology/approach",
+            "European Countries",
+            "International tourisms",
+            "Management systems",
+            "Private sectors",
+            "Questionnaire surveys",
+            "Research models",
+            "Technological infrastructure"
+        ],
+        "doc_abstract": "© 2020, Emerald Publishing Limited.Purpose: Destination management organizations perform a very important role regarding the management of tourism destinations. Destination management systems are a key technological infrastructure for these organizations. However, in the literature, it is not clear what are the factors that promote the implementation of these systems, neither what are the factors that contribute to their success. This study aims to propose and test two research models to overcome these research gaps. Design/methodology/approach: The first model refers to the determinants of the implementation of destination management systems, and the second model refers to the determinants of the success of those systems. The models are tested with data collected through a questionnaire survey from destination management organizations of five European countries, which are among the leaders in international tourism receipts. Findings: Concerning the factors that promote the implementation of destination management systems, this study reveals the importance of the diversity of partnerships that the private sector establishes in the destination, of advantages resulting from governance and of partners' involvement in the functions of destination management organizations. Concerning the factors that promote the success of these systems, this study highlights the importance of a phased implementation, the fact that a high number of functionalities in the system prevents success and the importance of having a revenue model that can support financial and operating costs. Originality/value: The study provides important theoretical and practical contributions to the successful implementation of destination management systems by destination management organizations.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Google Trends in tourism and hospitality research: a systematic literature review",
+        "doc_scopus_id": "85071660963",
+        "doc_doi": "10.1108/JHTT-08-2018-0086",
+        "doc_eid": "2-s2.0-85071660963",
+        "doc_date": "2019-11-21",
+        "doc_type": "Review",
+        "doc_areas": [
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            },
+            {
+                "area_name": "Tourism, Leisure and Hospitality Management",
+                "area_abbreviation": "BUSI",
+                "area_code": "1409"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "© 2019, Emerald Publishing Limited.Purpose: This paper aims to conduct a review of the literature published, between 2006 and 2018, that used search engine data on tourism and hospitality research, namely, Google Insights for Search and Google Trends. More specifically, it intends to identify the purpose and context of the data use, ascertaining the main findings and reviewing the methodological approaches. Design/methodology/approach: A systematic literature review of Scopus indexed research has been carried out. Given the novelty of search engine data use in tourism and hospitality research and the relatively low number of search results in Scopus, other databases were used to broaden the scope of analysis, namely, EBSCO and Google Scholar. The papers selected were subjected to content and statistical analyses. Findings: Google Trends data use in tourism and hospitality research has increased significantly from 2012 to 2017, mainly for tourism forecasting/nowcasting; knowing the interest of users’ searches for tourist attractions or destinations; showing the relationship between the official tourism statistics and the search volume index of Google Trends; and estimating the effect of one event on tourism demand. The categories and search terms used vary with the purpose of the study; however, they mostly focus on the travel category and use the country as the search term. Originality/value: Google Trends has been increasingly used in research publications in tourism and hospitality, but the range of its applications and methods used has not yet been reviewed. Therefore, a systematic review of the existing literature increases awareness of its potential uses in tourism and hospitality research and facilitates a better understanding of its strengths and weaknesses as a research tool.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Composite indicators for measuring the online search interest by a tourist destination",
+        "doc_scopus_id": "85064033138",
+        "doc_doi": "10.1007/978-981-13-6339-9_1",
+        "doc_eid": "2-s2.0-85064033138",
+        "doc_date": "2019-02-26",
+        "doc_type": "Book Chapter",
+        "doc_areas": [
+            {
+                "area_name": "Economics, Econometrics and Finance (all)",
+                "area_abbreviation": "ECON",
+                "area_code": "2000"
+            },
+            {
+                "area_name": "Business, Management and Accounting (all)",
+                "area_abbreviation": "BUSI",
+                "area_code": "1400"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Arithmetic mean",
+            "Composite indicators",
+            "Conceptual frameworks",
+            "Foreign markets",
+            "Google trends",
+            "Portugal",
+            "Search interest",
+            "Tourist destinations"
+        ],
+        "doc_abstract": "© Springer Nature Singapore Pte Ltd. 2019. All Rights Reserved.This chapter presents a methodology for building composite indicators to measure the public online search interest by tourist destinations. As an example, we have applied it to measure the online search interest of foreign markets, namely Spain, the UK and Germany by Portugal as a tourist destination. In order to build the composite indicators we extracted weekly and during one year, data from the Google Trends (GT) tool, based on the set of search terms chosen to define the destination Portugal. The composite indicators proposed are based on the Tourism Satellite Accounts (TSA) conceptual framework and weighted by the arithmetic mean of seven primary indicators composed by fifteen sub-indicators. The results indicate the interest and popularity of Spanish, British and German foreigners by tourism in Portugal and country specific touristic products. The obtained results contribute definitively to support and help Destination Management Organizations (DMO) enabling timely decisions.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Ebusiness adoption by destination management organizations: Case study in Europe",
+        "doc_scopus_id": "85049909751",
+        "doc_doi": "10.23919/CISTI.2018.8399180",
+        "doc_eid": "2-s2.0-85049909751",
+        "doc_date": "2018-06-27",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            }
+        ],
+        "doc_keywords": [
+            "eBusiness",
+            "International studies",
+            "Key Issues",
+            "Management systems",
+            "Products distributions",
+            "Tourism",
+            "Tourism development"
+        ],
+        "doc_abstract": "© 2018 AISTI.Tourism destinations play a major role in tourism development. The complexity of activities and actors which need to be managed at the destination level highlights the major contribution that destination management organizations can provide. The use of information technologies is particularly required in tourism products distribution and in this sense the use of destination management systems is an essential tool. The aim of this paper is to present the main conclusions of an international study concerning ebusiness adoption by destination management organizations i.e. the adoption of destination management systems. Following the presentation of the main characteristics of this organizations, ebusiness adoption and the process of implementation of these systems are after discussed. This study intends to present key issues in destination management systems implementation.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Forecasting British Tourist Inflows to Portugal Using Google Trends Data",
+        "doc_scopus_id": "85044109378",
+        "doc_doi": "10.1007/978-3-319-47732-9_32",
+        "doc_eid": "2-s2.0-85044109378",
+        "doc_date": "2017-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Business, Management and Accounting (all)",
+                "area_abbreviation": "BUSI",
+                "area_code": "1400"
+            },
+            {
+                "area_name": "Economics, Econometrics and Finance (all)",
+                "area_abbreviation": "ECON",
+                "area_code": "2000"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "© 2017, Springer International Publishing AG.Purpose—The purpose of this paper is to explore the Google Trends (GT) data in order to understand the behavior and interests of British tourists in Portugal as a tourist destination and to verify if the GT data correlates with the tourism official data of Portugal. Furthermore, it will investigate if GT data can improve forecasts on the arrival of British tourists to Portugal. Design/methodology/approach—We used GT data on a set of search terms to predict the demand for hotel establishments by UK residents in Portugal and employed the Autoregressive Integrated Moving Average (ARIMA) model and Transfer Function (TF) to evaluate the usefulness of this data. Furthermore, we correlated the GT data with official tourism data of Portugal. Findings—The TF models outperformed their ARIMA counterparts, meaning that the TF models which considered the GT index produced more accurate forecasts. Practical implications—The paper contributes to increase the knowledge on the potential of Google-based search data in order to understand the behaviour patterns of predicted British travelers to Portugal and help to predict the British tourist inflows to Portugal. Originality/value—The paper is novel because it is the first in the field of hospitality and tourism to predict British tourists inflows to Portugal and it is a unique paper in this area that used several keywords in order to define a tourist destination.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Water quality of Danube Delta systems: Ecological status and prediction using machine-learning algorithms",
+        "doc_scopus_id": "84973665052",
+        "doc_doi": "10.2166/wst.2016.097",
+        "doc_eid": "2-s2.0-84973665052",
+        "doc_date": "2016-05-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Environmental Engineering",
+                "area_abbreviation": "ENVI",
+                "area_code": "2305"
+            },
+            {
+                "area_name": "Water Science and Technology",
+                "area_abbreviation": "ENVI",
+                "area_code": "2312"
+            }
+        ],
+        "doc_keywords": [
+            "Classification methods",
+            "Danube Delta",
+            "Environmental issues",
+            "Good ecological status",
+            "Macroinvertebrates",
+            "Spatial and temporal variability",
+            "Substrate heterogeneity",
+            "Water Framework Directives",
+            "Algorithms",
+            "Animals",
+            "Artificial Intelligence",
+            "Ecosystem",
+            "Environmental Monitoring",
+            "Invertebrates",
+            "Rivers",
+            "Water",
+            "Water Pollutants, Chemical",
+            "Water Pollution",
+            "Water Quality"
+        ],
+        "doc_abstract": "© IWA Publishing 2016.Environmental issues have a worldwide impact on water bodies, including the Danube Delta, the largest European wetland. The Water Framework Directive (2000/60/EC) implementation operates toward solving environmental issues from European and national level. As a consequence, the water quality and the biocenosis structure was altered, especially the composition of the macro invertebrate community which is closely related to habitat and substrate heterogeneity. This study aims to assess the ecological status of Southern Branch of the Danube Delta, Saint Gheorghe, using benthic fauna and a computational method as an alternative for monitoring the water quality in real time. The analysis of spatial and temporal variability of unicriterial and multicriterial indices were used to assess the current status of aquatic systems. In addition, chemical status was characterized. Coliform bacteria and several chemical parameters were used to feed machine-learning (ML) algorithms to simulate a real-time classification method. Overall, the assessment of the water bodies indicated a moderate ecological status based on the biological quality elements or a good ecological status based on chemical and ML algorithms criteria.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Classification of water for production using parameters in real time",
+        "doc_scopus_id": "84943328529",
+        "doc_doi": "10.1109/CISTI.2015.7170477",
+        "doc_eid": "2-s2.0-84943328529",
+        "doc_date": "2015-07-28",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Hardware and Architecture",
+                "area_abbreviation": "COMP",
+                "area_code": "1708"
+            },
+            {
+                "area_name": "Education",
+                "area_abbreviation": "SOCI",
+                "area_code": "3304"
+            },
+            {
+                "area_name": "Human-Computer Interaction",
+                "area_abbreviation": "COMP",
+                "area_code": "1709"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            }
+        ],
+        "doc_keywords": [
+            "Classification accuracy",
+            "Classification methods",
+            "Continuous monitoring systems",
+            "Heuristic decision tree",
+            "Hydroinformatic",
+            "Measured parameters",
+            "Method validations",
+            "Water quality indexes"
+        ],
+        "doc_abstract": "© 2015 AISTI.In this paper, a new classification method for production water is proposed, based on so real-time measured parameters. The classification method consists of three steps: 1) An initial classification of the Water Quality Index is computed using the method proposed by KUMAR; 2) Feature selection based on random forest (specifically based on the method varSelRF); and 3) Training of classifiers using different configurations of heuristic decision trees. A total of 4 datasets (5090 instances of 8 features each) representative of water samples from Portugal, Canada, Mexico, and Romania were used for method validation. The dataset was group in two families of different classes: binary (good and regular water) and multiclass (good, regular and bad water). Final classification accuracy reached 94.85% for the binary family and 91.73% for the multiclass family. The contribution consists of a continuous monitoring system to detect (in real time) dramatic changes in water quality and provide tools for historical studies behaviour in strategic points.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Implications of the economic lot production in construction",
+        "doc_scopus_id": "84921776397",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-84921776397",
+        "doc_date": "2014-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Business and International Management",
+                "area_abbreviation": "BUSI",
+                "area_code": "1403"
+            },
+            {
+                "area_name": "Management Science and Operations Research",
+                "area_abbreviation": "DECI",
+                "area_code": "1803"
+            },
+            {
+                "area_name": "Management of Technology and Innovation",
+                "area_abbreviation": "BUSI",
+                "area_code": "1405"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "This article discusses the importance of inventory management and control of the quantity to be produced in construction. The article intended to define the amount of material to be produced and the amount of stock required. These objectives are important for corporations in the construction industry to succeed in their endeavors. That's because you can set the amount that must be produced and inventories required to meet your demand, reducing costs with employees, inventory, transportation, among others. The results showed that the definition of economic production lot in construction is satisfactory controls to improve production and reduce costs.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Integrated development and evaluation of innovative AAL services - A Living Lab approach",
+        "doc_scopus_id": "84887956835",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-84887956835",
+        "doc_date": "2013-11-25",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            }
+        ],
+        "doc_keywords": [
+            "Ambient assisted living",
+            "Ambient assisted living (AAL)",
+            "General architectures",
+            "Integrated development",
+            "Living lab",
+            "Methodological approach",
+            "services evaluation",
+            "usability"
+        ],
+        "doc_abstract": "The paper aims to systematize the work associated with the consolidation of the geographically distributed Living Lab for the development of Ambient Assisted Living (AAL) systems and services. The paper presents the developed methodological approach, the general architecture that supports the development of AAL applications, the implemented physical infrastructure and also an instantiation of the existing infrastructure for the implementation of a telerehabilitation service. © 2013 AISTI.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Classifier for drinking water quality in real time",
+        "doc_scopus_id": "84879853425",
+        "doc_doi": "10.1109/ICCAT.2013.6521975",
+        "doc_eid": "2-s2.0-84879853425",
+        "doc_date": "2013-07-12",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [
+            "Automatic assessment",
+            "Hydroinformatics",
+            "Hydrologic information systems",
+            "K-nearest neighbors",
+            "Learning classifiers",
+            "Real-time features",
+            "Water quality indexes",
+            "Water quality monitoring"
+        ],
+        "doc_abstract": "Real time features are critical for automatic assessment of Drinking Water Quality (DWQ). This paper explores the use of real time features to feed machine learning classifiers for DWQ. Two different representative datasets were used from: a) The Provincial Water Quality Monitoring Network from Ontario, Canada and b) National Hydrologic Information System from Central Region of Portugal. The procedure followed in this study was: (1) automatically computing a Water Quality Index to classify the datasets elements in five classes (excellent, good, medium, bad and very bad) using the Kumar method; (2) selecting best performed real time features on results of classified datasets; and (3) exploring machine learning algorithms (e.g. Decision Trees, Artificial Neural Networks and k-Nearest Neighbor) for producing DWQ classifiers. In this work, we perform the classification of two classes (good and medium) out of the five possible categories, due to the absence of vectors in the datasets. © 2013 IEEE.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "New telerehabilitation services for the elderly",
+        "doc_scopus_id": "84887892291",
+        "doc_doi": "10.4018/978-1-4666-3990-4.ch006",
+        "doc_eid": "2-s2.0-84887892291",
+        "doc_date": "2013-04-30",
+        "doc_type": "Book Chapter",
+        "doc_areas": [
+            {
+                "area_name": "Medicine (all)",
+                "area_abbreviation": "MEDI",
+                "area_code": "2700"
+            },
+            {
+                "area_name": "Health Professions (all)",
+                "area_abbreviation": "HEAL",
+                "area_code": "3600"
+            }
+        ],
+        "doc_keywords": [
+            "Cognitive capability",
+            "Health-care system",
+            "Multi-Modal Interactions",
+            "Older People",
+            "Telerehabilitation",
+            "Unsolved problems",
+            "Vision problems",
+            "Work in progress"
+        ],
+        "doc_abstract": "© 2013 by IGI Global. All rights reserved.The world's population is getting older with the percentage of people over 60 increasing more rapidly than any other age group. Telerehabilitation may help minimise the pressure this puts on the traditional healthcare system, but recent studies showed ease of use, usability, and accessibility as unsolved problems, especially for older people who may have little experience or confidence in using technology. Current migration towards multimodal interaction has benefits for seniors, allowing hearing and vision problems to be addressed by exploring redundancy and complementarity of modalities. This chapter presents and contextualizes work in progress in a new telerehabilitation service targeting the combined needs of the elderly to have professionally monitored exercises without leaving their homes with their need regarding interaction, directly related to age-related effects on, for example, vision, hearing, and cognitive capabilities. After a brief general overview of the service, additional information on its two supporting applications are presented, including information on user interfaces. First results from a preliminary evaluation are also included.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Elderly viewers identification: Designing a decision matrix",
+        "doc_scopus_id": "84891465252",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-84891465252",
+        "doc_date": "2012-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Graphics and Computer-Aided Design",
+                "area_abbreviation": "COMP",
+                "area_code": "1704"
+            },
+            {
+                "area_name": "Human-Computer Interaction",
+                "area_abbreviation": "COMP",
+                "area_code": "1709"
+            },
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            }
+        ],
+        "doc_keywords": [
+            "Decision matrices",
+            "Elderly",
+            "Functional classification",
+            "iTV",
+            "Personalizations",
+            "User experience"
+        ],
+        "doc_abstract": "The central role that television-viewing plays in the daily life of elderly people motivate several research efforts towards the improvement of the benefits of companionship and information they seek from this media. Along with the advent of technical and interactive improvements, TV operators may provide the user with a more personalized television experience (with specific services that can, for example, increase the quality of life of the elderly) supported in a reliable viewer identification system. In this work, based on a prototype usage approach, guided interviews and direct observation of elderly viewers; we attempt to find the most suited viewer identification (vID) method for different combinations of social context, physical and psychological characteristics. A total of six vID methods were prototyped allowing the gathering of quantitative and qualitative data concerning the complex trade-off that influences the choice of the most suitable method. The analysis of these trade-offs was used to contribute for a decision matrix that, for a specific set of input values, returns the most appropriated vID method.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "User identification: A key factor for elderly viewers to benefit from interactive television services",
+        "doc_scopus_id": "80054059155",
+        "doc_doi": "10.1007/978-3-642-24352-3_5",
+        "doc_eid": "2-s2.0-80054059155",
+        "doc_date": "2011-10-19",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            },
+            {
+                "area_name": "Mathematics (all)",
+                "area_abbreviation": "MATH",
+                "area_code": "2600"
+            }
+        ],
+        "doc_keywords": [
+            "Added values",
+            "Customizable",
+            "Elderly",
+            "Identification technology",
+            "Interactive services",
+            "iTV",
+            "Key factors",
+            "Multi-viewer",
+            "Non-intrusive",
+            "Personalized TV",
+            "Target audience",
+            "TV services",
+            "Usability tests",
+            "User centered designs",
+            "User context",
+            "User identification",
+            "Viewer Identification"
+        ],
+        "doc_abstract": "The offer of interactive television services is becoming more and more frequent in regular households allowing a more customizable way of watching TV. However, in a multi-viewer environment a truly personalized TV experience could not merely rely on the identification of the STB that users have at their homes. For this purpose, a non-intrusive user identification technique is especially relevant, namely when senior viewers are at stake. In this work we are studying different approaches to perform an adequate identification of senior viewers so they can benefit from a series of interactive services targeted to their needs. To achieve this aim, a set of exploratory interviews have been carried out, and based on its results, a prototype with several identification technologies has been developed. With this prototype and through a set of usability tests we were able to collect relevant opinions about the type of added value TV services that this target audience desires. In addition, it was also possible to understand points of view that lead us to conclude that the user context involves a complex trade-off that influences the choice of the most suitable identification system. © 2011 Springer-Verlag.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "AdaptO - Adaptive multimodal output",
+        "doc_scopus_id": "80052477307",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-80052477307",
+        "doc_date": "2011-09-12",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computational Theory and Mathematics",
+                "area_abbreviation": "COMP",
+                "area_code": "1703"
+            },
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Communication",
+                "area_abbreviation": "SOCI",
+                "area_code": "3315"
+            }
+        ],
+        "doc_keywords": [
+            "Context-awareness",
+            "Distributed systems",
+            "Ehealth",
+            "Multimodal output",
+            "Smart environment",
+            "Universal access",
+            "User"
+        ],
+        "doc_abstract": "Currently, most multimodal output mechanisms use a very centralized architecture in which the various output modalities are completely devoid of any autonomy. Our proposal, AdaptO, uses an alternative approach, proving output modalities with the capacity to make decisions, thus collaborating with the fission output mechanism towards a more effective, modular, extensible and decentralized solution. In addition, our aim is to provide the mechanisms for a highly adaptable and intelligent multimodal output system, able to adapt itself to changing environment conditions (light, noise, distance, etc.) and to its users needs, limitations and personal choices.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A new living lab for usability evaluation of ICT and next generation networks for elderly@home",
+        "doc_scopus_id": "79960543375",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-79960543375",
+        "doc_date": "2011-07-25",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computational Theory and Mathematics",
+                "area_abbreviation": "COMP",
+                "area_code": "1703"
+            },
+            {
+                "area_name": "Applied Mathematics",
+                "area_abbreviation": "MATH",
+                "area_code": "2604"
+            }
+        ],
+        "doc_keywords": [
+            "Conceptual model",
+            "General population",
+            "Living lab",
+            "Next generation network",
+            "Universal Design",
+            "Usability evaluation",
+            "Usability testing",
+            "Work in progress"
+        ],
+        "doc_abstract": "Living Usability Lab for Next Generation Networks (www.livinglab.pt) is a Portuguese industry-academia collaborative R&D project, active in the field of live usability testing, focusing on the development of technologies and services to support healthy, productive and active citizens. The project adopts the principles of universal design and natural user interfaces (speech, gesture) making use of the benefits of next generation networks and distributed computing. Therefore, it will have impact on the general population, including the elderly and citizens with permanent or situational special needs. This paper presents project motivations, conceptual model, architecture and work in progress.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Output matters! Adaptable multimodal output for new telerehabilitation services for the elderly",
+        "doc_scopus_id": "79960505802",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-79960505802",
+        "doc_date": "2011-07-25",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computational Theory and Mathematics",
+                "area_abbreviation": "COMP",
+                "area_code": "1703"
+            },
+            {
+                "area_name": "Applied Mathematics",
+                "area_abbreviation": "MATH",
+                "area_code": "2604"
+            }
+        ],
+        "doc_keywords": [
+            "Ambient assisted living",
+            "Intelligent adaptation",
+            "Multimodal output",
+            "New services",
+            "Older adults",
+            "Prototype implementations",
+            "Telehealth",
+            "Telerehabilitation"
+        ],
+        "doc_abstract": "Technologies capable of being used by the older adults, with their specificities, to provide new services in the areas of telehealth and Ambient Assisted Living are needed. In this paper, we describe a new service, and its first prototype implementation, in the area of elderly health support at home. Special care was taken to improve the usability, adaptability to user and context and inclusiveness capabilities of the output. The basis for intelligent adaptation of the multimodal output - called AdaptO - is proposed and first versions of the needed services and agents were created.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "New challenges in teaching introductory programming courses: A case study",
+        "doc_scopus_id": "21644452527",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-21644452527",
+        "doc_date": "2004-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Education",
+                "area_abbreviation": "SOCI",
+                "area_code": "3304"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [
+            "Individual vs collaborative work",
+            "Lectures",
+            "Teaching and learning",
+            "Teaching methods/strategies"
+        ],
+        "doc_abstract": "The Department of Educational Sciences and the Department of Electronic & Telecommunications at the University of Aveiro (Portugal) have been working together with the Department of Computer & Information Sciences at the University of Strathclyde (UK), with the aim of improving the teaching quality of introductory programming courses and, indirectly, the academic success of their students. Over the past two years, data has been collected through interviews and questionnaires, to better understand the organization of the different courses and approaches to teaching. The present paper discusses how the organization of introductory programming courses in each institution reflects the teaching philosophy of the members of staff and also how course organization and teaching strategy relate to the students' attitudes to learning and their motivation for course involvement. © 2004 IEEE.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Effects of curriculum adjustments on first-year programming courses: Students' performance and achievment",
+        "doc_scopus_id": "1642479294",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-1642479294",
+        "doc_date": "2003-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Education",
+                "area_abbreviation": "SOCI",
+                "area_code": "3304"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [
+            "Academic achievement",
+            "Academic community",
+            "Epistemological positions",
+            "Introductory programming courses"
+        ],
+        "doc_abstract": "Researchers of the Science Education Department have been working together for the past two years with faculty from the Electronic and Telecommunication Department aiming to explain students' failure and drop out rate in a first-year undergraduate programming course at the University of Aveiro, Portugal. Two main variables were significantly correlated with the students' failure: the curriculum organization of the course and the teaching methods. In this paper we are concerned with analyzing the curriculum redesign in the area of Informatics, namely at a introductory programming course that took place in 2001/02 and whether it has influenced students' achievement and motivation for the course.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Distributed monitoring subsystems based on a Bluetooth implementation",
+        "doc_scopus_id": "83655186662",
+        "doc_doi": "10.1109/ETFA.2003.1248680",
+        "doc_eid": "2-s2.0-83655186662",
+        "doc_date": "2003-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Electrical and Electronic Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2208"
+            },
+            {
+                "area_name": "Control and Systems Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2207"
+            },
+            {
+                "area_name": "Industrial and Manufacturing Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2209"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [
+            "Application fields",
+            "Distributed architecture",
+            "Distributed monitoring",
+            "Environment monitoring",
+            "Industrial communications",
+            "Monitoring system",
+            "Wireless communication standards",
+            "Wireless protocol"
+        ],
+        "doc_abstract": "© 2003 IEEE.The wireless concept goes beyond the reduction of cables and provides, in some standards, mechanisms for ad hoc network construction. Bluetooth as one of these wireless communication standards leads the way in the so-called personal area networks (PAN). Although, this wireless protocol was not intended for use in industrial communications, this paper presents a possible implementation on monitoring systems. The monitoring system addressed by this paper is based upon a distributed architecture whose application field is environment monitoring.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Integrated system for analysis and automatic classification of sleep EEG",
+        "doc_scopus_id": "0032279797",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-0032279797",
+        "doc_date": "1998-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "In this paper we describe a system for automatic all night sleep analysis, based on neural networks. In what concerns sleep staging, the system consists of a three-step analysis. The first step is the recognition of elementary patterns in EEG (delta, alpha, spindle and K complex waves), EOG and EMG, and spectral analysis for background activity. The second step is the determination of sleep stages based on these parameters. Automatic sleep scoring was performed using a multilayer feedforward network. The last step, is the supervision of the automatic decision using ambiguity rejection and coherence analysis. Finally, this work presents an automated system for micro arousals detection based on k-means method. The system was validated with a data set including 20 hour of signal. Overall agreement between the computer and human judges indicates considerable reliability of the system.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Visualization and storage of biological signals in neurophysiology laboratory",
+        "doc_scopus_id": "0031293497",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-0031293497",
+        "doc_date": "1997-12-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "In this paper, we describe an application to visualize biological events, particularly suited to neurophysiology environments. The application requirements are based on the polygraphic trace. The application was developed using Object-Oriented techniques supported by Borland C++ compiler and its ObjectWindows library and Resource Workshop.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Anaerobic treatment of municipal solid waste",
+        "doc_scopus_id": "0029975417",
+        "doc_doi": "10.1016/0273-1223(96)00310-1",
+        "doc_eid": "2-s2.0-0029975417",
+        "doc_date": "1996-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Environmental Engineering",
+                "area_abbreviation": "ENVI",
+                "area_code": "2305"
+            },
+            {
+                "area_name": "Water Science and Technology",
+                "area_abbreviation": "ENVI",
+                "area_code": "2312"
+            }
+        ],
+        "doc_keywords": [
+            "Argentina",
+            "Batch reactors",
+            "Biodegradable organic fraction",
+            "Municipal solid waste",
+            "Volatile fatty acid"
+        ],
+        "doc_abstract": "This paper discusses the present state of Municipal Solid Waste (MSW) disposal in Argentina, focusing on the particular situation of the city of Salta, and suggests the future trend of the anaerobic treatment of this residue. Source-sorted household solid waste was determined by means of a statistical design. Municipal solid waste produced 147, 103 kg per day +/- 6.7%, the major portion corresponds to the biodegradable organic fraction (55.4%). The plastic, metal, paper, glass, and other material production was also evaluated. The organic municipal waste was chemically and biologically characterized, in order to study its behaviour during anaerobic digestion. The ratio normally found in organic fractions from MSW in Salta, Argentina, was in the optimum range which is 126:7:1 (C:N:P, w/w). The stability of the anaerobic process was analyzed in a 18 liter batch reactor. Its pH, biogas production, alkalinity, and volatile fatty acid production was determined. Although the work has been carried out at a small scale it appears to be sufficiently promising to encourage further work at a larger scale.This paper discusses the present state of Municipal Solid Waste (MSW) disposal in Argentina, focusing on the particular situation of the city of Salta, and suggests the future trend of the anaerobic treatment of this residue. Source-sorted household solid waste was determined by means of a statistical design. Municipal solid waste produced 147,103 kg per day +/- 6.7 %, the major portion corresponds to the biodegradable organic fraction (55.4 %). The plastic, metal, paper, glass, and other material production was also evaluated. The organic municipal waste was chemically and biologically characterized, in order to study its behaviour during anaerobic digestion. The ratio normally found in organic fractions from MSW in Salta, Argentina, was in the optimum range which is 126:7:1 (C:N:P, w/w). The stability of the anaerobic process was analized in a 18 liter batch reactor. Its pH, biogas production, alkalinity, and volatile fatty acid production was determined. Although the work has been carried out at a small scale it appears sufficiently promising to encourage further work at a larger scale.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Automated analysis of EEG: A new approach",
+        "doc_scopus_id": "0027807708",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-0027807708",
+        "doc_date": "1993-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Automatic sleep electroencephalography analysis",
+            "Macroanalysis"
+        ],
+        "doc_abstract": "In this paper we describe a modular application for automatic Sleep EEG analysis. The method used for event detected is described and some of its characteristics are discussed.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A telemedicine application of EEG signal transmission",
+        "doc_scopus_id": "0026385384",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-0026385384",
+        "doc_date": "1991-12-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Signal Processing",
+                "area_abbreviation": "COMP",
+                "area_code": "1711"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Computer Vision and Pattern Recognition",
+                "area_abbreviation": "COMP",
+                "area_code": "1707"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [
+            "Biological Signal Processing",
+            "EEG Signal Transmission",
+            "Epilepsy",
+            "Health Care Communications",
+            "Telemedicne"
+        ],
+        "doc_abstract": "A telemedicine system is used as a demonstrator of the potential use of telecommunications to improve the quality of health care services in regions with a limited number of health care providers. The demonstrator is a data link between hospitals using the public switched telephone network. The system is used to transmit electroencephalographic (EEG) signals enabling the follow-up of some epileptic patients by remotely placed doctors. The results show the usefulness of the technique and the possibility of its application in other medical areas.",
+        "available": false,
+        "clean_text": ""
+    }
+]

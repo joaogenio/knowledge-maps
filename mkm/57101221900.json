@@ -1,0 +1,43 @@
+[
+    {
+        "doc_title": "Towards a personal robot with language interface",
+        "doc_scopus_id": "78349285382",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-78349285382",
+        "doc_date": "2003-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Linguistics and Language",
+                "area_abbreviation": "SOCI",
+                "area_code": "3310"
+            },
+            {
+                "area_name": "Communication",
+                "area_abbreviation": "SOCI",
+                "area_code": "3315"
+            }
+        ],
+        "doc_keywords": [
+            "Human robots",
+            "Interactivity",
+            "Language interface",
+            "Multi-modal",
+            "Natural language interfaces",
+            "Personal robot"
+        ],
+        "doc_abstract": "The development of robots capable of accepting instructions in terms of familiar concepts to the user is still a challenge. For these robots to emerge it?s essential the development of natural language interfaces, since this is regarded as the only interface acceptable for a machine which expected to have a high level of interactivity with Man. Our group has been involved for several years in the development of a mobile intelligent robot, named Carl, designed having in mind such tasks as serving food in a reception or acting as a host in an organization. The approach that has been followed in the design of Carl is based on an explicit concern with the integration of the major dimensions of intelligence, namely Communication, Action, Reasoning and Learning. This paper focuses on the multi-modal human-robot language communication capabilities of Carl, since these have been significantly improved during the last year.",
+        "available": false,
+        "clean_text": ""
+    }
+]

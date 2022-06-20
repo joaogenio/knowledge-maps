@@ -1,0 +1,1102 @@
+[
+    {
+        "doc_title": "Vehicular traffic flow prediction using deployed traffic counters in a city",
+        "doc_scopus_id": "85118841234",
+        "doc_doi": "10.1016/j.future.2021.10.022",
+        "doc_eid": "2-s2.0-85118841234",
+        "doc_date": "2022-03-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Hardware and Architecture",
+                "area_abbreviation": "COMP",
+                "area_code": "1708"
+            },
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Decision-based",
+            "Deep learning",
+            "Informed decision",
+            "Short-term forecasting",
+            "Smart urban mobility",
+            "Sustainable growth",
+            "Traffic flow",
+            "Traffic flow prediction",
+            "Urban mobility",
+            "Vehicular traffic flow"
+        ],
+        "doc_abstract": "© 2021 Elsevier B.V.The sustainable growth of cities created the need for better informed decisions based on information and communication technologies to sense the city and quantify its pulse. An important part of this concept of “smart cities” is the characterization of vehicular traffic flows and the prediction of urban mobility. Although there are several sensors that are able to infer the traffic flows in the city, road-mounted traffic counters can measure the number of vehicles in different parts of the roads. However, they are not usually used in traffic city prediction; therefore, we can provide a first step for the usefulness of these sensors in the city management. In this paper we study both statistical and deep learning methods to describe, understand and predict the city traffic profile. Although traffic presents seasonal patterns, in occasional situations these may not be verified. Considering the proposed approaches, statistical algorithms, such as SARIMA, and neural network algorithms, such as FFNN, LSTM, CNN and hybrid LSTM-CNN, we found that statistical models are significantly good to predict the traffic counters data in the short-term, even when anomalous traffic conditions are observed. For long-term predictions, CNNs have shown to be efficient and robust. Long-term and short-term forecasting, in the context of traffic flow prediction, may be a strategy to accomplish different goals. Long-term forecasting can be chosen for traffic flow description, and short-term forecasting can be used to identify and mitigate anomalies.",
+        "available": true,
+        "clean_text": "serial JL 271521 291210 291716 291773 291791 291867 291869 291870 291871 291873 31 Future Generation Computer Systems FUTUREGENERATIONCOMPUTERSYSTEMS 2021-10-28 2021-10-28 2021-11-10 2021-11-10 2021-12-09T12:43:02 S0167-739X(21)00418-0 S0167739X21004180 10.1016/j.future.2021.10.022 S300 S300.1 FULL-TEXT 2022-02-12T08:09:42.725937Z 0 0 20220301 20220331 2022 2021-10-28T17:28:22.267739Z absattachment articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast footnotes grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref specialabst vitae 0167-739X 0167739X true 128 128 C Volume 128 23 429 442 429 442 202203 March 2022 2022-03-01 2022-03-31 2022 Regular papers article fla © 2021 Elsevier B.V. All rights reserved. VEHICULARTRAFFICFLOWPREDICTIONUSINGDEPLOYEDTRAFFICCOUNTERSINACITY ALMEIDA A 1 Introduction 2 Related work 2.1 Historical and statistical methods 2.2 Artificial neural networks 2.3 Discussion 3 Use cases 3.1 Oporto living lab infrastructure 3.2 Selected use cases 4 Methods for traffic flow forecasting 4.1 Approach and methods 4.2 Dataset selection 4.3 Preparatory traffic flow data analysis 4.4 Elements of the forecasting pipeline 4.5 Computational platform for the pipeline automation 5 Forecasting results 5.1 Evaluation metrics Mean squared error Coefficient of determination Akaike information criterion BayesIan information criterion 5.2 Forecasting with SARIMA 5.3 Forecasting with deep learning 6 Abnormal traffic behavior 6.1 Detecting an anomaly 6.2 Anomalous traffic impact in short and long-term forecasting 7 Conclusions CRediT authorship contribution statement References ELHENDY 2017 1 7 M ASURVEYSMARTCITYTECHNOLOGIESINITIATIVESGLOBALTECHNOLOGYPROVIDERS SIKDER 2018 639 645 A 2018IEEE8THANNUALCOMPUTINGCOMMUNICATIONWORKSHOPCONFERENCECCWC IOTENABLEDSMARTLIGHTINGSYSTEMSFORSMARTCITIES CAETANO 2014 1 6 F 20149THIBERIANCONFERENCEINFORMATIONSYSTEMSTECHNOLOGIESCISTI INTELLIGENTMANAGEMENTURBANGARDENIRRIGATION SEMET 2019 199 210 Y PROCEEDINGS5THINTERNATIONALCONFERENCEVEHICLETECHNOLOGYINTELLIGENTTRANSPORTSYSTEMSVOLUME1VEHITS EXPERTCOMPETITIVETRAFFICLIGHTOPTIMIZATIONEVOLUTIONARYALGORITHMS MIORANDI 2012 1497 1516 D SANTOS 2018 523 532 P YIN 2020 X ACOMPREHENSIVESURVEYTRAFFICPREDICTION WILLIAMS 2003 664 672 B OKUTANI 1984 1 11 I CHIKKAKRISHNA 2019 1 4 N 2019IEEE16THINDIACOUNCILINTERNATIONALCONFERENCEINDICON SHORTTERMTRAFFICPREDICTIONUSINGSARIMAFBPROPHET RAUCH 2019 57 64 J 2019 INTRODUCTIONDEEPLEARNING CHOLLET 2017 F DEEPLEARNINGPYTHON SRIVASTAVA 2014 1929 1958 N GALLO 2019 M YUANKAI 2018 W DAI 2019 1 G BARTLETT 2019 1 Z MA 2015 187 197 X ZHANG 2017 1655 1661 J PROCEEDINGSTHIRTYFIRSTAAAICONFERENCEARTIFICIALINTELLIGENCE DEEPSPATIOTEMPORALRESIDUALNETWORKSFORCITYWIDECROWDFLOWSPREDICTION ZHANG 2020 468 478 J YAO 2019 5668 5675 H PROCEEDINGSAAAICONFERENCEARTIFICIALINTELLIGENCEVOL33 REVISITINGSPATIALTEMPORALSIMILARITYADEEPLEARNINGFRAMEWORKFORTRAFFICPREDICTION WU 2019 1907 1913 Z PROCEEDINGSTWENTYEIGHTHINTERNATIONALJOINTCONFERENCEARTIFICIALINTELLIGENCEIJCAI19 GRAPHWAVENETFORDEEPSPATIALTEMPORALGRAPHMODELING YU 2018 3634 3640 B PROCEEDINGSTWENTYSEVENTHINTERNATIONALJOINTCONFERENCEARTIFICIALINTELLIGENCEIJCAI18 SPATIOTEMPORALGRAPHCONVOLUTIONALNETWORKSADEEPLEARNINGFRAMEWORKFORTRAFFICFORECASTING LI 2018 Y DIFFUSIONCONVOLUTIONALRECURRENTNEURALNETWORKDATADRIVENTRAFFICFORECASTING WANG 2020 435 451 F MTGCNAMULTITASKDEEPLEARNINGMODELFORTRAFFICFLOWPREDICTION KARLAFTIS 2011 387 399 M YU 1993 991 995 vol.2 E PROCEEDINGSGLOBECOM93IEEEGLOBALTELECOMMUNICATIONSCONFERENCE TRAFFICPREDICTIONUSINGNEURALNETWORKS GERS 2000 2451 2471 F BAI 2018 S EMPIRICALEVALUATIONGENERICCONVOLUTIONALRECURRENTNETWORKSFORSEQUENCEMODELING ISMAILFAWAZ 2019 H BROWNLEE 2017 J INTRODUCTIONTIMESERIESFORECASTINGPYTHONHOWPREPAREDATADEVELOPMODELSPREDICTFUTURE SAVITZKY 1964 1627 1639 A 2019 FIWAREDEVELOPERS HYNDMAN 2018 R FORECASTINGPRINCIPLESPRACTICE GOODFELLOW 2016 I DEEPLEARNING 2020 HOWSELECTRIGHTEVALUATIONMETRICFORMACHINELEARNINGMODELS BROWNLEE 2019 J PROBABILITYFORMACHINELEARNINGDISCOVERHOWHARNESSUNCERTAINTYPYTHON ALMEIDAX2022X429 ALMEIDAX2022X429X442 ALMEIDAX2022X429XA ALMEIDAX2022X429X442XA 2023-11-10T00:00:00.000Z 2023-11-10T00:00:00.000Z © 2021 Elsevier B.V. All rights reserved. 2021-11-16T01:01:28.515Z MEC S2MovingCity CMUP-ERI/TIC/0010/2014 MEC Ministério da Educação e Ciência COMPETE2020 046119 European Regional Development Fund ERDF European Regional Development Fund FSE FSE Faculty of Science and Engineering, University of Manchester FCT FCT Fundação para a Ciência e a Tecnologia This work is funded by FCT/MEC through national funds under the project, S2MovingCity CMUP-ERI/TIC/0010/2014 . Also, this work is funded by national funds, European Regional Development Fund, FSE , through COMPETE2020 and FCT, in the scope of the framework contract foreseen in the numbers 4, 5 and 6 of the article 23, of the Decree-Law 57/2016, of August 29, changed by Law 57/2017, of July 19, and POR LISBOA 2020 of the Portugal 2020 framework Project CityCatalyst with Nr. 046119. 0 item S0167-739X(21)00418-0 S0167739X21004180 10.1016/j.future.2021.10.022 271521 2022-02-12T08:09:42.725937Z 2022-03-01 2022-03-31 true 1637091 MAIN 14 62722 849 656 IMAGE-WEB-PDF 1 gr11 49593 362 366 fx1 6857 132 113 gr6 39712 615 365 fx3 4458 132 113 gr5 38916 498 340 gr3 54197 295 386 fx2 6377 132 113 gr2 18665 279 368 gr10 43901 274 359 gr7 24545 209 279 gr9 38076 442 369 gr14 22808 216 290 gr1 14694 120 372 gr4 39150 454 371 fx4 5631 132 113 gr12 14310 278 368 gr13 20225 275 369 ga1 true 17424 95 301 gr8 24635 207 277 gr11 7122 163 165 fx1 17879 163 140 gr6 3323 163 97 fx3 10595 163 140 gr5 4413 164 112 gr3 9432 164 214 fx2 19481 163 140 gr2 8388 164 216 gr10 11786 164 215 gr7 12371 164 219 gr9 4122 164 137 gr14 11506 163 219 gr1 10122 70 219 gr4 3907 164 134 fx4 15062 163 140 gr12 3233 164 217 gr13 5667 163 219 ga1 true 10414 69 219 gr8 12321 164 219 gr11 477597 1604 1621 fx1 63749 583 500 gr6 349835 2728 1619 fx3 38737 583 500 gr5 316114 2205 1506 gr3 393158 1306 1708 fx2 58639 583 500 gr2 186901 1238 1632 gr10 396643 1213 1592 gr7 215455 926 1237 gr9 287322 1960 1637 gr14 203309 957 1286 gr1 235879 530 1649 gr4 312104 2012 1643 fx4 45973 583 500 gr12 126608 1233 1630 gr13 176132 1219 1636 ga1 true 197771 420 1333 gr8 216261 919 1228 si29 999 si23 2199 si1 6323 si11 18046 si9 3312 si14 1479 si84 1591 si53 7838 si2 6257 si28 2989 si25 6742 si12 10098 si7 16219 si16 10685 si15 10357 si17 1690 si20 18944 si27 1353 si26 1253 si58 7864 si3 4684 si8 2874 si4 1705 si104 706 am 5852855 FUTURE 6300 S0167-739X(21)00418-0 10.1016/j.future.2021.10.022 Elsevier B.V. Fig. 1 Traffic flow sensor deployed in Oporto: (a) original (b) location of the sensor. Fig. 2 Comparison of the intensity of two traffic flow sensors. Fig. 3 Traffic flow representation during a week. The red vertical lines mark the transition between days. A daily and weekly seasonal behavior of the time series is observed: the first describes the traffic flow behavior during a day, and the second clearly emphasizes a decrease in the traffic flow during the weekend. Fig. 4 Forecasting pipeline. Fig. 5 The system architecture. Fig. 6 Forecasting an entire day, retraining with the true values (a) MSE (b) BIC. Fig. 7 Forecasting one week by using a FFNN. Fig. 8 Forecasting a week using an LSTM neural network. Fig. 9 The architecture of the best CNN model. The model is composed of 1 input layer, 6 hidden layers (1D Convolutional, activation and flatten layers) followed by 1 output layer. Each 1D Convolutional layer has 8 filters, and the activation function used is the ReLU. Fig. 10 Traffic flow observed from October 27 of 2019 to November 3 of 2019. Fig. 11 Time-series additive decomposition (frequency = 2016) with an anomaly. Fig. 12 Time-series additive decomposition — residual component (1 day frequency). Fig. 13 Forecasting one day of anomalous traffic flow with SARIMA (12 steps). Fig. 14 Forecasting one week of anomalous traffic flow with CNN. Table 1 Statistics about traffic flow data. Intensity Count 727220.000 Mean 30.015 Std 56.910 Min 1.000 25% 6.000 50% 18.000 75% 39.000 Max 1386.000 Table 2 SARIMA results — choosing the best model BIC. Day Configurations Metrics Order Seasonal order MSE BIC p d q P D Q m Mon. 2 1 2 0 0 2 12 6.908 1888.198 Tue. 2 1 2 1 1 1 12 3.176 1931.235 Wed. 2 1 2 0 0 2 12 3.726 1815.130 Thur. 2 1 2 0 0 2 12 10.210 1940.063 Fri. 2 1 2 0 0 2 12 77.296 2285.851 Sat. 1 1 1 0 0 2 12 16.500 1238.647 Sun. 1 1 1 0 0 2 12 7.799 1424.517 pOrder of the non-seasonal AutoRegressive (AR) part of the model. d Order of the non-seasonal Moving Average (MA) part of the model. q Order of the non-seasonal differentiation part of the model. P Order of the seasonal AR part of the model. D Order of the seasonal MA part of the model. Q Order of the seasonal differentiation part of the model. m The number of periods per season. Table 3 Configuration details of Artificial Neural Networks. Configurations Values LSTM, FFNN CNN, CNN-LSTM Batch size 1 1 Number of epochs 100 100 Neurons 1, 2, 4, 8 1, 2, 4, 8, 16, 32, 64, 128, 256 Activation functions sigmoid, tanh, ReLU, softmax ReLU, linear, tanh Dropout 0, 0.1, 0.2 0, 0.1, 0.2 Number of filters N.A. 8, 16, 32, 64, 128, 256 Kernel size N.A. 1, 2 Model Pool size N.A. 2, 4 Loss MAE, MSE MAE, MSE Model compile Optimizer rmsprop, adam rmsprop, adam Note: The number of neurons is not configurable for CNNs. Table 4 The best tested configurations for the FFNN. Configurations Results N L φ D Loss O MSE R 2 -Score 1 sigmoid 0 MAE adam 34.334 ± 0.159 0.954 ± 0.002 2 sigmoid sigmoid 0 MAE adam 37.317 ± 0.377 0.950 ± 0.004 1 3 sigmoid sigmoid sigmoid 0 MAE adam 39.543 ± 0.616 0.947 ± 0.008 1 ReLU 0 MAE adam 39.748 ± 7.668 0.947 ± 0.010 2 ReLU sigmoid 0 MAE adam 38.706 ± 2.276 0.948 ± 0.003 2 3 ReLU sigmoid sigmoid 0 MAE adam 36.862 ± 3.733 0.951 ± 0.004 1 sigmoid 0 MSE adam 40.087 ± 4.362 0.947 ± 0.005 2 sigmoid ReLU 0 MSE rmsprop 36.469 ± 5.270 0.951 ± 0.006 4 3 sigmoid ReLU sigmoid 0 MSE rmsprop 35.915 ± 2.672 0.952 ± 0.003 1 softmax 0 MAE adam 41.524 ± 0.917 0.945 ± 0.001 2 sigmoid ReLU 0 MSE rmsprop 34.070 ± 1.741 0.955 ± 0.002 8 3 sigmoid ReLU sigmoid 0 MAE rmsprop 36.416 ± 1.304 0.951 ± 0.001 Table 5 The best tested configurations for the FFNN (with dropout). Configurations Results N L φ D Loss O MSE R 2 − S c o r e 1 tanh 0.1 MAE adam 54.770 ± 2.082 0.927 ± 0.002 2 tanh tanh 0.1 MAE adam 100.540 ± 8.732 0.867 ± 0.011 1 3 tanh tanh sigmoid 0.1 MAE adam 134.252 ± 5.758 0.822 ± 0.007 1 tanh 0.1 MSE adam 49.689 ± 3.937 0.934 ± 0.005 2 sigmoid tanh 0.1 MSE adam 71.272 ± 3.046 0.905 ± 0.004 2 3 sigmoid tanh tanh 0.1 MSE adam 74.580 ± 12.354 0.901 ± 0.016 1 sigmoid 0.1 MSE adam 47.325 ± 1.673 0.937 ± 0.002 2 sigmoid sigmoid 0.1 MSE adam 56.959 ± 5.768 0.924 ± 0.007 4 3 sigmoid ReLU sigmoid 0.1 MSE adam 62.096 ± 8.738 0.918 ± 0.011 1 tanh 0.1 MAE adam 44.857 ± 0.752 0.940 ± 0.001 2 ReLU tanh 0.1 MSE rmsprop 47.488 ± 14.476 0.937 ± 0.019 8 3 softmax sigmoid softmax 0.1 MSE adam 51.599 ± 4.484 0.931 ± 0.005 Table 6 Training time (min:sec) for the FFNN models. L N Dropout 0 0.1 0.2 1 1 3:22.167 3:30.213 3:31.124 1 2 3:23.487 3:34.512 3:34.182 1 4 4:09.369 4:42:110 4:33.129 1 8 4:04.125 4:36.567 4:35.333 2 1 4:40.384 4:59.249 4:58.340 2 2 4:45.527 5:01.003 5:01.492 2 4 5:58:021 6:31.470 6:45.299 2 8 6:18.452 6:47.339 6:48.286 3 1 5:33.266 5:55.329 5:54.485 3 2 5:40.099 6:00.016 6:00.338 3 4 7:15.199 8:00.442 8:18.020 3 8 7:44.264 8:22.588 8:21.597 Table 7 The best tested configurations for the LSTM neural network. Configurations Results N φ Dropout Loss Optimizer MSE R 2 -Score 1 tanh 0.1 MAE adam 63.173 ± 3.799 0.916 ± 0.005 2 tanh 0.1 MSE adam 53.921 ± 1.832 0.928 ± 0.002 4 tanh 0.1 MSE rmsprop 48.168 ± 6.729 0.936 ± 0.008 8 tanh 0.1 MSE rmsprop 40.983 ± 3.151 0.945 ± 0.004 Table 8 Training time (min:sec) for the LSTM models. N Dropout 0 0.1 0.2 1 13:48.863 12:49.775 11:58.303 2 13:42.483 12:40.991 11:49.502 4 13:26.971 12:29.341 12:08.250 8 13:45.996 12:50.998 12:07.562 Table 9 The impact of the number of filters on CNNs on the evaluation metrics and training time (min:sec). No. of filters MSE R 2 -Score Time 8 35.191 ± 1.271 0.953 ± 0.001 00:24.988 16 36.804 ± 1.082 0.951 ± 0.001 00:28.615 32 37.477 ± 0.692 0.950 ± 0.001 00:30.235 64 38.831 ± 0.312 0.948 ± 0.001 00:32.649 128 39.362 ± 0.448 0.948 ± 0.001 00:33.336 256 39.942 ± 0.549 0.947 ± 0.001 00:51.808 Table 10 The impact of the kernel size on CNNs on the evaluation metrics and training time (min:sec). Kernel size MSE R 2 -Score Time 1 35.191 ± 1.271 0.953 ± 0.001 00:24.988 2 35.556 ± 1.388 0.953 ± 0.001 00:28.694 Table 11 Performance and training time (min:sec) comparison of the best model for each method for the traffic flow in study CT1Z8. Model Results MSE R 2 − S c o r e Time FFNN 44.857 ± 0.752 0.940 ± 0.001 04:36.567 LSTM 40.983 ± 3.151 0.945 ± 0.004 12:50.998 CNN 35.191 ± 1.271 0.953 ± 0.001 00:24.988 CNN-LSTM 36.873 ± 2.513 0.951 ± 0.003 01:03.955 Table 12 Performance and training time (min:sec) comparison of the best model for each method for the traffic flow in study CT2Z8. Model Results MSE R 2 -Score Time FFNN 12.295 ± 0.245 0.970 ± 0.001 02:57.386 LSTM 14.572 ± 1.869 0.965 ± 0.004 08:58.038 CNN 12.922 ± 0.470 0.969 ± 0.001 00:24.132 CNN-LSTM 13.126 ± 0.556 0.968 ± 0.001 00:55.356 Table 13 Performance and training time (min:sec) comparison of the different methods for the traffic flow in study CT1Z8 in anomalous conditions. Model Results MSE R 2 -Score Time FFNN 192.422 ± 1.578 0.698 ± 0.050 03:05.079 LSTM 188.011 ± 18.525 0.717 ± 0.027 08:36.375 CNN 177.229 ± 4.842 0.735 ± 0.007 00:22.968 CNN-LSTM 178.549 ± 5.586 0.734 ± 0.008 00:55.404 ☆ This work is funded by FCT/MEC through national funds under the project, S2MovingCity CMUP-ERI/TIC/0010/2014. Also, this work is funded by national funds, European Regional Development Fund, FSE, through COMPETE2020 and FCT, in the scope of the framework contract foreseen in the numbers 4, 5 and 6 of the article 23, of the Decree-Law 57/2016, of August 29, changed by Law 57/2017, of July 19, and POR LISBOA 2020 of the Portugal 2020 framework Project CityCatalyst with Nr. 046119. Vehicular traffic flow prediction using deployed traffic counters in a city Ana Almeida Conceptualization Methodology Software Validation Formal analysis Investigation Data curation Writing – original draft Visualization a b ⁎ Susana Brás Methodology Validation Writing – original draft Visualization a b Ilídio Oliveira Conceptualization Resources Writing – review & editing Visualization Supervision Funding acquisition a b Susana Sargento Conceptualization Resources Data curation Writing – review & editing Visualization Supervision Project administration Funding acquisition a c a Department of Electronics, Telecommunications and Informatics, University of Aveiro, 3810-193 Aveiro, Portugal Department of Electronics, Telecommunications and Informatics, University of Aveiro Aveiro 3810-193 Portugal Department of Electronics, Telecommunications and Informatics, University of Aveiro, 3810-193 Aveiro, Portugal b Institute of Electronics and Informatics Engineering of Aveiro, University of Aveiro, 3810-193 Aveiro, Portugal Institute of Electronics and Informatics Engineering of Aveiro, University of Aveiro Aveiro 3810-193 Portugal Institute of Electronics and Informatics Engineering of Aveiro, University of Aveiro, 3810-193 Aveiro, Portugal c Instituto de Telecomunicações, 3810-193 Aveiro, Portugal Instituto de Telecomunicações Aveiro 3810-193 Portugal Institute of Telecommunications of Aveiro, 3810-193 Aveiro, Portugal ⁎ Corresponding author at: Department of Electronics, Telecommunications and Informatics, University of Aveiro, 3810-193 Aveiro, Portugal. Department of Electronics, Telecommunications and Informatics, University of Aveiro Aveiro 3810-193 Portugal The sustainable growth of cities created the need for better informed decisions based on information and communication technologies to sense the city and quantify its pulse. An important part of this concept of “smart cities” is the characterization of vehicular traffic flows and the prediction of urban mobility. Although there are several sensors that are able to infer the traffic flows in the city, road-mounted traffic counters can measure the number of vehicles in different parts of the roads. However, they are not usually used in traffic city prediction; therefore, we can provide a first step for the usefulness of these sensors in the city management. In this paper we study both statistical and deep learning methods to describe, understand and predict the city traffic profile. Although traffic presents seasonal patterns, in occasional situations these may not be verified. Considering the proposed approaches, statistical algorithms, such as SARIMA, and neural network algorithms, such as FFNN, LSTM, CNN and hybrid LSTM-CNN, we found that statistical models are significantly good to predict the traffic counters data in the short-term, even when anomalous traffic conditions are observed. For long-term predictions, CNNs have shown to be efficient and robust. Long-term and short-term forecasting, in the context of traffic flow prediction, may be a strategy to accomplish different goals. Long-term forecasting can be chosen for traffic flow description, and short-term forecasting can be used to identify and mitigate anomalies. Graphical abstract Keywords Smart urban mobility Traffic flow Forecasting Deep learning 1 Introduction Smart cities use information and communication technologies to enhance decision making and contribute to a more sustainable use of resources. The s m a r t aspect refers to the ability to integrate sensing and analytic capabilities to support data-informed decision and actuation [1]: for example, adaptive management of electricity consumption, by turning the lights on only when there are people nearby [2]; smart irrigation by preventing irrigation when there is sufficient water in the soil or when it is likely to rain in the following days [3]; reduction of traffic jams by optimizing the traffic lights [4], etc. The sensing and communication capabilities, deployed across the city, enable data collection and transmission to support analytic processes, from which adaptive actuation may occur. In this context, cities offer a rich domain to apply Internet of Things (IoT) architectures [5]. The smart management of urban mobility is one of the goals that benefit from the smart city concept. Using IoT platforms, it is possible both to collect and analyze urban mobility data, and to plan and assess actions to improve it. Application use cases include on-demand parking, responding to accidents in real-time, improving traffic flow, etc. Understanding urban dynamics is essential to combat road traffic problems, since it aims to understand and assess the current mobility of the city in the different roads, the trends, and the anomalies. With the understanding of mobility, the next step is the prediction of the current trends, and even the anomalies’ prediction, to enable a good traffic management, for example, through the change of several lanes or the optimal routing of people through the roads, or to enable a fast reaction to sudden mobility problems, for example, problems caused by events or accidents in the roads. This work is focused on the study of smart urban mobility in Oporto, Portugal, leveraging on the existing sensing capabilities to collect historical traffic sensing data through traffic counters. Porto LivingLab [6] is a Smart City initiative that aims to study urban dynamics. This project deploys a multi-source sensing infrastructure, capturing information from a vehicular network, weather sensors, environment sensors, people-flows’ sensors, and traffic counters. The data will be used to train prediction models for traffic flows in order to assess the predicted value of traffic counters, including the mobility anomalies. The goal of our study is to enable the creation of services to help city managers of Oporto to take preventive actions before bigger problems occur. More specifically, this work studies urban mobility by using historical data from road-mounted traffic counters to predict future vehicular traffic behavior. For this approach, we explore both statistical and Deep Learning (DL) methods, looking for suitable alternatives for short and medium-term forecasting. Traffic flows present daily and weekly patterns that are considered for the development of the forecasting models. Due to the seasonal component of the traffic flow, the first proposed approach is based on the Seasonal AutoRegressive Integrated Moving Average (SARIMA) model; however, since some relations cannot be modeled or perceived in a deterministic way, artificial neural network algorithms were also proposed for this prediction approach: FeedForward Neural Network (FFNN), Long Short-Term Memory (LSTM), Convolutional Neural Network (CNN) and a hybrid LSTM-CNN. These approaches are used in the data of traffic counters. This type of data is not normally used in the traffic city prediction, which provides a first step for the usefulness of these sensors in the city management. Moreover, we found that statistical models are significantly good to predict the traffic counters data in the short-term. For long-term predictions, CNNs proved to be efficient and robust. Considering the results of the performance tests, two major goals may be achieved by the use of the proposed methods: long-term forecasting for traffic flow description, and short-term forecasting for anomalies identification and mitigation. Existing solutions on forecasting traffic flow are usually not concerned with predicting traffic when anomalous traffic conditions happen. The solutions that include short-term methods, in addition to the long-term methods, are more focused on an accurate prediction of normal traffic flow. We aim to show, with our work, the benefits that different models can have when used together. Although the several forecasting approaches have already been tested in the literature with mobility data, more specifically the location of sets of vehicles over time, the use of traffic counters has not been researched for future predictions. This is the main reason for this paper: to assess how the forecasting approaches perform to predict the number of vehicles through the use of traffic counters in the road traffic management. Moreover, we also take important conclusions on the usefulness of statistical methods and Artificial Neural Networks (ANNs), both for short- and long-term forecasting, mainly in the event of anomalies in the traffic. As we conclude in the end, a hybrid method composed by statistical and neural network approaches seems to be the most appropriate. The main contributions of this work can be summarized as follows: • Creation of a Fiware 1 1 structure to receive and persist traffic counters data, to make it available for open access in the future; • Development of pipelines for preprocessing the data; • Seasonality and quality assessment of the time-series produced by traffic counters; • Development of a short-term forecasting model (one-hour span), based on statistical methods, and a long-term forecasting model (one-week span) based on DL; • Computational pipeline to integrate production infrastructure and the new forecasting capabilities; • Research approaches for traffic predictions in presence of anomalies. The remainder of this paper is organized as follows. Section 2 presents related work to forecast urban mobility data. Section 3 presents the Oporto LivingLab and the selected use cases, and Section 4 describes the process to forecast the traffic flow. Section 5 addresses the forecasting with statistical-based approaches and neural networks, and Section 6 addresses the anomaly detection and traffic prediction upon anomalies. Finally, the last section discusses the main conclusions and proposes future improvements. 2 Related work Traffic counters provide quantitative evidence of the evolution of traffic flows along time. The analysis of traffic behavior can forecast potential problems, and help with the development of alternative solutions. Several approaches have been proposed to address the forecasting of traffic flows, ranging from historical methods to machine learning applications [7]. The urban mobility data used in this work contains spatial and temporal information. Each node, individually (each traffic flow sensor), can be represented through a time-series. The following methods are suited for time-series data. 2.1 Historical and statistical methods The work in [8] used Historical Average Forecast (HAF), SARIMA, Exponentially Weighted Historical Average (EWHA), and Deviation from Historical Average (DHA) to forecast the vehicular traffic flow. The best results were obtained with SARIMA; however, they made one step SARIMA predictions. The work in [9] used Kalman filtering theory to predict traffic volume, with minimal computational resources. The work in [10] used SARIMA and Facebook PROPHET (FbPROPHET) to perform short-term traffic forecasting. It collected hourly traffic volume count data for seven days. This work concluded that SARIMA was the best model to perform forecasting, and the FbPROPHET model obtains good results in forecasting the trend and the boundaries. In [11], the authors used SARIMA to predict the crowd in an emergency department of a hospital using hourly historical data from the hospital and hourly traffic data from nearby roads. They developed two models, one that uses only the information from the hospital and another one that uses both. For the traffic data, they chose the three roads with the highest cross-correlation with the information from the hospital. The predictions were improved when using traffic data. SARIMA models are deterministic and computationally lightweight; however, they are very limited in the prediction they can make, since they can only predict a short period of time. The works in [8,10,11] achieved good results using SARIMA to forecast traffic related data. For this reason, a SARIMA model will be developed in this work for short-term forecasting. 2.2 Artificial neural networks Machine Learning comprises several areas of study, including DL [12]. DL models are inspired by the biological nervous systems and are based on ANN [12]. An ANN can be composed of several layers of neurons, whose information flows through the layers. ANNs are algorithms that find dependencies and relations between attributes, not available in a first analysis. Note that, given the absence of a clear description of urban traffic, the relation between variables is not defined or known. Usually, an ANN is formed by three types of layers: the input layer, one or more hidden layers, and the output layer. Each layer can have one or more neurons [13]. The data can be propagated by several layers. At the end of each step of the training process, it will be made a prediction that will be compared with the actual value using a loss function, that increases as the difference between the true value and the predicted value increases. The score optimizers, such as r m s p r o p and a d a m [13] [12], are responsible to make the required corrections. It is important that the dataset passes several times through the network, to avoid underfitting. We can also have overfitting of the data. Overfitting happens when the model can perfectly describe the data. It may sound good, but it is not. The problem with overfitting is that the model is not generalized. Sometimes it is necessary to make the dropout of some neurons, where some connections are “turned-off” to ensure that there is no overfitting of the model [13,14]. Dropout is used when we have fully connected layers, as is the case with FFNN and LSTM. Since CNNs have fewer connections, they are less predisposed to overfitting; therefore, dropout is not essential in CNNs architectures. Activation functions should be non-linear, because they allow non-linear transformation to the data, but this does not mean that they have to be complex [13]. Some common activation functions used are Rectified Linear Unit (ReLU), sigmoid, hyperbolic tangent (tanh) and softmax. In some cases, linear activation functions can be used. In [15] the authors developed a FFNN to forecast passenger flows on Metro lines. The authors have chosen to develop a FFNN because the relationships between inputs and outputs were not known, and they could obtain fast results. The work in [16] developed a traffic flow prediction model through Deep Neural Networks (DNN), which takes into account the spatial–temporal characteristics of the data. In the beginning, the data goes through an attention model that will determine how correlated the past data is with future data. The model uses a CNN for the spatial component, and uses a Recurrent Neural Network (RNN) for the temporal component. At the end, the model uses a regression method to link both networks. The model in [17] uses a five-layer Gated Recurrent Unit (GRU) network, which is a type of RNN with a gating mechanism to make a short-term traffic flow prediction. Due to the bad results obtained when compared with CNN, the authors performed a spatio-temporal feature selection using a Spatio-Temporal Feature Selection Algorithm (STFSA) before applying the GRU model. The work in [18] investigated the influence of the use of short and long term patterns to get a more accurate prediction, and developed a Dynamic Temporal Context Neural Network (DTC) framework. The DTC model uses short and long term patterns as features, and determines the most relevant ones through online learning. Online learning has some issues associated: as time goes by, some long term patterns can be lost. However, this model can dynamically determine the most relevant patterns for the regression GRU model used. One major limitation of this work is that it does not include spatial dependencies, only one geographic point was analyzed. The work in [19] proposed a LSTM neural network to capture nonlinear traffic dynamics to make short-term traffic prediction. This type of network can determine the optimal time lags, which can improve performance. Longer time lags lead to better performance. Some recent works proposed approaches based on CNNs [20–22] for traffic and flow forecasting, that have in consideration the spatio-temporal dependencies. In [20] it is proposed a spatio-temporal residual network to deal with the node flow (inflow and outflow). The model has in consideration external factors, such as the weather and the day of the week. In [21], the authors proposed a Multi-task Deep Learning (MDL) framework to predict the node and edge (transitions) flows, since they mutually influence each other. They used as external factors holidays, weather conditions, temperature and wind speed. The proposed method can capture spatial and temporal correlations and external factors. In [22] it is proposed a spatio-temporal dynamic network with a gating mechanism to deal with spatial dependencies, and a periodically shifted attention mechanism to deal with temporal dependencies. There are also some proposed approaches based on Graph Convolutional Networks (GCN) [23–26]. In [23] the authors proposed a graph WaveNet that deals with spatial–temporal dependencies. In [24] the authors proposed a spatio-temporal graph convolutional network. They used convolutional and recurrent units over graphs. The authors could predict short and long term forecasting. In [25] it is proposed a diffusion convolutional recurrent neural network. Besides diffusion convolution, it is used sequence-to-sequence learning. In [26] it is proposed a MDL model to deal with node and edge flow. It is adopted graph convolution to process graph-structured data and to also deal with grid based data. This approach was able to predict short and long term forecasting. 2.3 Discussion From the models presented above, the statistical models are more transparent and reproducible. ANNs are seen as ’black boxes’. In some cases, statistical models can obtain similar results to ANNs. One of the advantages of using ANNs is because they can handle multi-dimensional data and are very adaptable, as well as handling outliers, missing data or noisy data [27]. The statistical methods might be more appropriate to detect patterns related with time. To efficiently develop ANN, some principles should be considered. First, it is important to find the weights of the inputs. The training process will update the model weights in each iteration; however, the optimization algorithm used may not lead to the minimum error or loss, and can lead to overfitting. Since ANNs require large amount of information and computational power, in the presence of a complex model, the training process can last for days or even months. This will be one of the aspects to assess in the models: its training and testing time. Since the traffic counter is not able to provide graph-based data, we will consider the main approaches for ANNs, but GCNs are not able to be applied to this type of data. Although these approaches have already been tested in the literature with mobility data, more specifically the location of sets of vehicles over time, the use of traffic counters has not been researched for future predictions. This is, therefore, the aim of this paper: to assess the use of traffic counters in the road traffic management. 3 Use cases The forecasting methods developed in this work are based on the use cases and data sensing infrastructure provided by Porto LivingLab. Porto Digital 2 2 provided the required access to traffic flow sensors data that feed the developed platform. Fig. 1 contains one of the sensors deployed by Porto Digital. The cuts located in Fig. 1(a), highlighted in Fig. 1(b), were made to deploy the sensor. The red area is the area where the counts of vehicles are made. 3.1 Oporto living lab infrastructure Porto Living Lab project has a common backend infrastructure to ensure consistency in the data models used. They use a Fiware infrastructure to manage data, and they have services that perform data analysis, filtering, and preprocessing. Data sharing is achieved by using different services like publish–subscribe middleware, RESTful API, etc [6]. This project has three monitoring platforms (people sensing, environmental sensing, and vehicular network sensing), provides free Wi-Fi service to public bus users, and allows the development of several research works. The vehicular network helps in the increase of the wireless coverage area [6]. 3.2 Selected use cases Managing urban mobility is a demanding responsibility of city managers. Sometimes, they can only identify problematic areas when the issues reach significant proportions. Predicting traffic problems before they happen, or at early stages, is one of the main goals. Since urban mobility data is complex, city managers would benefit from a computational system that is able to find patterns in traffic and predict traffic conditions. Forecasting traffic flow can be useful to determine, for example, the impact that construction can make in a zone. Detecting anomalies in traffic can be useful to generate alarms. For example, drivers may be obligated to change their routes because something unexpected happened, like a fallen tree. In this case, the presence of authorities may be required. This can be partially achieved by using the data from the traffic flow sensors, which provide the count of vehicles at a specific location. The main use cases for the data from Oporto to be addressed in this work are: • Analyze patterns in the traffic flow, • Forecast traffic flow, • Detect anomalies in traffic flow, • Forecast traffic flow even in anomalous situations. 4 Methods for traffic flow forecasting This section describes the process of forecasting the traffic flow in Oporto. 4.1 Approach and methods In order to study traffic counters, we first choose one single traffic counter. The sensing data presents several problems, those can be solved by performing data cleaning, like smoothing. After the preprocessing step, we can analyze the data. The data exhibits important characteristics: periodic counting data with time-series specificities. Due to the seasonal component of the traffic flow, we decided to use SARIMA model on data. Nevertheless, some relations cannot be modeled or perceived in a deterministic way. Therefore, artificial neural network algorithms were also considered: FFNN, LSTM, CNN and a hybrid LSTM-CNN. We decided to create a FFNN, since they can resemble any continuous function and can perform non-parametric regression [28]. RNNs are designed to deal with sequential data; however, they face the vanishing error problem that prevents them from learning more than 10 time steps. LSTM is a type of a RNN that can deal with long short-term forecasting, and it is not affected by the vanishing error problem. Since we are dealing with time series, and therefore we have sequential data, LSTM seems to be a good model to perform forecasting [29]. Although CNNs were initially mainly used in image classification, recent works prove that CNNs can be suitable for time series forecasting [16,20–22]. The major difference between CNNs and LSTMs is that CNNs learn by batch, while LSTMs learn by sequence. Because of this, CNNs can perform parallelization while LSTMs cannot. This means that CNNs are usually faster, and because they require low memory, they are computationally lighter. Another advantage of CNNs is that they can handle missing data [30,31]. GCNs are not a good fit for our problem because we only predict one traffic counter at a time. Even if we included several traffic counters, we only have information about the number of vehicles that the sensor measured in the interval, so we have only the transitions. We do not have the inflow and outflow, i.e., we do not know the exchanges between the different sensors, and these cannot be calculated because the road infrastructure is very complex and the sensors are sparse for the network density. Therefore, GCNs are not considered in our approach. After the traffic flow prediction, we will study the impact that anomalies can have on the data, and verify if the models can still perform accurate predictions. 4.2 Dataset selection The traffic flow data will be used to make predictions of the future values. The infrastructure data will give support to the previous task. We choose five weeks to study the traffic flow, from September 30 of 2019 to November 3 of 2019. The first four weeks are used to study the data, and to train and test the forecasting modules. The last week is only used to observe anomalies, study them, and try to predict them, since November 1st is a holiday in Portugal. The traffic flow dataset contains some outliers and imprecise Global Position System (GPS) sensors. In some of the cases, we had several possible streets for the location of the sensors. Besides that, we did not know the direction where the sensors were placed. Table 1 includes some descriptive statistics, after the outliers have been removed. With respect to traffic flows, Fig. 2 presents the data of 2 sensors, CT3Z3 and CT4Z3. CT3Z3 sensor presents some outliers, the six peaks in the graphic, that can be discarded. The sensor in node CT4Z3 has abnormal values, and therefore, will not be used in the data analysis. 4.3 Preparatory traffic flow data analysis The traffic flow is a specific type of data, denoted as count data. We selected a specific traffic flow sensor to focus the study in one time-series. That sensor has an identification of CT1Z8. As can be observed in Fig. 3, the traffic flow presents high variability, which may hide existing patterns in the data. The figure represents the first week of data, and the vertical red lines symbolize the different days. We can observe patterns between days and seasonality. Nevertheless, the excessive variability may be hiding patterns and makes difficult to model the behavior of the traffic flow. A preprocessing step was added to the process to smooth the data, allowing a better interpretation of the data patterns. In order to apply smoothing methods appropriately, the time-series should be stationary. We can verify stationarity by performing a statistic test, the Augmented Dickey–Fuller (ADF) test. The ADF test is a unit root test that tests how strong a time-series can be characterized by a trend. If the time-series is non-stationary, it is necessary to apply differentiation to make it stationary [32]. This test has a null hypothesis that assumes that the time-series can be represented by a unit root. So, a null hypothesis is defined considering that the time-series is non-stationary. Therefore, if the null hypothesis is rejected, it can be concluded that the time-series is stationary. The hypothesis test is verified by the calculated p -value. If the p -value is lower than a threshold, then the null hypothesis is rejected, meaning that the time-series is stationary [32]. Usually, the threshold values used are 0.01 (for a confidence of 99%) or 0.05 (for a confidence of 95%). It was verified that the time-series is stationary, since a significant p -value was found (¡0.001) in the ADF test. The smoothing is selected based on data characteristics. Therefore, several smoothing methods were tested, being the Savitzky–Golay smoothing, also known as Savgol smoothing, the one that presented the best results, since it preserved the real behavior of the time-series. The Savgol smoothing [33] fits a set of points without changing the signal tendency, applying locally a polynomial function. The number of points that is applied is configurable and is called the window size. Usually it is preferred polynomials of a lower degree, and the window size needs to be bigger than the polynomial degree. The selected method parameters consider a window size of 41 and a polynomial order of 3. 4.4 Elements of the forecasting pipeline Forecasting the traffic flow can be a difficult task due to its unpredictability. We developed a pipeline for this purpose, as can be observed in Fig. 4. Data cleaning aims to eliminate the problems related to missing data, noisy data, and outliers. Since the traffic flow has few missing data, we replaced it by zeros, and through smoothing, the impact of the missing data was not significant. Smoothing also helped in the case of the existence of noise and outliers. Data transformation is usually made to ensure that there are a maximum and minimum defined. One of the ways of performing transformation is through normalization, scaling the data with a min–max scaler from −1 to 1. When we scale data, we will have to make an inverse scale before evaluating the model. Data reduction can be made by aggregating data, performing a reduction in the data that is studied, or through dimensionality reduction. In the case of traffic flow data, it is not necessary to aggregate it. However, this study is focused on just one traffic flow sensor. Relatively to dimensionality reduction, some of the original features are not used, and it is performed a feature selection between time lags (for the prediction task). Feature selection is very important because it helps reducing overfitting, improves accuracy, and reduces training time. The forecasting modules have three common steps: train the model, test the model and invert the normalization performed in the preprocessing module. The DL forecasting module has an additional step because, DL problems do not take into account time, since time by itself is not a feature. So, to overcome this shortcoming, a sequence of past occurrences is used as input on the DL algorithm. Traffic flow patterns depend on seasonality patterns. Therefore, the selection of the past occurrences is related with significant lags, i.e., select past occurrences most correlated with the present ones (e.g. a hour, a week, a month before). When choosing the best lags to build the time dependent feature, we should take into consideration the time to predict, the information we plan to use, and how correlated is the lag. With this in mind, and considering that we are predicting one week of data, it was chosen the lags: 2016, 2028, 4032, and 4044 (one week earlier, one week earlier plus an hour, two weeks earlier, two weeks earlier plus an hour). In all types of the developed networks, we have an input layer at the beginning and an output layer at the end. However, the content of the hidden layers changes. In the case of the FFNN, we considered three versions with one, two or three dense layers. In the case of the LSTM, we have just a LSTM layer. In the case of the CNN, we use two convolution layers. The hybrid network has one convolution layer, one pooling layer and one LSTM layer. The dropout does not happen always, since it is configurable. Usually, before the output layer, a flatten layer is necessary to flatten the data. 4.5 Computational platform for the pipeline automation Fig. 5 depicts the system architecture. The forecasting models run in a computational platform integrated with the existing city infrastructure. The connection to the data from Porto Digital is assured by Fiware middleware [34], a standardized open-source solution suited for smart cities use cases (Porto Digital provides an endpoint using Fiware Orion to which we connect our own instance). The Fiware Cygnus module enables data persistence in a local database. Data flows in the Fiware node are managed through publish/subscribe patterns. PostgreSQL persists the information at a long term. The cache files associated with the preprocessing module are created, and are usually unchanged. Besides that, the communication cost between the machines is significant. The cache files associated with the DL model are used to save the machine learning models. The preprocessing module is responsible for preprocessing data from flow counters. This module is connected to the forecasting modules of the traffic flow data. The anomaly module uses the DL and the statistical module to predict anomalous data. All databases and the Fiware components are deployed in Docker containers. The models that perform the preprocessing and the analysis are developed in Python 3. 5 Forecasting results This section presents the forecasting results using both SARIMA and neural networks. The machine running the tests has Ubuntu 18.04 LTS operating system, a Intel(R) Core (TM) i7-7700 CPU with 3.60 GHz frequency, 8 GB of memory and 8 cores. Since the number of tests is large, to avoid overheating problems, it is imposed a limit of CPU usage at 600% (of 800%). 5.1 Evaluation metrics Evaluation metrics measure the models’ performance, being helpful to choose the best model. These metrics will be presented in the following. Mean squared error Mean Squared Error (MSE) [35,36] can be described as in Eq. (1) (1) MSE = 1 n ∑ i = 1 n ( Y i − Y ˆ i ) 2 , where Y i is the observed value and Y ˆ i is the predicted value. The MSE value is always larger or equal to zero. If the predicted value and the true value are equal, the error is zero. As the difference increases, the error increases. A good model has a MSE close to zero. Coefficient of determination The coefficient of determination is also known by R 2 -Score and can be calculated as in (2) (2) R 2 − Score = 1 − MSE MSE baseline , where MSE baseline is the MSE calculated using the mean of the observed value, instead of using the predicted value. A good model should have a score close to 1. The maximum value of R 2 -Score is one, and the minimum value is – ∞ . However, if the MSE is not positive, then the model is worst than the one that only predicts the mean value [37]. Akaike information criterion Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC) are two evaluation metrics used in statistical methods. They select the best model based on the log-likelihood and complexity of the model. AIC is based on f r e q u e n t i s t probability and penalizes less the complex models [38]. Following the work in [35], AIC is expressed by (3) AIC = 2 p − 2 ln ( L ˆ ) , where L ˆ is the likelihood and p is the number of estimated parameters. BayesIan information criterion BIC is based on Bayesian probabilities and penalizes the model with a bigger complexity. A very complex model has fewer probabilities to be chosen [38]. BIC can be obtained using AIC, as shown in Eq. (4). (4) BIC = AIC + p ( ln ( n ) − 2 ) = 2 p − 2 ln ( L ˆ ) + p ∗ ln ( n ) − 2 p = − 2 ln ( L ˆ ) + p ∗ ln ( n ) . 5.2 Forecasting with SARIMA Statistical methods like SARIMA allow to perform short-term forecasting. With SARIMA, we can just predict 12 steps that correspond to 1 h. We tested bigger values for the number of steps being forecasted ( m parameter), but the behavior of the curve was worst, or the model was too complex (when m was too big) that could not be calculated. Because of that, it is used one model for each day of the week. We use 75% of the data for training and another 25% for tests. For example, to predict the last Monday, it is used the first three Mondays to train SARIMA. The best model for each day of the week is chosen based on the results of the first forecasted hour. To forecast a hour, it is necessary, on average, 3.583 s. The first evaluation metric considered is the MSE. Nevertheless, in this study this metric provided overfitting of the model to the data. The models with the best MSE values for the first hour do not always presented good forecasting for the remaining hours. By the opposite, the values of parameters are more consistent using BIC as an evaluation metric. The obtained values are presented in Table 2. To predict more than one hour, it is initially experimented to retrain the model using the predicted values as true values; however, the model is not able to make good predictions. Using MSE, it was clear that the model was doing overfitting. Using BIC, the model would start to tend to a specific value. We then retrained both models using the true values. As can be observed in Fig. 6, both models can make good predictions. However, the model chosen by using MSE does overfitting and presents a delay of the forecasted values. This shows that, choosing BIC as an evaluation metric leads to the choice of a good model. Note that, if we decrease the number of steps, we would decrease the error; however, we want to predict as much time as possible. Considering that several sensors are distributed all over the city, one possible application of the model is to be reused on other sensors. Knowing that the traffic behavior differs between locations, we tested the models not only on the data from this sensor, but also on the nearby sensors which data highly correlates with the data from the current sensor. In general, we achieved a good performance: the MSE is low, the curve is close to the real curve, and the model does not overfit the data. 5.3 Forecasting with deep learning Using DL methods to predict future traffic flow values allows to predict, for example, one week of data. DL methods are complex, but achieve good results in long-term forecasting. Table 3 contains the possible configurations to be tested. Note that different networks have different architectures. Therefore, there are some differences between the parameters tested between the LSTM/FFNN and CNN/CNN-LSTM. Initially, we made some tests with increasing the number of neurons of the networks LSTM/FFNN. Increasing the number of neurons more than 8 did not improve the network performance, but it increased the network complexity. Because of that, we did not perform exhaustive tests with more than 8 neurons. In contrast, we decided to test the CNN-LSTM network with more than 8 neurons, since the cost and benefit trade-off was smaller. For the architecture of the CNN-LSTM network, the computational cost was less significant, and the improvement with the increase of the number of neurons was significant. We only used ReLU and l i n e a r activation functions with CNN layers because they are usually the type of functions used in this type of layers. The number of filters, the kernel size, and the pool size are only applicable to the CNN layers. For each model, 6 simulation runs were performed to chose a model not biased on the input data. We tested different FFNN topologies with networks of 1, 2, or 3 layers ( L ). The best results obtained by the application of FFNN are presented in Table 4. In all the FFNN models, the best result was obtained by having no dropout. This can reveal a big issue. Not having dropout means that the model is doing overfitting of the data. If the model does overfitting of the data, it will not have the capability to adapt over time. There is not a specific pattern relative to the activation function used; however, the s i g m o i d and the ReLU functions are relevant in the results. The evaluation metrics are all very similar for each model, being the best model, the one with 8 neurons and 2 layers. The model presents low values in the MSE, and values very close to 1 in the R 2 -Score. The R 2 -Score refers to the part of the model in which the output variable can be explained by the input variable. In a general way, the model presents a good performance. The model with 8 neurons and 2 layers is the best model; however, the first model (1 neuron and 1 layer) presents a very close MSE value and presents a much lower standard deviation. This could indicate that the first model is better than the other one. However, if a model presents an extremely small value for standard deviation, that might mean that the model will react worst to changes because it has no adaptive capabilities. The differences are small between both models, but the model with 8 neurons has better variance and R 2 -Score values, meaning that it describes better the data. In Table 5 we try to find the best models that perform dropout (0.1 or 0.2). As expected, the error values increased, and in some cases, the error increases more than the double. In most of the cases, the best models with dropout appear after several models without dropout. The best model with dropout has 8 neurons and 1 layer that uses the activation function tanh. The model presents low error values, having an MSE of 44.857 ± 0.752, and a variance and R 2 -Score close to 1. Given that the increase in the error metrics is small, it is preferable to use the best model with dropout. Fig. 7 shows the best model with dropout. We study the training times of the FFNN. Table 6 contains the times organized by the number of layers, number of neurons, and dropout ratio. We observe that the training time depends on the three factors in which the table is divided. The training time increases with the number of layers, with the number of neurons, and increases with the presence of dropout. The columns with 0.1 of dropout versus 0.2 of dropout have very similar values. LSTM neural networks are mostly used to predict sequential future values; however, they can be useful to predict other types of values. Table 7 presents the best configuration parameters for the LSTM neural network. N stands for the number of neurons, and φ stands for the activation function. There are significant improvements when we increase the number of neurons that are used in the LSTM model. The models present the same activation function and dropout value. One of the simulations that allow to obtain the best performance models is presented in Fig. 8 (containing 8 neurons). The model with 8 neurons has a low MSE. The R 2 -Score value is very close to 1. It is possible to observe that the behavior of the predicted values is very close to the behavior of the true values. There are some local maximal and minimal values that present the major differences between predicted and true values, but the predicted curve is very close to the real curve. The training time is an important factor when choosing the model. If a good model takes too long to train, it may be better to use a model with lower performance and a better training time. Table 8 presents the training time for the LSTM models. It was chosen to divide the results by the number of neurons and the dropout ratio. It is possible to conclude that the dropout ratio has an impact on the training time: increasing the dropout leads to a decrease in the training time. This happens because, by performing dropout, we are discarding information, and that information will not be used in the following steps. The number of neurons does not affect the training time, given that the values in each column are very similar. This is due to the capability of the networks to use all available processing resources regardless of the network configuration. The best model obtained with the CNN has 8 filters, a kernel size of 1, the ReLU function as activation function, and no dropout. In the hybrid network, the convolution part has 8 filters, a kernel size of 3, a pool size of 2 in the pooling layer, two activation functions (a ReLU and a l i n e a r ), and no dropout. Note that, the best model with dropout has a performance very similar to the best model without dropout, and all the other parameters are the same. The MSE increases by 0.195, the R 2 -Score is the same, and the training time increases less than 4 s. We decided to evaluate the effect of the number of Filters on the performance of the CNN model. Table 9 contains the results, which show that, increasing the number of filters increases the error and the training time. Regarding the kernel size, we cannot take conclusions, since the difference between the best model with a kernel size of 1 and the best model with a kernel size of 2 is not significant (see Table 10). The overall results are presented in Table 11. The best performance is obtained with the CNN. The CNN model achieves the best MSE, the best R 2 -Score, and the best training time. The second-best model is the hybrid model, followed by the LSTM and the FFNN model. The LSTM model is the model that presents a higher training time — this happens because of the nature of the LSTM networks. The presented work was specific for a traffic flow sensor. One of the goals was to forecast the values of other sensors without having to repeat all the work. A direct application of the models cannot be performed because we trained the model with the values of the specific traffic flow. To reuse the developed work, we will train new models with the same parameters, but with the historic values of the specific traffic flow. We tested the performance for a traffic flow sensor that presented high correlation values with the specific sensor. With SARIMA, we obtained an MSE of 0.315 and a BIC of 1209.070 for the first forecasted hour of Monday. The error remained low when predicting the following hours, with an average error of 16.658. In the case of the ANNs, the results are presented in Table 12. The best results are obtained with the model FFNN; however, the results obtained using a CNN are very close to the ones obtained using a FFNN. Note that the range of values is smaller for this sensor, and that can lead to smaller errors. CNN seems the most appropriate ANN to use to predict the traffic flow. The architecture of the CNN that presented the best results is presented in Fig. 9. As can be observed, we have several sequential layers: an input layer, several hidden layers, and one output layer. In the hidden layers, we have 1-Dimensional (1D) convolutional layers with 8 filters, layers with ReLUs as activation functions, and a flatten layer. Some FFNNs achieve better results but do not perform dropout, meaning that they are more sensitive to changes and they are, most likely, performing overfitting. SARIMA models presented good results, but they cannot perform long-term forecasting with a good performance. LSTMs present bigger training times, but they are small in a week time frame. 6 Abnormal traffic behavior Anomaly detection allows to recognize that the present or near future conditions of the city (its traffic) are uncommon, given the observed history. Anomaly detection is difficult to perform because it is, in most of the cases, unexpected. However, there are a few cases in which we can predict that it will happen something unusual. Since we expect to observe patterns in traffic as a result of calendar seasonality, we can also expect the existence of anomalies when there is something that is not dictated by the usual seasonality. 6.1 Detecting an anomaly The best example to identify an anomaly is when a holiday occurs. November 1st is a religious holiday celebrated in Portugal. In 2019, this holiday occurred on a Friday, being the perfect candidate for our study. Since this holiday happens one week after the last week in the study, it is chosen to analyze the next week based on the models previously calculated to verify their behavior. Besides that, it is also performed some analysis that can help to detect some anomalies. In Fig. 10, we observe that, in the week from October 27 of 2019 to November 3 of 2019, it is possible to detect the anomaly presented in the holiday. The traffic values are much lower than on the Fridays of the other weeks. The holiday even presents lower values than Saturday and Sunday. To start the processing, it is performed the smoothing of the time-series, and the seasonal decomposition from October 7 to November 3. By looking into Fig. 11, we can observe the presence of the anomaly. The observed component is the time-series after it is performed the smoothing step, and, once more, we can visualize a decrease in the values corresponding to the holiday. In the residual component, there is a significant decrease in the holiday, highlighting the anomaly. It is also possible to visualize a decrease in the trend component, even before the holiday. This indicates that the existence of a holiday in a Friday allows that some people take some additional vacation days. The only component in which the anomaly is not visible is the seasonal component. This happens because the seasonal component only retains the patterns, the seasonal and cyclic patterns. Since every year the weekday in which the holiday happens changes, it would be very difficult to have a pattern with just one or two years of information. It would be necessary much more information to detect and study the pattern presented in the holiday. The residual component is the component that contains the anomaly. To detect and isolate the anomaly, we should focus on what happens in this component. In this case, the anomaly generates a decrease in traffic. In Fig. 12, a marked pattern is found corresponding to the traffic anomaly; it corresponds to the analysis after performing a day resample. Resample data by day is useful if we expect anomalies for an entire day, but for detecting more isolated anomalies, like accidents, it might be more useful not to perform the resample or just resample in one hour interval. If the anomalies can affect an entire week, like the academic week in the university, we might even have to perform the resample by week. 6.2 Anomalous traffic impact in short and long-term forecasting Although we can determine the anomaly, the real question is if it is possible to forecast the traffic flow even when there is an anomaly. To answer this question, we first started with SARIMA model. Fig. 13 presents the forecasting done with SARIMA. We observe that the SARIMA model presents a good performance. However, one disadvantage of using SARIMA is that we have to retrain the model at each hour. The same did not happen when we try to apply the ANNs, as can be observed in Table 13. Since DL models were trained to perform long-term forecasts, the DL models did not contain any information that the anomaly occurred. As such, those models were not able to get good results, and there is a huge difference between the predicted values and the true values for the November 1st, as we can see in Fig. 14. Even when the previous hour was added to the features group, in order to verify the impact in the predicted values, there was not a significant improvement. Note that all lags present a strong correlation with lag 0, meaning that the use of lag 12 is not important, and that might be the reason why the model does not adapt. One of the reasons why we get better results with SARIMA than with ANNs is due to the capability of SARIMA to look into data as a sequence. However, some ANN models, such as LSTM, are a type of model for sequential data and cannot adapt. This might be due to ANNs being formatted to receive input data and output data, and not pure sequential data. By analyzing the residual component or the error component, it is possible to detect the anomalies; however, the detection just happens after they occur. Is it also possible to detect them when they occur, if we use SARIMA, but it is not possible to detect them far in advance. Through these results, we conclude that both statistical models and ANNs have different purposes, and in the traffic flow prediction, they will provide differentiated and opposite performance for short- and long-term forecasting. The automatic selection of the forecasting method, through the use of a hybrid method, is key for the autonomous forecasting of traffic flow in roads through traffic counters. 7 Conclusions Improving smart urban mobility can have several positive impacts on the city and its citizens. For example, the identification of problematic traffic zones can lead the responsible authorities to implement measures to combat the problems. In this paper, our aim was to make the best use of the resources available in Oporto to support its management. In this paper, time-series analysis helped in the identification of patterns and problems. Using real traffic counters deployed in the city, we were able to infer traffic conditions and seasonalities. It was possible to forecast one week of the traffic flow through traffic counters, by using DL methods, such as FFNNs, LSTMs, CNNs and hybrid LSTM-CNN models; however, we found some limitations with respect to forecasting anomalies. While SARIMA models were able to adapt and make good predictions even in the presence of anomalies, the machine learning methods were not able to do the same. One of the reasons is that they were designed to make long-term forecasting. However, with SARIMA we can only forecast one hour. When we try to forecast more than one hour, the model presented worst results or was too complex to be calculated. Considering the proposed DL methods, CNNs have shown to be efficient and robust since they always presented the lowest errors and low training times. This is, therefore, the approach we consider the best for flow prediction through traffic counters in the roads. The study of smart urban mobility is far from being completely explored. As future work, we plan to test new algorithms for anomaly detection (road accidents, holidays, constructions, etc.), to detect anomalies that happen during short or long-term periods. This can be done through a hybrid method composed by statistical and neural network approaches. CRediT authorship contribution statement Ana Almeida: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing – original draft, Visualization. Susana Brás: Methodology, Validation, Writing – original draft, Visualization. Ilídio Oliveira: Conceptualization, Resources, Writing – review & editing, Visualization, Supervision, Funding acquisition. Susana Sargento: Conceptualization, Resources, Data curation, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. References [1] El Hendy M. Miniaoui S. Atalla S. Hashim K. A survey on smart city technologies, initiatives and global technology providers 2017 1 7 10.1145/3018896.3025132 M. El Hendy, S. Miniaoui, S. Atalla, K. Hashim, A survey on smart city technologies, initiatives and global technology providers, 2017, pp. 1–7. 10.1145/3018896.3025132. [2] Sikder A.K. Acar A. Aksu H. Uluagac A.S. Akkaya K. Conti M. Iot-enabled smart lighting systems for smart cities 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC) 2018 639 645 10.1109/CCWC.2018.8301744 A. K. Sikder, A. Acar, H. Aksu, A. S. Uluagac, K. Akkaya, M. Conti, Iot-enabled smart lighting systems for smart cities, in: 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC), 2018, pp. 639–645. 10.1109/CCWC.2018.8301744. [3] Caetano F. Pitarma R. Reis P. Intelligent management of urban garden irrigation 2014 9th Iberian Conference on Information Systems and Technologies (CISTI) 2014 1 6 10.1109/CISTI.2014.6876907 F. Caetano, R. Pitarma, P. Reis, Intelligent management of urban garden irrigation, in: 2014 9th Iberian Conference on Information Systems and Technologies (CISTI), 2014, pp. 1–6. 10.1109/CISTI.2014.6876907. [4] Semet Y. Berthelot B. Glais T. Isbéerei C. Varest A. Expert competitive traffic light optimization with evolutionary algorithms Proceedings of the 5th International Conference on Vehicle Technology and Intelligent Transport Systems - Volume 1: VEHITS 2019 INSTICC, SciTePress 199 210 10.5220/0007732701990210 Y. Semet, B. Berthelot, T. Glais, C. IsbreiAÁ, A. Varest, Expert competitive traffic light optimization with evolutionary algorithms, in: Proceedings of the 5th International Conference on Vehicle Technology and Intelligent Transport Systems - Volume 1: VEHITS, INSTICC, SciTePress, 2019, pp. 199–210. 10.5220/0007732701990210. [5] Miorandi D. Sicari S. De Pellegrini F. Chlamtac I. Internet of things: Vision, applications and research challenges Ad Hoc Netw. 10 7 2012 1497 1516 10.1016/j.adhoc.2012.02.016 D. Miorandi, S. Sicari, F. De Pellegrini, I. Chlamtac, Internet of things: Vision, applications and research challenges, Ad Hoc Networks 10 (2012) 1497–1516. [6] Santos P.M. Rodrigues J.G.P. Cruz S.B. Lourenço T. d’Orey P.M. Luis Y. Rocha C. Sousa S. Crisóstomo S. Queirós C. Sargento S. Aguiar A. Barros J. Portolivinglab: An IoT-based sensing platform for smart cities IEEE Internet Things J. 5 2 2018 523 532 P. M. Santos, J. G. P. Rodrigues, S. B. Cruz, T. Lourenço, P. M. d’Orey, Y. Luis, C. Rocha, S. Sousa, S. Crisóstomo, C. Queirós, S. Sargento, A. Aguiar, J. Barros, Portolivinglab: An iot-based sensing platform for smart cities, IEEE Internet of Things Journal 5 (2018) 523–532. [7] Yin X. Wu G. Wei J. Shen Y. Qi H. Yin B. A comprehensive survey on traffic prediction 2020 X. Yin, G. Wu, J. Wei, Y. Shen, H. Qi, B. Yin, A comprehensive survey on traffic prediction (2020). [8] Williams B. Hoel L. Modeling and forecasting vehicular traffic flow as a seasonal ARIMA process: Theoretical basis and empirical results J. Transp. Eng. 129 2003 664 672 10.1061/(ASCE)0733-947X(2003)129:6(664) B. Williams, L. Hoel, Modeling and forecasting vehicular traffic flow as a Seasonal ARIMA process: Theoretical basis and empirical results, Journal of Transportation Engineering 129 (2003) 664–672. [9] Okutani I. Stephanedes Y. Dynamic prediction of traffic volume through Kalman filtering theory Transp. Res. B 18 1984 1 11 10.1016/0191-2615(84)90002-X I. Okutani, Y. Stephanedes, Dynamic prediction of traffic volume through kalman filtering theory, Transportation Research Part B: Methodological 18 (1984) 1–11. [10] Chikkakrishna N.K. Hardik C. Deepika K. Sparsha N. Short-term traffic prediction using sarima and fbprophet 2019 IEEE 16th India Council International Conference (INDICON) 2019 1 4 10.1109/INDICON47234.2019.9028937 N. K. Chikkakrishna, C. Hardik, K. Deepika, N. Sparsha, Short-term traffic prediction using sarima and fbprophet, in: 2019 IEEE 16th India Council International Conference (INDICON), 2019, pp. 1–4. 10.1109/INDICON47234.2019.9028937. [11] Rauch J. Hübner U. Denter M. Babitsch B. Improving the prediction of emergency department crowding: A time series analysis including road traffic flow Stud. Health Technol. Inform. 260 2019 57 64 10.3233/978-1-61499-971-3-57 cited By 2 J. Rauch, U. Hubner̈, M. Denter, B. Babitsch, Improving the prediction of emergency department crowding: A time series analysis including road traffic flow, Studies in Health Technology and Informatics 260 (2019) 57–64. Cited By 2. [12] M. 6.S191 Introduction to deep learning 2019 M. 6.S191, Introduction to deep learning, 2019. [13] Chollet F. Deep Learning with Python 2017 Manning Publishing F. Chollet, Deep Learning with Python, Manning Publishing, 2017. [14] Srivastava N. Hinton G. Krizhevsky A. Sutskever I. Salakhutdinov R. Dropout: A simple way to prevent neural networks from overfitting J. Mach. Learn. Res. 15 56 2014 1929 1958 N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, R. Salakhutdinov, Dropout: A simple way to prevent neural networks from overfitting, Journal of Machine Learning Research 15 (2014) 1929–1958. [15] Gallo M. De Luca G. D’Acierno L. Botte M. Artificial neural networks for forecasting passenger flows on metro lines Sensors 19 15 2019 10.3390/s19153424 M. Gallo, G. De Luca, L. D’Acierno, M. Botte, Artificial neural networks for forecasting passenger flows on metro lines, Sensors 19 (2019). [16] Yuankai W. Tan H. Ran B. Jiang Z. A hybrid deep learning based traffic flow prediction method and its understanding Transp. Res. C 90 2018 10.1016/j.trc.2018.03.001 W. Yuankai, H. Tan, B. Ran, Z. Jiang, A hybrid deep learning based traffic flow prediction method and its understanding, Transportation Research Part C: Emerging Technologies 90 (2018). [17] Dai G. Ma C. Xu X. Short-term traffic flow prediction method for urban road sections based on space-time analysis and GRU IEEE Access PP 2019 1 10.1109/ACCESS.2019.2941280 G. Dai, C. Ma, X. Xu, Short-term traffic flow prediction method for urban road sections based on space–time analysis and gru, IEEE Access PP (2019) 1–1. [18] Bartlett Z. Han L. Nguyen T.T. Johnson P. A novel online dynamic temporal context neural network framework for the prediction of road traffic flow IEEE Access 2019 1 10.1109/ACCESS.2019.2943028 Z. Bartlett, L. Han, T. T. Nguyen, P. Johnson, A novel online dynamic temporal context neural network framework for the prediction of road traffic flow, IEEE Access (2019) 1–1. [19] Ma X. Tao Z. Wang Y. Yu H. Wang Y. Long short-term memory neural network for traffic speed prediction using remote microwave sensor data Transp. Res. C 54 2015 187 197 10.1016/j.trc.2015.03.014 X. Ma, Z. Tao, Y. Wang, H. Yu, Y. Wang, Long short-term memory neural network for traffic speed prediction using remote microwave sensor data, Transportation Research Part C: Emerging Technologies 54 (2015) 187–197. [20] Zhang J. Zheng Y. Qi D. Deep spatio-temporal residual networks for citywide crowd flows prediction Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence AAAI’17 2017 AAAI Press 1655 1661 J. Zhang, Y. Zheng, D. Qi, Deep spatio-temporal residual networks for citywide crowd flows prediction, in: Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence, AAAI’17, AAAI Press, 2017, p. 1655–1661. [21] Zhang J. Zheng Y. Sun J. Qi D. Flow prediction in spatio-temporal networks based on multitask deep learning IEEE Trans. Knowl. Data Eng. 32 3 2020 468 478 10.1109/TKDE.2019.2891537 J. Zhang, Y. Zheng, J. Sun, D. Qi, Flow prediction in spatio-temporal networks based on multitask deep learning, IEEE Transactions on Knowledge and Data Engineering 32 (2020) 468–478. [22] Yao H. Tang X. Wei H. Zheng G. Li Z. Revisiting spatial-temporal similarity: A deep learning framework for traffic prediction Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 33 2019 5668 5675 10.1609/aaai.v33i01.33015668 H. Yao, X. Tang, H. Wei, G. Zheng, Z. Li, Revisiting spatial–temporal similarity: A deep learning framework for traffic prediction, Proceedings of the AAAI Conference on Artificial Intelligence 33 (2019) 5668–5675. [23] Wu Z. Pan S. Long G. Jiang J. Zhang C. Graph WaveNet for deep spatial-temporal graph modeling Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19 2019 International Joint Conferences on Artificial Intelligence Organization 1907 1913 10.24963/ijcai.2019/264 Z. Wu, S. Pan, G. Long, J. Jiang, C. Zhang, Graph wavenet for deep spatial–temporal graph modeling, in: Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19, International Joint Conferences on Artificial Intelligence Organization, 2019, pp. 1907–1913. DOI: 10.24963/ijcai.2019/264. 10.24963/ijcai.2019/264. [24] Yu B. Yin H. Zhu Z. Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, IJCAI-18 2018 International Joint Conferences on Artificial Intelligence Organization 3634 3640 10.24963/ijcai.2018/505 B. Yu, H. Yin, Z. Zhu, Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting, in: Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, IJCAI-18, International Joint Conferences on Artificial Intelligence Organization, 2018, pp. 3634–3640. DOI: 10.24963/ijcai.2018/505. 10.24963/ijcai.2018/505. [25] Li Y. Yu R. Shahabi C. Liu Y. Diffusion convolutional recurrent neural network: Data-driven traffic forecasting 2018 arXiv:1707.01926 Y. Li, R. Yu, C. Shahabi, Y. Liu, Diffusion convolutional recurrent neural network: Data-driven traffic forecasting, 2018. [26] Wang F. Xu J. Liu C. Zhou R. Zhao P. MTGCN: A multitask deep learning model for traffic flow prediction 2020 435 451 10.1007/978-3-030-59410-7_30 F. Wang, J. Xu, C. Liu, R. Zhou, P. Zhao, MTGCN: A Multitask Deep Learning Model for Traffic Flow Prediction, 2020, pp. 435–451. 10.1007/978-3-030-59410-7˙30. [27] Karlaftis M. Vlahogianni E. Statistical methods versus neural networks in transportation research: Differences, similarities and some insights Transp. Res. C 19 3 2011 387 399 10.1016/j.trc.2010.10.004 M. Karlaftis, E. Vlahogianni, Statistical methods versus neural networks in transportation research: Differences, similarities and some insights, Transportation Research Part C: Emerging Technologies 19 (2011) 387–399. [28] Yu E. Chen C. Traffic prediction using neural networks Proceedings of GLOBECOM ’93. IEEE Global Telecommunications Conference 1993 991 995 vol.2 10.1109/GLOCOM.1993.318226 E. Yu, C. Chen, Traffic prediction using neural networks, in: Proceedings of GLOBECOM ’93. IEEE Global Telecommunications Conference, 1993, pp. 991–995 2. 10.1109/GLOCOM.1993.318226. [29] Gers F.A. Schmidhuber J. Cummins F. Learning to forget: Continual prediction with LSTM Neural Comput. 12 10 2000 2451 2471 10.1162/089976600300015015 F. A. Gers, J. Schmidhuber, F. Cummins, Learning to Forget: Continual Prediction with LSTM, Neural Computation 12 (2000) 2451–2471. [30] Bai S. Kolter J.Z. Koltun V. An empirical evaluation of generic convolutional and recurrent networks for sequence modeling 2018 CoRR, arXiv:1803.01271 S. Bai, J. Z. Kolter, V. Koltun, An empirical evaluation of generic convolutional and recurrent networks for sequence modeling, CoRR abs/1803.01271 (2018). [31] Ismail Fawaz H. Forestier G. Weber J. Idoumghar L. Muller P.-A. Deep learning for time series classification: a review Data Min. Knowl. Discov. 33 2019 10.1007/s10618-019-00619-1 H. Ismail Fawaz, G. Forestier, J. Weber, L. Idoumghar, P.-A. Muller, Deep learning for time series classification: a review, Data Mining and Knowledge Discovery 33 (2019). [32] Brownlee J. Introduction to Time Series Forecasting with Python: How to Prepare Data and Develop Models to Predict the Future 2017 Machine Learning Mastery URL: J. Brownlee, Introduction to Time Series Forecasting With Python: How to Prepare Data and Develop Models to Predict the Future, Machine Learning Mastery, 2017. [33] Savitzky A. Golay M.J.E. Smoothing and differentiation of data by simplified least squares procedures. Anal. Chem. 36 8 1964 1627 1639 10.1021/ac60214a047 A. Savitzky, M. J. E. Golay, Smoothing and differentiation of data by simplified least squares procedures., Analytical Chemistry 36 (1964) 1627–1639. [34] Fiware developers 2019 Fiware developers, 2019. [35] Hyndman R. Athanasopoulos G. Forecasting: Principles and Practice second ed. 2018 OTexts Australia R. Hyndman, G. Athanasopoulos, Forecasting: Principles and Practice, 2nd ed., OTexts, Australia, 2018. [36] Goodfellow I. Bengio Y. Courville A. Deep Learning 2016 The MIT Press I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, The MIT Press, 2016. [37] How to select the right evaluation metric for machine learning models 2020 How to select the right evaluation metric for machine learning models, -models-part-1-regrression-metrics-3606e25beae0/, 2020. [38] Brownlee J. Probability for Machine Learning: Discover how To Harness Uncertainty with Python 2019 Machine Learning Mastery URL: J. Brownlee, Probability for Machine Learning: Discover How To Harness Uncertainty With Python, Machine Learning Mastery, 2019. Ana Almeida is a Ph.D. student in Computer Engineering of the Department of Electronics, Telecommunications and Informatics at the University of Aveiro. Currently, she is a researcher at the Institute of Telecommunications of Aveiro. Her main research interests are data science, and machine learning. Susana Brás is a researcher at Institute of Electronics and Informatics Engineering of Aveiro (IEETA), University of Aveiro, Portugal. Her research interests are focused on ECG biometric identification, emotional modulated environments and information extraction from large databases. At this research unit, she supervised several master students, and a PhD student. She published several papers in top journals and conferences, which gave to her visibility in the scientific community, allowing the invitation to deliver several invited talks, internally and externally to the Aveiro University. Before, she was a PhD student at Abel Salazar Biomedical Sciences Institute, at University of Porto, Portugal. Her thesis was focused on automation in anesthesia. Her background is in Applied Mathematics, from the Sciences Faculty, at University of Porto. Before joining the research activity, she worked as actuary (pension funds analyst and technician) at a private Bank in Portugal. Ilídio C. Oliveira (orcid.org/0000-0001-6743-4530) is a faculty member at University of Aveiro, teaching topics related to software engineering, mobile computing, and software quality assurance. His research activities focus on medical informatics, mHealth and ubiquitous systems for human assistance. He regularly participates in international research projects, including in smart cities and smart spaces subjects, as a broader application of systems for human assistance. Susana Sargento is a Full Professor in the University of Aveiro and a senior researcher in the Institute of Telecommunications, where she is leading the Network Architectures and Protocols (NAP) group (www.it.pt/Groups/Index/62). She received her PhD in 2003 in Electrical Engineering in the University of Aveiro, being a visiting student at Rice University in 2000 and 2001. She joined the Department of Computer Science of the University of Porto between 2002 and 2004, and she was a Guest Faculty of the Department of Electrical and Computer Engineering from Carnegie Mellon University, USA, in August 2008, where she performed Faculty Exchange in 2010/2011. Since 2002 she has been leading many national and international projects, and worked closely with telecom operators and OEMs. She has been involved in several FP7 projects (4WARD, Euro-NF, C-Cast, WIP, Daidalos, C-Mobile), EU Coordinated Support Action 2012-316296 ”FUTURE-CITIES”, EU Horizon 2020 5GinFire, national projects, and CMU-Portugal projects (S2MovingCity, DRIVE-IN with the Carnegie Melon University) and MIT-Portugal Snob5G project. She has been TPC-Chair and organized several international conferences and workshops, such as ACM MobiCom, IEEE Globecom and IEEE ICC. She has also been a reviewer of numerous international conferences and journals, such as IEEE Wireless Communications, IEEE Networks, IEEE Communications. She was the founder of Veniam (www.veniam.com), which builds a seamless low-cost vehicle-based internet infrastructure, and she was the winner of the 2016 EU Prize for Women Innovators. Susana is also the co-coordinator of the national initiative of digital competences in the research axis (INCoDe.2030, www.incode2030.gov.pt), belongs to the evaluation committee of the Fundo200M (www.200m.pt) government co-investment and funding), and she is one of the Scientific Directors of CMU-Portugal Programme (www.cmuportugal.org). Her main research interests are in the areas of self-organized networks, in ad-hoc and vehicular network mechanisms and protocols, such as routing, mobility, security and delay-tolerant mechanisms, resource management, and content distribution networks. She regularly acts as an Expert for European Research Programmes. "
+    },
+    {
+        "doc_title": "Using Bus Tracking Data to Detect Potential Hazard Driving Zones",
+        "doc_scopus_id": "85129838573",
+        "doc_doi": "10.1007/978-3-031-04881-4_53",
+        "doc_eid": "2-s2.0-85129838573",
+        "doc_date": "2022-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Theoretical Computer Science",
+                "area_abbreviation": "MATH",
+                "area_code": "2614"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Hazard driving zone",
+            "Intelligent transportation systems",
+            "Mobility datum",
+            "Potential hazards",
+            "Real case",
+            "Smart urban mobility",
+            "Tracking data",
+            "Traffic management",
+            "Urban mobility",
+            "Urban spaces"
+        ],
+        "doc_abstract": "© 2022, Springer Nature Switzerland AG.Urban mobility studies are critical to acquiring insights about traffic management, urban mobility evolution, planning of urban spaces, and many other applications. However, the study and mitigation of recurrent problems have been postponed in real cases, given the difficulty of gathering mobility data. This paper presents a method to detect potential hazard driving zones. We mapped bus GPS positions into road segments, and we used bus speed, bus maximum allowed speed, and bus acceleration to classify the driving behavior. We develop an interactive web application that maps tracking data and provides rich visual insights on potentially problematic areas. Side-by-side visualizations help with the comparison of the traffic behavior in selected periods. We show that we can map the most problematic zones in the city and the time of the day. From the developed analysis, it is observed that some roads in the city present a daily seasonality (problems occur in the same period of the day); however, other roads present circulation issues independently of the time period or day.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Radar-Based Gesture Recognition Towards Supporting Communication in Aphasia: The Bedroom Scenario",
+        "doc_scopus_id": "85125218898",
+        "doc_doi": "10.1007/978-3-030-94822-1_30",
+        "doc_eid": "2-s2.0-85125218898",
+        "doc_date": "2022-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Aphasia",
+            "Assistive technology",
+            "Communication disorders",
+            "Daily lives",
+            "FMCW radar",
+            "Gesture",
+            "Gestures recognition",
+            "In-bed scenario",
+            "Input modalities",
+            "Smart environment"
+        ],
+        "doc_abstract": "© 2022, ICST Institute for Computer Sciences, Social Informatics and Telecommunications Engineering.Aphasia and other communication disorders affect a person’s daily life, leading to isolation and lack of self-confidence, affecting independence, and hindering the ability to express themselves easily, including asking for help. Even though assistive technology for these disorders already exists, solutions rely mostly on a graphical output and touch, gaze, or brain-activated input modalities, which do not provide all the necessary features to cover all periods of the day (e.g., night-time). In the scope of the AAL APH-ALARM project, we aim at providing communication support to users with speech difficulties (mainly aphasics), while lying in bed. Towards this end, we propose a system based on gesture recognition using a radar deployed, for example, in a wall of the bedroom. A first prototype was implemented and used to evaluate gesture recognition, relying on radar data and transfer learning. The initial results are encouraging, indicating that using a radar can be a viable option to enhance the communication of people with speech difficulties, in the in-bed scenario.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Enhanced Communication Support for Aphasia Using Gesture Recognition: The Bedroom Scenario",
+        "doc_scopus_id": "85118133283",
+        "doc_doi": "10.1109/ISC253183.2021.9562810",
+        "doc_eid": "2-s2.0-85118133283",
+        "doc_date": "2021-09-07",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Information Systems and Management",
+                "area_abbreviation": "DECI",
+                "area_code": "1802"
+            },
+            {
+                "area_name": "Energy Engineering and Power Technology",
+                "area_abbreviation": "ENER",
+                "area_code": "2102"
+            },
+            {
+                "area_name": "Renewable Energy, Sustainability and the Environment",
+                "area_abbreviation": "ENER",
+                "area_code": "2105"
+            },
+            {
+                "area_name": "Transportation",
+                "area_abbreviation": "SOCI",
+                "area_code": "3313"
+            },
+            {
+                "area_name": "Urban Studies",
+                "area_abbreviation": "SOCI",
+                "area_code": "3322"
+            },
+            {
+                "area_name": "Artificial Intelligence",
+                "area_abbreviation": "COMP",
+                "area_code": "1702"
+            }
+        ],
+        "doc_keywords": [
+            "Aphasia",
+            "Assistive technology",
+            "Communication support",
+            "Gesture",
+            "Gestures recognition",
+            "In-bed scenario",
+            "Language disorders",
+            "Sensor",
+            "Smart environment",
+            "Speech disorders"
+        ],
+        "doc_abstract": "© 2021 IEEE.Citizens with speech and language disorders, such as Aphasia, often experience difficulties in expressing their needs. Assistive technologies for these disorders rely mostly on graphical interfaces activated by touch or gaze, which do not effectively cover all communication contexts throughout the day and may raise privacy concerns. In the scope of the AAL APH-ALARM project, our main aim is to extend communication support for users with speech and language difficulties (mainly aphasics) in the bedroom environment. We propose a system for supporting communication based on gesture recognition using non-invasive compact sensors worn by the user or deployed in the environment (e.g., bed). A first prototype was implemented using wrist-worn sensors and machine learning to recognize a small set of gestures. Initial results suggest that gesture recognition to enhance communication for people with speech and language impairments is viable, even when in bed.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A Social Anxiety Mobile Intervention for College Students Attending Therapy: A Usability and Acceptability Study",
+        "doc_scopus_id": "85120346270",
+        "doc_doi": "10.1080/10447318.2021.2002042",
+        "doc_eid": "2-s2.0-85120346270",
+        "doc_date": "2021-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Human Factors and Ergonomics",
+                "area_abbreviation": "SOCI",
+                "area_code": "3307"
+            },
+            {
+                "area_name": "Human-Computer Interaction",
+                "area_abbreviation": "COMP",
+                "area_code": "1709"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            }
+        ],
+        "doc_keywords": [
+            "Behavioral interventions",
+            "College students",
+            "Multidisciplinary teams",
+            "Question-asking",
+            "Social anxieties",
+            "System usability",
+            "Technological system",
+            "Thinking aloud",
+            "Usability studies"
+        ],
+        "doc_abstract": "© 2021 Taylor & Francis Group, LLC.Social anxiety is significantly prevalent among college students and frequently leads to school dropout and academic underachievement. Since university counseling services are often overburdened, a mobile-based cognitive behavioral intervention was designed to support students attending therapy for social anxiety and therapists. Our main goals are to evaluate usability and acceptability of this technological system developed by a multidisciplinary team. Twenty students and three therapists participated in the usability studies. To evaluate usability we utilized a thinking aloud and question asking protocol, and the system usability scale (SUS) to assess usability and satisfaction. SPICA app demonstrated usability scores above average and the large majority of students agreed that the app was easy to use and that they would use it frequently. As for the therapist platform (database) preliminary results indicated that the database is useful but some alterations are still necessary. SPICA app demonstrated usability and acceptability among college students. A more rigorous study is needed to assess the therapist platform but preliminary results demonstrate acceptability.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "rOral: Use of a Teledentistry System for Remote Images Assessment in Oral Health Education Workflows",
+        "doc_scopus_id": "85075853819",
+        "doc_doi": "10.1007/978-3-030-31635-8_103",
+        "doc_eid": "2-s2.0-85075853819",
+        "doc_date": "2020-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Bioengineering",
+                "area_abbreviation": "CENG",
+                "area_code": "1502"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            }
+        ],
+        "doc_keywords": [
+            "Assessment activities",
+            "Medical training",
+            "Oral care",
+            "Remote diagnosis",
+            "Research teams",
+            "Secure storage",
+            "Teledentistry",
+            "Web environment"
+        ],
+        "doc_abstract": "© 2020, Springer Nature Switzerland AG.Medical training in oral health includes interpreting images of the oral cavity. The use of extended datasets, real cases, and the ability to monitor the progress of students is beneficial. In this work, we investigate the feasibility of using a teledentistry solution to support medical training. The rOral integrated teledentistry solution, developed by the research team, allows the decoupling of image acquisition and image review: images of the oral cavity can be recorded using the camera of regular mobile devices, near the subject of care; the images are then uploaded to a secure storage and reviewed by experts, using a web environment. This workflow, primarily designed for remote oral health diagnosis (e.g.: population screening), can be used for dentistry education, allowing students to play the role of experts. A population of dentistry students was involved in the present study and used rOral to access anonymized cases to form a diagnosis. The results show that the existing solution, planned for remote diagnosis, is suitable for education and that smartphone-acquired images can be used in diagnosis assessment activities.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "PhisioStream: On the use of general-purpose log management and streams processing software stacks for first-responders monitoring",
+        "doc_scopus_id": "85065487433",
+        "doc_doi": "10.1109/ENBENG.2019.8692491",
+        "doc_eid": "2-s2.0-85065487433",
+        "doc_date": "2019-04-15",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Bioengineering",
+                "area_abbreviation": "CENG",
+                "area_code": "1502"
+            }
+        ],
+        "doc_keywords": [
+            "Advanced visualizations",
+            "Computational physiology",
+            "First responders",
+            "Internet of thing (IOT)",
+            "Monitoring frameworks",
+            "Processing software",
+            "Processing tools",
+            "Stream processing"
+        ],
+        "doc_abstract": "© ENBENG 2019. All Rights Reserved.Several off-the-shelf frameworks are available to support the Internet of Things (IoT) use cases, including sensors data acquisition, processing, and visualization. These software stacks are engineered around the abstraction of streams (of data), enabling a high level of neutrality to the application domain. In this work, we explore the use of existing IoT and log management tools to enable first response teams monitoring, in the context of the VR2Market project's requirements. The objective is to deploy general-purpose, proven monitoring frameworks to enhance the analytical capabilities of teams monitoring, not only for tracking the position of individuals, but also to monitor their physiology and detect alarming conditions. The proposed system, PhisioStream, leverages on streams processing tools, especially the Apache Kafka suite, and Grafana for advanced visualization. The mission command is able to gather both current and historical physiology of each member in a rich dashboard. Advanced users can reconfigure the dashboard, for different views of the missions' data, without the need for coding new features.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A mobile application to complement face-to-face interactions in psychological intervention for social anxiety management",
+        "doc_scopus_id": "85065476136",
+        "doc_doi": "10.1109/ENBENG.2019.8692484",
+        "doc_eid": "2-s2.0-85065476136",
+        "doc_date": "2019-04-15",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Bioengineering",
+                "area_abbreviation": "CENG",
+                "area_code": "1502"
+            }
+        ],
+        "doc_keywords": [
+            "Cognitive-behavioral therapies",
+            "Face-to-face interaction",
+            "Mobile applications",
+            "Social anxieties",
+            "Treatment plans"
+        ],
+        "doc_abstract": "© ENBENG 2019. All Rights Reserved.Social anxiety is a disorder characterized by excessive emotional discomfort triggered by exposure and the evaluation of others. Cognitive Behavioral Therapy (CBT) is considered an effective therapeutic approach in the treatment of social anxiety. CBT benefits from practical, prompt logging of thoughts, which is not always available in existing tools. The proposed solution offers a mobile application to complement face-to-face interactions between therapist and patients. The Appsiety app logs the participant's thoughts and uploads this data to a secure platform to be reviewed by the therapist and adapt possible treatment plans. The Appsiety platform provides practical support for the therapist to define personalized interventions and have immediate access to the participants recordings. Although the preliminary use indicates promising results, further validation is needed concerning the research currently being done in order to bring specialized content to the solution.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "VitalResponder®: Wearable wireless platform for vitals and body-area environment monitoring of first response teams",
+        "doc_scopus_id": "85114982904",
+        "doc_doi": "10.1049/PBHE011E_ch12",
+        "doc_eid": "2-s2.0-85114982904",
+        "doc_date": "2019-01-01",
+        "doc_type": "Book Chapter",
+        "doc_areas": [
+            {
+                "area_name": "Engineering (all)",
+                "area_abbreviation": "ENGI",
+                "area_code": "2200"
+            },
+            {
+                "area_name": "Biochemistry, Genetics and Molecular Biology (all)",
+                "area_abbreviation": "BIOC",
+                "area_code": "1300"
+            },
+            {
+                "area_name": "Physics and Astronomy (all)",
+                "area_abbreviation": "PHYS",
+                "area_code": "3100"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "© The Institution of Engineering and Technology 2017.Under the VitalResponder® (VR) line of research, mostly funded by the Carnegie Mellon University (CMU)-Portugal program, we have been developing, in partnership with colleagues from CMU, novel wearable monitoring solutions for hazardous professionals such as first responders (FR). We are exploring the synergy between innovative wearable technologies, scattered sensor network and precise localization to provide secure, reliable and effective first-response information services in emergency scenarios. This enables a thorough teams’management, namely on FR exposure to different hazardous elements, effort levels and critical situations that contribute to team members’ stress and fatigue levels.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Geriatric helper: An mhealth application to support comprehensive geriatric assessment",
+        "doc_scopus_id": "85045956017",
+        "doc_doi": "10.3390/s18041285",
+        "doc_eid": "2-s2.0-85045956017",
+        "doc_date": "2018-04-22",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Analytical Chemistry",
+                "area_abbreviation": "CHEM",
+                "area_code": "1602"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            },
+            {
+                "area_name": "Atomic and Molecular Physics, and Optics",
+                "area_abbreviation": "PHYS",
+                "area_code": "3107"
+            },
+            {
+                "area_name": "Biochemistry",
+                "area_abbreviation": "BIOC",
+                "area_code": "1303"
+            },
+            {
+                "area_name": "Instrumentation",
+                "area_abbreviation": "PHYS",
+                "area_code": "3105"
+            },
+            {
+                "area_name": "Electrical and Electronic Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2208"
+            }
+        ],
+        "doc_keywords": [
+            "Clinical settings",
+            "Domain experts",
+            "Geriatric assessments",
+            "Geriatric cares",
+            "Health care professionals",
+            "Health professionals",
+            "Mobile applications",
+            "Positive impacts",
+            "Aged",
+            "Delivery of Health Care",
+            "Geriatric Assessment",
+            "Humans",
+            "Mobile Applications",
+            "Telemedicine"
+        ],
+        "doc_abstract": "© 2018 by the authors. Licensee MDPI, Basel, Switzerland.The Comprehensive Geriatric Assessment (CGA) is a multidisciplinary diagnosis approach that considers several dimensions of fragility in older adults to develop an individualized plan to improve their overall health. Despite the evidence of its positive impact, CGA is still applied by a reduced number of professionals in geriatric care in many countries, mostly using a paper-based approach. In this context, we collaborate with clinicians to bring CGA to the attention of more healthcare professionals and to enable its easier application in clinical settings by proposing a mobile application, Geriatric Helper, to act as a pocket guide that is easy to update remotely with up-to-date information, and that acts as a tool for conducting CGA. This approach reduces the time spent on retrieving the scales documentation, the overhead of calculating the results, and works as a source of information for non-specialists. Geriatric Helper is a tool for the health professionals developed considering an iterative, User-Centred Design approach, with extensive contributions from a broad set of users including domain experts, resulting in a highly usable and accepted system. Geriatric Helper is currently being tested in Portuguese healthcare units allowing for any clinician to apply the otherwise experts-limited geriatric assessment.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "GeriatricHelper: Iterative development of a mobile application to support geriatric assessment",
+        "doc_scopus_id": "85053125375",
+        "doc_doi": "10.1007/978-3-319-98551-0_17",
+        "doc_eid": "2-s2.0-85053125375",
+        "doc_date": "2018-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Android",
+            "Clinical assessments",
+            "Functional Prototypes",
+            "Geriatric assessments",
+            "Iterative development",
+            "Patient follow-ups",
+            "Pocket guide",
+            "User-centered design approaches"
+        ],
+        "doc_abstract": "© ICST Institute for Computer Sciences, Social Informatics and Telecommunications Engineering 2018.Clinical assessment scales for specific medical subareas include domain knowledge that may not be of general awareness among practitioners, hindering the adoption of best practices. In this context, we propose a pocket guide for comprehensive geriatric assessment as a mobile application. The GeriatricHelper is an Android mHealth application developed under an iterative, User-Centered Design approach. Feedback from a broad set of users including domain experts has been obtained throughout and a functional prototype is currently being tested in a Portuguese hospital, allowing for any clinician to apply the otherwise experts-limited geriatric assessment.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "An information system for bus travelling and performance evaluation",
+        "doc_scopus_id": "85051950369",
+        "doc_doi": "10.5220/0006707903950402",
+        "doc_eid": "2-s2.0-85051950369",
+        "doc_date": "2018-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Control and Systems Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2207"
+            },
+            {
+                "area_name": "Automotive Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2203"
+            },
+            {
+                "area_name": "Transportation",
+                "area_abbreviation": "SOCI",
+                "area_code": "3313"
+            }
+        ],
+        "doc_keywords": [
+            "Estimated time of arrivals",
+            "Fleet operators",
+            "Machine learning approaches",
+            "Map-matching algorithm",
+            "Proof of concept",
+            "Time estimation",
+            "Times of arrivals",
+            "Vehicular networks"
+        ],
+        "doc_abstract": "Copyright © 2018 by SCITEPRESS – Science and Technology Publications, Lda. All rights reservedA wide vehicular network has a huge potential to collect city-data, specially with respect to city mobility, one of the top concerns of the municipalities. In this work, we propose the use of the mobility data generated by the movement of the connected buses to deliver a new set of tools to support both the bus passengers and bus fleet operator use cases. Considering the bus passengers, it is possible to build smart schedules, which deliver an estimated time of arrival based on the city dynamics along time, and that can be accessed directly in the smartphone. Considering the bus fleet operator, it is possible to characterize the behaviour of buses and bus lines. Using the GPS trace of buses and map-matching algorithm, we are able to discover the line each bus is assigned to. Estimated times of arrival and predictions are implemented recurring to time estimations and predictions, using both data mining and machine learning approaches. Proof-of-concept applications were implemented to demonstrate the real-life applicability, including a mobile app for the citizens, and a web dashboard for the fleet operator.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Message based integration in Cyber-Physical System: Firefighters in the field",
+        "doc_scopus_id": "84946018549",
+        "doc_doi": "10.4108/icst.mobiquitous.2015.260246",
+        "doc_eid": "2-s2.0-84946018549",
+        "doc_date": "2015-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Computational Theory and Mathematics",
+                "area_abbreviation": "COMP",
+                "area_code": "1703"
+            },
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            }
+        ],
+        "doc_keywords": [
+            "AMQP",
+            "Android ossa",
+            "CoAP",
+            "Cyber physical systems (CPSs)",
+            "Firefighters",
+            "Message brokering"
+        ],
+        "doc_abstract": "Copyright © 2015 ICST.We present a Cyber-Physical System for distributed monitoring of first response teams. To cope with different setups, different sensors and computing devices, found in the evolution of the VitalResponder project, we adopted a message brokering pattern to isolate the data aggregation logic from the changing hardware and networking configurations. Sensors publish data to local message brokers (body-area level), that, in turn, publish to higher level messages queues (site-wide level). The brokers use adapters to relay messages over alternative transport protocols, currently available as adapters for messaging standards over TCP (AMQP, MQTT), over UDP (CoAP), and basic sockets (TCP and UDP). The abstraction of messages brokering facilitates the portability to different platforms, and the system has been tested in Android, Raspberry Pi and standard Linux devices, to support a distributed sensor network for firefighter's missions monitoring.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "LIMBus: A lightweight remote monitoring system powered by iOS and BLE",
+        "doc_scopus_id": "84946010530",
+        "doc_doi": "10.4108/icst.mobiquitous.2015.260249",
+        "doc_eid": "2-s2.0-84946010530",
+        "doc_date": "2015-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Computational Theory and Mathematics",
+                "area_abbreviation": "COMP",
+                "area_code": "1703"
+            },
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            }
+        ],
+        "doc_keywords": [
+            "BLE",
+            "Cyber physical systems (CPSs)",
+            "IOS",
+            "Message brokering",
+            "Momtonng framework",
+            "MQTT"
+        ],
+        "doc_abstract": "Copyright © 2015 ICST.Mobile devices, including off-the-shelf smartphones, are being used as data gateways for nearby sensors in end-to-end integration of monitoring solutions, mostly based in the Android OS. In this paper, we present LIMBus, a lightweight monitoring system supported in iOS mobile devices to perform the role of data collector and gateway. LIMBus uses Bluetooth Low Energy to connect to external sensors and MQTT for mobile to backend streaming. The proposed system has been implemented and is demonstrated for an eHealth monitoring scenario.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "OpenNCP: A novel framework to foster cross-border e-Health services",
+        "doc_scopus_id": "84937501292",
+        "doc_doi": "10.3233/978-1-61499-512-8-617",
+        "doc_eid": "2-s2.0-84937501292",
+        "doc_date": "2015-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Delivery of health care",
+            "E-health infrastructures",
+            "Electronic health record",
+            "Electronic Prescribing",
+            "Health information systems",
+            "Health informations",
+            "Interoperability requirements",
+            "Project specification",
+            "Electronic Health Records",
+            "European Union",
+            "Health Information Systems",
+            "Health Promotion",
+            "Meaningful Use",
+            "Medical Record Linkage",
+            "Practice Guidelines as Topic",
+            "Telemedicine",
+            "Vocabulary, Controlled"
+        ],
+        "doc_abstract": "© 2015 European Federation for Medical Informatics (EFMI).The continuity of cross-border health care in the European Union depends on the ability to set up shared practices with respect to patient data exchange across Member States. This flow of data must comply with demanding security, legal and interoperability requirements, as defined by the epSOS project specifications. In this paper, we describe the OpenNCP framework that offers a comprehensive set of interoperability services to enable national and regional e-Health platforms to set up cross-border health information networks compliant with epSOS, with minimal adaptation of the existing infrastructure. The OpenNCP, available as open source software, has been adopted in 10 Member States, allowing them to securely interconnect their eHealth infrastructures.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Demo: Wireless IP mesh on Android for fire-fighters monitoring",
+        "doc_scopus_id": "84924034405",
+        "doc_doi": "10.1145/2645672.2645692",
+        "doc_eid": "2-s2.0-84924034405",
+        "doc_date": "2014-09-07",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Computer Science Applications",
+                "area_abbreviation": "COMP",
+                "area_code": "1706"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            }
+        ],
+        "doc_keywords": [
+            "Android ossa",
+            "Android platforms",
+            "Fire scenarios",
+            "Network level",
+            "Physiological monitoring",
+            "Physiology monitoring",
+            "Programming framework",
+            "Relay information"
+        ],
+        "doc_abstract": "© Copyright 2014 ACM.Recently, a few applications appeared that emulate the behaviour of a wireless ad-hoc network at the application layer, or make it accessible through a full programming framework on the Android platform. We show in this demo how to enable mesh networking at the network level, in a transparent manner to applications. We use this network to relay information regarding physiological monitoring of a team of fire-fighters in a fire scenario. The application developed in Android receives the information from a wearable sensor and transmits it to a controller that visualizes the current team progress.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "iVital: A real time monitoring system for first response teams",
+        "doc_scopus_id": "84869594151",
+        "doc_doi": "10.1007/978-3-642-30422-4_29",
+        "doc_eid": "2-s2.0-84869594151",
+        "doc_date": "2012-07-27",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            }
+        ],
+        "doc_keywords": [
+            "Android",
+            "First responders",
+            "iPad",
+            "Vital Responder",
+            "Vital sign",
+            "Android",
+            "First responders",
+            "Ipad",
+            "Vital responder",
+            "Vital sign"
+        ],
+        "doc_abstract": "Every day, thousands of first responders work to save the lives of others, sometimes without the adequate surveillance of health conditions. The VitalResponder is a project that aims at monitoring and control teams of first responders in emergency scenarios, using mobile technologies to capture and use real-time data to support real-time coordination. In this paper we present a system to capture, process, and display the vital signs of team members, which are made available to a first responders' team leader, for coordination and monitoring. The system addresses specific requirements of the field action, such as the mobility of actors, combining two of the most recent mobile technologies: the iPad (for the coordination view) and Android OS-based smartphones (for real-time sensor data acquisition). © 2012 ICST Institute for Computer Science, Social Informatics and Telecommunications Engineering.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Supporting nursing care assessment protocols with smartphones",
+        "doc_scopus_id": "84861960614",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-84861960614",
+        "doc_date": "2012-06-13",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Assessment protocols",
+            "Diabetic foot",
+            "Electronic health record",
+            "Health professionals",
+            "Nursing care",
+            "Nursing informatics",
+            "Technological advances",
+            "Wireless communications",
+            "Wound measurement"
+        ],
+        "doc_abstract": "Technological advances in mobile phones make them appealing to support nursing care at the point of treatment, especially by combining the easy-of-use, mobility and wireless communications. Novel capabilities, such as picture capturing, enlarge the applications scope. In this work, we present the HOPE system to facilitate nursing care documentation, by leveraging on standard off-the-shelf mobile phones. The proposed system moves a substantial part of the work usually deferred and performed at desktop computers to the moment and place of care. In addition, health professionals can document the clinical cases with photos, using the mobile phone built-in camera, which is being applied in diabetic foot consultation. Basic support for wound measurement is available. The information acquired is integrated in the patient's Electronic Health Record and can be shared using the mobile devices or the workstations. The proposed system is in pilot use at two Portuguese hospitals targeting inpatient care and diabetic foot consulting.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "DroidJacket: An android-based application for first responders monitoring",
+        "doc_scopus_id": "80052484501",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-80052484501",
+        "doc_date": "2011-09-12",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Management of Technology and Innovation",
+                "area_abbreviation": "BUSI",
+                "area_code": "1405"
+            },
+            {
+                "area_name": "Information Systems",
+                "area_abbreviation": "COMP",
+                "area_code": "1710"
+            }
+        ],
+        "doc_keywords": [
+            "Biosignals",
+            "Emergency scenario",
+            "First responders",
+            "Localization services",
+            "Mobile monitoring system",
+            "monitoring system",
+            "Realtime processing",
+            "Scattered sensors",
+            "Smart phones",
+            "Vital sign",
+            "Wearable technology"
+        ],
+        "doc_abstract": "The Vital Responder project aims at exploring the synergies between wearable technologies, scattered sensor network, intelligent building technology and precise localization services to provide secure, reliable and effective first-response systems in emergency scenarios. One of the components required in this technological setting is the ability to monitor biosignals from first responders in the field. In this paper we present a mobile monitoring system called DroidJacket to address the Vital Responder requirements. DroidJacket uses a Android-based smartphone as a base station for vital signs acquired with the Vital Jacket® garment, enabling visualization and simple real time processing. © 2011 AISTI.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Droid Jacket: Using an Android based smartphone for team monitoring",
+        "doc_scopus_id": "80052461607",
+        "doc_doi": "10.1109/IWCMC.2011.5982868",
+        "doc_eid": "2-s2.0-80052461607",
+        "doc_date": "2011-09-12",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Communication",
+                "area_abbreviation": "SOCI",
+                "area_code": "3315"
+            }
+        ],
+        "doc_keywords": [
+            "Alarm detection",
+            "Arrhythmia detection",
+            "Data aggregation",
+            "Environmental conditions",
+            "First responders",
+            "Human health",
+            "Mobile solutions",
+            "monitoring system",
+            "Negative impacts",
+            "Plug-ins",
+            "Real time",
+            "Smart phones",
+            "Wearable technology"
+        ],
+        "doc_abstract": "Professionals such as First Responders are frequently exposed to extreme environmental conditions, which induce stress and fatigue during extensive periods of time. In this scenario, the main issues are the quantification and evaluation of stress and fatigue, since uncontrolled levels have a profound and negative impact on human health and performance. Based on an existing wearable monitoring solution - the Vital Jacket- we propose an individual and team monitoring mobile solution called DroidJacket. DroidJacket is based on Android mobile devices and provides data aggregation, processing, visualization and optionally relaying services. The DroidJacket design is plugin oriented, integrating analysis modules, namely an online ECG plugin for both real time pulse and arrhythmia detection. © 2011 IEEE.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Active classrooms: Role-playing experience in telecommunications engineering education",
+        "doc_scopus_id": "79959870357",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-79959870357",
+        "doc_date": "2011-07-07",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Education",
+                "area_abbreviation": "SOCI",
+                "area_code": "3304"
+            },
+            {
+                "area_name": "Engineering (all)",
+                "area_abbreviation": "ENGI",
+                "area_code": "2200"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "When starting a career many engineering graduates have serious behavioral mismatches and very limited knowledge about the activity sectors and businesses where they become involved. These circumstances can represent an important handicap in their careers and the resulting limitations can significantly impair their capability to play the roles that enterprises expect from them. In addition, these weaknesses also do not favor the emergence of an entrepreneurial spirit among young engineers, restricting their ability to contribute to economical and social growth. Ultimately, all this can jeopardize the capacity of constructing their own work identity and ensuring their employability. This paper describes the results of an educational project designed to promote improved learning among telecommunications engineering students and enhance their entrepreneurial competences.Adidactic market simulator was developed and groups of students played the roles of competing market operators. This project showed an improvement of average marks, the development of teamwork skills, the consolidation of previous knowledge, and a better understanding of telecommunications business markets. © 2011 TEMPUS Publications.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Integration services to enable regional shared electronic health records",
+        "doc_scopus_id": "83055191908",
+        "doc_doi": "10.3233/978-1-60750-806-9-310",
+        "doc_eid": "2-s2.0-83055191908",
+        "doc_date": "2011-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Applications development",
+            "Clinical information",
+            "Electronic health record",
+            "Health informations",
+            "Integration platform",
+            "Integration services",
+            "Partner institutions",
+            "Systems integration"
+        ],
+        "doc_abstract": "eHealth is expected to integrate a comprehensive set of patient data sources into a coherent continuum, but implementations vary and Portugal is still lacking on electronic patient data sharing. In this work, we present a clinical information hub to aggregate multi-institution patient data and bridge the information silos. This integration platform enables a coherent object model, services-oriented applications development and a trust framework. It has been instantiated in the Rede Telemática de Saúde (www.RTSaude.org) to support a regional Electronic Health Record approach, fed dynamically from production systems at eight partner institutions, providing access to more than 11,000,000 care episodes, relating to over 350,000 citizens. The network has obtained the necessary clearance from the Portuguese data protection agency. © 2011 European Federation for Medical Informatics. All rights reserved.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Stimulating learning in engineering students by collaborative entrepreneurship training",
+        "doc_scopus_id": "77955625148",
+        "doc_doi": "10.1109/TEE.2010.5508848",
+        "doc_eid": "2-s2.0-77955625148",
+        "doc_date": "2010-08-20",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Computer Networks and Communications",
+                "area_abbreviation": "COMP",
+                "area_code": "1705"
+            },
+            {
+                "area_name": "Electrical and Electronic Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2208"
+            }
+        ],
+        "doc_keywords": [
+            "Business case",
+            "Business environments",
+            "Capstone projects",
+            "Classroom activity",
+            "Digital environment",
+            "Educational projects",
+            "Engineering activities",
+            "Engineering professionals",
+            "Entrepreneurship",
+            "Future engineering skills and competencies",
+            "Inter-personal communications",
+            "Learning in engineering",
+            "Professional role",
+            "Professional role-playing",
+            "Role playing"
+        ],
+        "doc_abstract": "This paper describes the results of an educational project aiming to promote improved learning and entrepreneurial spirit among engineering students by resorting to the simulation of real world business cases in a collaborative digital environment. The approach is based on the combination of the following ingredients: Creation of student awareness about real world engineering activities, involving engineering professionals and enterprises in selected classroom activities; Simulation of a business environment in capstone project classes; Market gaming around a set of business cases where students are organized in teams playing different professional roles (role playing); Linking the outcome of market gaming and associated business cases with syllabus topics and with practical technological and market issues. The results obtained so far are encouraging and have attracted a major international prize: HP Innovations on Education. ©2010 IEEE.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A system architecture for the bing brain image network grid",
+        "doc_scopus_id": "77954660642",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-77954660642",
+        "doc_date": "2009-07-21",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Software",
+                "area_abbreviation": "COMP",
+                "area_code": "1712"
+            },
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Brain imaging",
+            "Grid-Enabled scientific repositories",
+            "Medical data",
+            "Semantic data structure",
+            "Workflows"
+        ],
+        "doc_abstract": "This paper presents a detailed architecture model for the Brain Imaging Network Grid (BING) that will be the main IT infrastructure of the recently created Portuguese Brain Imaging Consortium. The proposed architecture follows a service oriented philosophy and is designed to empower medical data sharing and processing, specifically brain images. Allowing the use of computationally intensive methods like feature extraction and retrieving of structured information, this system will take advantage of Grid computing new paradigm. In BING context, Grid infrastructure is the right option to provide the ability to seamless aggregate distributed computational power, extensive storage resources and high-bandwidth networking. The goal is to develop a system that simultaneously can provide basic data services, allow collaborative research between geographically distributed partners (e.g. analysis processes, workflows) and make use of the Grid computational power.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A grid framework for non-linear brain fMRI analysis",
+        "doc_scopus_id": "34548592222",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-34548592222",
+        "doc_date": "2007-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [
+            "Association analysis",
+            "Brain functions",
+            "Computational power",
+            "Electro-encephalogram (EEG)",
+            "fMRI-analysis",
+            "Functional magnetic resonance imaging",
+            "Grid architectures",
+            "Physiological activity"
+        ],
+        "doc_abstract": "Functional magnetic resonance imaging (fMRI) is an imaging technique that can be used to characterize brain physiological activity, usually presented as 3D volumes in function of time. In the context of our previous work in nonlinear association studies in electroencephalogram (EEG) time series, we were able to identify clinical relevant features useful in clinical diagnosis. The use of a similar approach in fMRI, now adapted for 3D time series, is both appealing and new. Such time series analysis imposes challenging requirements regarding computational power and medical image management. In this paper we propose a grid architecture framework to support the typical analysis protocol of association analysis applied to fMRI. The system, implemented using the gLite middleware, provides the necessary support to manage brain images and run non-linear fMRI analysis methods.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "The Healthgrid White Paper.",
+        "doc_scopus_id": "21944457243",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-21944457243",
+        "doc_date": "2005-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Biomedical Engineering",
+                "area_abbreviation": "ENGI",
+                "area_code": "2204"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "Over the last four years, a community of researchers working on Grid and High Performance Computing technologies started discussing the barriers and opportunities that grid technologies must face and exploit for the development of health-related applications. This interest lead to the first Healthgrid conference, held in Lyon, France, on January 16th-17th, 2003, with the focus of creating increased awareness about the possibilities and advantages linked to the deployment of grid technologies in health, ultimately targeting the creation of a European/international grid infrastructure for health. The topics of this conference converged with the position of the eHealth division of the European Commission, whose mandate from the Lisbon Meeting was \"To develop an intelligent environment that enables ubiquitous management of citizens' health status, and to assist health professionals in coping with some major challenges, risk management and the integration into clinical practice of advances in health knowledge.\" In this context \"Health\" involves not only clinical procedures but covers the whole range of information from molecular level (genetic and proteomic information) over cells and tissues, to the individual and finally the population level (social healthcare). Grid technology offers the opportunity to create a common working backbone for all different members of this large \"health family\" and will hopefully lead to an increased awareness and interoperability among disciplines. The first HealthGrid conference led to the creation of the Healthgrid association, a non-profit research association legally incorporated in France but formed from the broad community of European researchers and institutions sharing expertise in health grids. After the second Healthgrid conference, held in Clermont-Ferrand on January 29th-30th, 2004, the need for a \"white paper\" on the current status and prospective of health grids was raised. Over fifty experts from different areas of grid technologies, eHealth applications and the medical world were invited to contribute to the preparation of this document.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Grid requirements for the integration of biomedical information resources for health applications",
+        "doc_scopus_id": "20344383766",
+        "doc_doi": "10.1055/s-0038-1633938",
+        "doc_eid": "2-s2.0-20344383766",
+        "doc_date": "2005-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            },
+            {
+                "area_name": "Advanced and Specialized Nursing",
+                "area_abbreviation": "NURS",
+                "area_code": "2902"
+            },
+            {
+                "area_name": "Health Information Management",
+                "area_abbreviation": "HEAL",
+                "area_code": "3605"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "Objectives: The goal of this paper is to identify how Grid technology can be applied for the development and deployment of integration systems, bringing together distributed and heterogeneous biomedical information sources for medical applications. Methods: The integration of new genetic and medicol knowledge in clinical workflows requires the development of new paradigms for information management in which the ability to access and relote disparate data sources is essential. We adopt a requirements perspective based on the user needs we have identified in the development of the INFOGENMED system to assess current Grid technology against those requirements. Results: The gap between Grid features and distributed biomedicol information integration needs is characterized. Results from prospective studies are also reported. Conclusions: Grid infrastructures offer advanced features for the deployment of collaborative computational environments across virtual organizations. New Grid developments are in line with the problem of multiple site information integration. From the INFOGENMED point of view, Grid infrastructures need to evolve to implement structured data access services and semantic content description and discovery. © 2005 Schattauer GmbH.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "A business process model for public health information systems: A governmental perspective",
+        "doc_scopus_id": "8444222741",
+        "doc_doi": null,
+        "doc_eid": "2-s2.0-8444222741",
+        "doc_date": "2004-11-23",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Engineering (all)",
+                "area_abbreviation": "ENGI",
+                "area_code": "2200"
+            }
+        ],
+        "doc_keywords": [
+            "Information systems",
+            "Integration tools"
+        ],
+        "doc_abstract": "The business process models available for the telecom industry have, in the recent past, made significant developments and reached leading-edge maturity levels. The 1997-2000 technology bubble has injected significant amounts of cash in the market, which has allowed a quick maturing of both the process models and its supporting software applications and integration tools. In its turn, the health industry, in what concerns to technology and associate processes has been maturing more slowly, with lower levels of integration and process models more \"institution oriented\" than \"client oriented\". In this paper it is proposed a process model for the health industry, derived from the enhanced Telecom Operations Model (eTOM), from which is derived a functional architecture that intends to support applications that respond to the current technological, political and economical challenges of the Portuguese national health service.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Diseasecard: A web-based tool for the collaborative integration of genetic and medical information",
+        "doc_scopus_id": "35048821032",
+        "doc_doi": "10.1007/978-3-540-30547-7_41",
+        "doc_eid": "2-s2.0-35048821032",
+        "doc_date": "2004-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Theoretical Computer Science",
+                "area_abbreviation": "MATH",
+                "area_code": "2614"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Bioinformatics database",
+            "Biomedicine",
+            "Collaborative integration",
+            "Collaborative services",
+            "Genetic disease",
+            "Medical information",
+            "Proteomics research",
+            "User friendly interface"
+        ],
+        "doc_abstract": "The recent advances on genomics and proteomics research bring up a significant grow on the information that is publicly available. However, navigating through genetic and bioinformatics databases can be a too complex and unproductive task for a primary care physician. Moreover, considering the rare genetic diseases field, we verify that the knowledge about a specific disease is commonly disseminated over a small group of experts. The capture, maintenance and sharing of this knowledge over user-friendly interfaces will introduce new insights in the understanding of some rare genetic diseases. In this paper we present DiseaseCard, a web available collaborative service that aims to integrate and disseminate genetic and medical information on rare genetic diseases. © Springer-Verlag Berlin Heidelberg 2004.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Modelling the hospital into the future with UML",
+        "doc_scopus_id": "34648867175",
+        "doc_doi": "10.1504/ijhtm.2002.001138",
+        "doc_eid": "2-s2.0-34648867175",
+        "doc_date": "2002-01-01",
+        "doc_type": "Article",
+        "doc_areas": [
+            {
+                "area_name": "Leadership and Management",
+                "area_abbreviation": "NURS",
+                "area_code": "2911"
+            },
+            {
+                "area_name": "Health Informatics",
+                "area_abbreviation": "MEDI",
+                "area_code": "2718"
+            }
+        ],
+        "doc_keywords": [],
+        "doc_abstract": "This paper describes the work developed in the scope of the European project TEAM-HOS, regarding the experience of using the ‘Unified Modelling Language’ (UML) as a tool for modelling optimal solutions in healthcare. In this paper we explain how UML is being used to cover information and process modelling as well as for modelling organisational structures and their interdependencies, in order to define the optimal integrated information exchange inside the hospital. We present an overall assessment of UML, based on our experience, and we explain why we found UML to be a practical formalism for ‘modelling the hospital into the future’. © 2002 Inderscience Enterprises Ltd.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
+        "doc_title": "Agents working on the integration of heterogeneous information sources in distributed healthcare environments",
+        "doc_scopus_id": "78650131986",
+        "doc_doi": "10.1007/3-540-44399-1_15",
+        "doc_eid": "2-s2.0-78650131986",
+        "doc_date": "2000-01-01",
+        "doc_type": "Conference Paper",
+        "doc_areas": [
+            {
+                "area_name": "Theoretical Computer Science",
+                "area_abbreviation": "MATH",
+                "area_code": "2614"
+            },
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Agent based computing",
+            "Clinical information",
+            "Healthcare environments",
+            "Heterogeneous systems",
+            "Hospital information",
+            "Hospital information systems",
+            "Integration of heterogeneous information",
+            "Intelligent information retrieval",
+            "Distributed Artificial Intelligence"
+        ],
+        "doc_abstract": "Hospital information infrastructures integrate today complex mosaics of heterogeneous systems, often dependent on legacy systems. The integration of disparate information sources in healthcare is an essential effort since physicians, and other hospital personnel, use to analyze and combine data provided by different sources distributed along the hospital facilities. Day-after-day their needs for effective means and tools to support such integration of data increase significantly. In order to fulfill such requirements we designed and developed an extensible multi-agent system that physicians may use to access multiple medical data sources available at the hospital, in a transparent way. This paper presents an overall description of the system giving special attention to its architecture and community of software agents. The agents were specially planned for clinical information gathering, cleaning, integration and presentation in healthcare environments. © Springer-Verlag Berlin Heidelberg 2000.",
+        "available": false,
+        "clean_text": ""
+    }
+]

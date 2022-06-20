@@ -750,6 +750,8 @@ def scopus_author_docs(author_id):
 
 			docs.append(doc_dict)
 
+	with open(str(author_id)+'.json', 'w', encoding='utf-8') as f:
+		json.dump(docs, f, ensure_ascii=False, indent=4)
 	return docs
 
 # TEST SCOPUS FUNCTIONS

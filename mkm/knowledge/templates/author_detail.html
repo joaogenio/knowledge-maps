@@ -108,7 +108,19 @@
                     <!-- BAR CHART -->
                     <div class="card card-info">
                         <div class="card-header">
-                            <h3 class="card-title">Publications between {{ labels_publications|first }} and {{ labels_publications|last }}</h3>
+                            <h3 class="card-title">
+                                {{ total_data_publications }}
+                                <span class="bold">
+                                {% if publication_type == 'All' %}
+                                    Publications
+                                {% elif publication_type == 'Other' %}
+                                    Other Publications
+                                {% else %}
+                                    {{ publication_type }}s
+                                {% endif %}
+                                </span>
+                                between {{ publication_start }} and {{ publication_end }}
+                            </h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -119,6 +131,7 @@
                                 </button>
                             </div>
                         </div>
+                        
                         <div class="card-body">
                             <div class="chart">
                                 <canvas id="barChart_publications"
@@ -126,13 +139,72 @@
                             </div>
                         </div>
                         <!-- /.card-body -->
+
+                        <div class="card-footer bg-info">
+                            
+                            <div class="btn-group">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Publication type &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+
+                                        {% for pub_type in publication_types %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if pub_type == publication_type %} selected {% endif %}
+                                                " name="publication-type" type="submit" value="{{ pub_type }}">
+                                            </form>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Start year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        {% for i in publication_start_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if i == publication_start %} selected {% endif %}
+                                                " name="publication-start" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        End year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        {% for i in publication_end_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if i == publication_end %} selected {% endif %}
+                                                " name="publication-end" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                        <!-- /.card-footer -->
                     </div>
                     <!-- /.card -->
 
                     <!-- BAR CHART -->
                     <div class="card card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Projects between {{ labels_projects|first }} and {{ labels_projects|last }}</h3>
+                            <h3 class="card-title">{{ total_data_projects }} <span class="bold">Projects</span> between {{ project_start }} and {{ project_end }}</h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -150,10 +222,55 @@
                             </div>
                         </div>
                         <!-- /.card-body -->
+
+                        <div class="card-footer bg-success">
+                            
+                            
+                            <div class="btn-group">
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-success dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Start year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+
+                                        {% for i in project_start_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if i == project_start %} selected {% endif %}
+                                                " name="project-start" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-success dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        End year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+                                    
+                                        {% for i in project_end_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if i == project_end %} selected {% endif %}
+                                                " name="project-end" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.card-footer -->
                     </div>
                     <!-- /.card -->
 
-                    <div class="card card-light">
+                    <div class="card card-gray">
                         <div class="card-header">
                             <h3 class="card-title">Top collaborators</h3>
                         </div>
@@ -172,7 +289,7 @@
 
                                     {% for author, cnt in sorted_collaborators.items %}
 
-                                        {% if forloop.counter <= 50 %}
+                                        {% if forloop.counter <= 5 %}
 
                                             <tr>
                                                 <td>{{ forloop.counter }}</td>
@@ -223,7 +340,7 @@
 
                                     {% for name, cnt in sorted_author_keywords.items %}
 
-                                        {% if forloop.counter <= 15 %}
+                                        {% if forloop.counter <= 10 %}
 
                                             <tr>
                                                 <td>{{ forloop.counter }}</td>
@@ -265,7 +382,7 @@
 
                                     {% for name, cnt in sorted_author_areas.items %}
 
-                                        {% if forloop.counter <= 15 %}
+                                        {% if forloop.counter <= 10 %}
 
                                             <tr>
                                                 <td>{{ forloop.counter }}</td>
@@ -323,14 +440,14 @@
 
             datasets: [
                 {
-                    label: 'Number of publications',
-                    backgroundColor: 'rgba(91, 192, 222, 0.9)',
-                    borderColor: 'rgba(91, 192, 222, 0.8)',
+                    label: 'Number of {% if publication_type == 'All' %}Publications{% elif publication_type == 'Other' %}Others{% else %}{{ publication_type }}s{% endif %}',
+                    backgroundColor: 'rgba(23, 162, 184, 0.9)',
+                    borderColor: 'rgba(23, 162, 184, 0.8)',
                     pointRadius: false,
                     pointColor: '#3b8bba',
-                    pointStrokeColor: 'rgba(91, 192, 222, 1)',
+                    pointStrokeColor: 'rgba(23, 162, 184, 1)',
                     pointHighlightFill: '#fff',
-                    pointHighlightStroke: 'rgba(91, 192, 222, 1)',
+                    pointHighlightStroke: 'rgba(23, 162, 184, 1)',
 
                     data: {{ data_publications|safe }}
                 },
@@ -343,9 +460,18 @@
         barChartData.datasets[0] = temp0
 
         var barChartOptions = {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        precision: 0
+                    }
+                }]
+            },
             responsive: true,
             maintainAspectRatio: false,
-            datasetFill: false
+            datasetFill: false,
+            
         }
 
         new Chart(barChartCanvas, {
@@ -363,13 +489,13 @@
             datasets: [
                 {
                     label: 'Number of projects',
-                    backgroundColor: 'rgba(92, 184, 92, 0.9)',
-                    borderColor: 'rgba(92, 184, 92, 0.8)',
+                    backgroundColor: 'rgba(40, 167, 69, 0.9)',
+                    borderColor: 'rgba(40, 167, 69, 0.8)',
                     pointRadius: false,
                     pointColor: '#3b8bba',
-                    pointStrokeColor: 'rgba(92, 184, 92, 1)',
+                    pointStrokeColor: 'rgba(40, 167, 69, 1)',
                     pointHighlightFill: '#fff',
-                    pointHighlightStroke: 'rgba(92, 184, 92, 1)',
+                    pointHighlightStroke: 'rgba(40, 167, 69, 1)',
 
                     data: {{ data_projects|safe }}
                 },
@@ -382,6 +508,14 @@
         barChartData.datasets[0] = temp0
 
         var barChartOptions = {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        precision: 0
+                    }
+                }]
+            },
             responsive: true,
             maintainAspectRatio: false,
             datasetFill: false
