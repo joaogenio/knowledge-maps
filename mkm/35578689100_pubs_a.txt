@@ -1,0 +1,109 @@
+[None       ] [cv-prod-id-2971321  ] [None                          ] [   CV] [Thesis / Dissertation] [ 6  0      ] [1997-01-01] Arquitectura para um sistema colaborativo baseado em ferramentas hipermédia
+[None       ] [cv-prod-id-2966305  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2001-01-01] Portuguese parliamentary records digital library
+[None       ] [cv-prod-id-2966436  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2003-01-01] FlowPass-based applications suggested to Portuguese parliament and supported by XML web services
+[None       ] [cv-prod-id-2966404  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2003-01-01] Proposal of a Framework to Workflow Process Automation Systems based on .NET Framework and XML Web Service
+[None       ] [cv-prod-id-2966460  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2004-01-01] A Contribution of Open Source Technologies to Support Distributed Digital Library's Repository and Index Services
+[None       ] [cv-prod-id-2971275  ] [None                          ] [   CV] [Conference Paper     ] [ 5  0      ] [2004-01-01] ABC-NET: Literacy Tool for Paulo Freire's Method
+[None       ] [cv-prod-id-778077   ] [10.1109/ICALT.2004.1357727    ] [   CV] [Article              ] [ 0  0      ] [2004-01-01] AbcNet: A literacy tool in developing countries
+[None       ] [cv-prod-id-2971274  ] [10.1109/ICALT.2004.1357727    ] [   CV] [Conference Paper     ] [ 2  0      ] [2004-01-01] abcNet: a Literacy Tool in Developing Countries
+[None       ] [cv-prod-id-2971273  ] [None                          ] [   CV] [Conference Paper     ] [ 4  0      ] [2004-01-01] abcNet: literacy tool based on entities
+[None       ] [cv-prod-id-2971291  ] [None                          ] [   CV] [Conference Paper     ] [ 1  0      ] [2004-01-01] eABC: scientific publications bibliografic archive
+[None       ] [cv-prod-id-2971268  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2005-01-01] Methodology for Dynamic WEB Pages Assembly
+[None       ] [cv-prod-id-2971270  ] [None                          ] [   CV] [Conference Paper     ] [ 6  0      ] [2005-01-01] Object oriented platform to RDBMS stored procedures
+[None       ] [cv-prod-id-778075   ] [10.1109/NWESP.2005.64         ] [   CV] [Article              ] [ 0  0      ] [2005-01-01] Portuguese parliamentary records: A multimedia digital library distributed architecture, based on Web Services
+[None       ] [cv-prod-id-2966552  ] [10.1109/nwesp.2005.82         ] [   CV] [Conference Paper     ] [ 0  0      ] [2005-01-01] Web Annotation System Based on Web Services
+[None       ] [cv-prod-id-778073   ] [10.1109/NWESP.2005.82         ] [   CV] [Article              ] [ 0  0      ] [2005-01-01] Web annotation system based on web services
+[None       ] [cv-prod-id-778066   ] [10.1080/00207390601035476     ] [   CV] [Article              ] [ 0  0      ] [2007-01-01] TDmat-mathematics diagnosis evaluation test for engineering sciences students
+[None       ] [cv-prod-id-775512   ] [10.5220/0002257501410146      ] [   CV] [Conference Paper     ] [ 0  0      ] [2008-01-01] SERVICE ORIENTED P2P NETWORKS FOR DIGITAL LIBRARIES, BASED ON JXTA
+[None       ] [cv-prod-id-775511   ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2009-01-01] QGM - A SYSTEM TO IMPROVE MATHS e-LEARNING
+[None       ] [cv-prod-id-2967138  ] [10.5220/0003393301800183      ] [   CV] [Conference Paper     ] [ 0  0      ] [2011-01-01] CLOUD INTERCHANGEABILITY - Redefining Expectations
+[None       ] [cv-prod-id-775500   ] [10.1007/978-3-642-24352-3_31  ] [   CV] [Article              ] [ 0  0      ] [2011-01-01] Cloud computing enhanced service development architecture for the living usability lab
+[None       ] [cv-prod-id-775502   ] [10.1007/978-3-642-24355-4_10  ] [   CV] [Article              ] [ 0  0      ] [2011-01-01] Cloud computing: A platform of services for services
+[None       ] [cv-prod-id-2967044  ] [10.1007/978-3-642-24352-3_31  ] [   CV] [Book Chapter         ] [ 0  0      ] [2011-01-01] Communications in Computer and Information Science
+[None       ] [cv-prod-id-2971032  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] ABC: Arquivo Bibliográfico para publicações Científicas
+[None       ] [cv-prod-id-2971026  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] An Introductory Course on Human Computer Interaction
+[None       ] [cv-prod-id-2971034  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] Descrição de vídeo com Multimedia Content Description Interface (MPEG-7)
+[None       ] [cv-prod-id-2971030  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] Diário da Assembleia da República Electrónico
+[None       ] [cv-prod-id-2972421  ] [None                          ] [   CV] [Book Chapter         ] [ 0  0      ] [2012-01-01] E-Learning - Engineering, On-Job Training and Interactive Teaching
+[None       ] [cv-prod-id-2971029  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] Player Cooperativo de Documentos Hipermédia
+[None       ] [cv-prod-id-2971031  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] Simulator of a Flow Cytometer: A Prototype
+[None       ] [cv-prod-id-2971027  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2012-01-01] Videoconferência Multiponto
+[None       ] [cv-prod-id-2970978  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2013-01-01] Exploração Virtual de uma embarcação do sec. XV afundada na ria de Aveiro
+[None       ] [cv-prod-id-2970976  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2013-01-01] Natural Language Generation in the context of Multimodal Interaction in Portuguese
+[None       ] [cv-prod-id-2970979  ] [None                          ] [   CV] [Article              ] [10  0      ] [2013-01-01] Sistema de Informação do Processo Penal (SIPP)
+[None       ] [cv-prod-id-2970981  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2013-01-01] Software Application for Data Visualization and Interaction in a Location Routing Problem
+[None       ] [cv-prod-id-2970665  ] [10.4018/ijcac.2015010102      ] [   CV] [Article              ] [ 0  0      ] [2015-01-01] HPC in Weather Forecast
+[None       ] [cv-prod-id-2966794  ] [10.1109/icedeg.2016.7461695   ] [   CV] [Conference Paper     ] [ 0  0      ] [2016-01-01] Risks, trust and results: The project's methodology underneath Cape Verde's Justice Information System
+[None       ] [cv-prod-id-2984335  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2017-01-01] {Natural Transmission of Information Extraction Results to End-Users - A Proof-of-Concept Using Data-to-Text
+[None       ] [cv-prod-id-2970559  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2021-01-01] EATIS '20: Proceedings of the 10th Euro-American Conference on Telematics and Information Systems
+[0026373979 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  1 Ab   ] [1991-12-01] Integrated management system for interconnected local area networks
+[0026403147 ] [cv-prod-id-778081   ] [None                          ] [   CV] [Article              ] [ 0  0      ] [1991-01-01] PC workstation for Ethernet monitoring and management
+[0026403147 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [1991-12-01] PC workstation for Ethernet monitoring and management
+[0028138073 ] [cv-prod-id-778080   ] [None                          ] [   CV] [Article              ] [ 0  0      ] [1994-01-01] HyDE: A hypermedia document editor based on OLE technology
+[0028138073 ] [None                ] [10.1109/mmcs.1994.292482      ] [SC   ] [Conference Paper     ] [ 5  1 Ab   ] [1994-01-01] HyDE: A hypermedia document editor based on OLE technology
+[0035171414 ] [cv-prod-id-778078   ] [10.1117/12.433007             ] [SC CV] [Article              ] [ 0  5 Ab   ] [2001-07-12] Design and development of a virtual library and a SOAP/Z39.50 gateway using Java technologies
+[0042188662 ] [None                ] [10.1007/BF02829533            ] [SC   ] [Article              ] [ 0  1 Ab   ] [2000-01-01] Sampling and Π-sampling expansions
+[0043262762 ] [None                ] [10.1007/BF02829532            ] [SC   ] [Article              ] [ 0  1 Ab   ] [2000-01-01] Hyperfinite representation of distributions
+[21944441701] [cv-prod-id-778071   ] [None                          ] [SC CV] [Article              ] [ 2  1 Ab   ] [2005-06-01] XML family skills used by FLoWPASS
+[33747063319] [None                ] [10.1080/16073606.1981.9632255 ] [SC   ] [Article              ] [ 0  1 Ab   ] [1981-01-01] On the asymptotic behaviour of the titchmarsh- weyl coefficients for a fourth order equation
+[33749052052] [cv-prod-id-778069   ] [10.1109/AICT-ICIW.2006.69     ] [SC CV] [Conference Paper     ] [ 3  1 Ab   ] [2006-10-03] Contact@UA - A profile driven portal
+[33749052481] [cv-prod-id-778068   ] [10.1109/AICT-ICIW.2006.172    ] [SC CV] [Conference Paper     ] [ 3  1 Ab   ] [2006-01-01] SInBAD - A digital library to aggregate multimedia documents
+[33847104723] [None                ] [10.1109/NWESP.2005.82         ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2005-12-01] Web annotation system based on web services
+[33847114038] [None                ] [10.1109/NWESP.2005.64         ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2005-12-01] Portuguese parliamentary records: A multimedia digital library distributed architecture, based on Web Services
+[33847792117] [cv-prod-id-2971208  ] [10.1109/EURCON.2005.1630037   ] [   CV] [Conference Paper     ] [13  0      ] [2006-01-01] Maintainability assessment of an enhanced object-oriented approach for wrapping stored procedures
+[33947725811] [None                ] [10.1080/00207390601035476     ] [SC   ] [Review               ] [ 0  3 Ab   ] [2007-01-01] TDmat-mathematics diagnosis evaluation test for engineering sciences students
+[34249761206] [cv-prod-id-778079   ] [10.1007/BF01215870            ] [SC CV] [Article              ] [ 0  4 Ab   ] [1995-09-01] Hypermedia authoring tools based on OLE technology
+[45749133866] [cv-prod-id-775514   ] [10.1108/10650740810886312     ] [SC CV] [Article              ] [ 0  2 Ab   ] [2008-06-20] User profiles in organizational environments
+[51249109933] [cv-prod-id-775513   ] [10.1109/ICIW.2008.60          ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2008-09-12] User profiles in corporate scenarios
+[55849099291] [cv-prod-id-778062   ] [None                          ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2008-12-01] Resource aggregation in digital libraries - Static vs dynamic protocols
+[56749159016] [cv-prod-id-778065   ] [10.1145/1352694.1352766       ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2007-12-01] The new institutional portal of UA methodology of development
+[57849104444] [cv-prod-id-778060   ] [10.1109/INFTECH.2008.4621636  ] [SC CV] [Conference Paper     ] [ 9  2 Ab   ] [2008-12-25] Applications@DA - Online platform for organizational online submission Applications
+[57849115806] [cv-prod-id-778063   ] [10.1109/INFTECH.2008.4621581  ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2008-12-25] Managing scientific production
+[58049139902] [cv-prod-id-775515   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2008-12-01] SOPPA - Service oriented P2P framework for digital libraries
+[58049178479] [cv-prod-id-778061   ] [None                          ] [SC CV] [Conference Paper     ] [ 9  2 Ab   ] [2008-12-01] Improving performance of background jobs in digital libraries using grid computing
+[58149165178] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2008-12-01] User profiles in organizational environments
+[63449139085] [None                ] [10.1533/9780857099488         ] [SC   ] [Book                 ] [ 0  1 Ab   ] [2005-01-01] Theories of generalised functions: Distributions, ultradistributions and other generalised functions
+[67650556630] [cv-prod-id-775509   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  3 Ab   ] [2009-07-21] QGM - A system to improve maths e-learning
+[70350630139] [cv-prod-id-778059   ] [10.1145/1621087.1621120       ] [SC CV] [Conference Paper     ] [10  3 Ab   ] [2008-12-01] SWIT: An open-source web-based database management system with indexing engine integration
+[70350648584] [cv-prod-id-778064   ] [10.1145/1621087.1621119       ] [SC CV] [Conference Paper     ] [ 7  3 Ab   ] [2008-12-01] Search engines evaluation for P2P based Digital Libraries
+[70350651517] [cv-prod-id-778058   ] [10.1145/1621087.1621118       ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2008-12-01] UNIMARC-XML performance testing
+[74549144082] [None                ] [None                          ] [SC   ] [Book Chapter         ] [ 0  1      ] [2008-01-01] A digital library framework for the University of Aveiro
+[74549164197] [cv-prod-id-775508   ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2009-01-01] SInBAD digital library preservation using irods data grid
+[74549164197] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2009-12-01] SInBAD digital library preservation using irods data grid
+[74549185159] [cv-prod-id-775510   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2009-12-01] Service oriented P2P networks for digital libraries, based on JXTA
+[77954528260] [cv-prod-id-775505   ] [10.1109/ICIW.2010.54          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2010-07-16] A cloud oriented approach for people-provided services
+[77954948097] [cv-prod-id-775504   ] [10.1109/CCGRID.2010.37        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2010-07-30] User provided cloud computing
+[77957844142] [cv-prod-id-775506   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  1 Ab   ] [2010-10-18] GlobaliD: Federated identity provider associated with national citizen's card
+[78649418947] [cv-prod-id-775503   ] [10.1109/CENTRIC.2010.26       ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2010-12-01] GlobaliD - Privacy concerns on a Federated Identity Provider associated with the users' national citizen's card
+[78649818497] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2010-12-13] Integrating and optimizing business process execution in P2P environments
+[78649853557] [cv-prod-id-775507   ] [None                          ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2010-12-13] Web services deployment on P2P networks, based on JXTA
+[79551613427] [None                ] [10.1533/9780857099501         ] [SC   ] [Book                 ] [ 0  1 Ab   ] [2004-01-01] Infinitesimal Methods of Mathematical Analysis
+[79960543375] [cv-prod-id-775501   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2011-07-25] A new living lab for usability evaluation of ICT and next generation networks for elderly@home
+[80052497339] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2011-09-12] Sky computing
+[80052571099] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2011-09-14] Cloud interchangeability: Redefining expectations
+[80054055305] [None                ] [10.1007/978-3-642-24355-4_10  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2011-10-19] Cloud computing: A platform of services for services
+[80054071972] [None                ] [10.1007/978-3-642-24352-3_31  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2011-10-19] Cloud computing enhanced service development architecture for the living usability lab
+[8444240453 ] [cv-prod-id-778076   ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2004-01-01] Audiovisual archive with MPEG-7 video description and XML database
+[8444240453 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  1 Ab   ] [2004-11-23] Audiovisual archive with MPEG-7 video description and XML database
+[84859945571] [cv-prod-id-778072   ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2005-01-01] Contact@UA - Multi-service web portal
+[84859945571] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2005-12-01] Contact@UA - Multi-service web portal
+[84861978367] [cv-prod-id-775499   ] [None                          ] [SC CV] [Conference Paper     ] [10  1 Ab   ] [2012-06-13] Health@Home scenario: Creating a new support system for home telerehabilitation
+[84879085497] [cv-prod-id-775498   ] [10.1016/j.giq.2013.02.002     ] [SC CV] [Article              ] [ 0  3 Ab FT] [2013-07-01] Risk factors in e-justice information systems
+[84895924083] [cv-prod-id-775497   ] [10.1007/s10922-012-9260-2     ] [SC CV] [Article              ] [ 8  4 Ab   ] [2014-01-01] The building blocks of a PaaS
+[84898310737] [None                ] [10.4018/978-1-4666-3667-5.ch003] [SC   ] [Book Chapter         ] [ 8  2 Ab   ] [2013-03-31] Cloud computing enhanced service development architecture for the living usability lab
+[84906692167] [None                ] [10.1109/CISTI.2014.6876862    ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2014-01-01] Sky computing: Exploring the aggregated cloud resources - Part II
+[84943279860] [None                ] [10.1109/CISTI.2015.7170419    ] [SC   ] [Conference Paper     ] [ 8  6 Ab   ] [2015-07-28] Towards a hybrid NLG system for Data2Text in Portuguese
+[84943327625] [None                ] [10.1109/CISTI.2015.7170486    ] [SC   ] [Conference Paper     ] [ 5  6 Ab   ] [2015-07-28] Transparency in the national assemblies of Portuguese speaking African countries: Adapting the bungeni parliamentary system - The case study of Sao Tome and Principe
+[84943327959] [None                ] [10.1109/CISTI.2015.7170451    ] [SC   ] [Conference Paper     ] [ 5  6 Ab   ] [2015-07-28] Continuous integration using cloud computing
+[84943328623] [None                ] [10.1109/CISTI.2015.7170456    ] [SC   ] [Conference Paper     ] [ 8  6 Ab   ] [2015-07-28] Support architecture to desmaterialization of banking operations
+[84971336972] [None                ] [10.1109/ICEDEG.2016.7461695   ] [SC   ] [Conference Paper     ] [ 6  5 Ab   ] [2016-04-27] Risks, trust and results: The project's methodology underneath Cape Verde's Justice Information System
+[84973924399] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  4 Ab   ] [2001-01-01] Portuguese parliamentary records digital library
+[85008659743] [cv-prod-id-775496   ] [10.1007/s10586-017-0727-5     ] [SC CV] [Article              ] [ 8  2 Ab   ] [2017-03-01] Sky Computing: exploring the aggregated Cloud resources
+[85032615325] [None                ] [10.4230/OASIcs.SLATE.2017.20  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2017-10-01] Natural transmission of information extraction results to end-users – a proof-of-concept using data-to-text
+[85053942221] [None                ] [10.1201/b18520                ] [SC   ] [Book Chapter         ] [ 0  3 Ab   ] [2015-01-01] The living usability lab architecture: Support for the development and evaluation of new ambient assisted living services for the elderly
+[85070057496] [None                ] [10.23919/CISTI.2019.8760987   ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2019-06-01] Web platform to support multidimensional assessment of human functioning
+[85077495173] [None                ] [10.1007/978-3-030-37737-3_36  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] System to Support Multidimensional Assessment of Human Functioning
+[85078546618] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  5 Ab   ] [2018-01-01] Mapping of processes for the integration of civil registry systems in São Tomé and Príncipe
+[85100471084] [cv-prod-id-2969336  ] [10.1145/3401895.3401918       ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2020-01-01] BioDepura: Bivalve depuration methodologies adapted to the physiological needs
+[85100499159] [cv-prod-id-2970478  ] [10.1145/3401895.3402079       ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2020-01-01] Dynamic parliamentary management platform with workflow engine integration
+[85122987391] [cv-prod-id-2971830  ] [10.3390/ijerph19031167        ] [SC CV] [Article              ] [ 7  3 Ab   ] [2022-02-01] The Portuguese Third Version of the Copenhagen Psychosocial Questionnaire: Preliminary Validation Studies of the Middle Version among Municipal and Healthcare Workers

@@ -1,0 +1,31 @@
+[0027153714 ] [cv-prod-id-2792865  ] [None                          ] [SC CV] [Conference Paper     ] [ 2  3 Ab   ] [1993-01-01] Generalized feed-forward filters: Some theoretical results
+[0029305610 ] [cv-prod-id-2792863  ] [10.1109/97.386289             ] [SC CV] [Article              ] [ 4  3 Ab   ] [1995-01-01] Optimality Conditions for Laguerre Lattice Filters
+[0030896155 ] [None                ] [10.1109/10.568917             ] [SC   ] [Article              ] [ 0  1 Ab   ] [1997-05-12] SIGIF: A digital signal interchange format with application in neurophysiology
+[0031073746 ] [None                ] [10.1016/s0165-1684(96)00172-7 ] [SC   ] [Article              ] [ 3  5 Ab FT] [1997-01-01] Stationarity conditions for the L<sup>2</sup> error surface of the generalized orthonormal basis functions lattice filter
+[0031347663 ] [cv-prod-id-2792862  ] [None                          ] [SC CV] [Conference Paper     ] [ 2  3 Ab   ] [1997-12-01] Some results concerning the asymptotic eigenvalue distribution of block-Toeplitz matrices related to the generalized orthonormal basis function model
+[0032260469 ] [cv-prod-id-2792861  ] [10.1109/ICECS.1998.813346     ] [SC CV] [Conference Paper     ] [ 9  2 Ab   ] [1998-01-01] On the design of linear-in-the-parameters adaptive filters
+[0032598750 ] [cv-prod-id-2792859  ] [10.1016/S0005-1098(99)00075-8 ] [SC CV] [Article              ] [ 4  2 Ab FT] [1999-01-01] On the asymptotic eigenvalue distribution of block-Toeplitz matrices related to the generalized orthonormal basis functions model
+[0033480622 ] [cv-prod-id-2792860  ] [10.1090/s0025-5718-99-01031-5 ] [SC CV] [Article              ] [ 0  3 Ab   ] [1999-01-01] Maximum excursion and stopping time record-holders for the 3x+1 problem: Computational results
+[27644589218] [cv-prod-id-2792864  ] [10.1109/ICASSP.1994.389800    ] [SC CV] [Conference Paper     ] [ 5  3 Ab   ] [1994-01-01] On the equivalence between gamma and laguerre filters
+[6744269345 ] [None                ] [10.1109/IEMBS.1992.5761622    ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [1992-01-01] A low order model of sleep stage II EEG based on the gamma kernel
+[82955212264] [None                ] [10.1007/1-84628-178-4_11      ] [SC   ] [Book Chapter         ] [ 0  1 Ab   ] [2005-12-01] Pole selection in GOBF models
+[84866510035] [cv-prod-id-2792855  ] [10.1109/WFCS.2012.6242565     ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2012-09-26] A path to oscillation free controller changes
+[84885406245] [cv-prod-id-2792854  ] [10.1109/SIES.2013.6601502     ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2013-10-17] On the control of lossy networks with hold strategy
+[84890658240] [cv-prod-id-2792853  ] [10.1109/ETFA.2013.6648009     ] [SC CV] [Conference Paper     ] [ 7  4 Ab   ] [2013-12-24] On the application of block transmissions for improving control over lossy networks
+[84892190174] [None                ] [10.1007/1-84628-178-4_2       ] [SC   ] [Book Chapter         ] [ 0  1      ] [2005-12-01] Construction and analysis
+[84903979352] [cv-prod-id-2792851  ] [10.1109/WFCS.2014.6837577     ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2014-01-01] A novel dynamical approach to (m, k)-firm scheduling
+[84910112035] [cv-prod-id-2792852  ] [10.1090/s0025-5718-2013-02787-1] [SC CV] [Article              ] [ 0  3 Ab   ] [2014-01-01] Empirical verification of the even goldbach conjecture and computation of prime gaps up to 4 · 10<sup>18</sup>
+[84911931231] [None                ] [10.1007/978-3-319-13066-8_3   ] [SC   ] [Article              ] [ 8  2 Ab   ] [2014-01-01] Massively parallel identification of Privacy-Preserving vehicle rfid tags
+[84911931231] [cv-prod-id-2792849  ] [10.1007/978-3-319-13066-8_3   ] [   CV] [Book                 ] [ 0  0      ] [2014-01-01] Massively parallel identification of Privacy-Preserving vehicle rfid tags
+[84937054065] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2000-03-31] Optimal pole conditions for Laguerre models that satisfy some interpolation constraints, using an || · ||<inf>p</inf> norm, 1 &lt; p &lt; ∞
+[84941639125] [None                ] [10.1112/blms/bdv018           ] [SC   ] [Article              ] [ 0  1 Ab   ] [2015-01-01] On consecutive primitive elements in a finite field
+[84958740980] [cv-prod-id-2792848  ] [10.4064/aa8109-12-2015        ] [SC CV] [Article              ] [ 0  1      ] [2016-01-01] On Grosswald's conjecture on primitive roots
+[84960867369] [cv-prod-id-2792858  ] [None                          ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2002-03-27] On the choice of a basis for a linear-in-the-parameters model
+[84979172138] [None                ] [10.1515/9783110298161.613     ] [SC   ] [Book Chapter         ] [ 0  1 Ab   ] [2014-01-01] New bounds and computations on prime-indexed primes
+[85000351017] [None                ] [10.1090/mcom/2950             ] [SC   ] [Article              ] [ 0  3 Ab   ] [2015-01-01] A proof of the conjecture of Cohen and Mullen on sums of primitive roots
+[85019607419] [cv-prod-id-2792866  ] [10.1109/NNSP.1992.253662      ] [SC CV] [Conference Paper     ] [ 8  5 Ab   ] [1992-01-01] Generalized feedforward filters with complex poles
+[85034108774] [None                ] [10.1109/MWSCAS.2017.8053128   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2017-09-27] Improving the performance of all-digital transmitter based on parallel delta-sigma modulators through propagation of state registers
+[85034233820] [None                ] [10.1109/TMTT.2017.2764451     ] [SC   ] [Article              ] [ 8  3 Ab   ] [2018-03-01] A Fully Parallel Architecture for Designing Frequency-Agile and Real-Time Reconfigurable FPGA-Based RF Digital Transmitters
+[85043527772] [cv-prod-id-2792847  ] [10.1016/j.ffa.2018.02.009     ] [SC CV] [Article              ] [ 5  4 Ab FT] [2018-05-01] Linear combinations of primitive elements of a finite field
+[85099626960] [None                ] [10.1090/MCOM/3581             ] [SC   ] [Article              ] [ 0  3 Ab   ] [2021-01-01] the Distribution of K-Free Numbers
+[85113862920] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2015-01-01] On the Adaptation of the Pole of Laguerre-Lattice Filters

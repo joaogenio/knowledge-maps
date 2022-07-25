@@ -26,6 +26,36 @@
         "clean_text": ""
     },
     {
+        "doc_title": "The Use of Robotic Pets by Community-Dwelling Older Adults: A Scoping Review",
+        "doc_scopus_id": "85131596559",
+        "doc_doi": "10.1007/s12369-022-00892-z",
+        "doc_eid": "2-s2.0-85131596559",
+        "doc_date": "2022-01-01",
+        "doc_type": "Review",
+        "doc_areas": [
+            {
+                "area_name": "Computer Science (all)",
+                "area_abbreviation": "COMP",
+                "area_code": "1700"
+            }
+        ],
+        "doc_keywords": [
+            "Aged care",
+            "Community-dwelling",
+            "Older adults",
+            "Robotic pet",
+            "Scoping",
+            "Scoping review",
+            "Scoping study",
+            "Social robots",
+            "Technology",
+            "Well being"
+        ],
+        "doc_abstract": "© 2022, The Author(s), under exclusive licence to Springer Nature B.V.Robotic pets (RPs) are being increasingly used with older adults to address behavioral and psychological symptoms of dementia, and as a companion in aged care facilities. Main benefits include increased well-being and better social interactions. To date, little is known about the use of RPs by healthy older adults outside institutional settings. The aim of this paper is to map the research about the use of RPs in community-dwelling healthy older adults considering the users’ perspectives. A scoping review was performed using four databases (Academic Search Complete, Web of Science, PubMed, and SCOPUS), searching for papers published until May 2021. A final selection of ten documents was submitted to thematic analysis. The participants in the studies were all potential users (not actual users, since RPs were still in development). Main findings point to three themes concerning the main expected characteristics of RPs from the perspective of community-dwelling healthy older adults: (i) like reals pets, but with less maintenance; (ii) performing multiple functions, with customizability; (iii) facilitators of interactions without promoting social stigma. Community-dwelling older adults seem open to use a RP as long as it promotes their well-being without facilitating ageism. More research is needed regarding the ethics of using robotics companion pets and comprising a person-centered approach.",
+        "available": false,
+        "clean_text": ""
+    },
+    {
         "doc_title": "An Innovative Vision System for Floor-Cleaning Robots Based on YOLOv5",
         "doc_scopus_id": "85129794169",
         "doc_doi": "10.1007/978-3-031-04881-4_30",

@@ -1,0 +1,3380 @@
+{
+    "ciencia_id": "151C-D9F8-8B86",
+    "name": "Leonor da Conceição Teixeira",
+    "bio": "Leonor da Conceição Teixeira. Concluiu o(a) Doutoramento em Gestão Industrial em 2008 pelo(a) Universidade de Aveiro, Mestrado em Gestão de Informação em 2002 pelo(a) Universidade de Aveiro e Licenciatura em Engª e Gestão Industrial em 1997 pelo(a) Universidade de Aveiro. É Professor Associado no(a) Universidade de Aveiro. Publicou 75 artigos em revistas especializadas e 79 papers em atas / proceedings de conferências internacionais e nacionais, e possui 46 capítulos de livros. Partivcipou na edição de livros/livro de actas. Organizou e participou em vários eventos. Orientou/coorientou 4 teses de doutoramento e neste momento tem mais 8 a decorrer. Orientou/coorientou cerca de meia centena de dissertações de mestrado. Recebeu 8 prémio(s) e/ou homenagens. Participa e/ou participou como Investigador em 6 projetos, e destes, no papel de Investigador responsável em 3 projetos. Atua na(s) área(s) de Ciências da Engenharia e Tecnologias com ênfase em Outras Ciências da Engenharia e Tecnologias. Nas suas atividades profissionais interagiu com cerca de 250 colaboradores em coautorias de trabalhos científicos.",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Other Engineering and Technologies",
+            "code": "21100004"
+        }
+    ],
+    "degrees": [
+        "Gestão Industrial",
+        "Gestão de Informação",
+        "Engª e Gestão Industrial"
+    ],
+    "distinctions": [
+        "Best Sessions Paper Award - Modelização de Aplicações Web: o contributo da UML e do OOHDM na modelização de um sistema de informação académico, in CISCI, EUA",
+        "Best Sessions Paper Award - Uma Abordagem ao Processo de Desenvolvimento dos Sistemas de Informação: cuidados a ter ao longo do processo no caso dos SI¿s tradicionais e SI¿s distribuídos na Web, in CISCI, EUA",
+        "Best Paper Award Hemo@care - um Sistema Integrado de Gestão de Informação Clínica na área da Hemofilia,  CAPSI",
+        "Best Paper Award  -  e-Learning no Ensino Paralelo: estudo e conceptualização de uma solução tecnológica,  IADIS/CIAWI",
+        "IEOM Awards Orientadora da tese de mestrado vencedora (1st Place - MS Thesis Competition Award) no 5th North American industrial Engineering and Operations Management Conference (IEOM), Detroit, EUA",
+        "TCP Awards Orientadora tese de mestrado vencedora na modalidade de Teses Académicas do Turismo Centro de Portuga",
+        "Best Track Paper Award: \"How can BPM and Lean practices accelerate digital transformation? Evidence based on a practical case\". Sixth North American Conference on Industrial Engineer",
+        "Winning the 3rd Place in competition of the IEOM Human Factors and Ergonomics - \"Human Resource 4.0: A vision of a technological tool to assess and foster employee engagement\". Sixth North American Conference on Industrial Engineer"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Software Effort Prediction: An Empirical Evaluation of Methods to Treat Missing Values with RapidMiner®",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143941",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Percepções dos professores do ensino superior sobre as tarefas e actividades que desenvolvem no seu meio de trabalho",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143942",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis of Web-Besed Communication Systems Usage Patterns: A Visual Application",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143943",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Avaliação de usabilidade de alguns aspectos de um sistema que integra o portal ua.pt: My.UA",
+            "date": "2008-01-01",
+            "keywords": [
+                "usabilidade; My.UA"
+            ],
+            "ciencia_id": "cv-prod-id-143945",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "e-Learning no Ensino Paralelo: estudo e conceptualização de uma solução tecnológica",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143949",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Percepção dos Utilizadores Face à Introdução de um Sistema ERP",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143950",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "ENTERprise Information Systems",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143952",
+            "doi": "10.1007/978-3-642-16402-6_32",
+            "scopus_id": "2-s2.0-78650856889",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Human Centered Design",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143953",
+            "doi": "10.1007/978-3-642-02806-9_106",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Human Centered Design",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143954",
+            "doi": "10.1007/978-3-642-02806-9_91",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Healthcare Information Systems",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143955",
+            "doi": "10.4018/978-1-59904-889-5.ch175",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Preliminary Usability Evaluation of PolyMeCo: A Visualization Based Tool for Mesh Analysis and Comparison",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143956",
+            "doi": "10.1109/gmai.2007.27",
+            "scopus_id": "2-s2.0-35048822035",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling a Web-based Information System for Managing Clinical Information in Hemophilia Care",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143958",
+            "doi": "10.1109/iembs.2006.259679",
+            "scopus_id": "2-s2.0-40649117718",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Knowledge Management in Software Development Industry",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143959",
+            "doi": null,
+            "scopus_id": "2-s2.0-84860713054",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "The potential role of Destination Management Systems in reshaping tourism destinations",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143960",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Design of a Web-enabled System for Managing Clinical Information in Hemophilia Care",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143961",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sistemas de Informação em Gestão na Engenharia e Gestão Industrial da Universidade de Aveiro",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143962",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "VISUAL Application for Management of Web-Based Communication and Information Systems",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143965",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Managing Academic Services Trough the Web: an information support system for graduated programs",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143967",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "WebMaster - An Internet Information Support System for Academic Services Using ASP Technology: modelling and implementation",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565929",
+            "doi": null,
+            "scopus_id": "2-s2.0-84973890941",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gestão intermédia no ensino superior: percepções e expectativas de Presidentes de Conselhos Directivos de Unidades Orgânicas sobre as políticas e gestão do ensino superior",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143969",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sistema de Apoio ao Ensino Paralelo: estudo e conceptualização de uma plataforma tecnológica para centros de explicação",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143970",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sistema de Monitoria de Dados em Tempo Real com base em alertas e KPIs: aplicação no âmbito de uma doença crónica",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143971",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Desenvolvimento Centrado no Utilizador em ambiente de Participatory Design: uma experiência na área da saúde",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143972",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Hemo@care - um Sistema Integrado de Gestão de Informação Clínica na área da Hemofilia",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143973",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Aplicação de métodos ágeis no desenvolvimento de um Sistema de Gestão de Informação Clínico: um caso prático na área da hemofilia",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143974",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Especificação e análise de uma Aplicação Web para a o Registo Electrónico do Paciente na área da Hemofilia – caso prático",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143975",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Planeamento e Projecto de um Sistema de Gestão e Registo de Pacientes numa Unidade Hospitalar",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143976",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modelização de um Sistema de Informação de apoio ao Planeamento de Produção: caso prático",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143977",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Aplicação Visual Para a Análise de Usabilidade de Sistemas de Informação e Comunicação Sustentados em Tecnologias Web",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143978",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Desenvolvimento de aplicações hipermédia utilizando a metodologia OOHDM: a possibilidade de incluir os requisitos funcionais e não funcionais de um sistema",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143979",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Magazine article",
+            "title": "O Hemo@care: Sistema de Gestão de Informação Clínica para a Hemofilia",
+            "date": "2008-09-22",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143980",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "The potential of Destination Management Systems for the integrated promotion of the diverse heritage of tourism destinations",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143981",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Web-enabled registry of inherited bleeding disorders in Portugal: conditions and perception of the patients",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143982",
+            "doi": "10.1111/j.1365-2516.2011.02574.x",
+            "scopus_id": "2-s2.0-84355166743",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Role of DMS in Reshaping Tourism Destinations: An Analysis of the Portuguese Case",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143983",
+            "doi": "10.3727/109830512X13283928066751",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "User-centered requirements engineering in health information systems: A study in the hemophilia field",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143984",
+            "doi": "10.1016/j.cmpb.2010.10.007",
+            "scopus_id": "2-s2.0-84860229517",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Medical Applications of Intelligent Data Analysis",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143985",
+            "doi": "10.4018/978-1-4666-1803-9.ch010",
+            "scopus_id": "2-s2.0-84898280997",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Organizational Integration of Enterprise Systems and Resources",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143986",
+            "doi": "10.4018/978-1-4666-1764-3.ch013",
+            "scopus_id": "2-s2.0-84898372428",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "As Tecnologias de Informação e Comunicação ao serviço do ensino paralelo: proposta conceptual de uma solução tecnológica",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143987",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "O papel dos Sistemas de Gestão de Destinos no desenvolvimento do turismo cultural: Análise da vertente transacional destes sistemas no que concerne a produtos turísticos culturais",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143988",
+            "doi": "10.34624/rtd.v3i17/18.13277",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Expectativas e satisfação de alunos e professores no ensino paralelo: um caso de estudo",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143989",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Desmaterialização de processos com recurso a tecnologias open-source: um projeto-piloto numa instituição de ensino superior",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143990",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "A Wiki como potencial ferramenta para a melhoria do processo Ensino/Aprendizagem: um estudo com alunos do Ensino Superior",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143991",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Utilização de Wikis no contexto Ensino/Aprendizagem: uma experiência com alunos do Ensino Superior",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143992",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "E-participation in Portugal: evaluation of government electronic platforms",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143993",
+            "doi": "10.1016/j.protcy.2012.09.017",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Use of Moodle e-learning Platform: A Study in a Portuguese University",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143994",
+            "doi": "10.1016/j.protcy.2012.09.037",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improvement of surveillance of hemophilia treatment through ICTs",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143995",
+            "doi": "10.1109/embc.2012.6347332",
+            "scopus_id": "2-s2.0-84870816010",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Worker perception in relation to workplace comfort – a study in the metalworking industry",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143999",
+            "doi": null,
+            "scopus_id": "2-s2.0-84875543596",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Destination Management Systems: Creation of value for visitors of tourism destinations",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144000",
+            "doi": "10.1504/ijtm.2014.059233",
+            "scopus_id": "2-s2.0-84894357901",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Definição de cenários logísticos sincronizados",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144001",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Ergonomia ocupacional em contexto industrial: caso de ambiente térmico quente",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144002",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Aplicação da filosofia lean em processos de informação: um caso prático",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144003",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Desmaterialização de Processos: uma abordagem metodológica",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144004",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Melhorar postos de trabalho a partir da identificação de \"lhas térmicas\" de uma nave industrial",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144005",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Implementação de armazéns avançados em contexto hospitalar",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144006",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Handbook of Research on Enterprise 2.0: Technological, Social, and Organizational Dimensions",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144007",
+            "doi": "10.4018/978-1-4666-4373-4.ch026",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Handbook of Research on Enterprise 2.0",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144008",
+            "doi": "10.4018/978-1-4666-4373-4.ch017",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Hemo@care: A web-based application for managing clinical information in hemophilia care",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144009",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Hemo@care_Dashboard:  GXT web-based application for Real Time monitoring based on KPI indicators",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144010",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Hemo@Record - System of National Register of Congenital Coagulopathies(Link)",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144011",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference poster",
+            "title": "Improvement of Surveillance of Haemophilia Treatment through ICTs",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144012",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference poster",
+            "title": "Web-enabled System Design for Managing Clinical Information in Hemophilia Care",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144016",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Hemo@record_info: A Joomla 3 web-site for the promotion of the Hemo@Record, a web-based application for managing the Portuguese hemophilia patients records",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144019",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Occupational Safety and Hygiene",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144020",
+            "doi": "10.1201/b14391-65",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Occupational Safety and Hygiene",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144021",
+            "doi": "10.1201/b14391-98",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": " E-participation in Portuguese local governments: evaluation of deployment and adherence of web 2.0 technologies",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144022",
+            "doi": "10.1504/eg.2013.058789",
+            "scopus_id": "2-s2.0-84892992806",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The study of the thermal environment and the subjectivity of workers thermal sensation",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144024",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Study of the thermal environment of an industrial inner space from the definition of thermal islands",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144025",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detection of the thermal sensation in a workplace applying a color scale and the PMV index",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144027",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Identifying thermal islands in a production heat pump cell in an industrial context ",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144028",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Handbook of Research on ICTs and Management Systems for Improving Efficiency in Healthcare and Social Care",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144030",
+            "doi": "10.4018/978-1-4666-3990-4.ch033",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Motivação dos alunos para a utilização da tecnologia wiki: um estudo prático no ensino superior",
+            "date": "2013-01-01",
+            "keywords": [
+                "Wikis",
+                "Processo ensino-aprendizagem",
+                "Ensino superior",
+                "Modelo TAM"
+            ],
+            "ciencia_id": "cv-prod-id-144031",
+            "doi": "10.1590/S1517-97022013000300014",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "ENTERprise Information Systems",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144032",
+            "doi": "10.1007/978-3-642-16419-4_27",
+            "scopus_id": "2-s2.0-78650924687",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Human Interface and the Management of Information. Information and Knowledge Design and Evaluation",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144034",
+            "doi": "10.1007/978-3-319-07731-4_64",
+            "scopus_id": "2-s2.0-84904115337",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology, Third Edition",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144037",
+            "doi": "10.4018/978-1-4666-5888-2.ch356",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology, Third Edition",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144038",
+            "doi": "10.4018/978-1-4666-5888-2.ch061",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Digital Human Modeling. Applications in Health, Safety, Ergonomics and Risk Management",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144039",
+            "doi": "10.1007/978-3-319-07725-3-45",
+            "scopus_id": "2-s2.0-84901797937",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Improving Tasting Processes in the Food Industry using ICT",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144041",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Designing a Decision Support System for Tasting Panels",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144042",
+            "doi": "10.1016/j.protcy.2014.10.110",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Improving the Quality of the Wine Tasting Process",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144043",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Multidimensão e territórios de risco",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144045",
+            "doi": "10.14195/978-989-96253-3-4_78",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Multidimensão e territórios de risco",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144046",
+            "doi": "10.14195/978-989-96253-3-4_85",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Multidimensão e territórios de risco",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144047",
+            "doi": "10.14195/978-989-96253-3-4_96",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Melhorar Ambiente Térmico de Local Trabalho",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144048",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Occupational Safety and Hygiene III",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144049",
+            "doi": "10.1201/b18042",
+            "scopus_id": "2-s2.0-84941647178",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The use of Web 2.0 tools by students in learning and leisure contexts: a study in a Portuguese institution of higher education",
+            "date": "2016-01-01",
+            "keywords": [
+                "Higher education",
+                "Learning process",
+                "Leisure",
+                "Web 2.0 tools",
+                "Cluster analysis"
+            ],
+            "ciencia_id": "cv-prod-id-144051",
+            "doi": "10.1080/1475939x.2015.1057611",
+            "scopus_id": "2-s2.0-84938613510",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Portuguese National Registry for Hemophilia: Developing of a Web-based Technological Solution",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144055",
+            "doi": "10.1016/j.procs.2015.08.507",
+            "scopus_id": "2-s2.0-84962809050",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Selecting an Open-source Framework: A Practical Case Based on Software Development for Sensory Analysis",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144056",
+            "doi": "10.1016/j.procs.2015.08.525",
+            "scopus_id": "2-s2.0-84962808978",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Human-Computer Interaction: Design and Evaluation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144057",
+            "doi": "10.1007/978-3-319-20901-2_38",
+            "scopus_id": "2-s2.0-84947226820",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Princípios Lean Aplicados à Gestão da Informação: um caso prático",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144058",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Healthcare Administration",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144059",
+            "doi": "10.4018/978-1-4666-3990-4.ch033",
+            "scopus_id": "2-s2.0-84898365353",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Hospitality, Travel, and Tourism",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144060",
+            "doi": "10.4018/978-1-4666-4373-4.ch026",
+            "scopus_id": "2-s2.0-84945995873",
+            "authors": []
+        },
+        {
+            "type": "Edited book",
+            "title": "Book of Abstract of ICIEOM-CIO-IIE International Conference Engineering Systems and Networks: the way ahead for industrial engineering and operations management",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144061",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Mobile Computing and Wireless Networks: Concepts, Methodologies, Tools, and Applications",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144063",
+            "doi": "10.4018/978-1-4666-8751-6.ch071",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Edited book",
+            "title": "Engineering Systems and Networks: The way ahead for industrial engineering and operations management. Book of Proceedings of The ICIEOM-CIO-IIIEAveiro",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144064",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Mobile Computing and Wireless Networks: Concepts, Methodologies, Tools, and Applications",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144065",
+            "doi": "10.4018/978-1-4666-8751-6.ch072",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of E-Health and Telemedicine",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144066",
+            "doi": "10.4018/978-1-4666-9978-6.ch066",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Web Platform to Support the Portuguese National Registry of Haemophilia and Other Inherited Blood Disorders",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144067",
+            "doi": "10.4018/IJWP.2015010104",
+            "scopus_id": "2-s2.0-84973569046",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Encyclopedia of Information Science and Technology (3rd edition), edited by Mehdi Khosrow-Pour, DBA (Information Resources Management Association)",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144069",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Handbook of Research on Enterprise 2.0: Technological, Social, and Organizational Dimensions, MM Cruz-Cunha, F. Moreira and J. Varajão (Ed.), IGI Global",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144070",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Handbook of Research on ICTs for Healthcare and Social Services: Developments and Applications, MM. Cruz-Cunha and IM Miranda (Ed.), IGI Global",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144071",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Medical Applications of Intelligent Data Analysis: Research Advancements, R. Magdalena, E. Soria,J. Guerrero, J. Gómez-Sanchis and A.J. Serrano (Ed.), IGI Global",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144072",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Knowledge Management Initiatives and Strategies in Small and Medium Enterprises edited by habil Andrea Bencsik, Szechenyi Istvan and J. Selye , IGI Global",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144073",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Digital Human Modeling: Applications in Health, Safety, Ergonomics and Risk Management",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144074",
+            "doi": "10.1007/978-3-319-40247-5_35",
+            "scopus_id": "2-s2.0-84978877756",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Esconter Index: a Thermal Sensation Indicator Regarding Hot and Cold Thermal Environments",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144075",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "The Stressful Thermal Environments: Comparing the Real Thermal Sensation of Workers with Predicted Thermal Sensation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144076",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Decision Support System for the Design of Cellular Manufacturing Systems: Database Conceptualization",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144078",
+            "doi": "10.1016/j.procs.2016.09.136",
+            "scopus_id": "2-s2.0-85006930171",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis and Design of a Project Management Information System: Practical Case in a Consulting Company",
+            "date": "2016-01-01",
+            "keywords": [
+                "Information Systems",
+                "Project Management",
+                "Analysis and Design",
+                "UML",
+                "Consulting Company"
+            ],
+            "ciencia_id": "cv-prod-id-144079",
+            "doi": "10.1016/j.procs.2016.09.137",
+            "scopus_id": "2-s2.0-85006961476",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Knowledge Management Initiatives and Strategies in Small and Medium Enterprises",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144080",
+            "doi": "10.4018/978-1-5225-1642-2.ch011",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Hemo@record: The Portuguese System for Registration of Patients with Haemophilia and Other Congenital Coagulopathies",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144081",
+            "doi": "10.18803/capsi.v16.124-138",
+            "scopus_id": "2-s2.0-85047082103",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Engineering Systems and Networks",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144083",
+            "doi": "10.1007/978-3-319-45748-2_13",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Enhancing Academic Research With Knowledge Management Principles",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144084",
+            "doi": "10.4018/978-1-7998-7297-9.ch064",
+            "scopus_id": "2-s2.0-85031706458",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Mobile Applications in the Industrial Sector: development and evaluation of a solution to support data registry for the planning and production control",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144085",
+            "doi": "10.18803/capsi.v16.269-277",
+            "scopus_id": "2-s2.0-85047089932",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Study on Massive Open Online Courses in Higher Education",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144086",
+            "doi": "10.18803/capsi.v15.125-141",
+            "scopus_id": "2-s2.0-85047176368",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Portuguese Haemophilia Registry",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144087",
+            "doi": "10.5482/hamo-15-09-0027",
+            "scopus_id": "2-s2.0-85019495052",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology, Fourth Edition",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144089",
+            "doi": "10.4018/978-1-5225-2255-3.ch076",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology, Fourth Edition",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144090",
+            "doi": "10.4018/978-1-5225-2255-3.ch344",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Social Media for Knowledge Management Applications in Modern Organizations",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144091",
+            "doi": "10.4018/978-1-5225-2897-5.ch002",
+            "scopus_id": "2-s2.0-85028858780",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Risk of fatigue in cold thermal environment: the case of the quick-frozen fish industry",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144093",
+            "doi": "10.14195/1647-7723_25-1_8",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Assessment of thermal comfort in a Portuguese metalworking industry",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144094",
+            "doi": "10.3233/oer-170254",
+            "scopus_id": "2-s2.0-85045653341",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advanced Methodologies and Technologies in Modern Education Delivery",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144097",
+            "doi": "10.4018/978-1-5225-2255-3.ch344",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advanced Methodologies and Technologies in Business Operations and Management",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144098",
+            "doi": "10.4018/978-1-5225-2255-3.ch076",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Industrial Engineers Essential Skills: Students, Teachers and Industry Professionals Perspectives",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144099",
+            "doi": "10.21125/inted.2018.0322",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Using BPMN to Improve Industrial Processes: The Case of the Method of Calculation of OEE",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144100",
+            "doi": "10.21125/edulearn.2018.0929",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Model to Support the Implementation of Courses Using Information and Communication Technologies in Higher Education Institutions",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144101",
+            "doi": "10.21125/edulearn.2018.2275",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Human Systems Engineering and Design",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327252",
+            "doi": "10.1007/978-3-030-02053-8_148",
+            "scopus_id": "2-s2.0-85055827923",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Methodological Approach to Dematerialization of Business Processes Using Open-Source Technology",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327259",
+            "doi": "10.24867/IJIEM-2018-3-121",
+            "scopus_id": "2-s2.0-85059881347",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Website Accessibility of Portuguese Travel Agents",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108706",
+            "doi": "10.23919/CISTI.2019.8760949",
+            "scopus_id": "2-s2.0-85070099068",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Website accessibility of Portuguese Travel Agents A view using web diagnostic tools",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108705",
+            "doi": "10.23919/CISTI.2019.8760949",
+            "scopus_id": "2-s2.0-85070099068",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Heterogeneity in accessibility of travel agency websites: A study in the central Portugal region,Heterogeneidade na acessibilidade dos websites das agências de viagens: Um estudo na região centro de Portugal",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108711",
+            "doi": "10.17013/risti.35.1834",
+            "scopus_id": "2-s2.0-85078358789",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Lean Manufacturing: Implementation, Opportunities and Challenges",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108712",
+            "doi": null,
+            "scopus_id": "2-s2.0-85077836923",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Occupational Safety and Hygiene VI",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108713",
+            "doi": null,
+            "scopus_id": "2-s2.0-85061309771",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Collaboration Relationship between Software Industry and University based on Knowledge Management: An empirical study in Portugal,Relação de Colaboração entre Indústria de Software e Universidade com Base na Gestão do Conhecimento: Um Estudo Empírico em Portugal",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108716",
+            "doi": null,
+            "scopus_id": "2-s2.0-85078515055",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information systems in the context of industry 4.0: A lean approach to information flows for the calculation of indicators,Sistemas de informação no contexto da indústria 4.0: Uma abordagem lean aos fluxos de informação para o cálculo de indicadores",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1108717",
+            "doi": null,
+            "scopus_id": "2-s2.0-85078518759",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluation Methods to Support Health Information Systems Development: A Framework Supported in Literature and Practical Experience",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144088",
+            "doi": "10.1007/978-3-319-58466-9_8",
+            "scopus_id": "2-s2.0-85025117076",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Implementing an AGV system to transport finished goods to the warehouse",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2112709",
+            "doi": "10.25046/aj050231",
+            "scopus_id": "2-s2.0-85082488920",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A web based decision support system for sensory analysis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2112711",
+            "doi": "10.4018/JITR.2020040104",
+            "scopus_id": "2-s2.0-85084548822",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": " Handbook of Research on Social Media Applications for the Tourism and Hospitality Sector ",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327248",
+            "doi": "10.4018/978-1-7998-1947-9.ch012",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Information Management Framework to Industry 4.0: A Lean Thinking Approach",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327253",
+            "doi": "10.1007/978-3-030-02053-8_162",
+            "scopus_id": "2-s2.0-85055777410",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "THE INDUSTRIAL ENGINEERS' ESSENTIAL SKILLS: STUDENTS, TEACHERS AND INDUSTRY PROFESSIONALS' PERSPECTIVES",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327255",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A methodological approach to dematerialization of business processes using open-source technology,Metodološki pristup dematerijalizaciji poslovnih procesa korišcenjem open source tehnologije",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144152",
+            "doi": "10.24867/IJIEM-2018-3-121",
+            "scopus_id": "2-s2.0-85059881347",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Development of synchronized Logistics Scenarios",
+            "date": "2016-01-01",
+            "keywords": [
+                "Internal Logistics",
+                "Logistics Scenarios",
+                "Milk Runs",
+                "Supply Routes"
+            ],
+            "ciencia_id": "cv-prod-id-2327260",
+            "doi": null,
+            "scopus_id": "2-s2.0-84990982258",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Collaboration relationship between university and software industry based on knowledge management: an exploratory approach",
+            "date": "2019-01-01",
+            "keywords": [
+                "Collaboration relationship",
+                "University",
+                "Software industry",
+                "Knowledge management",
+                "Knowledge sharing"
+            ],
+            "ciencia_id": "cv-prod-id-2559629",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "The role of the fourth industrial revolution in accessible tourism: study and conceptualization of a web application",
+            "date": "2019-01-01",
+            "keywords": [
+                "Industry 4.0",
+                "Accessible Tourism",
+                "ICTs",
+                "Tourism 4.0",
+                "Web application"
+            ],
+            "ciencia_id": "cv-prod-id-2559631",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Knowledge-sharing and collaborative behaviour: An empirical study on a Portuguese higher education institution",
+            "date": "2019-01-01",
+            "keywords": [
+                "Collaborative behaviour",
+                "higher education institutions",
+                "knowledge sharing",
+                "partial least squares",
+                "theory of reasoned action"
+            ],
+            "ciencia_id": "cv-prod-id-2559628",
+            "doi": "10.1177/0165551519860464",
+            "scopus_id": "2-s2.0-85068681966",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Teaching/learning in a new technological context: a study in higher education",
+            "date": "2018-01-01",
+            "keywords": [
+                "Technologies",
+                "Moodle",
+                "Web 2.0",
+                "Massive Open Online Course (MOOC)",
+                "Higher Education",
+                "Technology Acceptance Model (TAM)"
+            ],
+            "ciencia_id": "cv-prod-id-2559658",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Implementação de ações de melhoria no aprovisionamento da Navigator Pulp Cacia",
+            "date": "2017-01-01",
+            "keywords": [
+                "Gestão de Processos de Negócio",
+                "Processo",
+                "Aprovisionamento",
+                "Modelação de Processos de Negócio",
+                "Compras",
+                "Linguagem",
+                "BPMN",
+                "Modelo",
+                "Lean",
+                "5S"
+            ],
+            "ciencia_id": "cv-prod-id-2559683",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Análise e melhoria do processo de montagem de caixas de velocidade",
+            "date": "2017-01-01",
+            "keywords": [
+                "Indústria automóvel",
+                "Eliminação de resíduos",
+                "Produção industrial",
+                "Automated Guided Vehicles",
+                "Desperdício",
+                "Fluxo de materiais",
+                "Melhoria contínua",
+                "Produtividade",
+                "Simulação",
+                "Valor"
+            ],
+            "ciencia_id": "cv-prod-id-2559685",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Acceptance of Moodle by professors: a study in a Portuguese Higher Education Institution",
+            "date": "2016-01-01",
+            "keywords": [
+                "Moodle",
+                "Higher Education",
+                "Acceptance",
+                "TAM",
+                "Hypothesis testing"
+            ],
+            "ciencia_id": "cv-prod-id-2559688",
+            "doi": "10.18803/capsi.v16.278-285",
+            "scopus_id": "2-s2.0-85047090306",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Melhoria da eficiência dos processos de produção na GUIALMI: aplicação de ferramentas Lean",
+            "date": "2017-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Planeamento da produção",
+                "Eliminação de resíduos",
+                "Eficiência industrial",
+                "Processo de melhoria contínua",
+                "Soldadura",
+                "Planeamento",
+                "lean",
+                "soldadura",
+                "eficiência",
+                "capacidades",
+                "standards"
+            ],
+            "ciencia_id": "cv-prod-id-2559687",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology, Third Edition",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2559708",
+            "doi": "10.4018/978-1-4666-5888-2.ch264",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Ferramenta de apoio ao planeamento de produção na Bosch",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Logística empresarial",
+                "Gestão da informação",
+                "Sistemas de informação",
+                "Programas de computador"
+            ],
+            "ciencia_id": "cv-prod-id-2561405",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Ergonomia ocupacional em contexto industrial: estudo do ambiente térmico",
+            "date": "2014-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Ergonomia",
+                "Saúde ocupacional",
+                "Ambiente de trabalho - Temperatura ambiental",
+                "Conforto Térmico",
+                "Ambiente Térmico",
+                "Sensação Térmica",
+                "ITH",
+                "EsConTer"
+            ],
+            "ciencia_id": "cv-prod-id-2561406",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desmaterialização de processos com recurso a tecnologias open-source",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão de produtos",
+                "Gestão de serviços",
+                "Tecnologias da informação"
+            ],
+            "ciencia_id": "cv-prod-id-2561408",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Criação de ferramentas para o cálculo e interpretação de indicadores do Balanced Scorecard",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão estratégica",
+                "Competitividade das empresas"
+            ],
+            "ciencia_id": "cv-prod-id-2561410",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Balanceamento de linhas de montagem e aplicação de ferramentas Lean no contexto da Polisport",
+            "date": "2014-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Eliminação de resíduos",
+                "Linhas de montagem",
+                "Lean, 5’S",
+                "balanceamento",
+                "simulação"
+            ],
+            "ciencia_id": "cv-prod-id-2561411",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Análise e padronização dos processos de negócio de uma empresa recém-criada: uma abordagem com recurso ao BPMN e ferramentas Lean",
+            "date": "2018-01-01",
+            "keywords": [
+                "Gestão de Processos de Negócio",
+                "Modelação de Processos de Negócio",
+                "BPMN",
+                "Lean",
+                "Padronização de Processos",
+                "SDCA"
+            ],
+            "ciencia_id": "cv-prod-id-2561412",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Implementação de uma academia de conhecimento em contexto industrial: uma proposta metodológica",
+            "date": "2019-01-01",
+            "keywords": [
+                "Gestão de Conhecimento",
+                "Metodologia",
+                "Conhecimento Implícito",
+                "Conhecimento Explícito",
+                "Melhoria Contínua",
+                "Academia de Conhecimento"
+            ],
+            "ciencia_id": "cv-prod-id-2561415",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desmaterialização do processo de rastreabilidade usando os princípios da indústria 4.0 : um caso prático na Renault Cacia",
+            "date": "2018-01-01",
+            "keywords": [
+                "Indústria 4.0",
+                "WIP",
+                "RFID",
+                "Rastreabilidade",
+                "Digitalização Industrial",
+                "Desmaterialização",
+                "Smart Factory"
+            ],
+            "ciencia_id": "cv-prod-id-2561414",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Ergonomia industrial e conforto térmico em postos de trabalho",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Condições de trabalho",
+                "Climatização"
+            ],
+            "ciencia_id": "cv-prod-id-2561416",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Conceptualização de um módulo para a gestão da informação no sector produtivo",
+            "date": "2010-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão da produção",
+                "Sistemas de informação",
+                "Gestão da informação",
+                "Indústria metalúrgica"
+            ],
+            "ciencia_id": "cv-prod-id-2561417",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Conceptualização de um sistema de informação de apoio à gestão de projetos",
+            "date": "2014-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão organizacional",
+                "Gestão de projectos",
+                "Sistemas de informação para a gestão",
+                "Sistemas de Informação",
+                "Gestão de Projetos",
+                "Gestão de Processos",
+                "UML",
+                "Requisitos Funcionais"
+            ],
+            "ciencia_id": "cv-prod-id-2561418",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de informação na Gestamp : sistema de apoio à GRH na produção",
+            "date": "2013-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão da informação",
+                "Gestão de recursos humanos"
+            ],
+            "ciencia_id": "cv-prod-id-2561421",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação de ambiente frio e sensação térmica de trabalhadores: estudo de caso numa empresa de bacalhau",
+            "date": "2014-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Indústria alimentar",
+                "Alimentos congelados - Bacalhau",
+                "Ambiente de trabalho - Frio",
+                "Ambiente térmico frio",
+                "Sensação térmica",
+                "índice ITH",
+                "índice EsConTer",
+                "índice PPD"
+            ],
+            "ciencia_id": "cv-prod-id-2561423",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação e melhoria das condições ergonómicas de postos de trabalho num armazém : um caso prático na Bosch Security Systems",
+            "date": "2018-01-01",
+            "keywords": [
+                "Ergonomia",
+                "LMERT",
+                "MMC",
+                "Condições de trabalho",
+                "Armazém",
+                "Fatores de risco",
+                "Prevenção"
+            ],
+            "ciencia_id": "cv-prod-id-2561424",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Melhoria do fluxo de informação associado a sistema Kanban: estudo e desenvolvimento de ferramenta a integrar sistema ERP",
+            "date": "2019-01-01",
+            "keywords": [
+                "Sistemas ERP",
+                "Quebra de Abastecimento",
+                "Logística",
+                "Kanban",
+                "Mizusumashi"
+            ],
+            "ciencia_id": "cv-prod-id-2561426",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Conceptualização de um sistema de apoio ao planeamento produtivo",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão da produção",
+                "Sistemas de gestão de informação",
+                "Programas de computador: Aplicações"
+            ],
+            "ciencia_id": "cv-prod-id-2561429",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Implementação do sistema SAP R/3 no grupo Martifer: acompanhamento e estudo do seu impacto",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão da produção",
+                "Sistemas de informação",
+                "Gestão de pessoal"
+            ],
+            "ciencia_id": "cv-prod-id-2561430",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Definição do layout para gestão do armazém do produto acabado da Sakthi Portugal S.A.",
+            "date": "2014-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Gestão de stocks",
+                "Logística",
+                "Logística empresarial - Optimização",
+                "Gestão de Armazém",
+                "Armazém de Produto Acabado",
+                "Layout"
+            ],
+            "ciencia_id": "cv-prod-id-2561431",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Logística interna: rotas sincronizadas e parametrização SAP",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Logística empresarial",
+                "Sistemas de informação",
+                "Eficácia das organizações"
+            ],
+            "ciencia_id": "cv-prod-id-2561434",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Aplicação de princípios LEAN no desenvolvimento de sistemas de informação : um caso prático na indústria corticeira",
+            "date": "2015-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Minimização de resíduos",
+                "Indústria da cortiça",
+                "Gestão de sistemas de informação",
+                "Gestão de Sistemas de Informação",
+                "Processo de Desenvolvimento",
+                "Melhoria Contínua",
+                "Filosofia Lean",
+                "Cápsula"
+            ],
+            "ciencia_id": "cv-prod-id-2561436",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Criação de modelos de transmissão de informação operativa: um caso com base na gestão de conhecimento",
+            "date": "2018-01-01",
+            "keywords": [
+                "Gestão do conhecimento",
+                "Kaizen Diário",
+                "Normalização",
+                "Instrução de trabalho",
+                "Mapeamento de processos",
+                "Melhoria contínua"
+            ],
+            "ciencia_id": "cv-prod-id-2561437",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Improving information flows in the production planning process: proposal of a dashboard based on KPIs",
+            "date": "2019-01-01",
+            "keywords": [
+                "Production Planning",
+                "Process Mapping",
+                "BPMN",
+                "Information Systems",
+                "Lean",
+                "Industry 4.0"
+            ],
+            "ciencia_id": "cv-prod-id-2561439",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo de desperdícios num processo de injeção : uma abordagem prática na ECCOLET Portugal",
+            "date": "2015-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Indústria do calçado",
+                "Minimização de resíduos",
+                "Moldagem por injecção",
+                "Industria Calçado",
+                "Injeção de Solas",
+                "Controlo de Desperdícios",
+                "DMAIC",
+                "Seis-Sigma"
+            ],
+            "ciencia_id": "cv-prod-id-2561444",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Lean Manufacturing: propostas de melhoria numa unidade metalomecânica",
+            "date": "2011-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão da produção",
+                "Eficiência industrial",
+                "Indústria metalo-mecânica - Estudos de caso - Cantanhede (Portugal)"
+            ],
+            "ciencia_id": "cv-prod-id-2561445",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Turismo acessível: o papel dos intermediários: agências de viagens e operadores turísticos",
+            "date": "2019-01-01",
+            "keywords": [
+                "Turismo acessível",
+                "Incapacidade",
+                "Barreiras",
+                "Acessibilidade web",
+                "Intermediários",
+                "Agências de viagens",
+                "Operadores turísticos"
+            ],
+            "ciencia_id": "cv-prod-id-2561446",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Melhoria de processos com recurso a ferramentas Lean : um caso prático numa indústria de calçado",
+            "date": "2015-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Indústria do calçado",
+                "Ergonomia",
+                "Eliminação de resíduos",
+                "Lean",
+                "Just-in-Time",
+                "Sistema Pull",
+                "Gestão Visual"
+            ],
+            "ciencia_id": "cv-prod-id-2561447",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Contribuições para o desenvolvimento de sistemas de informação na saúde : aplicação na área da hemofilia",
+            "date": "2008-01-01",
+            "keywords": [
+                "Sistemas de gestão de informação",
+                "Tecnologia da informação",
+                "Serviços de saúde",
+                "Hematologia"
+            ],
+            "ciencia_id": "cv-prod-id-2561448",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Tecnologia móvel no processo de inspeção e controlo da qualidade: um estudo para utilização na CaetanoBus",
+            "date": "2015-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Indústria automóvel",
+                "Tecnologias da informação",
+                "Controlo de qualidade",
+                "Processo de inspeção",
+                "Tecnologias de informação",
+                "Tecnologia móvel",
+                "Mobilidade"
+            ],
+            "ciencia_id": "cv-prod-id-2561449",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Conceptualização de uma aplicação CRM para o serviço pós-venda",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão de produtos",
+                "Novos produtos",
+                "Sistemas de informação",
+                "Clientes"
+            ],
+            "ciencia_id": "cv-prod-id-2561451",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Análise e projeto de um sistema de apoio ao planeamento de encomendas",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Planeamento estratégico",
+                "Aprovisionamento",
+                "Indústria automóvel: Braga (Portugal)"
+            ],
+            "ciencia_id": "cv-prod-id-2561454",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "ICT Tools and Applications for Accessible Tourism",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2564597",
+            "doi": "10.4018/978-1-7998-6428-8.ch004",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "ICT Tools and Applications for Accessible Tourism",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2564688",
+            "doi": "10.4018/978-1-7998-6428-8.ch001",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Handbook of Research on Modern Educational Technologies, Applications, and Management",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565414",
+            "doi": "10.4018/978-1-7998-3476-2.ch028",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Handbook of Research on Modern Educational Technologies, Applications, and Management",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565429",
+            "doi": "10.4018/978-1-7998-3476-2.ch027",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Relevance of Internet as an Information Source on the Accessible Tourism Market",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565625",
+            "doi": "10.1007/978-981-33-4256-9_11",
+            "scopus_id": "2-s2.0-85097233291",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The bilateral effects between industry 4.0 and lean: Proposal of a framework based on literature review",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565627",
+            "doi": null,
+            "scopus_id": "2-s2.0-85096531664",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "BPMN and lean contributions for the iso9001 implementation: A case study within the plastics industry",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565628",
+            "doi": null,
+            "scopus_id": "2-s2.0-85096621866",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Decision support system for the industry 4.0 environment: Design and development of a business intelligence tool",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565629",
+            "doi": null,
+            "scopus_id": "2-s2.0-85096530812",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A framework to support quality data mart solutions: An approach developed based on practical cases",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565630",
+            "doi": null,
+            "scopus_id": "2-s2.0-85093853662",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "I want to go but i have to stay: Travel constraints of the portuguese accessible tourism market",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565631",
+            "doi": "10.34624/rtd.v0i34.22348",
+            "scopus_id": "2-s2.0-85099220851",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Are Portuguese travel agencies prepared to satisfy the accessible tourism market?,Estarão as agências de viagens Portuguesas preparadas para satisfazer o mercado do turismo acessível?",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565632",
+            "doi": null,
+            "scopus_id": "2-s2.0-85086270503",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Individual factors affecting attitude toward knowledge sharing: an empirical study on a higher education institution",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565633",
+            "doi": "10.1108/VJIKMS-01-2020-0015",
+            "scopus_id": "2-s2.0-85089746666",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "University-software industry collaboration: an empirical study based on knowledge management",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565634",
+            "doi": "10.1080/14778238.2020.1789002",
+            "scopus_id": "2-s2.0-85087622424",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Website accessibility of travel agents: An evaluation using web diagnostic tools",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565635",
+            "doi": "10.17411/jacces.v10i2.277",
+            "scopus_id": "2-s2.0-85097488807",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Destination Management Systems: Key Distinctive Functionalities Aimed at Visitors and Destination Suppliers",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565636",
+            "doi": "10.1080/1097198X.2020.1822138",
+            "scopus_id": "2-s2.0-85091690118",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Web Accessibility in Portuguese Museums: Potential Constraints on Interaction for People with Disabilities",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565637",
+            "doi": "10.1007/978-3-030-60149-2_29",
+            "scopus_id": "2-s2.0-85092193918",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Storytelling with data in the context of industry 4.0: A power bi-based case study on the shop floor",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565640",
+            "doi": "10.1007/978-3-030-60152-2_48",
+            "scopus_id": "2-s2.0-85092203609",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mobile applications in data acquisition for production planning and control: Analysis, implementation, and evaluation",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327256",
+            "doi": "10.4018/IJWP.2018070101",
+            "scopus_id": "2-s2.0-85049229363",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exploring the usage of MOOCs in higher education institutions: Characterization of the most used platforms",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2327257",
+            "doi": "10.4018/ijicte.2018100101",
+            "scopus_id": "2-s2.0-85052713273",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "National Patient Registry with Hemophilia and other Congenital Coagulopathies: the Portuguese system",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565664",
+            "doi": "10.1109/cisti.2015.7170480",
+            "scopus_id": "2-s2.0-84943339580",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluation of the thermal perception of the workers in an industry with cold thermal environment",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565665",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Thermal sensation study regarding thermal indexes application: a case study",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565666",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Identification of the most critical areas in an industrial inner space regarding thermal comfort: Environmental ergonomics",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565668",
+            "doi": "10.1201/b18042-39",
+            "scopus_id": "2-s2.0-85054739459",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluation of indoor thermal environment of a manufacturing industry",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144029",
+            "doi": "10.1201/b16490-98",
+            "scopus_id": "2-s2.0-84893673125",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lean information management in industrial context: An experience based on a practical case",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144035",
+            "doi": null,
+            "scopus_id": "2-s2.0-84909985754",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The students' motivation to use the wiki technology: A practical study in higher education,Motivação dos alunos para a utilização da tecnologia wiki: Um estudo prático no ensino superior",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565816",
+            "doi": "10.1590/S1517_97022013000300014",
+            "scopus_id": "2-s2.0-84885393683",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Software effort estimation with multiple linear regression: Review and practical application",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565817",
+            "doi": null,
+            "scopus_id": "2-s2.0-84884223411",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Guide lines to improve environment conditions in jobs - metalworking industry",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565819",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Improvement of surveillance of hemophilia treatment through ICTs.",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565831",
+            "doi": null,
+            "scopus_id": "2-s2.0-84880819568",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Improving the management of chronic diseases using web-based technologies: an application in hemophilia care.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565840",
+            "doi": null,
+            "scopus_id": "2-s2.0-79953136213",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using Participatory Design in a Health Information System.",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143996",
+            "doi": "10.1109/IEMBS.2011.6091321",
+            "scopus_id": "2-s2.0-84055190037",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using task analysis to improve the requirements elicitation in health information system.",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143951",
+            "doi": "10.1109/IEMBS.2007.4353127",
+            "scopus_id": "2-s2.0-57649224764",
+            "authors": []
+        },
+        {
+            "type": "Edited book",
+            "title": "ICT Tools and Applications for Accessible Tourism",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2567042",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The triangular pyramid trunk: The three axes of the smart city assessment tool",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2568800",
+            "doi": "10.2495/sdp200071",
+            "scopus_id": "2-s2.0-85102883247",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Characterization of Portuguese Haemophilia patients based on the National Registry Data",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2568880",
+            "doi": "10.1016/j.procs.2021.01.273",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Organizational knowledge in the I4.0 using BPMN: a case study",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2568912",
+            "doi": "10.1016/j.procs.2021.01.266",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Conceptual Design of an Integrated Solution for Urban Logistics using Industry 4.0 principles",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2568948",
+            "doi": "10.1016/j.procs.2021.01.330",
+            "scopus_id": null,
+            "authors": [
+                "151C-D9F8-8B86"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Reviewing the State-of-the-Art of Smart Cities in Portugal: Evidence Based on Content Analysis of a Portuguese Magazine",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779069",
+            "doi": "10.3390/publications9040049",
+            "scopus_id": "2-s2.0-85118344609",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Stories Told by Publications about the Relationship between Industry 4.0 and Lean: Systematic Literature Review and Future Research Agenda",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779070",
+            "doi": "10.3390/publications9030029",
+            "scopus_id": "2-s2.0-85110874237",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Role of Industry 4.0 and BPMN in the Arise of Condition-Based and Predictive Maintenance: A Case Study in the Automotive Industry",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779071",
+            "doi": "10.3390/app11083438",
+            "scopus_id": "2-s2.0-85104634668",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "SysSensory: A Web based Decision Support System for Sensory Analysis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779072",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Destination management systems' adoption and management model: proposal of a framework",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779073",
+            "doi": "10.1080/10919392.2020.1724765",
+            "scopus_id": "2-s2.0-85079717453",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Optical transmission modeling by means of Volterra series Ant-onio",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779074",
+            "doi": "10.1117/12.2008388",
+            "scopus_id": "2-s2.0-84880223329",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Webmaster - An Internet Information Support System for Academic Services Using ASP Technology",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2779075",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information flows improvement in production planning using lean concepts and BPMN an exploratory study in industrial context",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2866832",
+            "doi": "10.23919/CISTI.2019.8760699",
+            "scopus_id": "2-s2.0-85070093210",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Creating PRODUCTIVE workers in industrial context from the definition of thermal comfort",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565670",
+            "doi": null,
+            "scopus_id": "2-s2.0-84937701949",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Using Participatory Design in a Health Information System",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2565843",
+            "doi": "10.1109/IEMBS.2011.6091321",
+            "scopus_id": "2-s2.0-84862293238",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improving the management of chronic diseases using web-based technologies: An application in hemophilia care",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143957",
+            "doi": "10.1109/IEMBS.2010.5626026",
+            "scopus_id": "2-s2.0-78650813584",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Modelização de Aplicações Web: o contributo da UML e do OOHDM na modelização de um sistema de informação académico",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143964",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Uma Abordagem ao Processo de Desenvolvimento dos Sistemas de Informação: cuidados a ter ao longo do processo no caso dos SIs tradicionais e SIs distribuídos na Web",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143963",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Aplicações Web - O poder da UML e da OOHDM na etapa de modelização",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-144018",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Analyzing the practices of knowledge sharing and collaboration considering faculty members and researchers: an empirical study",
+            "date": "2019-01-01",
+            "keywords": [
+                "Knowledge Sharing",
+                "Collaboration Relationship",
+                "Portugal",
+                "Higher Education Institution"
+            ],
+            "ciencia_id": "cv-prod-id-2866880",
+            "doi": "10.21125/inted.2019.0996",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "O papel da gestão de processos na transformação digital: um estudo na OLI - Sistemas Sanitários, S.A.",
+            "date": "2021-01-01",
+            "keywords": [
+                "Indústria 4.0",
+                "Transformação digital",
+                "Standardização",
+                "Sistemas de informação",
+                "BPM",
+                "Lean",
+                "Design e desenvolvimento do produto"
+            ],
+            "ciencia_id": "cv-prod-id-2866946",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Investigating the use and acceptance of technologies by professors in a higher education institution",
+            "date": "2019-01-01",
+            "keywords": [
+                "Higher education",
+                "Learning Management Systems",
+                "MOOCs",
+                "Technology Acceptance Model",
+                "Web 2.0"
+            ],
+            "ciencia_id": "cv-prod-id-2866955",
+            "doi": "10.4018/ijopcd.2019040101",
+            "scopus_id": "2-s2.0-85062180723",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Ferramenta de diagnóstico de maturidade organizacional Lean: estudo e conceptualização de um sistema de informação",
+            "date": "2020-01-01",
+            "keywords": [
+                "Modelo de maturidade",
+                "Lean",
+                "Sistema de informação",
+                "Conceptualização de sistemas",
+                "BPMN 2.0",
+                "UML"
+            ],
+            "ciencia_id": "cv-prod-id-2866950",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Implementação de uma solução de planeamento e controlo de produção num sistema SAP R/3",
+            "date": "2020-01-01",
+            "keywords": [
+                "Sistemas de Gestão de Informação",
+                "Enterprise Resource Planning",
+                "SAP",
+                "ASAP",
+                "Planeamento e Controlo de Produção",
+                "Material Requirements Planning",
+                "Capacity Requirements Planning"
+            ],
+            "ciencia_id": "cv-prod-id-2866951",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Information systems in industry 4.0 : mechanisms to support the shift from data to knowledge in Lean environments",
+            "date": "2020-01-01",
+            "keywords": [
+                "Industry 4.0",
+                "Lean production",
+                "Lean manufacturing",
+                "Business process management",
+                "BPMN",
+                "Information systems",
+                "MES",
+                "Data visualization"
+            ],
+            "ciencia_id": "cv-prod-id-2565626",
+            "doi": null,
+            "scopus_id": "2-s2.0-85096605177",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de apoio à decisão com base numa ferramenta de business intelligence: uma aplicação no contexto da indústria 4.0",
+            "date": "2020-01-01",
+            "keywords": [
+                "Business intelligence",
+                "Tomada de decisão",
+                "Indústria 4.0",
+                "Power BI",
+                "Sistemas de informação"
+            ],
+            "ciencia_id": "cv-prod-id-2866952",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Heterogeneidade na Acessibilidade dos websites das Agências de Viagens: um estudo na Região Centro de Portugal",
+            "date": "2019-01-01",
+            "keywords": [
+                "Agências de Viagens",
+                "turismo acessível",
+                "pessoas com incapacidade",
+                "acessibilidade da web"
+            ],
+            "ciencia_id": "cv-prod-id-2866954",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Tourism destination management systems: contributions for their adoption and implementation",
+            "date": "2020-01-01",
+            "keywords": [
+                "Destination management systems",
+                "Adoption factors",
+                "Functionalities",
+                "Destination stakeholders",
+                "Information systems",
+                "Smart tourism destinations",
+                "Tourism"
+            ],
+            "ciencia_id": "cv-prod-id-2866957",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exploring the Usage of MOOCs in Higher Education Institutions",
+            "date": "2018-01-01",
+            "keywords": [
+                "Coursera",
+                "Higher Education",
+                "EdX",
+                "MOOCs"
+            ],
+            "ciencia_id": "cv-prod-id-2866965",
+            "doi": "10.4018/IJICTE.2018100101",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A methodological approach to dematerialization of business processes using open-source technology",
+            "date": "2018-01-01",
+            "keywords": [
+                "Dematerialization of business processes",
+                "Methodology",
+                "Open-source software",
+                "Workflow management"
+            ],
+            "ciencia_id": "cv-prod-id-2866961",
+            "doi": "10.24867/IJIEM-2018-3-121",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Risco de fadiga em ambiente térmico frio: caso de uma indústria de peixe congelado",
+            "date": "2018-01-01",
+            "keywords": [
+                "Ambiente térmico frio",
+                "Sensação térmica",
+                "ITH",
+                "Índice EsConTer",
+                "PPD"
+            ],
+            "ciencia_id": "cv-prod-id-2866964",
+            "doi": "10.14195/1647-7723_25-1_8",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistemas de informação no contexto da indústria 4.0: uma abordagem Lean aos fluxos de informação para o cálculo de indicadores",
+            "date": "2018-01-01",
+            "keywords": [
+                "Sistemas de Informação",
+                "Indústria 4.0",
+                "Princípios Lean",
+                "Fluxos de Informação",
+                "Processos"
+            ],
+            "ciencia_id": "cv-prod-id-2866962",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Students' acceptance of an educational videos platform: a study in a portuguese university",
+            "date": "2018-01-01",
+            "keywords": [
+                "Educational video",
+                "Educast",
+                "TAM",
+                "Higher Education Institutions"
+            ],
+            "ciencia_id": "cv-prod-id-2327258",
+            "doi": "10.4018/ijicte.2018010107",
+            "scopus_id": "2-s2.0-85033361837",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Optimised tool for the evaluation of the Smart City Index",
+            "date": "2018-01-01",
+            "keywords": [
+                "Smart City",
+                "IoT (Internet of Things)",
+                "Interoperability",
+                "KPIs (Key Performance Indicators)",
+                "Sustainability and Smart City Index"
+            ],
+            "ciencia_id": "cv-prod-id-2866966",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um sistema de recolha de dados para controlo do processo de fabrico e assemblagem eletrónica",
+            "date": "2017-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Aplicações móveis",
+                "Sistemas de informação",
+                "Processos de fabrico",
+                "Aplicações Móveis",
+                "Android",
+                "Registo de dados",
+                "Planeamento e Controlo da Produção",
+                "Lean Thinking",
+                "Balanceamento de linha"
+            ],
+            "ciencia_id": "cv-prod-id-2866983",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A simulação como ferramenta de apoio à decisão na reorganização de um layout fabril",
+            "date": "2017-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Produção industrial",
+                "Eliminação de resíduos",
+                "Logística empresarial",
+                "Layouts",
+                "lead time",
+                "simulação",
+                "software Arena",
+                "taxa de utilização"
+            ],
+            "ciencia_id": "cv-prod-id-2866985",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Risco de stress térmico num ambiente quente em contexto industrial",
+            "date": "2015-01-01",
+            "keywords": [
+                "EsConTer",
+                "Desconforto térmico",
+                "ITH",
+                "padrão térmico",
+                "índices térmicos"
+            ],
+            "ciencia_id": "cv-prod-id-2867227",
+            "doi": "10.14195/1647-7723_22_16",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A decision support system for the design of cellular manufacturing systems: database conceptualization",
+            "date": "2016-01-01",
+            "keywords": [
+                "Decision Support System",
+                "Cellular Manufacturing System",
+                "Database"
+            ],
+            "ciencia_id": "cv-prod-id-2867231",
+            "doi": "10.1016/j.procs.2016.09.136",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A new simplified model for evaluating thermal environment and thermal sensation: an approach to avoid occupational disorders",
+            "date": "2015-01-01",
+            "keywords": [
+                "Ergonomics",
+                "EsConTer index",
+                "Thermal comfort",
+                "Thermal indexes",
+                "Thermal sensation",
+                "Work-related disorders"
+            ],
+            "ciencia_id": "cv-prod-id-2867229",
+            "doi": "10.1016/j.ergon.2015.11.001",
+            "scopus_id": "2-s2.0-84947983288",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Improving Organizational Effectiveness with Enterprise Information Systems",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867235",
+            "doi": "10.4018/978-1-4666-8368-6.Ch002",
+            "scopus_id": "2-s2.0-84955078741",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Interface design for a sensory analysis decision support system",
+            "date": "2015-01-01",
+            "keywords": [
+                "Interface Design",
+                "Mock-ups",
+                "Sensory Analysis"
+            ],
+            "ciencia_id": "cv-prod-id-2867234",
+            "doi": null,
+            "scopus_id": "2-s2.0-84944104752",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Selecting an open-source framework: a practical case based on software development for sensory analysis",
+            "date": "2015-01-01",
+            "keywords": [
+                "Development Software",
+                "openAccess",
+                "Web Framework",
+                "Sensory Analysis"
+            ],
+            "ciencia_id": "cv-prod-id-2867238",
+            "doi": "10.1016/j.procs.2015.08.525",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Princípios Lean aplicados à gestão da informação: um caso prático no departamento de custeio da ECCO",
+            "date": "2015-01-01",
+            "keywords": [
+                "Engenharia e gestão industrial",
+                "Gestão da informação",
+                "Eliminação de resíduos",
+                "Indústria do calçado",
+                "Lean",
+                "gestão da informação",
+                "ECCO",
+                "departamento de custeio global",
+                "valor",
+                "desperdício"
+            ],
+            "ciencia_id": "cv-prod-id-2867242",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sistema de Gestão de Informação Clínica na área da Hemofilia: implementação de um protótipo vertical",
+            "date": "2013-01-01",
+            "keywords": [
+                "Sistema de Gestão de Informação Clínica; Hemofilia"
+            ],
+            "ciencia_id": "cv-prod-id-143946",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Estudo de apoio ao desenvolvimento de um sistema com base na Web para a gestão de informação clínica em hemofilia",
+            "date": "2013-01-01",
+            "keywords": [
+                "gestão da informação; tecnologias de informação; informação clínica; hemofilia; hematologia"
+            ],
+            "ciencia_id": "cv-prod-id-2867250",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Avaliação Preliminar de Usabilidade do Hemo@care: Sistema de Gestão de Informação Clínica na área da Hemofilia",
+            "date": "2013-01-01",
+            "keywords": [
+                "usabilidade; hemo@care; gestão de informação clínica; hemofilia"
+            ],
+            "ciencia_id": "cv-prod-id-2867253",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Armazém avançado em contexto hospitalar: método de reposição por níveis",
+            "date": "2012-01-01",
+            "keywords": [
+                "Gestão hospitalar",
+                "Hospitais: Vila Nova de Gaia (Portugal): Espinho (Portugal)",
+                "Gestão de stocks",
+                "Eficácia das organizações",
+                "Logística"
+            ],
+            "ciencia_id": "cv-prod-id-2867261",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A metodologia Kaizen aplicada ao processo de fabrico da empresa Oliveira & Irmão, S.A.",
+            "date": "2009-01-01",
+            "keywords": [
+                "Kaizen",
+                "Kanban",
+                "Gemba",
+                "Mizusumashi",
+                "Just in time"
+            ],
+            "ciencia_id": "cv-prod-id-2867274",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Conceptualização e desenvolvimento de um sistema de gestão de reclamações",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão da Qualidade nas Compras",
+                "Sistemas de Informação",
+                "Benchmarking",
+                "Modelação em UML, Bases de Dados, SQL.",
+                "Bases de Dados",
+                "SQL"
+            ],
+            "ciencia_id": "cv-prod-id-2867268",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Acções de melhoria contínua no âmbito de Kaizen: aplicação na logística industrial",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão industrial",
+                "Gestão de operações",
+                "Eficiência industrial",
+                "Eficácia das organizações",
+                "Planeamento logístico"
+            ],
+            "ciencia_id": "cv-prod-id-2867270",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Software development process improvement : an approach involving innovation and knowledge management",
+            "date": "2010-01-01",
+            "keywords": [
+                "Gestão do conhecimento",
+                "Gestão da informação",
+                "Gestão de operações",
+                "Inovação tecnológica",
+                "Tecnologia avançada"
+            ],
+            "ciencia_id": "cv-prod-id-2867275",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de informação académica com base na Web: um sistema de apoio a programas de pós-graduação",
+            "date": "2002-01-01",
+            "keywords": [
+                "Gestão da informação",
+                "Tecnologia da informação - Internet",
+                "Pós-graduação"
+            ],
+            "ciencia_id": "cv-prod-id-2867282",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Avaliação Preliminar de Usabilidade do Hemo@care: Sistema de Gestão de Informação Clínica na área da Hemofilia",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143947",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Estudo de apoio ao desenvolvimento de um sistema com base na Web para a gestão de informação clínica em hemofilia",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-143944",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "CITY@PATH: A COLLABORATIVE SMART CITY PLANNING AND ASSESSMENT TOOL",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867463",
+            "doi": "10.2495/TDI-V6-N1-66-80",
+            "scopus_id": "2-s2.0-85124260773",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The role of social organisations in the promotion of recreation and tourism activities for people with special needs",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867464",
+            "doi": null,
+            "scopus_id": "2-s2.0-85118128543",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Smart Supply Chain Management: The 5W1H Open and Collaborative Framework",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867465",
+            "doi": "10.1109/ICIEA52957.2021.9436817",
+            "scopus_id": "2-s2.0-85107596450",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Tourism Supply Agents' view on the Development of an Accessible Tourism Information System",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867466",
+            "doi": "10.23919/CISTI52073.2021.9476480",
+            "scopus_id": "2-s2.0-85115813791",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Implementation of a knowledge management strategy: Reflections and critical success factors",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867467",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114227824",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The hourglass model: From consumer’s behavior to delivery",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867468",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114238225",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Industry 4.0 and business process management: An exploratory study on the bilateral effects",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867469",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114251489",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Diversity of Web accessibility in tourism: Evidence based on a literature review",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867470",
+            "doi": "10.3233/TAD-210341",
+            "scopus_id": "2-s2.0-85120377599",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Last-mile-as-a-service (LMaaS): An innovative concept for the disruption of the supply chain",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867471",
+            "doi": "10.1016/j.scs.2021.103310",
+            "scopus_id": "2-s2.0-85114259342",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Website accessibility in the hospitality industry: A study in the central region of Portugal",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867472",
+            "doi": "10.1504/IJTP.2021.118666",
+            "scopus_id": "2-s2.0-85118803628",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "How diverse is hotel website accessibility? A study in the central region of Portugal using web diagnostic tools",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867473",
+            "doi": "10.1177/14673584211022797",
+            "scopus_id": "2-s2.0-85108208364",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Human Factors in Industry 4.0 and Lean Information Management: Remodeling the Instructions in a Shop Floor",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867474",
+            "doi": "10.1007/978-3-030-77750-0_16",
+            "scopus_id": "2-s2.0-85112159986",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Inclusion of Citizens in Smart Cities Policymaking: The Potential Role of Development Studies Participatory Methodologies",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867475",
+            "doi": "10.1007/978-3-030-77015-0_3",
+            "scopus_id": "2-s2.0-85112218379",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Multidisciplinary User-Centered Approach to Designing an Information Platform for Accessible Tourism: Understanding User Needs and Motivations",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867476",
+            "doi": "10.1007/978-3-030-78092-0_9",
+            "scopus_id": "2-s2.0-85112160466",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Role of Higher Education Institutions in the Accessible Tourism Ecosystem: Requirements for the Conceptualization of an Information System",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867477",
+            "doi": "10.1007/978-3-030-72660-7_15",
+            "scopus_id": "2-s2.0-85107340000",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A study about web accessibility in portuguese museums: How to overcome the main difficulties",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867478",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114305010",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Shop floor data in industry 4.0: Study and design of a manufacturing execution system",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867479",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114374717",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sistema de Apoio à Decisão com base numa ferramenta de BI: Uma aplicação no contexto da I4.0",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2867480",
+            "doi": null,
+            "scopus_id": "2-s2.0-85114381495",
+            "authors": []
+        },
+        {
+            "type": "Edited book",
+            "title": "SSAT 2021: abstracts of the International Conference on Smart, Sustainable, Social, and Accessible Tourism. ",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2874161",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The relevance of destination management systems¿ functionalities: a model based on stakeholders view",
+            "date": "2022-02-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2874176",
+            "doi": "10.1080/10919392.2022.2036568",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+[None       ] [cv-prod-id-1982044  ] [None                          ] [   CV] [Conference Paper     ] [ 2  0      ] [2000-01-01] A Parallel 3D Digital Waveguide Mesh Model with Tetrahedral Topology for Room Acoustic Simulation
+[None       ] [cv-prod-id-1982187  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2000-09-07] Acoustic Reconstruction of Music Performance Spaces using Three-Dimensional Digital Waveguide Mesh Models
+[None       ] [cv-prod-id-1982385  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2001-02-24] Acoustic Reconstruction of Ancient Structures Using Three-Dimensional Digital Waveguide Mesh Models
+[None       ] [cv-prod-id-1982414  ] [10.4271/2006-01-0481          ] [   CV] [Conference Paper     ] [ 0  0      ] [2001-06-21] Surround Sound Reverberation Using Digital Waveguide Mesh Modelling Techniques
+[None       ] [cv-prod-id-1279643  ] [10.1117/12.766607             ] [   CV] [Article              ] [ 0  0      ] [2008-01-01] 3D reconstruction and Auralisation of the "painted dolmen" of antelas
+[None       ] [cv-prod-id-1984046  ] [None                          ] [   CV] [Conference Paper     ] [ 7  0      ] [2008-12-12] Caracterização objectiva e subjectiva de campos sonoros [Objective and subjective soundfield characterisation]
+[None       ] [cv-prod-id-1983576  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2008-12-12] Fortius – um robot de captação de som [Fortius – a sound-recording robot]
+[None       ] [cv-prod-id-1984101  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2010-10-08] Aplicação para medição da resposta impulsional de microfones [Application for measuring microphone impulse responses]
+[None       ] [cv-prod-id-1984073  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2010-10-08] Simulation of moving sound sources based on HRTF filters
+[None       ] [cv-prod-id-1984142  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2011-09-08] Análise paralela de imagem endoscópica com recurso a GPU [GPU-based parallel endoscopic image data analysis]
+[None       ] [cv-prod-id-2972087  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] On the Improvement of Localization Accuracy with Non-individualized HRTF-Based Sounds
+[None       ] [cv-prod-id-1983467  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2012-10-26] Exploring EMD for Lung Crackle Detection
+[None       ] [cv-prod-id-1279633  ] [10.1121/1.4800186             ] [   CV] [Article              ] [ 0  0      ] [2013-01-01] Reflection orders and auditory distance
+[None       ] [cv-prod-id-1983394  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-05-07] Aplicação de Auralização em Tempo Real [Real-time Auralisation Application]
+[None       ] [cv-prod-id-1983356  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-05-07] Auscultadores Virtuais [Virtual Headphones]
+[None       ] [cv-prod-id-1983435  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-05-07] Real-Time Audio Augmented Reality System for Pervasive Applications
+[None       ] [cv-prod-id-1982439  ] [None                          ] [   CV] [Conference Paper     ] [ 3  0      ] [2013-09-02] Real-Time Dynamic Image-Source Implementation for Auralisation
+[None       ] [cv-prod-id-1983181  ] [None                          ] [   CV] [Conference Paper     ] [ 2  0      ] [2014-03-11] Crowdsourcing information system for camellia cultivar identification
+[None       ] [cv-prod-id-1983026  ] [None                          ] [   CV] [Conference Paper     ] [ 7  0      ] [2014-10-29] AcousticAVE: Auralisation Models and Applications in Virtual Reality Environments
+[None       ] [cv-prod-id-1983112  ] [None                          ] [   CV] [Conference Paper     ] [ 6  0      ] [2018-09-04] Immersive Audio-guiding
+[27644450855] [cv-prod-id-1279644  ] [10.1109/TSA.2005.852015       ] [SC CV] [Article              ] [ 4  4 Ab   ] [2005-09-01] On the computational efficiency of different waveguide mesh topologies for room acoustic simulation
+[47949110073] [None                ] [10.1117/12.766607             ] [SC   ] [Conference Paper     ] [29  5 Ab   ] [2008-07-30] 3D reconstruction and Auralisation of the "painted dolmen" of antelas
+[80055019718] [cv-prod-id-1279638  ] [10.1109/SAAHPC.2011.21        ] [SC CV] [Conference Paper     ] [ 9  1 Ab   ] [2011-11-01] Design and simulation of a rectangular meshotron unit prototype
+[84861982798] [cv-prod-id-1279636  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2012-06-13] Respiratory sound annotation software
+[84866015236] [cv-prod-id-1279640  ] [None                          ] [SC CV] [Conference Paper     ] [11  2 Ab   ] [2010-12-01] The Meshotron: A network of specialised hardware units for 3D Digital Waveguide Mesh acoustic model parallelisation
+[84866018700] [cv-prod-id-1279639  ] [None                          ] [SC CV] [Conference Paper     ] [15  2 Ab   ] [2010-12-01] Finite difference room acoustic modelling on a general purpose graphics processing unit
+[84866042620] [cv-prod-id-1279641  ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2010-12-01] On the improvement of auditory accuracy with non-individualized HRTF-based sounds
+[84866050185] [cv-prod-id-1279642  ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2009-12-01] TheremUS: The ultrasonic Theremin
+[84870349596] [cv-prod-id-1279637  ] [None                          ] [SC CV] [Article              ] [ 8  2 Ab   ] [2012-10-01] On the improvement of localization accuracy with non-individualized HRTF-based sounds
+[84872691863] [cv-prod-id-1279634  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2012-12-01] Real-time auralisation system for virtual microphone positioning
+[84877967933] [cv-prod-id-1279631  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-05-27] Automatic wheeze and respiratory phase detectors to evaluate respiratory physiotherapy in LRTI: A preliminary study
+[84877993916] [cv-prod-id-1279630  ] [None                          ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2013-05-27] Multi-algorithm respiratory crackle detection
+[84878989549] [None                ] [10.1121/1.4800186             ] [SC   ] [Conference Paper     ] [ 6  1 Ab   ] [2013-06-19] Reflection orders and auditory distance
+[84883364337] [cv-prod-id-1279635  ] [None                          ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2012-12-01] On the adaptation to non-individualised HRTF auralisations: A longitudinal study
+[84886047011] [cv-prod-id-1279632  ] [10.1371/journal.pone.0077900  ] [SC CV] [Article              ] [ 9  1 Ab   ] [2013-10-22] Learning Auditory Space: Generalization and Long-Term Effects
+[84889263662] [cv-prod-id-1279645  ] [10.1109/EURMIC.2000.874498    ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2000-12-01] On the computation time of three-dimensional digital waveguide mesh acoustic models
+[84901780958] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2013-01-01] Real-time dynamic image-source implementation for auralisation
+[84938822338] [cv-prod-id-1279629  ] [10.5220/0005293406540658      ] [SC CV] [Conference Paper     ] [ 5  5 Ab   ] [2015-01-01] On the validation of computerised lung auscultation
+[85064705139] [cv-prod-id-1982124  ] [10.5220/0007571404500455      ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2019-01-01] Making clinical simulation mannequins talk
+[85081155527] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2018-01-01] Immersive audio-guiding

@@ -1,0 +1,218 @@
+[None       ] [cv-prod-id-701481   ] [10.1007/bfb0055229            ] [   CV] [Book Chapter         ] [ 0  0      ] [1998-01-01] Field-Programmable Logic and Applications From FPGAs to Computing Paradigm
+[None       ] [cv-prod-id-701475   ] [10.1007/3-540-44568-4_11      ] [   CV] [Book Chapter         ] [ 0  0      ] [2001-01-01] Balancing Reactivity and Social Deliberation in Multi-Agent Systems
+[None       ] [cv-prod-id-701476   ] [10.1007/3-540-45324-5_2       ] [   CV] [Book Chapter         ] [ 0  0      ] [2001-01-01] RoboCup 2000: Robot Soccer World Cup IV
+[None       ] [cv-prod-id-701472   ] [10.1007/3-540-45603-1_19      ] [   CV] [Book Chapter         ] [ 0  0      ] [2002-01-01] RoboCup 2001: Robot Soccer World Cup V
+[None       ] [cv-prod-id-701473   ] [10.1007/3-540-45603-1_72      ] [   CV] [Book Chapter         ] [ 0  0      ] [2002-01-01] RoboCup 2001: Robot Soccer World Cup V
+[None       ] [cv-prod-id-701458   ] [10.1007/978-3-540-77002-2_46  ] [   CV] [Book Chapter         ] [ 0  0      ] [2007-01-01] Progress in Artificial Intelligence
+[0027851606 ] [cv-prod-id-701485   ] [None                          ] [SC CV] [Conference Paper     ] [ 2  4 Ab   ] [1993-12-01] Pattern recognition in raw of electrical impedance tomography using neural networks
+[0030382659 ] [cv-prod-id-701484   ] [None                          ] [SC CV] [Article              ] [ 3  2 Ab   ] [1996-12-01] Feature detection using electromagnetic tomography and neural networks
+[0030721073 ] [cv-prod-id-701483   ] [None                          ] [SC CV] [Conference Paper     ] [ 2  3 Ab   ] [1997-01-01] Quantifying the objective quality of voxel based data visualizations produced by a ray caster: A proposal
+[0033488533 ] [cv-prod-id-701478   ] [None                          ] [SC CV] [Conference Paper     ] [ 3  2 Ab   ] [1999-12-01] Development system for FPGA-based digital circuits
+[0034498071 ] [cv-prod-id-701477   ] [10.1109/ICSMC.2000.884354     ] [SC CV] [Article              ] [ 3  2 Ab   ] [2000-01-01] Intelligent control and decision-making demonstrated on a simple compass-guided robot
+[0035280047 ] [cv-prod-id-701474   ] [None                          ] [SC CV] [Article              ] [ 2  1 Ab   ] [2001-03-01] RoboCup-2000: The Fourth Robotic Soccer World Championships
+[33744790599] [cv-prod-id-701471   ] [10.1007/11595014_42           ] [   CV] [Book Chapter         ] [ 0  0      ] [2005-01-01] Progress in Artificial Intelligence
+[33744790599] [None                ] [10.1007/11595014_42           ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2005-12-01] Applying biological paradigms to emerge behaviour in RoboCup Rescue team
+[33744803169] [cv-prod-id-701462   ] [10.1007/11595014_39           ] [   CV] [Book Chapter         ] [ 0  0      ] [2005-01-01] Progress in Artificial Intelligence
+[33744803169] [None                ] [10.1007/11595014_39           ] [SC   ] [Editorial            ] [ 0  2      ] [2005-12-01] Lecture Notes in Artificial Intelligence: Introduction
+[34548860908] [cv-prod-id-701457   ] [10.1007/978-0-387-73798-0_28  ] [   CV] [Book Chapter         ] [ 0  0      ] [2007-01-01] Establishing the Foundation of Collaborative Networks
+[34548860908] [None                ] [10.1007/978-0-387-73798-0_28  ] [SC   ] [Article              ] [ 8  1 Ab   ] [2007-09-26] A generic strategic layer for collaborative networks
+[38349064849] [None                ] [10.1007/978-3-540-77002-2_46  ] [SC   ] [Conference Paper     ] [ 2  2 Ab   ] [2007-01-01] Understanding dynamic agent's reasoning
+[50249091617] [cv-prod-id-701453   ] [10.1007/978-3-540-68847-1_43  ] [   CV] [Book Chapter         ] [ 0  0      ] [2008-01-01] RoboCup 2007: Robot Soccer World Cup XI
+[50249091617] [None                ] [10.1007/978-3-540-68847-1_43  ] [SC   ] [Conference Paper     ] [18  2 Ab   ] [2008-09-01] Obtaining the inverse distance map from a non-SVP hyperbolic catadioptric robotic vision system
+[68749098693] [cv-prod-id-701452   ] [10.1007/978-3-642-02478-8_101 ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Bio-Inspired Systems: Computational and Ambient Intelligence
+[68749098693] [None                ] [10.1007/978-3-642-02478-8_101 ] [SC   ] [Conference Paper     ] [17  2 Ab   ] [2009-08-20] Automatic generation of biped walk behavior using genetic algorithms
+[71049141838] [cv-prod-id-701448   ] [10.1007/978-3-642-04686-5_29  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049141838] [None                ] [10.1007/978-3-642-04686-5_29  ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2009-11-16] Obstacle detection, identification and sharing on a robotic soccer team
+[71049152967] [cv-prod-id-701451   ] [10.1007/978-3-642-04686-5_23  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049152967] [None                ] [10.1007/978-3-642-04686-5_23  ] [SC   ] [Conference Paper     ] [17  2 Ab   ] [2009-11-16] Predictive control for behavior generation of omni-directional robots
+[71049158832] [cv-prod-id-701449   ] [10.1007/978-3-642-04686-5_25  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049158832] [None                ] [10.1007/978-3-642-04686-5_25  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2009-11-16] Control and monitoring of a robotic soccer team: The base station application
+[71049186908] [cv-prod-id-701450   ] [10.1007/978-3-642-04686-5_27  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049186908] [None                ] [10.1007/978-3-642-04686-5_27  ] [SC   ] [Conference Paper     ] [12  2 Ab   ] [2009-11-16] Roles, positionings and set plays to coordinate a RoboCup MSL team
+[76249133341] [cv-prod-id-701446   ] [10.1109/IROS.2009.5354286     ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2009-12-11] Multi-robot team coordination through roles, positionings and coordinated procedures
+[77950996272] [cv-prod-id-701445   ] [10.1007/978-3-642-11876-0_32  ] [   CV] [Book Chapter         ] [ 0  0      ] [2010-01-01] RoboCup 2009: Robot Soccer World Cup XIII
+[77950996272] [None                ] [10.1007/978-3-642-11876-0_32  ] [SC   ] [Conference Paper     ] [15  2 Ab   ] [2010-04-22] Sensor and information fusion applied to a robotic soccer team
+[77955694214] [cv-prod-id-701443   ] [10.1109/RAMECH.2010.5513166   ] [SC CV] [Conference Paper     ] [12  3 Ab   ] [2010-08-23] Co-ordination in RoboCup's 2D simulation league: Setplays as flexible, multi-robot plans
+[77956086164] [cv-prod-id-701442   ] [10.1109/ICCIS.2010.5518540    ] [SC CV] [Conference Paper     ] [ 5  4 Ab   ] [2010-09-02] Machine Learning algorithms applied to the classification of robotic soccer formations and opponent teams
+[77957825970] [cv-prod-id-701441   ] [None                          ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2010-10-18] Playmaker: Graphical definition of formations and setplays
+[79952617090] [cv-prod-id-701435   ] [10.1016/j.mechatronics.2010.05.011] [SC CV] [Article              ] [ 8  3 Ab FT] [2011-01-01] World modeling on an MSL robotic soccer team
+[79952629233] [cv-prod-id-701437   ] [10.1016/j.mechatronics.2010.05.005] [SC CV] [Article              ] [ 8  4 Ab FT] [2011-01-01] Multi-robot coordination using Setplays in the middle-size and simulation leagues
+[79952629487] [cv-prod-id-701436   ] [10.1016/j.mechatronics.2010.05.010] [SC CV] [Article              ] [ 8  3 Ab FT] [2011-01-01] Robot team coordination using dynamic role and positioning assignment and role based setplays
+[79953253829] [cv-prod-id-701439   ] [10.1007/978-3-642-20217-9_28  ] [   CV] [Book Chapter         ] [ 0  0      ] [2011-01-01] RoboCup 2010: Robot Soccer World Cup XIV
+[79953253829] [None                ] [10.1007/978-3-642-20217-9_28  ] [SC   ] [Conference Paper     ] [12  2 Ab   ] [2011-04-05] Biped walking using coronal and sagittal movements based on truncated Fourier series
+[79960496492] [cv-prod-id-701434   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2011-07-25] A mobile robotic platform for elderly care
+[80051506774] [cv-prod-id-701460   ] [10.3182/20061002-2-br-4906.00020] [SC CV] [Conference Paper     ] [ 8  1 Ab FT] [2006-01-01] Multi-agent debugging and monitoring framework
+[80051542000] [cv-prod-id-701459   ] [None                          ] [SC CV] [Conference Paper     ] [12  1 Ab   ] [2006-12-01] FC Portugal: Development and evaluation of a new RoboCup rescue team
+[80054807105] [cv-prod-id-701438   ] [10.1007/978-3-642-24769-9_26  ] [   CV] [Book Chapter         ] [ 0  0      ] [2011-01-01] Progress in Artificial Intelligence
+[80054807105] [None                ] [10.1007/978-3-642-24769-9_26  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2011-10-26] Humanoid behaviors: From simulation to a real robot
+[80054820620] [cv-prod-id-701440   ] [10.1007/978-3-642-24769-9_25  ] [   CV] [Book Chapter         ] [ 0  0      ] [2011-01-01] Progress in Artificial Intelligence
+[80054820620] [None                ] [10.1007/978-3-642-24769-9_25  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2011-10-26] A reinforcement learning based method for optimizing the process of decision making in fire brigade agents
+[84857012751] [cv-prod-id-701426   ] [10.1117/12.911206             ] [SC CV] [Conference Paper     ] [29  5 Ab   ] [2012-02-16] A modular real-time vision module for humanoid robots
+[84857581691] [cv-prod-id-701456   ] [10.7148/2007-0181             ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2007-01-01] Bilayer agent-based model of social behavior: How temperament influence on team performance
+[84860567683] [cv-prod-id-701455   ] [None                          ] [SC CV] [Conference Paper     ] [17  1 Ab   ] [2007-12-01] A computational study on emotions and temperament in multi-agent systems
+[84861984252] [cv-prod-id-701430   ] [None                          ] [SC CV] [Conference Paper     ] [11  1 Ab   ] [2012-06-13] From an autonomous soccer robot to a robotic platform for elderly care
+[84862126300] [cv-prod-id-701427   ] [None                          ] [SC CV] [Conference Paper     ] [ 9  1 Ab   ] [2012-06-15] A methodology for creating intelligent wheelchair users' profiles
+[84864834168] [None                ] [10.1007/3-540-44568-4_11      ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2001-01-01] Situation based strategic positioning for coordinating a team of homogeneous agents
+[84865712605] [cv-prod-id-701432   ] [10.1007/978-3-642-32060-6_10  ] [   CV] [Book Chapter         ] [ 0  0      ] [2012-01-01] RoboCup 2011: Robot Soccer World Cup XV
+[84865712605] [None                ] [10.1007/978-3-642-32060-6_10  ] [SC   ] [Article              ] [ 7  2 Ab   ] [2012-09-10] Ball interception behaviour in robotic soccer
+[84867442577] [None                ] [10.1007/3-540-45603-1_72      ] [SC   ] [Conference Paper     ] [ 3  2 Ab   ] [2002-01-01] FC Portugal 2001 team description: Flexible teamwork and configurable strategy
+[84867449009] [None                ] [10.1007/3-540-45603-1_19      ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2002-01-01] COACH UNILANG - A standard language for coaching a (Robo)Soccer team
+[84867482860] [None                ] [10.1007/3-540-45324-5_2       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2001-01-01] FC Portugal team description: RoboCup 2000 Simulation League Champion
+[84869050542] [cv-prod-id-701447   ] [None                          ] [SC CV] [Conference Paper     ] [ 6  1 Ab   ] [2009-01-01] Classification of facial expressions using data mining and machine learning algorithms
+[84872282785] [cv-prod-id-701429   ] [10.1109/IROS.2012.6386091     ] [SC CV] [Conference Paper     ] [ 2  4 Ab   ] [2012-12-01] Automatic extraction of goal-scoring behaviors from soccer matches
+[84873108734] [cv-prod-id-701428   ] [10.1109/ICDMW.2012.89         ] [SC CV] [Conference Paper     ] [15  1 Ab   ] [2012-12-01] Cerebral Palsy EEG signals classification: Facial expressions and thoughts for driving an intelligent wheelchair
+[84876308527] [cv-prod-id-701418   ] [10.1007/s00500-012-0952-z     ] [SC CV] [Article              ] [ 8  3 Ab   ] [2013-05-01] An automatic approach to extract goal plans from soccer simulated matches
+[84877932442] [cv-prod-id-701417   ] [10.1080/10400435.2012.723297  ] [SC CV] [Article              ] [ 7  2 Ab   ] [2013-04-03] Evaluation of distinct input methods of an intelligent wheelchair in simulated and real environments: A performance and usability study
+[84882278672] [cv-prod-id-701425   ] [10.1007/978-3-642-36907-0_1   ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Communications in Computer and Information Science
+[84882278672] [None                ] [10.1007/978-3-642-36907-0_1   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Coordination in Multi-robot systems: Applications in robotic soccer
+[84882280731] [cv-prod-id-701420   ] [10.1007/978-3-642-36907-0_18  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Communications in Computer and Information Science
+[84882280731] [None                ] [10.1007/978-3-642-36907-0_18  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Patient classification and automatic configuration of an intelligent wheelchair
+[84883444187] [cv-prod-id-701424   ] [10.1007/978-3-642-39250-4_22  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] RoboCup 2012: Robot Soccer World Cup XVI
+[84883444187] [None                ] [10.1007/978-3-642-39250-4_22  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-09-09] A distributed cooperative reinforcement learning method for decision making in fire brigade teams
+[84884705454] [cv-prod-id-701423   ] [10.1007/978-3-642-40669-0_21  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Progress in Artificial Intelligence
+[84884705454] [None                ] [10.1007/978-3-642-40669-0_21  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-10-03] Aerial ball perception based on the use of a single perspective camera
+[84884710347] [cv-prod-id-701422   ] [10.1007/978-3-642-40669-0_25  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Progress in Artificial Intelligence
+[84884710347] [None                ] [10.1007/978-3-642-40669-0_25  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-10-03] Omnidirectional walking and active balance for soccer humanoid robot
+[84884714624] [cv-prod-id-701419   ] [10.1007/978-3-642-40669-0_24  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Progress in Artificial Intelligence
+[84884714624] [None                ] [10.1007/978-3-642-40669-0_24  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-10-03] Intelligent wheelchair manual control methods: A usability study by cerebral palsy patients
+[84884726130] [cv-prod-id-701421   ] [10.1007/978-3-642-40669-0_26  ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Progress in Artificial Intelligence
+[84884726130] [None                ] [10.1007/978-3-642-40669-0_26  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2013-10-03] Online SLAM based on a fast scan-matching algorithm
+[84884747113] [cv-prod-id-701444   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2010-12-01] A survey on coordination methodologies for simulated robotic soccer teams
+[84884755342] [cv-prod-id-701461   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2006-12-01] Implementation of emotional behaviours in multi-agent system using fuzzy logic and temperamental decision mechanism
+[84887902079] [cv-prod-id-701433   ] [10.1007/978-3-642-34654-5_50  ] [   CV] [Book Chapter         ] [ 0  0      ] [2012-01-01] Advances in Artificial Intelligence – IBERAMIA 2012
+[84887902079] [None                ] [10.1007/978-3-642-34654-5_50  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2012-01-01] Optimization approach for the development of humanoid robots' behaviors
+[84887911606] [cv-prod-id-701431   ] [10.1007/978-3-642-34654-5_58  ] [   CV] [Book Chapter         ] [ 0  0      ] [2012-01-01] Advances in Artificial Intelligence – IBERAMIA 2012
+[84887911606] [None                ] [10.1007/978-3-642-34654-5_58  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2012-01-01] Development of an omnidirectional kick for a NAO humanoid robot
+[84887925852] [cv-prod-id-701414   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-11-25] Intelligent wheelchair simulator for users' training: Cerebral palsy children's case study
+[84890873703] [cv-prod-id-701413   ] [10.1109/Robotica.2013.6623523 ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Manual, automatic and shared methods for controlling an intelligent wheelchair: Adaptation to cerebral palsy users
+[84890881965] [cv-prod-id-701415   ] [10.1109/Robotica.2013.6623534 ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Diagonal walk reference generator based on Fourier approximation of ZMP trajectory
+[84890888048] [cv-prod-id-701416   ] [10.1109/Robotica.2013.6623532 ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Cooperative robotics: Passes in robotic soccer
+[84898614412] [None                ] [10.1007/978-3-319-05948-8_32  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] Intelligent wheelchair driving: A comparative study of cerebral palsy adults with distinct boccia experience
+[84898614412] [cv-prod-id-701411   ] [10.1007/978-3-319-05948-8_32  ] [   CV] [Book Chapter         ] [ 0  0      ] [2014-01-01] New Perspectives in Information Systems and Technologies, Volume 2
+[84899947099] [cv-prod-id-701407   ] [10.1007/s11277-014-1687-1     ] [   CV] [Article              ] [ 0  0      ] [2014-01-01] CloudThinking as an intelligent infrastructure for mobile robotics
+[84899947099] [None                ] [10.1007/s11277-014-1687-1     ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] CloudThinking as an intelligent infrastructure for mobile robotics
+[84904638428] [None                ] [10.1007/978-3-319-05951-8_52  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] A survey on intelligent wheelchair prototypes and simulators
+[84904638428] [cv-prod-id-701410   ] [10.1007/978-3-319-05951-8_52  ] [   CV] [Book Chapter         ] [ 0  0      ] [2014-01-01] New Perspectives in Information Systems and Technologies, Volume 1
+[84904994216] [cv-prod-id-701403   ] [10.1109/ICARSC.2014.6849749   ] [   CV] [Conference Paper     ] [ 0  0      ] [2014-01-01] Welcome message
+[84904994216] [None                ] [10.1109/ICARSC.2014.6849749   ] [SC   ] [Editorial            ] [ 0  2      ] [2014-01-01] Welcome message
+[84905014211] [cv-prod-id-701405   ] [10.1109/ICARSC.2014.6849779   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] User modeling and command language adapted for driving an intelligent wheelchair
+[84905014293] [cv-prod-id-701404   ] [10.1109/ICARSC.2014.6849783   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] Learning a fast walk based on ZMP control and hip height movement
+[84905017754] [cv-prod-id-701406   ] [10.1109/ICARSC.2014.6849775   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] Learning robotic soccer controllers with the Q-Batch update-rule
+[84907366060] [None                ] [10.1007/978-3-319-10380-8_59  ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2015-01-01] 3D map and DGPS validation for a vineyard autonomous navigation system
+[84907366060] [cv-prod-id-701402   ] [10.1007/978-3-319-10380-8_59  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] CONTROLO’2014 – Proceedings of the 11th Portuguese Conference on Automatic Control
+[84914155590] [cv-prod-id-701409   ] [10.1016/j.datak.2014.10.001   ] [SC CV] [Article              ] [ 8  1 Ab FT] [2014-11-01] Strategy planner: Graphical definition of soccer set-plays
+[84921068425] [cv-prod-id-701408   ] [10.1007/s10846-013-0010-9     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2015-02-01] Adapted Control Methods for Cerebral Palsy Users of an Intelligent Wheelchair
+[84921326259] [cv-prod-id-701412   ] [10.1007/978-3-319-12027-0_39  ] [   CV] [Book Chapter         ] [ 0  0      ] [2014-01-01] Advances in Artificial Intelligence -- IBERAMIA 2014
+[84921326259] [None                ] [10.1007/978-3-319-12027-0_39  ] [SC   ] [Article              ] [ 8  2 Ab   ] [2014-01-01] Omnidirectional walking with a compliant inverted pendulum model
+[84921957503] [cv-prod-id-701401   ] [10.1007/978-3-319-10891-9_1   ] [   CV] [Book Chapter         ] [ 0  0      ] [2014-01-01] Informatics in Control, Automation and Robotics
+[84921957503] [None                ] [10.1007/978-3-319-10891-9_1   ] [SC   ] [Article              ] [ 8  1 Ab   ] [2015-01-01] Invited paper: Multimodal interface for an intelligent wheelchair
+[84923785935] [cv-prod-id-701386   ] [10.1109/SBR.LARS.Robocontrol.2014.47] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2015-01-01] Using reinforcement learning techniques to select the best action in setplays with multiple possibilities in robocup soccer simulation teams
+[84930989248] [cv-prod-id-701381   ] [10.1007/978-3-319-18615-3-58  ] [   CV] [Conference Paper     ] [ 0  0      ] [2015-01-01] Collaborative behavior in soccer: The setplay free software framework
+[84933039217] [cv-prod-id-701390   ] [10.1109/ICARSC.2015.43        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2015-05-04] Contextual policy search for generalizing a parameterized biped walking controller
+[84933049323] [cv-prod-id-701388   ] [10.1109/ICARSC.2015.16        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2015-05-04] Vineyard skeletonization for autonomous robot navigation
+[84941315492] [cv-prod-id-701394   ] [10.1016/j.matdes.2015.05.037  ] [SC CV] [Article              ] [ 8  3 Ab FT] [2015-10-05] Computer vision and robotic manipulation for automated feeding of cork drillers
+[84945454328] [cv-prod-id-701393   ] [10.1007/s10846-015-0191-5     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2015-02-01] Learning to Walk Fast: Optimized Hip Height Movement for Simulated and Real Humanoid Robots
+[84945484531] [cv-prod-id-701392   ] [10.1007/s10846-014-0171-1     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2015-01-09] Batch Reinforcement Learning for Robotic Soccer Using the Q-Batch Update-Rule
+[84945489233] [cv-prod-id-701396   ] [10.1007/s10846-015-0194-2     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2015-02-03] A Methodology for Creating an Adapted Command Language for Driving an Intelligent Wheelchair
+[84945901177] [None                ] [10.1007/978-3-319-23485-4_44  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2015-01-01] Intelligent wheelchair driving: Bridging the gap between virtual and real intelligent wheelchairs
+[84945901177] [cv-prod-id-701399   ] [10.1007/978-3-319-23485-4_44  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Progress in Artificial Intelligence
+[84945908825] [None                ] [10.1007/978-3-319-23485-4_45  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2015-01-01] A skill-based architecture for pick and place manipulation tasks
+[84945908825] [cv-prod-id-701400   ] [10.1007/978-3-319-23485-4_45  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Progress in Artificial Intelligence
+[84945909472] [None                ] [10.1007/978-3-319-23485-4_43  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2015-01-01] A new approach for dynamic strategic positioning in RoboCup middle-size league
+[84945909472] [cv-prod-id-701398   ] [10.1007/978-3-319-23485-4_43  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Progress in Artificial Intelligence
+[84946481619] [cv-prod-id-701395   ] [10.1007/s10846-015-0258-3     ] [   CV] [Article              ] [ 0  0      ] [2015-01-01] Special Issue Robótica 2014
+[84946481619] [None                ] [10.1007/s10846-015-0258-3     ] [SC   ] [Editorial            ] [ 0  6      ] [2015-09-16] Special Issue Robótica 2014
+[84951737615] [cv-prod-id-701379   ] [10.1007/978-3-319-27146-0_27  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Robot 2015: Second Iberian Robotics Conference
+[84951737615] [None                ] [10.1007/978-3-319-27146-0_27  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2016-01-01] A path planning application for a mountain vineyard autonomous robot
+[84952361953] [cv-prod-id-701378   ] [10.1007/978-3-319-27149-1_30  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Robot 2015: Second Iberian Robotics Conference
+[84952361953] [None                ] [10.1007/978-3-319-27149-1_30  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2016-01-01] A coordinated team of agents to solve mazes
+[84955480270] [cv-prod-id-701385   ] [10.1145/2695664.2695862       ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2015-04-13] Improving the kicking accuracy in a soccer robot
+[84956853863] [None                ] [10.1007/bfb0055229            ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [1998-01-01] Integrated development environment for logic synthesis based on dynamically reconfigurable FPGAs
+[84956868990] [cv-prod-id-701479   ] [10.1109/SBCCI.1998.715408     ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [1998-01-01] Synthesis tools and design environment for dynamically reconfigurable FPGAs
+[84958255106] [cv-prod-id-701377   ] [10.1007/s10846-016-0347-y     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2016-09-01] Contextual Policy Search for Linear and Nonlinear Generalization of a Humanoid Walking Controller
+[84958523044] [None                ] [10.1007/978-3-319-18615-3_58  ] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2015-01-01] Collaborative behavior in soccer: The setplay free software framework
+[84958524045] [cv-prod-id-701389   ] [10.1007/978-3-319-18615-3_49  ] [SC CV] [Conference Paper     ] [ 0  2 Ab   ] [2015-01-01] On the progress of soccer simulation leagues
+[84958549728] [cv-prod-id-701387   ] [10.1007/978-3-319-18615-3_48  ] [SC CV] [Conference Paper     ] [ 0  2 Ab   ] [2015-01-01] Generalized learning to create an energy efficient ZMP-based walking
+[84962214441] [cv-prod-id-701383   ] [10.1109/HUMANOIDS.2015.7363529] [SC CV] [Conference Paper     ] [ 8  5 Ab   ] [2015-12-22] Regularized covariance estimation for weighted maximum likelihood policy search methods
+[84965143108] [cv-prod-id-701382   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2015-01-01] Model-based relative entropy Stochastic search
+[84969219582] [cv-prod-id-701454   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2007-01-01] FC Portugal: Search and rescue in urban catastrophes
+[84986257322] [cv-prod-id-701374   ] [10.1145/2908961.2909012       ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-07-20] Contextual stochastic search
+[84986320301] [None                ] [10.1145/2908961.2930952       ] [SC   ] [Conference Paper     ] [ 0  3      ] [2016-07-20] Model-based relative entropy stochastic search
+[85002202482] [cv-prod-id-701397   ] [10.5772/61314                 ] [SC CV] [Article              ] [ 8  3 Ab   ] [2015-12-29] Development of an Omnidirectional Walk Engine for Soccer Humanoid Robots
+[85006489401] [cv-prod-id-701372   ] [10.1109/IROS.2016.7759411     ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2016-11-28] Non-parametric contextual stochastic search
+[85010289552] [cv-prod-id-701376   ] [10.1109/ICARSC.2016.31        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-12-12] Contextual Relative Entropy Policy Search with Covariance Matrix Adaptation
+[85010447569] [cv-prod-id-701375   ] [10.1109/ICARSC.2016.43        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-12-12] How to Select a Suitable Action against Strong Pushes in Adult-Size Humanoid Robot: Learning from Past Experiences
+[85010460599] [cv-prod-id-701373   ] [10.1109/ICARSC.2016.23        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-12-12] A Scan Matching Approach to SLAM with a Dynamic Likelihood Field
+[85015202382] [cv-prod-id-701363   ] [10.1109/MFI.2016.7849548      ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-07-02] Multi-object tracking with distributed sensing
+[85026391666] [cv-prod-id-701364   ] [10.1145/3071178.3071252       ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2017-07-01] Deriving and improving CMA-ES with information geometric trust regions
+[85026864168] [cv-prod-id-701367   ] [10.1109/ICARSC.2017.7964069   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Rich and robust human-robot interaction on gesture recognition for assembly tasks
+[85026864903] [cv-prod-id-701366   ] [10.1109/ICARSC.2017.7964053   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Efficient localization based on scan matching with a continuous likelihood field
+[85026869156] [cv-prod-id-701365   ] [10.1109/ICARSC.2017.7964075   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Skill-based anytime agent architecture for logistics and manipulation tasks: EuRoC Challenge 2, Stage II - Realistic Labs: Benchmarking
+[85026875635] [cv-prod-id-701362   ] [10.1109/ICARSC.2017.7964072   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Real-time multi-object tracking on highly dynamic environments
+[85026890170] [cv-prod-id-701361   ] [10.1109/ICARSC.2017.7964063   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] A reliable model-based walking engine with push recovery capability
+[85028989811] [None                ] [10.1007/978-3-319-65340-2_41  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2017-01-01] Improving and benchmarking motion planning for a mobile manipulator operating in unstructured environments
+[85028989811] [cv-prod-id-701369   ] [10.1007/978-3-319-65340-2_41  ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] Progress in Artificial Intelligence
+[85028998868] [None                ] [10.1007/978-3-319-65340-2_11  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] Multi-agent double deep Q-networks
+[85028998868] [cv-prod-id-701371   ] [10.1007/978-3-319-65340-2_11  ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] Progress in Artificial Intelligence
+[85031910472] [cv-prod-id-701368   ] [10.24963/ijcai.2017/191       ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2017-01-01] Contextual covariance matrix adaptation evolutionary strategies
+[85034212143] [None                ] [10.1007/978-3-319-68792-6_4   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] Learning a humanoid kick with controlled distance
+[85034212143] [cv-prod-id-701370   ] [10.1007/978-3-319-68792-6_4   ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] RoboCup 2016: Robot World Cup XX
+[85039043621] [cv-prod-id-701345   ] [10.1007/s10846-017-0763-7     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2019-03-15] A Non-Linear Least Squares Approach to SLAM using a Dynamic Likelihood Field
+[85042209079] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  2      ] [2018-01-01] Preface
+[85042209079] [cv-prod-id-701356   ] [None                          ] [   CV] [Book Chapter         ] [ 0  0      ] [2018-01-01] ROBOT 2017: Third Iberian Robotics Conference
+[85042220407] [cv-prod-id-701355   ] [10.1007/978-3-319-70836-2_2   ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] ROBOT 2017: Third Iberian Robotics Conference
+[85042220407] [None                ] [10.1007/978-3-319-70836-2_2   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-01-01] Human-Robot Collaboration and Safety Management for Logistics and Manipulation Tasks
+[85042225806] [cv-prod-id-701358   ] [10.1007/978-3-319-70836-2_11  ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] ROBOT 2017: Third Iberian Robotics Conference
+[85042225806] [None                ] [10.1007/978-3-319-70836-2_11  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-01-01] Mixed-Policy Asynchronous Deep Q-Learning
+[85042234860] [cv-prod-id-701357   ] [10.1007/978-3-319-70836-2_61  ] [   CV] [Book Chapter         ] [ 0  0      ] [2017-01-01] ROBOT 2017: Third Iberian Robotics Conference
+[85042234860] [None                ] [10.1007/978-3-319-70836-2_61  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2018-01-01] A Hybrid ZMP-CPG Based Walk Engine for Biped Robots
+[85042368378] [cv-prod-id-701359   ] [10.1109/MFI.2017.8170451      ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2017-12-07] Neural regularization jointly involving neurons and connections for robust image classification
+[85046097551] [cv-prod-id-701360   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2017-01-01] Stochastic search in changing situations
+[85048861103] [cv-prod-id-701351   ] [10.1109/ICARSC.2018.8374173   ] [SC CV] [Conference Paper     ] [ 0  3 Ab   ] [2018-06-06] A sparse-dense approach for efficient grid mapping
+[85048881269] [cv-prod-id-701352   ] [10.1109/ICARSC.2018.8374156   ] [SC CV] [Conference Paper     ] [ 0  3 Ab   ] [2018-06-06] An optimal closed-loop framework to develop stable walking for humanoid robot
+[85048892736] [cv-prod-id-701353   ] [10.1109/ICARSC.2018.8374188   ] [SC CV] [Conference Paper     ] [ 0  3 Ab   ] [2018-06-06] Mobile manipulation for autonomous packaging in realistic environments: EuRoC challenge 2, stage II, showcase
+[85048897160] [cv-prod-id-1840267  ] [10.1142/9789813231047_0049    ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2018-01-01] A reliable hierarchical omnidirectional walking engine for a bipedal robot by using the enhanced lip plus flywheel
+[85051117079] [cv-prod-id-701480   ] [10.1109/EURMIC.1998.711799    ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [1998-01-01] Design of virtual digital controllers based on dynamically reconfigurable FPGAs
+[85056510719] [cv-prod-id-701354   ] [10.1109/IJCNN.2018.8489372    ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2018-10-10] Guided Deep Reinforcement Learning in the GeoFriends2 Environment
+[85059747674] [cv-prod-id-701347   ] [10.1007/s10846-018-0968-4     ] [SC CV] [Article              ] [ 8  6 Ab   ] [2019-11-01] Contextual Direct Policy Search: With Regularized Covariance Matrix Estimation
+[85065079756] [None                ] [10.1007/978-3-030-16184-2_1   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Multi-agent neural reinforcement-learning system with communication
+[85065080073] [cv-prod-id-701349   ] [10.1007/978-3-030-16184-2_7   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Automatic generation of a sub-optimal agent population with learning
+[85065095671] [None                ] [10.1007/978-3-030-16184-2_26  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Player engagement enhancement with video games
+[85066896804] [cv-prod-id-701346   ] [10.1080/01691864.2019.1617780 ] [SC CV] [Article              ] [ 8  5 Ab   ] [2019-07-03] Precise and efficient pose estimation of stacked objects for mobile manipulation in industrial robotics challenges
+[85068445147] [cv-prod-id-701344   ] [10.1109/ICARSC.2019.8733608   ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2019-04-01] A Model-Based Biped Walking Controller Based on Divergent Component of Motion
+[85068483860] [cv-prod-id-701343   ] [10.1109/ICARSC.2019.8733632   ] [SC CV] [Conference Paper     ] [ 5  3 Ab   ] [2019-04-01] Learning low level skills from scratch for humanoid robot soccer using deep reinforcement learning
+[85070213536] [cv-prod-id-841257   ] [10.1016/j.robot.2019.06.006   ] [SC CV] [Article              ] [ 8  4 Ab FT] [2019-10-01] Skill-based anytime agent architecture for European Robotics Challenges in realistic environments: EuRoC Challenge 2, Stage II — realistic labs
+[85070685364] [None                ] [10.1007/978-3-030-27544-0_27  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2019-01-01] Adjusted Bounded Weighted Policy Learner
+[85070685364] [cv-prod-id-1840261  ] [10.1007/978-3-030-27544-0_27  ] [   CV] [Book Chapter         ] [ 0  0      ] [2019-01-01] RoboCup 2018: Robot World Cup XXII
+[85070697946] [None                ] [10.1007/978-3-030-27544-0_2   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Multi-Robot Fast-Paced Coordination with Leader Election
+[85070697946] [cv-prod-id-1840262  ] [10.1007/978-3-030-27544-0_2   ] [   CV] [Book Chapter         ] [ 0  0      ] [2019-01-01] RoboCup 2018: Robot World Cup XXII
+[85073257514] [cv-prod-id-1840266  ] [10.1109/IJCNN.2019.8852293    ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2019-07-01] Multi-Agent Deep Reinforcement Learning with Emergent Communication
+[85076895279] [None                ] [10.1007/978-3-030-35699-6_1   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Learning to Run Faster in a Humanoid Robot Soccer Environment Through Reinforcement Learning
+[85076917465] [None                ] [10.1007/978-3-030-35699-6_8   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] A Fast and Stable Omnidirectional Walking Engine for the Nao Humanoid Robot
+[85076917465] [cv-prod-id-1840263  ] [10.1007/978-3-030-35699-6_8   ] [   CV] [Book Chapter         ] [ 0  0      ] [2019-01-01] RoboCup 2019: Robot World Cup XXIII
+[85078048588] [cv-prod-id-1840256  ] [10.1007/s10726-020-09652-8    ] [SC CV] [Article              ] [ 0  5 Ab   ] [2021-04-01] Game Adaptation by Using Reinforcement Learning Over Meta Games
+[85078851559] [cv-prod-id-1840259  ] [10.1016/j.neucom.2020.01.079  ] [SC CV] [Article              ] [ 8  3 Ab FT] [2020-05-21] Multi-agent actor centralized-critic with communication
+[85079092068] [cv-prod-id-1840257  ] [10.1007/978-3-030-36150-1_22  ] [   CV] [Book Chapter         ] [ 0  0      ] [2019-01-01] Robot 2019: Fourth Iberian Robotics Conference
+[85079092068] [None                ] [10.1007/978-3-030-36150-1_22  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2020-01-01] Benchmarking Deep and Non-deep Reinforcement Learning Algorithms for Discrete Environments
+[85079101144] [None                ] [10.1007/978-3-030-36150-1_44  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2020-01-01] Learning Low-Level Behaviors and High-Level Strategies in Humanoid Soccer
+[85079101144] [cv-prod-id-1840258  ] [10.1007/978-3-030-36150-1_44  ] [   CV] [Book Chapter         ] [ 0  0      ] [2020-01-01] Robot 2019: Fourth Iberian Robotics Conference
+[85081157666] [cv-prod-id-1840265  ] [10.1109/IROS40897.2019.8967778] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2019-11-01] A Robust Biped Locomotion Based on Linear-Quadratic-Gaussian Controller and Divergent Component of Motion
+[85085910734] [None                ] [10.1109/ICARSC49921.2020.9096150] [SC   ] [Conference Paper     ] [ 7  3 Ab   ] [2020-04-01] A robust model-based biped locomotion framework based on three-mass model: From planning to control
+[85085916831] [None                ] [10.1109/ICARSC49921.2020.9096092] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2020-04-01] Competitive deep reinforcement learning over a pokémon battling simulator
+[85085918545] [None                ] [10.1109/ICARSC49921.2020.9096118] [SC   ] [Editorial            ] [ 0  3      ] [2020-04-01] Welcome Message
+[85085940206] [None                ] [10.1109/ICARSC49921.2020.9096191] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2020-04-01] Fast Grid SLAM based on particle filter with scan matching and multithreading
+[85086234837] [None                ] [10.2478/jaiscr-2020-0013      ] [SC   ] [Article              ] [ 0  5 Ab   ] [2020-07-01] Multi Agent Deep Learning with Cooperative Communication
+[85087543982] [None                ] [10.1007/978-3-030-34507-5_7   ] [SC   ] [Book Chapter         ] [ 8  2 Ab   ] [2020-01-01] TIMAIRIS: Autonomous Blank Feeding for Packaging Machines
+[85087795422] [None                ] [10.3390/app10134529           ] [SC   ] [Review               ] [ 0  6 Ab   ] [2020-07-01] A survey of planning and learning in games
+[85092653201] [None                ] [10.3233/ICA-200631            ] [SC   ] [Article              ] [ 8  5 Ab   ] [2020-01-01] Exploring communication protocols and centralized critics in multi-agent deep learning
+[85103787190] [None                ] [10.1109/TRO.2021.3062306      ] [SC   ] [Article              ] [ 8  3 Ab   ] [2021-10-01] A general approach to hand-eye calibration through the optimization of atomic transformations
+[85105728593] [None                ] [10.1007/s10846-021-01385-3    ] [SC   ] [Article              ] [ 8  6 Ab   ] [2021-06-01] 6D Localization and Kicking for Humanoid Robotic Soccer
+[85107138391] [None                ] [10.1109/ICARSC52212.2021.9429802] [SC   ] [Editorial            ] [ 0  5      ] [2021-04-28] Welcome Message
+[85107151302] [None                ] [10.1109/ICARSC52212.2021.9429769] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2021-04-28] Segmentation and Manipulation of Cork Strips in Bulk
+[85112248611] [None                ] [10.1007/s42452-021-04752-9    ] [SC   ] [Article              ] [ 8  6 Ab   ] [2021-09-01] A modular framework to generate robust biped locomotion: from planning to control
+[85115444254] [None                ] [10.1007/978-3-030-86230-5_34  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2021-01-01] Neural Network Classifier and Robotic Manipulation for an Autonomous Industrial Cork Feeder
+[85115613714] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  2      ] [2021-01-01] Preface
+[85116284216] [None                ] [10.1007/s42452-021-04819-7    ] [SC   ] [Editorial            ] [ 0  6      ] [2021-11-01] Editorial of the topical collection “state of the art on autonomous robot systems and competitions”
+[85117070684] [None                ] [10.1016/j.robot.2021.103900   ] [SC   ] [Article              ] [10  4 Ab FT] [2021-12-01] Robust biped locomotion using deep reinforcement learning on top of an analytical control approach
+[85122960103] [None                ] [10.1109/CoG52621.2021.9618985 ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2021-01-01] VGC AI Competition - A New Model of Meta-Game Balance AI Competition
+[8544278035 ] [cv-prod-id-1840268  ] [None                          ] [SC CV] [Article              ] [ 0  2      ] [1996-12-01] Feature detection using electromagnetic tomography and neural networks

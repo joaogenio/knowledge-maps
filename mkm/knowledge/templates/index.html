@@ -359,10 +359,24 @@
 
                 <h1>All Authors</h1>
                 
-                <form method="post">
-                    {% csrf_token %}
-                    <input name="test" type="submit" value="Test">
-                </form>
+                <table>
+                    <tr>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="test" type="submit" value="Test">
+                            </form>
+                            <br><br>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input style="background-color: red;" name="delpubs" type="submit" value="Delete All Publications">
+                            </form>
+                            <br><br>
+                        </td>
+                    </tr>
+                </table>
                 
                 {% for author in authors %}
                 
@@ -407,17 +421,19 @@
                             Photo
                         </td>
                         <td>
-                            <img src="https://www.cienciavitae.pt/fotos/publico/{{author.ciencia_id}}.jpg">
+                            <a href="{% url 'author_detail' author.pk %}">
+                                <img src="https://www.cienciavitae.pt/fotos/publico/{{author.ciencia_id}}.jpg">
+                            </a>
                         </td>
                     </tr>
                 
                     <tr><td class="bold
                         {% if author.name == "" %}
-                            ">Name</td><td class="">
+                            ">Name</td><td class=""><a href="{% url 'author_detail' author.pk %}">N/A</a>
                         {% elif author.synced_ciencia %}
-                            ciencia">Name</td><td class="ciencia">{{author.name}}
+                            ciencia">Name</td><td class="ciencia"><a href="{% url 'author_detail' author.pk %}">{{author.name}}</a>
                         {% else %}
-                            scopus">Name</td><td class="scopus">{{author.name}}
+                            scopus">Name</td><td class="scopus"><a href="{% url 'author_detail' author.pk %}">{{author.name}}</a>
                         {% endif %}
                     </td></tr>
                 

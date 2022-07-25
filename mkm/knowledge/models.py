@@ -215,6 +215,21 @@ class Publication(models.Model):
     def __str__(self):
         return "[{}] {}".format( str(self.date), self.title )
     
+    def pretty(self):
+        return "[{:<11}] [{:<20}] [{:<30}] [{} {}] [{:<21}] [{:2d} {:2d} {} {}] {}".format(
+            str(self.scopus_id),
+            str(self.ciencia_id),
+            str(self.doi),
+            'SC' if self.from_scopus else '  ',
+            'CV' if self.from_ciencia else '  ',
+            self.publication_type.name,
+            self.keywords.all().count(),
+            self.areas.all().count(),
+            'Ab' if self.abstract != '' else '  ',
+            'FT' if self.available else '  ',
+            str(self)
+        )
+    
     #def load_keywords(self):
     #    return json.loads(self.keywords) if self.keywords != None else None
 

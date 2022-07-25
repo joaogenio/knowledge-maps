@@ -1,0 +1,15 @@
+[None       ] [cv-prod-id-2841200  ] [None                          ] [   CV] [Thesis / Dissertation] [ 3  0      ] [2009-01-01] Árvores filogenéticas e o problema da evolução mínima
+[None       ] [cv-prod-id-2841201  ] [None                          ] [   CV] [Thesis / Dissertation] [14  0      ] [2017-01-01] Network topology discovery
+[None       ] [cv-prod-id-1547140  ] [10.5220/0009104706010608      ] [   CV] [Conference Paper     ] [ 0  0      ] [2020-02-24] A Computational Platform for Heart Failure Cases Research
+[84990232272] [cv-prod-id-1042571  ] [10.1016/j.ejor.2016.06.014    ] [SC CV] [Article              ] [ 5  4 Ab FT] [2017-01-01] Compact mixed integer linear programming models to the minimum weighted tree reconstruction problem
+[85051747869] [cv-prod-id-1042570  ] [10.5220/0006579701270134      ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2018-01-01] A methodology to perform semi-automatic distributed EHR database queries
+[85051747869] [cv-prod-id-2101355  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2018-01-01] A methodology to perform semi-automatic distributed EHR database queries
+[85064615496] [cv-prod-id-1042568  ] [10.5220/0007576104660473      ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Strategies to access patient clinical data from distributed databases
+[85070502485] [cv-prod-id-1042681  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2019-01-01] A weighted rule-based model for file forgery detection: UA.Pt bioinformatics at ImageCLef 2019
+[85071693378] [None                ] [10.1007/978-3-030-29196-9_19  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Exploring the Value of Electronic Health Records from Multiple Datasets
+[85083723599] [cv-prod-id-2101353  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] A computational platform for heart failure cases research
+[85086630979] [cv-prod-id-2032742  ] [10.1016/j.softx.2020.100535   ] [SC CV] [Article              ] [ 5  2 Ab FT] [2020-07-01] GTO: A toolkit to unify pipelines in genomic and proteomic research
+[85087926456] [cv-prod-id-2101352  ] [10.1186/s13040-020-00217-8    ] [SC CV] [Article              ] [ 0  6 Ab   ] [2020-07-08] Merging microarray studies to identify a common gene expression signature to several structural heart diseases
+[85092154724] [None                ] [10.1007/s12351-020-00608-z    ] [SC   ] [Article              ] [ 0  7 Ab   ] [2020-01-01] MIP model-based heuristics for the minimum weighted tree reconstruction problem
+[85092163560] [None                ] [10.1007/978-3-030-58219-7_8   ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2020-01-01] File Forgery Detection Using a Weighted Rule-Based System
+[85121650571] [cv-prod-id-2841080  ] [10.3390/genes12122022         ] [SC CV] [Article              ] [ 8  2 Ab   ] [2021-12-01] Naprt expression regulation mechanisms: Novel functions predicted by a bioinformatics approach

@@ -152,7 +152,7 @@
                                         {% for pub_type in publication_types %}
                                             <form method="post">
                                                 {% csrf_token %}
-                                                <input class="
+                                                <input class="chartinput
                                                     {% if pub_type == publication_type %} selected {% endif %}
                                                 " name="publication-type" type="submit" value="{{ pub_type }}">
                                             </form>
@@ -169,7 +169,7 @@
                                         {% for i in publication_start_range %}
                                             <form method="post">
                                                 {% csrf_token %}
-                                                <input class="
+                                                <input class="chartinput
                                                     {% if i == publication_start %} selected {% endif %}
                                                 " name="publication-start" type="submit" value="{{ i }}">
                                             </form>
@@ -185,7 +185,7 @@
                                         {% for i in publication_end_range %}
                                             <form method="post">
                                                 {% csrf_token %}
-                                                <input class="
+                                                <input class="chartinput
                                                     {% if i == publication_end %} selected {% endif %}
                                                 " name="publication-end" type="submit" value="{{ i }}">
                                             </form>
@@ -237,7 +237,7 @@
                                         {% for i in project_start_range %}
                                             <form method="post">
                                                 {% csrf_token %}
-                                                <input class="
+                                                <input class="chartinput
                                                     {% if i == project_start %} selected {% endif %}
                                                 " name="project-start" type="submit" value="{{ i }}">
                                             </form>
@@ -255,7 +255,7 @@
                                         {% for i in project_end_range %}
                                             <form method="post">
                                                 {% csrf_token %}
-                                                <input class="
+                                                <input class="chartinput
                                                     {% if i == project_end %} selected {% endif %}
                                                 " name="project-end" type="submit" value="{{ i }}">
                                             </form>

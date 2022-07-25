@@ -1,0 +1,142 @@
+[12144281711] [None                ] [10.1117/12.534135             ] [SC   ] [Conference Paper     ] [ 5  4 Ab   ] [2004-12-01] Himage PACS: A new approach to storage, integration and distribution of cardiologie images
+[33745324967] [None                ] [10.1007/11573067_2            ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2005-01-01] Data management and visualization issues in a fully digital echocardiography laboratory
+[33745410012] [None                ] [10.1117/12.653935             ] [SC   ] [Conference Paper     ] [ 4  4 Ab   ] [2006-06-30] A demanding Web-based PACS supported by Web Services technology
+[34250214449] [None                ] [10.1007/978-3-540-72375-2_5   ] [SC   ] [Article              ] [ 0  1 Ab   ] [2007-06-18] Current perspectives on PACS and a cardiology case study
+[35248824578] [None                ] [10.1007/3-540-45068-8_101     ] [SC   ] [Article              ] [ 3  2 Ab   ] [2003-01-01] Critical information systems authentication based on PKC and biometrics
+[35248872485] [None                ] [10.1007/3-540-45068-8_102     ] [SC   ] [Article              ] [ 5  2 Ab   ] [2003-01-01] Electronic patient record virtually unique based on a crypto Smart Card
+[42949109165] [None                ] [10.1117/12.770753             ] [SC   ] [Conference Paper     ] [ 2  4 Ab   ] [2008-05-07] Brokerage mechanism proposal for teleradiology studies distribution
+[58749107317] [None                ] [10.1117/12.319775             ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [1998-12-01] A cardiology oriented PACS
+[59149083992] [None                ] [10.1016/j.cmpb.2008.10.015    ] [SC   ] [Article              ] [ 5  3 Ab FT] [2009-03-01] Design, development, exploitation and assessment of a Cardiology Web PACS
+[60749130789] [None                ] [None                          ] [SC   ] [Conference Paper     ] [21  3 Ab   ] [2008-12-01] Alternative lossless compression algorithms in X-ray cardiac images
+[63149146090] [None                ] [10.1007/s11548-008-0269-7     ] [SC   ] [Article              ] [ 0  7 Ab   ] [2009-01-01] Indexing and retrieving DICOM data in disperse and unstructured archives
+[67650240159] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  1 Ab   ] [2007-12-01] A model to optimize the use of imaging equipment and human skills scattered in very large geographical areas
+[67650261376] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  1 Ab   ] [2007-12-01] Web platform to support the share and remote access to medical images
+[77953435038] [None                ] [10.1117/12.843572             ] [SC   ] [Conference Paper     ] [18  4 Ab   ] [2010-06-17] A proxy of DICOM services
+[77956306890] [None                ] [None                          ] [SC   ] [Conference Paper     ] [14  2 Ab   ] [2010-09-10] Towards an EHR architecture for mobile citizens
+[77956310891] [None                ] [None                          ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2010-09-10] Modelling a portable Personal Health Record
+[77956355091] [None                ] [None                          ] [SC   ] [Conference Paper     ] [18  2 Ab   ] [2010-09-13] Email-P2P gateway to distributed medical imaging repositories
+[77957827925] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2010-10-18] Gathering and managing diagnostic tests
+[79952568682] [None                ] [10.1016/S0531-5131(03)00258-9 ] [SC   ] [Article              ] [ 0  1 Ab FT] [2003-06-01] An integrated access interface to multimedia EPR
+[79960172418] [None                ] [None                          ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2011-07-15] On the use of openEHR in a portable PHR
+[79960192049] [None                ] [None                          ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2011-07-15] Hybrid electronic health records
+[80052507826] [None                ] [None                          ] [SC   ] [Conference Paper     ] [12  2 Ab   ] [2011-09-12] A PACS gateway to the cloud
+[80054063236] [None                ] [10.1007/978-3-642-24352-3_27  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2011-10-19] DICOM and clinical data mining in a small hospital PACS: A pilot study
+[8444230475 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  1 Ab   ] [2004-11-23] E-services in mission-critical organizations: Identification enforcement
+[8444232153 ] [None                ] [10.3233/978-1-60750-939-4-101 ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2003-01-01] A New Concept for an IntegratedHealthcare access model
+[84855567679] [None                ] [10.1007/s10278-010-9347-9     ] [SC   ] [Article              ] [ 7  3 Ab   ] [2011-10-01] Dicoogle - An open source peer-to-peer PACS
+[84860675556] [None                ] [10.1109/TITB.2011.2176497     ] [SC   ] [Article              ] [13  3 Ab   ] [2012-05-11] A RESTful image gateway for multiple medical image repositories
+[84861968982] [None                ] [None                          ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2012-06-13] A DICOM relay service supported on cloud resources
+[84861978859] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2012-06-13] An openehr repository based on a native XML database
+[84861985443] [None                ] [None                          ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2012-06-13] A secure personal health record repository
+[84862979352] [None                ] [10.1007/s11548-011-0625-x     ] [SC   ] [Review               ] [ 0  7 Ab   ] [2012-01-01] A PACS archive architecture supported on cloud services
+[84864874836] [None                ] [None                          ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2012-08-16] Towards the development of a mobile learning model for smart phones using stakeholders' analysis
+[84865106654] [None                ] [10.1016/j.ijmedinf.2012.05.011] [SC   ] [Article              ] [15  1 Ab FT] [2012-09-01] Telecardiology through ubiquitous Internet services
+[84867301732] [None                ] [10.1109/CBMS.2012.6266402     ] [SC   ] [Conference Paper     ] [ 3  2 Ab   ] [2012-10-16] Dicoogle relay - A cloud communications bridge for medical imaging
+[84868521138] [None                ] [10.1016/j.cmpb.2012.05.013    ] [SC   ] [Article              ] [15  3 Ab FT] [2012-12-01] Clustering of distinct PACS archives using a cooperative peer-to-peer network
+[84869009390] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2012-11-19] A network sensor for medical imaging workflows
+[84869034852] [None                ] [None                          ] [SC   ] [Conference Paper     ] [21  2 Ab   ] [2012-11-19] CloudMed: Promoting telemedicine processes over the cloud
+[84872518920] [None                ] [10.3233/978-1-61499-101-4-502 ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2012-01-01] Dicoogle Mobile: A medical imaging platform for Android
+[84872536540] [None                ] [10.3233/978-1-61499-101-4-641 ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2012-01-01] Enhancing the many-to-many relations across IHE document sharing communities
+[84872558617] [None                ] [10.3233/978-1-61499-101-4-636 ] [SC   ] [Conference Paper     ] [ 5  3 Ab   ] [2012-01-01] Concepts for a Personal Health Record
+[84877095473] [None                ] [10.1371/journal.pone.0061888  ] [SC   ] [Article              ] [ 0  3 Ab   ] [2013-05-06] Dicoogle, a Pacs Featuring Profiled Content Based Image Retrieval
+[84878019584] [None                ] [10.1007/s11548-012-0785-3     ] [SC   ] [Review               ] [ 0  7 Ab   ] [2013-01-01] DICOM relay over the cloud
+[84881477740] [None                ] [10.1016/j.jss.2013.04.037     ] [SC   ] [Article              ] [ 8  3 Ab FT] [2013-09-01] A common API for delivering services over multi-vendor cloud resources
+[84886915633] [None                ] [None                          ] [SC   ] [Conference Paper     ] [12  3 Ab   ] [2005-01-01] Architecture evaluation for the implementation of a regional integrated electronic health record
+[84887886530] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-11-25] Multi vendor DICOM metadata access: A multi site hospital approach using Dicoogle
+[84887947734] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-11-25] Enhanced regional network for medical imaging repositories
+[84888996180] [None                ] [10.1109/CBMS.2013.6627770     ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-12-09] A multi-domain platform for medical imaging
+[84889070590] [None                ] [10.1109/CBMS.2013.6627819     ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-12-09] Integrating echocardiogram reports with medical imaging
+[84893447291] [None                ] [10.1109/ICHI.2013.48          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-01] An agile framework to support distributed medical imaging scenarios
+[84893496321] [None                ] [10.2174/15734056091310281214  ] [SC   ] [Article              ] [ 0  2 Ab   ] [2013-12-01] Content-based image retrieval for clinical applications: An overview of current approaches and challenges
+[84894123103] [None                ] [10.1109/HealthCom.2013.6720686] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2013-12-01] Leveraging XDS-I and PIX workflows for validating cross-enterprise patient identity linkage
+[84894144135] [None                ] [10.1109/HealthCom.2013.6720767] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2013-12-01] A cloud based architecture for medical imaging services
+[84894154830] [None                ] [10.1109/HealthCom.2013.6720660] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2013-12-01] A DICOM viewer based on web technology
+[84894384235] [None                ] [10.3233/978-1-61499-289-9-33  ] [SC   ] [Conference Paper     ] [16  3 Ab   ] [2013-01-01] Enabling outsourcing XDS for imaging on the public cloud
+[84897027876] [None                ] [10.1007/s10278-013-9650-3     ] [SC   ] [Article              ] [ 7  3 Ab   ] [2014-01-01] A centralized platform for geo-distributed PACS management
+[84897064805] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] A multi-domain platform for medical imaging
+[84897085332] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-01-01] Integrating echocardiogram reports with medical imaging
+[84898329665] [None                ] [10.4018/978-1-4666-3667-5.ch016] [SC   ] [Book Chapter         ] [ 8  2 Ab   ] [2013-03-31] Clinical data mining in small hospital PACS: Contributions for radiology department improvement
+[84904038647] [None                ] [10.1007/s10916-014-0063-8     ] [SC   ] [Article              ] [ 7  4 Ab   ] [2014-01-01] Sensor-based architecture for medical imaging workflow analysis systems-level quality improvement
+[84904289764] [None                ] [10.1109/JBHI.2013.2292776     ] [SC   ] [Article              ] [15  4 Ab   ] [2014-01-01] XDS-I outsourcing proxy: Ensuring confidentiality while preserving interoperability
+[84906880000] [None                ] [10.1109/BHI.2014.6864312      ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2014-01-01] DICOM traffic generator based on behavior profiles
+[84906883440] [None                ] [10.1109/BHI.2014.6864305      ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2014-01-01] Medical imaging archiving: A comparison between several NoSQL solutions
+[84906920699] [None                ] [10.1109/MeMeA.2014.6860112    ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] Normalizing medical imaging archives for dose quality assurance and productivity auditing
+[84908631977] [None                ] [10.1109/HPCSim.2014.6903709   ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2014-09-18] A cloud service integration platform for web applications
+[84908869217] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2003-01-01] A new user-oriented model to manage multiple digital credentials
+[84911414909] [None                ] [10.1002/rra.2707              ] [SC   ] [Article              ] [ 0  3 Ab   ] [2014-11-01] Combining multiple machine learning algorithms to predict taxa under reference conditions for streams bioassessment
+[84929507627] [None                ] [10.3233/978-1-61499-432-9-622 ] [SC   ] [Conference Paper     ] [15  3 Ab   ] [2014-01-01] Screening Radiation Exposure for Quality Assurance
+[84929511107] [None                ] [10.3233/978-1-61499-432-9-146 ] [SC   ] [Conference Paper     ] [16  3 Ab   ] [2014-01-01] Multi-provider Architecture for Cloud Outsourcing of Medical Imaging Repositories
+[84937510681] [None                ] [10.3233/978-1-61499-512-8-461 ] [SC   ] [Conference Paper     ] [16  3 Ab   ] [2015-01-01] A Recommender System for Medical Imaging Diagnostic
+[84938871846] [None                ] [10.5220/0005219704310438      ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2015-01-01] Incremental learning versus batch learning for classification of user's behaviour in medical imaging
+[84938876726] [None                ] [None                          ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2014-01-01] Challenges of using cloud computing in medical imaging
+[84940052854] [None                ] [10.1086/678768                ] [SC   ] [Article              ] [ 0  3 Ab   ] [2014-01-01] Testing a Multiple Machine Learning Tool (HYDRA) for the Bioassessment of Fresh Waters
+[84943329444] [None                ] [10.1109/CISTI.2015.7170422    ] [SC   ] [Conference Paper     ] [ 8  6 Ab   ] [2015-07-28] An automation framework for PACS workflows optimization in shared environments
+[84945156932] [None                ] [10.1007/s10278-015-9834-0     ] [SC   ] [Article              ] [15  3 Ab   ] [2016-06-01] Anatomy of an Extensible Open Source PACS
+[84945432008] [None                ] [10.4018/978-1-4666-6339-8.ch003] [SC   ] [Book Chapter         ] [ 0  1 Ab   ] [2014-08-31] Clinical data mining in small hospital PACS: Contributions for radiology department improvement
+[84946490879] [None                ] [10.1007/s10278-015-9805-5     ] [SC   ] [Article              ] [13  3 Ab   ] [2015-05-27] Normalizing Heterogeneous Medical Imaging Data to Measure the Impact of Radiation Dose
+[84949924636] [None                ] [10.1109/ICHI.2014.41          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-03-02] Semantic search over DICOM Repositories
+[84953281406] [None                ] [10.1109/EMBC.2015.7318626     ] [SC   ] [Conference Paper     ] [ 3  4 Ab   ] [2015-11-04] A machine learning methodology for medical imaging anonymization
+[84957948635] [None                ] [10.1007/s11548-015-1272-4     ] [SC   ] [Article              ] [ 6  7 Ab   ] [2016-02-01] Pattern recognition for cache management in distributed medical imaging environments
+[84968867602] [None                ] [10.3414/ME14-01-0052          ] [SC   ] [Article              ] [ 6  3 Ab   ] [2016-01-01] A cloud architecture for teleradiology-as-a-service
+[84969263661] [None                ] [10.5220/0005709503450352      ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2016-01-01] Semantic knowledge base construction from radiology reports
+[84971592176] [None                ] [10.1109/JBHI.2014.2361633     ] [SC   ] [Article              ] [17  4 Ab   ] [2016-01-01] A routing mechanism for cloud outsourcing of medical imaging repositories
+[84973866184] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2001-01-01] A trusted brokering service for PKI interoperability and thin-clients integration
+[84982156746] [None                ] [10.1109/CISTI.2016.7521382    ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2016-07-25] Generating Big Data repositories for research in medical imaging
+[84983390819] [None                ] [10.1007/s10278-016-9903-z     ] [SC   ] [Article              ] [12  3 Ab   ] [2017-02-01] A Multimodal Search Engine for Medical Imaging Studies
+[84987624074] [None                ] [10.1109/CBMS.2016.68          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2016-08-16] Caching and prefetching images in a web-based DICOM viewer
+[85006384872] [None                ] [10.1109/HealthCom.2016.7749484] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2016-11-18] Assessing the relational database model for optimization of content discovery services in medical imaging repositories
+[85006493479] [None                ] [10.1109/HealthCom.2016.7749524] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2016-11-18] Integrating multiple data sources in a cardiology imaging laboratory
+[85017457466] [None                ] [10.1007/s10916-017-0736-1     ] [SC   ] [Article              ] [ 7  4 Ab   ] [2017-05-01] A De-Identification Pipeline for Ultrasound Medical Images in DICOM Format
+[85018844427] [None                ] [10.3233/978-1-61499-753-5-38  ] [SC   ] [Article              ] [ 4  3 Ab   ] [2017-01-01] Web Validation Service for Ensuring Adherence to the DICOM Standard
+[85018848400] [None                ] [10.3233/978-1-61499-678-1-461 ] [SC   ] [Conference Paper     ] [12  3 Ab   ] [2017-01-01] A dynamic approach to support interoperability for medical reports using DICOM SR
+[85019197806] [None                ] [10.1109/SITIS.2016.58         ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2017-04-21] Extensible Architecture for Multimodal Information Retrieval in Medical Imaging Archives
+[85020429778] [None                ] [10.1016/j.jbi.2017.06.009     ] [SC   ] [Article              ] [14  2 Ab FT] [2017-07-01] An efficient architecture to support digital pathology in standard medical imaging repositories
+[85022227696] [None                ] [10.1049/iet-sen.2016.0191     ] [SC   ] [Article              ] [ 8  1 Ab   ] [2017-06-01] Intelligent generator of big data medical imaging repositories
+[85027055714] [None                ] [10.1007/s10916-017-0790-8     ] [SC   ] [Article              ] [ 5  4 Ab   ] [2017-09-01] An Intelligent Cloud Storage Gateway for Medical Imaging
+[85033482382] [None                ] [10.3233/978-1-61499-678-1-717 ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2017-01-01] User riented latform for ata nalytics in
+[85034743218] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2017-01-01] 3D-CNN in drug resistance detection and tuberculosis classification
+[85034768395] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2017-01-01] Towards representation learning for biomedical concept detection in medical images: UA.PT bioinformatics in ImageCLEF 2017
+[85038015452] [None                ] [10.1016/j.jbi.2017.12.002     ] [SC   ] [Article              ] [19  2 Ab FT] [2018-01-01] Controlled searching in reversibly de-identified medical imaging archives
+[85044844972] [None                ] [None                          ] [SC   ] [Article              ] [ 6  3 Ab   ] [2016-01-01] User Oriented Platform for Data Analytics in Medical Imaging Repositories
+[85046530765] [None                ] [10.3233/978-1-61499-852-5-411 ] [SC   ] [Conference Paper     ] [11  3 Ab   ] [2018-01-01] Shared medical imaging repositories
+[85046539905] [None                ] [10.3233/978-1-61499-852-5-396 ] [SC   ] [Conference Paper     ] [13  3 Ab   ] [2018-01-01] SCREEN-DR: Software architecture for the diabetic retinopathy screening
+[85048862410] [None                ] [10.5220/0006661403300337      ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2018-01-01] Reactive through services: Opinionated framework for developing reactive services
+[85048972717] [None                ] [10.1016/j.csi.2018.06.003     ] [SC   ] [Article              ] [ 8  3 Ab FT] [2019-01-01] A community-driven validation service for standard medical imaging objects
+[85049322271] [None                ] [10.1007/s10916-018-1004-8     ] [SC   ] [Article              ] [ 6  4 Ab   ] [2018-08-01] Automated Anatomic Labeling Architecture for Content Discovery in Medical Imaging Repositories
+[85050373736] [None                ] [10.3390/app8081213            ] [SC   ] [Article              ] [ 0  6 Ab   ] [2018-07-24] Unsupervised learning for concept detection in medical images: A comparative analysis
+[85050975427] [None                ] [10.1109/CBMS.2018.00029       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-07-20] Ejection Fraction Classification in Transthoracic Echocardiography Using a Deep Learning Approach
+[85050981625] [None                ] [10.1109/CBMS.2018.00032       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-07-20] Face De-Identification Service for Neuroimaging Volumes
+[85050985319] [None                ] [10.1109/CBMS.2018.00037       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-07-20] Services Orchestration and Workflow Management in Distributed Medical Imaging Environments
+[85051066758] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2018-01-01] Feature learning with adversarial networks for concept detection in medical images: UA.PT bioinformatics at ImageCLEF 2018
+[85055449567] [None                ] [10.1016/j.ijmedinf.2018.10.005] [SC   ] [Article              ] [15  1 Ab FT] [2018-12-01] SCREEN-DR: Collaborative platform for diabetic retinopathy
+[85065506012] [None                ] [10.1109/ENBENG.2019.8692545   ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2019-04-15] An accounting mechanism for standard medical imaging services
+[85067819132] [None                ] [10.1007/s10278-019-00184-5    ] [SC   ] [Article              ] [13  3 Ab   ] [2019-10-15] ETL Framework for Real-Time Business Intelligence over Medical Imaging Repositories
+[85070498865] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2019-01-01] Informative and intriguing visual features: UA.Pt bioinformatics in ImageCLeF caption 2019
+[85070952799] [None                ] [10.1109/CBMS.2019.00038       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-06-01] Volumetric feature learning for query-by-example in medical imaging archives
+[85071000360] [None                ] [10.1109/CBMS.2019.00128       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-06-01] GDPR impacts and opportunities for computer-aided diagnosis guidelines and legal perspectives
+[85071033894] [None                ] [10.1109/CBMS.2019.00053       ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2019-06-01] Collaborative framework for a whole-slide image viewer
+[85078577294] [None                ] [10.1109/BIBE.2019.00056       ] [SC   ] [Conference Paper     ] [ 5  3 Ab   ] [2019-10-01] Pseudonymisation with break-the-glass compatibility for health records in federated services
+[85083695241] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] Data and sessions management in a telepathology platform
+[85085097324] [None                ] [10.1007/s12083-020-00914-5    ] [SC   ] [Article              ] [ 8  2 Ab   ] [2020-09-01] RAIAP: renewable authentication on isolated anonymous profiles: A GDPR compliant self-sovereign architecture for distributed systems
+[85086886303] [None                ] [10.3233/SHTI200131            ] [SC   ] [Conference Paper     ] [11  3 Ab   ] [2020-06-16] Clinico-environmental system for personal monitoring
+[85086886304] [None                ] [10.3233/SHTI200243            ] [SC   ] [Conference Paper     ] [11  3 Ab   ] [2020-06-16] Role-based architecture for secure management of telepathology sessions
+[85087916517] [None                ] [10.1007/s10278-020-00373-7    ] [SC   ] [Article              ] [13  3 Ab   ] [2020-12-01] A Cloud-Ready Architecture for Shared Medical Imaging Repository
+[85090706884] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 0  5 Ab   ] [2019-01-01] Competitiveness and business performance in the portuguese hotel industry
+[85094119901] [None                ] [10.1109/ISCC50000.2020.9219545] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2020-07-01] Dicoogle Framework for Medical Imaging Teaching and Research
+[85100352386] [None                ] [10.1109/BIBM49941.2020.9313430] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2020-12-16] NoSQL distributed database for DICOM objects
+[85103202445] [None                ] [10.1109/ICHI48887.2020.9374380] [SC   ] [Conference Paper     ] [ 8  8 Ab   ] [2020-11-01] A safe architecture for authorisation grant in healthcare ecosystems
+[85107261969] [None                ] [10.1007/978-3-030-72379-8_20  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2021-01-01] Pathobox: The Collaborative Tele-pathology Platform with Access Management
+[85107475113] [None                ] [10.1109/JBHI.2020.3028454     ] [SC   ] [Article              ] [14  4 Ab   ] [2021-06-01] A Pseudonymisation Protocol with Implicit and Explicit Consent Routes for Health Records in Federated Ledgers
+[85110884199] [None                ] [10.1109/CBMS52027.2021.00086  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2021-06-01] Dicomization of LSM fluorescence composite microscopic image with its bioimaging information
+[85111544006] [None                ] [10.1007/s10278-021-00480-z    ] [SC   ] [Article              ] [14  3 Ab   ] [2021-08-01] On the Use of Virtual Reality for Medical Imaging Visualization
+[85114739333] [None                ] [10.1109/ACCESS.2021.3111008   ] [SC   ] [Article              ] [ 8  3 Ab   ] [2021-01-01] A Performant Protocol for Distributed Health Records Databases
+[85118460702] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 0  5 Ab   ] [2018-01-01] An analysis of destinations, events and national cultures and the possibly negative effects and costs for tourism
+[85119015762] [None                ] [10.34190/IRT.20.046           ] [SC   ] [Conference Paper     ] [ 0  5 Ab   ] [2020-01-01] Health and wellness tourism as source of happiness and quality of life
+[85123172921] [None                ] [10.1109/ISCC53001.2021.9631529] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] A DICOM Standard Pipeline for Microscope Imaging Modalities
+[85123209787] [None                ] [10.1109/ISCC53001.2021.9631259] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] Holder-of-key threshold access token for anonymous data resources
+[85124558560] [None                ] [10.1109/BHI50953.2021.9508612 ] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] A non-relational approach for distributed medical imaging databases
+[85125171107] [None                ] [10.1109/BIBM52615.2021.9669559] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] Highly scalable medical imaging repository based on Kubernetes
+[85125171722] [None                ] [10.1109/BIBM52615.2021.9669704] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] Web Platform for Medical Deep Learning Services
+[85125175773] [None                ] [10.1109/BIBM52615.2021.9669902] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] Decentralizing the storage of a DICOM compliant PACS
+[85125187276] [None                ] [10.1109/BIBM52615.2021.9669349] [SC   ] [Conference Paper     ] [10  5 Ab   ] [2021-01-01] Improving the Visualization and Dicomization process for the Stacked Whole Slide Imaging
+[85126853613] [None                ] [10.3390/s22062322             ] [SC   ] [Article              ] [12  6 Ab   ] [2022-03-01] DICOMization of Proprietary Files Obtained from Confocal, Whole-Slide, and FIB-SEM Microscope Scanners

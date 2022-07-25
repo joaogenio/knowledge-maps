@@ -68,15 +68,160 @@ def index_view(request):
         
         if request.method == 'POST':
 
-            if 'test2' in request.POST:
+            if 'delpubs' in request.POST:
+
+                publications = Publication.objects.all()
+                for publication in publications:
+                    publication.delete()
+            
+            if 'test' in request.POST:
 
                 authors = Author.objects.all()
 
                 for author in authors:
+                    pk = author.pk
 
-                    sync_scopus_docs(author.pk)
+                    ###
+                    #pk = 62
+                    #author = Author.objects.get(pk=pk)
+
+                    pubs_a = []
+                    pubs_b = []
+
+                    print("\n")
+                    print(author.pk, author.name)
+
+                    if False:
+
+                        publications = Publication.objects.all()
+                        for publication in publications:
+                            publication.delete()
+
+                        sync_scopus_docs(pk)
+                        sync_ciencia(pk)
+                        
+                        with open(f'{author.scopus_id}_pubs_a.txt', 'w', encoding="utf-8") as f:
+                            pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
+                            
+                            for pub in pubs:
+                                sc_id = pub.scopus_id
+                                #print("\n" + str(sc_id), end=" ")
+                                #if sc_id in ids and sc_id != None:
+                                #    print("wtf", end="        ")
+                                #else:
+                                #    print("", end="           ")
+                                #print(pub.pretty())
+                                pubs_a.append(pub.pretty())
+                                f.write(f"{pub.pretty()}\n")
+                        
+                        publications = Publication.objects.all()
+                        for publication in publications:
+                            publication.delete()
+
+                        sync_ciencia(pk)
+                        sync_scopus_docs(pk)
+
+                        with open(f'{author.scopus_id}_pubs_b.txt', 'w', encoding="utf-8") as f:
+                            pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
+                            
+                            for pub in pubs:
+                                sc_id = pub.scopus_id
+                                pubs_b.append(pub.pretty())
+                                f.write(f"{pub.pretty()}\n")
+                    
+                    #pubs_a = [   1,    3, None,    6,    8]
+                    #pubs_b = [0,    2, 3, 4, 5, 6, 7]
+
+                    with open(f'{author.scopus_id}_pubs_a.txt', 'r', encoding="utf-8") as f:
+                        for line in f:
+                            pubs_a.append(line)
+                    with open(f'{author.scopus_id}_pubs_b.txt', 'r', encoding="utf-8") as f:
+                        for line in f:
+                            pubs_b.append(line)
+
+                    end_a = False
+                    end_b = False
+                    idx_a = 0
+                    idx_b = 0
+                    while not end_a and not end_b:
+                        if idx_a == len(pubs_a):
+                            end_a = True
+                            a = None
+                            aid = None
+                        else:
+                            a = pubs_a[idx_a]
+                            if pubs_a[idx_a].split(' ')[0] != None:
+                                #aid = int(pubs_a[idx_a].scopus_id)
+                                aid = pubs_a[idx_a].split(' ')[0]
+                            else:
+                                aid = None
+                        if idx_b == len(pubs_b):
+                            end_b = True
+                            b = None
+                            bid = None
+                        else:
+                            b = pubs_b[idx_b]
+                            if pubs_b[idx_b].split(' ')[0] != None:
+                                #bid = int(pubs_b[idx_b].scopus_id)
+                                bid = pubs_b[idx_b].split(' ')[0]
+                            else:
+                                bid = None
+
+                        sep = "-"*(128+3+128) + '\n'
+
+                        sa1 = sep + "{}]  ".format( '] '.join(a.split('] ')[:-1]) ) if aid != None else None
+                        sa2 = "{:<128}  ".format( a.split('] ')[-1][:-1][:128] ) if aid != None else None
+
+                        sb1 = "{}]  ".format( '] '.join(b.split('] ')[:-1]) ) if bid != None else None
+                        sb2 = "{:<128}  ".format( b.split('] ')[-1][:-1][:128] ) if bid != None else None
+
+                        pad = " "*(128+2)
+                        
+                        if(a in pubs_b):
+                            if aid == bid:
+                                #print(sa1, sb1)
+                                #print(sa2, sb2)
+                                idx_a += 1
+                                idx_b += 1
+                            elif aid < bid:
+                                print(sa1)
+                                print(sa2)
+                                idx_a += 1
+                            else:
+                                print(sep + pad, sb1)
+                                print(pad, sb2)
+                                idx_b += 1
+                        else:
+                            if aid != None:
+                                if bid != None:
+                                    if aid < bid:
+                                        print(sa1)
+                                        print(sa2)
+                                        idx_a += 1
+                                    else:
+                                        print(sep + pad, sb1)
+                                        print(pad, sb2)
+                                        idx_b += 1
+                                else:
+                                    print(sa1)
+                                    print(sa2)
+                                    idx_a += 1
+                            else:
+                                if bid != None:
+                                    print(sep + pad, sb1)
+                                    print(pad, sb2)
+                                    idx_b += 1
+
+                        if aid == None:
+                            idx_a += 1
+                        if bid == None:
+                            idx_b += 1
+                    
+                    print(sep)
+                    print(len(pubs_a), len(pubs_b))
+
             
-            if 'test' in request.POST:
+            if 'test2' in request.POST:
 
                 authors = Author.objects.prefetch_related(
                     'projects__areas',
@@ -724,9 +869,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                     if test.ciencia_id != ciencia_id:
                         # They provide different info. There may be no way to handle this merge.
                         # Same 'scopus_id' but different 'ciencia_id'
-                        print(debug_text)
-                        print("\n  -1-  I N C O N S I S T E N C Y  --\n")
-                        print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                        debug(debug_text)
+                        debug("\n  -1-  I N C O N S I S T E N C Y  --\n")
+                        debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
                         
                         reason += ' different ciencia'
                         #merge = False
@@ -740,9 +885,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                 elif test.doi != None and doi != None:
                     if test.doi != doi:
                         # Same 'scopus_id' but different 'doi'
-                        print(debug_text)
-                        print("\n  -2-  I N C O N S I S T E N C Y  --\n")
-                        print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                        debug(debug_text)
+                        debug("\n  -2-  I N C O N S I S T E N C Y  --\n")
+                        debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
                         
                         reason += ' different doi'
                         #merge = False
@@ -763,9 +908,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                     elif test.scopus_id != None and scopus_id != None:
                         if test.scopus_id != scopus_id:
                             # Same 'ciencia_id' but different 'scopus_id'
-                            print(debug_text)
-                            print("\n  -3-  I N C O N S I S T E N C Y  --\n")
-                            print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                            debug(debug_text)
+                            debug("\n  -3-  I N C O N S I S T E N C Y  --\n")
+                            debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
                             
                             reason += ' different scopus'
                             #merge = False
@@ -776,9 +921,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                     elif test.doi != None and doi != None:
                         if test.doi != doi:
                             # Same 'ciencia_id' but different 'doi'
-                            print(debug_text)
-                            print("\n  -4-  I N C O N S I S T E N C Y  --\n")
-                            print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                            debug(debug_text)
+                            debug("\n  -4-  I N C O N S I S T E N C Y  --\n")
+                            debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
                             
                             reason += ' different doi'
                             #merge = False
@@ -799,9 +944,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                         elif test.scopus_id != None and scopus_id != None:
                             if test.scopus_id != scopus_id:
                                 # Same 'doi' but different 'scopus_id'
-                                print(debug_text)
-                                print("\n  -5-  I N C O N S I S T E N C Y  --\n")
-                                print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                                debug(debug_text)
+                                debug("\n  -5-  I N C O N S I S T E N C Y  --\n")
+                                debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
 
                                 reason += ' different scopus'
                                 #merge = False
@@ -812,9 +957,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                         elif test.ciencia_id != None and ciencia_id != None:
                             if test.ciencia_id != ciencia_id:
                                 # Same 'doi' but different 'ciencia_id'
-                                print(debug_text)
-                                print("\n  -6-  I N C O N S I S T E N C Y  --\n")
-                                print("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
+                                debug(debug_text)
+                                debug("\n  -6-  I N C O N S I S T E N C Y  --\n")
+                                debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
                                 
                                 reason += ' different ciencia'
                                 #merge = False
@@ -830,7 +975,7 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
     if merge:
 
         debug_text += "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk)
-        print(debug_text)
+        debug(debug_text)
 
         # The 3 main fields are already taken care of
         # (scopus_id, ciencia_id, doi)
@@ -862,7 +1007,7 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
     
     else:
 
-        print("", end=".")
+        debug("", end=".")
 
         if from_scopus:
             from_scopus = True
@@ -902,6 +1047,7 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                 publication.areas.add(area)
         
         publication.save()
+        debug(publication.pretty())
         author.publications.add(publication)
         author.save()
 
@@ -911,10 +1057,10 @@ def sync_scopus_docs(pk):
     author = Author.objects.get(pk=pk)
     
     
-    data = scopus_author_docs(author.scopus_id)
+    #data = scopus_author_docs(author.scopus_id)
 
-    #with open(str(pk)+'.json', encoding="utf-8") as fh:
-    #    data = json.load(fh)
+    with open(str(author.scopus_id)+'.json', encoding="utf-8") as fh:
+        data = json.load(fh)
     
     new = 0
     s_sc = 0
@@ -1042,7 +1188,6 @@ def sync_scopus_docs(pk):
     print('  s_doi_d_sc', s_doi_d_sc)
     print('  s_doi_d_cv', s_doi_d_cv)
 
-
 def sync_scopus_author(pk):
     author = Author.objects.get(pk=pk)
     data = scopus_author(author.scopus_id)
@@ -1125,6 +1270,12 @@ def sync_scopus_author(pk):
 def sync_ciencia(pk):
     author = Author.objects.get(pk=pk)
     data = ciencia_author(author.ciencia_id)
+
+    with open(f'{author.scopus_id}_pubs_ciencia.txt', 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    if data == None:
+        return []
 
     # DOMAINS
     for data_domain in data['domains']:
@@ -1302,5 +1453,7 @@ def sync_ciencia(pk):
     author.synced_ciencia = True
     author.save()
 
-
+def debug(string, end="\n"):
+    if True:
+        print(string, end=end)
 
