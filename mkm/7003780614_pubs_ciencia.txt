@@ -1,0 +1,1621 @@
+{
+    "ciencia_id": "6012-FBC9-2C32",
+    "name": "Armando J Pinho",
+    "bio": "Armando J Pinho. Concluiu o Título de Agregado em Engenharia Eletrotécnica em 2009/10/13 pela Universidade de Aveiro, Doutoramento em Engenharia Electrotécnica em 1996/11/11 pela Universidade de Aveiro, Mestrado em Engenharia Electrotécnica e de Computadores em 1991/07/17 pela Universidade de Lisboa Instituto Superior Técnico e  Licenciatura em Engenharia Electrónica e de Telecomunicações em 1988/09/26 peloa Universidade de Aveiro. É Professor Catedrático na Universidade de Aveiro. Publicou 53 artigos em revistas especializadas. Possui 3 capítulos de livros e 1 livro. Recebeu 2 prémios e/ou homenagens. Participa e/ou participou como Investigador em vários projetos e Investigador responsável em 8 projetos. Atua nas áreas de Ciências da Engenharia e Tecnologias com ênfase em Engenharia Eletrotécnica, Eletrónica e Informática. Nas suas atividades profissionais interagiu com 117 colaboradores em coautorias de trabalhos científicos. No seu currículo Ciência Vitae os termos mais frequentes na contextualização da produção científica, tecnológica e artístico-cultural são: Data compression; Image compression; Kolmogorov complexity; Computational biology; Computer Science and Engineering - Computer Engineering; .",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        }
+    ],
+    "degrees": [
+        "Engenharia Electrotécnica e de Computadores",
+        "Engenharia Eletrotécnica",
+        "Engenharia Electrónica e de Telecomunicações",
+        "Engenharia Electrotécnica"
+    ],
+    "distinctions": [
+        "RecPad-96 best paper award",
+        "One of the 10 IEEE Transactions on Image Processing Outstanding Reviewers of the Year"
+    ],
+    "projects": [
+        {
+            "name": "IEETA - UIDB/00127/2020",
+            "desc": null,
+            "year": "2020",
+            "areas": []
+        },
+        {
+            "name": "IEETA - UIDP/00127/2020",
+            "desc": null,
+            "year": "2020",
+            "areas": []
+        },
+        {
+            "name": "IEETA - UID/CEC/00127/2019",
+            "desc": null,
+            "year": "2019",
+            "areas": []
+        },
+        {
+            "name": "The normalized relative compression distance",
+            "desc": null,
+            "year": "2016",
+            "areas": []
+        },
+        {
+            "name": "IEETA - UID/CEC/00127/2013",
+            "desc": null,
+            "year": "2015",
+            "areas": []
+        },
+        {
+            "name": "IEETA - PEst-C/EEI/UI0127/2011",
+            "desc": null,
+            "year": "2011",
+            "areas": []
+        },
+        {
+            "name": "Analysis of DNA sequences through compression-based complexity profiles",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "Institute of Electronics and Informatics Engineering of Aveiro",
+            "desc": null,
+            "year": "2015",
+            "areas": []
+        },
+        {
+            "name": "Incentive - UI 127 - 2014",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "COMODIE - COmputational MOtif DIscovery in vertebrate genomes using Extreme-valued tuples",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "DNA finite-contex models",
+            "desc": null,
+            "year": "2008",
+            "areas": []
+        }
+    ],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "A Reference-Free Lossless Compression Algorithm for DNA Sequences Using a Competitive Prediction of Two Classes of Weighted Models",
+            "date": "2019-11-02",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127695",
+            "doi": "10.3390/e21111074",
+            "scopus_id": "2-s2.0-85075423993",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Extended-alphabet finite-context models",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127697",
+            "doi": "10.1016/j.patrec.2018.05.026",
+            "scopus_id": "2-s2.0-85048212515",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Metagenomic Composition Analysis of an Ancient Sequenced Polar Bear Jawbone from Svalbard",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127698",
+            "doi": "10.3390/genes9090445",
+            "scopus_id": "2-s2.0-85053281877",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "FALCON-meta: a method to infer metagenomic composition of ancient DNA",
+            "date": "2018-02-18",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127699",
+            "doi": "10.1101/267179",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Learning and planning of robot tasks with loops",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127700",
+            "doi": "10.1109/ICARSC.2017.7964091",
+            "scopus_id": "2-s2.0-85026865200",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Learning robot tasks with loops from experiences to enhance robot adaptability",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127701",
+            "doi": "10.1016/j.patrec.2017.06.003",
+            "scopus_id": "2-s2.0-85020823138",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DNA word analysis based on the distribution of the distances between symmetric words",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127702",
+            "doi": "10.1038/s41598-017-00646-2",
+            "scopus_id": "2-s2.0-85018995715",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Dissimilar symmetric word pairs in the human genome",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127703",
+            "doi": "10.1007/978-3-319-60816-7_30",
+            "scopus_id": "2-s2.0-85025122728",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Visualization of distinct DNA regions of the modern human relatively to a neanderthal genome",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127705",
+            "doi": "10.1007/978-3-319-58838-4_26",
+            "scopus_id": "2-s2.0-85021224756",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Substitutional tolerant markov models for relative compression of DNA sequences",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127706",
+            "doi": "10.1007/978-3-319-60816-7_32",
+            "scopus_id": "2-s2.0-85025129828",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Impact of the acquisition time on ECG compression-based biometric identification systems",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127707",
+            "doi": "10.1007/978-3-319-58838-4_19",
+            "scopus_id": "2-s2.0-85021253678",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Cryfa: A tool to compact and encrypt FASTA files",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127708",
+            "doi": "10.1007/978-3-319-60816-7_37",
+            "scopus_id": "2-s2.0-85025168586",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the approximation of the Kolmogorov complexity for DNA sequences",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127709",
+            "doi": "10.1007/978-3-319-58838-4_29",
+            "scopus_id": "2-s2.0-85021204963",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the role of inverted repeats in DNA sequence similarity",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127710",
+            "doi": "10.1007/978-3-319-60816-7_28",
+            "scopus_id": "2-s2.0-85025115709",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Efficient Compression of Genomic Sequences",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127711",
+            "doi": "10.1109/DCC.2016.60",
+            "scopus_id": "2-s2.0-85007344704",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Authorship Attribution Using Relative Compression",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127712",
+            "doi": "10.1109/DCC.2016.53",
+            "scopus_id": "2-s2.0-85010032070",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Experience-based robot task Learning and planning with goal inference",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127713",
+            "doi": null,
+            "scopus_id": "2-s2.0-84989889577",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis-driven lossy compression of DNA microarray images",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127714",
+            "doi": "10.1109/TMI.2015.2489262",
+            "scopus_id": "2-s2.0-84959449231",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Experience-Based Planning Domains: an Integrated Learning and Deliberation Approach for Intelligent Robots: Robot Task Learning from Human Instructions",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127715",
+            "doi": "10.1007/s10846-016-0371-y",
+            "scopus_id": "2-s2.0-84991220046",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A survey on data compression methods for biological sequences",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127723",
+            "doi": "10.3390/info7040056",
+            "scopus_id": "2-s2.0-85007393441",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Progressive lossy-to-lossless compression of DNA microarray images",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127724",
+            "doi": "10.1109/LSP.2016.2547893",
+            "scopus_id": "2-s2.0-84964922592",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gathering and conceptualizing plan-based robot activity experiences",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127725",
+            "doi": "10.1007/978-3-319-08338-4_72",
+            "scopus_id": "2-s2.0-84945936412",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Simplification of image partitions for region-based image coding",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127726",
+            "doi": null,
+            "scopus_id": "2-s2.0-84937057524",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Planning with activity schemata: Closing the loop in experience-based planning",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127727",
+            "doi": "10.1109/ICARSC.2015.35",
+            "scopus_id": "2-s2.0-84933055924",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ECG biometric identification: A compression based approach",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127728",
+            "doi": "10.1109/EMBC.2015.7319719",
+            "scopus_id": "2-s2.0-84953229210",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Histogram packing, total variation, and lossless image compression",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127729",
+            "doi": null,
+            "scopus_id": "2-s2.0-84960921800",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improvement of the lossless compression of images with quasi-sparse histograms",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127730",
+            "doi": null,
+            "scopus_id": "2-s2.0-84960901151",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An alignment-free method to find and visualise rearrangements between pairs of DNA sequences",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127731",
+            "doi": "10.1038/srep10203",
+            "scopus_id": "2-s2.0-84929429321",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mafco: A compression tool for MAF files",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127732",
+            "doi": "10.1371/journal.pone.0116082",
+            "scopus_id": "2-s2.0-84929484087",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Three minimal sequences found in Ebola virus genomes and absent from human DNA",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127733",
+            "doi": "10.1093/bioinformatics/btv189",
+            "scopus_id": "2-s2.0-84943639957",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The natural scale of signals: Pulse duration and superoscillations",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127734",
+            "doi": "10.1109/ICASSP.2014.6854388",
+            "scopus_id": "2-s2.0-84905248151",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information profiles for DNA pattern discovery",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127735",
+            "doi": "10.1109/DCC.2014.54",
+            "scopus_id": "2-s2.0-84903478465",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploring deep Markov models in genomic data compression using sequence pre-analysis",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127736",
+            "doi": null,
+            "scopus_id": "2-s2.0-84911892507",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Compression-based normal similarity measures for DNA sequences",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127737",
+            "doi": "10.1109/ICASSP.2014.6853630",
+            "scopus_id": "2-s2.0-84905270632",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Compression of microarray images using a binary tree decomposition",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127738",
+            "doi": null,
+            "scopus_id": "2-s2.0-84911937859",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A conditional compression distance that unveils insights of the genomic evolution",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127739",
+            "doi": "10.1109/DCC.2014.58",
+            "scopus_id": "2-s2.0-84903434093",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "XS: A FASTQ read simulator",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127740",
+            "doi": "10.1186/1756-0500-7-40",
+            "scopus_id": "2-s2.0-84892407950",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mfcompress: A compression tool for fasta and multi-fasta data",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127741",
+            "doi": "10.1093/bioinformatics/btt594",
+            "scopus_id": "2-s2.0-84891355058",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A new compressor for measuring distances among images",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127743",
+            "doi": "10.1007/978-3-319-11758-4_4",
+            "scopus_id": "2-s2.0-84921770705",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A method to detect repeated unknown patterns in an image",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127745",
+            "doi": "10.1007/978-3-319-11758-4_2",
+            "scopus_id": "2-s2.0-84908703833",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An ontology-based multi-level robot architecture for learning from experiences",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127746",
+            "doi": null,
+            "scopus_id": "2-s2.0-84883297909",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The rank of random binary matrices and distributed storage applications",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127747",
+            "doi": "10.1109/LCOMM.2012.120612.122169",
+            "scopus_id": "2-s2.0-84873058970",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The breakdown of the word symmetry in the human genome",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127748",
+            "doi": "10.1016/j.jtbi.2013.06.032",
+            "scopus_id": "2-s2.0-84880640252",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Inter-STOP symbol distances for the identification of coding regions.",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127749",
+            "doi": null,
+            "scopus_id": "2-s2.0-84902933766",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DNA sequences at a glance",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127750",
+            "doi": "10.1371/journal.pone.0079922",
+            "scopus_id": "2-s2.0-84896690677",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Bacterial DNA sequence compression models using artificial neural networks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127751",
+            "doi": "10.3390/e15093435",
+            "scopus_id": "2-s2.0-84885362601",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A genomic distance for assembly comparison based on compressed maximal exact matches",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127752",
+            "doi": "10.1109/TCBB.2013.77",
+            "scopus_id": "2-s2.0-84887940267",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A compression model for DNA multiple sequence alignment blocks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127753",
+            "doi": "10.1109/TIT.2012.2236605",
+            "scopus_id": "2-s2.0-84876759103",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Segmentation of DNA into Coding and Noncoding Regions Based on Inter-STOP Symbols Distances",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127754",
+            "doi": "10.1007/978-3-319-00578-2_4",
+            "scopus_id": "2-s2.0-84880349505",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Finite-context models for image compression",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127756",
+            "doi": null,
+            "scopus_id": "2-s2.0-84856735864",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Computation of the normalized compression distance of DNA sequences using a mixture of finite-context models",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127757",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861969601",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "GReEn: A tool for efficient compression of genome resequencing data",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127758",
+            "doi": "10.1093/nar/gkr1124",
+            "scopus_id": "2-s2.0-84857860662",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the detection of unknown locally repeating patterns in images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127759",
+            "doi": "10.1007/978-3-642-31295-3_19",
+            "scopus_id": "2-s2.0-84864151066",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exon: A web-based software toolkit for DNA sequence analysis",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127760",
+            "doi": "10.1007/978-3-642-28839-5_25",
+            "scopus_id": "2-s2.0-84861206336",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Compression of whole genome alignments using a mixture of finite-context models",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127761",
+            "doi": "10.1007/978-3-642-31295-3_42",
+            "scopus_id": "2-s2.0-84864149326",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Image similarity using the normalized compression distance based on finite context models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127762",
+            "doi": "10.1109/ICIP.2011.6115866",
+            "scopus_id": "2-s2.0-84856259569",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Finding unknown repeated patterns in images",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127763",
+            "doi": null,
+            "scopus_id": "2-s2.0-84863760761",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DNA synthetic sequences generation using multiple competing Markov models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127764",
+            "doi": "10.1109/SSP.2011.5967639",
+            "scopus_id": "2-s2.0-80052209762",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Bacteria DNA sequence compression using a mixture of finite-context models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127765",
+            "doi": "10.1109/SSP.2011.5967637",
+            "scopus_id": "2-s2.0-80052249011",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A probabilistic image analysis problem and random linear equations",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127766",
+            "doi": "10.1109/SSP.2011.5967693",
+            "scopus_id": "2-s2.0-80052245168",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Symbolic to numerical conversion of DNA sequences using finite-context models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127767",
+            "doi": null,
+            "scopus_id": "2-s2.0-84863762407",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Random block-angular matrices for distributed data storage",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127768",
+            "doi": "10.1109/ICASSP.2011.5946697",
+            "scopus_id": "2-s2.0-80051629646",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the representability of complete genomes by multiple competing finite-context (Markov) models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127769",
+            "doi": "10.1371/journal.pone.0021588",
+            "scopus_id": "2-s2.0-79959722141",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Minimal absent words in prokaryotic and eukaryotic genomes",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127770",
+            "doi": "10.1371/journal.pone.0016065",
+            "scopus_id": "2-s2.0-79551646687",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Minimal absent words in four human genome assemblies",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127771",
+            "doi": "10.1371/journal.pone.0029344",
+            "scopus_id": "2-s2.0-84855261012",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Inter-dinucleotide distances in the human genome: an analysis of the whole-genome and protein-coding distributions.",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127772",
+            "doi": null,
+            "scopus_id": "2-s2.0-84855542023",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Genome analysis with distance to the nearest dissimilar nucleotide",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127773",
+            "doi": "10.1016/j.jtbi.2011.01.038",
+            "scopus_id": "2-s2.0-79952139725",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An efficient omnidirectional vision system for soccer robots: From calibration to object detection",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127774",
+            "doi": "10.1016/j.mechatronics.2010.05.006",
+            "scopus_id": "2-s2.0-79952628276",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Distances between dinucleotides in the human genome",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127775",
+            "doi": "10.1007/978-3-642-19914-1_28",
+            "scopus_id": "2-s2.0-80052936474",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Compressing the human genome using exclusively Markov models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127776",
+            "doi": "10.1007/978-3-642-19914-1_29",
+            "scopus_id": "2-s2.0-80052957011",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Complexity profiles of DNA sequences using finite-context models",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127777",
+            "doi": "10.1007/978-3-642-25364-5_8",
+            "scopus_id": "2-s2.0-82155191383",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploring homology using the concept of three-state entropy vector",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127778",
+            "doi": "10.1007/978-3-642-16001-1_14",
+            "scopus_id": "2-s2.0-78049460831",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Progressive lossless compression of medical images",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127779",
+            "doi": null,
+            "scopus_id": "2-s2.0-70349437371",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DNA coding using finite-context models and arithmetic coding",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127780",
+            "doi": "10.1109/ICASSP.2009.4959928",
+            "scopus_id": "2-s2.0-70349192866",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On finding minimal absent words",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127781",
+            "doi": "10.1186/1471-2105-10-137",
+            "scopus_id": "2-s2.0-67650878985",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lossless compression of microarray images using image-dependent finite-context models",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127782",
+            "doi": "10.1109/TMI.2008.929095",
+            "scopus_id": "2-s2.0-59449096695",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Genome analysis with inter-nucleotide distances",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127783",
+            "doi": "10.1093/bioinformatics/btp546",
+            "scopus_id": "2-s2.0-75949102506",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127784",
+            "doi": null,
+            "scopus_id": "2-s2.0-68749090046",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Autonomous configuration of parameters in robotic digital cameras",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127785",
+            "doi": "10.1007/978-3-642-02172-5_12",
+            "scopus_id": "2-s2.0-68749090043",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Variable order finite-context models in DNA sequence coding",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127786",
+            "doi": "10.1007/978-3-642-02172-5_59",
+            "scopus_id": "2-s2.0-68749102414",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Inverted-repeats-aware finite-context models for DNA coding",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127787",
+            "doi": null,
+            "scopus_id": "2-s2.0-84863762123",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A bitplane based algorithm for lossless compression of DNA microarray images",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127788",
+            "doi": null,
+            "scopus_id": "2-s2.0-84863764744",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "L-infinity progressive image compression",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127789",
+            "doi": null,
+            "scopus_id": "2-s2.0-84898065095",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An omnidirectional vision system for soccer robots",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127790",
+            "doi": null,
+            "scopus_id": "2-s2.0-38349011052",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A bit-plane approach for lossless compression of color-quantized images",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127791",
+            "doi": null,
+            "scopus_id": "2-s2.0-33947662496",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lossy-to-lossless compression of images based on binary tree decomposition",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127792",
+            "doi": "10.1109/ICIP.2006.312812",
+            "scopus_id": "2-s2.0-78649882735",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lossless compression of microarray images",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127793",
+            "doi": "10.1109/ICIP.2006.312802",
+            "scopus_id": "2-s2.0-48149100015",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploring three-base periodicity for DNA compression and modeling",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127794",
+            "doi": null,
+            "scopus_id": "2-s2.0-33947690256",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A three-state model for DNA protein-coding regions",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127795",
+            "doi": "10.1109/TBME.2006.879477",
+            "scopus_id": "2-s2.0-33750311852",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of standards for microarray lossless image compression",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127796",
+            "doi": "10.1109/TBME.2005.869782",
+            "scopus_id": "2-s2.0-33344465888",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the relation between Memon's and the modified Zeng's palette reordering methods",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127797",
+            "doi": "10.1016/j.imavis.2006.02.005",
+            "scopus_id": "2-s2.0-33646866379",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Enhancing the reactivity of the vision subsystem in autonomous mobile robots using real-time techniques",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127798",
+            "doi": null,
+            "scopus_id": "2-s2.0-37249064834",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lossless bit-plane compression of microarray images using 3D context models",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127799",
+            "doi": null,
+            "scopus_id": "2-s2.0-84887250729",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A context adaptation model for the compression of images with a reduced number of colors",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127800",
+            "doi": "10.1109/ICIP.2005.1530161",
+            "scopus_id": "2-s2.0-33749587629",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Variable size block-based histogram packing for lossless coding of color-quantized images",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127801",
+            "doi": null,
+            "scopus_id": "2-s2.0-11144267772",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Palette reordering under an exponential power distribution model of prediction residuals",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127802",
+            "doi": "10.1109/ICIP.2004.1418800",
+            "scopus_id": "2-s2.0-20444459122",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A survey on palette reordering methods for improving the compression of color-indexed images",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127803",
+            "doi": "10.1109/TIP.2004.836168",
+            "scopus_id": "2-s2.0-7444260917",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A note on Zeng's technique for color reindexing of palette-based images",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127804",
+            "doi": "10.1109/LSP.2003.821758",
+            "scopus_id": "2-s2.0-0442295580",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lossless compression of color-quantized images using block-based palette reordering",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127805",
+            "doi": null,
+            "scopus_id": "2-s2.0-35048840166",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluation of some reordering techniques for image VQ index compression",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127806",
+            "doi": null,
+            "scopus_id": "2-s2.0-35048904504",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "JPEG 2000 coding of color-quantized images",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127807",
+            "doi": null,
+            "scopus_id": "2-s2.0-0345566188",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Block-based histogram packing of color-quantized images",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127808",
+            "doi": "10.1109/ICME.2003.1220924",
+            "scopus_id": "2-s2.0-11144291958",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the efficiency of luminance-based palette reordering of color-quantized images",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127809",
+            "doi": null,
+            "scopus_id": "2-s2.0-35248849911",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Preprocessing techniques for improving the lossless compression of images with quasi-sparse and locally sparse histograms",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127810",
+            "doi": "10.1109/ICME.2002.1035861",
+            "scopus_id": "2-s2.0-32344433123",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A comparison of methods for improving the lossless compression of images with sparse histograms",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127811",
+            "doi": null,
+            "scopus_id": "2-s2.0-0036452011",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Why does histogram packing improve lossless compression rates?",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127812",
+            "doi": "10.1109/LSP.2002.803018",
+            "scopus_id": "2-s2.0-0036699055",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An online preprocessing technique for improving the lossless compression of images with sparse histograms",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127813",
+            "doi": "10.1109/97.988715",
+            "scopus_id": "2-s2.0-0036222746",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Region-based near-lossless image compression",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127814",
+            "doi": null,
+            "scopus_id": "2-s2.0-0034855017",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the impact of histogram sparseness on some lossless image compression techniques",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127815",
+            "doi": null,
+            "scopus_id": "2-s2.0-0035173498",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptive context-based arithmetic coding of arbitrary contour maps",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127816",
+            "doi": "10.1109/97.889634",
+            "scopus_id": "2-s2.0-0035129080",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "High quality region-based video coding",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127817",
+            "doi": null,
+            "scopus_id": "2-s2.0-0034442224",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Constrained and unconstrained simplification of image partitions encoded with the method of transition points",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127818",
+            "doi": null,
+            "scopus_id": "2-s2.0-0034445530",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A JBIG-based approach to the encoding of contour maps",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127819",
+            "doi": "10.1109/83.841538",
+            "scopus_id": "2-s2.0-0033732224",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Encoding of image partitions using a standard technique for lossless image compression",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127820",
+            "doi": null,
+            "scopus_id": "2-s2.0-0032649118",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improvement of region-based image coding by neural networks",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127822",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031634788",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Encoding of closed boundaries using transition points",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127823",
+            "doi": null,
+            "scopus_id": "2-s2.0-0032305920",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Asymptotic approximation power for neural networks",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127824",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031628559",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A method for encoding region boundaries based on transition points",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127825",
+            "doi": null,
+            "scopus_id": "2-s2.0-0032024276",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Contextual edge detection using a recurrent neural network",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127826",
+            "doi": "10.1007/3-540-63508-4_130",
+            "scopus_id": "2-s2.0-84957702838",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the partition of binary edge maps as a first step for quantitative quality evaluation",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127827",
+            "doi": null,
+            "scopus_id": "2-s2.0-0030398674",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Figures of merit for quality assessment of binary edge maps",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127828",
+            "doi": null,
+            "scopus_id": "2-s2.0-0030398658",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Example of tuned neural network based noise reduction filters for images",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127829",
+            "doi": null,
+            "scopus_id": "2-s2.0-0029771971",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Edge detection filters based on artificial neural networks",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127830",
+            "doi": null,
+            "scopus_id": "2-s2.0-71049172745",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Some results on edge enhancement with neural networks",
+            "date": "1994-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127831",
+            "doi": "10.1109/ICIP.1994.413717",
+            "scopus_id": "2-s2.0-84999252419",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Errorless restoration algorithms for band-limited images",
+            "date": "1994-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127832",
+            "doi": "10.1109/ICIP.1994.413868",
+            "scopus_id": "2-s2.0-84999648359",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling non-linear edge detectors using artificial neural networks",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127833",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027844833",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exact reconstruction algorithms for band-limited images",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127834",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027815272",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Image compression based on quadtree segmentation and artificial neural networks",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1127835",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027588481",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Information-Theoretical Method for Emotion Classification",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129719",
+            "doi": "10.1007/978-3-030-31635-8_30",
+            "scopus_id": "2-s2.0-85075882231",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "GeCo2: An Optimized Tool for Lossless Compression and Analysis of DNA Sequences",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129720",
+            "doi": "10.1007/978-3-030-23873-5_17",
+            "scopus_id": "2-s2.0-85068615307",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Visualization of Similar Primer and Adapter Sequences in Assembled Archaeal Genomes",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129721",
+            "doi": "10.1007/978-3-030-23873-5_16",
+            "scopus_id": "2-s2.0-85068589420",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detection and Characterization of Local Inverted Repeats Regularities",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129722",
+            "doi": "10.1007/978-3-030-23873-5_14",
+            "scopus_id": "2-s2.0-85068623167",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A probabilistic method to find and visualize distinct regions in protein sequences",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129723",
+            "doi": "10.23919/EUSIPCO.2019.8902695",
+            "scopus_id": "2-s2.0-85075624401",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Distribution of Distances Between Symmetric Words in the Human Genome: Analysis of Regular Peaks",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129724",
+            "doi": "10.1007/s12539-019-00326-x",
+            "scopus_id": "2-s2.0-85068597987",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "AC: A Compression Tool for Amino Acid Sequences",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129725",
+            "doi": "10.1007/s12539-019-00322-1",
+            "scopus_id": "2-s2.0-85062690507",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Cryfa: A secure encryption tool for genomic data",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129726",
+            "doi": "10.1093/bioinformatics/bty645",
+            "scopus_id": "2-s2.0-85058744156",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "NET-ASAR: A tool for DNA sequence search based on data compression",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129727",
+            "doi": "10.1007/978-3-319-98702-6_14",
+            "scopus_id": "2-s2.0-85052975949",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A DNA sequence corpus for compression benchmark",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129728",
+            "doi": "10.1007/978-3-319-98702-6_25",
+            "scopus_id": "2-s2.0-85052935792",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Analysis of Symmetric Words in Human DNA: Adjacent vs Non-adjacent Word Distances",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129729",
+            "doi": "10.1007/978-3-319-98702-6_10",
+            "scopus_id": "2-s2.0-85052960907",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Compression of amino acid sequences",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129730",
+            "doi": "10.1007/978-3-319-98702-6_13",
+            "scopus_id": "2-s2.0-85052918694",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Metagenomic composition analysis of sedimentary ancient DNA from the Isle of Wight",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129731",
+            "doi": "10.23919/EUSIPCO.2018.8553297",
+            "scopus_id": "2-s2.0-85059813385",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Comparison of compression-based measures with application to the evolution of primate genomes",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129732",
+            "doi": "10.3390/e20060393",
+            "scopus_id": "2-s2.0-85048723392",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Biometric and emotion identification: An ECG compression based method",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129733",
+            "doi": "10.3389/fpsyg.2018.00467",
+            "scopus_id": "2-s2.0-85045075792",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Comparing Reverse Complementary Genomic Words Based on Their Distance Distributions and Frequencies",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129734",
+            "doi": "10.1007/s12539-017-0273-0",
+            "scopus_id": "2-s2.0-85042850854",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Application of Data Compression Models to Handwritten Digit Classification",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129735",
+            "doi": "10.1007/978-3-030-01449-0_41",
+            "scopus_id": "2-s2.0-85054849437",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An approach to robot task learning and planning with loops",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129736",
+            "doi": "10.1109/IROS.2017.8206501",
+            "scopus_id": "2-s2.0-85041943595",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Adaptive ECG data compression based on multiple artificial neural networks",
+            "date": "1992-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129737",
+            "doi": "10.1109/IEMBS.1992.5761214",
+            "scopus_id": "2-s2.0-85066934453",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quality-controlled image compression",
+            "date": "1992-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1129738",
+            "doi": "10.1109/IEMBS.1992.5762238",
+            "scopus_id": "2-s2.0-85024194119",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Competitive Segmentation Performance on Near-Lossless and Lossy Compressed Remote Sensing Images",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2271149",
+            "doi": "10.1109/LGRS.2019.2934997",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Multimodal Emotion Evaluation: A Physiological Model for Cost-Effective Emotion Classification",
+            "date": "2020-06-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2271150",
+            "doi": "10.3390/s20123510",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Statistical n-Best AFD-Based Sparse Representation for ECG Biometric Identification",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2866134",
+            "doi": "10.1109/TIM.2021.3119138",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the Impact of the Data Acquisition Protocol on ECG Biometric Identification",
+            "date": "2021-07-07",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2866135",
+            "doi": "10.3390/s21144645",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "AC2: An Efficient Protein Sequence Compression Tool Using Artificial Neural Networks and Cache-Hash Models",
+            "date": "2021-04-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2866136",
+            "doi": "10.3390/e23050530",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

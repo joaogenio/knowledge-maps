@@ -1,31 +1,31 @@
-[33749658613] [None                ] [10.1007/11867661_33           ] [SC   ] [Conference Paper     ] [ 3  2 Ab   ] [2006-01-01] Face recognition from spatially-morphed video sequences
-[36849026198] [None                ] [10.1172/JCI32556              ] [SC   ] [Article              ] [ 0  1 Ab   ] [2007-12-01] Visual phenotype in Williams-Beuren syndrome challenges magnocellular theories explaining human neurodevelopmental visual cortical disorders
-[38349032865] [None                ] [10.1007/978-3-540-77002-2_10  ] [SC   ] [Conference Paper     ] [ 2  2 Ab   ] [2007-01-01] Change detection in learning histograms from data streams
-[70349306674] [None                ] [10.1007/978-3-642-03767-2_97  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2009-09-28] Decision trees using the minimum Entropy-of-error principle
-[70350664414] [None                ] [10.1145/1557019.1557060       ] [SC   ] [Conference Paper     ] [20  2 Ab   ] [2009-11-09] Issues in evaluation of stream learning algorithms
-[71049127519] [None                ] [10.1007/978-3-642-04747-3_12  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2009-11-16] Regression trees from data streams with drift detection
-[72949119714] [None                ] [10.1145/1529282.1529616       ] [SC   ] [Conference Paper     ] [ 9  1 Ab   ] [2009-12-01] Evaluating algorithms that learn from data streams
-[77951175741] [None                ] [10.1109/ICDMW.2009.27         ] [SC   ] [Conference Paper     ] [17  3 Ab   ] [2009-12-01] Change detection in climate data over the Iberian Peninsula
-[77956031241] [None                ] [10.3233/978-1-60750-606-5-1119] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2010-01-01] Drift severity metric
-[77957913416] [None                ] [10.1007/978-3-642-12519-5_2   ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2010-10-20] Monitoring incremental histogram distribution for change detection in data streams
-[81855161442] [None                ] [10.1007/978-3-642-25085-9_42  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2011-11-28] New results on minimum error entropy decision trees
-[84867324839] [None                ] [10.1109/CBMS.2012.6266382     ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2012-10-16] Contributions to a decision support system based on depth of anesthesia signals
-[84874143472] [None                ] [10.1007/s12530-012-9063-4     ] [SC   ] [Article              ] [ 8  4 Ab   ] [2013-03-01] Real-time algorithm for changes detection in depth of anesthesia signals
-[84874677467] [None                ] [10.1007/s10994-012-5320-9     ] [SC   ] [Article              ] [19  2 Ab   ] [2013-03-01] On evaluating stream learning algorithms
-[84875949106] [None                ] [10.3233/978-1-58603-893-9-163 ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2008-01-01] Learning from data streams: Synopsis and change detection
-[84881059400] [None                ] [10.3182/20120829-3-HU-2029.00076] [SC   ] [Conference Paper     ] [ 8  1 Ab FT] [2012-01-01] Online evaluation of a changes detection algorithm for depth of anesthesia signals ?
-[84891919356] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2011-12-01] Improving cardiotocography monitoring: A memory-less stream learning approach Position Paper
-[84891930961] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2011-12-01] Contributions to an advisory system for changes detection in depth of anesthesia signals
-[84923124107] [None                ] [10.1007/s13748-014-0050-9     ] [SC   ] [Article              ] [ 8  1 Ab   ] [2014-01-01] Constructing fading histograms from data streams
-[84923169171] [None                ] [10.3233/978-1-61499-419-0-1095] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] Comparing data distribution using fading histograms
-[84991065620] [None                ] [10.1145/2968219.2968284       ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2016-09-12] Inhalation during fire experiments: An approach derived through ECG
-[85011390069] [None                ] [10.1109/MED.2009.5164701      ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2009-01-01] Total mass TCI driven by parametric estimation
-[85022078857] [None                ] [10.1007/978-3-319-60438-1_48  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2017-01-01] Supporting the page-hinkley test with empirical mode decomposition for change detection
-[85030115407] [None                ] [10.1007/s41060-017-0043-4     ] [SC   ] [Article              ] [ 8  5 Ab   ] [2017-05-01] Fading histograms in detecting distribution and concept changes
-[85065908297] [None                ] [10.1007/s12530-018-9241-0     ] [SC   ] [Article              ] [ 5  4 Ab   ] [2019-06-01] Detecting changes in the heart rate of firefighters to prevent smoke inhalation and health effects
-[85075853819] [None                ] [10.1007/978-3-030-31635-8_103 ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] rOral: Use of a Teledentistry System for Remote Images Assessment in Oral Health Education Workflows
-[85101281107] [None                ] [10.3390/s21051561             ] [SC   ] [Article              ] [15  5 Ab   ] [2021-03-01] Classification of critical levels of co exposure of firefigthers through monitored heart rate
-[85102744502] [None                ] [10.1007/978-3-030-69963-5_8   ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2021-01-01] Classification of Anxiety Based on EDA and HR
-[85126020860] [None                ] [10.3390/s22062202             ] [SC   ] [Article              ] [16  6 Ab   ] [2022-03-01] Initial Study Using Electrocardiogram for Authentication and Identification
-[85129818769] [None                ] [10.1007/978-3-031-04881-4_14  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2022-01-01] Exploring Alterations in Electrocardiogram During the Postoperative Pain
-[85129865306] [None                ] [10.1007/978-3-031-04881-4_19  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2022-01-01] Characterization of Emotions Through Facial Electromyogram Signals
+[33749658613] [None    ] [10.1007/11867661_33 ] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [2006-01-01] Face recognition from spatially-morphed video sequences
+[36849026198] [None    ] [10.1172/jci32556    ] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2007-12-01] Visual phenotype in Williams-Beuren syndrome challenges magnocellular theories explaining human neurodevelopmental visual cortical disorders
+[38349032865] [None    ] [978-3-540-77002-2_10] [[91mSC[0m   ] [Conference Paper] [1  2  2 Ab   ] [2007-01-01] Change detection in learning histograms from data streams
+[70349306674] [None    ] [978-3-642-03767-2_97] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2009-09-28] Decision trees using the minimum Entropy-of-error principle
+[70350664414] [None    ] [1145/1557019.1557060] [[91mSC[0m   ] [Conference Paper] [1 20  2 Ab   ] [2009-11-09] Issues in evaluation of stream learning algorithms
+[71049127519] [None    ] [978-3-642-04747-3_12] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2009-11-16] Regression trees from data streams with drift detection
+[72949119714] [None    ] [1145/1529282.1529616] [[91mSC[0m   ] [Conference Paper] [1  9  1 Ab   ] [2009-12-01] Evaluating algorithms that learn from data streams
+[77951175741] [None    ] [0.1109/icdmw.2009.27] [[91mSC[0m   ] [Conference Paper] [1 17  3 Ab   ] [2009-12-01] Change detection in climate data over the Iberian Peninsula
+[77956031241] [None    ] [8-1-60750-606-5-1119] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2010-01-01] Drift severity metric
+[77957913416] [None    ] [/978-3-642-12519-5_2] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2010-10-20] Monitoring incremental histogram distribution for change detection in data streams
+[81855161442] [None    ] [978-3-642-25085-9_42] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2011-11-28] New results on minimum error entropy decision trees
+[84867324839] [None    ] [09/cbms.2012.6266382] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2012-10-16] Contributions to a decision support system based on depth of anesthesia signals
+[84874143472] [None    ] [07/s12530-012-9063-4] [[91mSC[0m   ] [Article         ] [1  8  4 Ab   ] [2013-03-01] Real-time algorithm for changes detection in depth of anesthesia signals
+[84874677467] [None    ] [07/s10994-012-5320-9] [[91mSC[0m   ] [Article         ] [1 19  2 Ab   ] [2013-03-01] On evaluating stream learning algorithms
+[84875949106] [None    ] [78-1-58603-893-9-163] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2008-01-01] Learning from data streams: Synopsis and change detection
+[84881059400] [None    ] [0829-3-hu-2029.00076] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab FT] [2012-01-01] Online evaluation of a changes detection algorithm for depth of anesthesia signals ?
+[84891919356] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2011-12-01] Improving cardiotocography monitoring: A memory-less stream learning approach Position Paper
+[84891930961] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2011-12-01] Contributions to an advisory system for changes detection in depth of anesthesia signals
+[84923124107] [None    ] [07/s13748-014-0050-9] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2014-01-01] Constructing fading histograms from data streams
+[84923169171] [None    ] [8-1-61499-419-0-1095] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Comparing data distribution using fading histograms
+[84991065620] [None    ] [1145/2968219.2968284] [[91mSC[0m   ] [Conference Paper] [1  8  5 Ab   ] [2016-09-12] Inhalation during fire experiments: An approach derived through ECG
+[85011390069] [None    ] [109/med.2009.5164701] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2009-01-01] Total mass TCI driven by parametric estimation
+[85022078857] [None    ] [978-3-319-60438-1_48] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2017-01-01] Supporting the page-hinkley test with empirical mode decomposition for change detection
+[85030115407] [None    ] [07/s41060-017-0043-4] [[91mSC[0m   ] [Article         ] [1  8  5 Ab   ] [2017-05-01] Fading histograms in detecting distribution and concept changes
+[85065908297] [None    ] [07/s12530-018-9241-0] [[91mSC[0m   ] [Article         ] [1  5  4 Ab   ] [2019-06-01] Detecting changes in the heart rate of firefighters to prevent smoke inhalation and health effects
+[85075853819] [None    ] [78-3-030-31635-8_103] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] rOral: Use of a Teledentistry System for Remote Images Assessment in Oral Health Education Workflows
+[85101281107] [None    ] [10.3390/s21051561   ] [[91mSC[0m   ] [Article         ] [1 15  5 Ab   ] [2021-03-01] Classification of critical levels of co exposure of firefigthers through monitored heart rate
+[85102744502] [None    ] [/978-3-030-69963-5_8] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2021-01-01] Classification of Anxiety Based on EDA and HR
+[85126020860] [None    ] [10.3390/s22062202   ] [[91mSC[0m   ] [Article         ] [1 16  6 Ab   ] [2022-03-01] Initial Study Using Electrocardiogram for Authentication and Identification
+[85129818769] [None    ] [978-3-031-04881-4_14] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2022-01-01] Exploring Alterations in Electrocardiogram During the Postoperative Pain
+[85129865306] [None    ] [978-3-031-04881-4_19] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2022-01-01] Characterization of Emotions Through Facial Electromyogram Signals

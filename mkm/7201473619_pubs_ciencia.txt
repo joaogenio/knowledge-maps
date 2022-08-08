@@ -1,0 +1,15 @@
+{
+    "ciencia_id": "1017-692D-B08A",
+    "name": "Carlos Manuel Azevedo Costa",
+    "bio": "",
+    "domains": [
+        {
+            "name": "Exact Sciences - Computer and Information Sciences",
+            "code": "70200009"
+        }
+    ],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": []
+}

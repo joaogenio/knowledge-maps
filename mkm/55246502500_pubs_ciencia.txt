@@ -1,0 +1,331 @@
+{
+    "ciencia_id": "F416-9D69-9303",
+    "name": "EURICO FARINHA PEDROSA",
+    "bio": "EURICO FARINHA PEDROSA. Completed the Doutoramento in MAP Doctoral Program in Computer Science - MAPi in 2018 by Universidade de Aveiro and  Mestrado in Mestrado Integrado em Engenharia de Computadores e Telemática in 2010 by Universidade de Aveiro. Published 3 articles in journals. Has 1 section(s) of books. Organized 1 event(s). Participated in 5 event(s). Co-supervised 2 MSc dissertation(s). Has received 6 awards and/or honors. Participates and/or participated as Pos-doctoral Fellow in 1 project(s) and Research Fellow in 3 project(s). Works in the area(s) of Engineering and Technology with emphasis on Electrotechnical Engineering, Electronics and Informatics. In his curriculum Ciência Vitae the most frequent terms in the context of scientific, technological and artistic-cultural output are: Indoor localization methods; Elderly care support; Ambient intelligence; Robots at home; spoken dialog, human-computer interaction, mobile service robot; scan matching; dynamic likelihood field; sparse-dense; volumetric grids; online data compression; multithreading; mixed reality; artificial intelligence; PiTank; game; visual odometry; robotics; fisheye camera; ROS; software; validation; ; autonomous navigation; computer vision; autonomous driving; multi-camera; lidar; pointcloud; 3d reconstruction; radar; sensor; localization; mapping; sensor fusion; bioradar; mobile robots; SLAM; non-linear least squares optimization; robot localization; robot mapping; .",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        }
+    ],
+    "degrees": [
+        "Mestrado Integrado em Engenharia de Computadores e Telemática",
+        "MAP Doctoral Program in Computer Science - MAPi"
+    ],
+    "distinctions": [
+        "1 st place in the FNR Freebots competition with the CAMBADA@Home",
+        "3 rd place in the RoboCup 2013 MSL competition with CAMBADA, team of University of Aveiro.",
+        "3 rd place in the FNR Autonomous Driving competition, 2015",
+        "1 st place in the FNR MSL competition with CAMBADA, 2012",
+        "1 st place in the MSL competition with CAMBADA, 2011",
+        "1 st place in the FNR MSL competition with CAMBADA, 2010"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "A Non-Linear Least Squares Approach to SLAM using a Dynamic Likelihood Field",
+            "date": "2019-03-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759361",
+            "doi": "10.1007/s10846-017-0763-7",
+            "scopus_id": "2-s2.0-85039043621",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Skill-based anytime agent architecture for European Robotics Challenges in realistic environments: EuRoC Challenge 2, Stage II — realistic labs",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759362",
+            "doi": "10.1016/j.robot.2019.06.006",
+            "scopus_id": "2-s2.0-85070213536",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Precise and efficient pose estimation of stacked objects for mobile manipulation in industrial robotics challenges",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759363",
+            "doi": "10.1080/01691864.2019.1617780",
+            "scopus_id": "2-s2.0-85066896804",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Mobile manipulation for autonomous packaging in realistic environments: EuRoC challenge 2, stage II, showcase",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759364",
+            "doi": "10.1109/ICARSC.2018.8374188",
+            "scopus_id": "2-s2.0-85048892736",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A sparse-dense approach for efficient grid mapping",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759365",
+            "doi": "10.1109/ICARSC.2018.8374173",
+            "scopus_id": "2-s2.0-85048861103",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Human-Robot Collaboration and Safety Management for Logistics and Manipulation Tasks",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759366",
+            "doi": "10.1007/978-3-319-70836-2_2",
+            "scopus_id": "2-s2.0-85042220407",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Skill-based anytime agent architecture for logistics and manipulation tasks: EuRoC Challenge 2, Stage II - Realistic Labs: Benchmarking",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759367",
+            "doi": "10.1109/ICARSC.2017.7964075",
+            "scopus_id": "2-s2.0-85026869156",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Efficient localization based on scan matching with a continuous likelihood field",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759368",
+            "doi": "10.1109/ICARSC.2017.7964053",
+            "scopus_id": "2-s2.0-85026864903",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Rich and robust human-robot interaction on gesture recognition for assembly tasks",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759369",
+            "doi": "10.1109/ICARSC.2017.7964069",
+            "scopus_id": "2-s2.0-85026864168",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Neural regularization jointly involving neurons and connections for robust image classification",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759370",
+            "doi": "10.1109/MFI.2017.8170451",
+            "scopus_id": "2-s2.0-85042368378",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improving and benchmarking motion planning for a mobile manipulator operating in unstructured environments",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759371",
+            "doi": "10.1007/978-3-319-65340-2_41",
+            "scopus_id": "2-s2.0-85028989811",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Scan Matching Approach to SLAM with a Dynamic Likelihood Field",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759372",
+            "doi": "10.1109/ICARSC.2016.23",
+            "scopus_id": "2-s2.0-85010460599",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A skill-based architecture for pick and place manipulation tasks",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759373",
+            "doi": "10.1007/978-3-319-23485-4_45",
+            "scopus_id": "2-s2.0-84945908825",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Online SLAM Based on a Fast Scan-Matching Algorithm",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759374",
+            "doi": "10.1007/978-3-642-40669-0_26",
+            "scopus_id": "2-s2.0-84884726130",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "From an autonomous soccer robot to a robotic platform for elderly care",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-759376",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861984252",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "From an Autonomous Soccer Robot to a Robotic Platform for Eldery Care",
+            "date": "2012-01-01",
+            "keywords": [
+                "Indoor localization methods",
+                "Elderly care support",
+                "Ambient intelligence",
+                "Robots at home"
+            ],
+            "ciencia_id": "cv-prod-id-759400",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Spoken Communication with CAMBADA@Home Service Robot",
+            "date": "2012-01-01",
+            "keywords": [
+                "spoken dialog, human-computer interaction, mobile service robot"
+            ],
+            "ciencia_id": "cv-prod-id-759398",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861961543",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Efficient localization and mapping for robotics : algorithms and tools",
+            "date": "2018-01-01",
+            "keywords": [
+                "Informática",
+                "Robótica",
+                "Autómatos",
+                "Localização (Sistemas de comunicação sem fios)",
+                "Algoritmos de computação",
+                "Localização",
+                "Mapeamento",
+                "Slam",
+                "Algoritmos"
+            ],
+            "ciencia_id": "cv-prod-id-759397",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Simulated environment for robotic soccer agents",
+            "date": "2010-01-01",
+            "keywords": [
+                "Engenharia de computadores",
+                "Robótica - Competição",
+                "Robots móveis",
+                "Sistemas multiagentes",
+                "Simulação por computador"
+            ],
+            "ciencia_id": "cv-prod-id-759399",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Machine Learning Methods for Radar-Based People Detection and Tracking by Mobile Robots",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-983097",
+            "doi": "10.1007/978-3-030-36150-1_31",
+            "scopus_id": "2-s2.0-85079096158",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Bringing Innovative Robotic Technologies from Research Labs to Industrial End-users",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1064032",
+            "doi": "10.1007/978-3-030-34507-5_7",
+            "scopus_id": "2-s2.0-85087543982",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Asynchronous mmWave Radar Interference for Indoor Intrusion Detection",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1064140",
+            "doi": "10.1007/978-3-030-36150-1_30",
+            "scopus_id": "2-s2.0-85079098351",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Robot Self Position based on Asynchronous Millimetre Wave Radar Interference",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1064159",
+            "doi": "10.1109/IPIN.2019.8911809",
+            "scopus_id": "2-s2.0-85076670191",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "LaMa - An Open Source Localization and Mapping library",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1198333",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F416-9D69-9303"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "A ROS framework for the extrinsic calibration of intelligent vehicles: A multi-sensor, multi-modal approach",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2022295",
+            "doi": "10.1016/j.robot.2020.103558",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Fast Grid SLAM Based on Particle Filter with Scan Matching and Multithreading",
+            "date": "2020-04-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2022297",
+            "doi": "10.1109/icarsc49921.2020.9096191",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Camera to LiDAR calibration approach through the optimization of atomic transformations",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2638907",
+            "doi": "10.1016/j.eswa.2021.114894",
+            "scopus_id": "2-s2.0-85103644407",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A General Approach to Hand-Eye Calibration Through the Optimization of Atomic Transformations",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2638908",
+            "doi": "10.1109/TRO.2021.3062306",
+            "scopus_id": "2-s2.0-85103787190",
+            "authors": []
+        }
+    ]
+}

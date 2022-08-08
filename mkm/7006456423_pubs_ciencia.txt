@@ -1,0 +1,1533 @@
+{
+    "ciencia_id": "3515-EA0C-24B9",
+    "name": "Ana Maria Perfeito Tome",
+    "bio": "",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Study on the usage feasibility of continuous-wave radar for emotion recognition",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051281",
+            "doi": "10.1016/j.bspc.2019.101835",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A recognition–verification system for noisy faces based on an empirical mode decomposition with Green’s functions",
+            "date": "2020-03-20",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051282",
+            "doi": "10.1007/s00500-019-04150-9",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Towards lifelong assistive robotics: A tight coupling between object perception and manipulation",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051287",
+            "doi": "10.1016/j.neucom.2018.02.066",
+            "scopus_id": "2-s2.0-85043759771",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Non-negative sub-tensor ensemble factorization (NsTEF) algorithm. A new incremental tensor factorization for large data sets.",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051288",
+            "doi": "10.1016/j.sigpro.2017.09.012",
+            "scopus_id": "2-s2.0-85030835061",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "MDSLAB: A toolbox for the analysis of point sets using multi-dimensional scaling, hartigan dip test and a-stable distributions",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051289",
+            "doi": "10.1088/2057-1976/aac19c",
+            "scopus_id": "2-s2.0-85056374675",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Frequency-resolved dynamic functional connectivity reveals scale-stable features of connectivity-states",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051290",
+            "doi": "10.3389/fnhum.2018.00253",
+            "scopus_id": "2-s2.0-85055114002",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of multi-dimensional scaling and electromagnetic tracking in high dose rate brachytherapy",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051291",
+            "doi": "10.1088/1361-6560/aa8944",
+            "scopus_id": "2-s2.0-85029896044",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A tool to automatically analyze electromagnetic tracking data from high dose rate brachytherapy of breast cancer patients",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051292",
+            "doi": "10.1371/journal.pone.0183608",
+            "scopus_id": "2-s2.0-85029716962",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A multi-variate blind source separation algorithm",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051293",
+            "doi": "10.1016/j.cmpb.2017.08.019",
+            "scopus_id": "2-s2.0-85028328076",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of particle filters for electromagnetic tracking in high dose rate brachytherapy",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051294",
+            "doi": "10.1088/1361-6560/aa8591",
+            "scopus_id": "2-s2.0-85029724960",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A combined cICA-EEMD analysis of EEG recordings from depressed or schizophrenic patients during olfactory stimulation",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051295",
+            "doi": "10.1088/1741-2552/14/1/016011",
+            "scopus_id": "2-s2.0-85010471609",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Cognitive radio and spectrum sensing",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051296",
+            "doi": "10.1201/b21234",
+            "scopus_id": "2-s2.0-85052704335",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Z-images",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051297",
+            "doi": "10.1007/978-3-319-58838-4_20",
+            "scopus_id": "2-s2.0-85021189400",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Energy based clustering method to estimate channel occupation of LTE in unlicensed spectrum",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051298",
+            "doi": "10.1007/978-3-319-59773-7_33",
+            "scopus_id": "2-s2.0-85027183330",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Object learning and grasping capabilities for robotic home assistants",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051299",
+            "doi": "10.1007/978-3-319-68792-6_23",
+            "scopus_id": "2-s2.0-85006399952",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An orthographic descriptor for 3D object learning and recognition",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051300",
+            "doi": "10.1109/IROS.2016.7759612",
+            "scopus_id": "2-s2.0-85006365227",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Concurrent 3D Object Category Learning and Recognition Based on Topic Modelling and Human Feedback",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051301",
+            "doi": "10.1109/ICARSC.2016.28",
+            "scopus_id": "2-s2.0-85010297513",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Hierarchical object representation for open-ended object category learning and recognition",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051302",
+            "doi": null,
+            "scopus_id": "2-s2.0-85019182538",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A green's function-based Bi-dimensional empirical mode decomposition",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051306",
+            "doi": "10.1016/j.ins.2016.01.089",
+            "scopus_id": "2-s2.0-84959519803",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "3D object perception and perceptual learning in the RACE project",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051307",
+            "doi": "10.1016/j.robot.2015.09.019",
+            "scopus_id": "2-s2.0-84949908319",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptive threshold spectrum sensing based on Expectation Maximization algorithm",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051308",
+            "doi": "10.1016/j.phycom.2016.10.004",
+            "scopus_id": "2-s2.0-84995743831",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Combined EMD-sLORETA analysis of EEG data Collected during a Contour integration task",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051309",
+            "doi": "10.1371/journal.pone.0167957",
+            "scopus_id": "2-s2.0-85004154185",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "GOOD: A global orthographic object descriptor for 3D object recognition and manipulation",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051310",
+            "doi": "10.1016/j.patrec.2016.07.006",
+            "scopus_id": "2-s2.0-84994232513",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "ERP correlates of error processing during performance on the Halstead Category Test",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051311",
+            "doi": "10.1016/j.ijpsycho.2016.06.010",
+            "scopus_id": "2-s2.0-84976524087",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Alzheimer’s disease brain areas: The machine learning support for blind localization",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051312",
+            "doi": null,
+            "scopus_id": "2-s2.0-84964091184",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Functional biomedical images of Alzheimer’s disease. A green’s function-based empirical mode decomposition study",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051313",
+            "doi": null,
+            "scopus_id": "2-s2.0-84966455279",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Cognitive bio-radar: The natural evolution of bio-signals measurement",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051314",
+            "doi": "10.1007/s10916-016-0572-8",
+            "scopus_id": "2-s2.0-84984911350",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis of fMRI images with bi-dimensional empirical mode decomposition based-on Green's functions",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051315",
+            "doi": "10.1016/j.bspc.2016.06.019",
+            "scopus_id": "2-s2.0-84978174432",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Concurrent learning of visual codebooks and object categories in open-ended domains",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051316",
+            "doi": "10.1109/IROS.2015.7353715",
+            "scopus_id": "2-s2.0-84958162360",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Empirical mode decomposition of multiple ECG leads for catheter ablation long-term outcome prediction in persistent atrial fibrillation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051317",
+            "doi": "10.1109/EMBC.2015.7318311",
+            "scopus_id": "2-s2.0-84953256634",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An adaptive object perception system based on environment exploration and Bayesian learning",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051318",
+            "doi": "10.1109/ICARSC.2015.37",
+            "scopus_id": "2-s2.0-84933040723",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Face recognition by fast and stable bi-dimensional empirical mode decomposition",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051319",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938888746",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Empirical mode decomposition for noninvasive atrial fibrillation dominant frequency estimation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051320",
+            "doi": "10.1109/EUSIPCO.2015.7362851",
+            "scopus_id": "2-s2.0-84963968457",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improving performance of bio-radars for remote heartbeat and breathing detection by using cyclostationary features",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051321",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938886964",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Interactive Open-Ended Learning for 3D Object Recognition: An Approach and Experiments",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051322",
+            "doi": "10.1007/s10846-015-0189-z",
+            "scopus_id": "2-s2.0-84945464134",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "EMDLAB: A toolbox for analysis of single-trial EEG dynamics using empirical mode decomposition",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051323",
+            "doi": "10.1016/j.jneumeth.2015.06.020",
+            "scopus_id": "2-s2.0-84937118241",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Ensemble empirical mode decomposition analysis of EEG data collected during a contour integration task",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051324",
+            "doi": "10.1371/journal.pone.0119489",
+            "scopus_id": "2-s2.0-84929353619",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "From binary NMF to variational bayes NMF: A probabilistic approach",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051325",
+            "doi": "10.1007/978-3-662-48331-2_1",
+            "scopus_id": "2-s2.0-84956667895",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Blind detection of cyclostacionary signals taking advantage of cyclic spectrum leakage",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051327",
+            "doi": "10.1109/EuMC.2014.6986728",
+            "scopus_id": "2-s2.0-84929253961",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Blind detection of cyclostacionary signals taking advantage of cyclic spectrum leakage",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051328",
+            "doi": "10.1109/EuMIC.2014.6997912",
+            "scopus_id": "2-s2.0-84921272043",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Grounding language in perception for scene conceptualization in autonomous robots",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051329",
+            "doi": null,
+            "scopus_id": "2-s2.0-84904861654",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Wideband spectrum sensing for Cognitive Radio",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051330",
+            "doi": null,
+            "scopus_id": "2-s2.0-84911866464",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A perceptual memory system for grounding semantic representations in intelligent service robots",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051332",
+            "doi": "10.1109/IROS.2014.6942861",
+            "scopus_id": "2-s2.0-84911489131",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Interactive teaching and experience extraction for learning about objects and robot activities",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051333",
+            "doi": "10.1109/ROMAN.2014.6926246",
+            "scopus_id": "2-s2.0-84933051386",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An interactive open-ended learning approach for 3D object recognition",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051334",
+            "doi": "10.1109/ICARSC.2014.6849761",
+            "scopus_id": "2-s2.0-84905034271",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Bidimensional ensemble empirical mode decomposition of functional biomedical images taken during a contour integration task",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051335",
+            "doi": "10.1016/j.bspc.2014.04.011",
+            "scopus_id": "2-s2.0-84902172144",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Bayesian approach to the Lee-Seung update rules for NMF",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051336",
+            "doi": "10.1016/j.patrec.2014.04.013",
+            "scopus_id": "2-s2.0-84901397987",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A new Bayesian approach to nonnegative matrix factorization: Uniqueness and model order selection",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051337",
+            "doi": "10.1016/j.neucom.2014.02.021",
+            "scopus_id": "2-s2.0-84899975861",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Physarum Learner: A bio-inspired way of learning structure from data",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051338",
+            "doi": "10.1016/j.eswa.2014.03.002",
+            "scopus_id": "2-s2.0-84898456127",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "EEG study on affective valence elicited by novel and familiar pictures using ERD/ERS and SVM-RFE",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051339",
+            "doi": "10.1007/s11517-013-1126-6",
+            "scopus_id": "2-s2.0-84896701469",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Visual detection of vehicles using a bag-of-features approach",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051340",
+            "doi": "10.1109/Robotica.2013.6623539",
+            "scopus_id": "2-s2.0-84890891280",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Feature extraction and classification of biosignals: Emotion valence detection from EEG signals",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051341",
+            "doi": null,
+            "scopus_id": "2-s2.0-84877946225",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A new physarum learner for network structure learning from biomedical data",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051342",
+            "doi": null,
+            "scopus_id": "2-s2.0-84877966645",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An ontology-based multi-level robot architecture for learning from experiences",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051343",
+            "doi": null,
+            "scopus_id": "2-s2.0-84883297909",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A logistic non-negative matrix factorization approach to binary data sets",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051344",
+            "doi": "10.1007/s11045-013-0240-9",
+            "scopus_id": "2-s2.0-84921296370",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spectral turbulence measuring as feature extraction method from EEG on affective computing",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051345",
+            "doi": "10.1016/j.bspc.2013.09.006",
+            "scopus_id": "2-s2.0-84885651684",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Weighted sliding empirical mode decomposition for online analysis of biomedical time series",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051346",
+            "doi": "10.1007/s11063-012-9270-9",
+            "scopus_id": "2-s2.0-84873408833",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Individual EEG differences in affective valence processing in women with low and high neuroticism",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051347",
+            "doi": "10.1016/j.clinph.2013.03.026",
+            "scopus_id": "2-s2.0-84881095782",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Application of SVM-RFE on EEG signals for detecting the most relevant scalp regions linked to affective valence processing",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051356",
+            "doi": "10.1016/j.eswa.2012.10.013",
+            "scopus_id": "2-s2.0-84872833087",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Sliding empirical mode decomposition-brain status data analysis and modeling",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051357",
+            "doi": "10.1007/978-3-642-28696-4-12",
+            "scopus_id": "2-s2.0-84867630248",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Brain connectivity analysis: A short survey",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051358",
+            "doi": "10.1155/2012/412512",
+            "scopus_id": "2-s2.0-84869061502",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Singular spectrum analysis for an automated solvent artifact removal and baseline correction of 1D NMR spectra",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051359",
+            "doi": "10.1016/j.jmr.2011.03.001",
+            "scopus_id": "2-s2.0-79955901962",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Unsupervised feature extraction via kernel subspace techniques",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051360",
+            "doi": "10.1016/j.neucom.2010.11.011",
+            "scopus_id": "2-s2.0-78650724578",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Sliding empirical mode decomposition for on-line analysis of biomedical time series",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051361",
+            "doi": "10.1007/978-3-642-21501-8_37",
+            "scopus_id": "2-s2.0-79957969968",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Brain status data analysis by sliding EMD",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051362",
+            "doi": "10.1007/978-3-642-21326-7_9",
+            "scopus_id": "2-s2.0-79956332239",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "SSA of biomedical signals: A linear invariant systems approach",
+            "date": "2010-09-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051363",
+            "doi": "http://dx.doi.org/10.4310/SII.2010.v3.n3.a8",
+            "scopus_id": null,
+            "authors": [
+                "3515-EA0C-24B9"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploratory matrix factorization for PET image analysis",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051364",
+            "doi": "10.1007/978-3-642-13769-3_56",
+            "scopus_id": "2-s2.0-77954578837",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sliding empirical mode decomposition",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051365",
+            "doi": "10.1109/IJCNN.2010.5596536",
+            "scopus_id": "2-s2.0-79959429073",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Clustering evoked potential signals using subspace methods",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051366",
+            "doi": "10.1109/IEMBS.2010.5627971",
+            "scopus_id": "2-s2.0-78650807610",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Brain status data analyzed by empirical mode decomposition",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051367",
+            "doi": "10.1109/IJCNN.2010.5596533",
+            "scopus_id": "2-s2.0-79959416181",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Person identification using VEP signals and SVM classifiers",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051368",
+            "doi": "10.1109/IJCNN.2010.5596616",
+            "scopus_id": "2-s2.0-79959476340",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Spatiotemporal ICA applied to retinotopic fMRI data",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051369",
+            "doi": "10.1109/IEMBS.2010.5627291",
+            "scopus_id": "2-s2.0-78650840487",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Empirical mode decomposition - An introduction",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051370",
+            "doi": "10.1109/IJCNN.2010.5596829",
+            "scopus_id": "2-s2.0-79959445738",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Clustering evoked potential signals using subspace methods.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051371",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903875543",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spatiotemporal ICA applied to retinotopic fMRI data.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051372",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903865012",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exploratory matrix factorization for PET image analysis.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051373",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903868466",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automated solvent artifact removal and base plane correction of multidimensional NMR protein spectra by AUREMOL-SSA",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051374",
+            "doi": "10.1007/s10858-010-9414-z",
+            "scopus_id": "2-s2.0-77954690616",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Machine learning techniques to identify marker genes for diagnostic classification of microarrays",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051375",
+            "doi": null,
+            "scopus_id": "2-s2.0-85049053220",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Advances in EEG-based biometry",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051376",
+            "doi": "10.1007/978-3-642-13775-4_29",
+            "scopus_id": "2-s2.0-77955351275",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "How to apply nonlinear subspace techniques to univariate biomedical time series",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051378",
+            "doi": "10.1109/TIM.2009.2016385",
+            "scopus_id": "2-s2.0-67949115716",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A matrix factorization classifier for knowledge-based microarray analysis",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051380",
+            "doi": "10.1007/978-3-540-85861-4_17",
+            "scopus_id": "2-s2.0-58149141891",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Minimum determinant constraint for non-negative matrix factorization",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051381",
+            "doi": "10.1007/978-3-642-00599-2_14",
+            "scopus_id": "2-s2.0-67149144290",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Serial evolution",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051382",
+            "doi": "10.1007/978-3-642-02264-7_25",
+            "scopus_id": "2-s2.0-71049127449",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Feature extraction using linear and non-linear subspace techniques",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051383",
+            "doi": "10.1007/978-3-642-04277-5_12",
+            "scopus_id": "2-s2.0-70450174935",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Automatic generation of biped walk behavior using genetic algorithms",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051384",
+            "doi": "10.1007/978-3-642-02478-8_101",
+            "scopus_id": "2-s2.0-68749098693",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Spatiotemporal group ICA applied to fMRI datasets",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051385",
+            "doi": null,
+            "scopus_id": "2-s2.0-61849111220",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ICA analysis of retina images for glaucoma classification",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051386",
+            "doi": null,
+            "scopus_id": "2-s2.0-61849131687",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Comparison of unsupervised and supervised gene selection methods",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051387",
+            "doi": null,
+            "scopus_id": "2-s2.0-61849110360",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Subspace techniques to remove artifacts from EEG: A quantitative analysis",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051388",
+            "doi": null,
+            "scopus_id": "2-s2.0-61849106041",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spatiotemporal group ICA applied to fMRI datasets.",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051389",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903862378",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "ICA analysis of retina images for glaucoma classification.",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051390",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903872760",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Comparison of unsupervised and supervised gene selection methods.",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051391",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903863968",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Subspace techniques to remove artifacts from EEG: a quantitative analysis.",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051392",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903874982",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Knowledge-based gene expression classification via matrix factorization",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051393",
+            "doi": "10.1093/bioinformatics/btn245",
+            "scopus_id": "2-s2.0-48249153778",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Hybridizing sparse component analysis with genetic algorithms for microarray analysis",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051394",
+            "doi": "10.1016/j.neucom.2007.09.017",
+            "scopus_id": "2-s2.0-44649149032",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "KPCA denoising and the pre-image problem revisited",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051396",
+            "doi": "10.1016/j.dsp.2007.08.001",
+            "scopus_id": "2-s2.0-44449135904",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Feature extraction using low-rank approximations of the kernel matrix",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051397",
+            "doi": "10.1007/978-3-540-69812-8_40",
+            "scopus_id": "2-s2.0-47749097600",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Single-channel electroencephalogram analysis using non-linear subspace techniques",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051398",
+            "doi": "10.1109/WISP.2007.4447577",
+            "scopus_id": "2-s2.0-51149104778",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "How to extract marker genes from microarray data sets",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051399",
+            "doi": "10.1109/IEMBS.2007.4353368",
+            "scopus_id": "2-s2.0-57649243989",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the use of KPCA to extract artifacts in one-dimensional biomedical signals",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051400",
+            "doi": "10.1109/MLSP.2006.275580",
+            "scopus_id": "2-s2.0-38949142965",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sparse nonnegative matrix factorization with genetic algorithms for microarray analysis",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051401",
+            "doi": "10.1109/IJCNN.2007.4370971",
+            "scopus_id": "2-s2.0-51749107029",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Greedy kernel PCA applied to single-channel EEG recordings",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051402",
+            "doi": "10.1109/IEMBS.2007.4353576",
+            "scopus_id": "2-s2.0-57649229037",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploring matrix factorization techniques for classification of gene expression profiles",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051403",
+            "doi": "10.1109/WISP.2007.4447571",
+            "scopus_id": "2-s2.0-51149109776",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploiting low-rank approximations of kernel matrices in denoising applications",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051404",
+            "doi": "10.1109/MLSP.2007.4414330",
+            "scopus_id": "2-s2.0-48149085332",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Greedy kernel PCA applied to single-channel EEG recordings.",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051407",
+            "doi": null,
+            "scopus_id": "2-s2.0-41149086826",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "How to extract marker genes from microarray data sets.",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051408",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903856859",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Greedy KPCA in biomedical signal processing",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051410",
+            "doi": null,
+            "scopus_id": "2-s2.0-38149027209",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Exploiting blind matrix decomposition techniques to identify diagnostic marker genes",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051411",
+            "doi": null,
+            "scopus_id": "2-s2.0-38149066889",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Blind matrix decomposition techniques to identify marker genes from microarrays",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051412",
+            "doi": null,
+            "scopus_id": "2-s2.0-38149124168",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Blind matrix decomposition via genetic optimization of sparseness and nonnegativity constraints",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051413",
+            "doi": null,
+            "scopus_id": "2-s2.0-38149008287",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Nonlinear projective techniques to extract artifacts in biomedical signals",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051414",
+            "doi": null,
+            "scopus_id": "2-s2.0-84862632240",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Extraction and separation of high-amplitude artifacts in electroencephalograms from epileptic patients",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051415",
+            "doi": null,
+            "scopus_id": "2-s2.0-33847202260",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Analyzing gene expression profiles with ICA",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051416",
+            "doi": null,
+            "scopus_id": "2-s2.0-33847182099",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Separation of water artifacts in 2D NOESY protein spectra using congruent matrix pencils",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051417",
+            "doi": "10.1016/j.neucom.2005.02.008",
+            "scopus_id": "2-s2.0-29444445090",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Providing an environment to teach DSP algorithms",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051428",
+            "doi": "10.1109/DSPWS.2002.1231120",
+            "scopus_id": "2-s2.0-84954213980",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On-line source separation of temporally correlated signals",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051429",
+            "doi": null,
+            "scopus_id": "2-s2.0-84960877722",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Blind Source Separation using a matrix pencil",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051430",
+            "doi": null,
+            "scopus_id": "2-s2.0-0033699187",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of backward adaptation in a perceptual audio coder",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051431",
+            "doi": "10.1109/89.848231",
+            "scopus_id": "2-s2.0-0034229796",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Generalized eigen-decomposition approach to blind source problems",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051432",
+            "doi": null,
+            "scopus_id": "2-s2.0-0033346023",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quantifying the objective quality of voxel based data visualizations produced by a ray caster: A proposal",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051433",
+            "doi": null,
+            "scopus_id": "2-s2.0-0030721073",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Practical course on real-time signal processing using C-50",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051434",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031334840",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Visualization and storage of biological signals in neurophysiology laboratory",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051435",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031293497",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Method to extract articulatory parameters from the speech signal using neural networks",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051436",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031360762",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Teaching the Theory of Signals and Systems a proposal for a curriculum",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051437",
+            "doi": null,
+            "scopus_id": "2-s2.0-8744247274",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Automated analysis of EEG: A new approach",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051438",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027807708",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sleep data integration and analysis an object oriented approach",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051439",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027885116",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Information processing models for sleep staging",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051440",
+            "doi": "10.1016/0957-4174(93)90032-2",
+            "scopus_id": "2-s2.0-0027677414",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Performance and training strategies in feedforward neural networks: An application to sleep scoring",
+            "date": "1989-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051441",
+            "doi": null,
+            "scopus_id": "2-s2.0-0024924867",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information processing models for automatic sleep scoring",
+            "date": "1989-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051442",
+            "doi": null,
+            "scopus_id": "2-s2.0-0024941209",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "HIDRA: A HIERARCHICAL INSTRUMENT FOR DISTRIBUTED REAL-TIME ANALYSIS OF BIOLOGICAL SIGNALS.",
+            "date": "1988-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051443",
+            "doi": null,
+            "scopus_id": "2-s2.0-0023670390",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "HIDRA: a hierarchical instrument for distributed real-time analysis of biological signals.",
+            "date": "1987-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051444",
+            "doi": null,
+            "scopus_id": "2-s2.0-0023506951",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "MULTI-PROCESSOR ELECTROENCEPHALOGRAM (EEG) ANALYZER.",
+            "date": "1983-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051445",
+            "doi": null,
+            "scopus_id": "2-s2.0-0020948165",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic removal of high-amplitude artefacts from single-channel electroencephalograms",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051446",
+            "doi": "10.1016/j.cmpb.2006.06.003",
+            "scopus_id": "2-s2.0-33746877580",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Denoising using local projective subspace methods",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051447",
+            "doi": "10.1016/j.neucom.2005.12.025",
+            "scopus_id": "2-s2.0-33745200994",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of simulated annealing to automatically assign decorrelated components in second-order blind source separation",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051448",
+            "doi": "10.1109/TBME.2005.863968",
+            "scopus_id": "2-s2.0-33646354420",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The generalized eigendecomposition approach to the blind source separation problem",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051449",
+            "doi": "10.1016/j.dsp.2005.06.002",
+            "scopus_id": "2-s2.0-33646158189",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Sparse nonnegative matrix factorization applied to microarray data sets",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051450",
+            "doi": "10.1007/11679363_32",
+            "scopus_id": "2-s2.0-33745711532",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "AutoAssign - An automatic assignment tool for independent components",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051451",
+            "doi": null,
+            "scopus_id": "2-s2.0-25144437861",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A hybridization of simulated annealing and local PCA for automatic component assignment within ICA",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051453",
+            "doi": null,
+            "scopus_id": "2-s2.0-25144438963",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An algorithm for automatic assignment of artifact-related independent components in biomedical signal analysis",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051454",
+            "doi": "10.1109/IJCNN.2005.1556289",
+            "scopus_id": "2-s2.0-33750099755",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the use of clustering and local singular spectrum analysis to remove ocular artifacts from electroencephalograms",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051455",
+            "doi": "10.1109/IJCNN.2005.1556298",
+            "scopus_id": "2-s2.0-33746915846",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DAMUSE - A new tool for denoising and blind source separation",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051456",
+            "doi": "10.1016/j.dsp.2005.01.004",
+            "scopus_id": "2-s2.0-19944416634",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Hybridizing sparse component analysis with genetic algorithms for blind source separation",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051457",
+            "doi": "10.1007/11573067_15",
+            "scopus_id": "2-s2.0-33745326586",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Blind source separation using time-delayed signals",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051458",
+            "doi": null,
+            "scopus_id": "2-s2.0-10844254846",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Kernel-PCA denoising of artifact-free protein NMR spectra",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051459",
+            "doi": "10.1109/IJCNN.2004.1380913",
+            "scopus_id": "2-s2.0-10844223640",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The analysis of heart rate variability using independent component signals",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051460",
+            "doi": null,
+            "scopus_id": "2-s2.0-11144253585",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Denoising using local ICA and Kernel-PCA",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051461",
+            "doi": "10.1109/IJCNN.2004.1380936",
+            "scopus_id": "2-s2.0-10844278202",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Delayed AMUSE - A tool for blind source separation and denoising",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051462",
+            "doi": null,
+            "scopus_id": "2-s2.0-35048849480",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Denoising using local ICA and a generalized eigendecomposition with time-delayed signals",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051463",
+            "doi": null,
+            "scopus_id": "2-s2.0-33750111744",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Approximate diagonalization approach to blind source separation with a subset of matrices",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051464",
+            "doi": "10.1109/ISSPA.2003.1224826",
+            "scopus_id": "2-s2.0-29444433457",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Removing water artefacts from 2D protein NMR spectra using GEVD with congruent matrix pencils",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051465",
+            "doi": "10.1109/ISSPA.2003.1224821",
+            "scopus_id": "2-s2.0-84904311389",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A generalized eigendecomposition approach using matrix pencils to remove artefacts from 2D NMR spectra",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1051466",
+            "doi": null,
+            "scopus_id": "2-s2.0-35248880526",
+            "authors": []
+        }
+    ]
+}

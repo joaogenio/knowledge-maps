@@ -1,0 +1,216 @@
+{
+    "ciencia_id": "7E11-82DC-09EC",
+    "name": "Carlos Manuel Santos Ferreira",
+    "bio": "",
+    "domains": [],
+    "degrees": [
+        "Economia e Gestão",
+        "Engenharia Electrónica e de Telecomunicações",
+        "Estatística e Investigação Operacional",
+        "Matemática"
+    ],
+    "distinctions": [],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Book",
+            "title": "An Information Management Framework to Industry 4.0: A Lean Thinking Approach",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132095",
+            "doi": "10.1007/978-3-030-02053-8_162",
+            "scopus_id": "2-s2.0-85055777410",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "National Patient Registry: A Web-based Technological Solution for Haemophilia in Portugal",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132096",
+            "doi": "10.1007/978-3-030-02053-8_148",
+            "scopus_id": "2-s2.0-85055827923",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluating and enhancing google tango localization in indoor environments using fiducial markers",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132097",
+            "doi": "10.1109/ICARSC.2018.8374174",
+            "scopus_id": "2-s2.0-85048857208",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An IT value management capability model for Portuguese universities: A Delphi study",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132098",
+            "doi": "10.1016/j.procs.2018.10.082",
+            "scopus_id": "2-s2.0-85061969027",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "The perception of tax complexity within local authorities' VAT framework: Evidence from Portugal",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132099",
+            "doi": "10.4018/978-1-5225-3731-1.ch018",
+            "scopus_id": "2-s2.0-85047335261",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Addressing a multi-objective capacitated location-routing problem using evolutionary algorithms",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132100",
+            "doi": null,
+            "scopus_id": "2-s2.0-85040930529",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Shape a business case process: An IT governance and IT value management practices viewpoint with COBIT 5.0",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132101",
+            "doi": "10.18803/capsi.v17.60-75",
+            "scopus_id": "2-s2.0-85028677724",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Effect of hand-avatar in a selection task using a tablet as input device in an immersive virtual environment",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132102",
+            "doi": "10.1109/3DUI.2017.7893364",
+            "scopus_id": "2-s2.0-85018939288",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Tax professionals' profiles concerning tax noncompliance and tax complexity: Empirical contributions from Portugal",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132103",
+            "doi": null,
+            "scopus_id": "2-s2.0-85042020362",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Portuguese haemophilia registry: Set of variables for a computerized solution",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132104",
+            "doi": "10.5482/HAMO-15-09-0027",
+            "scopus_id": "2-s2.0-85019495052",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Covering-based rural road network methodology for hilly regions of developing countries: Application in Nepal",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132105",
+            "doi": "10.1061/JTEPBS.0000013",
+            "scopus_id": "2-s2.0-85013128277",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "It value management capability enabled with COBIT 5 framework",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132106",
+            "doi": "10.1007/978-3-319-65930-5_35",
+            "scopus_id": "2-s2.0-85028683876",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Evaluation methods to support health information systems development: A framework supported in literature and practical experience",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132107",
+            "doi": "10.1007/978-3-319-58466-9_8",
+            "scopus_id": "2-s2.0-85025117076",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Freehand gesture-based 3D manipulation methods for interaction with large displays",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132108",
+            "doi": "10.1007/978-3-319-58697-7_10",
+            "scopus_id": "2-s2.0-85025152989",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Hemo@record: The Portuguese system for registration of patients with haemophilia and other congenital coagulopathies,Hemo@record: O sistema português de registro de pacientes com hemofilia e outras coagulopatias congénitas",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132109",
+            "doi": "10.18803/capsi.v16.124-138",
+            "scopus_id": "2-s2.0-85047082103",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Recognition of Goodwill and Other Intangible Assets in Business Combinations - The Portuguese Case",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132110",
+            "doi": "10.1111/auar.12073",
+            "scopus_id": "2-s2.0-84961239885",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A simple and effective evolutionary algorithm for the capacitated location-routing problem",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132111",
+            "doi": "10.1016/j.cor.2016.01.006",
+            "scopus_id": "2-s2.0-84955451591",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Goodwill and Mandatory Disclosure Compliance: A Critical Review of the Literature",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132112",
+            "doi": "10.1111/auar.12129",
+            "scopus_id": "2-s2.0-85010378552",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Developing 3D freehand gesture-based interaction methods for virtual walkthroughs: Using an iterative approach",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132113",
+            "doi": "10.4018/978-1-5225-0435-1.ch003",
+            "scopus_id": "2-s2.0-85014148227",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "LORE, a decision support tool for location, routing and location-routing problems",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2132114",
+            "doi": "10.1007/978-3-319-44896-1_17",
+            "scopus_id": "2-s2.0-84984797969",
+            "authors": []
+        }
+    ]
+}

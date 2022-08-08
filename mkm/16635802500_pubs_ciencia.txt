@@ -1,0 +1,665 @@
+{
+    "ciencia_id": "5B14-7FA6-5767",
+    "name": "José Maria Fernandes",
+    "bio": "JOSÉ MARIA FERNANDES received the B.Sc. and M.Sc. degrees in computer science from the University of Porto, Porto, in 1996 and 1998 respectively, and the Ph.D. degree in electrical engineering in 2010 from the University of Aveiro, Aveiro, Portugal. He is currently an Assistant Professor in programming and software engineering at the University of Aveiro, Aveiro, Portugal, and a Senior Researcher at IEETA (http://www.ieeta.pt), Aveiro, Portugal. His current interest is focused on the use of IT solutions for pervasive and distributed monitoring real-world scenarios to support decision/action. Currently, he has been focus on helping spatiotemporal characterization of human behavioral responses in real world (gait analysis, stress scenarios) and better understand city-wide patterns (traffic and environment) supported on data from buses telemetry & distributed sensors in the city of Porto.  ",
+    "domains": [],
+    "degrees": [
+        "Mestrado em Ciência de Computadores / Master in Computer Science",
+        "N/A",
+        "PhD Programme in Electric Engineering"
+    ],
+    "distinctions": [
+        "Best paper award (co-author)",
+        " 2nd Prize MSc Category ( as adviser of Bernardo Marques with work \"Physiology assessment tool using Virtual Reality\" )"
+    ],
+    "projects": [
+        {
+            "name": "S2MovingCity: Sensing and Serving a Moving City",
+            "desc": null,
+            "year": "2016",
+            "areas": []
+        },
+        {
+            "name": "VR2Market: Towards a Mobile Wearable Health Surveillance Product for First Response and other Hazardous Professions",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "Movement Disorders in Autistic Spectrum Disorders",
+            "desc": null,
+            "year": "2013",
+            "areas": []
+        },
+        {
+            "name": "VitalResponder 2.0: Intelligent management of critical events of stress, fatigue and smoke intoxication in forest firefighting",
+            "desc": null,
+            "year": "2013",
+            "areas": []
+        },
+        {
+            "name": "MISC - Massive Information Scavenging with Intelligent Transportation Systems",
+            "desc": null,
+            "year": "2009",
+            "areas": []
+        },
+        {
+            "name": "Vital Responder: Monitoring Stress among First Responder Professionals",
+            "desc": null,
+            "year": "2009",
+            "areas": []
+        },
+        {
+            "name": "Neural correlates of object recognition: structure-function correlations within the visual ventral stream, striatal and limbic circuits in health and disease",
+            "desc": null,
+            "year": "2007",
+            "areas": []
+        },
+        {
+            "name": "MovEpil3D - 3D movement quantification in epilepsy",
+            "desc": null,
+            "year": "2007",
+            "areas": []
+        },
+        {
+            "name": "GERES-med: Grid-Enabled REpositorieS for medical applications",
+            "desc": null,
+            "year": "2007",
+            "areas": []
+        },
+        {
+            "name": "BING -Brain Imaging Network Grid",
+            "desc": null,
+            "year": "2007",
+            "areas": []
+        },
+        {
+            "name": "EpilBI - Epileptogenic focus localization in a 3D multimodal Brain Imaging system.",
+            "desc": null,
+            "year": "2005",
+            "areas": []
+        },
+        {
+            "name": "Topo3D: Statistical Topographic Analysis of 3D Spatial and Temporal Distribution of Epileptic Spikes and its Sources in Realistic Brain Models",
+            "desc": null,
+            "year": "2002",
+            "areas": []
+        },
+        {
+            "name": "Functional and Morphologic Data Fusion for Epileptogenic Foci Localisation in Severe Epilepsies: Development and validation of a non-invasive methodology",
+            "desc": null,
+            "year": "2001",
+            "areas": []
+        },
+        {
+            "name": "Movement Quantification in Epilepsy: A new contribution for epileptic seizures classification",
+            "desc": null,
+            "year": "2000",
+            "areas": []
+        }
+    ],
+    "publications": [
+        {
+            "type": "Book",
+            "title": "Supporting the page-hinkley test with empirical mode decomposition for change detection",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222993",
+            "doi": "10.1007/978-3-319-60438-1_48",
+            "scopus_id": "2-s2.0-85022078857",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Foreword to the 6th Portuguese Software Engineering Doctoral Symposium (SEDES 2016)",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222994",
+            "doi": "10.1109/QUATIC.2016.055",
+            "scopus_id": "2-s2.0-85013800535",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The first Transthyretin Familial Amyloid Polyneuropathy gait quantification study - Preliminary results",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222995",
+            "doi": "10.1109/EMBC.2017.8037087",
+            "scopus_id": "2-s2.0-85032230564",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Inhalation during fire experiments: An approach derived through ECG",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222996",
+            "doi": "10.1145/2968219.2968284",
+            "scopus_id": "2-s2.0-84991065620",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A novel portable, low-cost kinect-based system for motion analysis in neurological diseases",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222997",
+            "doi": "10.1109/EMBC.2016.7591199",
+            "scopus_id": "2-s2.0-85009135298",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "NeuroKinect: A novel low-cost 3Dvideo-EEG ystem for epileptic seizure motion quantification",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222998",
+            "doi": "10.1371/journal.pone.0145669",
+            "scopus_id": "2-s2.0-84958211363",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "BeMonitored: Monitoring psychophysiology and behavior using Android in phobias",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-222999",
+            "doi": "10.3758/s13428-015-0633-9",
+            "scopus_id": "2-s2.0-84984620370",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Kinect v2 based system for Parkinson's disease assessment",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223000",
+            "doi": "10.1109/EMBC.2015.7318601",
+            "scopus_id": "2-s2.0-84953208317",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Monitoring physiology and behavior using Android in phobias",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223001",
+            "doi": "10.1109/EMBC.2015.7319206",
+            "scopus_id": "2-s2.0-84953264515",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "LIMBus: A lightweight remote monitoring system powered by iOS and BLE",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223002",
+            "doi": "10.4108/icst.mobiquitous.2015.260249",
+            "scopus_id": "2-s2.0-84946010530",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "VANESS: DNS for nomadic users in vehicular networks",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223003",
+            "doi": "10.4108/icst.mobiquitous.2015.260262",
+            "scopus_id": "2-s2.0-84946014590",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Message based integration in Cyber-Physical System: Firefighters in the field",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223004",
+            "doi": "10.4108/icst.mobiquitous.2015.260246",
+            "scopus_id": "2-s2.0-84946018549",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Demo: Wireless IP mesh on Android for fire-fighters monitoring",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223005",
+            "doi": "10.1145/2645672.2645692",
+            "scopus_id": "2-s2.0-84924034405",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "REINVENT: Accessing vehicular networks in mobile applications",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223006",
+            "doi": "10.1109/ISCC.2014.6912606",
+            "scopus_id": "2-s2.0-84908180866",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Parkinson's disease assessment based on gait analysis using an innovative RGB-D camera system",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223007",
+            "doi": "10.1109/EMBC.2014.6944285",
+            "scopus_id": "2-s2.0-84929494064",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Monkeys time their pauses of movement and not their movement-kinematics during a synchronization-continuation rhythmic task",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223008",
+            "doi": "10.1152/jn.00802.2013",
+            "scopus_id": "2-s2.0-84896765298",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Resolving data mismatches in end-user compositions",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223009",
+            "doi": "10.1007/978-3-642-38706-7_10",
+            "scopus_id": "2-s2.0-84884382426",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ECG delineation and morphological analysis for firefighters tasks differentiation",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223010",
+            "doi": "10.1109/CBMS.2013.6627856",
+            "scopus_id": "2-s2.0-84889031079",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "MonitorMe: Online video monitoring for first responders using a smartphone",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223011",
+            "doi": "10.1109/HealthCom.2013.6720774",
+            "scopus_id": "2-s2.0-84894174245",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "FIREMAN: Firefighter team breathing management system using android",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223012",
+            "doi": "10.1145/2493988.2494339",
+            "scopus_id": "2-s2.0-84885202051",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Upper limb automatisms differ quantitatively in temporal and frontal lobe epilepsies",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223014",
+            "doi": "10.1016/j.yebeh.2013.02.026",
+            "scopus_id": "2-s2.0-84876150519",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "iVital: A real time monitoring system for first response teams",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223015",
+            "doi": "10.1007/978-3-642-30422-4_29",
+            "scopus_id": "2-s2.0-84869594151",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "3D-video-fMRI: 3D motion tracking in a 3T MRI environment",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223016",
+            "doi": "10.1007/978-3-642-21596-4_7",
+            "scopus_id": "2-s2.0-79960291376",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "An architectural approach to end user orchestrations",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223017",
+            "doi": "10.1007/978-3-642-23798-0_39",
+            "scopus_id": "2-s2.0-80053185719",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DroidJacket: An android-based application for first responders monitoring",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223018",
+            "doi": null,
+            "scopus_id": "2-s2.0-80052484501",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Droid Jacket: Using an Android based smartphone for team monitoring",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223019",
+            "doi": "10.1109/IWCMC.2011.5982868",
+            "scopus_id": "2-s2.0-80052461607",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Automated endoscopic capsule analysis using a Grid computing environment",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223022",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A framework for cerebral CT perfusion imaging methods comparison",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223023",
+            "doi": "10.1007/978-3-642-13775-4_15",
+            "scopus_id": "2-s2.0-77955401015",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "MAGI: A Medical Application Grid Interfacing portal for eScience",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223024",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A system architecture for the bing brain image network grid",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223025",
+            "doi": null,
+            "scopus_id": "2-s2.0-77954660642",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Association analysis of biosignals using self organizing maps",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223026",
+            "doi": "10.1007/978-3-642-03882-2-576",
+            "scopus_id": "2-s2.0-77950164244",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Video-EEG-fMRI: Contribution of in-bore video for the analysis of motor activation paradigms",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223027",
+            "doi": "10.1007/978-3-642-03882-2-209",
+            "scopus_id": "2-s2.0-77950127115",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Automated epileptic seizure type classification through quantitative movement analysis",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223028",
+            "doi": "10.1007/978-3-642-03882-2-380",
+            "scopus_id": "2-s2.0-77950106710",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "GERES-med: An Architecture for Grid-Enabled scientific REpositorieS for medical applications",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223029",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "EEG-fMRI ballistocardiogram removal: A new non-linear dynamic time warping approach",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223030",
+            "doi": "10.1007/978-3-540-69367-3-75",
+            "scopus_id": "2-s2.0-78049386707",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "BING: The Portuguese Brain Imaging Network Grid",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223031",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A grid framework for non-linear brain fMRI analysis",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223032",
+            "doi": null,
+            "scopus_id": "2-s2.0-34548592222",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "EpiGauss: Spatio-temporal characterization of epiletogenic activity applied to hypothalamic hamartomas",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223033",
+            "doi": null,
+            "scopus_id": "2-s2.0-33749653859",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "What does an epileptiform spike look like in MEG? Comparison between coincident EEG and MEG spikes",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223034",
+            "doi": "10.1097/01.WNP.0000150999.67749.6D",
+            "scopus_id": "2-s2.0-13244272143",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Movement quantification during epileptic seizures: A new technical contribution to the evaluation of seizure semiology",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-223035",
+            "doi": null,
+            "scopus_id": "2-s2.0-1542332596",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Full-body motion assessment: Concurrent validation of two body tracking depth sensors versus a gold standard system during gait",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-547906",
+            "doi": "10.1016/j.jbiomech.2019.03.008",
+            "scopus_id": "2-s2.0-85063288984",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The feasibility of an augment reality system to study the psychophysiological correlates of fear-related responses",
+            "date": "2018-08-22",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-547912",
+            "doi": "10.1002/brb3.1084",
+            "scopus_id": "2-s2.0-85052642490",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "System for automatic gait analysis based on a single RGB-D camera",
+            "date": "2018-08-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-547914",
+            "doi": "10.1371/journal.pone.0201728",
+            "scopus_id": "2-s2.0-85052395331",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Detecting changes in the heart rate of firefighters to prevent smoke inhalation and health effects",
+            "date": "2018-06-07",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-547918",
+            "doi": "10.1007/s12530-018-9241-0",
+            "scopus_id": "2-s2.0-85065908297",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Subject Identification Based on Gait Using a RGB-D Camera",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-950091",
+            "doi": "10.1007/978-3-030-17065-3_8",
+            "scopus_id": "2-s2.0-85064957482",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Validation of a Single RGB-D Camera for Gait Assessment of Polyneuropathy Patients",
+            "date": "2019-11-12",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-950092",
+            "doi": "10.3390/s19224929",
+            "scopus_id": "2-s2.0-85074813878",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "PhisioStream: On the use of general-purpose log management and streams processing software stacks for first-responders monitoring",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-950093",
+            "doi": "10.1109/ENBENG.2019.8692491",
+            "scopus_id": "2-s2.0-85065487433",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "NeuroKinect 3.0: Multi-bed 3Dvideo-EEG system for epilepsy clinical motion monitoring",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-950094",
+            "doi": "10.3233/978-1-61499-852-5-46",
+            "scopus_id": "2-s2.0-85046552825",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Decision support dashboard for traffic and environment analysis of a smart city",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-950096",
+            "doi": null,
+            "scopus_id": "2-s2.0-85051961760",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "TTR-FAP Progression Evaluation Based on Gait Analysis Using a Single RGB-D Camera",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2052584",
+            "doi": "10.1109/EMBC.2019.8857354",
+            "scopus_id": "2-s2.0-85077850306",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Introducing new criteria to support cycling navigation and infrastructure planning in flat and hilly cities",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2052585",
+            "doi": "10.1016/j.trpro.2020.03.081",
+            "scopus_id": "2-s2.0-85084672641",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A real time, wearable ECG and continous blood pressure monitoring system for first responders",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2198493",
+            "doi": "10.1109/IEMBS.2011.6091736",
+            "scopus_id": "2-s2.0-84864630260",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A real time, wearable ECG and continous blood pressure monitoring system for first responders.",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2198494",
+            "doi": null,
+            "scopus_id": "2-s2.0-84055224132",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Classification of Critical Levels of CO Exposure of Firefigthers through Monitored Heart Rate",
+            "date": "2021-02-24",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2415521",
+            "doi": "10.3390/s21051561",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Towards an automated flying drones platform",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2668357",
+            "doi": null,
+            "scopus_id": "2-s2.0-85052003276",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Supporting the Assessment of Hereditary Transthyretin Amyloidosis Patients Based On 3-D Gait Analysis and Machine Learning",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2668358",
+            "doi": "10.1109/tnsre.2021.3096433",
+            "scopus_id": null,
+            "authors": [
+                "5B14-7FA6-5767"
+            ]
+        }
+    ]
+}

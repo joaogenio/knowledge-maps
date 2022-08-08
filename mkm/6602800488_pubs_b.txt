@@ -1,127 +1,127 @@
-[0009975792 ] [None                ] [10.1109/DSD.2001.952250       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2001-01-01] Design and implementation of reconfigurable processor for problems of combinatorial computations
-[0033488533 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 3  2 Ab   ] [1999-12-01] Development system for FPGA-based digital circuits
-[0141963420 ] [None                ] [10.1016/S1383-7621(03)00067-5 ] [SC   ] [Article              ] [ 0  2 Ab FT] [2003-09-01] The design and implementation of a reconfigurable processor for problems of combinatorial computation
-[0141977506 ] [None                ] [10.1109/DATE.2002.998450      ] [SC   ] [Conference Paper     ] [ 4  1 Ab   ] [2002-12-01] A SAT solver using software and reconfigurable hardware
-[1642294944 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2003-12-01] Design of Digital Circuits on the Basis of Hardware Templates
-[1642322114 ] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 2  2 Ab   ] [2003-12-01] Architecture of a Reconfigurable Processor for Implementing Search Algorithms over Discrete Matrices
-[20344362539] [None                ] [10.1109/DSD.2003.1231930      ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2003-01-01] A dynamically reconfigurable accelerator for operations over Boolean and ternary vectors
-[20344363169] [None                ] [10.1109/TE.2004.842909        ] [SC   ] [Article              ] [ 5  2 Ab   ] [2005-05-01] Teaching reconfigurable systems: Methods, tools, tutorials, and projects
-[20344374529] [None                ] [10.1109/DSD.2003.1231939      ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2003-01-01] Design tools and reusable libraries for FPGA-based digital circuits
-[2442713051 ] [None                ] [10.1109/TVLSI.2004.825859     ] [SC   ] [Conference Paper     ] [ 4  3 Ab   ] [2004-04-01] A software/reconfigurable hardware SAT solver
-[33744931405] [None                ] [10.1007/11599555_31           ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2005-12-01] Self-correction of FPGA-based control units
-[33746910626] [None                ] [10.1109/FPL.2005.1515728      ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2005-12-01] FPGA-based implementation and comparison of recursive and iterative algorithms
-[33749035274] [None                ] [None                          ] [SC   ] [Article              ] [ 3  2 Ab   ] [2006-11-01] Synthesis of FSMs on the basis of reusable hardware templates
-[33750008975] [None                ] [10.1007/978-0-387-34731-8_23  ] [SC   ] [Article              ] [ 8  1 Ab   ] [2006-10-20] E-learning tools and web-resources for teaching reconfigurable systems
-[33750021650] [None                ] [10.1109/ICESS.2005.47         ] [SC   ] [Conference Paper     ] [ 3  1 Ab   ] [2005-12-01] Design tools for reconfigurable embedded systems
-[33845524982] [None                ] [10.1007/978-0-387-34747-9_24  ] [SC   ] [Article              ] [ 6  1 Ab   ] [2006-12-21] Evolutionary algorithm for state encoding
-[34547967203] [None                ] [10.1007/978-3-540-73424-6_30  ] [SC   ] [Article              ] [ 0  1 Ab   ] [2007-08-23] Synthesis of reconfigurable hierarchical finite state machines
-[34547990688] [None                ] [10.1007/978-3-540-73424-6_26  ] [SC   ] [Article              ] [ 0  1 Ab   ] [2007-08-23] FPGA-based implementation of graph colouring algorithms
-[35248844586] [None                ] [10.1007/978-3-540-45234-8_110 ] [SC   ] [Article              ] [ 6  2 Ab   ] [2003-01-01] Reconfigurable systems in education
-[35248848429] [None                ] [10.1007/978-3-540-45234-8_46  ] [SC   ] [Review               ] [ 8  2 Ab   ] [2003-01-01] Reconfigurable hardware SAT solvers: A survey of systems
-[35248856040] [None                ] [10.1007/978-3-540-45234-8_99  ] [SC   ] [Article              ] [ 2  2 Ab   ] [2003-01-01] High-level design tools for FPGA-based combinatorial accelerators
-[36248985632] [None                ] [10.1109/AICCSA.2007.370934    ] [SC   ] [Conference Paper     ] [ 2  4 Ab   ] [2007-11-26] Software/configware implementation of combinatorial algorithms
-[36249012507] [None                ] [10.1109/AICCSA.2007.370906    ] [SC   ] [Conference Paper     ] [ 4  4 Ab   ] [2007-11-26] Encoding algorithms for logic synthesis
-[36849060189] [None                ] [10.1145/1280940.1281048       ] [SC   ] [Conference Paper     ] [ 4  3 Ab   ] [2007-12-14] A prototyping system for mobile devices
-[47649090802] [None                ] [10.1109/VLSI.2008.51          ] [SC   ] [Conference Paper     ] [ 9  1 Ab   ] [2008-07-25] Recursive versus iterative algorithms for solving combinatorial search problems in hardware
-[47649096359] [None                ] [10.1109/VLSI.2008.70          ] [SC   ] [Conference Paper     ] [16  1 Ab   ] [2008-07-25] Multimedia tools and architectures for hardware/software co-simulation of reconfigurable systems
-[47949118773] [None                ] [10.1109/IRI.2007.4296594      ] [SC   ] [Conference Paper     ] [ 5  3 Ab   ] [2007-12-01] Reuse technique in hardware design
-[51549112960] [None                ] [10.1109/cce.2008.4578929      ] [SC   ] [Conference Paper     ] [ 7  3 Ab   ] [2008-01-01] Design and implementation of parallel hierarchical finite state machines
-[70449926237] [None                ] [10.1109/FPL.2009.5272304      ] [SC   ] [Conference Paper     ] [14  2 Ab   ] [2009-11-25] Recursion in reconfigurable computing: A survey of implementation approaches
-[71449087077] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 6  3 Ab   ] [2009-12-11] Specification and synthesis of parallel hierarchical finite state machines for control applications
-[71449091187] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  3 Ab   ] [2009-12-11] Modeling, design, and implementation of a priority buffer for embedded systems
-[77950491936] [None                ] [10.1109/ICCEE.2009.237        ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2009-12-01] A multimedia tool for teaching reconfigurable computing
-[77950495089] [None                ] [10.1109/ICCEE.2009.238        ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2009-12-01] Design and implementation of communicating fixed and variable instruction set processors
-[77951104922] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2009-12-01] Modeling and implementation of automatic system for garage control
-[77951105651] [None                ] [None                          ] [SC   ] [Conference Paper     ] [13  3 Ab   ] [2009-12-01] Virtual environment for prototyping and experiments
-[77955630274] [None                ] [10.1109/ICNIT.2010.5508567    ] [SC   ] [Conference Paper     ] [11  1 Ab   ] [2010-08-20] E-learning tools and remote reconfigurable systems for engineering education
-[77956588948] [None                ] [10.1109/MWSCAS.2010.5548674   ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2010-09-20] Hardware implementation of recursive algorithms
-[79551516134] [None                ] [10.1109/FPT.2010.5681486      ] [SC   ] [Conference Paper     ] [13  2 Ab   ] [2010-12-01] Application-specific hardware accelerator for implementing recursive sorting algorithms
-[79951684089] [None                ] [10.1109/ICM.2010.5696191      ] [SC   ] [Conference Paper     ] [ 7  1 Ab   ] [2010-12-01] Optimization of recursive sorting algorithms for implementation in hardware
-[79951739418] [None                ] [10.1109/ReConFig.2010.30      ] [SC   ] [Conference Paper     ] [12  2 Ab   ] [2010-12-01] Parallel FPGA-based implementation of recursive sorting algorithms
-[79951761248] [None                ] [10.1109/ReConFig.2010.28      ] [SC   ] [Conference Paper     ] [18  2 Ab   ] [2010-12-01] Reconfigurable digital audio mixer for electroacoustic music
-[79951767051] [None                ] [10.1109/ReConFig.2010.29      ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2010-12-01] Synthesis and implementation of hierarchical finite state machines with implicit modules
-[79952141353] [None                ] [10.1109/BEC.2010.5629731      ] [SC   ] [Conference Paper     ] [ 7  1 Ab   ] [2010-12-01] Optimization of FPGA-based circuits for recursive data sorting
-[79952748656] [None                ] [10.1109/ICIAS.2010.5716111    ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2010-12-01] Reconfiguration technique for adaptive embedded systems
-[79957973967] [None                ] [10.1109/IEEEGCC.2011.5752494  ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2011-06-09] Multilevel models for data processing
-[79959962770] [None                ] [10.1109/DDECS.2011.5783103    ] [SC   ] [Conference Paper     ] [ 6  3 Ab   ] [2011-07-11] High-performance hardware accelerators for sorting and managing priorities
-[80052128331] [None                ] [10.1109/ISCI.2011.5958935     ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2011-09-01] Processing tree-like data structures for sorting and managing priorities
-[80052793643] [None                ] [10.1145/2023607.2023616       ] [SC   ] [Conference Paper     ] [ 9  4 Ab   ] [2011-09-20] Recursion and hierarchy in digital design and prototyping: A case study
-[80053029141] [None                ] [10.5755/j01.eee.113.7.612     ] [SC   ] [Article              ] [ 0  1 Ab   ] [2011-01-01] Acceleration of recursive data sorting over tree-based structures
-[80055069188] [None                ] [10.1109/ICEDSA.2011.5959040   ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2011-11-03] Hardware implementation of recursive sorting algorithms
-[80455168388] [None                ] [10.1109/FPL.2011.81           ] [SC   ] [Conference Paper     ] [10  1 Ab   ] [2011-11-09] Implementation in FPGA of address-based data sorting
-[84855955504] [None                ] [10.1109/ICAICT.2011.6110989   ] [SC   ] [Conference Paper     ] [16  2 Ab   ] [2011-12-01] FPGA-based systems in information and communication
-[84856710866] [None                ] [10.1109/ISICir.2011.6131947   ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2011-12-01] Simulation environment for visual prototyping of circuits and systems
-[84856731243] [None                ] [10.1109/ISICir.2011.6131946   ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2011-12-01] Processing N-ary trees in hardware circuits
-[84861511468] [None                ] [10.1109/MELCON.2012.6196391   ] [SC   ] [Conference Paper     ] [13  1 Ab   ] [2012-05-31] Implementation of sorting algorithms in reconfigurable hardware
-[84864144148] [None                ] [10.1109/EDUCON.2012.6201190   ] [SC   ] [Conference Paper     ] [ 6  3 Ab   ] [2012-07-27] Methodology and international collaboration in teaching reconfigurable systems
-[84866029140] [None                ] [None                          ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2010-12-01] MIAUDIO - Audio mixture digital matrix
-[84872863078] [None                ] [10.1109/ICAICT.2012.6398506   ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2012-12-01] Data processing in FPGA-based systems
-[84873960540] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 7  1 Ab   ] [2012-12-01] Solving Sudoku in reconfigurable hardware
-[84874125970] [None                ] [None                          ] [SC   ] [Conference Paper     ] [15  1 Ab   ] [2012-12-01] Hierarchy and recursion in software and hardware
-[84874587606] [None                ] [10.1109/ICECS.2012.6463762    ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2012-12-01] Performance evaluation for FPGA-based processing of tree-like structures
-[84885601459] [None                ] [10.1016/j.compeleceng.2013.07.019] [SC   ] [Article              ] [ 8  3 Ab FT] [2013-10-01] Hardware implementations of software programs based on hierarchical finite state machine models
-[84886425789] [None                ] [None                          ] [SC   ] [Article              ] [ 8  4 Ab   ] [2013-12-01] Digital Hamming weight and distance analyzers for binary vectors and matrices
-[84886900400] [None                ] [10.1109/IranianCEE.2013.6599683] [SC   ] [Conference Paper     ] [ 6  1 Ab   ] [2013-10-25] Synthesis of parallel hierarchical finite state machines
-[84888586028] [None                ] [10.1109/EUROCON.2013.6625220  ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-04] Address-based data processing over N-ary trees
-[84889594834] [None                ] [10.1145/2516775.2516807       ] [SC   ] [Conference Paper     ] [ 5  4 Ab   ] [2013-12-11] Optimization of address-based data sorting unit with external memory support
-[84890199222] [None                ] [10.4316/AECE.2013.04008       ] [SC   ] [Article              ] [ 0  2 Ab   ] [2013-11-01] Fast regular circuits for network-based Parallel data processing
-[84892657435] [None                ] [10.1109/TALE.2013.6654485     ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-01] Using mobile technology to enhance teaching reconfigurable systems
-[84893202535] [None                ] [10.1109/MWSCAS.2013.6674783   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2013-12-01] Implementation of parallel operations over streams in extensible processing platforms
-[84893462933] [None                ] [10.1109/EWDTS.2013.6673195    ] [SC   ] [Conference Paper     ] [ 6  1 Ab   ] [2013-12-01] Implementation of address-based data sorting on different FPGA platforms
-[84896772624] [None                ] [10.1109/ICM.2013.6734988      ] [SC   ] [Conference Paper     ] [ 7  1 Ab   ] [2013-01-01] Processing N-ary trees in reconfigurable hardware
-[84901019834] [None                ] [10.5755/j01.eee.20.5.7116     ] [SC   ] [Article              ] [ 0  1 Ab   ] [2014-01-01] Fast matrix covering in all programmable systems-on-chip
-[84901843912] [None                ] [10.4316/AECE.2014.02011       ] [SC   ] [Article              ] [ 0  2 Ab   ] [2014-01-01] Hamming weight counters and comparators based on embedded DSP blocks for implementation in FPGA
-[84903318125] [None                ] [10.1016/j.micpro.2014.03.003  ] [SC   ] [Article              ] [ 8  4 Ab FT] [2014-01-01] High-performance implementation of regular and easily scalable sorting networks on an FPGA
-[84903436966] [None                ] [10.1109/EDUCON.2014.6826133   ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2014-01-01] Teaching FPGA-based systems
-[84904162713] [None                ] [10.1109/MELCON.2014.6820579   ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] Application of extensible processing platforms for experiments with FPGA-based circuits
-[84904164541] [None                ] [10.1109/MELCON.2014.6820578   ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] Hardware/software co-design in extensible processing platforms for combinatorial search algorithms
-[84908701584] [None                ] [10.1145/2659532.2659616       ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2014-06-27] Design space exploration in multi-level computing systems
-[84918852555] [None                ] [10.1007/3-540-48035-8_9       ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2002-01-01] FPGA-based implementation of genetic algorithm for the traveling salesman problem and its industrial application
-[84924331822] [None                ] [10.1109/LES.2015.2399656      ] [SC   ] [Article              ] [ 5  2 Ab   ] [2015-03-01] Comparison of On-chip Communications in Zynq-7000 All Programmable Systems-on-Chip
-[84927608470] [None                ] [10.1007/978-0-387-34749-3_9   ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2006-01-01] Recursive and iterative algorithms for N-ary search problems
-[84928376304] [None                ] [10.1007/s11265-014-0915-y     ] [SC   ] [Article              ] [ 8  6 Ab   ] [2015-09-01] Multi-core DSP-based vector set bits counters/comparators
-[84928680168] [None                ] [10.5755/j01.eee.21.2.11509    ] [SC   ] [Article              ] [ 0  1 Ab   ] [2015-01-01] Processing sorted subsets in a multi-level reconfigurable computing system
-[84929289360] [None                ] [10.1007/978-1-4614-1791-0_8   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2014-03-01] High-performance data processing over N-ary trees
-[84929321472] [None                ] [10.1007/s00607-013-0360-y     ] [SC   ] [Article              ] [ 8  6 Ab   ] [2015-06-18] Design and implementation of counting networks
-[84936950558] [None                ] [None                          ] [SC   ] [Article              ] [ 0  2 Ab   ] [2015-06-01] Zynq-based system for extracting sorted subsets from large data sets
-[84944145029] [None                ] [10.1109/ICTRC.2015.7156457    ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2015-07-14] Hardware accelerators for information retrieval and data mining
-[84946140676] [None                ] [10.1109/MIPRO.2015.7160258    ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2015-07-15] Integration of high-level synthesis to the courses on reconfigurable digital systems
-[84947996377] [None                ] [10.1007/978-3-540-30117-2_100 ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2004-01-01] Hardware/software implementation of FPGA-targeted matrix-oriented SAT solvers
-[84949995957] [None                ] [10.4316/AECE.2015.04002       ] [SC   ] [Article              ] [ 0  2 Ab   ] [2015-01-01] Hardware accelerators for data sort in all programmable systems-on-chip
-[84951727190] [None                ] [10.1109/SBCCI.2000.876053     ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2000-01-01] Exploiting FPGA-based architectures and design tools for problems of reconfigurable computations
-[84956868990] [None                ] [10.1109/SBCCI.1998.715408     ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [1998-01-01] Synthesis tools and design environment for dynamically reconfigurable FPGAs
-[84957052837] [None                ] [None                          ] [SC   ] [Article              ] [ 8  4 Ab   ] [2016-02-01] High-performance information processing in distributed computing systems
-[84957098357] [None                ] [10.15837/ijccc.2016.1.1442    ] [SC   ] [Article              ] [ 0  3 Ab   ] [2016-01-01] Computing sorted subsets for data processing in communicating software/hardware control systems
-[84960882337] [None                ] [10.1109/ICAICT.2015.7338515   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2015-11-25] On-chip hardware accelerators for data processing and combinatorial search
-[84961719984] [None                ] [10.1109/EUROCON.2015.7313700  ] [SC   ] [Conference Paper     ] [ 7  4 Ab   ] [2015-10-30] FPGA-based time and cost effective Hamming weight comparators for binary vectors
-[84961904282] [None                ] [10.1155/2016/8972065          ] [SC   ] [Article              ] [ 8  1 Ab   ] [2016-01-01] On-chip reconfigurable hardware accelerators for popcount computations
-[84979221621] [None                ] [10.1109/MELCON.2016.7495400   ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2016-06-20] Interactions of Zynq-7000 devices with general purpose computers through PCI-express: A case study
-[84983089365] [None                ] [10.5755/j01.eie.22.4.15920    ] [SC   ] [Article              ] [ 0  1 Ab   ] [2016-01-01] Fast data sort based on searching networks with ring pipeline
-[84983127575] [None                ] [10.1109/DSD.2015.45           ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2015-10-20] Analysis and comparison of attainable hardware acceleration in all programmable systems-on-chip
-[84988273254] [None                ] [10.1109/ICAICT.2014.7035967   ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2014-01-01] Programmable systems-on-chip for information processing
-[85002489691] [None                ] [10.1109/BEC.2016.7743718      ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2016-11-14] Digital design: Best practices and future trends
-[85010711346] [None                ] [None                          ] [SC   ] [Article              ] [ 0  2 Ab   ] [2016-01-01] Software/hardware solutions for information processing in all programmable systems-on-chip
-[85011838845] [None                ] [10.1134/S0005117917010088     ] [SC   ] [Article              ] [ 7  2 Ab   ] [2017-01-01] Data processing in the firmware systems for logic control based on search networks
-[85019197242] [None                ] [10.1109/Anti-Cybercrime.2017.7905289] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2017-04-19] Secure design of communication networks
-[85020550720] [None                ] [10.5755/j01.eie.23.3.18336    ] [SC   ] [Article              ] [ 0  1 Ab   ] [2017-01-01] Fast processing of non-repeated values in hardware
-[85023622828] [None                ] [10.1109/EDUCON.2017.7942983   ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2017-06-07] Reconfigurable systems in engineering education: Best practices and future trends
-[85027691153] [None                ] [10.23919/MIPRO.2017.7973413   ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2017-07-10] RAM-based mergers for data sort and frequent item computation
-[85028310572] [None                ] [10.3176/proc.2017.3.07        ] [SC   ] [Article              ] [ 8  1 Ab   ] [2017-01-01] Fast iterative circuits and RAM-based mergers to accelerate data sort in software/hardware systems
-[85028970998] [None                ] [10.1007/978-3-319-26725-8_2   ] [SC   ] [Book Chapter         ] [ 0  7 Ab   ] [2016-01-01] Synthesis and implementation of parallel logic controllers in all programmable systems-on-chip
-[85032185000] [None                ] [10.1007/978-0-387-34749-3_17  ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2006-01-01] Intelligent systems engineering with reconfigurable computing
-[85039966449] [None                ] [10.15199/48.2018.01.38        ] [SC   ] [Article              ] [ 0  1 Ab   ] [2018-01-01] Intelligent management system of production and quality products for the small and medium business enterprises
-[85046641510] [None                ] [10.1109/ICEE-B.2017.8192203   ] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2017-12-12] Network-based priority buffer
-[85046670858] [None                ] [10.1109/ICEE-B.2017.8192204   ] [SC   ] [Conference Paper     ] [ 5  5 Ab   ] [2017-12-12] Exploration of high-performance ports in Zynq-7000 devices with different traffic conditions
-[85060436269] [None                ] [10.24507/ijicic.15.01.321     ] [SC   ] [Article              ] [ 7  4 Ab   ] [2019-02-01] Hardware accelerators for information processing in high-performance computing systems
-[85066922588] [None                ] [10.1007/978-3-030-20721-2_1   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] Reconfigurable devices and design tools
-[85066934039] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  1      ] [2019-01-01] Preface
-[85066935447] [None                ] [10.1007/978-3-030-20721-2_6   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] Hardware/software co-design
-[85066940312] [None                ] [10.1007/978-3-030-20721-2_5   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] FPGA-based hardware accelerators for selected computational problems
-[85066948869] [None                ] [10.1007/978-3-030-20721-2_3   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] Hardware accelerators for data search
-[85066952203] [None                ] [10.1007/978-3-030-20721-2_2   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] Architectures of FPGA-based hardware accelerators and design techniques
-[85066962290] [None                ] [10.1007/978-3-030-20721-2_4   ] [SC   ] [Book Chapter         ] [ 8  1 Ab   ] [2019-01-01] Hardware accelerators for data sort
-[85108422282] [None                ] [10.3390/JLPEA11020020         ] [SC   ] [Article              ] [ 0  1 Ab   ] [2021-06-01] Accelerating population count with a hardware co-processor for microblaze
-[85119837668] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  1      ] [2021-01-01] Preface
-[85123798232] [None                ] [10.1109/AICT52784.2021.9620439] [SC   ] [Conference Paper     ] [ 9  4 Ab   ] [2021-01-01] Hardware Accelerators for Data Processing in High-Performance Computing Systems
-[85127229981] [None                ] [10.3390/electronics11071029   ] [SC   ] [Review               ] [ 0  5 Ab   ] [2022-04-01] A Survey of Network-Based Hardware Accelerators
-[8744233904 ] [None                ] [10.1109/TC.2004.102           ] [SC   ] [Article              ] [ 5  4 Ab   ] [2004-11-01] Reconfigurable hardware SAT solvers: A survey of systems
+[0009975792 ] [None    ] [1109/dsd.2001.952250] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2001-01-01] Design and implementation of reconfigurable processor for problems of combinatorial computations
+[0033488533 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [1999-12-01] Development system for FPGA-based digital circuits
+[0141963420 ] [None    ] [1383-7621(03)00067-5] [[91mSC[0m   ] [Article         ] [1  0  2 Ab FT] [2003-09-01] The design and implementation of a reconfigurable processor for problems of combinatorial computation
+[0141977506 ] [None    ] [109/date.2002.998450] [[91mSC[0m   ] [Conference Paper] [1  4  1 Ab   ] [2002-12-01] A SAT solver using software and reconfigurable hardware
+[1642294944 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2003-12-01] Design of Digital Circuits on the Basis of Hardware Templates
+[1642322114 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  2  2 Ab   ] [2003-12-01] Architecture of a Reconfigurable Processor for Implementing Search Algorithms over Discrete Matrices
+[20344362539] [None    ] [109/dsd.2003.1231930] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2003-01-01] A dynamically reconfigurable accelerator for operations over Boolean and ternary vectors
+[20344363169] [None    ] [.1109/te.2004.842909] [[91mSC[0m   ] [Article         ] [1  5  2 Ab   ] [2005-05-01] Teaching reconfigurable systems: Methods, tools, tutorials, and projects
+[20344374529] [None    ] [109/dsd.2003.1231939] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2003-01-01] Design tools and reusable libraries for FPGA-based digital circuits
+[2442713051 ] [None    ] [09/tvlsi.2004.825859] [[91mSC[0m   ] [Conference Paper] [1  4  3 Ab   ] [2004-04-01] A software/reconfigurable hardware SAT solver
+[33744931405] [None    ] [10.1007/11599555_31 ] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2005-12-01] Self-correction of FPGA-based control units
+[33746910626] [None    ] [109/fpl.2005.1515728] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2005-12-01] FPGA-based implementation and comparison of recursive and iterative algorithms
+[33749035274] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  3  2 Ab   ] [2006-11-01] Synthesis of FSMs on the basis of reusable hardware templates
+[33750008975] [None    ] [978-0-387-34731-8_23] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2006-10-20] E-learning tools and web-resources for teaching reconfigurable systems
+[33750021650] [None    ] [0.1109/icess.2005.47] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2005-12-01] Design tools for reconfigurable embedded systems
+[33845524982] [None    ] [978-0-387-34747-9_24] [[91mSC[0m   ] [Article         ] [1  6  1 Ab   ] [2006-12-21] Evolutionary algorithm for state encoding
+[34547967203] [None    ] [978-3-540-73424-6_30] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2007-08-23] Synthesis of reconfigurable hierarchical finite state machines
+[34547990688] [None    ] [978-3-540-73424-6_26] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2007-08-23] FPGA-based implementation of graph colouring algorithms
+[35248844586] [None    ] [78-3-540-45234-8_110] [[91mSC[0m   ] [Article         ] [1  6  2 Ab   ] [2003-01-01] Reconfigurable systems in education
+[35248848429] [None    ] [978-3-540-45234-8_46] [[91mSC[0m   ] [Review          ] [1  8  2 Ab   ] [2003-01-01] Reconfigurable hardware SAT solvers: A survey of systems
+[35248856040] [None    ] [978-3-540-45234-8_99] [[91mSC[0m   ] [Article         ] [1  2  2 Ab   ] [2003-01-01] High-level design tools for FPGA-based combinatorial accelerators
+[36248985632] [None    ] [9/aiccsa.2007.370934] [[91mSC[0m   ] [Conference Paper] [1  2  4 Ab   ] [2007-11-26] Software/configware implementation of combinatorial algorithms
+[36249012507] [None    ] [9/aiccsa.2007.370906] [[91mSC[0m   ] [Conference Paper] [1  4  4 Ab   ] [2007-11-26] Encoding algorithms for logic synthesis
+[36849060189] [None    ] [1145/1280940.1281048] [[91mSC[0m   ] [Conference Paper] [1  4  3 Ab   ] [2007-12-14] A prototyping system for mobile devices
+[47649090802] [None    ] [10.1109/vlsi.2008.51] [[91mSC[0m   ] [Conference Paper] [1  9  1 Ab   ] [2008-07-25] Recursive versus iterative algorithms for solving combinatorial search problems in hardware
+[47649096359] [None    ] [10.1109/vlsi.2008.70] [[91mSC[0m   ] [Conference Paper] [1 16  1 Ab   ] [2008-07-25] Multimedia tools and architectures for hardware/software co-simulation of reconfigurable systems
+[47949118773] [None    ] [109/iri.2007.4296594] [[91mSC[0m   ] [Conference Paper] [1  5  3 Ab   ] [2007-12-01] Reuse technique in hardware design
+[51549112960] [None    ] [109/cce.2008.4578929] [[91mSC[0m   ] [Conference Paper] [1  7  3 Ab   ] [2008-01-01] Design and implementation of parallel hierarchical finite state machines
+[70449926237] [None    ] [109/fpl.2009.5272304] [[91mSC[0m   ] [Conference Paper] [1 14  2 Ab   ] [2009-11-25] Recursion in reconfigurable computing: A survey of implementation approaches
+[71449087077] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  6  3 Ab   ] [2009-12-11] Specification and synthesis of parallel hierarchical finite state machines for control applications
+[71449091187] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  4  3 Ab   ] [2009-12-11] Modeling, design, and implementation of a priority buffer for embedded systems
+[77950491936] [None    ] [.1109/iccee.2009.237] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2009-12-01] A multimedia tool for teaching reconfigurable computing
+[77950495089] [None    ] [.1109/iccee.2009.238] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2009-12-01] Design and implementation of communicating fixed and variable instruction set processors
+[77951104922] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2009-12-01] Modeling and implementation of automatic system for garage control
+[77951105651] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 13  3 Ab   ] [2009-12-01] Virtual environment for prototyping and experiments
+[77955630274] [None    ] [9/icnit.2010.5508567] [[91mSC[0m   ] [Conference Paper] [1 11  1 Ab   ] [2010-08-20] E-learning tools and remote reconfigurable systems for engineering education
+[77956588948] [None    ] [/mwscas.2010.5548674] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2010-09-20] Hardware implementation of recursive algorithms
+[79551516134] [None    ] [109/fpt.2010.5681486] [[91mSC[0m   ] [Conference Paper] [1 13  2 Ab   ] [2010-12-01] Application-specific hardware accelerator for implementing recursive sorting algorithms
+[79951684089] [None    ] [109/icm.2010.5696191] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2010-12-01] Optimization of recursive sorting algorithms for implementation in hardware
+[79951739418] [None    ] [109/reconfig.2010.30] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2010-12-01] Parallel FPGA-based implementation of recursive sorting algorithms
+[79951761248] [None    ] [109/reconfig.2010.28] [[91mSC[0m   ] [Conference Paper] [1 18  2 Ab   ] [2010-12-01] Reconfigurable digital audio mixer for electroacoustic music
+[79951767051] [None    ] [109/reconfig.2010.29] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2010-12-01] Synthesis and implementation of hierarchical finite state machines with implicit modules
+[79952141353] [None    ] [109/bec.2010.5629731] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2010-12-01] Optimization of FPGA-based circuits for recursive data sorting
+[79952748656] [None    ] [9/icias.2010.5716111] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2010-12-01] Reconfiguration technique for adaptive embedded systems
+[79957973967] [None    ] [ieeegcc.2011.5752494] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2011-06-09] Multilevel models for data processing
+[79959962770] [None    ] [9/ddecs.2011.5783103] [[91mSC[0m   ] [Conference Paper] [1  6  3 Ab   ] [2011-07-11] High-performance hardware accelerators for sorting and managing priorities
+[80052128331] [None    ] [09/isci.2011.5958935] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2011-09-01] Processing tree-like data structures for sorting and managing priorities
+[80052793643] [None    ] [1145/2023607.2023616] [[91mSC[0m   ] [Conference Paper] [1  9  4 Ab   ] [2011-09-20] Recursion and hierarchy in digital design and prototyping: A case study
+[80053029141] [None    ] [55/j01.eee.113.7.612] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2011-01-01] Acceleration of recursive data sorting over tree-based structures
+[80055069188] [None    ] [/icedsa.2011.5959040] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2011-11-03] Hardware implementation of recursive sorting algorithms
+[80455168388] [None    ] [10.1109/fpl.2011.81 ] [[91mSC[0m   ] [Conference Paper] [1 10  1 Ab   ] [2011-11-09] Implementation in FPGA of address-based data sorting
+[84855955504] [None    ] [/icaict.2011.6110989] [[91mSC[0m   ] [Conference Paper] [1 16  2 Ab   ] [2011-12-01] FPGA-based systems in information and communication
+[84856710866] [None    ] [/isicir.2011.6131947] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2011-12-01] Simulation environment for visual prototyping of circuits and systems
+[84856731243] [None    ] [/isicir.2011.6131946] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2011-12-01] Processing N-ary trees in hardware circuits
+[84861511468] [None    ] [/melcon.2012.6196391] [[91mSC[0m   ] [Conference Paper] [1 13  1 Ab   ] [2012-05-31] Implementation of sorting algorithms in reconfigurable hardware
+[84864144148] [None    ] [/educon.2012.6201190] [[91mSC[0m   ] [Conference Paper] [1  6  3 Ab   ] [2012-07-27] Methodology and international collaboration in teaching reconfigurable systems
+[84866029140] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 11  2 Ab   ] [2010-12-01] MIAUDIO - Audio mixture digital matrix
+[84872863078] [None    ] [/icaict.2012.6398506] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2012-12-01] Data processing in FPGA-based systems
+[84873960540] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2012-12-01] Solving Sudoku in reconfigurable hardware
+[84874125970] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 15  1 Ab   ] [2012-12-01] Hierarchy and recursion in software and hardware
+[84874587606] [None    ] [9/icecs.2012.6463762] [[91mSC[0m   ] [Conference Paper] [1 11  2 Ab   ] [2012-12-01] Performance evaluation for FPGA-based processing of tree-like structures
+[84885601459] [None    ] [peleceng.2013.07.019] [[91mSC[0m   ] [Article         ] [1  8  3 Ab FT] [2013-10-01] Hardware implementations of software programs based on hierarchical finite state machine models
+[84886425789] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  8  4 Ab   ] [2013-12-01] Digital Hamming weight and distance analyzers for binary vectors and matrices
+[84886900400] [None    ] [niancee.2013.6599683] [[91mSC[0m   ] [Conference Paper] [1  6  1 Ab   ] [2013-10-25] Synthesis of parallel hierarchical finite state machines
+[84888586028] [None    ] [eurocon.2013.6625220] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2013-12-04] Address-based data processing over N-ary trees
+[84889594834] [None    ] [1145/2516775.2516807] [[91mSC[0m   ] [Conference Paper] [1  5  4 Ab   ] [2013-12-11] Optimization of address-based data sorting unit with external memory support
+[84890199222] [None    ] [4316/aece.2013.04008] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2013-11-01] Fast regular circuits for network-based Parallel data processing
+[84892657435] [None    ] [09/tale.2013.6654485] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2013-12-01] Using mobile technology to enhance teaching reconfigurable systems
+[84893202535] [None    ] [/mwscas.2013.6674783] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2013-12-01] Implementation of parallel operations over streams in extensible processing platforms
+[84893462933] [None    ] [9/ewdts.2013.6673195] [[91mSC[0m   ] [Conference Paper] [1  6  1 Ab   ] [2013-12-01] Implementation of address-based data sorting on different FPGA platforms
+[84896772624] [None    ] [109/icm.2013.6734988] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2013-01-01] Processing N-ary trees in reconfigurable hardware
+[84901019834] [None    ] [55/j01.eee.20.5.7116] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2014-01-01] Fast matrix covering in all programmable systems-on-chip
+[84901843912] [None    ] [4316/aece.2014.02011] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2014-01-01] Hamming weight counters and comparators based on embedded DSP blocks for implementation in FPGA
+[84903318125] [None    ] [j.micpro.2014.03.003] [[91mSC[0m   ] [Article         ] [1  8  4 Ab FT] [2014-01-01] High-performance implementation of regular and easily scalable sorting networks on an FPGA
+[84903436966] [None    ] [/educon.2014.6826133] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2014-01-01] Teaching FPGA-based systems
+[84904162713] [None    ] [/melcon.2014.6820579] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Application of extensible processing platforms for experiments with FPGA-based circuits
+[84904164541] [None    ] [/melcon.2014.6820578] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Hardware/software co-design in extensible processing platforms for combinatorial search algorithms
+[84908701584] [None    ] [1145/2659532.2659616] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2014-06-27] Design space exploration in multi-level computing systems
+[84918852555] [None    ] [1007/3-540-48035-8_9] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2002-01-01] FPGA-based implementation of genetic algorithm for the traveling salesman problem and its industrial application
+[84924331822] [None    ] [109/les.2015.2399656] [[91mSC[0m   ] [Article         ] [1  5  2 Ab   ] [2015-03-01] Comparison of On-chip Communications in Zynq-7000 All Programmable Systems-on-Chip
+[84927608470] [None    ] [/978-0-387-34749-3_9] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2006-01-01] Recursive and iterative algorithms for N-ary search problems
+[84928376304] [None    ] [07/s11265-014-0915-y] [[91mSC[0m   ] [Article         ] [1  8  6 Ab   ] [2015-09-01] Multi-core DSP-based vector set bits counters/comparators
+[84928680168] [None    ] [5/j01.eee.21.2.11509] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2015-01-01] Processing sorted subsets in a multi-level reconfigurable computing system
+[84929289360] [None    ] [/978-1-4614-1791-0_8] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2014-03-01] High-performance data processing over N-ary trees
+[84929321472] [None    ] [07/s00607-013-0360-y] [[91mSC[0m   ] [Article         ] [1  8  6 Ab   ] [2015-06-18] Design and implementation of counting networks
+[84936950558] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2015-06-01] Zynq-based system for extracting sorted subsets from large data sets
+[84944145029] [None    ] [9/ictrc.2015.7156457] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2015-07-14] Hardware accelerators for information retrieval and data mining
+[84946140676] [None    ] [9/mipro.2015.7160258] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2015-07-15] Integration of high-level synthesis to the courses on reconfigurable digital systems
+[84947996377] [None    ] [78-3-540-30117-2_100] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2004-01-01] Hardware/software implementation of FPGA-targeted matrix-oriented SAT solvers
+[84949995957] [None    ] [4316/aece.2015.04002] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2015-01-01] Hardware accelerators for data sort in all programmable systems-on-chip
+[84951727190] [None    ] [09/sbcci.2000.876053] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2000-01-01] Exploiting FPGA-based architectures and design tools for problems of reconfigurable computations
+[84956868990] [None    ] [09/sbcci.1998.715408] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [1998-01-01] Synthesis tools and design environment for dynamically reconfigurable FPGAs
+[84957052837] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  8  4 Ab   ] [2016-02-01] High-performance information processing in distributed computing systems
+[84957098357] [None    ] [37/ijccc.2016.1.1442] [[91mSC[0m   ] [Article         ] [1  0  3 Ab   ] [2016-01-01] Computing sorted subsets for data processing in communicating software/hardware control systems
+[84960882337] [None    ] [/icaict.2015.7338515] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-11-25] On-chip hardware accelerators for data processing and combinatorial search
+[84961719984] [None    ] [eurocon.2015.7313700] [[91mSC[0m   ] [Conference Paper] [1  7  4 Ab   ] [2015-10-30] FPGA-based time and cost effective Hamming weight comparators for binary vectors
+[84961904282] [None    ] [10.1155/2016/8972065] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2016-01-01] On-chip reconfigurable hardware accelerators for popcount computations
+[84979221621] [None    ] [/melcon.2016.7495400] [[91mSC[0m   ] [Conference Paper] [1  8  5 Ab   ] [2016-06-20] Interactions of Zynq-7000 devices with general purpose computers through PCI-express: A case study
+[84983089365] [None    ] [5/j01.eie.22.4.15920] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2016-01-01] Fast data sort based on searching networks with ring pipeline
+[84983127575] [None    ] [10.1109/dsd.2015.45 ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2015-10-20] Analysis and comparison of attainable hardware acceleration in all programmable systems-on-chip
+[84988273254] [None    ] [/icaict.2014.7035967] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2014-01-01] Programmable systems-on-chip for information processing
+[85002489691] [None    ] [109/bec.2016.7743718] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2016-11-14] Digital design: Best practices and future trends
+[85010711346] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2016-01-01] Software/hardware solutions for information processing in all programmable systems-on-chip
+[85011838845] [None    ] [34/s0005117917010088] [[91mSC[0m   ] [Article         ] [1  7  2 Ab   ] [2017-01-01] Data processing in the firmware systems for logic control based on search networks
+[85019197242] [None    ] [ercrime.2017.7905289] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2017-04-19] Secure design of communication networks
+[85020550720] [None    ] [5/j01.eie.23.3.18336] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2017-01-01] Fast processing of non-repeated values in hardware
+[85023622828] [None    ] [/educon.2017.7942983] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2017-06-07] Reconfigurable systems in engineering education: Best practices and future trends
+[85027691153] [None    ] [9/mipro.2017.7973413] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2017-07-10] RAM-based mergers for data sort and frequent item computation
+[85028310572] [None    ] [.3176/proc.2017.3.07] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2017-01-01] Fast iterative circuits and RAM-based mergers to accelerate data sort in software/hardware systems
+[85028970998] [None    ] [/978-3-319-26725-8_2] [[91mSC[0m   ] [Book Chapter    ] [1  0  7 Ab   ] [2016-01-01] Synthesis and implementation of parallel logic controllers in all programmable systems-on-chip
+[85032185000] [None    ] [978-0-387-34749-3_17] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2006-01-01] Intelligent systems engineering with reconfigurable computing
+[85039966449] [None    ] [.15199/48.2018.01.38] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2018-01-01] Intelligent management system of production and quality products for the small and medium business enterprises
+[85046641510] [None    ] [/icee-b.2017.8192203] [[91mSC[0m   ] [Conference Paper] [1  8  5 Ab   ] [2017-12-12] Network-based priority buffer
+[85046670858] [None    ] [/icee-b.2017.8192204] [[91mSC[0m   ] [Conference Paper] [1  5  5 Ab   ] [2017-12-12] Exploration of high-performance ports in Zynq-7000 devices with different traffic conditions
+[85060436269] [None    ] [507/ijicic.15.01.321] [[91mSC[0m   ] [Article         ] [1  7  4 Ab   ] [2019-02-01] Hardware accelerators for information processing in high-performance computing systems
+[85066922588] [None    ] [/978-3-030-20721-2_1] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] Reconfigurable devices and design tools
+[85066934039] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  1      ] [2019-01-01] Preface
+[85066935447] [None    ] [/978-3-030-20721-2_6] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] Hardware/software co-design
+[85066940312] [None    ] [/978-3-030-20721-2_5] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] FPGA-based hardware accelerators for selected computational problems
+[85066948869] [None    ] [/978-3-030-20721-2_3] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] Hardware accelerators for data search
+[85066952203] [None    ] [/978-3-030-20721-2_2] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] Architectures of FPGA-based hardware accelerators and design techniques
+[85066962290] [None    ] [/978-3-030-20721-2_4] [[91mSC[0m   ] [Book Chapter    ] [1  8  1 Ab   ] [2019-01-01] Hardware accelerators for data sort
+[85108422282] [None    ] [0.3390/jlpea11020020] [[91mSC[0m   ] [Article         ] [1  0  1 Ab   ] [2021-06-01] Accelerating population count with a hardware co-processor for microblaze
+[85119837668] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  1      ] [2021-01-01] Preface
+[85123798232] [None    ] [ct52784.2021.9620439] [[91mSC[0m   ] [Conference Paper] [1  9  4 Ab   ] [2021-01-01] Hardware Accelerators for Data Processing in High-Performance Computing Systems
+[85127229981] [None    ] [/electronics11071029] [[91mSC[0m   ] [Review          ] [1  0  5 Ab   ] [2022-04-01] A Survey of Network-Based Hardware Accelerators
+[8744233904 ] [None    ] [10.1109/tc.2004.102 ] [[91mSC[0m   ] [Article         ] [1  5  4 Ab   ] [2004-11-01] Reconfigurable hardware SAT solvers: A survey of systems

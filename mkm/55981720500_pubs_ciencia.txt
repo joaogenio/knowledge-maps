@@ -1,0 +1,324 @@
+{
+    "ciencia_id": "8C1B-4907-5C4D",
+    "name": "José Manuel Matos Moreira",
+    "bio": "José Moreira received his Ph.D. in Computer Science and Networks from École Nationale Supérieure des Télécommunications de Paris (France), currently known as Télécom ParisTech, and Faculdade de Engenharia da Universidade do Porto (Portugal), in 2001. He is an Assistant Professor at the Department of Electronics, Telecommunications and Informatics of Universidade de Aveiro and a researcher at IEETA, a non-profit R&D institute affiliated to the same university. He also served as a guest professor of the Information and Communications Technologies Institute of Carnegie Mellon University and OTH Regensburg (Germany).   He has been program director of the B.Sc. in Technology and Information Systems and the M.Sc. in Information Systems of the University of Aveiro. He was highly committed to science and technology communication and organized more than 10 one-week programs for young students (<18 years old) in computer science and related areas since 2014. His main teaching and research topics are on data and knowledge engineering, and he is particularly interested in modeling, representing and analyzing spatiotemporal data in databases.   Currently, he is supervising two Ph.D. students, three M.Sc. dissertations and five scholarship holders. He is the principal investigator (PI) of \"MoST - Modeling, querying and interactive visualization of spatiotemporal data\" a project funded by FCT (POCI-01-0145-FEDER-032636), local-PI of the project \"RH 4.0 FeD: Forecast and automatic sizing in retail stores\" (POCI-01-0247-FEDER-039719)  and also participating in more three R&D projects. He is a member of the Program Committee of the IEEE International Conference on eScience since 2014.   ",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [
+        "Best runner-up demo paper award, ACM SIGSpatial"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Usability of Computerized Lung Auscultation – Sound Software (CLASS) for learning pulmonary auscultation",
+            "date": "2017-01-01",
+            "keywords": [
+                "Computer-assisted learning",
+                "Computerized respiratory sounds",
+                "Interface usability",
+                "Lung auscultation"
+            ],
+            "ciencia_id": "cv-prod-id-1599748",
+            "doi": "10.1007/s11517-017-1697-8",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Encyclopedia of Information Science and Technology",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1884139",
+            "doi": "10.4018/978-1-4666-5888-2.ch163",
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Representation and management of spatiotemporal data in object-relational databases",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1884140",
+            "doi": "10.1145/2245276.2245280",
+            "scopus_id": "2-s2.0-84863562974",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sampling strategies to create moving regions from real world observations",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885602",
+            "doi": "10.1145/3341105.3374019",
+            "scopus_id": "2-s2.0-85083039742",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Matching-aware shape simplification",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885603",
+            "doi": null,
+            "scopus_id": "2-s2.0-85083571483",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Towards a qualitative analysis of interpolation methods for deformable moving regions",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885605",
+            "doi": "10.1145/3347146.3359368",
+            "scopus_id": "2-s2.0-85076959248",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "An evaluation of smoothing and remeshing techniques to represent the evolution of real-world phenomena",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885606",
+            "doi": "10.1007/978-3-030-03801-4_6",
+            "scopus_id": "2-s2.0-85057150958",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A framework for the management of deformable moving objects",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885607",
+            "doi": "10.1007/978-3-319-78208-9_17",
+            "scopus_id": "2-s2.0-85044826926",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Representation of continuously changing data over time and space: Modeling the shape of spatiotemporal phenomena",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885608",
+            "doi": "10.1109/eScience.2016.7870891",
+            "scopus_id": "2-s2.0-85016818033",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Morphing techniques for creating and representing spatiotemporal data in GIS",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885610",
+            "doi": null,
+            "scopus_id": "2-s2.0-84911865064",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A semantic framework for touristic information systems",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885613",
+            "doi": "10.4018/978-1-4666-6543-9.ch011",
+            "scopus_id": "2-s2.0-84898224823",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A semantic framework for touristic information systems",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885611",
+            "doi": "10.4018/978-1-4666-2827-4.ch007",
+            "scopus_id": "2-s2.0-84946002451",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Projects of fisioterapia and terapia ocupacional: A classification approach using text mining in R",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885615",
+            "doi": null,
+            "scopus_id": "2-s2.0-84923933085",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A model of approximations for representing time-varying multidimensional data",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885616",
+            "doi": "10.1109/ICDEW.2008.4498302",
+            "scopus_id": "2-s2.0-50249142498",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Evaluation of probabilistic queries in moving objects databases",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885619",
+            "doi": "10.1145/1140104.1140109",
+            "scopus_id": "2-s2.0-33750925699",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Trust in Portuguese Public Authorities",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885618",
+            "doi": "10.2753/PIN1099-9922080106",
+            "scopus_id": "2-s2.0-85044916266",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Evaluation of probabilistic queries in moving objects databases",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885617",
+            "doi": "10.1145/1140104.1140109",
+            "scopus_id": "2-s2.0-33750925699",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Oporto: A realistic scenario generator for moving objects",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885620",
+            "doi": "10.1023/A:1011412005623",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Query operations for moving objects database systems",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885621",
+            "doi": null,
+            "scopus_id": "2-s2.0-0034448244",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Representation and manipulation of moving points: An extended data model for location estimation",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885641",
+            "doi": null,
+            "scopus_id": "2-s2.0-0033427333",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Lecture Notes in Geoinformation and Cartography",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1885912",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling and Representing Real-World Spatio-Temporal Data in Databases (Vision Paper)",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1886181",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": ". A spatiotemporal extension for dealing with moving objects with extent in Oracle 11g",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1904049",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "A Survey on Data-driven Performance Tuning for Big Data Analytics Platforms",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2556187",
+            "doi": "10.1016/j.bdr.2021.100206",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling and representing real-world spatio-temporal data in databases",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2556188",
+            "doi": "10.4230/LIPIcs.COSIT.2019.6",
+            "scopus_id": "2-s2.0-85072649872",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Evaluating Preprocessing and Interpolation Strategies to Create Moving Regions from Real-World Observations",
+            "date": "2020-01-01",
+            "keywords": [
+                "spatio-temporal data",
+                "moving regions",
+                "continuous representation"
+            ],
+            "ciencia_id": "cv-prod-id-2556350",
+            "doi": "10.1145/3412816.3412820",
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Near Real Time Analytic Processing of Traffic Data Streams",
+            "date": "2020-01-01",
+            "keywords": [
+                "GPS data",
+                "data streams",
+                "traffic prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2556351",
+            "doi": "10.1145/3423457.3429365",
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Towards the Automatic Selection of Moving Regions Representation Methods",
+            "date": "2020-01-01",
+            "keywords": [
+                "continuous representation",
+                "moving regions",
+                "spatio-temporal data"
+            ],
+            "ciencia_id": "cv-prod-id-2556352",
+            "doi": "10.1145/3423335.3428170",
+            "scopus_id": null,
+            "authors": [
+                "8C1B-4907-5C4D"
+            ]
+        }
+    ]
+}

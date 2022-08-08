@@ -1,118 +1,116 @@
-[None       ] [cv-prod-id-942057   ] [None                          ] [   CV] [Newsletter Article   ] [ 0  0      ] [2000-06-30] Security Policy Consistency
-[None       ] [1212170647994-92    ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2001-02-08] SPL: An access control language for security policies with complex constraints
-[None       ] [cv-prod-id-2558531  ] [None                          ] [   CV] [Thesis / Dissertation] [ 0  0      ] [2001-04-17] Segurança em comunicações remotas de aplicações legadas
-[None       ] [cv-prod-id-942166   ] [None                          ] [   CV] [Book                 ] [ 1  0      ] [2008-01-01] Voto Electrónico - Discussão Técnica dos Seus Problemas e Oportunidades
-[None       ] [cv-prod-id-942177   ] [None                          ] [   CV] [Conference Paper     ] [ 1  0      ] [2009-01-01] An overview of security ontologies
-[None       ] [cv-prod-id-942170   ] [None                          ] [   CV] [Conference Paper     ] [ 4  0      ] [2009-01-01] Security concerns in eGovernment agent-based interoperability
-[None       ] [cv-prod-id-2429975  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2010-01-01] Segurança em Redes Informáticas
-[None       ] [cv-prod-id-942198   ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2011-01-01] StackFences: a run-time approach for detecting stack overflows
-[None       ] [cv-prod-id-942015   ] [10.5281/ZENODO.35631          ] [   CV] [Article              ] [ 0  0      ] [2012-07-01] Wireless Cooperative Relaying Based On Opportunistic Relay Selection
-[None       ] [cv-prod-id-2402035  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2013-01-01] Aplicação de HelpDesk baseada em PDAs, para apoio à manutenção do Parque Informático da Universidade de Aveiro
-[None       ] [cv-prod-id-2402023  ] [None                          ] [   CV] [Article              ] [ 1  0      ] [2013-01-01] Biometric authentication using electroencephalograms: a practical study using visual evoked potentials
-[None       ] [cv-prod-id-2401898  ] [None                          ] [   CV] [Book                 ] [ 3  0      ] [2013-01-01] Segurança em redes informáticas
-[None       ] [cv-prod-id-942215   ] [10.15224/978-1-63248-029-3-90 ] [   CV] [Conference Paper     ] [ 5  0      ] [2014-01-01] DETIboot: a fast, wireless system to install operating systems on students laptops
-[None       ] [cv-prod-id-2402072  ] [None                          ] [   CV] [Conference Paper     ] [ 4  0      ] [2014-01-01] Secure and trustworthy file sharing over cloud storage using eID tokens
-[None       ] [cv-prod-id-941993   ] [10.1145/2815482.2815491       ] [   CV] [Article              ] [ 0  0      ] [2015-01-01] Towards dynamic adaptation in broadcasting with hybrid rateless codes
-[None       ] [cv-prod-id-941976   ] [10.23919/cisti.2018.8399301   ] [   CV] [Conference Paper     ] [ 0  0      ] [2018-01-01] A propose for a federated ledger for regulated self-sovereignty
-[None       ] [cv-prod-id-2429825  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2018-01-01] Segurança em Redes Informáticas
-[None       ] [cv-prod-id-941975   ] [10.20897/jisem/3943           ] [   CV] [Article              ] [ 3  0      ] [2018-11-10] Federation of Attribute Providers for User Self-Sovereign Identity
-[None       ] [cv-prod-id-941970   ] [10.1109/mobisecserv.2019.8686570] [   CV] [Conference Paper     ] [ 0  0      ] [2019-03-03] Using Reputation as a Coin to Bet on Information Items Distributed in a Smart City
-[None       ] [cv-prod-id-941969   ] [None                          ] [   CV] [Newsletter Article   ] [ 0  0      ] [2019-04-02] An Architecture to Support the Invocation of Personal Services in Web Interactions
-[None       ] [cv-prod-id-941966   ] [None                          ] [   CV] [Newsletter Article   ] [ 0  0      ] [2019-08-26] Integration of the Captive Portal paradigm with the 802.1X architecture
-[None       ] [cv-prod-id-2402113  ] [10.1007/978-3-030-45691-7_31  ] [   CV] [Article              ] [ 3  0      ] [2020-01-01] Evolution of HTTPS Usage by Portuguese Municipalities
-[0027660852 ] [1212170647994-94    ] [None                          ] [SC CV] [Article              ] [ 3  1 Ab   ] [1993-09-01] Distribution and persistence in the IK platform: Overview and evaluation
-[0028734418 ] [cv-prod-id-942060   ] [10.1093/comjnl/37.6.531       ] [SC CV] [Article              ] [ 8  1 Ab   ] [1994-12-01] Orthogonal persistence in a heterogeneous distributed object-oriented environment
-[0030167966 ] [cv-prod-id-942059   ] [10.1109/40.502404             ] [SC CV] [Article              ] [ 2  3 Ab   ] [1996-06-01] Transparent authentication and confidentiality for stream sockets
-[14844362556] [1212170647994-91    ] [10.3233/jcs-2005-13202        ] [SC CV] [Article              ] [ 4  4 Ab   ] [2005-01-01] An efficient high quality random number generator for multi-programmed systems
-[33750249708] [None                ] [10.1007/11836810_23           ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2006-01-01] A security architecture for protecting LAN interactions
-[33750492964] [1212170647994-89    ] [10.1108/10662240610710987     ] [SC CV] [Article              ] [ 0  3 Ab   ] [2006-11-06] An electronic voting system supporting vote weights
-[38349016248] [None                ] [10.1007/978-3-540-76843-2_33  ] [SC   ] [Conference Paper     ] [ 2  2 Ab   ] [2007-01-01] Authentication architecture for eHealth professionals
-[51149113050] [cv-prod-id-942043   ] [10.1109/ngi.2008.40           ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2008-09-11] Improved CSMA/CA protocol for IEEE 802.11
-[52349110158] [cv-prod-id-942045   ] [10.1109/isit.2008.4594957     ] [SC CV] [Conference Paper     ] [14  4 Ab   ] [2008-09-29] Physical-layer encryption with stream ciphers
-[56749104919] [cv-prod-id-942042   ] [10.1145/1363686.1364202       ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2008-12-01] Verifiable anonymous vote submission
-[57349116266] [1212170647992-86    ] [None                          ] [SC CV] [Conference Paper     ] [ 6  3 Ab   ] [2008-12-15] Authentication of professionals in the RTS E-health system
-[58049092276] [cv-prod-id-942048   ] [10.1007/978-3-540-88873-4-1   ] [   CV] [Preface / Postscript ] [ 0  0      ] [2008-01-01] Advanced Communications and Multimedia Security
-[58049092276] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 0  2      ] [2008-01-01] IS 2008 PC co-chairs’ message
-[58149163432] [cv-prod-id-942040   ] [None                          ] [SC CV] [Conference Paper     ] [ 7  4 Ab   ] [2008-12-01] Enhanced secure interface for a portable e-voting terminal
-[63449142680] [cv-prod-id-942044   ] [10.1145/1454586.1454592       ] [SC CV] [Conference Paper     ] [13  2 Ab   ] [2008-12-01] Fast, secure handovers in 802.11: Back to the basis
-[77952816415] [cv-prod-id-942038   ] [10.1109/PIMRC.2009.5449952    ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2009-01-01] A security framework for cognitive radio IP based cooperative protocols
-[77954123897] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 7  1 Ab   ] [2006-12-01] An electronic voting system supporting vote weights
-[77956068578] [cv-prod-id-942036   ] [10.1109/IWSCN.2010.5497995    ] [SC CV] [Conference Paper     ] [12  1 Ab   ] [2010-09-02] Fast VPN mobility across Wi-Fi hotspots
-[77956429479] [1212170647992-76    ] [None                          ] [SC CV] [Conference Paper     ] [14  1 Ab   ] [2010-09-15] Biometric authentication using brain responses to visual stimuli
-[78049402658] [None                ] [10.1007/978-3-540-92219-3_36  ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2008-12-01] Authentication architecture for region-wide e-Health system with smartcards and a PKI
-[79951940999] [cv-prod-id-942032   ] [10.1002/sec.184               ] [SC CV] [Article              ] [10  2 Ab   ] [2011-01-01] Fast 802.11 handovers with 802.1X reauthentications
-[79952510357] [None                ] [10.1007/978-3-642-18472-7_23  ] [SC   ] [Conference Paper     ] [14  2 Ab   ] [2011-03-16] Biometric authentication with electroencephalograms: Evaluation of its suitability using visual evoked potentials
-[79952855547] [cv-prod-id-942028   ] [10.1109/NTMS.2011.5720663     ] [SC CV] [Conference Paper     ] [11  2 Ab   ] [2011-03-25] Pre-allocation of DHCP leases: A cross-layer approach
-[79952947281] [1212170647992-77    ] [None                          ] [SC CV] [Conference Paper     ] [16  1 Ab   ] [2010-12-01] A 3GPP open-ID framework
-[80052491270] [1212170647991-74    ] [None                          ] [SC CV] [Conference Paper     ] [14  2 Ab   ] [2011-09-12] A general interoperability architecture for e-government based on agents and web services
-[80052557113] [1212170647991-72    ] [None                          ] [SC CV] [Conference Paper     ] [10  2 Ab   ] [2011-09-14] Citizen controlled exchange of information in e-government
-[82155181938] [cv-prod-id-942031   ] [10.1109/RFID-TA.2011.6068672  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2011-11-30] RFID technology applied to students' backpacks
-[84055199795] [cv-prod-id-2402025  ] [10.1109/CASON.2011.6085953    ] [SC CV] [Conference Paper     ] [ 6  1 Ab   ] [2011-12-26] Social networking for anonymous communication systems: A survey
-[84055200919] [cv-prod-id-942027   ] [10.1109/ICNP.2011.6089064     ] [SC CV] [Conference Paper     ] [11  2 Ab   ] [2011-12-26] Improving mobile networks based on social mobility modeling
-[84855661576] [cv-prod-id-942026   ] [10.1145/2079327.2079338       ] [SC CV] [Conference Paper     ] [ 9  1 Ab   ] [2011-12-01] Interference-aware opportunistic relay selection
-[84858198852] [cv-prod-id-2402000  ] [10.1109/IMSAA.2011.6156362    ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2011-12-01] Packet tagging system for enhanced traffic profiling
-[84858227149] [None                ] [10.1504/IJCNDS.2009.027602    ] [SC   ] [Article              ] [ 8  1 Ab   ] [2009-01-01] Protection of LAN-wide, P2P interactions: A holistic approach
-[84863971741] [cv-prod-id-942018   ] [10.1109/NTMS.2012.6208748     ] [SC CV] [Conference Paper     ] [14  1 Ab   ] [2012-07-23] Opportunistic relay selection for wireless cooperative network
-[84864867843] [cv-prod-id-942172   ] [None                          ] [SC CV] [Conference Paper     ] [13  2 Ab   ] [2012-08-16] Citizen-side handling of life event services
-[84866393143] [None                ] [10.1007/978-3-642-33757-4_14  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2012-09-24] A negative selection approach to intrusion detection
-[84866687493] [None                ] [10.1007/978-3-642-32805-3_20  ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2012-10-01] A framework for enforcing user-based authorization policies on packet filter firewalls
-[84871276591] [cv-prod-id-942019   ] [10.1109/ISWCS.2012.6328449    ] [SC CV] [Conference Paper     ] [ 3  3 Ab   ] [2012-12-24] Modeling pause time in social mobility models
-[84871953371] [cv-prod-id-942020   ] [10.1109/ICC.2012.6364951      ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2012-12-01] Identification of source applications for enhanced traffic analysis and anomaly detection
-[84872771305] [cv-prod-id-2402014  ] [10.1145/2185376.2185379       ] [SC CV] [Article              ] [12  2 Ab   ] [2012-04-01] A new location layer for the TCP/IP protocol stack
-[84876224182] [cv-prod-id-2402018  ] [10.1007/978-3-642-36981-0_9   ] [SC CV] [Conference Paper     ] [14  2 Ab   ] [2013-01-01] Privacy policies in web sites of portuguese municipalities: An empirical study
-[84883383309] [None                ] [10.1007/978-3-642-38789-0_13  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2013-09-09] A dependable alternative to the spanning tree protocol
-[84891086376] [None                ] [10.1007/978-3-319-00551-5_67  ] [SC   ] [Article              ] [ 4  2 Ab   ] [2013-01-01] Agent-based interoperability for e-government
-[84891086376] [cv-prod-id-942013   ] [10.1007/978-3-319-00551-5_67  ] [   CV] [Book Chapter         ] [11  0      ] [2013-01-01] Distributed Computing and Artificial Intelligence
-[84892646382] [cv-prod-id-942009   ] [10.1109/SaCoNeT.2013.6654588  ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2013-12-01] User-centric, private networks of services
-[84893531288] [cv-prod-id-2401993  ] [10.1109/wd.2013.6686497       ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2013-01-01] Analysis of hybrid relaying in cooperative WLAN
-[84904123532] [None                ] [10.1007/978-3-662-43826-8_12  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] Personal identification in the web using electronic identity cards and a personal identity provider
-[84907310242] [None                ] [10.1007/978-3-662-44885-4_13  ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2014-01-01] Decentralized bootstrap for social overlay networks
-[84907374287] [1212170647989-48    ] [None                          ] [   CV] [Preface / Postscript ] [ 0  0      ] [2014-01-01] Advanced Communications and Multimedia Security
-[84907374287] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  2      ] [2014-01-01] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
-[84911931231] [None                ] [10.1007/978-3-319-13066-8_3   ] [SC   ] [Article              ] [ 8  2 Ab   ] [2014-01-01] Massively parallel identification of Privacy-Preserving vehicle rfid tags
-[84919363690] [cv-prod-id-2402069  ] [10.1109/netwks.2014.6958536   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] Self-adapted protocol for intra and inter-echelons communications
-[84919383572] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] Secure and trustworthy file sharing over cloud storage using eID tokens
-[84919383572] [1212170647989-45    ] [None                          ] [   CV] [Newsletter Article   ] [ 0  0      ] [2015-01-13] Secure and trustworthy file sharing over cloud storage using eID tokens
-[84928336215] [cv-prod-id-941995   ] [http://dx.doi.org/10.1145/2713579.2713586] [SC CV] [Conference Paper     ] [ 5  5 Ab   ] [2015-03-04] Application-specific traffic anomaly detection using universal background model
-[84937196253] [cv-prod-id-941999   ] [10.1109/netwks.2014.6959232   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] Fast image file distribution with Fountain codes via a Wi-Fi ad-hoc network, using low power processors
-[84942614953] [None                ] [10.1007/978-3-319-18467-8_16  ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2015-01-01] Authenticated file broadcast protocol
-[84949233560] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [1997-01-01] Efficient error-propagating block chaining
-[84956971202] [None                ] [10.1007/3-540-45600-7_20      ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2001-01-01] Enforcing obligation with security monitors
-[84966293682] [cv-prod-id-941992   ] [10.1109/IWMN.2015.7322980     ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2015-11-09] Traffic classification and verification using unsupervised learning of Gaussian Mixture Models
-[84969756837] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2008-01-01] A TCP-layer name service for TCP ports
-[84975856228] [cv-prod-id-941987   ] [10.1145/2851613.2851948       ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2016-04-04] Virtual Machine Halt
-[84979713709] [cv-prod-id-941996   ] [None                          ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2015-01-01] Orchestrating feedback for hybrid rateless codes
-[84982085139] [cv-prod-id-941990   ] [10.1002/sec.1516              ] [   CV] [Article              ] [ 0  0      ] [2016-01-01] Traffic classification for managing Applications’ networking profiles
-[84982085139] [None                ] [10.1002/sec.1516              ] [SC   ] [Review               ] [ 8  2 Ab   ] [2016-09-25] Traffic classification for managing Applications’ networking profiles
-[84999792362] [cv-prod-id-2401857  ] [10.1504/eg.2016.10001404      ] [   CV] [Article              ] [ 6  0      ] [2016-01-01] Privacy policies and practices in Portuguese local e-government
-[84999792362] [None                ] [10.1504/EG.2016.080430        ] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2016-01-01] Privacy policies and practices in Portuguese local e-government
-[85004008390] [cv-prod-id-941988   ] [10.1145/2988272.2988275       ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2016-11-13] Exploitation of dual channel transmissions to increase security and reliability in classic bluetooth piconets
-[85011565184] [cv-prod-id-941986   ] [10.1007/s11276-017-1450-0     ] [SC CV] [Article              ] [ 7  3 Ab   ] [2018-08-01] Fast, scalable and secure over-the-air bootstrap of Linux operating systems with Wi-Fi ad hoc networks
-[85034786540] [cv-prod-id-2401047  ] [10.4304/risti.9.15-26         ] [SC CV] [Article              ] [15  1 Ab   ] [2012-06-01] Security model for the dynamic composition of workflows in e-government architectures
-[85044654703] [cv-prod-id-1947876  ] [10.1016/j.adhoc.2017.12.005   ] [SC CV] [Article              ] [ 8  3 Ab FT] [2018-03-15] TROPHY: Trustworthy VANET routing with group authentication keys
-[85049899853] [cv-prod-id-2553506  ] [10.23919/CISTI.2018.8399301   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2018-06-27] A propose for a federated ledger for regulated self-sovereignty
-[85050997054] [cv-prod-id-941983   ] [10.1109/vtcspring.2018.8417766] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2018-07-20] Vehicle-to-vehicle real-time video transmission through IEEE 802.11p for assisted-driving
-[85051930260] [cv-prod-id-941982   ] [10.5220/0006708001680177      ] [SC CV] [Conference Paper     ] [ 6  3 Ab   ] [2018-01-01] Survey of Public Transport Routes using Wi-Fi
-[85053134168] [cv-prod-id-941985   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2018-01-01] A trace-based emulator for vehicular ad hoc networks
-[85053166291] [cv-prod-id-941968   ] [10.1016/j.adhoc.2018.08.017   ] [SC CV] [Article              ] [ 8  3 Ab FT] [2019-07-01] The impact of ECDSA in a VANET routing service: Insights from real data traces
-[85059220147] [cv-prod-id-941984   ] [10.1109/iscc.2018.8538557     ] [SC CV] [Conference Paper     ] [ 8  5 Ab   ] [2018-11-15] Multi-technology vs Single-technology Architecture for Network Coding in VANETs
-[85065071340] [cv-prod-id-2401832  ] [10.1007/978-3-030-16184-2_16  ] [   CV] [Article              ] [ 3  0      ] [2019-01-01] Usage of HTTPS by Municipal Websites in Portugal
-[85065071340] [None                ] [10.1007/978-3-030-16184-2_16  ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2019-01-01] Usage of HTTPS by municipal websites in Portugal
-[85065324384] [cv-prod-id-941971   ] [10.1109/MOBISECSERV.2019.8686570] [SC CV] [Conference Paper     ] [ 7  3 Ab   ] [2019-04-10] Using reputation as a coin to bet on information items distributed in a smart city
-[85068220555] [cv-prod-id-941974   ] [10.1016/B978-088415257-6/50000-4] [   CV] [Preface / Postscript ] [ 0  0      ] [2019-01-01] ICT Systems Security and Privacy Protection
-[85068220555] [None                ] [10.1016/B978-088415257-6/50000-4] [SC   ] [Editorial            ] [ 0  3    FT] [2019-01-01] Preface
-[85070672554] [None                ] [10.1007/978-3-030-26633-2_18  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Survey of passengers’ origin-destination in public transportation networks using WI-FI
-[85073171119] [cv-prod-id-941967   ] [10.33965/csc2019_201908c048   ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2019-01-01] Smart crosswalks: A safe alert system that minimizes the confrontation between vehicles and pedestrians
-[85074295701] [cv-prod-id-941965   ] [10.3390/sym11101315           ] [SC CV] [Article              ] [ 0  4 Ab   ] [2019-10-01] Security-oriented architecture for managing IoT deployments
-[85074751403] [cv-prod-id-941964   ] [10.1145/3349611.3355544       ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2019-10-04] QoE of video streaming in multihomed vehicular networks
-[85077053831] [cv-prod-id-2402105  ] [10.1007/s10916-019-1467-2     ] [SC CV] [Article              ] [14  4 Ab   ] [2020-02-01] A Parser to Support the Definition of Access Control Policies and Rules Using Natural Languages
-[85078577294] [None                ] [10.1109/BIBE.2019.00056       ] [SC   ] [Conference Paper     ] [ 5  3 Ab   ] [2019-10-01] Pseudonymisation with break-the-glass compatibility for health records in federated services
-[85083991731] [cv-prod-id-2553507  ] [10.3390/s20092473             ] [SC CV] [Article              ] [ 8  6 Ab   ] [2020-05-01] An efficient and secure alert system for vanets to improve crosswalks’ security in smart cities
-[85084147152] [cv-prod-id-1938102  ] [10.1007/s11277-020-07298-y    ] [SC CV] [Article              ] [14  2 Ab   ] [2020-08-01] EAP-SH: An EAP Authentication Protocol to Integrate Captive Portals in the 802.1X Security Architecture
-[85085097324] [None                ] [10.1007/s12083-020-00914-5    ] [SC   ] [Article              ] [ 8  2 Ab   ] [2020-09-01] RAIAP: renewable authentication on isolated anonymous profiles: A GDPR compliant self-sovereign architecture for distributed systems
-[85085575803] [None                ] [10.1109/ACCESS.2020.2992556   ] [SC   ] [Article              ] [ 8  3 Ab   ] [2020-01-01] Timely Classification and Verification of Network Traffic Using Gaussian Mixture Models
-[85086278429] [None                ] [10.1007/978-3-030-45691-7_31  ] [SC   ] [Conference Paper     ] [ 0  2 Ab   ] [2020-01-01] Evolution of HTTPS usage by Portuguese municipalities
-[85098738044] [cv-prod-id-2401044  ] [10.1016/j.cose.2020.102148    ] [SC CV] [Article              ] [ 3  2 Ab FT] [2021-03-01] Security and privacy of the Internet of Things
-[85099426966] [None                ] [10.1007/978-3-540-88873-4_1   ] [SC   ] [Editorial            ] [ 0  2      ] [2008-01-01] IS 2008 PC co-chairs' message
-[85099558386] [None                ] [10.1109/ICT49546.2020.09239489] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2020-10-05] Complementing vehicular connectivity coverage through cellular networks
-[85107475113] [None                ] [10.1109/JBHI.2020.3028454     ] [SC   ] [Article              ] [14  4 Ab   ] [2021-06-01] A Pseudonymisation Protocol with Implicit and Explicit Consent Routes for Health Records in Federated Ledgers
+[None       ] [d-942057] [None                ] [   [92mCV[0m] [wsletter Article] [1  0  0      ] [2000-06-30] Security Policy Consistency
+[None       ] [47994-92] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2001-02-08] SPL: An access control language for security policies with complex constraints
+[None       ] [-2558531] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [2001-04-17] Segurança em comunicações remotas de aplicações legadas
+[None       ] [d-942166] [None                ] [   [92mCV[0m] [Book            ] [1  1  0      ] [2008-01-01] Voto Electrónico - Discussão Técnica dos Seus Problemas e Oportunidades
+[None       ] [d-942177] [None                ] [   [92mCV[0m] [Conference Paper] [1  1  0      ] [2009-01-01] An overview of security ontologies
+[None       ] [d-942170] [None                ] [   [92mCV[0m] [Conference Paper] [1  4  0      ] [2009-01-01] Security concerns in eGovernment agent-based interoperability
+[None       ] [-2429975] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2010-01-01] Segurança em Redes Informáticas
+[None       ] [d-942198] [None                ] [   [92mCV[0m] [Article         ] [1  1  0      ] [2011-01-01] StackFences: a run-time approach for detecting stack overflows
+[None       ] [d-942015] [10.5281/zenodo.35631] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-07-01] Wireless Cooperative Relaying Based On Opportunistic Relay Selection
+[None       ] [-2402035] [None                ] [   [92mCV[0m] [Article         ] [1  1  0      ] [2013-01-01] Aplicação de HelpDesk baseada em PDAs, para apoio à manutenção do Parque Informático da Universidade de Aveiro
+[None       ] [-2402023] [None                ] [   [92mCV[0m] [Article         ] [1  1  0      ] [2013-01-01] Biometric authentication using electroencephalograms: a practical study using visual evoked potentials
+[None       ] [-2401898] [None                ] [   [92mCV[0m] [Book            ] [1  3  0      ] [2013-01-01] Segurança em redes informáticas
+[None       ] [d-942215] [978-1-63248-029-3-90] [   [92mCV[0m] [Conference Paper] [1  5  0      ] [2014-01-01] DETIboot: a fast, wireless system to install operating systems on students laptops
+[None       ] [-2402072] [None                ] [   [92mCV[0m] [Conference Paper] [1  4  0      ] [2014-01-01] Secure and trustworthy file sharing over cloud storage using eID tokens
+[None       ] [d-941993] [1145/2815482.2815491] [   [92mCV[0m] [Article         ] [1  0  0      ] [2015-01-01] Towards dynamic adaptation in broadcasting with hybrid rateless codes
+[None       ] [-2429825] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2018-01-01] Segurança em Redes Informáticas
+[None       ] [d-941975] [10.20897/jisem/3943 ] [   [92mCV[0m] [Article         ] [1  3  0      ] [2018-11-10] Federation of Attribute Providers for User Self-Sovereign Identity
+[None       ] [d-941969] [None                ] [   [92mCV[0m] [wsletter Article] [1  0  0      ] [2019-04-02] An Architecture to Support the Invocation of Personal Services in Web Interactions
+[None       ] [d-941966] [None                ] [   [92mCV[0m] [wsletter Article] [1  0  0      ] [2019-08-26] Integration of the Captive Portal paradigm with the 802.1X architecture
+[None       ] [-2402113] [978-3-030-45691-7_31] [   [92mCV[0m] [Article         ] [1  3  0      ] [2020-01-01] Evolution of HTTPS Usage by Portuguese Municipalities
+[0027660852 ] [47994-94] [None                ] [[91mSC[0m [92mCV[0m] [Article         ] [1  3  1 Ab   ] [1993-09-01] Distribution and persistence in the IK platform: Overview and evaluation
+[0028734418 ] [d-942060] [1093/comjnl/37.6.531] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  1 Ab   ] [1994-12-01] Orthogonal persistence in a heterogeneous distributed object-oriented environment
+[0030167966 ] [d-942059] [10.1109/40.502404   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  3 Ab   ] [1996-06-01] Transparent authentication and confidentiality for stream sockets
+[14844362556] [47994-91] [.3233/jcs-2005-13202] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  4 Ab   ] [2005-01-01] An efficient high quality random number generator for multi-programmed systems
+[33750249708] [None    ] [10.1007/11836810_23 ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2006-01-01] A security architecture for protecting LAN interactions
+[33750492964] [47994-89] [08/10662240610710987] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2006-11-06] An electronic voting system supporting vote weights
+[38349016248] [None    ] [978-3-540-76843-2_33] [[91mSC[0m   ] [Conference Paper] [1  2  2 Ab   ] [2007-01-01] Authentication architecture for eHealth professionals
+[51149113050] [d-942043] [10.1109/ngi.2008.40 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2008-09-11] Improved CSMA/CA protocol for IEEE 802.11
+[52349110158] [d-942045] [09/isit.2008.4594957] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 14  4 Ab   ] [2008-09-29] Physical-layer encryption with stream ciphers
+[56749104919] [d-942042] [1145/1363686.1364202] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2008-12-01] Verifiable anonymous vote submission
+[57349116266] [47992-86] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  3 Ab   ] [2008-12-15] Authentication of professionals in the RTS E-health system
+[58049092276] [d-942048] [/978-3-540-88873-4-1] [   [92mCV[0m] [ace / Postscript] [1  0  0      ] [2008-01-01] Advanced Communications and Multimedia Security
+[58049092276] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  0  2      ] [2008-01-01] IS 2008 PC co-chairs’ message
+[58149163432] [d-942040] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  4 Ab   ] [2008-12-01] Enhanced secure interface for a portable e-voting terminal
+[63449142680] [d-942044] [1145/1454586.1454592] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 13  2 Ab   ] [2008-12-01] Fast, secure handovers in 802.11: Back to the basis
+[77952816415] [d-942038] [9/pimrc.2009.5449952] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2009-01-01] A security framework for cognitive radio IP based cooperative protocols
+[77954123897] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2006-12-01] An electronic voting system supporting vote weights
+[77956068578] [d-942036] [9/iwscn.2010.5497995] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  1 Ab   ] [2010-09-02] Fast VPN mobility across Wi-Fi hotspots
+[77956429479] [47992-76] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 14  1 Ab   ] [2010-09-15] Biometric authentication using brain responses to visual stimuli
+[78049402658] [None    ] [978-3-540-92219-3_36] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2008-12-01] Authentication architecture for region-wide e-Health system with smartcards and a PKI
+[79951940999] [d-942032] [10.1002/sec.184     ] [[91mSC[0m [92mCV[0m] [Article         ] [1 10  2 Ab   ] [2011-01-01] Fast 802.11 handovers with 802.1X reauthentications
+[79952510357] [None    ] [978-3-642-18472-7_23] [[91mSC[0m   ] [Conference Paper] [1 14  2 Ab   ] [2011-03-16] Biometric authentication with electroencephalograms: Evaluation of its suitability using visual evoked potentials
+[79952855547] [d-942028] [09/ntms.2011.5720663] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  2 Ab   ] [2011-03-25] Pre-allocation of DHCP leases: A cross-layer approach
+[79952947281] [47992-77] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 16  1 Ab   ] [2010-12-01] A 3GPP open-ID framework
+[80052491270] [47991-74] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 14  2 Ab   ] [2011-09-12] A general interoperability architecture for e-government based on agents and web services
+[80052557113] [47991-72] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 10  2 Ab   ] [2011-09-14] Citizen controlled exchange of information in e-government
+[82155181938] [d-942031] [rfid-ta.2011.6068672] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2011-11-30] RFID technology applied to students' backpacks
+[84055199795] [-2402025] [9/cason.2011.6085953] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  1 Ab   ] [2011-12-26] Social networking for anonymous communication systems: A survey
+[84055200919] [d-942027] [09/icnp.2011.6089064] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  2 Ab   ] [2011-12-26] Improving mobile networks based on social mobility modeling
+[84855661576] [d-942026] [1145/2079327.2079338] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  1 Ab   ] [2011-12-01] Interference-aware opportunistic relay selection
+[84858198852] [-2402000] [9/imsaa.2011.6156362] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2011-12-01] Packet tagging system for enhanced traffic profiling
+[84858227149] [None    ] [4/ijcnds.2009.027602] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2009-01-01] Protection of LAN-wide, P2P interactions: A holistic approach
+[84863971741] [d-942018] [09/ntms.2012.6208748] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 14  1 Ab   ] [2012-07-23] Opportunistic relay selection for wireless cooperative network
+[84864867843] [d-942172] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 13  2 Ab   ] [2012-08-16] Citizen-side handling of life event services
+[84866393143] [None    ] [978-3-642-33757-4_14] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2012-09-24] A negative selection approach to intrusion detection
+[84866687493] [None    ] [978-3-642-32805-3_20] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2012-10-01] A framework for enforcing user-based authorization policies on packet filter firewalls
+[84871276591] [d-942019] [9/iswcs.2012.6328449] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  3  3 Ab   ] [2012-12-24] Modeling pause time in social mobility models
+[84871953371] [d-942020] [109/icc.2012.6364951] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2012-12-01] Identification of source applications for enhanced traffic analysis and anomaly detection
+[84872771305] [-2402014] [1145/2185376.2185379] [[91mSC[0m [92mCV[0m] [Article         ] [1 12  2 Ab   ] [2012-04-01] A new location layer for the TCP/IP protocol stack
+[84876224182] [-2402018] [/978-3-642-36981-0_9] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 14  2 Ab   ] [2013-01-01] Privacy policies in web sites of portuguese municipalities: An empirical study
+[84883383309] [None    ] [978-3-642-38789-0_13] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2013-09-09] A dependable alternative to the spanning tree protocol
+[84891086376] [None    ] [978-3-319-00551-5_67] [[91mSC[0m   ] [Article         ] [1  4  2 Ab   ] [2013-01-01] Agent-based interoperability for e-government
+[84891086376] [d-942013] [978-3-319-00551-5_67] [   [92mCV[0m] [Book Chapter    ] [1 11  0      ] [2013-01-01] Distributed Computing and Artificial Intelligence
+[84892646382] [d-942009] [saconet.2013.6654588] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2013-12-01] User-centric, private networks of services
+[84893531288] [-2401993] [1109/wd.2013.6686497] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2013-01-01] Analysis of hybrid relaying in cooperative WLAN
+[84904123532] [None    ] [978-3-662-43826-8_12] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Personal identification in the web using electronic identity cards and a personal identity provider
+[84907310242] [None    ] [978-3-662-44885-4_13] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2014-01-01] Decentralized bootstrap for social overlay networks
+[84907374287] [47989-48] [None                ] [   [92mCV[0m] [ace / Postscript] [1  0  0      ] [2014-01-01] Advanced Communications and Multimedia Security
+[84907374287] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  2      ] [2014-01-01] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
+[84911931231] [None    ] [/978-3-319-13066-8_3] [[91mSC[0m   ] [Article         ] [1  8  2 Ab   ] [2014-01-01] Massively parallel identification of Privacy-Preserving vehicle rfid tags
+[84919363690] [-2402069] [/netwks.2014.6958536] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] Self-adapted protocol for intra and inter-echelons communications
+[84919383572] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Secure and trustworthy file sharing over cloud storage using eID tokens
+[84919383572] [47989-45] [None                ] [   [92mCV[0m] [wsletter Article] [1  0  0      ] [2015-01-13] Secure and trustworthy file sharing over cloud storage using eID tokens
+[84928336215] [d-941995] [1145/2713579.2713586] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  5 Ab   ] [2015-03-04] Application-specific traffic anomaly detection using universal background model
+[84937196253] [d-941999] [/netwks.2014.6959232] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] Fast image file distribution with Fountain codes via a Wi-Fi ad-hoc network, using low power processors
+[84942614953] [None    ] [978-3-319-18467-8_16] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2015-01-01] Authenticated file broadcast protocol
+[84949233560] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [1997-01-01] Efficient error-propagating block chaining
+[84956971202] [None    ] [007/3-540-45600-7_20] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2001-01-01] Enforcing obligation with security monitors
+[84966293682] [d-941992] [09/iwmn.2015.7322980] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2015-11-09] Traffic classification and verification using unsupervised learning of Gaussian Mixture Models
+[84969756837] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2008-01-01] A TCP-layer name service for TCP ports
+[84975856228] [d-941987] [1145/2851613.2851948] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2016-04-04] Virtual Machine Halt
+[84979713709] [d-941996] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2015-01-01] Orchestrating feedback for hybrid rateless codes
+[84982085139] [d-941990] [10.1002/sec.1516    ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2016-01-01] Traffic classification for managing Applications’ networking profiles
+[84982085139] [None    ] [10.1002/sec.1516    ] [[91mSC[0m   ] [Review          ] [1  8  2 Ab   ] [2016-09-25] Traffic classification for managing Applications’ networking profiles
+[84999792362] [-2401857] [504/eg.2016.10001404] [   [92mCV[0m] [Article         ] [1  6  0      ] [2016-01-01] Privacy policies and practices in Portuguese local e-government
+[84999792362] [None    ] [.1504/eg.2016.080430] [[91mSC[0m   ] [Conference Paper] [1  0  2 Ab   ] [2016-01-01] Privacy policies and practices in Portuguese local e-government
+[85004008390] [d-941988] [1145/2988272.2988275] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2016-11-13] Exploitation of dual channel transmissions to increase security and reliability in classic bluetooth piconets
+[85011565184] [d-941986] [07/s11276-017-1450-0] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  3 Ab   ] [2018-08-01] Fast, scalable and secure over-the-air bootstrap of Linux operating systems with Wi-Fi ad hoc networks
+[85034786540] [-2401047] [0.4304/risti.9.15-26] [[91mSC[0m [92mCV[0m] [Article         ] [1 15  1 Ab   ] [2012-06-01] Security model for the dynamic composition of workflows in e-government architectures
+[85044654703] [-1947876] [/j.adhoc.2017.12.005] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab FT] [2018-03-15] TROPHY: Trustworthy VANET routing with group authentication keys
+[85049899853] [d-941976] [9/cisti.2018.8399301] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2018-06-27] A propose for a federated ledger for regulated self-sovereignty
+[85050997054] [d-941983] [cspring.2018.8417766] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2018-07-20] Vehicle-to-vehicle real-time video transmission through IEEE 802.11p for assisted-driving
+[85051930260] [d-941982] [220/0006708001680177] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  3 Ab   ] [2018-01-01] Survey of Public Transport Routes using Wi-Fi
+[85053134168] [d-941985] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2018-01-01] A trace-based emulator for vehicular ad hoc networks
+[85053166291] [d-941968] [/j.adhoc.2018.08.017] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab FT] [2019-07-01] The impact of ECDSA in a VANET routing service: Insights from real data traces
+[85059220147] [d-941984] [09/iscc.2018.8538557] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  5 Ab   ] [2018-11-15] Multi-technology vs Single-technology Architecture for Network Coding in VANETs
+[85065071340] [-2401832] [978-3-030-16184-2_16] [   [92mCV[0m] [Article         ] [1  3  0      ] [2019-01-01] Usage of HTTPS by Municipal Websites in Portugal
+[85065071340] [None    ] [978-3-030-16184-2_16] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2019-01-01] Usage of HTTPS by municipal websites in Portugal
+[85065324384] [d-941970] [secserv.2019.8686570] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  3 Ab   ] [2019-04-10] Using reputation as a coin to bet on information items distributed in a smart city
+[85068220555] [d-941974] [-088415257-6/50000-4] [   [92mCV[0m] [ace / Postscript] [1  0  0      ] [2019-01-01] ICT Systems Security and Privacy Protection
+[85068220555] [None    ] [-088415257-6/50000-4] [[91mSC[0m   ] [Editorial       ] [1  0  3    FT] [2019-01-01] Preface
+[85070672554] [None    ] [978-3-030-26633-2_18] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Survey of passengers’ origin-destination in public transportation networks using WI-FI
+[85073171119] [d-941967] [5/csc2019_201908c048] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2019-01-01] Smart crosswalks: A safe alert system that minimizes the confrontation between vehicles and pedestrians
+[85074295701] [d-941965] [10.3390/sym11101315 ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2019-10-01] Security-oriented architecture for managing IoT deployments
+[85074751403] [d-941964] [1145/3349611.3355544] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2019-10-04] QoE of video streaming in multihomed vehicular networks
+[85077053831] [-2402105] [07/s10916-019-1467-2] [[91mSC[0m [92mCV[0m] [Article         ] [1 14  4 Ab   ] [2020-02-01] A Parser to Support the Definition of Access Control Policies and Rules Using Natural Languages
+[85078577294] [None    ] [1109/bibe.2019.00056] [[91mSC[0m   ] [Conference Paper] [1  5  3 Ab   ] [2019-10-01] Pseudonymisation with break-the-glass compatibility for health records in federated services
+[85083991731] [-2553507] [10.3390/s20092473   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  6 Ab   ] [2020-05-01] An efficient and secure alert system for vanets to improve crosswalks’ security in smart cities
+[85084147152] [-1938102] [7/s11277-020-07298-y] [[91mSC[0m [92mCV[0m] [Article         ] [1 14  2 Ab   ] [2020-08-01] EAP-SH: An EAP Authentication Protocol to Integrate Captive Portals in the 802.1X Security Architecture
+[85085097324] [None    ] [7/s12083-020-00914-5] [[91mSC[0m   ] [Article         ] [1  8  2 Ab   ] [2020-09-01] RAIAP: renewable authentication on isolated anonymous profiles: A GDPR compliant self-sovereign architecture for distributed systems
+[85085575803] [None    ] [/access.2020.2992556] [[91mSC[0m   ] [Article         ] [1  8  3 Ab   ] [2020-01-01] Timely Classification and Verification of Network Traffic Using Gaussian Mixture Models
+[85086278429] [None    ] [978-3-030-45691-7_31] [[91mSC[0m   ] [Conference Paper] [1  0  2 Ab   ] [2020-01-01] Evolution of HTTPS usage by Portuguese municipalities
+[85098738044] [-2401044] [6/j.cose.2020.102148] [[91mSC[0m [92mCV[0m] [Article         ] [1  3  2 Ab FT] [2021-03-01] Security and privacy of the Internet of Things
+[85099426966] [None    ] [/978-3-540-88873-4_1] [[91mSC[0m   ] [Editorial       ] [1  0  2      ] [2008-01-01] IS 2008 PC co-chairs' message
+[85099558386] [None    ] [t49546.2020.09239489] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2020-10-05] Complementing vehicular connectivity coverage through cellular networks
+[85107475113] [None    ] [09/jbhi.2020.3028454] [[91mSC[0m   ] [Article         ] [1 14  4 Ab   ] [2021-06-01] A Pseudonymisation Protocol with Implicit and Explicit Consent Routes for Health Records in Federated Ledgers

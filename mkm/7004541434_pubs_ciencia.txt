@@ -1,0 +1,1199 @@
+{
+    "ciencia_id": "F612-6014-3735",
+    "name": "Paulo Jorge Salvador Serra Ferreira",
+    "bio": "",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [
+        {
+            "name": "DARTEG - Deteção de Ataques de Redirecionamento de Tráfego a uma Escala Global",
+            "desc": "Neste projeto onde foi desenvolvida desenvolveu uma plataforma de monitorização global baseada em sondas distribuídas mundialmente (com controlo centralizado) para a deteção de ataques de redirecionamento de tráfego a uma escala global aproveitando as vulnerabilidades do BGP. Esta plataforma permite detetar variações no encaminhamento de tráfego com base em desvios no tempo de ida e volta das comunicações, entre uma rede a proteger e servidores dispersos por múltiplas localizações geográficas. A plataforma de deteção tem como objetivo satisfazer as necessidades dos utilizadores empresariais e não dos ISP. Os utilizadores empresariais deverão ser capaz de proteger seus ativos, detetando qualquer ataque ameaçador sem o acesso a informações detalhadas sobre o encaminhamento BGP, a qual é geralmente de acesso muito restrito. Após a deteção, um cliente empresarial não pode agir em termos do encaminhamento global, mas pode avisar os seus ISP e solicitar ações imediatas. No entanto, após a deteção, o cliente empresarial pode localmente implantar políticas de segurança extremas, como terminar comunicações adiáveis (sincronização de base de dados, comunicações áudio/vídeo) e aumentar o nível de criptografia obrigatória para os seus serviços públicos. A necessidade de uma infraestrutura de monitorização global é para a maioria dos clientes empresariais uma barreira intransponível, devido aos custos inerentes e dificuldades técnicas de implementação. Assim, disponibilizamos uma plataforma de fácil implementação e gestão. No âmbito deste projeto, os avanços científicos foram: (i) o desenvolvimento de metodologias e algoritmos para implantação e gestão robustas de sondas distribuídas, (ii) desenvolvimento de metodologias para a recuperação distribuída de informação de encaminhamento, pré-processamento, correlação e deteção de anomalias e, (iii) desenvolvimento de metodologias e algoritmos de deteção e localização de ataques de redirecionamento de tráfego. Os parceiros deste projeto foram investigadores das áreas cientificas da matemáticos e engenharia de computadores do Instituto Superior Técnico (Universidade de Lisboa) e investigadores da área cientifica da engenharia de computadores da Universidade de Aveiro. Mais informação e código aberto da aplicação disponíveis em http://darteg.netconfs.net/ .",
+            "year": "2016",
+            "areas": [
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics - Telecommunications",
+                    "code": "20201005"
+                }
+            ]
+        }
+    ],
+    "publications": [
+        {
+            "type": "Book",
+            "title": "A Practical Approach to Corporate Networks Engineering",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424606",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Fitting self-similar traffic by a superposition of MMPPs modeling the distribution at multiple time scales",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424608",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Modeling IP traffic: joint characterization of packet arrivals and packet sizes using BMAPs",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424610",
+            "doi": "10.1016/j.comnet.2003.10.004",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424612",
+            "doi": "10.1016/j.comcom.2004.06.014",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Modeling self-similar traffic over multiple time scales based on hierarchical Markovian and L-System models",
+            "date": "2010-01-01",
+            "keywords": [
+                "Traffic modeling",
+                " Multiscale",
+                " L-system",
+                " Self-similarity",
+                " Markov modulated Poisson process"
+            ],
+            "ciencia_id": "cv-prod-id-2424615",
+            "doi": "10.1016/j.comcom.2010.04.016",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Identification of peer-to-peer applications' flow patterns",
+            "date": "2008-01-01",
+            "keywords": [
+                " semantic and syntactic analysis",
+                " port matching",
+                " neural networks",
+                " P2P applications",
+                " protocol analysis",
+                " traffic flows"
+            ],
+            "ciencia_id": "cv-prod-id-2424617",
+            "doi": "10.1109/NGI.2008.46",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detection of illicit traffic using neural networks",
+            "date": "2008-01-01",
+            "keywords": [
+                " traffic signature",
+                " syntatic and semantic analysis",
+                " port matching",
+                " firewalls",
+                " protocol analysis",
+                "intrusion detection system"
+            ],
+            "ciencia_id": "cv-prod-id-2424618",
+            "doi": null,
+            "scopus_id": "2-s2.0-58049152250",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Active traffic monitoring for heterogeneous environments",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424619",
+            "doi": "10.1007/b107117",
+            "scopus_id": "2-s2.0-24644456982",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Can multiscale traffic analysis be used to differentiate Internet applications?",
+            "date": "2011-01-01",
+            "keywords": [
+                " Upload",
+                " Cluster analysis",
+                " Multifractal behavior",
+                "Application identification",
+                " Wavelets",
+                " Multiscale analysis"
+            ],
+            "ciencia_id": "cv-prod-id-2424620",
+            "doi": "10.1007/s11235-010-9331-1",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Framework for Detecting Internet Applications",
+            "date": "2008-01-01",
+            "keywords": [
+                " semantic and syntactic analysis",
+                " neural networks",
+                " protocol analysis",
+                " port matching"
+            ],
+            "ciencia_id": "cv-prod-id-2424623",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "IPTV service based on a content-zapping paradigm",
+            "date": "2011-01-01",
+            "keywords": [
+                " Content-zapping",
+                " User preferences",
+                " Classification",
+                " Customization",
+                "IPTV"
+            ],
+            "ciencia_id": "cv-prod-id-2424624",
+            "doi": "10.1007/s00530-010-0215-8",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detection of Illicit Network Activities based on Multivariate Gaussian Fitting of Multi-Scale Traffic Characteristics",
+            "date": "2011-01-01",
+            "keywords": [
+                " flows classification",
+                "Detection of illicit traffic",
+                " multi-scale analysis",
+                " multivariate Gaussian distributions"
+            ],
+            "ciencia_id": "cv-prod-id-2424626",
+            "doi": "10.1109/icc.2011.5962651",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Study on geographical distribution and availability of BitTorrent peers sharing video files",
+            "date": "2008-01-01",
+            "keywords": [
+                " BitTorrent",
+                " Video-on-Demand",
+                " video sharing",
+                "peer-to-peer systems"
+            ],
+            "ciencia_id": "cv-prod-id-2424627",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the Dependencies between Internet Flow Characteristics",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424628",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detection of Illicit Traffic based on Multiscale Analysis",
+            "date": "2009-01-01",
+            "keywords": [
+                " licit and illict applications",
+                "Application identification",
+                " Cluster analysis",
+                " Wavelets",
+                " Multiscale analysis",
+                " Multifractal behavior"
+            ],
+            "ciencia_id": "cv-prod-id-2424630",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Analysis of the Internet Domain Names Re-registration Market",
+            "date": "2011-01-01",
+            "keywords": [
+                "Domain name",
+                " re-registration",
+                " secondary market",
+                " rank"
+            ],
+            "ciencia_id": "cv-prod-id-2424633",
+            "doi": "10.1016/j.procs.2010.12.056",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Peer-Level Analysis of Distributed Multimedia Content Sharing",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424635",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A privacy-focused approach for anomaly detection in IoT networks",
+            "date": "2021-02-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425250",
+            "doi": "10.1002/nem.2154",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Socially-Aware Multimedia Dissemination in Personal Mobile Networks",
+            "date": "2017-06-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425252",
+            "doi": "10.1007/s11277-017-4609-1",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Extracting Information from Interval Data Using Symbolic Principal Component Analysis",
+            "date": "2017-04-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425253",
+            "doi": "10.17713/ajs.v46i3-4.673",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Supporting Unified Distributed Management and Autonomic Decisions: Design, Implementation and Deployment",
+            "date": "2016-11-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425254",
+            "doi": "10.1007/s10922-016-9398-4",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Do we need a perfect ground-truth for benchmarking Internet traffic classifiers?",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425255",
+            "doi": "10.1109/INFOCOM.2015.7218634",
+            "scopus_id": "2-s2.0-84954233511",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detecting DDoS attacks at the source using multiscaling analysis",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425256",
+            "doi": "10.1109/NETWKS.2014.6959267",
+            "scopus_id": "2-s2.0-84919372880",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A peer-to-peer system for large scale traffic measurements",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425257",
+            "doi": "10.1109/NETWKS.2014.6959269",
+            "scopus_id": "2-s2.0-84919361255",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Customer-side detection of Internet-scale traffic redirection",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425259",
+            "doi": "10.1109/NETWKS.2014.6958532",
+            "scopus_id": "2-s2.0-84919344201",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DICOM interception system for independent image backup",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425260",
+            "doi": "10.1109/NOMS.2014.6838338",
+            "scopus_id": "2-s2.0-84904154038",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Facebook event collector framework for profile monitoring purposes",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425261",
+            "doi": "10.1109/ISCC.2014.6912474",
+            "scopus_id": "2-s2.0-84908180851",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Framework for collecting social network events",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425262",
+            "doi": "10.1109/NETWKS.2014.6959218",
+            "scopus_id": "2-s2.0-84919347031",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Statistical characterization of P2P-TV services and users",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425263",
+            "doi": "10.1007/s11235-013-9793-z",
+            "scopus_id": "2-s2.0-84901694609",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Network-based Wi-Fi Localization Solution",
+            "date": "2013-12-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425264",
+            "doi": "10.2174/22117407112016660009",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methodologies for Network Topology Discovery and Detection of MAC and IP Spoofing Attacks",
+            "date": "2013-10-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425265",
+            "doi": "10.5296/npa.v5i3.4316",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Detection of WPS Attacks based on Multiscale Traffic Analysis",
+            "date": "2013-08-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425266",
+            "doi": "10.2174/22117407112019990007",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Spanning Tree Protocol over mobile wireless ad hoc networks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425267",
+            "doi": "10.1109/ICCW.2013.6649399",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Localization system for wireless networks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425268",
+            "doi": "10.1109/ICCW.2013.6649380",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lightweight discovery and exchange of network information in distributed network management",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426080",
+            "doi": null,
+            "scopus_id": "2-s2.0-84883478997",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using multiscale traffic analysis to detect WPS attacks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425271",
+            "doi": "10.1109/ICCW.2013.6649386",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Differentiation of HTTP Applications Based on Multiscale Analysis",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425568",
+            "doi": "10.2174/22117407112019990003",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Statistical Characterization of the Botnets C&C Traffic",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425569",
+            "doi": "10.1016/j.protcy.2012.02.030",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Nodes discovery in the in-network management communication framework",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425572",
+            "doi": "10.1007/978-3-642-30422-4_11",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Classification of hidden users' profiles in wireless communications",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425573",
+            "doi": "10.1007/978-3-642-30422-4_1",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Self-organizing decentralized wireless management through social-based metrics",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425574",
+            "doi": "10.1109/NOMS.2012.6212051",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Characterization and Modeling of Top Spam Botnets",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425577",
+            "doi": "10.5296/npa.v4i4.2058",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Multi-Scale Profiling of Internet Traffic",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425578",
+            "doi": "10.2174/2211740711201020004",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Atas da 12a Conferência sobre Redes de Computadores (CRC2012)",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425579",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Physical Layer Anomaly Detection Mechanisms in IoT Networks",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426067",
+            "doi": "10.1109/NOMS47738.2020.9110323",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modular Platform for Customer-Side Detection of BGP Redirection Attacks",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426069",
+            "doi": "10.5220/0006543601990206",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Quasi-realistic Internet Graph",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426070",
+            "doi": "10.5220/0006440100270032",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Tracking Social Networks Events",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426071",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multi-scaling Analysis of Social Network Users Profiles",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426072",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Teaching Networking: A Hands-on Approach that Relies on Emulation-based Projects",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426074",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the Analysis of Dissemination Management Information through an Eyesight Perspective",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426075",
+            "doi": "10.1109/GLOCOMW.2013.6825122",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Genetic Algorithm Approach to Improve Network Nodes Association",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426076",
+            "doi": "10.1109/GLOCOM.2013.6831285",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Algorithms for Network Discovery and Detection of MAC and IP Spoofing Security Attacks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426077",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Inter-Operator Traffic Differentiation based on Multiscale Analysis",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426078",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detecting Social-Network Bots Based on Multiscale Behavioral Analysis",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426079",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lightweight Discovery and Exchange of Network Information in Distributed Network Management",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425270",
+            "doi": null,
+            "scopus_id": "2-s2.0-84883478997",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Fighting Botnets - A Systematic Approach",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426081",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Characterizing and Predicting Internet Users Hidden Behaviors with Markovian Models",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425576",
+            "doi": null,
+            "scopus_id": "2-s2.0-84881472256",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Characterization and Modeling of M2M Video Surveillance Traffic",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426083",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Identification of Anomalies on Encrypted Communications based on Multi-Scale Behavior Modeling",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426084",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Multi-Variate Classification Approach for the Detection of Illicit Traffic",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426085",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Joint Modeling of Network Related Events with Multi-Dimensional Markov Modulated Deterministic Processes",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426086",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "P2P-TV Service and User Characterization",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426117",
+            "doi": "10.1109/CIT.2010.441",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Botnet Detection System based on Neural Networks",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426118",
+            "doi": "10.1109/ICDT.2010.19",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Analyzing the Behavior of Top Spam Botnets",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425575",
+            "doi": "10.1109/ICC.2012.6364709",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Improving MAC Layer Association through Social-Based Metrics in Mobile Networks",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2425571",
+            "doi": "10.1109/MCOM.2012.6211491",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Robust Feature Selection and Robust PCA for Internet Traffic Anomaly Detection",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2424631",
+            "doi": "10.1109/INFCOM.2012.6195548",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Markov Modulated Bi-variate Gaussian Processes for Mobility Modeling and Location Prediction",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426125",
+            "doi": "10.1007/978-3-642-20757-0_18",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multimedia Content Aggregator applied to an IPTV Content-Zapping Service",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426126",
+            "doi": "10.1109/EUROCON.2011.5929239",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "FTP@VDTN - A File Transfer Application for Vehicular Delay-Tolerant Networks",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426127",
+            "doi": "10.1109/EUROCON.2011.5929349",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Emulation Environment for Ground Truth Establishment",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426128",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gaussian Fitting of Multi-scale Traffic Properties for Discriminating IP Applications",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426129",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improving the Traffic Prediction Capability of Neural Networks Using Sliding Window and Multi-task Learning Mechanisms",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426130",
+            "doi": "10.1109/INTERNET.2010.11",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Cooperative Hide and Seek Discovery over In Network Management",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426131",
+            "doi": "10.1109/NOMSW.2010.5486570",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "IPTV Service with Automatic Channels Personalization",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426132",
+            "doi": "10.1109/WAINA.2010.66",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improvement of Messages Delivery Time on Vehicular Delay-Tolerant Networks",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426134",
+            "doi": "10.1109/ICPPW.2009.33",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Book",
+            "title": "Traffic Management and Traffic Engineering for the Future Internet",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426137",
+            "doi": "10.1007/978-3-642-04576-9",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Discriminating Internet Applications Based on Multiscale Analysis",
+            "date": "2009-01-01",
+            "keywords": [
+                "Application identification",
+                " Cluster analysis",
+                " Wavelets",
+                " Multiscale analysis",
+                " Multifractal behavior"
+            ],
+            "ciencia_id": "cv-prod-id-2426138",
+            "doi": "10.1109/NGI.2009.5175758",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Markovian Models for Medical Signals on Wireless Sensor Networks",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426139",
+            "doi": "10.1109/ICCW.2009.5208090",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Framework for Zombie Detection using Neural Networks",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426148",
+            "doi": "10.1109/ICIMP.2009.10",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Towards the On-line Identification of Peer-to-peer Flow Patterns",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426149",
+            "doi": "10.4304/jnw.4.2.108-118",
+            "scopus_id": "2-s2.0-77954674919",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Identifying Differentiating Characteristics of Internet Applications using Principal Component Analysis",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426151",
+            "doi": "10.1109/CSNDSP.2008.4610757",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Local Area Network Modeling for Performance Prediction",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426155",
+            "doi": "10.1109/LCN.2007.94",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Joint Modeling of MANET Characteristics for QoS Prediction",
+            "date": "2007-01-01",
+            "keywords": [
+                "network modeling",
+                " QoS inference",
+                " mobile ad-hoc network"
+            ],
+            "ciencia_id": "cv-prod-id-2426156",
+            "doi": "10.1109/ISCC.2007.4381613",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Cluster analysis of Internet users based on hourly traffic utilization",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426157",
+            "doi": "10.1093/ietconi/e9O-b.7.1594",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Predicting QoS Characteristics on Wireless Networks",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426158",
+            "doi": "10.1109/ICNS.2007.97",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Predicting the Quality of Service of Wireless LANs using Neural Networks",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426184",
+            "doi": "10.1145/1164717.1164728",
+            "scopus_id": "2-s2.0-33750906923",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Detecting Internet Applications using Neural Networks",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426185",
+            "doi": "10.1109/ICNS.2006.38",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Using Neural Networks to Classify Internet Users",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426186",
+            "doi": "10.1109/AICT.2005.93",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Classification of Internet users using discriminant analysis and neural networks",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426188",
+            "doi": "10.1109/NGI.2005.1431686",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Multi-time-scale traffic modeling using Markovian and L-Systems models",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426189",
+            "doi": null,
+            "scopus_id": "2-s2.0-35048839724",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Fitting Self-similar Traffic by a Superposition of MMPPs Modeling the Distribution at Multiple Time Scales",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426190",
+            "doi": null,
+            "scopus_id": "2-s2.0-1642396946",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling Multifractal Traffic with Stochastic L-Systems",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426213",
+            "doi": "10.1109/GLOCOM.2002.1189084",
+            "scopus_id": "2-s2.0-0036970328",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Framework based on Markov Modulated Poisson Processes for Modeling Traffic with Long-Range Dependence",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426214",
+            "doi": "10.1117/12.434317",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Markovian Approach for Modeling IP Traffic Behavior on Several Time Scales",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426239",
+            "doi": "10.1117/12.509358",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Modeling Self-Similar Traffic through Markov Modulated Poisson Processes over Multiple Time Scales",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426240",
+            "doi": "10.1007/b11808",
+            "scopus_id": "2-s2.0-35248856335",
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Multiscale Fitting Procedure using Markov Modulated Poisson Processes",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426241",
+            "doi": "10.1023/A:1023672904130",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Modeling Network Traffic with Multifractal Behavior",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426242",
+            "doi": "10.1023/A:1026183318200",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Study on Geographical Distribution and Availability of BitTorrent Peers Sharing Video Files",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2426244",
+            "doi": "10.1109/ISCE.2008.4559581",
+            "scopus_id": null,
+            "authors": [
+                "F612-6014-3735"
+            ]
+        }
+    ]
+}

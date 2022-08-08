@@ -1,0 +1,2384 @@
+{
+    "ciencia_id": "9711-6357-81D5",
+    "name": "Nelson Pacheco da Rocha",
+    "bio": "Nelson Pacheco da Rocha. Concluiu o(a) Doutoramento em Engenharia Electrotécnica em 1992 pelo(a) Universidade de Aveiro. É Professor Catedrático no(a) Universidade de Aveiro Departamento de Ciências Médicas. Publicou 47 artigos em revistas especializadas. Possui 3 capítulo(s) de livros e 20 livro(s). Nas suas atividades profissionais interagiu com 343 colaborador(es) em coautorias de trabalhos científicos. No seu currículo Ciência Vitae os termos mais frequentes na contextualização da produção científica, tecnológica e artístico-cultural são: Older adults; Primary care; Physical activity; Functioning; Depression; Pain; Students; Screen time; Adolescents; Chronic pain; Musculoskeletal pain; Sleep; Ciências da saúde; Diagnóstico por imagem; Cuidados de saúde; Gestão da informação; Metadados; Qualidade da prestação de cuidados de Imagiologia; Melhoria contínua da qualidade; Indicadores de desempenho profissional imagiológico; DICOM; DICOM data mining; Gerontologia; Pessoas idosas; Serviços de saúdeTauá (Ceará, Brasil); Idosos; Prontuário Eletrônico; Cuidados Primários; ICF; Linking process; Reliability; Violência - Pessoas idosas - Sobral (Ceará, Brasil); Idoso; Violência; Perfil epidemiologico; Elderly; Violence; Epidemiological Profile; Ciências e tecnologias da saúde; Envelhecimento; Tecnologias da informação; Usabilidade; Pessoas idosas - Qualidade de vida; Ambient Assisted Living; Avaliação; Classificação Internacional de Funcionalidade; Incapacidade e Saúde; CIF; Living Lab; Living Usability Lab; Metodologias; Testes com Utilizadores; Tecnologias; Assistência social - Pessoas idosas; Qualidade de serviços; Prescrição de produtos de apoio; Avaliação da qualidade; Funcionalidade e Incapacidade; informática; ensino; Doenças do sistema nervoso; Acidente vascular cerebral; Reabilitação; neurorehabilitation; brain plasticity; cognitive training; motor training; modulated relearning; stroke; dementia; e-health systems; medical devices; collaborative networks; palmtop computer; intellectual disabilities; VICAID; sistema de avaliação; web; questionários; testes; DAVIC; Digital Audio and Video Council; redes locais; redes de alta velocidade; interconecção de redes; gestão de redes; simulação; IBCoBN project; European ACTS program; CaTV networks; interactive services; people with special needs; Avaliação de Usabilidade; Teste de Usabilidade; Revisão Sistemática; hipertexto; hipermédia; WWW; clientes; servidores; HTML; CGI; ensino; avaliação; CANS project; European Telematics Programme; perceptive visual training programme; trabalho cooperativo; treino profissional; deficiência cognitiva; idosos; deficientes; aconselhamento; comunicação interpessoal; Ethernet; FDDI; ATM; gestao de redes; serviços de informação; segurança; Medicao da Dor; Dor Musculoesqueletica, classificacao; Questionarios, utilizacao; Traducoes; Reprodutibilidade dos Testes; Estudos de Validacao; aplicações multimédia; CATV; DAVIC; populações deficientes; hipermédia; tecnologias domóticas; Instituições Particulares de Solidariedade Social; IPSS; tecnologias da informação; Teletrabalho; incapacidade; inclusão social; cidades digitais; sistema de informação; reabilitação; tecnologias de apoio; ajudas técnicas; Disability evaluation; Environment; Social participation; Patient participation; FDDI; Fiber Distributed Data Interface; fibra óptica; PC/AT; ESTIA; teleformação; videotelefonia; pessoas com deficiência; necessidades especiais; mobilidade; acessibilidade; deficiência visual; serviços de transporte; protocolo de cooperação; ensino à distância; sistema hipermédia; RDIS; tecnologias de apoio; pessoas com necessidades especiais; pessoas com deficiência; acessibilidade; solidariedade social; Cidade Digital; training system; Computer; rehabilitation process; Treino assistido; computador; reabilitação; SNMP Platform; managed objects; Plataforma SNMP; objectos de gestão; communications; healthcare; applications; Terminal Multi-Utilizador; distributed system; UNIX; MS-DOS;",
+    "domains": [],
+    "degrees": [
+        "Engenharia Electrotécnica",
+        "Engenharia Eletrónica e Telecomunicações",
+        "Engenharia Electroténica",
+        "Agregação"
+    ],
+    "distinctions": [
+        "A good solution for accessibility",
+        "Concurso de Ideias para Módulos de Divulgação Científica",
+        "Prémio Fundação GlaxoSmithKlein para as Ciências da Vida pelo projecto Ensino Virtual em Saúde Sexual e Reprodutiva",
+        "Health Collaboration Award 2015"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "The Social Platform: Profiling FHIR to Support Community-Dwelling Older Adults",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480860",
+            "doi": "10.1007/s10916-019-1217-5",
+            "scopus_id": "2-s2.0-85062265004",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Long term cognitive monitoring in a community setting: A real-world implementation study,Monitorização cognitiva longitudinal numa comunidade: Estudo de implementação em contexto real",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480861",
+            "doi": null,
+            "scopus_id": "2-s2.0-85061212730",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DICOM Metadata Analysis for Population Studies",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480862",
+            "doi": "10.4018/ijehmc.2019010101",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Applications to Help Local Authorities to Support Community-Dwelling Older Adults",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480863",
+            "doi": "10.1007/978-3-030-11890-7_68",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Features, Behavioral Change Techniques, and Quality of the Most Popular Mobile Apps to Measure Physical Activity: Systematic Search in App Stores",
+            "date": "2018-10-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480864",
+            "doi": "10.2196/preprints.11281",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DICOM metadata quality auditing for medical imaging stakeholders characterisation: a pilot study",
+            "date": "2018-06-20",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480865",
+            "doi": "10.1080/21681163.2018.1480971",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Meet SmartWalk, Smart Cities for Active Seniors",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480867",
+            "doi": "10.1109/tishw.2018.8559493",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "SmartWalk: personas and scenarios definition and functional requirements",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480868",
+            "doi": "10.1109/tishw.2018.8559574",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Remote Care Technology: A Systematic Review of Reviews and Meta-Analyses",
+            "date": "2018-02-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480869",
+            "doi": "10.3390/technologies6010022",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Personas and Scenarios to Improve the Development of an Electronic Social Record Platform",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480870",
+            "doi": "10.1145/3218585.3218681",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Design for All Paradigm in the Development of Applications to Support Older Adults",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480871",
+            "doi": "10.1145/3218585.3218680",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information model and functional requirements of applications to help local authorities to support community-dwelling older adults",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480872",
+            "doi": null,
+            "scopus_id": "2-s2.0-85060275667",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "SClinico: Usability Study",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480873",
+            "doi": "10.5220/0006545300480056",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Interoperability in Pervasive Health: Is It Tackled as a Priority?",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480874",
+            "doi": "10.5220/0006545400570065",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Outcomes from Indexing Initiatives of Medical Imaging DICOM Metadata Repositories. A Secondary Analysis",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480875",
+            "doi": "10.1016/j.procs.2018.10.029",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Platform to Support the Care and Assistance of Community-Dwelling Older Adults",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480876",
+            "doi": "10.1016/j.procs.2018.10.028",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Functioning and primary healthcare utilization in older adults: a 1-year follow-up study",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480877",
+            "doi": "10.1080/09593985.2018.1442536",
+            "scopus_id": "2-s2.0-85042223054",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Usability, Accessibility and Ambient Assisted Living",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480879",
+            "doi": "10.1007/978-3-319-91226-4",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Generic self-reported and performance based instruments: How to capture pain associated disability",
+            "date": "2016-01-01",
+            "keywords": [
+                "Older adults",
+                "Primary care",
+                "Physical activity",
+                "Functioning",
+                "Depression"
+            ],
+            "ciencia_id": "cv-prod-id-480881",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Higher pain intensity, depression, and being 75 Years or Older are associated with lower Levels of self-reported physical activity in older adults with pain attending primary care",
+            "date": "2016-01-01",
+            "keywords": [
+                "Older adults",
+                "Pain",
+                "Physical activity",
+                "Primary care"
+            ],
+            "ciencia_id": "cv-prod-id-480882",
+            "doi": "10.1080/07317115.2015.1135839",
+            "scopus_id": "2-s2.0-84959053432",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Musculoskeletal multisite pain and patterns of association after adjusting for sleep, physical activity, and screen time in adolescents",
+            "date": "2018-01-01",
+            "keywords": [
+                "Adolescents",
+                "Chronic pain",
+                "Musculoskeletal pain",
+                "Physical activity",
+                "Screen time",
+                "Sleep"
+            ],
+            "ciencia_id": "cv-prod-id-480883",
+            "doi": "10.1097/BRS.0000000000002646",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Type and quantity of physical activity and screen based activities of students from the 7th to the 12th grades: Characterization and association",
+            "date": "2016-01-01",
+            "keywords": [
+                "Physical activity",
+                "Students",
+                "Screen time"
+            ],
+            "ciencia_id": "cv-prod-id-480880",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Caracterização do atendimento de idosos no Centro Saúde da Família do município de Tauá",
+            "date": "2016-01-01",
+            "keywords": [
+                "Gerontologia",
+                "Pessoas idosas",
+                "Serviços de saúdeTauá (Ceará, Brasil)",
+                "Idosos",
+                "Prontuário Eletrônico",
+                "Cuidados Primários"
+            ],
+            "ciencia_id": "cv-prod-id-480886",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Self-reported disability: association with lower extremity performance and other determinants in older adults attending primary care",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480888",
+            "doi": "10.2522/ptj.20140323",
+            "scopus_id": "2-s2.0-84949310182",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Indicadores de desempenho imagiológico baseados em meta-informação",
+            "date": "2015-01-01",
+            "keywords": [
+                "Ciências da saúde",
+                "Diagnóstico por imagem",
+                "Cuidados de saúde",
+                "Gestão da informação",
+                "Metadados",
+                "Qualidade da prestação de cuidados de Imagiologia",
+                "Melhoria contínua da qualidade",
+                "Indicadores de desempenho profissional imagiológico",
+                "DICOM",
+                "DICOM data mining"
+            ],
+            "ciencia_id": "cv-prod-id-480884",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação da usabilidade de produtos e serviços \"ambient assisted living\" numa abordagem \"living lab\"",
+            "date": "2016-01-01",
+            "keywords": [
+                "Ciências e tecnologias da saúde",
+                "Envelhecimento",
+                "Tecnologias da informação",
+                "Usabilidade",
+                "Pessoas idosas - Qualidade de vida",
+                "Ambient Assisted Living",
+                "Avaliação",
+                "Classificação Internacional de Funcionalidade",
+                "Incapacidade e Saúde",
+                "CIF",
+                "Living Lab",
+                "Living Usability Lab",
+                "Metodologias",
+                "Testes com Utilizadores",
+                "Tecnologias"
+            ],
+            "ciencia_id": "cv-prod-id-480890",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Goal setting for cerebral palsy children in context therapy: improve reliability when linking to ICF",
+            "date": "2015-01-01",
+            "keywords": [
+                "ICF",
+                "Linking process",
+                "Reliability"
+            ],
+            "ciencia_id": "cv-prod-id-480889",
+            "doi": "10.3233/978-1-61499-566-1-886",
+            "scopus_id": "2-s2.0-84952015213",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Violência contra a pessoa idosa: análise dos registos do Sistema de Informação de Agravos de Notificação nos municípios de Sobral",
+            "date": "2016-01-01",
+            "keywords": [
+                "Gerontologia",
+                "Pessoas idosas",
+                "Violência - Pessoas idosas - Sobral (Ceará, Brasil)",
+                "Idoso",
+                "Violência",
+                "Perfil epidemiologico",
+                "Elderly",
+                "Violence",
+                "Epidemiological Profile"
+            ],
+            "ciencia_id": "cv-prod-id-480887",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação da qualidade de serviços de prescrição e atribuição de produtos de apoio na perspetiva do utilizador: validação do instrumento Kwazo",
+            "date": "2015-01-01",
+            "keywords": [
+                "Gerontologia",
+                "Assistência social - Pessoas idosas",
+                "Qualidade de serviços",
+                "Prescrição de produtos de apoio",
+                "Avaliação da qualidade",
+                "Funcionalidade e Incapacidade"
+            ],
+            "ciencia_id": "cv-prod-id-480885",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "O Ensino de Informática em Licenciaturas de Ciências e Tecnologia",
+            "date": "2013-01-01",
+            "keywords": [
+                "informática; ensino"
+            ],
+            "ciencia_id": "cv-prod-id-480892",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Palmtop Based Modular Distributed Architecture for Vocational Integration of Intellectually Disabled People",
+            "date": "2013-01-01",
+            "keywords": [
+                "palmtop computer; intellectual disabilities; VICAID"
+            ],
+            "ciencia_id": "cv-prod-id-480891",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "New tools for cognitive and motor rehabilitation: development and clinical validation",
+            "date": "2014-01-01",
+            "keywords": [
+                "Ciências da saúde",
+                "Doenças do sistema nervoso",
+                "Acidente vascular cerebral",
+                "Reabilitação",
+                "neurorehabilitation",
+                "brain plasticity",
+                "cognitive training",
+                "motor training",
+                "modulated relearning",
+                "stroke",
+                "dementia",
+                "e-health systems",
+                "medical devices",
+                "collaborative networks"
+            ],
+            "ciencia_id": "cv-prod-id-480894",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Sistema de Avaliação suportado pelo WWW",
+            "date": "2013-01-01",
+            "keywords": [
+                "sistema de avaliação; web; questionários; testes"
+            ],
+            "ciencia_id": "cv-prod-id-480893",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "O Modelo DAVIC (Digital Audio and Video Council)",
+            "date": "2013-01-01",
+            "keywords": [
+                "DAVIC; Digital Audio and Video Council"
+            ],
+            "ciencia_id": "cv-prod-id-480895",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "High Performance Data Communication Switch for LAN interconnection",
+            "date": "2013-01-01",
+            "keywords": [
+                "redes locais; redes de alta velocidade; interconecção de redes; gestão de redes; simulação"
+            ],
+            "ciencia_id": "cv-prod-id-480896",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Perceptive Visual Training Programme: An Experiment within the CANS Project",
+            "date": "2013-01-01",
+            "keywords": [
+                "CANS project; European Telematics Programme; perceptive visual training programme"
+            ],
+            "ciencia_id": "cv-prod-id-480898",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "The Portuguese Experiment within the IBCoBN Project",
+            "date": "2013-01-01",
+            "keywords": [
+                "IBCoBN project; European ACTS program; CaTV networks; interactive services; people with special needs"
+            ],
+            "ciencia_id": "cv-prod-id-480903",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Avaliação de Usabilidade: Uma Revisão Sistemática da Literatura",
+            "date": "2013-01-01",
+            "keywords": [
+                "Avaliação de Usabilidade",
+                "Teste de Usabilidade",
+                "Revisão Sistemática"
+            ],
+            "ciencia_id": "cv-prod-id-480900",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Project and Implementation of a WWW Supported Evaluation System",
+            "date": "2013-01-01",
+            "keywords": [
+                "hipertexto; hipermédia; WWW; clientes; servidores; HTML; CGI; ensino; avaliação"
+            ],
+            "ciencia_id": "cv-prod-id-480902",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Cooperative Multimodular Working System",
+            "date": "2013-01-01",
+            "keywords": [
+                "trabalho cooperativo"
+            ],
+            "ciencia_id": "cv-prod-id-480901",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Specification and Evaluation of a Hypermedia System within a Professional Training Experiment for People with Cognitive Impairment",
+            "date": "2013-01-01",
+            "keywords": [
+                "treino profissional; deficiência cognitiva"
+            ],
+            "ciencia_id": "cv-prod-id-480897",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Counselling and Interpersonal Communication System for Disabled and Elderly People",
+            "date": "2013-01-01",
+            "keywords": [
+                "idosos; deficientes; aconselhamento; comunicação interpessoal"
+            ],
+            "ciencia_id": "cv-prod-id-480899",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Management of Distributed Information Systems",
+            "date": "2013-01-01",
+            "keywords": [
+                "Ethernet; FDDI; ATM; gestao de redes; serviços de informação; segurança"
+            ],
+            "ciencia_id": "cv-prod-id-480904",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Multimedia Services and Applications for Broadband Networks",
+            "date": "2013-01-01",
+            "keywords": [
+                "aplicações multimédia; CATV; DAVIC"
+            ],
+            "ciencia_id": "cv-prod-id-480906",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Aided System to Support People with Special Needs",
+            "date": "2013-01-01",
+            "keywords": [
+                "populações deficientes; hipermédia"
+            ],
+            "ciencia_id": "cv-prod-id-480907",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Tecnologias Domóticas: Uma Panorâmica",
+            "date": "2012-01-01",
+            "keywords": [
+                "tecnologias domóticas"
+            ],
+            "ciencia_id": "cv-prod-id-480908",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Metodologia de Introdução das Tecnologias da Informação e da Comunicação nas IPSS: “Best Institution Practice”",
+            "date": "2012-01-01",
+            "keywords": [
+                "Instituições Particulares de Solidariedade Social; IPSS; tecnologias da informação"
+            ],
+            "ciencia_id": "cv-prod-id-480910",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Sistema de Informação sobre Ajudas Técnicas",
+            "date": "2012-01-01",
+            "keywords": [
+                "sistema de informação; reabilitação; tecnologias de apoio; ajudas técnicas"
+            ],
+            "ciencia_id": "cv-prod-id-480912",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Primitivas de Gestão para uma Estação FDDI-SAS",
+            "date": "2012-01-01",
+            "keywords": [
+                "FDDI; Fiber Distributed Data Interface; fibra óptica; PC/AT"
+            ],
+            "ciencia_id": "cv-prod-id-480911",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Experiência de Teleformação do Projecto ESTIA",
+            "date": "2012-01-01",
+            "keywords": [
+                "ESTIA; teleformação; videotelefonia; pessoas com deficiência; necessidades especiais"
+            ],
+            "ciencia_id": "cv-prod-id-480915",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Sistema de informação móvel de apoio à utilização dos transportes públicos de uma cidade",
+            "date": "2012-01-01",
+            "keywords": [
+                "mobilidade; acessibilidade; deficiência visual; serviços de transporte"
+            ],
+            "ciencia_id": "cv-prod-id-480916",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Protocolo de Cooperação e Ensino à Distância",
+            "date": "2012-01-01",
+            "keywords": [
+                "protocolo de cooperação; ensino à distância; sistema hipermédia; RDIS"
+            ],
+            "ciencia_id": "cv-prod-id-480917",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Tecnologias de Apoio",
+            "date": "2012-01-01",
+            "keywords": [
+                "tecnologias de apoio; pessoas com necessidades especiais; pessoas com deficiência; acessibilidade"
+            ],
+            "ciencia_id": "cv-prod-id-480918",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Solidariedade Social no âmbito do Programa Aveiro: Cidade Digital",
+            "date": "2012-01-01",
+            "keywords": [
+                "solidariedade social; Cidade Digital"
+            ],
+            "ciencia_id": "cv-prod-id-480919",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Computer based training system",
+            "date": "2011-01-01",
+            "keywords": [
+                "training system; Computer; rehabilitation process",
+                "Treino assistido; computador; reabilitação"
+            ],
+            "ciencia_id": "cv-prod-id-480920",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The International Classification of Functioning, Disability and Health as a conceptual framework for the design, development and evaluation of AAL Services for older adults",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480922",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "SNMP Platform to develop managed objects",
+            "date": "2011-01-01",
+            "keywords": [
+                "SNMP Platform; managed objects",
+                "Plataforma SNMP; objectos de gestão"
+            ],
+            "ciencia_id": "cv-prod-id-480924",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Terminal Multi-Utilizador",
+            "date": "2011-01-01",
+            "keywords": [
+                "Terminal Multi-Utilizador; distributed system; UNIX; MS-DOS",
+                "Terminal Multi-Utilizador; sistema distribuído; UNIX; MS-DOS"
+            ],
+            "ciencia_id": "cv-prod-id-480923",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "O registo clínico electrónico na avaliação da disfagia em adultos",
+            "date": "2009-01-01",
+            "keywords": [
+                "Deglutição",
+                "Disfagia"
+            ],
+            "ciencia_id": "cv-prod-id-480925",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Registo electrónico de informação no âmbito da prestação de cuidados de âmbito social",
+            "date": "2007-01-01",
+            "keywords": [
+                "Gestão da informação",
+                "Tecnologias da informação e comunicação",
+                "Sociedade da informação",
+                "Sistemas de informação",
+                "Serviços públicos"
+            ],
+            "ciencia_id": "cv-prod-id-480926",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A gestão da informação imagiológica na formação em radiologia",
+            "date": "2007-01-01",
+            "keywords": [
+                "Gestão da informação",
+                "Diagnóstico por imagem",
+                "Novas tecnologias da informação - Aplicações em medicina",
+                "Radiologia - Formação de pessoal técnico"
+            ],
+            "ciencia_id": "cv-prod-id-480927",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "As tecnologias de informação e comunicação e os novos paradigmas do apoio domiciliário a idosos",
+            "date": "2006-01-01",
+            "keywords": [
+                "Saúde pública",
+                "Saúde pública - Tecnologias da informação - Portugal",
+                "Assistência social - Tecnologias da informação - Portugal",
+                "Pessoas idosas",
+                "Serviços domiciliários",
+                "Assistência ao paciente"
+            ],
+            "ciencia_id": "cv-prod-id-480928",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema para gestão de informação de transportes públicos de uma cidade",
+            "date": "2003-01-01",
+            "keywords": [
+                "Gestão da informação",
+                "Transportes públicos"
+            ],
+            "ciencia_id": "cv-prod-id-480929",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Teletrabalho: que oportunidade de trabalho para o cidadão incapacitado?",
+            "date": "2002-01-01",
+            "keywords": [
+                "Teletrabalho",
+                "incapacidade",
+                "inclusão social",
+                "cidades digitais",
+                "Teletrabalho; incapacidade; inclusão social; cidades digitais"
+            ],
+            "ciencia_id": "cv-prod-id-480930",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de informação e aconselhamento de ajudas técnicas",
+            "date": "2001-01-01",
+            "keywords": [
+                "Sistemas de informação"
+            ],
+            "ciencia_id": "cv-prod-id-480931",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Prototipagem de um ambiente distribuído de apoio à reabilitação de crianças portadoras de trissomia 21",
+            "date": "2001-01-01",
+            "keywords": [
+                "Comunicação",
+                "colaboração em rede",
+                "trissomia 21"
+            ],
+            "ciencia_id": "cv-prod-id-480932",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "How Do Smart Cities Impact on Sustainable Urban Growth and on Opportunities for Entrepreneurship? Evidence from Portugal: The Case of Águeda",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480933",
+            "doi": "10.1007/978-3-319-96032-6_3",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Technologies for Ageing in Place: A Systematic Review of Reviews and Meta-analyses",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480934",
+            "doi": "10.1007/978-3-319-94806-5_18",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Ambient Assisted Living: Systems Characterization",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480935",
+            "doi": "10.1007/978-3-319-91226-4_2",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Ambient Assisted Living: Introduction and Overview",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480937",
+            "doi": "10.1007/978-3-319-91226-4_1",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Systematic Review of Literature Reporting on Studies Analysing Technologies for Ageing in Place to Support Community-Dwelling Older Adults",
+            "date": "2017-08-02",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480938",
+            "doi": "10.20897/jisem.201717",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Ambient Assisted Living and Health-Related Outcomes—A Systematic Literature Review",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480939",
+            "doi": "10.3390/informatics4030019",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Application for VTE stratification and risk assessment | Aplicação para Avaliação e Estratificação do Risco de TEV",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480940",
+            "doi": "10.23919/CISTI.2017.7975989",
+            "scopus_id": "2-s2.0-85027238325",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Technologies for ageing in place to support community-dewlling older adults",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480941",
+            "doi": "10.23919/CISTI.2017.7975990",
+            "scopus_id": "2-s2.0-85027237921",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DICOM metadata aggregation from multiple healhtcare facilities",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480942",
+            "doi": "10.1109/ENBENG.2017.7889472",
+            "scopus_id": "2-s2.0-85018159819",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mobile Health to Support Ageing in Place: A Synoptic Overview",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480943",
+            "doi": "10.1016/j.procs.2017.11.028",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Home Monitoring in Portugal An Overview on Current Experiences",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480944",
+            "doi": "10.5220/0006220603770382",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Technologies for Ageing in Place to Support Home Monitoring of Patients with Chronic Diseases",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480945",
+            "doi": "10.5220/0006140000660076",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Pain, pain intensity and pain disability in high school students are differently associated with physical activity, screening hours and sleep",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480946",
+            "doi": "10.1186/s12891-017-1557-6",
+            "scopus_id": "2-s2.0-85019610962",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Chronic pain in high school students is associated with physical activity and sleeping hours but not with screen time",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480947",
+            "doi": "10.1515/ijamh-2017-0014",
+            "scopus_id": "2-s2.0-85037580017",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Remote Care Technology: A Systematic Overview",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480948",
+            "doi": "10.3233/978-1-61499-798-6-111",
+            "scopus_id": "2-s2.0-85028878211",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Validation of European Portuguese Version of the Kwazo Instrument",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480949",
+            "doi": "10.3233/978-1-61499-798-6-123",
+            "scopus_id": "2-s2.0-85028812503",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Characterization of the stakeholders of medical imaging based on an image repository",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480950",
+            "doi": "10.1007/978-3-319-56538-5_81",
+            "scopus_id": "2-s2.0-85018575978",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "European portuguese validation of usefulness, satisfaction and ease of use questionnaire (USE)",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480951",
+            "doi": "10.1007/978-3-319-56538-5_57",
+            "scopus_id": "2-s2.0-85018597436",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Technologies for ageing in place to support the empowerment of patients with chronic diseases",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480952",
+            "doi": "10.1007/978-3-319-56538-5_80",
+            "scopus_id": "2-s2.0-85018568287",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability study of SClinico",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480953",
+            "doi": "10.1109/cisti.2016.7521386",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Can personal health records support the practice in speech and language therapy?",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480954",
+            "doi": null,
+            "scopus_id": "2-s2.0-85011008916",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of ambient assisted living systems using a multi-method approach",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480955",
+            "doi": "10.1145/3019943.3019981",
+            "scopus_id": "2-s2.0-85018302244",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DICOM Metadata Analysis for Population Characterization: A Feasibility Study",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480956",
+            "doi": "10.1016/j.procs.2016.09.169",
+            "scopus_id": "2-s2.0-85006857526",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ICF based usability scale - Evaluating usability according to the evaluators' perspective about the users' performance",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480957",
+            "doi": "10.1145/3019943.3019997",
+            "scopus_id": "2-s2.0-85018262184",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Validation of a usability evaluation scale for ambient assisted living products or services according to the evaluator's perspective | Validação de uma Escala de Avaliação de Usabilidade para Produtos ou Serviços Ambient Assisted Living de Acordo com a Perspetiva do Avaliador",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480958",
+            "doi": "10.1109/CISTI.2016.7521444",
+            "scopus_id": "2-s2.0-84982182071",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Type and quantity of physical activity and screen based activities of students from the 7th to the 12th grades: Characterization and association | Tipo e quantidade de atividade física e uso de dispositivos eletrónicos de estudantes do 7.° ao 12.° ano: caracterização e associação",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480959",
+            "doi": "10.1016/j.rpsp.2016.07.001",
+            "scopus_id": "2-s2.0-85001975330",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Generic self-reported and performance based instruments: How to capture pain associated disability | Instrumentos genéricos de funcionalidade e atividade física: como identificar a incapacidade associada à dor",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480960",
+            "doi": "10.1016/j.rpsp.2016.03.003",
+            "scopus_id": "2-s2.0-84975749479",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Development of ambient assisted living products and services: The role of international classification of functioning, disability, and health",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480961",
+            "doi": "10.4018/978-1-5225-1944-7.ch013",
+            "scopus_id": "2-s2.0-85016085210",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Characterization and Classification of Existing Ambient Assisted Living Systems: A Systematic Literature Review",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480962",
+            "doi": "10.1201/b18520-4",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "The Living Usability Lab Architecture: Support for the Development and Evaluation of New Ambient Assisted Living Services for the Elderly",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480963",
+            "doi": "10.1201/b18520-23",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Information Persistence Services Designed to Support Home Care",
+            "date": "2015-03-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480964",
+            "doi": "10.2196/medinform.3699",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Pervasive health and regulatory frameworks",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480965",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938836121",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Information model for radiology performance indicators based on DICOM",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480966",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938884141",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Platform to develop applications to support care providing | Plataforma para o Desenvolvimento de Aplicações de Suporte às Atividades de Prestação de Cuidados",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480967",
+            "doi": "10.1109/CISTI.2015.7170541",
+            "scopus_id": "2-s2.0-84943311424",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Platform of Services to the Support and Development of Applications for Care Activities",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480968",
+            "doi": "10.1016/j.procs.2015.08.580",
+            "scopus_id": "2-s2.0-84962867348",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Electronic health record for clinical intervention in children with language disorders | Registo de Saúde Eletrónico para a Intervenção Clínica em Crianças com Perturbações na Linguagem",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480969",
+            "doi": "10.1109/CISTI.2015.7170554",
+            "scopus_id": "2-s2.0-84943328326",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Definition and Validation of the ICF - Usability Scale",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480970",
+            "doi": "10.1016/j.procs.2015.09.257",
+            "scopus_id": "2-s2.0-84962860252",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "European Portuguese Validation of the System Usability Scale (SUS)",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480971",
+            "doi": "10.1016/j.procs.2015.09.273",
+            "scopus_id": "2-s2.0-84962873345",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability Evaluation of a Health Care Application Based on IPTV",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480972",
+            "doi": "10.1016/j.procs.2015.08.577",
+            "scopus_id": "2-s2.0-84962788687",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "DICOM Metadata Access, Consolidation and Usage in Radiology Department Performance Analysis. A Non-proprietary Approach",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480973",
+            "doi": "10.1016/j.procs.2015.08.579",
+            "scopus_id": "2-s2.0-84962787127",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Authorization services of the eVida platform | Serviços de Autorização para a Plataforma eVida",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480974",
+            "doi": "10.1109/CISTI.2015.7170356",
+            "scopus_id": "2-s2.0-84943339862",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "European Portuguese validation of the Post-Study System Usability Questionnaire (PSSUQ) | Validação para Português Europeu do Post-Study System Usability Questionnaire (PSSUQ)",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480975",
+            "doi": "10.1109/CISTI.2015.7170431",
+            "scopus_id": "2-s2.0-84943303295",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Usability, accessibility and ambient-assisted living: a systematic literature review",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480976",
+            "doi": "10.1007/s10209-013-0328-x",
+            "scopus_id": "2-s2.0-84924220833",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "AAL@MEO: Interactive Digital-TV to Support Home Care",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480977",
+            "doi": "10.3233/978-1-61499-566-1-1024",
+            "scopus_id": "2-s2.0-84952061073",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Implementation and Outcomes of a Collaborative Multi-Center Network Aimed at Web-Based Cognitive Training – COGWEB Network",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480978",
+            "doi": "10.2196/mental.3840",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Platform to support the development of information services for informal and formal care",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480979",
+            "doi": null,
+            "scopus_id": "2-s2.0-84902324497",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "AAL systems and services for end users: Are the AT models and frameworks suitable for prescription and selection?",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480980",
+            "doi": "10.1109/CISTI.2014.6876912",
+            "scopus_id": "2-s2.0-84906658498",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Framework for applications of support to the activities of integrated care | Framework para aplicações de suporte às atividades de prestação de cuidados",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480981",
+            "doi": "10.1109/CISTI.2014.6876881",
+            "scopus_id": "2-s2.0-84906656468",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Pain intensity is associated with both performance-based disability and self-reported disability in a sample of older adults attending primary health care centers",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480982",
+            "doi": "10.1016/j.dhjo.2014.05.001",
+            "scopus_id": "2-s2.0-84927959060",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Validity and reliability of the Portuguese version of the Rapid Assessment of Physical Activity questionnaire",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480983",
+            "doi": "10.12968/ijtr.2014.21.10.469",
+            "scopus_id": "2-s2.0-84908087172",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Motor task performance under vibratory feedback early poststroke: Single center, randomized, cross-over, controled clinical trial",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480984",
+            "doi": "10.1038/srep05670",
+            "scopus_id": "2-s2.0-84904299383",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Web-based cognitive training: Patient adherence and intensity of treatment in an outpatient memory clinic",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480986",
+            "doi": "10.2196/jmir.3377",
+            "scopus_id": "2-s2.0-84902269669",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Usability evaluation methods: A systematic review",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480987",
+            "doi": "10.4018/978-1-4666-6485-2.ch013",
+            "scopus_id": "2-s2.0-84946144412",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Clinical data mining in small hospital PACS: Contributions for radiology department improvement",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480988",
+            "doi": "10.4018/978-1-4666-6339-8.ch003",
+            "scopus_id": "2-s2.0-84945432008",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Personas and scenarios based on functioning and health conditions",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480989",
+            "doi": "10.4018/978-1-4666-6485-2.ch014",
+            "scopus_id": "2-s2.0-84946136502",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Information persistence architecture for informal and formal care providers",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480990",
+            "doi": "10.1007/978-3-319-05948-8_35",
+            "scopus_id": "2-s2.0-84898606493",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "METODOLOGIA LIVING USABILITY LAB PARA O DESENVOLVIMENTO DE SISTEMAS E SERVIÇOS AMBIENT ASSISTED LIVING",
+            "date": "2013-10-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480991",
+            "doi": "10.14571/cets.v4.87-112p.",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptacao e validacao do WHODAS 2.0 em utentes com dor musculoesqueletica",
+            "date": "2013-01-01",
+            "keywords": [
+                "Medicao da Dor",
+                "Dor Musculoesqueletica, classificacao",
+                "Questionarios, utilizacao",
+                "Traducoes",
+                "Reprodutibilidade dos Testes",
+                "Estudos de Validacao"
+            ],
+            "ciencia_id": "cv-prod-id-481000",
+            "doi": "10.1590/s0034-8910.2013047004374",
+            "scopus_id": "2-s2.0-84890714285",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multi vendor DICOM metadata access: A multi site hospital approach using Dicoogle",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480994",
+            "doi": null,
+            "scopus_id": "2-s2.0-84887886530",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Integrated development and evaluation of innovative AAL services - A Living Lab approach | Desenvolvimento e avaliação integrada de serviços aal inovadores - uma abordagem living lab",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480995",
+            "doi": null,
+            "scopus_id": "2-s2.0-84887956835",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "We.Can platform: An open management architecture for the information persistence",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480996",
+            "doi": "10.1109/HealthCom.2013.6720637",
+            "scopus_id": "2-s2.0-84894142990",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "AAL information based services and care integration",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480997",
+            "doi": null,
+            "scopus_id": "2-s2.0-84877951959",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ICF inspired personas to improve development for usability and accessibility in Ambient Assisted Living",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480998",
+            "doi": "10.1016/j.procs.2014.02.045",
+            "scopus_id": "2-s2.0-84897787639",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Pain intensity is associated with self-reported disability for several domains of life in a sample of patients with musculoskeletal pain aged 50 or more",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480999",
+            "doi": "10.1016/j.dhjo.2013.04.007",
+            "scopus_id": "2-s2.0-84884674654",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptation and validation of whodas 2.0 in patients with musculoskeletal pain",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-480992",
+            "doi": "10.1590/s0034-8910.2013047004374",
+            "scopus_id": "2-s2.0-84890714285",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A rehabilitation tool designed for intensive web-based cognitive training: Description and usability study",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481002",
+            "doi": "10.2196/resprot.2899",
+            "scopus_id": "2-s2.0-84891794209",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Ambient assisted living and the integration and personalization of care services",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481003",
+            "doi": "10.1007/978-3-642-36981-0_89",
+            "scopus_id": "2-s2.0-84876269253",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "AAL living lab methodologies based on ICF",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481004",
+            "doi": "10.3233/978-1-61499-304-9-859",
+            "scopus_id": "2-s2.0-84889054154",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Introducing assistive technology in the formal education of healthcare professionals",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481005",
+            "doi": "10.3233/978-1-61499-304-9-441",
+            "scopus_id": "2-s2.0-84888989324",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Assessment of ambient assisted living services in a living lab approach: A methodology based on icf",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481006",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861983745",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Ambient assisted living technologies, systems and services: A systematic literature review",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481007",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861998009",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Comparing the content of instruments asessing environm ental factors using the internationa lclasificati on of functioning, disability and health",
+            "date": "2012-01-01",
+            "keywords": [
+                "Disability evaluation",
+                "Environment",
+                "Social participation",
+                "Patient participation"
+            ],
+            "ciencia_id": "cv-prod-id-481008",
+            "doi": "10.2340/16501977-0905",
+            "scopus_id": "2-s2.0-84855871293",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The International Classification of Functioning, Disability and Health as a conceptual model for the evaluation of environmental factors",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481009",
+            "doi": "10.1016/j.procs.2012.10.033",
+            "scopus_id": "2-s2.0-84886585368",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The international classification of functioning, disability of health as a conceptual framework for the design, development and evaluation of AAL services for older adults",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481010",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960476868",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A new living lab for usability evaluation of ICT and next generation networks for elderly@home",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481011",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960543375",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "DICOM and clinical data mining in a small hospital PACS: A pilot study",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481012",
+            "doi": "10.1007/978-3-642-24352-3_27",
+            "scopus_id": "2-s2.0-80054063236",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Integrated care of the elderly and the continuous development and adaptation of information systems",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481013",
+            "doi": "10.1109/HEALTH.2010.5556579",
+            "scopus_id": "2-s2.0-77957869899",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Developing information services for the social solidarity institutions",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481014",
+            "doi": null,
+            "scopus_id": "2-s2.0-79955162192",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Digital cervicography criteria: Improving sensitivity in uterine cervical cancer diagnosis | Critérios de positividade para cervicografia digital: Melhorando a sensibilidade do diagnóstico do câncer cervical",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481016",
+            "doi": null,
+            "scopus_id": "2-s2.0-56349159132",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Structured approach for the introduction of information services into the private social solidarity institutions",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481017",
+            "doi": null,
+            "scopus_id": "2-s2.0-77953887995",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Telework: Employment opportunities for a disabled citizen",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481018",
+            "doi": null,
+            "scopus_id": "2-s2.0-84910093653",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Aveiro — Digital Town",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481019",
+            "doi": "10.1007/0-306-47374-7_19",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "VICAID: Development and evaluation of a palmtop-based job aid for workers with severe developmental disabilities",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481020",
+            "doi": null,
+            "scopus_id": "2-s2.0-0035365167",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Evaluation of the effects resulting from the application of magnetic fields on the properties of crude oils and paraffins | Avaliação da influência da aplicação de campos magnéticos sobre as propriedades de petróleos e parafinas",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481021",
+            "doi": null,
+            "scopus_id": "2-s2.0-0041413299",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Task instructions for persons with severe intellectual disability: Reducing the number of instruction occasions after the acquisition phase",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481022",
+            "doi": "10.1002/(SICI)1099-078X(199910/12)14:4<199::AID-BIN35>3.0.CO;2-E",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A palmtop-based job aid for workers with severe intellectual disabilities",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481023",
+            "doi": null,
+            "scopus_id": "2-s2.0-0033048649",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Distance support and elderly people: Overview on three projects",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481024",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Perspectives on the implementation of a videotelephony based DAVIC system",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481025",
+            "doi": null,
+            "scopus_id": "2-s2.0-0032304682",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A computer-based system providing pictorial instructions and prompts to promote task performance in persons with severe developmental disabilities",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481027",
+            "doi": "10.1002/(SICI)1099-078X(199805)13:2&lt;111::AID-BIN10&gt;3.0.CO;2-0",
+            "scopus_id": "2-s2.0-0031916928",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Palmtop based system for supported employment",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481028",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Enabling computer applications in residential environments",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481029",
+            "doi": null,
+            "scopus_id": "2-s2.0-0030420403",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Remote learning and training services for elderly and disabled people",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481031",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027753562",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Integrated management system for interconnected local area networks",
+            "date": "1991-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481032",
+            "doi": null,
+            "scopus_id": "2-s2.0-0026373979",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "High speed backbone concentrator",
+            "date": "1991-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481033",
+            "doi": null,
+            "scopus_id": "2-s2.0-0026371851",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "PSEUDO-STAR: A GEOGRAPHICALLY CENTRALIZED, LOGICALLY DISTRIBUTED LAN.",
+            "date": "1985-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481034",
+            "doi": null,
+            "scopus_id": "2-s2.0-0022184784",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Usability Evaluation Methods:",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481359",
+            "doi": "10.4018/978-1-4666-8789-9.ch027",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Clinical Data Mining in Small Hospital PACS",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481360",
+            "doi": "10.4018/978-1-4666-3667-5.ch016",
+            "scopus_id": "2-s2.0-84898329665",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "New Telerehabilitation Services for the Elderly",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481361",
+            "doi": "10.4018/978-1-4666-3990-4.ch006",
+            "scopus_id": "2-s2.0-84887892291",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Conceptual Framework for the Design and Development of AAL Services",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481362",
+            "doi": "10.4018/978-1-4666-3986-7.ch030",
+            "scopus_id": "2-s2.0-84898322445",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Assessing Mobile Applications Considered Medical Devices",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481363",
+            "doi": "10.4018/978-1-4666-9978-6.ch010",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Systematic Review and Evaluation of Pain-Related Mobile Applications",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481364",
+            "doi": "10.4018/978-1-4666-9978-6.ch031",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The domiciliary support service in Portugal and the change of paradigm in care provision",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481365",
+            "doi": "10.5334/ijic.177",
+            "scopus_id": "2-s2.0-85050813533",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Speech as the Basic Interface for Assistive Technology",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-481366",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Blockchain structures to guarantee logging integrity of a digital platform to support community-dwelling older adults",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528564",
+            "doi": "10.1007/s10586-020-03084-4",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Effectiveness of Mobile Applications Running on Smartphones to Promote Physical Activity: A Systematic Review with Meta-Analysis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528565",
+            "doi": "10.3390/ijerph17072251",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Parser to Support the Definition of Access Control Policies and Rules Using Natural Languages",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528566",
+            "doi": "10.1007/s10916-019-1467-2",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mobile Apps to Quantify Aspects of Physical Activity: a Systematic Review on its Reliability and Validity",
+            "date": "2020-01-08",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528567",
+            "doi": "10.1007/s10916-019-1506-z",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methodological Quality of Manuscripts Reporting on the Usability of Mobile Applications for Pain Assessment and Management: A Systematic Review",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528568",
+            "doi": "10.3390/ijerph17030785",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Systematic Review and Evaluation of Pain-Related Mobile Applications",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528570",
+            "doi": "10.4018/978-1-7998-1680-5.ch008",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Scale to Assess the Methodological Quality of Studies Assessing Usability of Electronic Health Products and Services: Delphi Study Followed by Validity and Reliability Testing",
+            "date": "2019-11-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528571",
+            "doi": "10.2196/preprints.14829",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Smart Cities and Healthcare: A Systematic Review",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528572",
+            "doi": "10.1016/j.procs.2019.12.214",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mobile Health to Support Ageing in Place",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528573",
+            "doi": "10.4018/ijehmc.2019070101",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Validation of a usability assessment instrument according to the evaluators’ perspective about the users’ performance",
+            "date": "2019-07-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528574",
+            "doi": "10.1007/s10209-019-00659-w",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Web Platform for the Codification of Observations and Clinical Interventions According to the International Classification of Functioning, Disability and Health",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528575",
+            "doi": "10.23919/cisti.2019.8760594",
+            "scopus_id": null,
+            "authors": [
+                "9711-6357-81D5"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Disability and its clinical correlates in pulmonary hypertension measured through the World Health Organization Disability Assessment Schedule 2.0: a prospective, observational study",
+            "date": "2019-05-30",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528576",
+            "doi": "10.1590/1806-3713/e20170355",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "SmartWalk Mobile – A Context-Aware m-Health App for Promoting Physical Activity Among the Elderly",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528578",
+            "doi": "10.1007/978-3-030-16184-2_79",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Access Control for Social Care Platforms Using Fast Healthcare Interoperability Resources",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528579",
+            "doi": "10.1007/978-3-030-16187-3_10",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Usability Evaluation of a Virtual Assistive Companion",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528580",
+            "doi": "10.1007/978-3-030-16184-2_67",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Systematic Review of Smart Cities’ Applications to Support Active Ageing",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528581",
+            "doi": "10.1016/j.procs.2019.11.086",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Platform to Support the Codification of Clinical Information According to the International Classification of Functioning, Disability and Health",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528582",
+            "doi": "10.1016/j.procs.2019.11.089",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Fast Healthcare Interoperability Resources (FHIR) Implementation Integrating Complex Security Mechanisms",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528587",
+            "doi": "10.1016/j.procs.2019.12.215",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Platform of Services to Support Community-Dwelling Older Adults Integrating FHIR and Complex Security Mechanisms",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528588",
+            "doi": "10.1016/j.procs.2019.11.085",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Supporting Better Physical Activity in a Smart City: a Framework for Suggesting and Supervising Walking Paths",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528589",
+            "doi": "10.25046/aj040449",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis of the Data Consistency of Medical Imaging Information Systems: An Exploratory Study",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528590",
+            "doi": "10.1016/j.procs.2019.12.213",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Usability evaluation: A systematic literature review | Avaliação de usabilidade: Uma revisão sistemática da literatura",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1528595",
+            "doi": "10.4304/risti.11.31-44",
+            "scopus_id": "2-s2.0-84885214813",
+            "authors": [
+                "9711-6357-81D5"
+            ]
+        },
+        {
+            "type": "Other output",
+            "title": "The SOCIAL Platform and the Integration of Internet of Things Devices to Monitor Activities and Behaviors of Older Adults",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2119698",
+            "doi": "10.1007/978-3-030-42934-8_14",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Perceived Usefulness, Satisfaction, Ease of Use and Potential of a Virtual Companion to Support the Care Provision for Older Adults",
+            "date": "2020-07-25",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2119699",
+            "doi": "10.3390/technologies8030042",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Procedures of user-centered usability assessment for digital solutions directed at older adults: a scoping review of reviews (Preprint)",
+            "date": "2020-07-23",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2119700",
+            "doi": "10.2196/preprints.22774",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Pain assessment in cerebral palsy: a systematic review of measurement properties and evaluation using the COSMIN checklist",
+            "date": "2020-07-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2119701",
+            "doi": "10.1080/09638288.2020.1783000",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Scoping Review of Digital Solutions that Might be Used as Cognitive Screening Instruments of Community-Dwelling Older Adults",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895938",
+            "doi": "10.1016/j.procs.2021.12.097",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Medical Imaging Repository Contributions for Radiation Protection Key Performance Indicators",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895939",
+            "doi": "10.1016/j.procs.2021.12.053",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Smart cities and urban logistics: a systematic review of the literature",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895940",
+            "doi": "10.7163/Eu21.2021.41.2",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "How to Improve Emergency Information Systems to Optimize the Care of Acute Stroke",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895941",
+            "doi": "10.1016/j.procs.2021.12.055",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Systematic Literature Review of Smart Cities’ Information Services to Support the Mobility of Impaired People",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895946",
+            "doi": "10.1016/j.procs.2021.01.119",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Is the Portuguese Software Industry Ready for eHealth? An Exploratory Study",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895947",
+            "doi": "10.1016/j.procs.2021.01.183",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "A Systematic Review",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895957",
+            "doi": "10.4018/978-1-7998-6428-8.ch005",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "SmartWalk BAN: Using Body Area Networks to Encourage Older Adults to Perform Physical Activity",
+            "date": "2020-12-31",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895962",
+            "doi": "10.3390/electronics10010056",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Medical Imaging Data and Process Analysis in a Stroke Scenario",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895963",
+            "doi": "10.1016/j.procs.2020.10.049",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Integrated Care and Governance: Missing and Available Indicators",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895964",
+            "doi": "10.1016/j.procs.2020.10.047",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Translational Challenges",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895965",
+            "doi": "10.1201/9781003119326-18",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Procedures of User-Centered Usability Assessment for Digital Solutions: Scoping Review of Reviews Reporting on Digital Solutions Relevant for Older Adults",
+            "date": "2021-01-13",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895970",
+            "doi": "10.2196/22774",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Smart Cities’ Applications to Facilitate the Mobility of Older Adults: A Systematic Review of the Literature",
+            "date": "2021-07-11",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895972",
+            "doi": "10.3390/app11146395",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methodological Quality of User-Centered Usability Evaluation of Ambient Assisted Living Solutions: A Systematic Literature Review",
+            "date": "2021-11-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895973",
+            "doi": "10.3390/ijerph182111507",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Age-Friendly Health Care: A Systematic Review",
+            "date": "2021-01-16",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895974",
+            "doi": "10.3390/healthcare9010083",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "CogniViTra, a Digital Solution to Support Dual-Task Rehabilitation Training",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895975",
+            "doi": "10.3390/electronics10111304",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Security Mechanisms of a Mobile Health Application for Promoting Physical Activity among Older Adults",
+            "date": "2021-11-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895976",
+            "doi": "10.3390/s21217323",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mobility Assistants to Support Multi-Modal Routes in Smart Cities: A Scoping Review",
+            "date": "2021-06-29",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895977",
+            "doi": "10.33847/2686-8296.3.1_3",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Cognivitra: An Information Technology-Based Solution to Support Cognitive and Physical Training at Home",
+            "date": "2021-06-09",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895978",
+            "doi": "10.1145/3439231.3439265",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Digital Solution to Surpass Incidents on 100m Sprint for Paralympic Visually Impaired Athletes",
+            "date": "2021-06-09",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895979",
+            "doi": "10.1145/3439231.3440601",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Experts Evaluation of Usability for Digital Solutions Directed at Older Adults: a Scoping Review of Reviews",
+            "date": "2021-06-09",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2895980",
+            "doi": "10.1145/3439231.3439238",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

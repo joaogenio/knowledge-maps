@@ -1,129 +1,129 @@
-[None       ] [cv-prod-id-2426242  ] [10.1023/A:1026183318200       ] [   CV] [Conference Paper     ] [ 0  0      ] [2003-01-01] Modeling Network Traffic with Multifractal Behavior
-[None       ] [cv-prod-id-2424608  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2004-01-01] Fitting self-similar traffic by a superposition of MMPPs modeling the distribution at multiple time scales
-[None       ] [cv-prod-id-2424612  ] [10.1016/j.comcom.2004.06.014  ] [   CV] [Article              ] [ 0  0      ] [2004-01-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
-[None       ] [cv-prod-id-2426157  ] [10.1093/ietconi/e9O-b.7.1594  ] [   CV] [Article              ] [ 0  0      ] [2007-01-01] Cluster analysis of Internet users based on hourly traffic utilization
-[None       ] [cv-prod-id-2424623  ] [None                          ] [   CV] [Conference Paper     ] [ 4  0      ] [2008-01-01] A Framework for Detecting Internet Applications
-[None       ] [cv-prod-id-2424627  ] [None                          ] [   CV] [Conference Paper     ] [ 4  0      ] [2008-01-01] Study on geographical distribution and availability of BitTorrent peers sharing video files
-[None       ] [cv-prod-id-2424630  ] [None                          ] [   CV] [Conference Paper     ] [ 6  0      ] [2009-01-01] Detection of Illicit Traffic based on Multiscale Analysis
-[None       ] [cv-prod-id-2426134  ] [10.1109/ICPPW.2009.33         ] [   CV] [Conference Paper     ] [ 0  0      ] [2009-01-01] Improvement of Messages Delivery Time on Vehicular Delay-Tolerant Networks
-[None       ] [cv-prod-id-2424628  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2009-01-01] On the Dependencies between Internet Flow Characteristics
-[None       ] [cv-prod-id-2424635  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2009-01-01] Peer-Level Analysis of Distributed Multimedia Content Sharing
-[None       ] [cv-prod-id-2426137  ] [10.1007/978-3-642-04576-9     ] [   CV] [Book                 ] [ 0  0      ] [2009-01-01] Traffic Management and Traffic Engineering for the Future Internet
-[None       ] [cv-prod-id-2426128  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2010-01-01] Emulation Environment for Ground Truth Establishment
-[None       ] [cv-prod-id-2426129  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2010-01-01] Gaussian Fitting of Multi-scale Traffic Properties for Discriminating IP Applications
-[None       ] [cv-prod-id-2426132  ] [10.1109/WAINA.2010.66         ] [   CV] [Conference Paper     ] [ 0  0      ] [2010-01-01] IPTV Service with Automatic Channels Personalization
-[None       ] [cv-prod-id-2426085  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2011-01-01] A Multi-Variate Classification Approach for the Detection of Illicit Traffic
-[None       ] [cv-prod-id-2426084  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2011-01-01] Identification of Anomalies on Encrypted Communications based on Multi-Scale Behavior Modeling
-[None       ] [cv-prod-id-2426086  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2011-01-01] Joint Modeling of Network Related Events with Multi-Dimensional Markov Modulated Deterministic Processes
-[None       ] [cv-prod-id-2425579  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2012-01-01] Atas da 12a Conferência sobre Redes de Computadores (CRC2012)
-[None       ] [cv-prod-id-2426083  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2012-01-01] Characterization and Modeling of M2M Video Surveillance Traffic
-[None       ] [cv-prod-id-2425577  ] [10.5296/npa.v4i4.2058         ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Characterization and Modeling of Top Spam Botnets
-[None       ] [cv-prod-id-2425573  ] [10.1007/978-3-642-30422-4_1   ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Classification of hidden users' profiles in wireless communications
-[None       ] [cv-prod-id-2426081  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2012-01-01] Fighting Botnets - A Systematic Approach
-[None       ] [cv-prod-id-2425578  ] [10.2174/2211740711201020004   ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Multi-Scale Profiling of Internet Traffic
-[None       ] [cv-prod-id-2425572  ] [10.1007/978-3-642-30422-4_11  ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Nodes discovery in the in-network management communication framework
-[None       ] [cv-prod-id-2425574  ] [10.1109/NOMS.2012.6212051     ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Self-organizing decentralized wireless management through social-based metrics
-[None       ] [cv-prod-id-2425569  ] [10.1016/j.protcy.2012.02.030  ] [   CV] [Article              ] [ 0  0      ] [2012-01-01] Statistical Characterization of the Botnets C&C Traffic
-[None       ] [cv-prod-id-2424606  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2013-01-01] A Practical Approach to Corporate Networks Engineering
-[None       ] [cv-prod-id-2426077  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-01-01] Algorithms for Network Discovery and Detection of MAC and IP Spoofing Security Attacks
-[None       ] [cv-prod-id-2426079  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-01-01] Detecting Social-Network Bots Based on Multiscale Behavioral Analysis
-[None       ] [cv-prod-id-2425568  ] [10.2174/22117407112019990003  ] [   CV] [Article              ] [ 0  0      ] [2013-01-01] Differentiation of HTTP Applications Based on Multiscale Analysis
-[None       ] [cv-prod-id-2426078  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2013-01-01] Inter-Operator Traffic Differentiation based on Multiscale Analysis
-[None       ] [cv-prod-id-2425268  ] [10.1109/ICCW.2013.6649380     ] [   CV] [Article              ] [ 0  0      ] [2013-01-01] Localization system for wireless networks
-[None       ] [cv-prod-id-2425271  ] [10.1109/ICCW.2013.6649386     ] [   CV] [Article              ] [ 0  0      ] [2013-01-01] Using multiscale traffic analysis to detect WPS attacks
-[None       ] [cv-prod-id-2425266  ] [10.2174/22117407112019990007  ] [   CV] [Article              ] [ 0  0      ] [2013-08-01] Detection of WPS Attacks based on Multiscale Traffic Analysis
-[None       ] [cv-prod-id-2425265  ] [10.5296/npa.v5i3.4316         ] [   CV] [Article              ] [ 0  0      ] [2013-10-01] Methodologies for Network Topology Discovery and Detection of MAC and IP Spoofing Attacks
-[None       ] [cv-prod-id-2425264  ] [10.2174/22117407112016660009  ] [   CV] [Article              ] [ 0  0      ] [2013-12-01] Network-based Wi-Fi Localization Solution
-[None       ] [cv-prod-id-2426074  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2014-01-01] Teaching Networking: A Hands-on Approach that Relies on Emulation-based Projects
-[None       ] [cv-prod-id-2426072  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2015-01-01] Multi-scaling Analysis of Social Network Users Profiles
-[None       ] [cv-prod-id-2426071  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2015-01-01] Tracking Social Networks Events
-[None       ] [cv-prod-id-2425250  ] [10.1002/nem.2154              ] [   CV] [Article              ] [ 0  0      ] [2021-02-03] A privacy-focused approach for anomaly detection in IoT networks
-[0035179552 ] [cv-prod-id-2426214  ] [10.1117/12.434317             ] [SC CV] [Conference Paper     ] [ 4  5 Ab   ] [2001-01-01] A framework based on Markov modulated poisson processes for modeling traffic with long-range dependence
-[0036970328 ] [cv-prod-id-2426213  ] [10.1109/GLOCOM.2002.1189084   ] [SC CV] [Conference Paper     ] [ 0  2 Ab   ] [2002-12-01] Modeling multifractal traffic with stochastic L-Systems
-[0037727665 ] [cv-prod-id-2426241  ] [10.1023/A:1023672904130       ] [SC CV] [Article              ] [ 0  1 Ab   ] [2003-06-01] Multiscale Fitting Procedure Using Markov Modulated Poisson Processes
-[0346342502 ] [cv-prod-id-2424610  ] [10.1016/j.comnet.2003.10.004  ] [SC CV] [Article              ] [ 2  1 Ab FT] [2004-02-20] Modeling IP traffic: Joint characterization of packet arrivals and packet sizes using BMAPs
-[0347090476 ] [None                ] [10.1023/A:1026183318200       ] [SC   ] [Article              ] [ 6  1 Ab   ] [2003-10-01] Modeling Network Traffic with Multifractal Behavior
-[1642396946 ] [cv-prod-id-2426190  ] [None                          ] [SC CV] [Article              ] [ 4  3 Ab   ] [2004-01-01] Fitting Self-Similar Traffic by a Superposition of MMPPs Modeling the Distribution at Multiple Time Scales
-[1642432988 ] [cv-prod-id-2426239  ] [10.1117/12.509358             ] [SC CV] [Conference Paper     ] [ 2  5 Ab   ] [2003-12-01] Markovian Approach for Modeling IP Traffic Behavior on Several Time Scales
-[1642514645 ] [None                ] [10.1117/12.509357             ] [SC   ] [Conference Paper     ] [ 4  5 Ab   ] [2003-12-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
-[24644456982] [cv-prod-id-2424619  ] [10.1007/978-3-540-31956-6_71  ] [SC CV] [Conference Paper     ] [ 4  2 Ab   ] [2005-01-01] Active traffic monitoring for heterogeneous environments
-[33644642083] [None                ] [10.1109/ICTEL.2003.1191586    ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2003-01-01] Modeling network traffic with multifractal behavior
-[33744485834] [cv-prod-id-2426188  ] [10.1109/NGI.2005.1431686      ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2005-12-01] Classification of Internet users using Discriminant Analysis and Neural Networks
-[33750906923] [cv-prod-id-2426184  ] [10.1145/1164717.1164728       ] [SC CV] [Conference Paper     ] [ 4  1 Ab   ] [2006-01-01] Predicting the Quality of Service of wireless LANs using neural networks
-[33751005607] [cv-prod-id-2426186  ] [10.1109/AICT.2005.93          ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2005-07-01] Using neural networks to classify internet users
-[35048839724] [cv-prod-id-2426189  ] [10.1007/978-3-540-30197-4_30  ] [SC CV] [Article              ] [ 8  2 Ab   ] [2004-01-01] Multi-time-scale traffic modeling using Markovian and L-Systems models
-[35248856335] [cv-prod-id-2426240  ] [10.1007/978-3-540-45076-4_55  ] [SC CV] [Article              ] [ 8  2 Ab   ] [2003-01-01] Modeling self-similar traffic through Markov modulated poisson processes over multiple time scales
-[43449099154] [cv-prod-id-2426185  ] [10.1109/ICNS.2006.38          ] [SC CV] [Conference Paper     ] [ 2  2 Ab   ] [2006-12-01] Detecting Internet applications using neural networks
-[47049121482] [cv-prod-id-2426158  ] [10.1109/ICNS.2007.97          ] [SC CV] [Conference Paper     ] [21  3 Ab   ] [2007-12-01] Predicting QoS characteristics on wireless networks
-[47249134636] [cv-prod-id-2426155  ] [10.1109/LCN.2007.94           ] [SC CV] [Conference Paper     ] [12  1 Ab   ] [2007-12-01] Local area network modeling for performance prediction
-[48049107050] [cv-prod-id-2426156  ] [10.1109/ISCC.2007.4381613     ] [SC CV] [Conference Paper     ] [20  5 Ab   ] [2007-12-01] Joint modeling of MANET characteristics for QoS prediction
-[4944234548 ] [None                ] [10.1016/j.comcom.2004.06.014  ] [SC   ] [Conference Paper     ] [ 5  1 Ab FT] [2004-12-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
-[51149092068] [cv-prod-id-2424617  ] [10.1109/NGI.2008.46           ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2008-09-11] Identification of peer-to-peer applications' flow patterns
-[51549090610] [None                ] [10.1109/ISCE.2008.4559420     ] [SC   ] [Editorial            ] [ 0  1      ] [2008-09-17] Welcome to ISCE2008
-[51549111613] [cv-prod-id-2426244  ] [10.1109/ISCE.2008.4559581     ] [SC CV] [Conference Paper     ] [ 4  1 Ab   ] [2008-09-17] Study on geographical distribution and availability of bittorrent peers sharing video files
-[53149120359] [cv-prod-id-2426151  ] [10.1109/CSNDSP.2008.4610757   ] [SC CV] [Conference Paper     ] [11  4 Ab   ] [2008-10-08] Identifying differentiating characteristics of Internet applications using Principal Component Analysis
-[58049130081] [None                ] [10.1007/978-3-540-89524-4_46  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2008-01-01] A framework for detecting Internet applications
-[58049152250] [cv-prod-id-2424618  ] [None                          ] [SC CV] [Conference Paper     ] [ 7  4 Ab   ] [2008-12-01] Detection of illicit traffic using neural networks
-[67650787244] [None                ] [10.1093/ietcom/e90-b.7.1594   ] [SC   ] [Article              ] [ 8  3 Ab   ] [2007-01-01] Cluster analysis of internet users based on hourly traffic utilization
-[70349459587] [cv-prod-id-2426148  ] [10.1109/ICIMP.2009.10         ] [SC CV] [Conference Paper     ] [20  2 Ab   ] [2009-10-01] Framework for zombie detection using neural networks
-[70350663161] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  2      ] [2009-11-09] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
-[70350686919] [None                ] [10.1007/978-3-642-04576-9_6   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2009-01-01] Peer-level analysis of distributed multimedia content sharing
-[70449356619] [cv-prod-id-2426138  ] [10.1109/NGI.2009.5175758      ] [SC CV] [Conference Paper     ] [21  2 Ab   ] [2009-11-18] Discriminating internet applications based on multiscale analysis
-[70449390639] [cv-prod-id-2426139  ] [10.1109/ICCW.2009.5208090     ] [SC CV] [Conference Paper     ] [18  3 Ab   ] [2009-11-18] Markovian models for medical signals on wireless sensor networks
-[70449457788] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2007-01-01] Module for identifying internet applications and its integration in a peer-to-peer measurement tool
-[70649113079] [None                ] [None                          ] [SC   ] [Conference Paper     ] [15  2 Ab   ] [2009-12-02] Detection of illicit traffic based on multiscale analysis
-[71049195835] [None                ] [10.1007/978-3-642-04576-9_5   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2009-01-01] On the Dependencies between Internet Flow Characteristics
-[77954674919] [cv-prod-id-2426149  ] [10.4304/jnw.4.2.108-118       ] [SC CV] [Article              ] [ 5  1 Ab   ] [2009-01-01] Towards the on-line identification of peer-to-peer flow patterns
-[77955880890] [cv-prod-id-2426118  ] [10.1109/ICDT.2010.19          ] [SC CV] [Conference Paper     ] [23  2 Ab   ] [2010-08-27] A botnet detection system based on neural networks
-[77957912428] [cv-prod-id-2426131  ] [10.1109/NOMSW.2010.5486570    ] [SC CV] [Conference Paper     ] [12  2 Ab   ] [2010-10-20] A cooperative hide and seek discovery over in network management
-[77958599689] [cv-prod-id-2424615  ] [10.1016/j.comcom.2010.04.016  ] [SC CV] [Article              ] [ 8  1 Ab FT] [2010-11-15] Modeling self-similar traffic over multiple time scales based on hierarchical Markovian and L-System models
-[78249241826] [cv-prod-id-2426117  ] [10.1109/CIT.2010.441          ] [SC CV] [Conference Paper     ] [ 7  3 Ab   ] [2010-11-19] P2P-TV service and user characterization
-[78649824378] [cv-prod-id-2426130  ] [10.1109/INTERNET.2010.11      ] [SC CV] [Conference Paper     ] [17  1 Ab   ] [2010-12-13] Improving the traffic prediction capability of neural networks using sliding window and multi-task learning mechanisms
-[79952524163] [cv-prod-id-2424633  ] [10.1016/j.procs.2010.12.056   ] [SC CV] [Conference Paper     ] [12  1 Ab FT] [2011-03-16] Analysis of the internet domain names re-registration market
-[79955801071] [None                ] [10.1007/978-3-642-02742-0_5   ] [SC   ] [Article              ] [ 5  2 Ab   ] [2011-01-01] Markovian modelling of internet traffic
-[79955999368] [cv-prod-id-2426125  ] [10.1007/978-3-642-20757-0_18  ] [SC CV] [Conference Paper     ] [21  2 Ab   ] [2011-05-20] Markov modulated Bi-variate gaussian processes for mobility modeling and location prediction
-[79960060986] [cv-prod-id-2424624  ] [10.1007/s00530-010-0215-8     ] [SC CV] [Article              ] [34  5 Ab   ] [2011-07-01] IPTV service based on a content-zapping paradigm
-[79960635539] [cv-prod-id-2426127  ] [10.1109/EUROCON.2011.5929349  ] [SC CV] [Conference Paper     ] [17  2 Ab   ] [2011-07-27] FTP@VDTN A file transfer application for Vehicular Delay-Tolerant Networks
-[79960652987] [cv-prod-id-2426126  ] [10.1109/EUROCON.2011.5929239  ] [SC CV] [Conference Paper     ] [15  2 Ab   ] [2011-07-27] Multimedia content aggregator applied to an IPTV content-zapping service
-[80052160100] [cv-prod-id-2424626  ] [10.1109/icc.2011.5962651      ] [SC CV] [Conference Paper     ] [18  2 Ab   ] [2011-09-02] Detection of illicit network activities based on multivariate Gaussian fitting of multi-scale traffic characteristics
-[80054899094] [cv-prod-id-2424620  ] [10.1007/s11235-010-9331-1     ] [SC CV] [Article              ] [ 8  1 Ab   ] [2011-10-01] Can multiscale traffic analysis be used to differentiate Internet applications?
-[81455142245] [None                ] [None                          ] [SC   ] [Conference Paper     ] [31  2 Ab   ] [2011-11-23] Joint modeling of network related events with multi-dimensional Markov Modulated Deterministic Processes
-[81455142282] [None                ] [None                          ] [SC   ] [Conference Paper     ] [15  2 Ab   ] [2011-11-23] A multi-variate classification approach for the detection of illicit traffic
-[84856187234] [None                ] [None                          ] [SC   ] [Conference Paper     ] [23  2 Ab   ] [2011-12-01] Identification of anomalies on encrypted communications based on multi-scale behavior modeling
-[84857499445] [None                ] [None                          ] [SC   ] [Conference Paper     ] [22  2 Ab   ] [2011-12-01] A real-time traffic classification approach
-[84861595814] [cv-prod-id-2424631  ] [10.1109/INFCOM.2012.6195548   ] [SC CV] [Conference Paper     ] [18  2 Ab   ] [2012-06-04] Robust feature selection and robust PCA for internet traffic anomaly detection
-[84862272007] [cv-prod-id-2425571  ] [10.1109/MCOM.2012.6211491     ] [SC CV] [Article              ] [18  3 Ab   ] [2012-06-20] Improving MAC layer association through social-based metrics in mobile networks
-[84864226131] [None                ] [10.1109/NOMS.2012.6212051     ] [SC   ] [Conference Paper     ] [ 9  1 Ab   ] [2012-07-30] Self-organizing decentralized wireless management through social-based metrics
-[84869594127] [None                ] [10.1007/978-3-642-30422-4_11  ] [SC   ] [Conference Paper     ] [12  1 Ab   ] [2012-07-27] Nodes discovery in the in-network management communication framework
-[84869598103] [None                ] [10.1007/978-3-642-30422-4_1   ] [SC   ] [Conference Paper     ] [18  1 Ab   ] [2012-07-27] Classification of hidden users' profiles in wireless communications
-[84871942598] [cv-prod-id-2425575  ] [10.1109/ICC.2012.6364709      ] [SC CV] [Conference Paper     ] [12  2 Ab   ] [2012-12-01] Analyzing the behavior of top spam botnets
-[84881472256] [cv-prod-id-2425576  ] [None                          ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2012-12-01] Characterizing and predicting internet users hidden behaviors with Markovian models
-[84883478997] [cv-prod-id-2426080  ] [None                          ] [   CV] [Article              ] [ 0  0      ] [2013-01-01] Lightweight discovery and exchange of network information in distributed network management
-[84883478997] [cv-prod-id-2425270  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2013-09-10] Lightweight discovery and exchange of network information in distributed network management
-[84890866363] [None                ] [10.1109/ICCW.2013.6649380     ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-27] Localization system for wireless networks
-[84890883192] [cv-prod-id-2425267  ] [10.1109/ICCW.2013.6649399     ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-27] A Spanning Tree Protocol over mobile wireless ad hoc networks
-[84890886320] [None                ] [10.1109/ICCW.2013.6649386     ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2013-12-27] Using multiscale traffic analysis to detect WPS attacks
-[84894186396] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 0  1 Ab   ] [2013-12-01] Detecting social-network bots based on multiscale behavioral analysis
-[84898357726] [None                ] [10.4018/978-1-59140-993-9.ch044] [SC   ] [Book Chapter         ] [ 0  1      ] [2007-12-01] Modeling IP traffic behavior through markovian models
-[84901694609] [cv-prod-id-2425263  ] [10.1007/s11235-013-9793-z     ] [   CV] [Article              ] [ 0  0      ] [2014-01-01] Statistical characterization of P2P-TV services and users
-[84901694609] [None                ] [10.1007/s11235-013-9793-z     ] [SC   ] [Conference Paper     ] [ 5  1 Ab   ] [2014-01-01] Statistical characterization of P2P-TV services and users
-[84902960854] [cv-prod-id-2426075  ] [10.1109/GLOCOMW.2013.6825122  ] [SC CV] [Conference Paper     ] [ 7  1 Ab   ] [2013-01-01] On the analysis of dissemination management information through an Eyesight perspective
-[84904110425] [cv-prod-id-2426076  ] [10.1109/GLOCOM.2013.6831285   ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2013-01-01] A genetic algorithm approach to improve network nodes association
-[84904154038] [cv-prod-id-2425260  ] [10.1109/NOMS.2014.6838338     ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2014-01-01] DICOM interception system for independent image backup
-[84908180851] [cv-prod-id-2425261  ] [10.1109/ISCC.2014.6912474     ] [SC CV] [Conference Paper     ] [ 8  5 Ab   ] [2014-09-26] A Facebook event collector framework for profile monitoring purposes
-[84919344201] [cv-prod-id-2425259  ] [10.1109/NETWKS.2014.6958532   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] Customer-side detection of Internet-scale traffic redirection
-[84919347031] [cv-prod-id-2425262  ] [10.1109/NETWKS.2014.6959218   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] Framework for collecting social network events
-[84919361255] [cv-prod-id-2425257  ] [10.1109/NETWKS.2014.6959269   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] A peer-to-peer system for large scale traffic measurements
-[84919372880] [cv-prod-id-2425256  ] [10.1109/NETWKS.2014.6959267   ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-14] Detecting DDoS attacks at the source using multiscaling analysis
-[84954233511] [cv-prod-id-2425255  ] [10.1109/INFOCOM.2015.7218634  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2015-08-21] Do we need a perfect ground-truth for benchmarking Internet traffic classifiers?
-[84992715372] [cv-prod-id-2425254  ] [10.1007/s10922-016-9398-4     ] [SC CV] [Article              ] [ 8  4 Ab   ] [2017-04-01] Supporting Unified Distributed Management and Autonomic Decisions: Design, Implementation and Deployment
-[85018268732] [cv-prod-id-2425253  ] [10.17713/ajs.v46i3-4.673      ] [SC CV] [Article              ] [ 0  3 Ab   ] [2017-01-01] Extracting information from interval data using symbolic principal component analysis
-[85021105061] [cv-prod-id-2425252  ] [10.1007/s11277-017-4609-1     ] [SC CV] [Article              ] [ 8  2 Ab   ] [2017-11-01] Socially-Aware Multimedia Dissemination in Personal Mobile Networks
-[85029416719] [cv-prod-id-2426070  ] [10.5220/0006440100270032      ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2017-01-01] A quasi-realistic Internet graph
-[85052022890] [cv-prod-id-2426069  ] [10.5220/0006543601990206      ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2018-01-01] Modular Platform for Customer-Side Detection of BGP Redirection Attacks
-[85061142227] [None                ] [10.1007/978-3-030-11039-0_1   ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2019-01-01] Client side localization of bgp hijack attacks with a quasi-realistic internet graph
-[85064892606] [None                ] [10.1007/978-3-030-17065-3_37  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] Detecting Internet-Scale Traffic Redirection Attacks Using Latent Class Models
-[85084172110] [None                ] [10.1007/978-3-030-45778-5_9   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] Root Cause Analysis of Reduced Accessibility in 4G Networks
-[85086757443] [cv-prod-id-2426067  ] [10.1109/NOMS47738.2020.9110323] [SC CV] [Conference Paper     ] [ 8  6 Ab   ] [2020-04-01] Physical Layer Anomaly Detection Mechanisms in IoT Networks
-[85100346295] [None                ] [10.1002/nem.2154              ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2022-01-01] A privacy-focused approach for anomaly detection in IoT networks
-[85105442070] [None                ] [10.1007/s12243-021-00849-9    ] [SC   ] [Article              ] [ 8  1 Ab   ] [2021-01-01] Prediction of low accessibility in 4G networks
+[None       ] [-2426242] [1023/a:1026183318200] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2003-01-01] Modeling Network Traffic with Multifractal Behavior
+[None       ] [-2424608] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2004-01-01] Fitting self-similar traffic by a superposition of MMPPs modeling the distribution at multiple time scales
+[None       ] [-2424612] [j.comcom.2004.06.014] [   [92mCV[0m] [Article         ] [1  0  0      ] [2004-01-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
+[None       ] [-2426157] [ietconi/e9o-b.7.1594] [   [92mCV[0m] [Article         ] [1  0  0      ] [2007-01-01] Cluster analysis of Internet users based on hourly traffic utilization
+[None       ] [-2424623] [None                ] [   [92mCV[0m] [Conference Paper] [1  4  0      ] [2008-01-01] A Framework for Detecting Internet Applications
+[None       ] [-2424627] [None                ] [   [92mCV[0m] [Conference Paper] [1  4  0      ] [2008-01-01] Study on geographical distribution and availability of BitTorrent peers sharing video files
+[None       ] [-2424630] [None                ] [   [92mCV[0m] [Conference Paper] [1  6  0      ] [2009-01-01] Detection of Illicit Traffic based on Multiscale Analysis
+[None       ] [-2426134] [0.1109/icppw.2009.33] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2009-01-01] Improvement of Messages Delivery Time on Vehicular Delay-Tolerant Networks
+[None       ] [-2424628] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2009-01-01] On the Dependencies between Internet Flow Characteristics
+[None       ] [-2424635] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2009-01-01] Peer-Level Analysis of Distributed Multimedia Content Sharing
+[None       ] [-2426137] [07/978-3-642-04576-9] [   [92mCV[0m] [Book            ] [1  0  0      ] [2009-01-01] Traffic Management and Traffic Engineering for the Future Internet
+[None       ] [-2426128] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2010-01-01] Emulation Environment for Ground Truth Establishment
+[None       ] [-2426129] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2010-01-01] Gaussian Fitting of Multi-scale Traffic Properties for Discriminating IP Applications
+[None       ] [-2426132] [0.1109/waina.2010.66] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2010-01-01] IPTV Service with Automatic Channels Personalization
+[None       ] [-2426085] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] A Multi-Variate Classification Approach for the Detection of Illicit Traffic
+[None       ] [-2426084] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Identification of Anomalies on Encrypted Communications based on Multi-Scale Behavior Modeling
+[None       ] [-2426086] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Joint Modeling of Network Related Events with Multi-Dimensional Markov Modulated Deterministic Processes
+[None       ] [-2425579] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2012-01-01] Atas da 12a Conferência sobre Redes de Computadores (CRC2012)
+[None       ] [-2426083] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2012-01-01] Characterization and Modeling of M2M Video Surveillance Traffic
+[None       ] [-2425577] [0.5296/npa.v4i4.2058] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Characterization and Modeling of Top Spam Botnets
+[None       ] [-2425573] [/978-3-642-30422-4_1] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Classification of hidden users' profiles in wireless communications
+[None       ] [-2426081] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2012-01-01] Fighting Botnets - A Systematic Approach
+[None       ] [-2425578] [/2211740711201020004] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Multi-Scale Profiling of Internet Traffic
+[None       ] [-2425572] [978-3-642-30422-4_11] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Nodes discovery in the in-network management communication framework
+[None       ] [-2425574] [09/noms.2012.6212051] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Self-organizing decentralized wireless management through social-based metrics
+[None       ] [-2425569] [j.protcy.2012.02.030] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Statistical Characterization of the Botnets C&C Traffic
+[None       ] [-2424606] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2013-01-01] A Practical Approach to Corporate Networks Engineering
+[None       ] [-2426077] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] Algorithms for Network Discovery and Detection of MAC and IP Spoofing Security Attacks
+[None       ] [-2426079] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] Detecting Social-Network Bots Based on Multiscale Behavioral Analysis
+[None       ] [-2425568] [22117407112019990003] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Differentiation of HTTP Applications Based on Multiscale Analysis
+[None       ] [-2426078] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] Inter-Operator Traffic Differentiation based on Multiscale Analysis
+[None       ] [-2425268] [09/iccw.2013.6649380] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Localization system for wireless networks
+[None       ] [-2425271] [09/iccw.2013.6649386] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Using multiscale traffic analysis to detect WPS attacks
+[None       ] [-2425266] [22117407112019990007] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-08-01] Detection of WPS Attacks based on Multiscale Traffic Analysis
+[None       ] [-2425265] [0.5296/npa.v5i3.4316] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-10-01] Methodologies for Network Topology Discovery and Detection of MAC and IP Spoofing Attacks
+[None       ] [-2425264] [22117407112016660009] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-12-01] Network-based Wi-Fi Localization Solution
+[None       ] [-2426074] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] Teaching Networking: A Hands-on Approach that Relies on Emulation-based Projects
+[None       ] [-2426072] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] Multi-scaling Analysis of Social Network Users Profiles
+[None       ] [-2426071] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] Tracking Social Networks Events
+[None       ] [-2425250] [10.1002/nem.2154    ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2021-02-03] A privacy-focused approach for anomaly detection in IoT networks
+[0035179552 ] [-2426214] [10.1117/12.434317   ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  5 Ab   ] [2001-01-01] A framework based on Markov modulated poisson processes for modeling traffic with long-range dependence
+[0036970328 ] [-2426213] [/glocom.2002.1189084] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  0  2 Ab   ] [2002-12-01] Modeling multifractal traffic with stochastic L-Systems
+[0037727665 ] [-2426241] [1023/a:1023672904130] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2003-06-01] Multiscale Fitting Procedure Using Markov Modulated Poisson Processes
+[0346342502 ] [-2424610] [j.comnet.2003.10.004] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  1 Ab FT] [2004-02-20] Modeling IP traffic: Joint characterization of packet arrivals and packet sizes using BMAPs
+[0347090476 ] [None    ] [1023/a:1026183318200] [[91mSC[0m   ] [Article         ] [1  6  1 Ab   ] [2003-10-01] Modeling Network Traffic with Multifractal Behavior
+[1642396946 ] [-2426190] [None                ] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  3 Ab   ] [2004-01-01] Fitting Self-Similar Traffic by a Superposition of MMPPs Modeling the Distribution at Multiple Time Scales
+[1642432988 ] [-2426239] [10.1117/12.509358   ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  2  5 Ab   ] [2003-12-01] Markovian Approach for Modeling IP Traffic Behavior on Several Time Scales
+[1642514645 ] [None    ] [10.1117/12.509357   ] [[91mSC[0m   ] [Conference Paper] [1  4  5 Ab   ] [2003-12-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
+[24644456982] [-2424619] [978-3-540-31956-6_71] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  2 Ab   ] [2005-01-01] Active traffic monitoring for heterogeneous environments
+[33644642083] [None    ] [9/ictel.2003.1191586] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2003-01-01] Modeling network traffic with multifractal behavior
+[33744485834] [-2426188] [109/ngi.2005.1431686] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2005-12-01] Classification of Internet users using Discriminant Analysis and Neural Networks
+[33750906923] [-2426184] [1145/1164717.1164728] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  1 Ab   ] [2006-01-01] Predicting the Quality of Service of wireless LANs using neural networks
+[33751005607] [-2426186] [10.1109/aict.2005.93] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2005-07-01] Using neural networks to classify internet users
+[35048839724] [-2426189] [978-3-540-30197-4_30] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2004-01-01] Multi-time-scale traffic modeling using Markovian and L-Systems models
+[35248856335] [-2426240] [978-3-540-45076-4_55] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2003-01-01] Modeling self-similar traffic through Markov modulated poisson processes over multiple time scales
+[43449099154] [-2426185] [10.1109/icns.2006.38] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  2  2 Ab   ] [2006-12-01] Detecting Internet applications using neural networks
+[47049121482] [-2426158] [10.1109/icns.2007.97] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 21  3 Ab   ] [2007-12-01] Predicting QoS characteristics on wireless networks
+[47249134636] [-2426155] [10.1109/lcn.2007.94 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  1 Ab   ] [2007-12-01] Local area network modeling for performance prediction
+[48049107050] [-2426156] [09/iscc.2007.4381613] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 20  5 Ab   ] [2007-12-01] Joint modeling of MANET characteristics for QoS prediction
+[4944234548 ] [None    ] [j.comcom.2004.06.014] [[91mSC[0m   ] [Conference Paper] [1  5  1 Ab FT] [2004-12-01] Framework based on stochastic L-Systems for modeling IP traffic with multifractal behavior
+[51149092068] [-2424617] [10.1109/ngi.2008.46 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2008-09-11] Identification of peer-to-peer applications' flow patterns
+[51549090610] [None    ] [09/isce.2008.4559420] [[91mSC[0m   ] [Editorial       ] [1  0  1      ] [2008-09-17] Welcome to ISCE2008
+[51549111613] [-2426244] [09/isce.2008.4559581] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  1 Ab   ] [2008-09-17] Study on geographical distribution and availability of bittorrent peers sharing video files
+[53149120359] [-2426151] [/csndsp.2008.4610757] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  4 Ab   ] [2008-10-08] Identifying differentiating characteristics of Internet applications using Principal Component Analysis
+[58049130081] [None    ] [978-3-540-89524-4_46] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2008-01-01] A framework for detecting Internet applications
+[58049152250] [-2424618] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  4 Ab   ] [2008-12-01] Detection of illicit traffic using neural networks
+[67650787244] [None    ] [/ietcom/e90-b.7.1594] [[91mSC[0m   ] [Article         ] [1  8  3 Ab   ] [2007-01-01] Cluster analysis of internet users based on hourly traffic utilization
+[70349459587] [-2426148] [0.1109/icimp.2009.10] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 20  2 Ab   ] [2009-10-01] Framework for zombie detection using neural networks
+[70350663161] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  2      ] [2009-11-09] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
+[70350686919] [None    ] [/978-3-642-04576-9_6] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2009-01-01] Peer-level analysis of distributed multimedia content sharing
+[70449356619] [-2426138] [109/ngi.2009.5175758] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 21  2 Ab   ] [2009-11-18] Discriminating internet applications based on multiscale analysis
+[70449390639] [-2426139] [09/iccw.2009.5208090] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 18  3 Ab   ] [2009-11-18] Markovian models for medical signals on wireless sensor networks
+[70449457788] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2007-01-01] Module for identifying internet applications and its integration in a peer-to-peer measurement tool
+[70649113079] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 15  2 Ab   ] [2009-12-02] Detection of illicit traffic based on multiscale analysis
+[71049195835] [None    ] [/978-3-642-04576-9_5] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2009-01-01] On the Dependencies between Internet Flow Characteristics
+[77954674919] [-2426149] [4304/jnw.4.2.108-118] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  1 Ab   ] [2009-01-01] Towards the on-line identification of peer-to-peer flow patterns
+[77955880890] [-2426118] [10.1109/icdt.2010.19] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 23  2 Ab   ] [2010-08-27] A botnet detection system based on neural networks
+[77957912428] [-2426131] [9/nomsw.2010.5486570] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  2 Ab   ] [2010-10-20] A cooperative hide and seek discovery over in network management
+[77958599689] [-2424615] [j.comcom.2010.04.016] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  1 Ab FT] [2010-11-15] Modeling self-similar traffic over multiple time scales based on hierarchical Markovian and L-System models
+[78249241826] [-2426117] [10.1109/cit.2010.441] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  3 Ab   ] [2010-11-19] P2P-TV service and user characterization
+[78649824378] [-2426130] [109/internet.2010.11] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 17  1 Ab   ] [2010-12-13] Improving the traffic prediction capability of neural networks using sliding window and multi-task learning mechanisms
+[79952524163] [-2424633] [/j.procs.2010.12.056] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  1 Ab FT] [2011-03-16] Analysis of the internet domain names re-registration market
+[79955801071] [None    ] [/978-3-642-02742-0_5] [[91mSC[0m   ] [Article         ] [1  5  2 Ab   ] [2011-01-01] Markovian modelling of internet traffic
+[79955999368] [-2426125] [978-3-642-20757-0_18] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 21  2 Ab   ] [2011-05-20] Markov modulated Bi-variate gaussian processes for mobility modeling and location prediction
+[79960060986] [-2424624] [07/s00530-010-0215-8] [[91mSC[0m [92mCV[0m] [Article         ] [1 34  5 Ab   ] [2011-07-01] IPTV service based on a content-zapping paradigm
+[79960635539] [-2426127] [eurocon.2011.5929349] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 17  2 Ab   ] [2011-07-27] FTP@VDTN A file transfer application for Vehicular Delay-Tolerant Networks
+[79960652987] [-2426126] [eurocon.2011.5929239] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 15  2 Ab   ] [2011-07-27] Multimedia content aggregator applied to an IPTV content-zapping service
+[80052160100] [-2424626] [109/icc.2011.5962651] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 18  2 Ab   ] [2011-09-02] Detection of illicit network activities based on multivariate Gaussian fitting of multi-scale traffic characteristics
+[80054899094] [-2424620] [07/s11235-010-9331-1] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  1 Ab   ] [2011-10-01] Can multiscale traffic analysis be used to differentiate Internet applications?
+[81455142245] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 31  2 Ab   ] [2011-11-23] Joint modeling of network related events with multi-dimensional Markov Modulated Deterministic Processes
+[81455142282] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 15  2 Ab   ] [2011-11-23] A multi-variate classification approach for the detection of illicit traffic
+[84856187234] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 23  2 Ab   ] [2011-12-01] Identification of anomalies on encrypted communications based on multi-scale behavior modeling
+[84857499445] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 22  2 Ab   ] [2011-12-01] A real-time traffic classification approach
+[84861595814] [-2424631] [/infcom.2012.6195548] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 18  2 Ab   ] [2012-06-04] Robust feature selection and robust PCA for internet traffic anomaly detection
+[84862272007] [-2425571] [09/mcom.2012.6211491] [[91mSC[0m [92mCV[0m] [Article         ] [1 18  3 Ab   ] [2012-06-20] Improving MAC layer association through social-based metrics in mobile networks
+[84864226131] [None    ] [09/noms.2012.6212051] [[91mSC[0m   ] [Conference Paper] [1  9  1 Ab   ] [2012-07-30] Self-organizing decentralized wireless management through social-based metrics
+[84869594127] [None    ] [978-3-642-30422-4_11] [[91mSC[0m   ] [Conference Paper] [1 12  1 Ab   ] [2012-07-27] Nodes discovery in the in-network management communication framework
+[84869598103] [None    ] [/978-3-642-30422-4_1] [[91mSC[0m   ] [Conference Paper] [1 18  1 Ab   ] [2012-07-27] Classification of hidden users' profiles in wireless communications
+[84871942598] [-2425575] [109/icc.2012.6364709] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  2 Ab   ] [2012-12-01] Analyzing the behavior of top spam botnets
+[84881472256] [-2425576] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2012-12-01] Characterizing and predicting internet users hidden behaviors with Markovian models
+[84883478997] [-2426080] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Lightweight discovery and exchange of network information in distributed network management
+[84883478997] [-2425270] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-09-10] Lightweight discovery and exchange of network information in distributed network management
+[84890866363] [None    ] [09/iccw.2013.6649380] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2013-12-27] Localization system for wireless networks
+[84890883192] [-2425267] [09/iccw.2013.6649399] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-12-27] A Spanning Tree Protocol over mobile wireless ad hoc networks
+[84890886320] [None    ] [09/iccw.2013.6649386] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2013-12-27] Using multiscale traffic analysis to detect WPS attacks
+[84894186396] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  0  1 Ab   ] [2013-12-01] Detecting social-network bots based on multiscale behavioral analysis
+[84898357726] [None    ] [-1-59140-993-9.ch044] [[91mSC[0m   ] [Book Chapter    ] [1  0  1      ] [2007-12-01] Modeling IP traffic behavior through markovian models
+[84901694609] [-2425263] [07/s11235-013-9793-z] [   [92mCV[0m] [Article         ] [1  0  0      ] [2014-01-01] Statistical characterization of P2P-TV services and users
+[84901694609] [None    ] [07/s11235-013-9793-z] [[91mSC[0m   ] [Conference Paper] [1  5  1 Ab   ] [2014-01-01] Statistical characterization of P2P-TV services and users
+[84902960854] [-2426075] [glocomw.2013.6825122] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  1 Ab   ] [2013-01-01] On the analysis of dissemination management information through an Eyesight perspective
+[84904110425] [-2426076] [/glocom.2013.6831285] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-01-01] A genetic algorithm approach to improve network nodes association
+[84904154038] [-2425260] [09/noms.2014.6838338] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] DICOM interception system for independent image backup
+[84908180851] [-2425261] [09/iscc.2014.6912474] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  5 Ab   ] [2014-09-26] A Facebook event collector framework for profile monitoring purposes
+[84919344201] [-2425259] [/netwks.2014.6958532] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] Customer-side detection of Internet-scale traffic redirection
+[84919347031] [-2425262] [/netwks.2014.6959218] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] Framework for collecting social network events
+[84919361255] [-2425257] [/netwks.2014.6959269] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] A peer-to-peer system for large scale traffic measurements
+[84919372880] [-2425256] [/netwks.2014.6959267] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-14] Detecting DDoS attacks at the source using multiscaling analysis
+[84954233511] [-2425255] [infocom.2015.7218634] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2015-08-21] Do we need a perfect ground-truth for benchmarking Internet traffic classifiers?
+[84992715372] [-2425254] [07/s10922-016-9398-4] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab   ] [2017-04-01] Supporting Unified Distributed Management and Autonomic Decisions: Design, Implementation and Deployment
+[85018268732] [-2425253] [7713/ajs.v46i3-4.673] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2017-01-01] Extracting information from interval data using symbolic principal component analysis
+[85021105061] [-2425252] [07/s11277-017-4609-1] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2017-11-01] Socially-Aware Multimedia Dissemination in Personal Mobile Networks
+[85029416719] [-2426070] [220/0006440100270032] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2017-01-01] A quasi-realistic Internet graph
+[85052022890] [-2426069] [220/0006543601990206] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2018-01-01] Modular Platform for Customer-Side Detection of BGP Redirection Attacks
+[85061142227] [None    ] [/978-3-030-11039-0_1] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2019-01-01] Client side localization of bgp hijack attacks with a quasi-realistic internet graph
+[85064892606] [None    ] [978-3-030-17065-3_37] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Detecting Internet-Scale Traffic Redirection Attacks Using Latent Class Models
+[85084172110] [None    ] [/978-3-030-45778-5_9] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Root Cause Analysis of Reduced Accessibility in 4G Networks
+[85086757443] [-2426067] [ms47738.2020.9110323] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  6 Ab   ] [2020-04-01] Physical Layer Anomaly Detection Mechanisms in IoT Networks
+[85100346295] [None    ] [10.1002/nem.2154    ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2022-01-01] A privacy-focused approach for anomaly detection in IoT networks
+[85105442070] [None    ] [7/s12243-021-00849-9] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2021-01-01] Prediction of low accessibility in 4G networks

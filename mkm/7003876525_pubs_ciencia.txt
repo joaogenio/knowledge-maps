@@ -1,0 +1,35 @@
+{
+    "ciencia_id": "8E15-9D3D-C631",
+    "name": "Carlos Alberto Costa Bastos",
+    "bio": "",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [
+        {
+            "name": "DNA symmetry: modeling, influential words and outliers",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "Heron II - Evolution of the European Portuguese Articulatory based Text-to-Speech Framework",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "Analysis of DNA sequences through compression-based complexity profiles",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "Comprehensive safety solution for people with Aphasia",
+            "desc": null,
+            "year": "2020",
+            "areas": []
+        }
+    ],
+    "publications": []
+}

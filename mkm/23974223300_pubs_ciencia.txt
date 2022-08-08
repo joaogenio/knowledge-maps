@@ -1,0 +1,193 @@
+{
+    "ciencia_id": "AF11-D232-B5B7",
+    "name": "Susana Manuela Martinho dos Santos Baía Brás",
+    "bio": "Susana Brás was born in Chaves, Portugal in 1983. She is a researcher at Institute of Electronics and Informatics Engineering of Aveiro (IEETA), University of Aveiro, Portugal. Her research interests are focused on ECG biometric identification, emotional modulated environments and information extraction from large biomedical databases. At this research unit, she supervised several master students, and a PhD student. She published several papers in top journals and conferences in the Affective Computing area, which gave to her visibility in the scientific community, allowing the invitation to deliver several invited talks, internally and externally to the Aveiro University. She collaborates in the writing and submission of several proposals to national and international funds, some of those projects financed and in execution, others already finished with good evaluations. Before, she was a PhD student at Abel Salazar Biomedical Sciences Institute, at University of Porto, Portugal. Her thesis was focused on automation in anesthesia, basically the drug distribution and effect were studied and modeled as well as the depth of anesthesia level, measured by alterations in the brain electrical activity. At the end a closed loop control for the hypnotic effect and an anesthesia simulation software were presented. Her background is in Applied Mathematics, from the Sciences Faculty, at University of Porto. Before joining the research activity, she worked as actuary (pension funds analyst and technician) at a private Bank in Portugal. During this activity she was responsible for the management of the company website, public and private access. Also, she was responsible for several commercial and technical tasks.  ",
+    "domains": [
+        {
+            "name": "Exact Sciences - Computer and Information Sciences",
+            "code": "70200009"
+        },
+        {
+            "name": "Engineering and Technology - Other Engineering and Technologies",
+            "code": "21100004"
+        }
+    ],
+    "degrees": [
+        "Matemática Aplicada à Tecnologia",
+        "Ciências Biomédicas"
+    ],
+    "distinctions": [],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Extended-alphabet finite-context models",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218426",
+            "doi": "10.1016/j.patrec.2018.05.026",
+            "scopus_id": "2-s2.0-85048212515",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An automatic classifier of emotions built from entropy of noise",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218427",
+            "doi": "10.1111/psyp.12808",
+            "scopus_id": "2-s2.0-85007427864",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "BeMonitored: Monitoring psychophysiology and behavior using Android in phobias",
+            "date": "2016-09-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218429",
+            "doi": "10.3758/s13428-015-0633-9",
+            "scopus_id": "2-s2.0-84984620370",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Electroencephalogram-based indices applied to dogs' depth of anaesthesia monitoring",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218435",
+            "doi": "10.1016/j.rvsc.2014.09.017",
+            "scopus_id": "2-s2.0-84918794434",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mathematical biomarkers for the autonomic regulation of cardiovascular system",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218441",
+            "doi": "10.3389/fphys.2013.00279",
+            "scopus_id": "2-s2.0-84885358428",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Fuzzy logic model to describe anesthetic effect and muscular influence on EEG Cerebral State Index",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218442",
+            "doi": "10.1016/j.rvsc.2012.12.008",
+            "scopus_id": "2-s2.0-84876135869",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Correlation between clinical signs of depth of anaesthesia and cerebral state index responses in dogs with different target-controlled infusions of propofol",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218445",
+            "doi": "10.1111/j.1467-2995.2011.00657.x",
+            "scopus_id": "2-s2.0-83455223539",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A step towards effect-site target-controlled infusion with propofol in dogs: A ke0 for propofol",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218451",
+            "doi": "10.1111/j.1365-2885.2008.01019.x",
+            "scopus_id": "2-s2.0-61849137366",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Correlation between clinical signs of depth of anaesthesia and cerebral state index responses in dogs during induction of anaesthesia with propofol",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-218452",
+            "doi": "10.1016/j.rvsc.2009.02.010",
+            "scopus_id": "2-s2.0-67650418151",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The feasibility of an augment reality system to study the psychophysiological correlates of fear-related responses",
+            "date": "2018-08-22",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-319326",
+            "doi": "10.1002/brb3.1084",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Biometric and Emotion Identification: An ECG Compression Based Method",
+            "date": "2018-04-04",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-319336",
+            "doi": "10.3389/fpsyg.2018.00467",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Automation in veterinary anaesthesia: modelling and control",
+            "date": "2010-12-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-320347",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the Impact of the Data Acquisition Protocol on ECG Biometric Identification",
+            "date": "2021-07-07",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2666030",
+            "doi": "10.3390/s21144645",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Multimodal Emotion Evaluation: A Physiological Model for Cost-Effective Emotion Classification",
+            "date": "2020-06-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2666031",
+            "doi": "10.3390/s20123510",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Vehicular traffic flow prediction using deployed traffic counters in a city",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2722480",
+            "doi": "10.1016/j.future.2021.10.022",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Statistical n-Best AFD-Based Sparse Representation for ECG Biometric Identification",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2722481",
+            "doi": "10.1109/TIM.2021.3119138",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Multidimensional assessment of anxiety through the State-Trait Inventory for Cognitive and Somatic Anxiety (STICSA): From dimensionality to response prediction across emotional contexts",
+            "date": "2022-01-25",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2919634",
+            "doi": "10.1371/journal.pone.0262960",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

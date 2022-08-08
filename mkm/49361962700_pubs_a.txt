@@ -1,65 +1,65 @@
-[None       ] [cv-prod-id-1266554  ] [None                          ] [   CV] [Thesis / Dissertation] [ 8  0      ] [2016-01-01] Compression and analysis of genomic data
-[80052209762] [cv-prod-id-1266526  ] [10.1109/SSP.2011.5967639      ] [SC CV] [Conference Paper     ] [ 7  4 Ab   ] [2011-09-05] DNA synthetic sequences generation using multiple competing Markov models
-[80052249011] [cv-prod-id-1266527  ] [10.1109/SSP.2011.5967637      ] [SC CV] [Conference Paper     ] [ 6  4 Ab   ] [2011-09-05] Bacteria DNA sequence compression using a mixture of finite-context models
-[80052957011] [cv-prod-id-1266529  ] [10.1007/978-3-642-19914-1_29  ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2011-09-23] Compressing the human genome using exclusively Markov models
-[82155191383] [cv-prod-id-1266530  ] [10.1007/978-3-642-25364-5_8   ] [SC CV] [Conference Paper     ] [ 9  2 Ab   ] [2011-11-30] Complexity profiles of DNA sequences using finite-context models
-[84857860662] [cv-prod-id-1266522  ] [10.1093/nar/gkr1124           ] [SC CV] [Article              ] [ 0  1 Ab   ] [2012-02-01] GReEn: A tool for efficient compression of genome resequencing data
-[84861206336] [cv-prod-id-1266524  ] [10.1007/978-3-642-28839-5_25  ] [SC CV] [Conference Paper     ] [ 7  1 Ab   ] [2012-05-23] Exon: A web-based software toolkit for DNA sequence analysis
-[84861969601] [cv-prod-id-1266521  ] [None                          ] [SC CV] [Conference Paper     ] [ 9  1 Ab   ] [2012-06-13] Computation of the normalized compression distance of DNA sequences using a mixture of finite-context models
-[84863762407] [cv-prod-id-1266528  ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2011-12-01] Symbolic to numerical conversion of DNA sequences using finite-context models
-[84864149326] [cv-prod-id-1266525  ] [10.1007/978-3-642-31295-3_42  ] [SC CV] [Conference Paper     ] [11  2 Ab   ] [2012-07-27] Compression of whole genome alignments using a mixture of finite-context models
-[84864151066] [cv-prod-id-1266523  ] [10.1007/978-3-642-31295-3_19  ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2012-07-27] On the detection of unknown locally repeating patterns in images
-[84876759103] [cv-prod-id-1266517  ] [10.1109/TIT.2012.2236605      ] [SC CV] [Article              ] [ 8  3 Ab   ] [2013-05-01] A compression model for DNA multiple sequence alignment blocks
-[84881097916] [cv-prod-id-1266520  ] [10.1007/978-1-62703-514-9_2   ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] Deep Sequencing Data Analysis,
-[84881097916] [None                ] [10.1007/978-1-62703-514-9_2   ] [SC   ] [Article              ] [ 0  2 Ab   ] [2013-08-09] Compressing resequencing data with GReEn
-[84887940267] [cv-prod-id-1266518  ] [10.1109/TCBB.2013.77          ] [SC CV] [Article              ] [13  3 Ab   ] [2013-11-25] A genomic distance for assembly comparison based on compressed maximal exact matches
-[84891355058] [cv-prod-id-1266514  ] [10.1093/bioinformatics/btt594 ] [SC CV] [Article              ] [ 7  6 Ab   ] [2014-01-01] Mfcompress: A compression tool for fasta and multi-fasta data
-[84892407950] [cv-prod-id-1266513  ] [10.1186/1756-0500-7-40        ] [SC CV] [Article              ] [ 0  1 Ab   ] [2014-01-01] XS: A FASTQ read simulator
-[84896690677] [cv-prod-id-1266519  ] [10.1371/journal.pone.0079922  ] [SC CV] [Article              ] [ 0  3 Ab   ] [2013-11-21] DNA sequences at a glance
-[84903434093] [cv-prod-id-1266510  ] [10.1109/DCC.2014.58           ] [SC CV] [Conference Paper     ] [ 3  1 Ab   ] [2014-01-01] A conditional compression distance that unveils insights of the genomic evolution
-[84903478465] [cv-prod-id-1266512  ] [10.1109/DCC.2014.54           ] [SC CV] [Conference Paper     ] [ 4  1 Ab   ] [2014-01-01] Information profiles for DNA pattern discovery
-[84908664344] [cv-prod-id-1266516  ] [10.1007/978-3-319-11758-4 4   ] [   CV] [Conference Paper     ] [ 0  0      ] [2014-01-01] A new compressor for measuring distances among images
-[84911892507] [cv-prod-id-1266511  ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2014-11-10] Exploring deep Markov models in genomic data compression using sequence pre-analysis
-[84921770705] [None                ] [10.1007/978-3-319-11758-4_4   ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2014-01-01] A new compressor for measuring distances among images
-[84929429321] [cv-prod-id-1266507  ] [10.1038/srep10203             ] [SC CV] [Article              ] [ 7  1 Ab   ] [2015-05-18] An alignment-free method to find and visualise rearrangements between pairs of DNA sequences
-[84929484087] [cv-prod-id-1266508  ] [10.1371/journal.pone.0116082  ] [SC CV] [Article              ] [ 4  3 Ab   ] [2015-03-27] Mafco: A compression tool for MAF files
-[84943639957] [cv-prod-id-1266509  ] [10.1093/bioinformatics/btv189 ] [SC CV] [Article              ] [ 9  6 Ab   ] [2015-08-01] Three minimal sequences found in Ebola virus genomes and absent from human DNA
-[85007344704] [cv-prod-id-1266504  ] [10.1109/DCC.2016.60           ] [SC CV] [Conference Paper     ] [ 7  1 Ab   ] [2016-12-15] Efficient Compression of Genomic Sequences
-[85007393441] [cv-prod-id-1266506  ] [10.3390/info7040056           ] [SC CV] [Article              ] [ 5  1 Ab   ] [2016-01-01] A survey on data compression methods for biological sequences
-[85010032070] [cv-prod-id-1266505  ] [10.1109/DCC.2016.53           ] [SC CV] [Conference Paper     ] [ 6  1 Ab   ] [2016-12-15] Authorship Attribution Using Relative Compression
-[85020418014] [cv-prod-id-1266498  ] [None                          ] [   CV] [Book                 ] [ 0  0      ] [2017-01-01] Algorithms for Computational Biology 
-[85020418014] [None                ] [None                          ] [SC   ] [Editorial            ] [ 0  2      ] [2017-01-01] Preface
-[85021204963] [cv-prod-id-1266501  ] [10.1007/978-3-319-58838-4_29  ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2017-01-01] On the approximation of the Kolmogorov complexity for DNA sequences
-[85021224756] [cv-prod-id-1266503  ] [10.1007/978-3-319-58838-4_26  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] Visualization of distinct DNA regions of the modern human relatively to a neanderthal genome
-[85025115709] [cv-prod-id-1266502  ] [10.1007/978-3-319-60816-7_28  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] On the role of inverted repeats in DNA sequence similarity
-[85025129828] [cv-prod-id-1266499  ] [10.1007/978-3-319-60816-7_32  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] Substitutional tolerant markov models for relative compression of DNA sequences
-[85025168586] [cv-prod-id-1266500  ] [10.1007/978-3-319-60816-7_37  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2017-01-01] Cryfa: A tool to compact and encrypt FASTA files
-[85048212515] [cv-prod-id-1266555  ] [10.1016/j.patrec.2018.05.026  ] [SC CV] [Article              ] [ 8  4 Ab FT] [2018-09-01] Extended-alphabet finite-context models
-[85048723392] [cv-prod-id-1266497  ] [10.3390/e20060393             ] [SC CV] [Article              ] [ 0  4 Ab   ] [2018-06-01] Comparison of compression-based measures with application to the evolution of primate genomes
-[85052918694] [cv-prod-id-2437081  ] [10.1007/978-3-319-98702-6_13  ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2019-01-01] Compression of amino acid sequences
-[85052935792] [cv-prod-id-2437082  ] [10.1007/978-3-319-98702-6_25  ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2019-01-01] A DNA sequence corpus for compression benchmark
-[85052975949] [cv-prod-id-2437083  ] [10.1007/978-3-319-98702-6_14  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] NET-ASAR: A tool for DNA sequence search based on data compression
-[85053281877] [cv-prod-id-1266496  ] [10.3390/genes9090445          ] [SC CV] [Article              ] [ 0  2 Ab   ] [2018-09-06] Metagenomic composition analysis of an ancient sequenced polar bear jawbone from Svalbard
-[85054849437] [cv-prod-id-2437085  ] [10.1007/978-3-030-01449-0_41  ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2018-01-01] An Application of Data Compression Models to Handwritten Digit Classification
-[85058744156] [cv-prod-id-2437080  ] [10.1093/bioinformatics/bty645 ] [SC CV] [Article              ] [ 5  6 Ab   ] [2019-01-01] Cryfa: A secure encryption tool for genomic data
-[85059813385] [cv-prod-id-2437084  ] [10.23919/EUSIPCO.2018.8553297 ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2018-11-29] Metagenomic composition analysis of sedimentary ancient DNA from the Isle of Wight
-[85062690507] [cv-prod-id-2437079  ] [10.1007/s12539-019-00322-1    ] [SC CV] [Article              ] [ 6  3 Ab   ] [2019-03-01] AC: A Compression Tool for Amino Acid Sequences
-[85068589420] [cv-prod-id-2437076  ] [10.1007/978-3-030-23873-5_16  ] [SC CV] [Conference Paper     ] [ 6  2 Ab   ] [2020-01-01] Visualization of Similar Primer and Adapter Sequences in Assembled Archaeal Genomes
-[85068615307] [cv-prod-id-2437077  ] [10.1007/978-3-030-23873-5_17  ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] GeCo2: An Optimized Tool for Lossless Compression and Analysis of DNA Sequences
-[85075423993] [cv-prod-id-1266495  ] [10.3390/e21111074             ] [SC CV] [Article              ] [ 0  4 Ab   ] [2019-11-01] A reference-free lossless compression algorithm for DNA sequences using a competitive prediction of two classes of weighted models
-[85075624401] [cv-prod-id-2437078  ] [10.23919/EUSIPCO.2019.8902695 ] [SC CV] [Conference Paper     ] [ 5  2 Ab   ] [2019-09-01] A probabilistic method to find and visualize distinct regions in protein sequences
-[85078516231] [cv-prod-id-1266494  ] [10.3390/e22010105             ] [SC CV] [Article              ] [ 0  4 Ab   ] [2020-01-01] Statistical complexity analysis of turing machine tapes with fixed algorithmic complexity using the best-order markov model
-[85084965113] [cv-prod-id-2116699  ] [10.1093/gigascience/giaa048   ] [SC CV] [Article              ] [ 8  2 Ab   ] [2020-05-20] Smash++: An alignment-free and memory-efficient tool to find genomic rearrangements
-[85086630979] [cv-prod-id-2116698  ] [10.1016/j.softx.2020.100535   ] [SC CV] [Article              ] [ 5  2 Ab FT] [2020-07-01] GTO: A toolkit to unify pipelines in genomic and proteomic research
-[85087658242] [cv-prod-id-2116696  ] [10.1016/j.fsigen.2020.102353  ] [SC CV] [Article              ] [15  2 Ab FT] [2020-09-01] The landscape of persistent human DNA viruses in femoral bone
-[85089714610] [cv-prod-id-2116700  ] [10.1093/gigascience/giaa086   ] [SC CV] [Article              ] [ 6  2 Ab   ] [2020-08-01] A hybrid pipeline for reconstruction and analysis of viral genomes at multi-organ level
-[85096082682] [cv-prod-id-2437027  ] [10.1093/gigascience/giaa119   ] [SC CV] [Article              ] [ 6  2 Ab   ] [2020-11-01] Efficient DNA sequence compression with neural networks
-[85098456035] [cv-prod-id-2437075  ] [10.1016/j.compbiomed.2020.104180] [SC CV] [Article              ] [13  2 Ab FT] [2021-03-01] A semi-automatic methodology for analysing distributed and private biobanks
-[85098462040] [cv-prod-id-2116697  ] [10.1093/bioinformatics/btaa686] [SC CV] [Article              ] [ 5  6 Ab   ] [2020-11-01] Persistent minimal sequences of SARS-CoV-2
-[85100446723] [cv-prod-id-2437074  ] [10.1016/j.patcog.2021.107864  ] [SC CV] [Article              ] [ 8  4 Ab FT] [2021-06-01] Automatic analysis of artistic paintings using information-based measures
-[85105418944] [cv-prod-id-3131592  ] [10.3389/fcimb.2021.657245     ] [SC CV] [Article              ] [ 6  4 Ab   ] [2021-04-22] The Human Bone Marrow Is Host to the DNAs of Several Viruses
-[85105434500] [cv-prod-id-3131593  ] [10.3390/e23050530             ] [SC CV] [Article              ] [ 0  4 Ab   ] [2021-01-01] Ac2: An efficient protein sequence compression tool using artificial neural networks and cache-hash models
-[85111609935] [cv-prod-id-3131596  ] [10.1111/lam.13538             ] [SC CV] [Article              ] [ 5  1 Ab   ] [2021-10-01] Revisiting the Neurospora crassa mitochondrial genome
-[85123024507] [cv-prod-id-3131595  ] [10.3390/v14010133             ] [SC CV] [Article              ] [11  2 Ab   ] [2022-01-01] Detection of Low-Copy Human Virus DNA upon Prolonged Formalin Fixation
-[85128000485] [cv-prod-id-3131594  ] [10.1093/gigascience/giac028   ] [SC CV] [Article              ] [ 8  2 Ab   ] [2022-01-01] The haplotype-resolved chromosome pairs of a heterozygous diploid African cassava cultivar reveal novel pan-genome and allele-specific transcriptome features
-[85129799575] [cv-prod-id-3136959  ] [10.1007/978-3-031-04881-4_25  ] [SC CV] [Conference Paper     ] [10  2 Ab   ] [2022-01-01] Feature-Based Classification of Archaeal Sequences Using Compression-Based Methods
+[None       ] [-1266554] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Compression and analysis of genomic data
+[80052209762] [-1266526] [109/ssp.2011.5967639] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  4 Ab   ] [2011-09-05] DNA synthetic sequences generation using multiple competing Markov models
+[80052249011] [-1266527] [109/ssp.2011.5967637] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  4 Ab   ] [2011-09-05] Bacteria DNA sequence compression using a mixture of finite-context models
+[80052957011] [-1266529] [978-3-642-19914-1_29] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2011-09-23] Compressing the human genome using exclusively Markov models
+[82155191383] [-1266530] [/978-3-642-25364-5_8] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  2 Ab   ] [2011-11-30] Complexity profiles of DNA sequences using finite-context models
+[84857860662] [-1266522] [10.1093/nar/gkr1124 ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2012-02-01] GReEn: A tool for efficient compression of genome resequencing data
+[84861206336] [-1266524] [978-3-642-28839-5_25] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  1 Ab   ] [2012-05-23] Exon: A web-based software toolkit for DNA sequence analysis
+[84861969601] [-1266521] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  1 Ab   ] [2012-06-13] Computation of the normalized compression distance of DNA sequences using a mixture of finite-context models
+[84863762407] [-1266528] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2011-12-01] Symbolic to numerical conversion of DNA sequences using finite-context models
+[84864149326] [-1266525] [978-3-642-31295-3_42] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  2 Ab   ] [2012-07-27] Compression of whole genome alignments using a mixture of finite-context models
+[84864151066] [-1266523] [978-3-642-31295-3_19] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2012-07-27] On the detection of unknown locally repeating patterns in images
+[84876759103] [-1266517] [109/tit.2012.2236605] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab   ] [2013-05-01] A compression model for DNA multiple sequence alignment blocks
+[84881097916] [-1266520] [/978-1-62703-514-9_2] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2013-01-01] Deep Sequencing Data Analysis,
+[84881097916] [None    ] [/978-1-62703-514-9_2] [[91mSC[0m   ] [Article         ] [1  0  2 Ab   ] [2013-08-09] Compressing resequencing data with GReEn
+[84887940267] [-1266518] [10.1109/tcbb.2013.77] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  3 Ab   ] [2013-11-25] A genomic distance for assembly comparison based on compressed maximal exact matches
+[84891355058] [-1266514] [ioinformatics/btt594] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  6 Ab   ] [2014-01-01] Mfcompress: A compression tool for fasta and multi-fasta data
+[84892407950] [-1266513] [.1186/1756-0500-7-40] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2014-01-01] XS: A FASTQ read simulator
+[84896690677] [-1266519] [journal.pone.0079922] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2013-11-21] DNA sequences at a glance
+[84903434093] [-1266510] [10.1109/dcc.2014.58 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  3  1 Ab   ] [2014-01-01] A conditional compression distance that unveils insights of the genomic evolution
+[84903478465] [-1266512] [10.1109/dcc.2014.54 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  1 Ab   ] [2014-01-01] Information profiles for DNA pattern discovery
+[84908664344] [-1266516] [/978-3-319-11758-4 4] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] A new compressor for measuring distances among images
+[84911892507] [-1266511] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-11-10] Exploring deep Markov models in genomic data compression using sequence pre-analysis
+[84921770705] [None    ] [/978-3-319-11758-4_4] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2014-01-01] A new compressor for measuring distances among images
+[84929429321] [-1266507] [10.1038/srep10203   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  1 Ab   ] [2015-05-18] An alignment-free method to find and visualise rearrangements between pairs of DNA sequences
+[84929484087] [-1266508] [journal.pone.0116082] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  3 Ab   ] [2015-03-27] Mafco: A compression tool for MAF files
+[84943639957] [-1266509] [ioinformatics/btv189] [[91mSC[0m [92mCV[0m] [Article         ] [1  9  6 Ab   ] [2015-08-01] Three minimal sequences found in Ebola virus genomes and absent from human DNA
+[85007344704] [-1266504] [10.1109/dcc.2016.60 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  1 Ab   ] [2016-12-15] Efficient Compression of Genomic Sequences
+[85007393441] [-1266506] [10.3390/info7040056 ] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  1 Ab   ] [2016-01-01] A survey on data compression methods for biological sequences
+[85010032070] [-1266505] [10.1109/dcc.2016.53 ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  1 Ab   ] [2016-12-15] Authorship Attribution Using Relative Compression
+[85020418014] [-1266498] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2017-01-01] Algorithms for Computational Biology 
+[85020418014] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  2      ] [2017-01-01] Preface
+[85021204963] [-1266501] [978-3-319-58838-4_29] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2017-01-01] On the approximation of the Kolmogorov complexity for DNA sequences
+[85021224756] [-1266503] [978-3-319-58838-4_26] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2017-01-01] Visualization of distinct DNA regions of the modern human relatively to a neanderthal genome
+[85025115709] [-1266502] [978-3-319-60816-7_28] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2017-01-01] On the role of inverted repeats in DNA sequence similarity
+[85025129828] [-1266499] [978-3-319-60816-7_32] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2017-01-01] Substitutional tolerant markov models for relative compression of DNA sequences
+[85025168586] [-1266500] [978-3-319-60816-7_37] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2017-01-01] Cryfa: A tool to compact and encrypt FASTA files
+[85048212515] [-1266555] [j.patrec.2018.05.026] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab FT] [2018-09-01] Extended-alphabet finite-context models
+[85048723392] [-1266497] [10.3390/e20060393   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2018-06-01] Comparison of compression-based measures with application to the evolution of primate genomes
+[85052918694] [-2437081] [978-3-319-98702-6_13] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2019-01-01] Compression of amino acid sequences
+[85052935792] [-2437082] [978-3-319-98702-6_25] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2019-01-01] A DNA sequence corpus for compression benchmark
+[85052975949] [-2437083] [978-3-319-98702-6_14] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] NET-ASAR: A tool for DNA sequence search based on data compression
+[85053281877] [-1266496] [10.3390/genes9090445] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  2 Ab   ] [2018-09-06] Metagenomic composition analysis of an ancient sequenced polar bear jawbone from Svalbard
+[85054849437] [-2437085] [978-3-030-01449-0_41] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2018-01-01] An Application of Data Compression Models to Handwritten Digit Classification
+[85058744156] [-2437080] [ioinformatics/bty645] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  6 Ab   ] [2019-01-01] Cryfa: A secure encryption tool for genomic data
+[85059813385] [-2437084] [eusipco.2018.8553297] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2018-11-29] Metagenomic composition analysis of sedimentary ancient DNA from the Isle of Wight
+[85062690507] [-2437079] [7/s12539-019-00322-1] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  3 Ab   ] [2019-03-01] AC: A Compression Tool for Amino Acid Sequences
+[85068589420] [-2437076] [978-3-030-23873-5_16] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2020-01-01] Visualization of Similar Primer and Adapter Sequences in Assembled Archaeal Genomes
+[85068615307] [-2437077] [978-3-030-23873-5_17] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] GeCo2: An Optimized Tool for Lossless Compression and Analysis of DNA Sequences
+[85075423993] [-1266495] [10.3390/e21111074   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2019-11-01] A reference-free lossless compression algorithm for DNA sequences using a competitive prediction of two classes of weighted models
+[85075624401] [-2437078] [eusipco.2019.8902695] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2019-09-01] A probabilistic method to find and visualize distinct regions in protein sequences
+[85078516231] [-1266494] [10.3390/e22010105   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2020-01-01] Statistical complexity analysis of turing machine tapes with fixed algorithmic complexity using the best-order markov model
+[85084965113] [-2116699] [/gigascience/giaa048] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2020-05-20] Smash++: An alignment-free and memory-efficient tool to find genomic rearrangements
+[85086630979] [-2116698] [/j.softx.2020.100535] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  2 Ab FT] [2020-07-01] GTO: A toolkit to unify pipelines in genomic and proteomic research
+[85087658242] [-2116696] [j.fsigen.2020.102353] [[91mSC[0m [92mCV[0m] [Article         ] [1 15  2 Ab FT] [2020-09-01] The landscape of persistent human DNA viruses in femoral bone
+[85089714610] [-2116700] [/gigascience/giaa086] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  2 Ab   ] [2020-08-01] A hybrid pipeline for reconstruction and analysis of viral genomes at multi-organ level
+[85096082682] [-2437027] [/gigascience/giaa119] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  2 Ab   ] [2020-11-01] Efficient DNA sequence compression with neural networks
+[85098456035] [-2437075] [mpbiomed.2020.104180] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  2 Ab FT] [2021-03-01] A semi-automatic methodology for analysing distributed and private biobanks
+[85098462040] [-2116697] [oinformatics/btaa686] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  6 Ab   ] [2020-11-01] Persistent minimal sequences of SARS-CoV-2
+[85100446723] [-2437074] [j.patcog.2021.107864] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab FT] [2021-06-01] Automatic analysis of artistic paintings using information-based measures
+[85105418944] [-3131592] [89/fcimb.2021.657245] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  4 Ab   ] [2021-04-22] The Human Bone Marrow Is Host to the DNAs of Several Viruses
+[85105434500] [-3131593] [10.3390/e23050530   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2021-01-01] Ac2: An efficient protein sequence compression tool using artificial neural networks and cache-hash models
+[85111609935] [-3131596] [10.1111/lam.13538   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  1 Ab   ] [2021-10-01] Revisiting the Neurospora crassa mitochondrial genome
+[85123024507] [-3131595] [10.3390/v14010133   ] [[91mSC[0m [92mCV[0m] [Article         ] [1 11  2 Ab   ] [2022-01-01] Detection of Low-Copy Human Virus DNA upon Prolonged Formalin Fixation
+[85128000485] [-3131594] [/gigascience/giac028] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2022-01-01] The haplotype-resolved chromosome pairs of a heterozygous diploid African cassava cultivar reveal novel pan-genome and allele-specific transcriptome features
+[85129799575] [-3136959] [978-3-031-04881-4_25] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 10  2 Ab   ] [2022-01-01] Feature-Based Classification of Archaeal Sequences Using Compression-Based Methods

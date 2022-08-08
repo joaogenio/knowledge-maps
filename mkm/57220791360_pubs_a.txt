@@ -1,88 +1,88 @@
-[None       ] [cv-prod-id-2580054  ] [None                          ] [   CV] [Thesis / Dissertation] [ 0  0      ] [1995-01-01] Compressão digital de sinais áudio aplicando critérios perceptuais e adaptação para trás
-[None       ] [cv-prod-id-2546006  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [1996-01-01] A backward-adaptive perceptual audio coder
-[None       ] [cv-prod-id-2477542  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [1996-01-01] High quality audio coding using backward estimation of perceptual phenomena
-[None       ] [cv-prod-id-2546337  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2001-01-01] Auditory models in audio coding
-[None       ] [cv-prod-id-2580050  ] [None                          ] [   CV] [Thesis / Dissertation] [ 3  0      ] [2004-01-01] Codificação digital de áudio baseada em retroadaptação perceptual
-[None       ] [cv-prod-id-1291681  ] [10.5772/7353                  ] [   CV] [Book Chapter         ] [ 0  0      ] [2010-01-01] Robot Soccer
-[None       ] [cv-prod-id-2580053  ] [10.1186/s12913-016-1423-5     ] [   CV] [Conference Paper     ] [ 0  0      ] [2014-01-01] Muscle co-contraction assessment during walking in clinical practice-a preliminary accuracy and reproducibility study
-[None       ] [cv-prod-id-2580052  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2014-01-01] Quantification of co-contraction index during walking using a low-tech ambulatory system - a preliminary reliability study
-[None       ] [cv-prod-id-2352243  ] [10.4018/ijrqeh.2016100103     ] [   CV] [Article              ] [ 0  0      ] [2016-10-01] Integrated Approach for Automatic Crackle Detection Based on Fractal Dimension and Box Filtering
-[None       ] [cv-prod-id-2580048  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [2017-01-01] Teaching and learning pulmonary auscultation: the Computerized Lung Auscultation–Sound Software (CLASS)
-[None       ] [cv-prod-id-566555   ] [10.1101/267179                ] [   CV] [Other Output         ] [ 0  0      ] [2018-02-18] FALCON-meta: a method to infer metagenomic composition of ancient DNA
-[None       ] [cv-prod-id-1291676  ] [10.4018/978-1-7998-1204-3.ch043] [   CV] [Book Chapter         ] [ 0  0      ] [2020-01-01] Data Analytics in Medicine
-[0034229796 ] [cv-prod-id-566590   ] [10.1109/89.848231             ] [SC CV] [Article              ] [ 2  4 Ab   ] [2000-07-01] On the use of backward adaptation in a perceptual audio coder
-[67650878985] [cv-prod-id-566586   ] [10.1186/1471-2105-10-137      ] [SC CV] [Article              ] [ 2  5 Ab   ] [2009-05-08] On finding minimal absent words
-[71049141838] [cv-prod-id-2352381  ] [10.1007/978-3-642-04686-5_29  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
-[71049141838] [None                ] [10.1007/978-3-642-04686-5_29  ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2009-11-16] Obstacle detection, identification and sharing on a robotic soccer team
-[71049152967] [cv-prod-id-2352380  ] [10.1007/978-3-642-04686-5_23  ] [   CV] [Book Chapter         ] [ 0  0      ] [2009-01-01] Progress in Artificial Intelligence
-[71049152967] [None                ] [10.1007/978-3-642-04686-5_23  ] [SC   ] [Conference Paper     ] [17  2 Ab   ] [2009-11-16] Predictive control for behavior generation of omni-directional robots
-[77950996272] [cv-prod-id-2352378  ] [10.1007/978-3-642-11876-0_32  ] [   CV] [Book Chapter         ] [ 0  0      ] [2010-01-01] RoboCup 2009: Robot Soccer World Cup XIII
-[77950996272] [None                ] [10.1007/978-3-642-11876-0_32  ] [SC   ] [Conference Paper     ] [15  2 Ab   ] [2010-04-22] Sensor and information fusion applied to a robotic soccer team
-[78049460831] [cv-prod-id-2352379  ] [10.1007/978-3-642-16001-1_14  ] [   CV] [Book Chapter         ] [ 0  0      ] [2010-01-01] Pattern Recognition in Bioinformatics
-[78049460831] [None                ] [10.1007/978-3-642-16001-1_14  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2010-11-10] Exploring homology using the concept of three-state entropy vector
-[79551646687] [cv-prod-id-566581   ] [10.1371/journal.pone.0016065  ] [SC CV] [Article              ] [ 0  3 Ab   ] [2011-02-09] Minimal absent words in prokaryotic and eukaryotic genomes
-[79952617090] [cv-prod-id-566580   ] [10.1016/j.mechatronics.2010.05.011] [SC CV] [Article              ] [ 8  3 Ab FT] [2011-01-01] World modeling on an MSL robotic soccer team
-[80052936474] [cv-prod-id-566583   ] [10.1007/978-3-642-19914-1_28  ] [   CV] [Book Chapter         ] [ 0  0      ] [2011-01-01] 5th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2011)
-[80052936474] [None                ] [10.1007/978-3-642-19914-1_28  ] [SC   ] [Conference Paper     ] [ 6  1 Ab   ] [2011-09-23] Distances between dinucleotides in the human genome
-[84855542023] [cv-prod-id-566582   ] [10.1515/jib-2011-172          ] [SC CV] [Article              ] [ 2  1 Ab   ] [2011-01-01] Inter-dinucleotide distances in the human genome: an analysis of the whole-genome and protein-coding distributions.
-[84861982798] [cv-prod-id-566578   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2012-06-13] Respiratory sound annotation software
-[84865707119] [None                ] [10.1007/978-3-642-32060-6_43  ] [SC   ] [Article              ] [ 8  2 Ab   ] [2012-09-10] Robot orientation with histograms on MSL
-[84865712605] [cv-prod-id-2352377  ] [10.1007/978-3-642-32060-6_10  ] [   CV] [Book Chapter         ] [ 0  0      ] [2012-01-01] RoboCup 2011: Robot Soccer World Cup XV
-[84865712605] [None                ] [10.1007/978-3-642-32060-6_10  ] [SC   ] [Article              ] [ 7  2 Ab   ] [2012-09-10] Ball interception behaviour in robotic soccer
-[84877967933] [cv-prod-id-566572   ] [None                          ] [SC CV] [Conference Paper     ] [ 8  2 Ab   ] [2013-05-27] Automatic wheeze and respiratory phase detectors to evaluate respiratory physiotherapy in LRTI: A preliminary study
-[84880358522] [cv-prod-id-2352376  ] [10.1007/978-3-319-00578-2_2   ] [   CV] [Book Chapter         ] [ 0  0      ] [2013-01-01] 7th International Conference on Practical Applications of Computational Biology & Bioinformatics
-[84880358522] [None                ] [10.1007/978-3-319-00578-2_2   ] [SC   ] [Article              ] [ 8  2 Ab   ] [2013-01-01] Analysis of Word Symmetries in Human Genomes Using Next-Generation Sequencing Data
-[84880640252] [cv-prod-id-566573   ] [10.1016/j.jtbi.2013.06.032    ] [SC CV] [Article              ] [ 4  6 Ab FT] [2013-10-21] The breakdown of the word symmetry in the human genome
-[84881055487] [cv-prod-id-566576   ] [10.11113/jt.v63.1946          ] [SC CV] [Article              ] [ 0  1 Ab   ] [2013-01-01] The breakdown of Symmetry in Word Pairs in 1,092 Human Genomes
-[84887940267] [cv-prod-id-566575   ] [10.1109/TCBB.2013.77          ] [SC CV] [Article              ] [13  3 Ab   ] [2013-11-25] A genomic distance for assembly comparison based on compressed maximal exact matches
-[84892407950] [cv-prod-id-566569   ] [10.1186/1756-0500-7-40        ] [SC CV] [Article              ] [ 0  1 Ab   ] [2014-01-01] XS: A FASTQ read simulator
-[84895180472] [None                ] [10.1016/j.jelekin.2013.11.003 ] [SC   ] [Review               ] [ 0  3 Ab FT] [2014-01-01] Methodologies to assess muscle co-contraction during gait in people with neurological impairment - A systematic literature review
-[84895180472] [cv-prod-id-2580051  ] [10.1016/j.jelekin.2013.11.003 ] [   CV] [Article              ] [ 5  0      ] [2014-01-01] Methodologies to assess muscle co-contraction during gait in people with neurological impairment: a systematic literature review
-[84908566178] [None                ] [10.1007/978-3-319-09761-9     ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2014-01-01] Rolling out text categorization for language learning assessment supported by language technology
-[84921763778] [cv-prod-id-2352375  ] [10.1007/978-3-319-07581-5_17  ] [   CV] [Book Chapter         ] [ 0  0      ] [2014-01-01] 8th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2014)
-[84921763778] [None                ] [10.1007/978-3-319-07581-5_17  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2014-01-01] Exceptional single strand DNA word symmetry: Universal law?
-[84923163054] [None                ] [10.1109/i-Society.2014.7009014] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2015-01-13] Assessing automatic text classification for interactive language learning
-[84926649522] [cv-prod-id-566566   ] [10.1093/biostatistics/kxu041  ] [SC CV] [Article              ] [ 5  2 Ab   ] [2015-07-29] Analysis of single-strand exceptional word symmetry in the human genome: New measures
-[84937510862] [cv-prod-id-566567   ] [10.1007/978-3-319-20352-2_11  ] [   CV] [Book Chapter         ] [ 0  0      ] [2015-01-01] Communications in Computer and Information Science
-[84937510862] [None                ] [10.1007/978-3-319-20352-2_11  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2015-01-01] Identification of DNA CpG islands using inter-dinucleotide distances
-[84937540124] [cv-prod-id-566568   ] [10.2390/biecoll-jib-2014-250  ] [SC CV] [Article              ] [10  1 Ab   ] [2014-01-01] Exceptional single strand DNA word symmetry: analysis of evolutionary potentialities
-[84938822285] [cv-prod-id-566565   ] [10.5220/0005223102560263      ] [SC CV] [Conference Paper     ] [ 5  1 Ab   ] [2015-01-01] The symmetry of oligonucleotide distance distributions in the Human Genome
-[84954213980] [cv-prod-id-566589   ] [10.1109/DSPWS.2002.1231120    ] [SC CV] [Conference Paper     ] [ 7  1 Ab   ] [2002-01-01] Providing an environment to teach DSP algorithms
-[84957009081] [cv-prod-id-566561   ] [10.1186/s12859-016-0905-0     ] [SC CV] [Article              ] [16  5 Ab   ] [2016-02-03] The exceptional genomic word symmetry along DNA sequences
-[84962826267] [cv-prod-id-566564   ] [10.1016/j.procs.2015.08.592   ] [SC CV] [Conference Paper     ] [ 8  1 Ab FT] [2015-01-01] Automatic Crackle Detection Algorithm Based on Fractal Dimension and Box Filtering
-[84962832750] [cv-prod-id-566563   ] [10.1016/j.procs.2015.08.589   ] [SC CV] [Conference Paper     ] [ 8  1 Ab FT] [2015-01-01] Computerised Lung Auscultation - Sound Software (CLASS)
-[84976408144] [cv-prod-id-2352374  ] [10.1007/978-3-319-40126-3_16  ] [   CV] [Book Chapter         ] [ 0  0      ] [2016-01-01] 10th International Conference on Practical Applications of Computational Biology & Bioinformatics
-[84976408144] [None                ] [10.1007/978-3-319-40126-3_16  ] [SC   ] [Conference Paper     ] [ 4  2 Ab   ] [2016-01-01] Exceptional symmetry profile: A genomic word analysis
-[84977478034] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 3  2 Ab   ] [2015-01-01] Bootstrapping a hybrid deep MT system
-[84977482112] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2016-01-01] Bootstrapping a hybrid MT system to a new language pair
-[84977537408] [None                ] [10.1007/978-3-319-41552-9_5   ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2016-01-01] Domain-specific hybrid machine translation from English to Portuguese
-[84977539108] [None                ] [10.1007/978-3-319-41552-9_27  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2016-01-01] LX-DSemvectors: Distributional semantics models for Portuguese
-[85016097960] [cv-prod-id-566557   ] [10.1007/s12539-016-0200-9     ] [SC CV] [Article              ] [ 4  3 Ab   ] [2017-03-01] Exceptional Symmetry by Genomic Word: A Statistical Analysis
-[85018995715] [cv-prod-id-566559   ] [10.1038/s41598-017-00646-2    ] [SC CV] [Article              ] [12  1 Ab   ] [2017-12-01] DNA word analysis based on the distribution of the distances between symmetric words
-[85028348100] [cv-prod-id-566556   ] [10.1007/s11517-017-1697-8     ] [SC CV] [Article              ] [ 9  2 Ab   ] [2018-04-01] Usability of Computerized Lung Auscultation–Sound Software (CLASS) for learning pulmonary auscultation
-[85036661449] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 4  3 Ab   ] [2017-01-01] Ways of asking and replying in duplicate question detection
-[85037126089] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2016-01-01] Use of domain-specific language resources in Machine Translation
-[85037523960] [None                ] [10.1007/978-3-319-71746-3_3   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-01-01] Boosting a Rule-Based Chatbot Using Statistics and User Satisfaction Ratings
-[85037526960] [None                ] [10.1007/978-3-319-71746-3_23  ] [SC   ] [Conference Paper     ] [ 7  2 Ab   ] [2018-01-01] Character-level convolutional neural network for paraphrase detection and other experiments
-[85037546714] [None                ] [10.1109/IRI.2017.39           ] [SC   ] [Conference Paper     ] [ 4  5 Ab   ] [2017-11-08] Learning profiles in duplicate question detection
-[85038114165] [cv-prod-id-566558   ] [10.1111/crj.12745             ] [SC CV] [Article              ] [17  3 Ab   ] [2018-05-01] Reliability, validity and minimal detectable change of computerized respiratory sounds in patients with chronic obstructive pulmonary disease
-[85044592532] [cv-prod-id-566554   ] [10.1016/j.rmed.2018.03.023    ] [SC CV] [Article              ] [13  1 Ab FT] [2018-05-01] Enhancing our understanding of computerised adventitious respiratory sounds in different COPD phases and healthy people
-[85052960907] [cv-prod-id-2352373  ] [10.1007/978-3-319-98702-6_10  ] [   CV] [Book Chapter         ] [ 0  0      ] [2018-01-01] Practical Applications of Computational Biology and Bioinformatics, 12th International Conference
-[85052960907] [None                ] [10.1007/978-3-319-98702-6_10  ] [SC   ] [Conference Paper     ] [ 5  2 Ab   ] [2019-01-01] An Analysis of Symmetric Words in Human DNA: Adjacent vs Non-adjacent Word Distances
-[85059882898] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 6  4 Ab   ] [2019-01-01] Finely tuned, 2 billion token based word embeddings for Portuguese
-[85059898161] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 5  4 Ab   ] [2019-01-01] Semantic equivalence detection: Are interrogatives harder than declaratives?
-[85064198973] [cv-prod-id-1291678  ] [10.23736/S0022-4707.18.08532-8] [SC CV] [Article              ] [13  2 Ab   ] [2019-05-01] The FIFA 11+ does not alter physical performance of amateur futsal players
-[85065972091] [cv-prod-id-623186   ] [10.1080/17461391.2019.1609588 ] [SC CV] [Article              ] [10  2 Ab   ] [2020-01-02] Effects of the FIFA 11+ on ankle evertors latency time and knee muscle strength in amateur futsal players
-[85068597987] [cv-prod-id-1291680  ] [10.1007/s12539-019-00326-x    ] [SC CV] [Article              ] [11  3 Ab   ] [2019-09-01] Distribution of Distances Between Symmetric Words in the Human Genome: Analysis of Regular Peaks
-[85068623167] [cv-prod-id-1291677  ] [10.1007/978-3-030-23873-5_14  ] [   CV] [Book Chapter         ] [ 0  0      ] [2019-01-01] Practical Applications of Computational Biology and Bioinformatics, 13th International Conference
-[85068623167] [None                ] [10.1007/978-3-030-23873-5_14  ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] Detection and Characterization of Local Inverted Repeats Regularities
-[85076458916] [None                ] [10.26615/978-954-452-056-4_120] [SC   ] [Conference Paper     ] [ 7  4 Ab   ] [2019-01-01] Whom to learn from? Graph- vs. Text-based Word Embeddings
-[85081604782] [None                ] [10.1007/978-3-030-41505-1_32  ] [SC   ] [Conference Paper     ] [ 6  2 Ab   ] [2020-01-01] Argument identification in a language without labeled data
-[85082461594] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  1 Ab   ] [2020-01-01] Assessing wordnets with wordnet embeddings
-[85088538331] [cv-prod-id-2354719  ] [10.1007/978-3-030-52249-0_4   ] [   CV] [Book Chapter         ] [ 0  0      ] [2020-01-01] Advances in Intelligent Systems and Computing
-[85088538331] [None                ] [10.1007/978-3-030-52249-0_4   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2020-01-01] Comparison of Embedded Linux Development Tools for the WiiPiiDo Distribution Development
-[85096604187] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  4 Ab   ] [2020-01-01] Reproduction and revival of the argument reasoning comprehension task
-[85113855627] [None                ] [None                          ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2015-01-01] A backward-adaptive perceptual audio coder
-[85115443825] [None                ] [10.1007/978-3-030-86230-5_56  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2021-01-01] Neural Text Categorization with Transformers for Learning Portuguese as a Second Language
-[85122867521] [None                ] [None                          ] [SC   ] [Conference Paper     ] [10  1 Ab   ] [2021-01-01] Commonsense Reasoning: How do Neuro-Symbolic and Neuro-only approaches compare?
-[85122883243] [None                ] [None                          ] [SC   ] [Conference Paper     ] [10  3 Ab   ] [2021-01-01] Shortcutted Commonsense: Data Spuriousness in Deep Learning of Commonsense Reasoning
+[None       ] [-2580054] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [1995-01-01] Compressão digital de sinais áudio aplicando critérios perceptuais e adaptação para trás
+[None       ] [-2546006] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [1996-01-01] A backward-adaptive perceptual audio coder
+[None       ] [-2477542] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [1996-01-01] High quality audio coding using backward estimation of perceptual phenomena
+[None       ] [-2546337] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2001-01-01] Auditory models in audio coding
+[None       ] [-2580050] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2004-01-01] Codificação digital de áudio baseada em retroadaptação perceptual
+[None       ] [-1291681] [10.5772/7353        ] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2010-01-01] Robot Soccer
+[None       ] [-2580053] [86/s12913-016-1423-5] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] Muscle co-contraction assessment during walking in clinical practice-a preliminary accuracy and reproducibility study
+[None       ] [-2580052] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] Quantification of co-contraction index during walking using a low-tech ambulatory system - a preliminary reliability study
+[None       ] [-2352243] [18/ijrqeh.2016100103] [   [92mCV[0m] [Article         ] [1  0  0      ] [2016-10-01] Integrated Approach for Automatic Crackle Detection Based on Fractal Dimension and Box Filtering
+[None       ] [-2580048] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2017-01-01] Teaching and learning pulmonary auscultation: the Computerized Lung Auscultation–Sound Software (CLASS)
+[None       ] [d-566555] [10.1101/267179      ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2018-02-18] FALCON-meta: a method to infer metagenomic composition of ancient DNA
+[None       ] [-1291676] [-1-7998-1204-3.ch043] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2020-01-01] Data Analytics in Medicine
+[0034229796 ] [d-566590] [10.1109/89.848231   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  4 Ab   ] [2000-07-01] On the use of backward adaptation in a perceptual audio coder
+[67650878985] [d-566586] [186/1471-2105-10-137] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  5 Ab   ] [2009-05-08] On finding minimal absent words
+[71049141838] [-2352381] [978-3-642-04686-5_29] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049141838] [None    ] [978-3-642-04686-5_29] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2009-11-16] Obstacle detection, identification and sharing on a robotic soccer team
+[71049152967] [-2352380] [978-3-642-04686-5_23] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2009-01-01] Progress in Artificial Intelligence
+[71049152967] [None    ] [978-3-642-04686-5_23] [[91mSC[0m   ] [Conference Paper] [1 17  2 Ab   ] [2009-11-16] Predictive control for behavior generation of omni-directional robots
+[77950996272] [-2352378] [978-3-642-11876-0_32] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2010-01-01] RoboCup 2009: Robot Soccer World Cup XIII
+[77950996272] [None    ] [978-3-642-11876-0_32] [[91mSC[0m   ] [Conference Paper] [1 15  2 Ab   ] [2010-04-22] Sensor and information fusion applied to a robotic soccer team
+[78049460831] [-2352379] [978-3-642-16001-1_14] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2010-01-01] Pattern Recognition in Bioinformatics
+[78049460831] [None    ] [978-3-642-16001-1_14] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2010-11-10] Exploring homology using the concept of three-state entropy vector
+[79551646687] [d-566581] [journal.pone.0016065] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2011-02-09] Minimal absent words in prokaryotic and eukaryotic genomes
+[79952617090] [d-566580] [atronics.2010.05.011] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab FT] [2011-01-01] World modeling on an MSL robotic soccer team
+[80052936474] [d-566583] [978-3-642-19914-1_28] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2011-01-01] 5th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2011)
+[80052936474] [None    ] [978-3-642-19914-1_28] [[91mSC[0m   ] [Conference Paper] [1  6  1 Ab   ] [2011-09-23] Distances between dinucleotides in the human genome
+[84855542023] [d-566582] [10.1515/jib-2011-172] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  1 Ab   ] [2011-01-01] Inter-dinucleotide distances in the human genome: an analysis of the whole-genome and protein-coding distributions.
+[84861982798] [d-566578] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2012-06-13] Respiratory sound annotation software
+[84865707119] [None    ] [978-3-642-32060-6_43] [[91mSC[0m   ] [Article         ] [1  8  2 Ab   ] [2012-09-10] Robot orientation with histograms on MSL
+[84865712605] [-2352377] [978-3-642-32060-6_10] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2012-01-01] RoboCup 2011: Robot Soccer World Cup XV
+[84865712605] [None    ] [978-3-642-32060-6_10] [[91mSC[0m   ] [Article         ] [1  7  2 Ab   ] [2012-09-10] Ball interception behaviour in robotic soccer
+[84877967933] [d-566572] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2013-05-27] Automatic wheeze and respiratory phase detectors to evaluate respiratory physiotherapy in LRTI: A preliminary study
+[84880358522] [-2352376] [/978-3-319-00578-2_2] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2013-01-01] 7th International Conference on Practical Applications of Computational Biology & Bioinformatics
+[84880358522] [None    ] [/978-3-319-00578-2_2] [[91mSC[0m   ] [Article         ] [1  8  2 Ab   ] [2013-01-01] Analysis of Word Symmetries in Human Genomes Using Next-Generation Sequencing Data
+[84880640252] [d-566573] [6/j.jtbi.2013.06.032] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  6 Ab FT] [2013-10-21] The breakdown of the word symmetry in the human genome
+[84881055487] [d-566576] [10.11113/jt.v63.1946] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2013-01-01] The breakdown of Symmetry in Word Pairs in 1,092 Human Genomes
+[84887940267] [d-566575] [10.1109/tcbb.2013.77] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  3 Ab   ] [2013-11-25] A genomic distance for assembly comparison based on compressed maximal exact matches
+[84892407950] [d-566569] [.1186/1756-0500-7-40] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2014-01-01] XS: A FASTQ read simulator
+[84895180472] [None    ] [.jelekin.2013.11.003] [[91mSC[0m   ] [Review          ] [1  0  3 Ab FT] [2014-01-01] Methodologies to assess muscle co-contraction during gait in people with neurological impairment - A systematic literature review
+[84895180472] [-2580051] [.jelekin.2013.11.003] [   [92mCV[0m] [Article         ] [1  5  0      ] [2014-01-01] Methodologies to assess muscle co-contraction during gait in people with neurological impairment: a systematic literature review
+[84908566178] [None    ] [07/978-3-319-09761-9] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2014-01-01] Rolling out text categorization for language learning assessment supported by language technology
+[84921763778] [-2352375] [978-3-319-07581-5_17] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2014-01-01] 8th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2014)
+[84921763778] [None    ] [978-3-319-07581-5_17] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Exceptional single strand DNA word symmetry: Universal law?
+[84923163054] [None    ] [society.2014.7009014] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2015-01-13] Assessing automatic text classification for interactive language learning
+[84926649522] [d-566566] [biostatistics/kxu041] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  2 Ab   ] [2015-07-29] Analysis of single-strand exceptional word symmetry in the human genome: New measures
+[84937510862] [d-566567] [978-3-319-20352-2_11] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2015-01-01] Communications in Computer and Information Science
+[84937510862] [None    ] [978-3-319-20352-2_11] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2015-01-01] Identification of DNA CpG islands using inter-dinucleotide distances
+[84937540124] [d-566568] [biecoll-jib-2014-250] [[91mSC[0m [92mCV[0m] [Article         ] [1 10  1 Ab   ] [2014-01-01] Exceptional single strand DNA word symmetry: analysis of evolutionary potentialities
+[84938822285] [d-566565] [220/0005223102560263] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  1 Ab   ] [2015-01-01] The symmetry of oligonucleotide distance distributions in the Human Genome
+[84954213980] [d-566589] [9/dspws.2002.1231120] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  1 Ab   ] [2002-01-01] Providing an environment to teach DSP algorithms
+[84957009081] [d-566561] [86/s12859-016-0905-0] [[91mSC[0m [92mCV[0m] [Article         ] [1 16  5 Ab   ] [2016-02-03] The exceptional genomic word symmetry along DNA sequences
+[84962826267] [d-566564] [/j.procs.2015.08.592] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab FT] [2015-01-01] Automatic Crackle Detection Algorithm Based on Fractal Dimension and Box Filtering
+[84962832750] [d-566563] [/j.procs.2015.08.589] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab FT] [2015-01-01] Computerised Lung Auscultation - Sound Software (CLASS)
+[84976408144] [-2352374] [978-3-319-40126-3_16] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2016-01-01] 10th International Conference on Practical Applications of Computational Biology & Bioinformatics
+[84976408144] [None    ] [978-3-319-40126-3_16] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2016-01-01] Exceptional symmetry profile: A genomic word analysis
+[84977478034] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [2015-01-01] Bootstrapping a hybrid deep MT system
+[84977482112] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2016-01-01] Bootstrapping a hybrid MT system to a new language pair
+[84977537408] [None    ] [/978-3-319-41552-9_5] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2016-01-01] Domain-specific hybrid machine translation from English to Portuguese
+[84977539108] [None    ] [978-3-319-41552-9_27] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2016-01-01] LX-DSemvectors: Distributional semantics models for Portuguese
+[85016097960] [d-566557] [07/s12539-016-0200-9] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  3 Ab   ] [2017-03-01] Exceptional Symmetry by Genomic Word: A Statistical Analysis
+[85018995715] [d-566559] [8/s41598-017-00646-2] [[91mSC[0m [92mCV[0m] [Article         ] [1 12  1 Ab   ] [2017-12-01] DNA word analysis based on the distribution of the distances between symmetric words
+[85028348100] [d-566556] [07/s11517-017-1697-8] [[91mSC[0m [92mCV[0m] [Article         ] [1  9  2 Ab   ] [2018-04-01] Usability of Computerized Lung Auscultation–Sound Software (CLASS) for learning pulmonary auscultation
+[85036661449] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  4  3 Ab   ] [2017-01-01] Ways of asking and replying in duplicate question detection
+[85037126089] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2016-01-01] Use of domain-specific language resources in Machine Translation
+[85037523960] [None    ] [/978-3-319-71746-3_3] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2018-01-01] Boosting a Rule-Based Chatbot Using Statistics and User Satisfaction Ratings
+[85037526960] [None    ] [978-3-319-71746-3_23] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2018-01-01] Character-level convolutional neural network for paraphrase detection and other experiments
+[85037546714] [None    ] [10.1109/iri.2017.39 ] [[91mSC[0m   ] [Conference Paper] [1  4  5 Ab   ] [2017-11-08] Learning profiles in duplicate question detection
+[85038114165] [d-566558] [10.1111/crj.12745   ] [[91mSC[0m [92mCV[0m] [Article         ] [1 17  3 Ab   ] [2018-05-01] Reliability, validity and minimal detectable change of computerized respiratory sounds in patients with chronic obstructive pulmonary disease
+[85044592532] [d-566554] [6/j.rmed.2018.03.023] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  1 Ab FT] [2018-05-01] Enhancing our understanding of computerised adventitious respiratory sounds in different COPD phases and healthy people
+[85052960907] [-2352373] [978-3-319-98702-6_10] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2018-01-01] Practical Applications of Computational Biology and Bioinformatics, 12th International Conference
+[85052960907] [None    ] [978-3-319-98702-6_10] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2019-01-01] An Analysis of Symmetric Words in Human DNA: Adjacent vs Non-adjacent Word Distances
+[85059882898] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  6  4 Ab   ] [2019-01-01] Finely tuned, 2 billion token based word embeddings for Portuguese
+[85059898161] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  5  4 Ab   ] [2019-01-01] Semantic equivalence detection: Are interrogatives harder than declaratives?
+[85064198973] [-1291678] [0022-4707.18.08532-8] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  2 Ab   ] [2019-05-01] The FIFA 11+ does not alter physical performance of amateur futsal players
+[85065972091] [d-623186] [7461391.2019.1609588] [[91mSC[0m [92mCV[0m] [Article         ] [1 10  2 Ab   ] [2020-01-02] Effects of the FIFA 11+ on ankle evertors latency time and knee muscle strength in amateur futsal players
+[85068597987] [-1291680] [7/s12539-019-00326-x] [[91mSC[0m [92mCV[0m] [Article         ] [1 11  3 Ab   ] [2019-09-01] Distribution of Distances Between Symmetric Words in the Human Genome: Analysis of Regular Peaks
+[85068623167] [-1291677] [978-3-030-23873-5_14] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2019-01-01] Practical Applications of Computational Biology and Bioinformatics, 13th International Conference
+[85068623167] [None    ] [978-3-030-23873-5_14] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Detection and Characterization of Local Inverted Repeats Regularities
+[85076458916] [None    ] [78-954-452-056-4_120] [[91mSC[0m   ] [Conference Paper] [1  7  4 Ab   ] [2019-01-01] Whom to learn from? Graph- vs. Text-based Word Embeddings
+[85081604782] [None    ] [978-3-030-41505-1_32] [[91mSC[0m   ] [Conference Paper] [1  6  2 Ab   ] [2020-01-01] Argument identification in a language without labeled data
+[85082461594] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2020-01-01] Assessing wordnets with wordnet embeddings
+[85088538331] [-2354719] [/978-3-030-52249-0_4] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2020-01-01] Advances in Intelligent Systems and Computing
+[85088538331] [None    ] [/978-3-030-52249-0_4] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Comparison of Embedded Linux Development Tools for the WiiPiiDo Distribution Development
+[85096604187] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  4 Ab   ] [2020-01-01] Reproduction and revival of the argument reasoning comprehension task
+[85113855627] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] A backward-adaptive perceptual audio coder
+[85115443825] [None    ] [978-3-030-86230-5_56] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2021-01-01] Neural Text Categorization with Transformers for Learning Portuguese as a Second Language
+[85122867521] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 10  1 Ab   ] [2021-01-01] Commonsense Reasoning: How do Neuro-Symbolic and Neuro-only approaches compare?
+[85122883243] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 10  3 Ab   ] [2021-01-01] Shortcutted Commonsense: Data Spuriousness in Deep Learning of Commonsense Reasoning

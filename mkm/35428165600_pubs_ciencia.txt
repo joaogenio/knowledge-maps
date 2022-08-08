@@ -1,0 +1,495 @@
+{
+    "ciencia_id": "9C1E-EF56-BC18",
+    "name": "CATARINA ALEXANDRA MONTEIRO DE OLIVEIRA",
+    "bio": "",
+    "domains": [],
+    "degrees": [
+        "Linguística",
+        "BA degree in Classical and Portuguese Languages and Literatures"
+    ],
+    "distinctions": [],
+    "projects": [
+        {
+            "name": "Envelhecimento vocal: estudo das alterações segmentais e variações de ritmo em Português Europeu",
+            "desc": "De acordo com a OMS, o número de pessoas com mais de 60 anos está a crescer. A par de várias outras alterações e.g. fisiológicas, cognitivas, também a voz vai sofrendo modificações com a idade. As alterações anatomofisiológicas do aparelho fonador e.g. diminuição da capacidade pulmonar; atrofia das pregas vocais reflectem-se na variação de vários parâmetros acústicos como diminuição da taxa de elocução, variação da frequência fundamental, alterações no padrão das formantes, aumento do jitter e do shimmer. Já as variações no ritmo de fala têm sido pouco exploradas, tendo sido referenciados aumentos nas percentagens vocálicas. Para o Português Europeu PE são escassos os estudos sobre as alterações segmentais e supra-segmentais motivadas pelo avanço da idade. Este projeto tem como principal objectivo estudar as alterações da fala decorrentes do envelhecimento, quer a nível segmental, quer a nível supra-segmental, através da análise da variação de parâmetros acústicos e articulatórios. Um conhecimento mais aprofundado da forma como a fala varia com a idade é essencial ao desenvolvimento de tecnologias de fala mais adaptadas ao utilizador final e poderá contribuir para adequar a avaliação e a intervenção terapêutica dos profissionais que lidam com as modificações naturais do envelhecimento humano e  com as perturbações vocais de causa patológica. Numa primeira fase da investigação, propomo-nos analisar acusticamente as vogais do PE produzidas por um número alargado de indivíduos, divididos em diferentes faixas etárias, dando continuidade a dois estudos-piloto já realizados. Os corpora de fala recolhidos pelo Microsoft Language Development Center, no âmbito de projetos anteriores, servirão de base ao estudo. O problema das alterações de ritmo associadas ao envelhecimento será abordado num estudo longitudinal que visará determinar os parâmetros prosódico-acústicos relacionados com o aumento da idade, e contará com o apoio do Grupo de Estudos de Prosódia da Fala, da Unicamp parceiro noutros projectos em curso.\nA relação entre a produção das vogais posicionamento da língua, a variação das frequências das formantes e a idade será equacionada num estudo de ultrassonografia terceira fase do projeto. O equipamento adquirido no âmbito de um projeto anterior HERON II viabilizará a implementação da presente proposta, que beneficiará ainda da experiência anteriormente adquirida pelos membros da equipa na aquisição de dados de ultrassons e no desenvolvimento de ferramentas para o processamento automatizado de dados articulatórios.\nA experiência da equipa, já evidenciada anteriormente no contexto de projectos financiados e.g. HERON II; LUL, em conjunto com as condições logísticas já criadas, permitirá implementar com sucesso a presente proposta que permitirá alargar os conhecimentos na área do envelhecimento vocal.",
+            "year": "2018",
+            "areas": []
+        },
+        {
+            "name": "Extensão de Estudos de Produção de Fala a Fala Silenciosa, Sons Dinâmicos e Síntese Audiovisual de Fala",
+            "desc": "O uso da fala, a nossa forma natural de comunicação, tem o potencial expectável de melhorar a nossa interacção com as máquinas, mas o seu uso eficiente para interacção desafia o estado da arte das tecnologias da fala e o conhecimento nas áreas de comunicação Humano-Humano e Humano-Máquina.\nHá vários anos que investigamos a produção de fala PF. Como von Kempelen, em 1791, tentamos \"ter um perfeito conhecimento do que queremos imitar\", fazendo um \"estudo formal da fala\". Desta forma, as nossas máquinas falantes e as teorias evoluem, \"uma servindo como guia para a outra\". No entanto, não propomos que as máquinas sejam exactamente como os humanos. Afinal, os aviões não batem as asas para voar. O que procuramos são os princípios fundamentais. Esta é uma imagem de marca da nossa abordagem aos estudos de fala e esta proposta visa avançar o conhecimento em produção de fala e as tecnologias da fala para Português Europeu PE.\nHoje em dia, a informação sobre a PF pode ser obtida usando diversas tecnologias, e.g., ressonância magnética de tempo-real rtMRI e ultrassons US. Estas, se acompanhadas de métodos adequados de processamento e análise, podem proporcionar o conteúdo e quantidade de dados que permitam avançar o nosso conhecimento em PF e a sua subsequente materialização em tecnologias como síntese articulatória ou reconhecimento de voz. A evolução sinergética do conhecimento em produção de voz e tecnologias associadas tem sido o foco principal desta equipa de investigação, por mais de 20 anos, cobrindo várias áreas de investigação, tecnologias, e aplicações, previlegiando a interacção por voz. A relevância e qualidade do trabalho realizado são comprovadas pelos anteriores projectos financiados, HERON e HERON II, tendo, para este último, o painel de avaliação concluído que \"a actividade científica do projecto foi relevante e o relatório final mostra uma notável capacidade de desenvolvimento.\"\nNo projecto HERON II contribuiu-se para melhorar o conhecimento de PF para PE e para primeiros avanços no objectivo mais amplo de uma aproximação sistemática e quantitativa aos estudos de fala, incluindo um método automático de segmentação do tracto vocal, em rtMRI, e uma abordagem quantitativa para as comparações intra- e inter-falante de aspectos estáticos  e dinâmicos das vogais nasais e laterais. Os dados recolhidos foram ainda usados em estudos exploratórios para investigação em SSI.\nPara suplantar o estado-da-arte, e beneficiando da experiência da equipa, este projecto avança o estado do conhecimento sobre PF em PE baseado em inovações na aquisição, processamento e análise de dados multimodais rtMRI, US, 3D video, etc. de PF, e aplica esse conhecimento para contribuir para o avanço de síntese audiovisual de fala de base articulatória, e interfaces de voz silenciosa, servindo cenários de investigação e interacção.\nMEMON significa 'Senhor da Aurora', uma nova aurora para os estudos de produção de fala em PE.",
+            "year": "2018",
+            "areas": []
+        },
+        {
+            "name": "Assistente Pessoal para Melhoria da Vida Social de Idosos",
+            "desc": null,
+            "year": "2012",
+            "areas": []
+        },
+        {
+            "name": "Heron II - Evolução do Sistema de Síntese de Voz de Base Articulatória para o Português Europeu",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "HERON - Um Ambiente Computacional para Investigação em Síntese Articulatória do Português",
+            "desc": null,
+            "year": "2005",
+            "areas": []
+        },
+        {
+            "name": "PROCESSAMENTO LINGUÍSTICO PARA SISTEMAS AUTOMÁTICOS DE SÍNTESE DE VOZ",
+            "desc": null,
+            "year": "2005",
+            "areas": []
+        }
+    ],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "A comprehensive analysis of age and gender effects in European Portuguese oral vowels",
+            "date": "2020-01-01",
+            "keywords": [
+                "Aging voice",
+                "Acoustic",
+                "Oral vowel",
+                "European Portuguese"
+            ],
+            "ciencia_id": "cv-prod-id-2532530",
+            "doi": "10.1016/j.jvoice.2020.10.021",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Detecting nasal vowels in speech interfaces based on surface electromyography",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560510",
+            "doi": "10.1371/journal.pone.0127040",
+            "scopus_id": "2-s2.0-84936817954",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Velum movement detection based on surface electromyography for speech interface",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560511",
+            "doi": null,
+            "scopus_id": "2-s2.0-84902334838",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Impact of age in the production of European Portuguese vowels",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560512",
+            "doi": null,
+            "scopus_id": "2-s2.0-84910031154",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Quantitative analysis of /l/ production from RT-MRI: First results",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560513",
+            "doi": null,
+            "scopus_id": "2-s2.0-84921383919",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Integrated development and evaluation of innovative AAL services - A Living Lab approach | Desenvolvimento e avaliação integrada de serviços aal inovadores - uma abordagem living lab",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560514",
+            "doi": null,
+            "scopus_id": "2-s2.0-84887956835",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Towards a systematic and quantitative analysis of vocal tract data",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560515",
+            "doi": null,
+            "scopus_id": "2-s2.0-84906221888",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Segmentation and analysis of vocal tract from midsagittal real-time MRI",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560516",
+            "doi": "10.1007/978-3-642-39094-4_52",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "New telerehabilitation services for the elderly",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560517",
+            "doi": "10.4018/978-1-4666-3990-4.ch006",
+            "scopus_id": "2-s2.0-84887892291",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Acoustic analysis of European Portuguese oral vowels produced by children",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560518",
+            "doi": "10.1007/978-3-642-35292-8_14",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An MRI study of the oral articulation of European Portuguese nasal vowels",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560519",
+            "doi": null,
+            "scopus_id": "2-s2.0-84878599176",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Segmentation and analysis of the oral and nasal cavities from MR time sequences",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560520",
+            "doi": "10.1007/978-3-642-31298-4_26",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Real-time MRI for Portuguese: Database, methods and applications",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560521",
+            "doi": "10.1007/978-3-642-28885-2_35",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Production and modeling of the European Portuguese palatal lateral",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560522",
+            "doi": "10.1007/978-3-642-28885-2_36",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An MRI study of consonantal coarticulation resistance in Portuguese",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560523",
+            "doi": null,
+            "scopus_id": "2-s2.0-84926296637",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "3D MRI and semi-automatic segmentation techniques applied to the study of European Portuguese lateral sounds",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560524",
+            "doi": null,
+            "scopus_id": "2-s2.0-84910077128",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Tongue segmentation from MRI images using ITK-SNAP: Preliminary evaluation",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560525",
+            "doi": null,
+            "scopus_id": "2-s2.0-84864986322",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A new living lab for usability evaluation of ICT and next generation networks for elderly@home",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560526",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960543375",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Speech rate effects on European Portuguese nasal vowels",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560527",
+            "doi": null,
+            "scopus_id": "2-s2.0-70450179792",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "European Portuguese articulatory based text-to-speech: First results",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560533",
+            "doi": "10.1007/978-3-540-85980-2_11",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of machine learning and syllable information in European Portuguese grapheme-phone conversion",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560534",
+            "doi": "10.1007/11751984_24",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On European Portuguese automatic syllabification",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560535",
+            "doi": null,
+            "scopus_id": "2-s2.0-33745210111",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Lecture Notes in Computer Science",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2560967",
+            "doi": "10.1007/978-3-030-50516-5_15",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Age-Related Changes in European Portuguese Vowel Acoustics",
+            "date": "2019-01-01",
+            "keywords": [
+                "Ageing",
+                "Acoustics",
+                "Vowels",
+                "European Portuguese"
+            ],
+            "ciencia_id": "cv-prod-id-2561098",
+            "doi": "10.21437/Interspeech.2019-1818",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability and acceptability of an online tool to promote health of the teacher's voice: pilot study",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2561158",
+            "doi": "10.23919/cisti.2019.8760678",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "JavaScript Multimedia Game Space Letters - A Journey Through the Voice",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2561185",
+            "doi": "10.23919/cisti.2019.8760983",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the Role of Oral Configurations in European Portuguese Nasal Vowels",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2561305",
+            "doi": "10.21437/interspeech.2019-2232",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Computational Processing of the Portuguese Language",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2561346",
+            "doi": "10.1007/978-3-319-99722-3_44",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Exploring Advances in Real-time MRI for Speech Production Studies of European Portuguese",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2561400",
+            "doi": "10.21437/iberspeech.2018-29",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exploring the Age Effects on European Portuguese Vowel Production: An Ultrasound Study",
+            "date": "2022-01-28",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3072233",
+            "doi": "10.3390/app12031396",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Association between acoustic speech features and non-severe levels of anxiety and depression symptoms across lifespan",
+            "date": "2021-01-01",
+            "keywords": [
+                "Adult",
+                "Aged",
+                "Aged, 80 and over",
+                "Anxiety",
+                "Cross-sectional studies",
+                "Depression",
+                "Female",
+                "Humans",
+                "Male",
+                "Middle aged",
+                "Portugal",
+                "Aging",
+                "Speech acoustics"
+            ],
+            "ciencia_id": "cv-prod-id-3072272",
+            "doi": "10.1371/journal.pone.0248842",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Association between acoustic speech features and non-severe levels of anxiety and depression symptoms across lifespan",
+            "date": "2021-01-01",
+            "keywords": [
+                "Adult",
+                "Aged",
+                "Aged, 80 and over",
+                "Anxiety",
+                "Cross-sectional studies",
+                "Depression",
+                "Female",
+                "Humans",
+                "Male",
+                "Middle aged",
+                "Portugal",
+                "Aging",
+                "Speech acoustics"
+            ],
+            "ciencia_id": "cv-prod-id-3072383",
+            "doi": "10.1371/journal.pone.0248842",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Machine Learning of European Portuguese Grapheme-To-Phone Conversion using a Richer Feature Set",
+            "date": "2013-01-01",
+            "keywords": [
+                "Grapheme-to-Phone; Portuguese; Machine Learning; MBL; TBL; Syllable"
+            ],
+            "ciencia_id": "cv-prod-id-3072429",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Do grafema ao gesto : contributos linguísticos para um sistema de síntese de base articulatória",
+            "date": "2009-01-01",
+            "keywords": [
+                "Linguística",
+                "Língua portuguesa",
+                "Síntese da fala",
+                "Vogais",
+                "Fonologia"
+            ],
+            "ciencia_id": "cv-prod-id-3072428",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Fadiga vocal nos professores do primeiro ciclo do ensino básico",
+            "date": "2010-01-01",
+            "keywords": [
+                "Voz",
+                "Perturbações da voz",
+                "Fadiga (Fisiologia)",
+                "Audição"
+            ],
+            "ciencia_id": "cv-prod-id-3072431",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Association between acoustic speech features and non-severe levels of anxiety and depression symptoms across lifespan",
+            "date": "2021-01-01",
+            "keywords": [
+                "Adult",
+                "Aged",
+                "Aged, 80 and over",
+                "Anxiety",
+                "Cross-sectional studies",
+                "Depression",
+                "Female",
+                "Humans",
+                "Male",
+                "Middle aged",
+                "Portugal",
+                "Aging",
+                "Speech acoustics"
+            ],
+            "ciencia_id": "cv-prod-id-3072433",
+            "doi": "10.1371/journal.pone.0248842",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento das competências auditivas de crianças com implante coclear",
+            "date": "2014-01-01",
+            "keywords": [
+                "Ciências da fala e da audição",
+                "Implantes cocleares",
+                "Audição - Reabilitação",
+                "Crianças",
+                "Implante Coclear",
+                "Desenvolvimento",
+                "Competências Auditivas",
+                "Versão portuguesa da escala FÁPI"
+            ],
+            "ciencia_id": "cv-prod-id-3072430",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

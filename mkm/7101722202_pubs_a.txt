@@ -1,38 +1,38 @@
-[0027885116 ] [cv-prod-id-1914399  ] [None                          ] [SC CV] [Conference Paper     ] [ 0  4 Ab   ] [1993-12-01] Sleep data integration and analysis an object oriented approach
-[0032271202 ] [cv-prod-id-1914398  ] [None                          ] [   CV] [Conference Paper     ] [ 0  0      ] [1998-01-01] Affordable tools for teaching embedded systems
-[0032271202 ] [None                ] [None                          ] [SC   ] [Article              ] [ 4  2 Ab   ] [1998-12-01] Affordable tools for teaching embedded systems
-[0033283809 ] [cv-prod-id-1914397  ] [None                          ] [SC CV] [Conference Paper     ] [ 2  1 Ab   ] [1999-12-01] Grafcet's macro-action concept: An implementation view
-[0034510626 ] [cv-prod-id-1914396  ] [None                          ] [SC CV] [Conference Paper     ] [ 0  2 Ab   ] [2000-12-01] Micro-Rato Contest: A popular approach to improve self-study in electronics and computer science
-[2242454126 ] [cv-prod-id-1914395  ] [10.1021/bp020283u             ] [SC CV] [Article              ] [ 0  1 Ab   ] [2002-11-01] On-line determination of biomass in a microalga bioreactor using a novel computerized flow injection analysis system
-[42749094022] [cv-prod-id-1914383  ] [10.1016/j.enzmictec.2007.12.002] [SC CV] [Article              ] [ 4  4 Ab FT] [2008-06-05] On-line control of light intensity in a microalgal bioreactor using a novel automatic system
-[47849085902] [cv-prod-id-1914385  ] [10.1109/EFTA.2007.4416889     ] [SC CV] [Conference Paper     ] [18  1 Ab   ] [2007-12-01] Hierarchical distributed architectures for autonomous mobile robots: A case study
-[50249091617] [cv-prod-id-1914384  ] [10.1007/978-3-540-68847-1_43  ] [   CV] [Book                 ] [ 0  0      ] [2008-01-01] Obtaining the inverse distance map from a non-SVP hyperbolic catadioptric robotic vision system
-[50249091617] [None                ] [10.1007/978-3-540-68847-1_43  ] [SC   ] [Conference Paper     ] [18  2 Ab   ] [2008-09-01] Obtaining the inverse distance map from a non-SVP hyperbolic catadioptric robotic vision system
-[71049141838] [cv-prod-id-1914382  ] [10.1007/978-3-642-04686-5_29  ] [   CV] [Book                 ] [ 0  0      ] [2009-01-01] Obstacle detection, identification and sharing on a robotic soccer team
-[71049141838] [None                ] [10.1007/978-3-642-04686-5_29  ] [SC   ] [Conference Paper     ] [ 9  2 Ab   ] [2009-11-16] Obstacle detection, identification and sharing on a robotic soccer team
-[71049152967] [cv-prod-id-1914381  ] [10.1007/978-3-642-04686-5_23  ] [   CV] [Book                 ] [ 0  0      ] [2009-01-01] Predictive control for behavior generation of omni-directional robots
-[71049152967] [None                ] [10.1007/978-3-642-04686-5_23  ] [SC   ] [Conference Paper     ] [17  2 Ab   ] [2009-11-16] Predictive control for behavior generation of omni-directional robots
-[77950996272] [cv-prod-id-1914379  ] [10.1007/978-3-642-11876-0_32  ] [   CV] [Book                 ] [ 0  0      ] [2010-01-01] Sensor and information fusion applied to a robotic soccer team
-[77950996272] [None                ] [10.1007/978-3-642-11876-0_32  ] [SC   ] [Conference Paper     ] [15  2 Ab   ] [2010-04-22] Sensor and information fusion applied to a robotic soccer team
-[77951004199] [cv-prod-id-1914380  ] [10.1007/978-3-642-11876-0_28  ] [   CV] [Book                 ] [ 0  0      ] [2010-01-01] Communicating among robots in the RoboCup Middle-Size League
-[77951004199] [None                ] [10.1007/978-3-642-11876-0_28  ] [SC   ] [Conference Paper     ] [11  2 Ab   ] [2010-04-22] Communicating among robots in the RoboCup Middle-Size League
-[79952617090] [cv-prod-id-1914378  ] [10.1016/j.mechatronics.2010.05.011] [SC CV] [Article              ] [ 8  3 Ab FT] [2011-01-01] World modeling on an MSL robotic soccer team
-[79960496492] [cv-prod-id-1914377  ] [None                          ] [SC CV] [Conference Paper     ] [ 7  2 Ab   ] [2011-07-25] A mobile robotic platform for elderly care
-[80655142776] [cv-prod-id-1914376  ] [10.1109/ETFA.2011.6059220     ] [SC CV] [Conference Paper     ] [10  4 Ab   ] [2011-11-11] An heuristic for trajectory generation in mobile robotics
-[84861984252] [cv-prod-id-1914375  ] [None                          ] [SC CV] [Conference Paper     ] [11  1 Ab   ] [2012-06-13] From an autonomous soccer robot to a robotic platform for elderly care
-[84930995232] [cv-prod-id-1914374  ] [10.1007/978-3-319-18615-3-40  ] [   CV] [Conference Paper     ] [ 0  0      ] [2015-01-01] UAVision: A modular time-constrained vision library for soccer robots
-[84933059765] [cv-prod-id-1914373  ] [10.1109/ICARSC.2015.13        ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2015-05-04] Detection of aerial balls in robotic soccer using a mixture of color and depth information
-[84955480270] [cv-prod-id-1914372  ] [10.1145/2695664.2695862       ] [SC CV] [Conference Paper     ] [ 8  1 Ab   ] [2015-04-13] Improving the kicking accuracy in a soccer robot
-[84958540813] [cv-prod-id-1914371  ] [10.1007/978-3-319-18615-3_40  ] [SC CV] [Conference Paper     ] [ 0  2 Ab   ] [2015-01-01] UAVision: A modular time-constrained vision library for soccer robots
-[84959311753] [cv-prod-id-1914370  ] [10.1201/b19241-51             ] [SC CV] [Conference Paper     ] [ 8  3 Ab   ] [2016-01-01] Time-constrained detection of colored objects on raw Bayer data
-[85026864168] [cv-prod-id-1914368  ] [10.1109/ICARSC.2017.7964069   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Rich and robust human-robot interaction on gesture recognition for assembly tasks
-[85026869156] [cv-prod-id-1914369  ] [10.1109/ICARSC.2017.7964075   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Skill-based anytime agent architecture for logistics and manipulation tasks: EuRoC Challenge 2, Stage II - Realistic Labs: Benchmarking
-[85026875635] [cv-prod-id-1914367  ] [10.1109/ICARSC.2017.7964072   ] [SC CV] [Conference Paper     ] [ 8  4 Ab   ] [2017-06-29] Real-time multi-object tracking on highly dynamic environments
-[85042220407] [None                ] [10.1007/978-3-319-70836-2_2   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2018-01-01] Human-Robot Collaboration and Safety Management for Logistics and Manipulation Tasks
-[85042368378] [None                ] [10.1109/MFI.2017.8170451      ] [SC   ] [Conference Paper     ] [ 8  3 Ab   ] [2017-12-07] Neural regularization jointly involving neurons and connections for robust image classification
-[85048892736] [None                ] [10.1109/ICARSC.2018.8374188   ] [SC   ] [Conference Paper     ] [ 0  3 Ab   ] [2018-06-06] Mobile manipulation for autonomous packaging in realistic environments: EuRoC challenge 2, stage II, showcase
-[85070213536] [cv-prod-id-1914366  ] [10.1016/j.robot.2019.06.006   ] [SC CV] [Article              ] [ 8  4 Ab FT] [2019-10-01] Skill-based anytime agent architecture for European Robotics Challenges in realistic environments: EuRoC Challenge 2, Stage II — realistic labs
-[85070697946] [None                ] [10.1007/978-3-030-27544-0_2   ] [SC   ] [Conference Paper     ] [ 8  2 Ab   ] [2019-01-01] Multi-Robot Fast-Paced Coordination with Leader Election
-[85087543982] [None                ] [10.1007/978-3-030-34507-5_7   ] [SC   ] [Book Chapter         ] [ 8  2 Ab   ] [2020-01-01] TIMAIRIS: Autonomous Blank Feeding for Packaging Machines
-[85107151302] [None                ] [10.1109/ICARSC52212.2021.9429769] [SC   ] [Conference Paper     ] [ 8  5 Ab   ] [2021-04-28] Segmentation and Manipulation of Cork Strips in Bulk
-[85115444254] [None                ] [10.1007/978-3-030-86230-5_34  ] [SC   ] [Conference Paper     ] [10  2 Ab   ] [2021-01-01] Neural Network Classifier and Robotic Manipulation for an Autonomous Industrial Cork Feeder
+[0027885116 ] [-1914399] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  0  4 Ab   ] [1993-12-01] Sleep data integration and analysis an object oriented approach
+[0032271202 ] [-1914398] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [1998-01-01] Affordable tools for teaching embedded systems
+[0032271202 ] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1  4  2 Ab   ] [1998-12-01] Affordable tools for teaching embedded systems
+[0033283809 ] [-1914397] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  2  1 Ab   ] [1999-12-01] Grafcet's macro-action concept: An implementation view
+[0034510626 ] [-1914396] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  0  2 Ab   ] [2000-12-01] Micro-Rato Contest: A popular approach to improve self-study in electronics and computer science
+[2242454126 ] [-1914395] [10.1021/bp020283u   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2002-11-01] On-line determination of biomass in a microalga bioreactor using a novel computerized flow injection analysis system
+[42749094022] [-1914383] [nzmictec.2007.12.002] [[91mSC[0m [92mCV[0m] [Article         ] [1  4  4 Ab FT] [2008-06-05] On-line control of light intensity in a microalgal bioreactor using a novel automatic system
+[47849085902] [-1914385] [09/efta.2007.4416889] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 18  1 Ab   ] [2007-12-01] Hierarchical distributed architectures for autonomous mobile robots: A case study
+[50249091617] [-1914384] [978-3-540-68847-1_43] [   [92mCV[0m] [Book            ] [1  0  0      ] [2008-01-01] Obtaining the inverse distance map from a non-SVP hyperbolic catadioptric robotic vision system
+[50249091617] [None    ] [978-3-540-68847-1_43] [[91mSC[0m   ] [Conference Paper] [1 18  2 Ab   ] [2008-09-01] Obtaining the inverse distance map from a non-SVP hyperbolic catadioptric robotic vision system
+[71049141838] [-1914382] [978-3-642-04686-5_29] [   [92mCV[0m] [Book            ] [1  0  0      ] [2009-01-01] Obstacle detection, identification and sharing on a robotic soccer team
+[71049141838] [None    ] [978-3-642-04686-5_29] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2009-11-16] Obstacle detection, identification and sharing on a robotic soccer team
+[71049152967] [-1914381] [978-3-642-04686-5_23] [   [92mCV[0m] [Book            ] [1  0  0      ] [2009-01-01] Predictive control for behavior generation of omni-directional robots
+[71049152967] [None    ] [978-3-642-04686-5_23] [[91mSC[0m   ] [Conference Paper] [1 17  2 Ab   ] [2009-11-16] Predictive control for behavior generation of omni-directional robots
+[77950996272] [-1914379] [978-3-642-11876-0_32] [   [92mCV[0m] [Book            ] [1  0  0      ] [2010-01-01] Sensor and information fusion applied to a robotic soccer team
+[77950996272] [None    ] [978-3-642-11876-0_32] [[91mSC[0m   ] [Conference Paper] [1 15  2 Ab   ] [2010-04-22] Sensor and information fusion applied to a robotic soccer team
+[77951004199] [-1914380] [978-3-642-11876-0_28] [   [92mCV[0m] [Book            ] [1  0  0      ] [2010-01-01] Communicating among robots in the RoboCup Middle-Size League
+[77951004199] [None    ] [978-3-642-11876-0_28] [[91mSC[0m   ] [Conference Paper] [1 11  2 Ab   ] [2010-04-22] Communicating among robots in the RoboCup Middle-Size League
+[79952617090] [-1914378] [atronics.2010.05.011] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab FT] [2011-01-01] World modeling on an MSL robotic soccer team
+[79960496492] [-1914377] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2011-07-25] A mobile robotic platform for elderly care
+[80655142776] [-1914376] [09/etfa.2011.6059220] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 10  4 Ab   ] [2011-11-11] An heuristic for trajectory generation in mobile robotics
+[84861984252] [-1914375] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  1 Ab   ] [2012-06-13] From an autonomous soccer robot to a robotic platform for elderly care
+[84930995232] [-1914374] [978-3-319-18615-3-40] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] UAVision: A modular time-constrained vision library for soccer robots
+[84933059765] [-1914373] [.1109/icarsc.2015.13] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2015-05-04] Detection of aerial balls in robotic soccer using a mixture of color and depth information
+[84955480270] [-1914372] [1145/2695664.2695862] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2015-04-13] Improving the kicking accuracy in a soccer robot
+[84958540813] [-1914371] [978-3-319-18615-3_40] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  0  2 Ab   ] [2015-01-01] UAVision: A modular time-constrained vision library for soccer robots
+[84959311753] [-1914370] [10.1201/b19241-51   ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2016-01-01] Time-constrained detection of colored objects on raw Bayer data
+[85026864168] [-1914368] [/icarsc.2017.7964069] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2017-06-29] Rich and robust human-robot interaction on gesture recognition for assembly tasks
+[85026869156] [-1914369] [/icarsc.2017.7964075] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2017-06-29] Skill-based anytime agent architecture for logistics and manipulation tasks: EuRoC Challenge 2, Stage II - Realistic Labs: Benchmarking
+[85026875635] [-1914367] [/icarsc.2017.7964072] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2017-06-29] Real-time multi-object tracking on highly dynamic environments
+[85042220407] [None    ] [/978-3-319-70836-2_2] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2018-01-01] Human-Robot Collaboration and Safety Management for Logistics and Manipulation Tasks
+[85042368378] [None    ] [109/mfi.2017.8170451] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2017-12-07] Neural regularization jointly involving neurons and connections for robust image classification
+[85048892736] [None    ] [/icarsc.2018.8374188] [[91mSC[0m   ] [Conference Paper] [1  0  3 Ab   ] [2018-06-06] Mobile manipulation for autonomous packaging in realistic environments: EuRoC challenge 2, stage II, showcase
+[85070213536] [-1914366] [/j.robot.2019.06.006] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab FT] [2019-10-01] Skill-based anytime agent architecture for European Robotics Challenges in realistic environments: EuRoC Challenge 2, Stage II — realistic labs
+[85070697946] [None    ] [/978-3-030-27544-0_2] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Multi-Robot Fast-Paced Coordination with Leader Election
+[85087543982] [None    ] [/978-3-030-34507-5_7] [[91mSC[0m   ] [Book Chapter    ] [1  8  2 Ab   ] [2020-01-01] TIMAIRIS: Autonomous Blank Feeding for Packaging Machines
+[85107151302] [None    ] [sc52212.2021.9429769] [[91mSC[0m   ] [Conference Paper] [1  8  5 Ab   ] [2021-04-28] Segmentation and Manipulation of Cork Strips in Bulk
+[85115444254] [None    ] [978-3-030-86230-5_34] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2021-01-01] Neural Network Classifier and Robotic Manipulation for an Autonomous Industrial Cork Feeder

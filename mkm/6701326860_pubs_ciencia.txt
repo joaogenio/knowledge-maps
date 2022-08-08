@@ -1,0 +1,1387 @@
+{
+    "ciencia_id": "6D1E-22DA-1F69",
+    "name": "Petia Georgieva",
+    "bio": "",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics - Automation and Control Systems",
+            "code": "20201003"
+        },
+        {
+            "name": "Exact Sciences - Computer and Information Sciences - Information Science",
+            "code": "70201002"
+        }
+    ],
+    "degrees": [
+        "M.Sc. in Systems and Control Engineering, ",
+        "Ph.D. in Systems and Control Engineering",
+        "Engenharia Electrotécnica e de Computadores"
+    ],
+    "distinctions": [
+        "Best paper award - 8 IEEE Int Conf on Intelligent Systems. Paper: K. Georgieva, P. Georgieva, O. Georgieva, M.J. Ribeiro, J.S. Paiva (2016), Regression Approach for Automatic Detection of Attention Lapses.",
+        "Best paper award – 6th IEEE Int Conf on Intelligent Systems. Paper: P Georgieva, F. Silva, N. Figueiredo (2012). Brain Machine Interface - IEETA Case Study.",
+        "BEST PAPER award: A. Brandão, P. Georgieva (2020). Log Files Analysis for Network Intrusion Detection. 10th IEEE Int Conf on Intelligent Systems, 28-30 August, 2020, Varna, Bulgaria"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Conference paper",
+            "title": "Overview of Deep Learning Architectures for EEG-based Brain Imaging",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473918",
+            "doi": "10.1109/ijcnn.2018.8489561",
+            "scopus_id": "2-s2.0-85056532845",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The role of early anticipations for human-robot ball catching",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473919",
+            "doi": "10.1109/icarsc.2018.8374153",
+            "scopus_id": "2-s2.0-85048866150",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Factor Analysis for Finding Invariant Neural Descriptors of Human Emotions",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473920",
+            "doi": "10.1155/2018/6740846",
+            "scopus_id": "2-s2.0-85057300184",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Time accounting artificial neural networks for biochemical process models",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473922",
+            "doi": "10.1007/978-3-642-13428-9_8",
+            "scopus_id": "2-s2.0-77957747841",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Face recognition based on subject dependent Hidden Markov Models",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283621",
+            "doi": "10.1109/blackseacom.2016.7901570",
+            "scopus_id": "2-s2.0-85019032169",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reservoir computing for emotion valence discrimination from EEG signals",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473925",
+            "doi": "10.1016/J.NEUCOM.2016.03.108",
+            "scopus_id": "2-s2.0-85006062107",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Regression approach for automatic detection of attention lapses",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473926",
+            "doi": "10.1109/is.2016.7737447",
+            "scopus_id": "2-s2.0-85006048988",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Learning to decode human emotions with Echo State Networks",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473927",
+            "doi": "10.1016/J.NEUNET.2015.07.005",
+            "scopus_id": "2-s2.0-84966400967",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Beamformer-Particle Filter Framework for Localization of Correlated EEG Sources",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473928",
+            "doi": "10.1109/JBHI.2015.2413752",
+            "scopus_id": "2-s2.0-84969913442",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Advances in Intelligent Signal Processing and Data Mining: Theory and Applications",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473929",
+            "doi": "10.17632/K37H8H7ZKS.2",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "EEG-based subject independent affective computing models",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473930",
+            "doi": "10.1016/J.PROCS.2015.07.314",
+            "scopus_id": "2-s2.0-84939149758",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "BRAIN DATA ANALYSIS AND MANAGEMENT",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473931",
+            "doi": "10.18007/gisap:msp.v0i7.1071",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "ECMS 2015 Proceedings edited by: Valeri M. Mladenov, Petia Georgieva, Grisha Spasov, Galidiya Petrova",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473932",
+            "doi": "10.7148/2015",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Brain neural data analysis with feature space defined by descriptive statistics",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473933",
+            "doi": "10.1007/978-3-319-19390-8_47",
+            "scopus_id": "2-s2.0-84937509501",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Towards an adaptive brain-computer interface – An error potential approach",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473934",
+            "doi": "10.1007/978-3-319-14899-1_12",
+            "scopus_id": "2-s2.0-84927940957",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Preface",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473936",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938702040",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Comparison of consumer purchase intention between interactive and augmented reality shopping platforms through statistical analyses",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473938",
+            "doi": "10.1109/INISTA.2015.7276727",
+            "scopus_id": "2-s2.0-84969204313",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Echo state networks for feature selection in affective computing",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473939",
+            "doi": "10.1007/978-3-319-18944-4_11",
+            "scopus_id": "2-s2.0-84958520778",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Novel approach for simultaneous sediment classification and concentration determination of water turbidity",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473941",
+            "doi": "10.1117/12.2194578",
+            "scopus_id": "2-s2.0-84946141984",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Learning to decode human emotions from event-related potentials",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473942",
+            "doi": "10.1007/S00521-014-1653-6",
+            "scopus_id": "2-s2.0-84925289990",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "EEG signal processing for brain-computer interfaces",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473943",
+            "doi": "10.1007/978-3-642-30574-0_46",
+            "scopus_id": "2-s2.0-85017007845",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Error tolerant predictive control based on recurrent neural models",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473944",
+            "doi": "10.1007/978-3-662-43370-6_2",
+            "scopus_id": "2-s2.0-84926382206",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Brain Neural Data Analysis Using Machine Learning Feature Selection and Classification Methods",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473945",
+            "doi": "10.1007/978-3-319-11071-4_12",
+            "scopus_id": "2-s2.0-84906536355",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Classification Models of Emotional Biosignals Evoked While Viewing Affective Pictures",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473947",
+            "doi": "10.5220/0005104206010606",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Bayesian tracking and multi-core beamforming for estimation of correlated brain sources",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473948",
+            "doi": "10.1049/cp.2014.0522",
+            "scopus_id": "2-s2.0-84902665576",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Statistical approach for reconstruction of dynamic brain dipoles based on EEG data",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473949",
+            "doi": "10.1109/ijcnn.2014.6889663",
+            "scopus_id": "2-s2.0-84908491264",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Error tolerant MPC versus PI control - A crystallization case study",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473950",
+            "doi": null,
+            "scopus_id": "2-s2.0-84955171115",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Unsupervised EEG biosignal discrimination",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473951",
+            "doi": "10.1504/IJRIS.2014.066249",
+            "scopus_id": "2-s2.0-84918536579",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Robust principal component analysis for improving cognitive brain states discrimination from fMRI",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473952",
+            "doi": "10.1007/978-3-642-38628-2_19",
+            "scopus_id": "2-s2.0-84883150712",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "A sequential Monte Carlo approach for brain source localization",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473954",
+            "doi": "10.1007/978-3-642-28696-4-5",
+            "scopus_id": "2-s2.0-84867643170",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Introduction to intelligent signal processing and data mining",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473955",
+            "doi": "10.1007/978-3-642-28696-4-1",
+            "scopus_id": "2-s2.0-84867638884",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Robust principal component analysis for brain imaging",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473956",
+            "doi": "10.1007/978-3-642-40728-4_36",
+            "scopus_id": "2-s2.0-84884970055",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Advances in Intelligent Signal Processing and Data Mining",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473957",
+            "doi": "10.1007/978-3-642-28696-4",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Bayesian approach for reconstruction of moving brain dipoles",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473959",
+            "doi": "10.1007/978-3-642-39094-4_64",
+            "scopus_id": "2-s2.0-84884470706",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Cluster analysis for EEG biosignal discrimination",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473960",
+            "doi": "10.1109/inista.2013.6577646",
+            "scopus_id": "2-s2.0-84883399971",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "IEETA brain computer interface technologies",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473961",
+            "doi": "10.1504/ijcistudies.2013.057645",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Brain machine interface IEETA case study",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473962",
+            "doi": "10.1109/is.2012.6335164",
+            "scopus_id": "2-s2.0-84869776574",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Particle filters and beamforming for EEG source estimation",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473963",
+            "doi": "10.1109/ijcnn.2012.6252516",
+            "scopus_id": "2-s2.0-84865063663",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Model Predictive Control Strategies for Batch Sugar Crystallization Process",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473964",
+            "doi": "10.5772/16853",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Plant and Equipment: Instrumentation and Process Control: Instrumentation",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473966",
+            "doi": "10.1016/b978-0-12-374407-4.00413-1",
+            "scopus_id": "2-s2.0-85042821324",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Neural networks for model predictive control",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473967",
+            "doi": "10.1109/ijcnn.2011.6033208",
+            "scopus_id": "2-s2.0-80054730126",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Nonlinear MPC for fed-batch multiple stages sugar crystallization",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473968",
+            "doi": "10.1016/j.cherd.2010.10.010",
+            "scopus_id": "2-s2.0-79956293971",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Advances in EEG-based biometry",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473970",
+            "doi": "10.1007/978-3-642-13775-4_29",
+            "scopus_id": "2-s2.0-77955351275",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Person identification using VEP signals and SVM classifiers",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473972",
+            "doi": "10.1109/ijcnn.2010.5596616",
+            "scopus_id": "2-s2.0-79959476340",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Clustering evoked potential signals using subspace methods.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473971",
+            "doi": "10.1109/IEMBS.2010.5627971",
+            "scopus_id": "2-s2.0-78650807610",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "SSA of biomedical signals: A linear invariant systems approach",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473974",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Novel computational methods for modeling and control in chemical and biochemical process systems",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473975",
+            "doi": "10.1007/978-3-642-01888-6_4",
+            "scopus_id": "2-s2.0-67651243714",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Intelligent predictive control - Application to scheduled crystallization processes",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473977",
+            "doi": "10.1109/ICAIS.2009.34",
+            "scopus_id": "2-s2.0-74549146183",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Artificial neural networks for modeling in reaction process systems",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473979",
+            "doi": "10.1007/s00521-008-0200-8",
+            "scopus_id": "2-s2.0-58549113550",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Neural network - Based estimation of reaction rates with partly unknown states and completely known kinetics coefficients",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473980",
+            "doi": "10.1109/IS.2008.4670443",
+            "scopus_id": "2-s2.0-67249092419",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Sparse nonnegative matrix factorization with genetic algorithms for microarray analysis",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473981",
+            "doi": "10.1109/ijcnn.2007.4370971",
+            "scopus_id": "2-s2.0-51749107029",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Process modeling strategy combining analytical and data based techniques - I. NN identification of reaction rates with known kinetics coefficients",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473982",
+            "doi": "10.1109/IJCNN.2007.4371185",
+            "scopus_id": "2-s2.0-51749114039",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Dynamical model of brushite precipitation",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473983",
+            "doi": "10.1016/j.jcrysgro.2007.04.016",
+            "scopus_id": "2-s2.0-34249875384",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Application of Feed Forward Neural Networks in Modeling and Control of a Fed-Batch Crystallization Process",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473984",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Modelling of dicalcium phosphate dihydrate precipitation from solution",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473986",
+            "doi": "10.1016/s0263-8762(07)73209-4",
+            "scopus_id": "2-s2.0-27344451427",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A time varying state space approach for sugar crystallization process modelling and monitoring",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473987",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960732000",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On-line monitoring of a sugar crystallization process",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473988",
+            "doi": "10.1016/j.compchemeng.2005.02.013",
+            "scopus_id": "2-s2.0-18244371404",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptive recurrent neural network control of biological wastewater treatment",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473989",
+            "doi": "10.1002/int.20061",
+            "scopus_id": "2-s2.0-13844296578",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "On-line multivariate statistical monitoring of a fed-batch sugar crystallisation process",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473990",
+            "doi": "10.1016/S1570-7946(04)80202-5",
+            "scopus_id": "2-s2.0-77955642552",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An adaptive integral plus states neural control of aerobic continuous stirred tank reactor",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473991",
+            "doi": null,
+            "scopus_id": "2-s2.0-8844239141",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Knowledge-based hybrid modelling of a batch crystallisation when accounting for nucleation, growth and agglomeration phenomena",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473992",
+            "doi": "10.1016/s0009-2509(03)00260-4",
+            "scopus_id": "2-s2.0-0042827953",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A neural network based approach for measurement dynamics compensation",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473993",
+            "doi": "10.1080/08839510290030291",
+            "scopus_id": "2-s2.0-0036646944",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Adaptive ¿-tracking control of activated sludge processes",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473994",
+            "doi": "10.1080/00207170110065910",
+            "scopus_id": "2-s2.0-0035883107",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Modelling and adaptive control of aerobic continuous stirred tank reactors",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473995",
+            "doi": "10.3166/ejc.7.476-491",
+            "scopus_id": "2-s2.0-29944447574",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Implementation of robust control theory to a continuous stirred tank bioreactor",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473996",
+            "doi": null,
+            "scopus_id": "2-s2.0-2442593226",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "MIMO adaptive linearizing control of fed-batch amino acids simultaneous production",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473997",
+            "doi": null,
+            "scopus_id": "2-s2.0-0033951345",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Robust control design of an activated sludge process",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473998",
+            "doi": "10.1002/(SICI)1099-1239(199911)9:13<949::AID-RNC445>3.0.CO;2-G",
+            "scopus_id": "2-s2.0-6744224437",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "LFT models of continuous biotechnological processes",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473999",
+            "doi": "10.1007/s004490050578",
+            "scopus_id": "2-s2.0-0033063952",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de identificação pessoal baseado em sinais de EEG",
+            "date": "2009-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Identificação",
+                "Autenticação (Informática)",
+                "Biometria",
+                "Electroencefalogramas"
+            ],
+            "ciencia_id": "cv-prod-id-474009",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo de sistemas dinâmicos com redes neuronais artificiais",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-474005",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "SISO versus MIMO model based predictive control structures: a fed-batch crystallizer case study",
+            "date": "2013-01-01",
+            "keywords": [
+                "linear model predictive control; crystallization; SISO; MIMO"
+            ],
+            "ciencia_id": "cv-prod-id-474006",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Laboratório virtual de sistemas de controlo",
+            "date": "2009-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Sistemas de controlo",
+                "Controladores electrónicos",
+                "Engenharia mecânica",
+                "Realidade virtual",
+                "Modelos tridimensionais",
+                "Simulação por computador",
+                "Sistemas de controlo automático"
+            ],
+            "ciencia_id": "cv-prod-id-474003",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Ajuste de controladores por optimização não linear multiobjectivo",
+            "date": "2008-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Sistemas dinâmicos",
+                "Sistemas não-lineares",
+                "Optimização não-linear"
+            ],
+            "ciencia_id": "cv-prod-id-474008",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias avançadas de modelização e controlo para processos industriais não lineares e descontínuos : aplicação em cristalizadores industriais de açucar",
+            "date": "2010-01-01",
+            "keywords": [
+                "Modelos não lineares",
+                "Refinação do açucar",
+                "Cristais de açúcar"
+            ],
+            "ciencia_id": "cv-prod-id-474027",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Face detection and recognision",
+            "date": "2016-01-01",
+            "keywords": [
+                "Reconhecimento facial (Ciência de computadores)",
+                "Processamento de imagem",
+                "Compressão de dados (Ciência de computadores)",
+                "Visão por computador",
+                "Amplificador de Potencia RF",
+                "Caracterização",
+                "Colapso da Currente",
+                "Curvas IV Pulsadas",
+                "GaN HEMT",
+                "Linearidade",
+                "Modelação",
+                "Parametros S Pulsados",
+                "Pulser",
+                "Transistor de RF"
+            ],
+            "ciencia_id": "cv-prod-id-474021",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Aplicação de técnicas de aprendizagem automática para classificação de emoções humanas com sinais de EEG",
+            "date": "2013-01-01",
+            "keywords": [
+                "aprendizagem automática; classificação; EEG"
+            ],
+            "ciencia_id": "cv-prod-id-474030",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Generalization and anticipation skills for robot ball catching using supervised learning",
+            "date": "2017-01-01",
+            "keywords": [
+                "Engenharia eletrónica e telecomunicações",
+                "Interacção humano-robot",
+                "Aprendizagem automática",
+                "Redes neuronais",
+                "Interação Robô-Humano",
+                "Captura de Bola",
+                "Aprendizagem Automática",
+                "Redes Neuronais"
+            ],
+            "ciencia_id": "cv-prod-id-474033",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Detecção de actividade cerebral com imagens de ressonância magnética",
+            "date": "2010-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Bioinformática",
+                "Funções cerebrais",
+                "Ressonância magnética - Aplicações em medicina",
+                "Diagnóstico por imagem"
+            ],
+            "ciencia_id": "cv-prod-id-474035",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "EEG dynamic source localization using Marginalized Particle Filtering",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-474412",
+            "doi": "10.1109/ssci.2016.7850048",
+            "scopus_id": "2-s2.0-85016048529",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Computationally efficient process control with neural networkbased predictive models",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-474413",
+            "doi": "10.1109/ijcnn.2009.5178663",
+            "scopus_id": "2-s2.0-70449394614",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "An Intelligent Tool for Detection of Phishing Messages",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283611",
+            "doi": "10.1007/978-3-030-17065-3_12",
+            "scopus_id": "2-s2.0-85064930830",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Deep learning in brain computer interfaces",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283618",
+            "doi": "10.1145/3351556.3351594",
+            "scopus_id": "2-s2.0-85073395778",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Stream generation: Markov chains vs GANs",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283619",
+            "doi": "10.5220/0007766501770184",
+            "scopus_id": "2-s2.0-85067517557",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Human umbilical cord blood plasma as an alternative to animal sera for mesenchymal stromal cells in vitro expansion - A multicomponent metabolomic analysis",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283620",
+            "doi": "10.1371/journal.pone.0203936",
+            "scopus_id": "2-s2.0-85054706834",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Face Recognition Based on Subject Dependent Hidden Markov Models",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-473924",
+            "doi": "10.1109/BlackSeaCom.2016.7901570",
+            "scopus_id": "2-s2.0-85019032169",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Echo State Networks in Dynamic Data Clustering",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283623",
+            "doi": "10.1007/978-3-642-40728-4_43",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Recurrent neural networks for automatic clustering of multispectral satellite images",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283624",
+            "doi": "10.1117/12.2029191",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Neural network based biomass and growth rate estimation aimed to control of a chemostat microbial cultivation",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283626",
+            "doi": "10.1080/713827143",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Anomalous angle dependence of the output signal of bipolar magnetic sensors",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283628",
+            "doi": "10.1109/asdam.1998.730227",
+            "scopus_id": "2-s2.0-85051541144",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "ROBUST STABILITY IN MULTIVARIABLE FEEDBACK-SYSTEMS USING DOMINANCE CONCEPT AND APPROXIMATE MODEL",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283629",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Interface cérebro-computador não invasiva baseada em OpenVibe",
+            "date": "2010-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Bioinformática",
+                "Electroencefalogramas",
+                "Interfaces de computador",
+                "Interacção homem-computador",
+                "Processamento de dados em tempo real"
+            ],
+            "ciencia_id": "cv-prod-id-1283633",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Development of intelligent tool for phising email detection",
+            "date": "2017-01-01",
+            "keywords": [
+                "phishing emails",
+                "machine learning",
+                "feature selection",
+                "random forest"
+            ],
+            "ciencia_id": "cv-prod-id-1283645",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Modeling of sugar crystallization through knowledge integration",
+            "date": "2003-01-01",
+            "keywords": [
+                "Engenharia química",
+                "Chemical engineering",
+                "Ciências da engenharia e tecnologias::Engenharia química",
+                "Engineering and technology::Chemical engineering"
+            ],
+            "ciencia_id": "cv-prod-id-1283648",
+            "doi": "10.1002/elsc.200390019",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Deep learning models for brain machine interfaces",
+            "date": "2019-10-02",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1283705",
+            "doi": "10.1007/s10472-019-09668-0",
+            "scopus_id": "2-s2.0-85074337847",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Application of artificial neural networks in modeling and optimization of batch crystallization processes",
+            "date": "2013-01-01",
+            "keywords": [
+                "artificial neural networks; crystallization processes"
+            ],
+            "ciencia_id": "cv-prod-id-2086842",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An Evaluation of Parchments’ Degradation - A Hybrid Approach",
+            "date": "2015-01-01",
+            "keywords": [
+                "Parchment Degradation",
+                "Logic Programming",
+                "Artificial Neural Networks",
+                "Knowledge Representation and Reasoning"
+            ],
+            "ciencia_id": "cv-prod-id-2086866",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Discussion on: “Modeling and Adaptive Control of Aerobic Continuous Stirred Tank Reactors” by P. Georgieva, A. Ilchmann and M.-F. Weirig",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2379696",
+            "doi": "10.3166/EJC.7.492-493",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Dynamic optimisation of industrial sugar crystallization process based on a hybrid (mechanistic+ANN) model",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2379705",
+            "doi": null,
+            "scopus_id": "2-s2.0-40649116214",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A self-surveillance system for change detection of pigmented skin lesions",
+            "date": "2019-01-01",
+            "keywords": [
+                "Skin lesions",
+                "Computer-assisted dermatology",
+                "Medical imaging",
+                "Mobile applications",
+                "self-surveillance"
+            ],
+            "ciencia_id": "cv-prod-id-2386141",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Deep learning for multi-class skin lesion diagnosis",
+            "date": "2020-01-01",
+            "keywords": [
+                "Skin lesion diagnosis",
+                "Multi-class classification",
+                "Deep learning",
+                "Convolutional neural network",
+                "Transfer learning",
+                "Generalization performance"
+            ],
+            "ciencia_id": "cv-prod-id-2386139",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A study of transfer learning for skin lesion classification",
+            "date": "2019-01-01",
+            "keywords": [
+                "Medical imaging",
+                "Deep learning",
+                "Convolutional neural network",
+                "Transfer learning",
+                "Skin lesion diagnosis",
+                "Binary classification"
+            ],
+            "ciencia_id": "cv-prod-id-2386140",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Decision support service for Bewegen bike-sharing systems",
+            "date": "2019-01-01",
+            "keywords": [
+                "Bike-sharing",
+                "Machine learning",
+                "Feature selection",
+                "Feature visualisation",
+                "Neural networks",
+                "k-nearest neighbour"
+            ],
+            "ciencia_id": "cv-prod-id-2386138",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Robot Anticipation Learning System for Ball Catching",
+            "date": "2021-10-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101795",
+            "doi": "10.3390/robotics10040113",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "An Automated Machine Learning Approach",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101796",
+            "doi": "10.4018/978-1-7998-6985-6.ch012",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Object-Oriented Approach For Virtual Prototyping In Conceptual Ship Design",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101797",
+            "doi": "10.7148/2015-0171",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Scalable And User-Friendly Simulation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101798",
+            "doi": "10.7148/2015-0164",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Collaborative Virtual Environment For Engineering Laboratory",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101799",
+            "doi": "10.7148/2015-0157",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Computer-Automated Design Tool For Intelligent Virtual Prototyping Of Offshore Cranes",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101800",
+            "doi": "10.7148/2015-0147",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multi-Formalism Modeling Of Human Organizations",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101801",
+            "doi": "10.7148/2015-0019",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Causality Versus Predictability In Neural Network Modeling",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101802",
+            "doi": "10.7148/2015-0005",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Simulation Based Approach For The Evaluation Of Outcome Driven Innovation Models",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101803",
+            "doi": "10.7148/2015-0138",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resiliency On Order-Driven Markets",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101804",
+            "doi": "10.7148/2015-0132",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Heavy Context Dependence — Decisions Of Underground Soldiers",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101805",
+            "doi": "10.7148/2015-0125",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Stochastic Multi-Agent Patrolling Using Social Potential Fields",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101806",
+            "doi": "10.7148/2015-0042",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Gas Tiny Flow Measurement Instrumentation",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101807",
+            "doi": "10.7148/2015-0292",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Simple DDS Algorithm For TDS: An Example",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101808",
+            "doi": "10.7148/2015-0246",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Data-Aware Scheduling In Massive Heterogeneous Systems",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101809",
+            "doi": "10.7148/2015-0601",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Mobile Robot Navigation Algorithms Based On Stereovision",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101810",
+            "doi": "10.7148/2015-0581",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Perturbation In Local Search For Scheduling",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101816",
+            "doi": "10.7148/2015-0446",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Memristor Modeling In MATLAB & PSPICE",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101817",
+            "doi": "10.7148/2015-0432",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Design And Simulation Of Process Improvement Scenarios",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101818",
+            "doi": "10.7148/2015-0359",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "In the depth of winter, I finally learned that within me there lay an invincible summer",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101819",
+            "doi": null,
+            "scopus_id": "2-s2.0-84867628582",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "5G cascaded channel estimation using convolutional neural networks",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101822",
+            "doi": "10.1016/j.dsp.2022.103483",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Deep Learning-Based Dirt Detection Computer Vision System for Floor-Cleaning Robots with Improved Data Collection",
+            "date": "2021-12-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101823",
+            "doi": "10.3390/technologies9040094",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Use of Machine-Learning Techniques in Material Constitutive Modelling for Metal Forming Processes",
+            "date": "2022-02-28",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3101824",
+            "doi": "10.3390/met12030427",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

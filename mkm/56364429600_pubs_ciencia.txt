@@ -1,0 +1,512 @@
+{
+    "ciencia_id": "4D12-5210-C8CE",
+    "name": "Sónia Gouveia",
+    "bio": "",
+    "domains": [],
+    "degrees": [
+        "Matemática Aplicada à Tecnologia",
+        "Métodos Computacionais em Ciências e Engenharia",
+        "Applied Mathematics (pre-Bolonha, European PhD degree)"
+    ],
+    "distinctions": [],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "The max-INAR(1) model for count processes",
+            "date": "2017-12-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255127",
+            "doi": "10.1007/s11749-017-0573-z",
+            "scopus_id": "2-s2.0-85038087207",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A full ARMA model for counts with bounded support and its application to rainy-days time series",
+            "date": "2018-07-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255128",
+            "doi": "10.1007/s00477-018-1584-3",
+            "scopus_id": "2-s2.0-85050263092",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The applications of regenerative medicine in sinus lift procedures: A systematic review",
+            "date": "2017-12-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255129",
+            "doi": "10.1111/cid.12561",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Investigating PM10 episodes using levoglucosan as tracer",
+            "date": "2017-10-13",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255130",
+            "doi": "10.1007/s11869-017-0521-9",
+            "scopus_id": "2-s2.0-85031427373",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The max-BARMA models for counts with bounded support",
+            "date": "2018-01-01",
+            "keywords": [
+                "Thinning operator",
+                "Autoregressive moving-average processes",
+                "Finite counts"
+            ],
+            "ciencia_id": "cv-prod-id-255131",
+            "doi": "10.1016/j.spl.2018.07.011",
+            "scopus_id": "2-s2.0-85050972373",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Binary auto-regressive geometric modelling in a DNA context",
+            "date": "2017-01-01",
+            "keywords": [
+                "Binary auto-regressive models",
+                "¿2-testing",
+                "DNA sequence analysis",
+                "Geometric distribution",
+                "Internucleotide distances"
+            ],
+            "ciencia_id": "cv-prod-id-255133",
+            "doi": "10.1111/rssc.12172",
+            "scopus_id": "2-s2.0-84981747708",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Survival rate of dental implants in patients with history of periodontal disease: A retrospective cohort study",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255134",
+            "doi": "10.11607/jomi.3732",
+            "scopus_id": "2-s2.0-85024490938",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A new approach to sex estimation using the mandibular canine index",
+            "date": "2016-01-01",
+            "keywords": [
+                "Forensic sciences",
+                "Forensic odontology",
+                "Human identification",
+                "Odontometry",
+                "Sex estimation",
+                "ROC curve analysis",
+                "Mandibular canine index"
+            ],
+            "ciencia_id": "cv-prod-id-255139",
+            "doi": "10.1177/0025802415575415",
+            "scopus_id": "2-s2.0-84954466341",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Investigating ozone episodes in Portugal: a wavelet-based approach",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255140",
+            "doi": "10.1007/s11869-015-0379-7",
+            "scopus_id": "2-s2.0-84947775756",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Wavelet-Based Clustering of Sea Level Records",
+            "date": "2015-11-27",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255141",
+            "doi": "10.1007/s11004-015-9623-9",
+            "scopus_id": "2-s2.0-84955386061",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A wavelet-based approach applied to suspended particulate matter time series in Portugal",
+            "date": "2016-01-01",
+            "keywords": [
+                "Air quality monitoring stations",
+                "PM",
+                "Air mass trajectories",
+                "Wavelets",
+                "Classification",
+                "Clustering"
+            ],
+            "ciencia_id": "cv-prod-id-255142",
+            "doi": "10.1007/s11869-016-0393-4",
+            "scopus_id": "2-s2.0-84975778592",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Injectability of calcium phosphate pastes: Effects of particle size and state of aggregation of ß-tricalcium phosphate powders",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255144",
+            "doi": "10.1016/j.actbio.2015.04.006",
+            "scopus_id": "2-s2.0-84929961878",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Thinning-based models in the analysis of integer-valued time series: a review",
+            "date": "2015-06-11",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255145",
+            "doi": "10.1177/1471082X15584701",
+            "scopus_id": "2-s2.0-84953745277",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Factors influencing differences between invasive and spontaneous baroreflex estimates: distinct methods or different data?",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255150",
+            "doi": "10.1109/IEMBS.2011.6090706",
+            "scopus_id": "2-s2.0-84055183605",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Fuzzy logic model to describe anesthetic effect and muscular influence on EEG Cerebral State Index",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255159",
+            "doi": "10.1016/j.rvsc.2012.12.008",
+            "scopus_id": "2-s2.0-84876135869",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Infeções associadas aos cuidados de saúde numa Unidade de Cuidados Intensivos Neonatais: avaliação da eficácia das estratégias de prevenção implementadas",
+            "date": "2013-01-01",
+            "keywords": [
+                "Cateter vascular central",
+                "infeções associadas aos cuidados de saúde",
+                "prevenção",
+                "sépsis",
+                "unidade de cuidados intensivos neonatais"
+            ],
+            "ciencia_id": "cv-prod-id-255161",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Area burned in Portugal over recent decades: an extreme value analysis",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255163",
+            "doi": "10.1071/WF13104",
+            "scopus_id": "2-s2.0-84907197339",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Wavelets-based clustering of air quality monitoring sites",
+            "date": "2015-01-01",
+            "keywords": [
+                "Air quality monitoring stations",
+                "Ozone",
+                "Wavelets",
+                "Nitrous oxide",
+                "Classification",
+                "Clustering"
+            ],
+            "ciencia_id": "cv-prod-id-255165",
+            "doi": "10.1007/s10661-015-4901-z",
+            "scopus_id": "2-s2.0-84973410958",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spontaneous baroreceptor reflex sensitivity for risk stratification of heart failure patients: Optimal cut-offand age effects",
+            "date": "2015-01-01",
+            "keywords": [
+                "Spontaneous baroreflex sensitivity",
+                "Spectral analysis",
+                "Transfer function",
+                "Heart failure",
+                "Risk stratification",
+                "Aging"
+            ],
+            "ciencia_id": "cv-prod-id-255166",
+            "doi": "10.1042/CS20150341",
+            "scopus_id": "2-s2.0-84952016027",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "EMG contributes to improve Cerebral State Index modeling in dogs anesthesia.",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "1116181040355-102",
+            "doi": null,
+            "scopus_id": "2-s2.0-84864617012",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Time domain baroreflex sensitivity assessment by joint analysis of spontaneous SBP and RR series",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255198",
+            "doi": "10.1016/j.bspc.2009.03.003",
+            "scopus_id": "2-s2.0-67650242493",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DIFFERENTIAL EFFECTS OF ORAL BETA BLOCKADE ON CARDIOVASCULAR AND SYMPATHETIC REGULATION.",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255199",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Differential effects of oral ß blockade on cardiovascular and sympathetic regulation",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255201",
+            "doi": "10.1177/1074248409350137",
+            "scopus_id": "2-s2.0-70449659311",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Effects of beta blockade on hemodynamics and muscle sympathetic activity",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255205",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Impact of pH on the high-pressure inactivation of microbial transglutaminase",
+            "date": "2019-01-01",
+            "keywords": [
+                "Microbial transglutaminase",
+                "High pressure",
+                "Inactivation kinetic",
+                "pH",
+                "Optimization",
+                "Response surface methodology"
+            ],
+            "ciencia_id": "cv-prod-id-255215",
+            "doi": "10.1016/j.foodres.2018.08.002",
+            "scopus_id": "2-s2.0-85054290939",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Preterm infants under 27 weeks gestational age: outcomes in a tertiary hospital",
+            "date": "2015-01-01",
+            "keywords": [
+                "Extremely preterm",
+                "outcomes",
+                "models",
+                "parental counseling"
+            ],
+            "ciencia_id": "cv-prod-id-255232",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Propofol TCI Reductions Do Not Attenuate Significant Falls in Cardiac Output Associated With Anesthesia Induction and Knee-Chest Positioning in Spinal Surgery.",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255374",
+            "doi": "10.1097/ANA.0000000000000572",
+            "scopus_id": "2-s2.0-85059945677",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sex estimation using the mandibular canine index components.",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-255375",
+            "doi": "10.1007/s12024-018-0051-2",
+            "scopus_id": "2-s2.0-85058207491",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "QT Variability and HRV Interactions in ECG: Quantification and Reliability",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1195440",
+            "doi": "10.1109/TBME.2006.873682",
+            "scopus_id": "2-s2.0-33746786906",
+            "authors": []
+        },
+        {
+            "type": "Magazine article",
+            "title": " Uso de distribuições geométricas autorregressivas na análise de sequências de ADN",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-340633",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Differential Effects of Oral Beta Blockade on Cardiovascular and Sympathetic Regulation During Normoxia and Hypoxia, Belgian working group on blood pressure and heart rate variability EHS-Eurobavar",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-341390",
+            "doi": "10.2143/ac.63.4.2033055",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methodological insights on time domain baroreflex sensitivity analysis illustrated with the EuroBaVar data, Belgian working group on blood pressure and heart rate variability EHS-Eurobavar",
+            "date": "2008-10-31",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-341437",
+            "doi": "10.2143/ac.63.5.2033239",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Mathematical biomarkers for the autonomic regulation of cardiovascular system",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-342367",
+            "doi": "10.3389/fphys.2013.00279",
+            "scopus_id": "2-s2.0-84885358428",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Springer Series Statistics and Data Science: new challenges, new generations: PROMS (Accepted)",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-285268",
+            "doi": "10.1007/978-3-030-30611-3_15",
+            "scopus_id": "2-s2.0-85070689571",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The influence of anaesthesia haemodynamic changes associated with knee-chest position on propofol plasmatic concentrations predicted by a pharmacokinetic model during target-controlled infusion",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-342989",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Euro-Cordex Regional Projection Models: What Kind of Agreement for Europe?",
+            "date": "2019-04-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-697668",
+            "doi": "10.1007/s11004-019-09797-6",
+            "scopus_id": "2-s2.0-85064335480",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Effect of hemodynamic changes in plasma propofol concentrations associated with knee-chest position in spinal surgery: A prospective study",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1086850",
+            "doi": "10.5812/aapm.96829",
+            "scopus_id": "2-s2.0-85075528433",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the parameters estimation of hiv dynamic models",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-285290",
+            "doi": null,
+            "scopus_id": "2-s2.0-85070688290",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Influence of filament patterning in structural properties of dense alumina ceramics printed by robocasting",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2860059",
+            "doi": "10.1016/j.jmapro.2021.05.043",
+            "scopus_id": "2-s2.0-85107648142",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the extremes of the max-INAR(1) process for time series of counts",
+            "date": "2021-05-28",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2872113",
+            "doi": "10.1080/03610926.2021.1923750",
+            "scopus_id": "2-s2.0-85106719571",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Association between respiratory hospital admissions and air quality in Portugal: A count time series approach",
+            "date": "2021-07-09",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2872114",
+            "doi": "10.1371/journal.pone.0253455",
+            "scopus_id": "2-s2.0-85109770506",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lateral window technique: A focus review",
+            "date": "2021-07-14",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2872115",
+            "doi": "10.1111/ors.12649",
+            "scopus_id": "2-s2.0-85109932429",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Advantages of Porcine Xenograft over Autograft in Sinus Lift: A Randomised Clinical Trial",
+            "date": "2021-06-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2872116",
+            "doi": "10.3390/ma14123439",
+            "scopus_id": "2-s2.0-85108952035",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Role of the Atmospheric Aerosol in Weather Forecasts for the Iberian Peninsula: Investigating the Direct Effects Using the WRF-Chem Model",
+            "date": "2021-02-23",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2872117",
+            "doi": "10.3390/atmos12020288",
+            "scopus_id": "2-s2.0-85102345419",
+            "authors": []
+        }
+    ]
+}

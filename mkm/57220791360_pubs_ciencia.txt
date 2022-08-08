@@ -1,0 +1,613 @@
+{
+    "ciencia_id": "6B1E-7520-BD18",
+    "name": "João Manuel de Oliveira e Silva Rodrigues",
+    "bio": "João Manuel de Oliveira e Silva Rodrigues. Completed the Doutoramento in Doutoramento em Engenharia Electrotécnica in 2004 by Universidade de Aveiro, Mestrado in Mestrado em Engenharia Electrónica e Telecomunicações (pré-Bolonha) in 1995 by Universidade de Aveiro and  Licenciatura in Licenciatura em Engenharia Electrónica e Telecomunicações (pré-Bolonha) in 1992 by Universidade de Aveiro. Is Assistant Professor in Universidade de Aveiro Departamento de Electrónica Telecomunicações e Informática. Published 22 articles in journals. Has 15 section(s) of books. Participates and/or participated as Researcher in 4 project(s). Works in the area(s) of Engineering and Technology with emphasis on Electrotechnical Engineering, Electronics and Informatics. In their professional activities interacted with 109 collaborator(s) co-authorship of scientific papers. In his curriculum Ciência Vitae the most frequent terms in the context of scientific, technological and artistic-cultural output are: Modeling; DNA; Chargaff´s second parity rule; Motifs; signal processing; data compression; .",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        }
+    ],
+    "degrees": [
+        "Doutoramento em Engenharia Electrotécnica",
+        "Mestrado em Engenharia Electrónica e Telecomunicações (pré-Bolonha)",
+        "Licenciatura em Engenharia Electrónica e Telecomunicações (pré-Bolonha)"
+    ],
+    "distinctions": [],
+    "projects": [
+        {
+            "name": "RSAT: Respiratory Sound Assessment Toolkit - A Auscultação do Futuro",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "CLA: Training Health Professionals to use Computerised Lung Auscultation",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "PERVASIVE TOURISM",
+            "desc": "O Pervasive Tourism consiste num projecto destinado à promoção do Turismo em Portugal, através de telemóveis/smartphones, superficies interactivas e web. O projecto conta com um Guia Turístico para utilização outdoor, um Guia Turístico para utilização indoor (destinado a Museus), um Cartão do Turista que permite acumular pontos e dinamizar ofertas, e uma solução para Superfícies Interactivas que poderá ser incluída dentro de um Museu ou outra Instituição ou Entidade. Utilizando a integração das diferentes formas de interacção e comunicação no sector, é possível traçar perfis e sugerir as melhores experiências a cada utilizador, assim como obter trip reports após a realização de uma viagem ou experiência. Para além das ofertas aos turistas, também as entidades subscritoras deste serviço serão beneficiadas com a sua utilização. Além do aumento esperado de visitantes, essas entidades poderão ter acesso a informações detalhadas, resultantes da análise e tratamento dos dados provenientes das acções dos visitantes. ",
+            "year": "2009",
+            "areas": []
+        },
+        {
+            "name": "Sounds4Health -  Rehabilitating and home-monitoring people with Chronic Obstructive Pulmonary Disease and their families during long term therapy ",
+            "desc": null,
+            "year": "2010",
+            "areas": []
+        },
+        {
+            "name": "DNA symmetry: modeling, influential words and outliers",
+            "desc": null,
+            "year": "2014",
+            "areas": []
+        },
+        {
+            "name": "Instituto de Engenharia Electrónica e Telemática de Aveiro",
+            "desc": null,
+            "year": "2020",
+            "areas": []
+        },
+        {
+            "name": "TO2 – Postos de medição sem contacto de saturação de oxigénio e temperatura",
+            "desc": null,
+            "year": "2020",
+            "areas": []
+        }
+    ],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Enhancing our understanding of computerised adventitious respiratory sounds in different COPD phases and healthy people",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566554",
+            "doi": "10.1016/j.rmed.2018.03.023",
+            "scopus_id": "2-s2.0-85044592532",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "FALCON-meta: a method to infer metagenomic composition of ancient DNA",
+            "date": "2018-02-18",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566555",
+            "doi": "10.1101/267179",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Usability of Computerized Lung Auscultation–Sound Software (CLASS) for learning pulmonary auscultation",
+            "date": "2018-01-01",
+            "keywords": [
+                "Computer-assisted learning",
+                "Computerized respiratory sounds",
+                "Interface usability",
+                "Lung auscultation"
+            ],
+            "ciencia_id": "cv-prod-id-566556",
+            "doi": "10.1007/s11517-017-1697-8",
+            "scopus_id": "2-s2.0-85028348100",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exceptional Symmetry by Genomic Word: A Statistical Analysis",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566557",
+            "doi": "10.1007/s12539-016-0200-9",
+            "scopus_id": "2-s2.0-85016097960",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reliability, validity and minimal detectable change of computerized respiratory sounds in patients with chronic obstructive pulmonary disease",
+            "date": "2017-01-01",
+            "keywords": [
+                "Chronic obstructive",
+                "Pulmonary disease",
+                "Reproducibility of results",
+                "Respiratory sounds",
+                "Spirometry"
+            ],
+            "ciencia_id": "cv-prod-id-566558",
+            "doi": "10.1111/crj.12745",
+            "scopus_id": "2-s2.0-85038114165",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "DNA word analysis based on the distribution of the distances between symmetric words",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566559",
+            "doi": "10.1038/s41598-017-00646-2",
+            "scopus_id": "2-s2.0-85018995715",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The exceptional genomic word symmetry along DNA sequences",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566561",
+            "doi": "10.1186/s12859-016-0905-0",
+            "scopus_id": "2-s2.0-84957009081",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Computerised Lung Auscultation - Sound Software (CLASS)",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566563",
+            "doi": "10.1016/j.procs.2015.08.589",
+            "scopus_id": "2-s2.0-84962832750",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Automatic Crackle Detection Algorithm Based on Fractal Dimension and Box Filtering",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566564",
+            "doi": "10.1016/j.procs.2015.08.592",
+            "scopus_id": "2-s2.0-84962826267",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The symmetry of oligonucleotide distance distributions in the Human Genome",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566565",
+            "doi": null,
+            "scopus_id": "2-s2.0-84938822285",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Analysis of single-strand exceptional word symmetry in the human genome: New measures",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566566",
+            "doi": "10.1093/biostatistics/kxu041",
+            "scopus_id": "2-s2.0-84926649522",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Communications in Computer and Information Science",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566567",
+            "doi": "10.1007/978-3-319-20352-2_11",
+            "scopus_id": "2-s2.0-84937510862",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exceptional single strand DNA word symmetry: analysis of evolutionary potentialities.",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566568",
+            "doi": "10.2390/biecoll-jib-2014-250",
+            "scopus_id": "2-s2.0-84937540124",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "XS: A FASTQ read simulator",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566569",
+            "doi": "10.1186/1756-0500-7-40",
+            "scopus_id": "2-s2.0-84892407950",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Automatic wheeze and respiratory phase detectors to evaluate respiratory physiotherapy in LRTI: A preliminary study",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566572",
+            "doi": null,
+            "scopus_id": "2-s2.0-84877967933",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The breakdown of the word symmetry in the human genome",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566573",
+            "doi": "10.1016/j.jtbi.2013.06.032",
+            "scopus_id": "2-s2.0-84880640252",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A genomic distance for assembly comparison based on compressed maximal exact matches",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566575",
+            "doi": "10.1109/TCBB.2013.77",
+            "scopus_id": "2-s2.0-84887940267",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The breakdown of Symmetry in Word Pairs in 1,092 Human Genomes",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566576",
+            "doi": null,
+            "scopus_id": "2-s2.0-84881055487",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Respiratory sound annotation software",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566578",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861982798",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "World modeling on an MSL robotic soccer team",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566580",
+            "doi": "10.1016/j.mechatronics.2010.05.011",
+            "scopus_id": "2-s2.0-79952617090",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Minimal absent words in prokaryotic and eukaryotic genomes",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566581",
+            "doi": "10.1371/journal.pone.0016065",
+            "scopus_id": "2-s2.0-79551646687",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Inter-dinucleotide distances in the human genome: an analysis of the whole-genome and protein-coding distributions.",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566582",
+            "doi": null,
+            "scopus_id": "2-s2.0-84855542023",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "5th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2011)",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566583",
+            "doi": "10.1007/978-3-642-19914-1_28",
+            "scopus_id": "2-s2.0-80052936474",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On finding minimal absent words",
+            "date": "2009-05-08",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566586",
+            "doi": "10.1186/1471-2105-10-137",
+            "scopus_id": "2-s2.0-67650878985",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Providing an environment to teach DSP algorithms",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566589",
+            "doi": "10.1109/DSPWS.2002.1231120",
+            "scopus_id": "2-s2.0-84954213980",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the use of backward adaptation in a perceptual audio coder",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-566590",
+            "doi": "10.1109/89.848231",
+            "scopus_id": "2-s2.0-0034229796",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Effects of the FIFA 11+ on ankle evertors latency time and knee muscle strength in amateur futsal players",
+            "date": "2019-05-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-623186",
+            "doi": "10.1080/17461391.2019.1609588",
+            "scopus_id": "2-s2.0-85065972091",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Data Analytics in Medicine",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1291676",
+            "doi": "10.4018/978-1-7998-1204-3.ch043",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Practical Applications of Computational Biology and Bioinformatics, 13th International Conference",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1291677",
+            "doi": "10.1007/978-3-030-23873-5_14",
+            "scopus_id": "2-s2.0-85068623167",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The FIFA 11+ does not alter physical performance of amateur futsal players",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1291678",
+            "doi": "10.23736/S0022-4707.18.08532-8",
+            "scopus_id": "2-s2.0-85064198973",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Distribution of Distances Between Symmetric Words in the Human Genome: Analysis of Regular Peaks",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1291680",
+            "doi": "10.1007/s12539-019-00326-x",
+            "scopus_id": "2-s2.0-85068597987",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Robot Soccer",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1291681",
+            "doi": "10.5772/7353",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Integrated Approach for Automatic Crackle Detection Based on Fractal Dimension and Box Filtering",
+            "date": "2016-10-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352243",
+            "doi": "10.4018/ijrqeh.2016100103",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Practical Applications of Computational Biology and Bioinformatics, 12th International Conference",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352373",
+            "doi": "10.1007/978-3-319-98702-6_10",
+            "scopus_id": "2-s2.0-85052960907",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "10th International Conference on Practical Applications of Computational Biology & Bioinformatics",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352374",
+            "doi": "10.1007/978-3-319-40126-3_16",
+            "scopus_id": "2-s2.0-84976408144",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "8th International Conference on Practical Applications of Computational Biology & Bioinformatics (PACBB 2014)",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352375",
+            "doi": "10.1007/978-3-319-07581-5_17",
+            "scopus_id": "2-s2.0-84921763778",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "7th International Conference on Practical Applications of Computational Biology & Bioinformatics",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352376",
+            "doi": "10.1007/978-3-319-00578-2_2",
+            "scopus_id": "2-s2.0-84880358522",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "RoboCup 2011: Robot Soccer World Cup XV",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352377",
+            "doi": "10.1007/978-3-642-32060-6_10",
+            "scopus_id": "2-s2.0-84865712605",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "RoboCup 2009: Robot Soccer World Cup XIII",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352378",
+            "doi": "10.1007/978-3-642-11876-0_32",
+            "scopus_id": "2-s2.0-77950996272",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Pattern Recognition in Bioinformatics",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352379",
+            "doi": "10.1007/978-3-642-16001-1_14",
+            "scopus_id": "2-s2.0-78049460831",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Progress in Artificial Intelligence",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352380",
+            "doi": "10.1007/978-3-642-04686-5_23",
+            "scopus_id": "2-s2.0-71049152967",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Progress in Artificial Intelligence",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2352381",
+            "doi": "10.1007/978-3-642-04686-5_29",
+            "scopus_id": "2-s2.0-71049141838",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advances in Intelligent Systems and Computing",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2354719",
+            "doi": "10.1007/978-3-030-52249-0_4",
+            "scopus_id": "2-s2.0-85088538331",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "High quality audio coding using backward estimation of perceptual phenomena",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2477542",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "6B1E-7520-BD18",
+                "3515-EA0C-24B9"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A backward-adaptive perceptual audio coder",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2546006",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "6B1E-7520-BD18",
+                "3515-EA0C-24B9"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Auditory models in audio coding",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2546337",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "6B1E-7520-BD18",
+                "3515-EA0C-24B9"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Muscle co-contraction assessment during walking in clinical practice-a preliminary accuracy and reproducibility study",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2580053",
+            "doi": "10.1186/s12913-016-1423-5",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Teaching and learning pulmonary auscultation: the Computerized Lung Auscultation–Sound Software (CLASS)",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2580048",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quantification of co-contraction index during walking using a low-tech ambulatory system - a preliminary reliability study",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2580052",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methodologies to assess muscle co-contraction during gait in people with neurological impairment: a systematic literature review",
+            "date": "2014-01-01",
+            "keywords": [
+                "Co-contraction",
+                "Co-activation",
+                "Gait",
+                "Walking",
+                "Neurological diseases"
+            ],
+            "ciencia_id": "cv-prod-id-2580051",
+            "doi": "10.1016/j.jelekin.2013.11.003",
+            "scopus_id": "2-s2.0-84895180472",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Compressão digital de sinais áudio aplicando critérios perceptuais e adaptação para trás",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2580054",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Codificação digital de áudio baseada em retroadaptação perceptual",
+            "date": "2004-01-01",
+            "keywords": [
+                "Engenharia electrónica",
+                "Compressão digital de sinais audio",
+                "Sistemas audio"
+            ],
+            "ciencia_id": "cv-prod-id-2580050",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

@@ -1,6 +1,17 @@
 from django.db import models
 import json
 
+class bcolors:
+    HEADER =	'\033[95m'
+    OKBLUE =	'\033[94m'
+    OKCYAN =	'\033[96m'
+    OKGREEN =	'\033[92m'
+    WARNING =	'\033[93m'
+    FAIL =		'\033[91m'
+    ENDC =		'\033[0m'
+    BOLD =		'\033[1m'
+    UNDERLINE = '\033[4m'
+
 # Create your models here.
 
 class Area(models.Model):
@@ -216,18 +227,24 @@ class Publication(models.Model):
         return "[{}] {}".format( str(self.date), self.title )
     
     def pretty(self):
-        return "[{:<11}] [{:<20}] [{:<30}] [{} {}] [{:<21}] [{:2d} {:2d} {} {}] {}".format(
-            str(self.scopus_id),
-            str(self.ciencia_id),
-            str(self.doi),
-            'SC' if self.from_scopus else '  ',
-            'CV' if self.from_ciencia else '  ',
-            self.publication_type.name,
+        return "[{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] {}".format(
+            str(self.scopus_id)[-11:],
+            str(self.ciencia_id)[-8:],
+            str(self.doi)[-20:],
+
+            bcolors.FAIL+'SC'+bcolors.ENDC if self.from_scopus else '  ',
+            bcolors.OKGREEN+'CV'+bcolors.ENDC if self.from_ciencia else '  ',
+
+            self.publication_type.name[-16:],
+
+            self.author_set.all().count(),
             self.keywords.all().count(),
             self.areas.all().count(),
             'Ab' if self.abstract != '' else '  ',
             'FT' if self.available else '  ',
-            str(self)
+
+            str(self.date),
+            self.title
         )
     
     #def load_keywords(self):

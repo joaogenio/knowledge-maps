@@ -1,0 +1,1893 @@
+{
+    "ciencia_id": "FC1E-EC5B-BD6B",
+    "name": "LUÍS MIGUEL TEIXEIRA DE JESUS",
+    "bio": "Luis M. T. Jesus received his first degree in 1996 from the University of Aveiro, Portugal, the M.Sc. degree in Speech Coding and Synthesis in 1997 from the University of East Anglia, Norwich, UK, and the Ph.D. degree in Acoustic Phonetics in 2001 from the University of Southampton, UK. Since 2001, he has been lecturing at the School of Health Sciences (ESSUA), University of Aveiro, and has been a member of the Institute of Electronics and Informatics Engineering of Aveiro (IEETA), University de Aveiro, Portugal. His research interests include phonetics, speech production and perception, speech production models, and human communication pathology. He is a member of the The Acoustical Society of America (ASA), International Phonetic Association (IPA) and International Speech Communication Association (ISCA).",
+    "domains": [
+        {
+            "name": "Medical and Health Sciences",
+            "code": "30000009"
+        }
+    ],
+    "degrees": [
+        "Ph.D. in Electronics",
+        "M.Sc. in Electronics",
+        "Engenharia Electrónica e Telecomunicações",
+        "Ciências das Saúde"
+    ],
+    "distinctions": [],
+    "projects": [
+        {
+            "name": "Intervention Software for Children with Speech Sound Disorders",
+            "desc": null,
+            "year": "2014",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Dysphonic to Natural Voice Reconstruction (DyNaVoiceR)",
+            "desc": null,
+            "year": "2018",
+            "areas": [
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+                    "code": "20200005"
+                },
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "REhabilitation and recovery of people with Aphasia after Stroke (RELEASE)",
+            "desc": null,
+            "year": "2016",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Respiratory Sound Assessment Toolkit (RSAT) – A auscultação do futuro!",
+            "desc": null,
+            "year": "2014",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Training Health Professionals to use Computerised Lung Auscultation (CLA)",
+            "desc": null,
+            "year": "2014",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Voicing Production and Maintenance of Consonantal Sounds in Phonological Disorders",
+            "desc": ", Brazil, 2013-2016. Amount awarded: 25000 Euro.",
+            "year": "2013",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Acoustic and Aerodynamic Analysis of Speech Production by Patients with Unilateral Vocal Fold Paralysis",
+            "desc": null,
+            "year": "2007",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences - Medical Biotechnology - Health-Related Biotechnology",
+                    "code": "30401001"
+                },
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+                    "code": "20200005"
+                }
+            ]
+        },
+        {
+            "name": "HERON -A Framework for Portuguese Articulatory Synthesis Research",
+            "desc": "R&D Project POSI/PLP/57680/2004 grant, Portugal, 2005-2007. Amount awarded: ",
+            "year": "2005",
+            "areas": [
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+                    "code": "20200005"
+                }
+            ]
+        },
+        {
+            "name": "Analysis and Synthesis of Fricative Consonants",
+            "desc": null,
+            "year": "1997",
+            "areas": [
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+                    "code": "20200005"
+                }
+            ]
+        },
+        {
+            "name": "The Collaboration of Aphasia Trialists 2 (CATs2)",
+            "desc": null,
+            "year": "2017",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Developing a European partnership and perspective on dementia for education and research",
+            "desc": null,
+            "year": "2012",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Coast -2 -Coast Anglo -Portuguese Rehabilitation Research Network (University of Southampton, UK and University of Aveiro, Portugal)",
+            "desc": null,
+            "year": "2010",
+            "areas": [
+                {
+                    "name": "Medical and Health Sciences",
+                    "code": "30000009"
+                }
+            ]
+        },
+        {
+            "name": "Production-based Measures of Mixed -Source Speech Sounds: Acoustic, Aeroacoustics and Articulatory",
+            "desc": "Treaty of Windsor Anglo-Portuguese Joint Research Programme NºB-45/05/B-63/07 grant, 2005-2008. Amount awarded: 4500 Euro.",
+            "year": "2005",
+            "areas": [
+                {
+                    "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+                    "code": "20200005"
+                }
+            ]
+        }
+    ],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "The Table to Tablet (T2T) Speech and Language Therapy Software Development Roadmap",
+            "date": "2019-01-30",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450387",
+            "doi": "10.2196/11596",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Validity and reliability of The Activities and Participation Profile (TAPP)",
+            "date": "2018-07-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450388",
+            "doi": "10.1080/02687038.2018.1482400",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The letter knowledge assessment tool",
+            "date": "2018-07-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450389",
+            "doi": "10.1080/14015439.2017.1384055",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reliability and validity evidence of the Assessment of Language Use in Social Contexts for Adults (ALUSCA)",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450390",
+            "doi": "10.1080/14015439.2018.1458898",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Speech and language therapy service delivery: overcoming limited provision for children",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450391",
+            "doi": "10.1016/j.puhe.2017.06.013",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advances in Speech-language Pathology",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450392",
+            "doi": "10.5772/intechopen.69643",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advances in Speech-language Pathology",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450393",
+            "doi": "10.5772/intechopen.69644",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Laryngeal Articulation during Trumpet Performance: An Exploratory Study",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450394",
+            "doi": "10.21437/Interspeech.2017-315",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Segmental cues to intonation of statements and polar questions in whispered, semi-whispered and normal speech modes",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450395",
+            "doi": "10.1016/j.wocn.2017.04.001",
+            "scopus_id": "2-s2.0-85019112741",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Visual stimuli in intervention approaches for pre-schoolers diagnosed with phonological delay",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450396",
+            "doi": "10.1080/14015439.2017.1307445",
+            "scopus_id": "2-s2.0-85016997504",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A country-wide probability sample of public attitudes toward stuttering in Portugal",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450397",
+            "doi": "10.1016/j.jfludis.2017.03.001",
+            "scopus_id": "2-s2.0-85015608188",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Paediatric Automatic Phonological Analysis Tools (APAT)",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450398",
+            "doi": "10.1080/14015439.2016.1237544",
+            "scopus_id": "2-s2.0-84991035263",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Acoustic Evidence of New Sibilants in the Pronunciation of Young Polish Women",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450399",
+            "doi": "10.1515/psicl-2016-0004",
+            "scopus_id": "2-s2.0-84967223691",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Table to Tablet (T2T) therapy software development approach",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450400",
+            "doi": "10.1109/CISTI.2015.7170549",
+            "scopus_id": "2-s2.0-84943328810",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Computerised Lung Auscultation - Sound Software (CLASS)",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450401",
+            "doi": "10.1016/j.procs.2015.08.589",
+            "scopus_id": "2-s2.0-84962832750",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Stop and Fricative Devoicing in European Portuguese, Italian and German",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450402",
+            "doi": "10.1177/0023830914530604",
+            "scopus_id": "2-s2.0-84930458900",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The clinical practice of speech and language therapists with children with phonologically based speech sound disorders",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450403",
+            "doi": "10.1177/0265659014550420",
+            "scopus_id": "2-s2.0-84926623574",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Is the Portuguese version of the passage 'The North Wind and the Sun' phonetically balanced?",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450404",
+            "doi": "10.1017/S0025100314000255",
+            "scopus_id": "2-s2.0-84927166075",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Event- and interval-based measurement of stuttering: A review",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450405",
+            "doi": "10.1111/1460-6984.12113",
+            "scopus_id": "2-s2.0-84923106509",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Phonological processes in Portuguese children with speech sound disorders",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450406",
+            "doi": "10.1515/psicl-2015-0003",
+            "scopus_id": "2-s2.0-84926667917",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Intervocalic fricative perception in European Portuguese: An articulatory synthesis study",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450407",
+            "doi": "10.1016/j.specom.2015.09.001",
+            "scopus_id": "2-s2.0-84957032929",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Acoustic Correlates of Compensatory Adjustments to the Glottic and Supraglottic Structures in Patients with Unilateral Vocal Fold Paralysis",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450408",
+            "doi": "10.1155/2015/704121",
+            "scopus_id": "2-s2.0-84947283865",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Intended intonation of statements and polar questions in Polish in whispered, semi-whispered and normal speech modes",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450409",
+            "doi": null,
+            "scopus_id": "2-s2.0-84904602197",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Speech production in two occlusal classes",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450410",
+            "doi": "10.7764/onomazein.29.12",
+            "scopus_id": "2-s2.0-84988928613",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Assessment of aphasia in Portugal: Past, present and future",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450411",
+            "doi": null,
+            "scopus_id": "2-s2.0-84911429719",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Quality of Life Predictors and Normative Data",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450412",
+            "doi": "10.1007/s11205-013-0559-5",
+            "scopus_id": "2-s2.0-84892709814",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Intelligibility as a clinical outcome measure following intervention with children with phonologically based speech-sound disorders",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450413",
+            "doi": "10.1111/1460-6984.12095",
+            "scopus_id": "2-s2.0-84908170982",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Cue-weighting in the perception of intervocalic stop voicing in European Portuguese",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450414",
+            "doi": "10.1121/1.4890639",
+            "scopus_id": "2-s2.0-84927145813",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Production and perception of velar stop (de)voicing in European Portuguese and Italian",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450415",
+            "doi": "10.1186/1687-4722-2014-6",
+            "scopus_id": "2-s2.0-84901794229",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Consequences of stroke and aphasia according to the ICF domains: Views of Portuguese people with aphasia, family members and professionals",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450416",
+            "doi": "10.1080/02687038.2014.906561",
+            "scopus_id": "2-s2.0-84901237840",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Horizons is Neuroscience Research",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450417",
+            "doi": null,
+            "scopus_id": "2-s2.0-84953398199",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Phonological and articulation treatment approaches in Portuguese children with speech and language impairments: A randomized controlled intervention study",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450418",
+            "doi": "10.1111/j.1460-6984.2012.00191.x",
+            "scopus_id": "2-s2.0-84874884090",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Aerodynamic measures of speech in unilateral vocal fold paralysis (UVFP) patients",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450419",
+            "doi": "10.3109/14015439.2012.696138",
+            "scopus_id": "2-s2.0-84879565783",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "(Non-)retroflex Slavic affricates and their motivation: Evidence from Czech and Polish",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450420",
+            "doi": "10.1017/S0025100312000205",
+            "scopus_id": "2-s2.0-84870164892",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Weak voicing in fricative production",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450421",
+            "doi": "10.1016/j.wocn.2012.06.002",
+            "scopus_id": "2-s2.0-84863467209",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Estimation Of Stops' Spectral Place Cues Using Multitaper Techniques",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450422",
+            "doi": "10.1590/S0102-44502012000100001",
+            "scopus_id": "2-s2.0-84870227529",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Comas and Syncope: Causes, Prevention and Treatment",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450423",
+            "doi": null,
+            "scopus_id": "2-s2.0-84892069632",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Computational Processing of the Portuguese Language",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450424",
+            "doi": "10.1007/978-3-642-28885-2_38",
+            "scopus_id": "2-s2.0-84858419204",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Assessment of comatose patients: A Portuguese instrument based on the Coma Recovery Scale - Revised and using nursing standard terminology",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450425",
+            "doi": "10.1111/j.1365-2648.2010.05559.x",
+            "scopus_id": "2-s2.0-79954551947",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Temporal acoustic correlates of the voicing contrast in European Portuguese stops",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450426",
+            "doi": "10.1017/S0025100310000186",
+            "scopus_id": "2-s2.0-78650332117",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Aerodynamics of fricative production in European Portuguese",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450428",
+            "doi": null,
+            "scopus_id": "2-s2.0-70450169774",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Voice quality evaluation using cape-v and grbas in European portuguese",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450429",
+            "doi": null,
+            "scopus_id": "2-s2.0-79751477655",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Universidade de Aveiro's voice evaluation protocol",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450430",
+            "doi": null,
+            "scopus_id": "2-s2.0-70450172343",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Computational Processing of the Portuguese Language",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450431",
+            "doi": "10.1007/978-3-540-85980-2_2",
+            "scopus_id": "2-s2.0-52949136665",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Vowel production in two occlusal classes",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450432",
+            "doi": null,
+            "scopus_id": "2-s2.0-56149118499",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Simulation of human speech production applied to the study and synthesis of European Portuguese",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450433",
+            "doi": "10.1155/ASP.2005.1435",
+            "scopus_id": "2-s2.0-27844573290",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Acoustic analysis of European Portuguese uvular [, ] and voiceless tapped alveolar [] fricatives",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450434",
+            "doi": "10.1017/S0025100305001866",
+            "scopus_id": "2-s2.0-33644601170",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Adding fricatives to the Portuguese articulatory synthesiser",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450435",
+            "doi": null,
+            "scopus_id": "2-s2.0-27844455306",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Computational Processing of the Portuguese Language",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450436",
+            "doi": "10.1007/3-540-45011-4_1",
+            "scopus_id": "2-s2.0-7044261960",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A case study of Portuguese and English bilinguality",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450437",
+            "doi": null,
+            "scopus_id": "2-s2.0-85009267007",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A parametric study of the spectral characteristics of European Portuguese fricatives",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-450438",
+            "doi": "10.1006/jpho.2002.0169",
+            "scopus_id": "2-s2.0-0036656884",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "/l/ velarisation as a continuum",
+            "date": "2019-03-11",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-466187",
+            "doi": "10.1371/journal.pone.0213392",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Usability of Computerized Lung Auscultation – Sound Software (CLASS) for learning pulmonary auscultation",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-466722",
+            "doi": "10.1007/s11517-017-1697-8",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The aerodynamics of voiced stop closures",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1410829",
+            "doi": "10.1186/s13636-019-0162-z",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Treating Children With Speech Sound Disorders: Development of a Tangible Artefact Prototype",
+            "date": "2019-12-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1410830",
+            "doi": "10.2196/13861",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": " RELEASE: A protocol for a systematic review based, individual participant data, meta- and network meta-analysis, of complex speech-language therapy interventions for stroke-related aphasia",
+            "date": "2020-02-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414356",
+            "doi": "10.1080/02687038.2019.1643003",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Comparing Traditional and Tablet-Based Intervention for Children With Speech Sound Disorders: A Randomized Controlled Trial",
+            "date": "2019-11-22",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414357",
+            "doi": "10.1044/2019_jslhr-s-18-0301",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Linguistic Intraoperative Protocol",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414358",
+            "doi": "10.36505/exling-2019/10/0030/000392",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Tidier descriptions of speech and language therapy interventions for people with aphasia; consensus from the RELEASE Collaboration",
+            "date": "2018-09-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414359",
+            "doi": "10.1080/02687038.2018.1487021",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Who participates in aphasia research? An analysis of the REhabilitation and recovery of peopLE with Aphasia after StrokE (RELEASE) data set",
+            "date": "2018-07-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414360",
+            "doi": "10.1080/02687038.2018.1487019",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Medidas aerodinâmicas, eletroglotográficas e acústicas na produção da fricativa pós-alveolar vozeada",
+            "date": "2018-06-28",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1414362",
+            "doi": "10.1590/2317-1782/20182017177",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "/l/ Velarisation as a Continuum in European Portuguese",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1416286",
+            "doi": "10.5220/0005428300360044",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Aerodynamics and Laryngeal Features of Contrast",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1416422",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "C714-4E4A-9350"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Statistical Analysis of the Aerodynamics of Voiced Stop Closures",
+            "date": "2019-05-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1417851",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "C714-4E4A-9350"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Analysing the gains in using the T2T mobile application in Speech and Language Therapy intervention for children with Speech Sound Disorders",
+            "date": "2018-05-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1417988",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7F1B-D343-8891",
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Sydney Swallow Questionnaire: European Portuguese Translation",
+            "date": "2018-05-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1418019",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7F1B-D343-8891",
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Portuguese Translation and Cultural Adaptation of the Self-Administered Amyotrophic Lateral Sclerosis Functional Rating Scale - Revised",
+            "date": "2018-05-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1418049",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7F1B-D343-8891",
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Canto e Proprioceptividade: Uma Avaliação do Desempenho Vocal de Cantores Estudantes [Singing and Proprioception: Assessment of Singing Student’s Vocal Performance]",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1418162",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Analiza akustyczna i sociolingwistyczna nowych sybilantow w wymowie mlodych Polek [Acoustic and sociolinguistic analysis of new sibilants in the speech of young Polish women]",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1418215",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Content validation of the Communication Disability Profile (CDP) – Portuguese Version",
+            "date": "2016-05-06",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419389",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Book chapter",
+            "title": "Stuttering: Risk Factors, Public Attitudes and Impact on Psychological Well-Being",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419506",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "4211-5C6A-E911",
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Living with Aphasia",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419606",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Is the Relative Fundamental Frequency an Acoustic Correlate of Laryngeal Tension in Portuguese Speakers?",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419633",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Effects of Intonation on Acoustic Properties of Fricatives",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419652",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Acoustic Analysis and Clinical Implications: evidence from the lateral /l/",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1419719",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "University of Aveiro’s Advanced Voice Function Assessment Databases (AVFAD)",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1420616",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "University of Aveiro’s Standardised Voice Case History Form",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1420634",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7F1B-D343-8891"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Aphasia Assessment by the Portuguese Speech and Language Therapists",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1420684",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08",
+                "7F1B-D343-8891"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "How do voiceless consonant clusters contribute to intended intonation? A comparison of normal, whispered and semi-whispered speech",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1420756",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": " Avaliação da Atividade e Participação da Pessoa com Afasia [Activity and Participation Assessment of People with Aphasia]",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1426905",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Verbal communication with unconscious patients",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1426994",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Consequences of stroke and aphasia according to the WHO ICF: Views of people with aphasia, family members and professionals",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429793",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Devoicing of phonologically voiced stops in European Portuguese – a comparative production and perception study",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429820",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Estudo Acústico das Consoantes Líquidas do Português Europeu: Primeiras Evidências Temporais e Espectrais",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429849",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Limitations of the social relationships domain of WHOQOL-Bref",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429862",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Quality of life predictors for Portuguese general population",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429882",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": " Practical Implications of the Use of Different Assessment Tools in Aphasia",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429900",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Diferenças entre o Português Europeu e o Português Brasileiro: Um Estudo Preliminar sobre a Pronúncia no Canto Lírico",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1429917",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Assessing quality of life in aphasia: The benefits and limitations of the WHOQOL-Bref in therapy planning for aphasia in Portugal",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430142",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Devoicing of phonologically voiced obstruents: Is European Portuguese different from other Romance languages?",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430198",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Fricative Spectra in Normal and Hearing Impaired Children with Cochlear Implant",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430214",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7F1B-D343-8891"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Vowel Acoustics in Normal and Hearing Impaired Children with Cochlear Implant",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430245",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7F1B-D343-8891"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Analysis of voiced fricative production using Videoendoscopy: towards a model of the voicing offset mechanism",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430307",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Analysis of open quotient in Voiced Fricative production using EGG",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430330",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Portuguese translation and adaptation of the communication disability profile (CDP) and the participation objective, participation subjective (POPS) tools",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430344",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "The development of a tool to gather information regarding the activities and participation of persons with aphasia in Portugal",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430354",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7910-659F-BA08"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Verbal communication with unconscious patients",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430418",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Voice quality, pragmatics and psychosocial functioning in schizophrenia: An exploratory study",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1430445",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B",
+                "7F1B-D343-8891",
+                "2D1A-3A11-6E60"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Investigation of the mechanisms of voicing offset",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1431597",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Articulatory Oral Space Measures Using the Modified A-Space",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1431833",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Use of Onomatopeias to Describe Environmental Sounds",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1431884",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Análise Temporal das Oclusivas Orais do Português Europeu: Um Estudo de Caso de Normalidade e Perturbação Fonológica [Temporal analysis of European Portuguese stops: A case study of normality and phonologically disturbance]",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1431943",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Analysis of Stop Consonant Production in European Portuguese",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432055",
+            "doi": "10.36505/ExLing-2006/01/0038/000038",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Acoustics of speech and environmental Sounds",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432064",
+            "doi": "10.36505/exling-2006/01/0049/000049",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Traços articulatórios e acústicos das consoantes laterais",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432082",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Estudo do pré-vozeamento, frequência do burst e locus de F2 das oclusivas orais do Português Europeu",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432434",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "The Influence of Occlusal Class in the Production of Voiceless Fricatives",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432453",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Measures of voiced frication for automatic classification",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432498",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Temporal and devoicing analysis of european portuguese fricatives",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432750",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Acoustic Phonetics of European Portuguese Fricative Consonants",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432761",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Parameterizing spectral characteristics of European Portuguese fricatives",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432765",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Acoustic analysis of a speech corpus of European Portuguese fricative consonants",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432773",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "An implementation of the Klatt speech synthesizer",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432777",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Speech coding and synthesis using parametric curves",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432787",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Speech coding and synthesis using parametric curves",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432791",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Quality of life and social relationships of people with aphasia",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432820",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Preliminary findings of the consequences of stroke and aphasia on family members’ Activity and Participation",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432904",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Participatory workshops: An inclusive method for people with aphasia",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1432939",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Establishing an international shared aphasia individual patient dataset for the REhabilitation and recovery of peopLE with Aphasia after StrokE (RELEASE) project",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433154",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Effectiveness of Two Methods of Phonological Interventions for Speech Sound Disorders: Tabletop & Tablet",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433170",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Assessment of Children's Speech Natural Maturation: Voicing of Fricative Consonants",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433173",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Construct Validity Evidence of the Assessment of Language Use in Adults (ALUSCA)",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433181",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Análise da Medida Aerodinâmica de Weak Voicing na Produção do Som [v] [Aerodynamic Analysis of [v] using the Weak Voicing Measure as a Classification Criterion]",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433189",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Exploring the Views of Service Users on a Novel Intervention for Children with Speech Sound Disorders: Design and Pretesting",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433192",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "A Collaborative and Integrative Speech and Language Therapy Service Delivery Model for Children",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433198",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Developing a New Stuttering Assessment Tool: Severity Assessment Based on Events of Stuttering (SABES)",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433204",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Vowel Context in /l/ Production: Evidence from Acoustic Analysis",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433211",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Proprioceptividade no Canto: Uma Avaliação Qualitativa do Desempenho Vocal de Cantores Estudantes [Proprioception in Singing: A Qualitative Assessment of Singing Students’ Vocal Performance]",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433241",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Rhotics in European Portuguese: The variability in phonetic realisations",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1433257",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "/l/ Velarisation as a Continuum in European Portuguese",
+            "date": "2019-08-08",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451604",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Laryngeal Articulation during Trumpet Performance: An Exploratory Study",
+            "date": "2017-08-23",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451717",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Assessing the vocal productions of infant cochlear implant candidates: Validating the Infant Monitoring of Vocal Production (IMP) – Versão Portuguesa",
+            "date": "2017-05-27",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451839",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Quality of life and social relationships of people with aphasia",
+            "date": "2016-12-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451846",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Preliminary findings of the consequences of stroke and aphasia on family members’ Activity and Participation",
+            "date": "2016-12-15",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451855",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Vowel Context in /l/ Production: Evidence from Acoustic Analysis",
+            "date": "2016-08-23",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451878",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Assessment of Aphasia in Portugal: Past, present and future",
+            "date": "2014-09-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451882",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Universidade de Aveiro´s Voice Evaluation Protocol",
+            "date": "2009-09-08",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451886",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Vowel Production in Two Occlusal Classes",
+            "date": "2007-08-29",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451897",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "The In¿uence of Occlusal Class in the Production of Voiceless Fricatives",
+            "date": "2005-10-13",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1451984",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "A case study of Portuguese and English Bilinguality",
+            "date": "2002-09-20",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1452010",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Durational and Voicing Characteristics of Fricatives",
+            "date": "2002-06-30",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1452061",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Parameterizing Spectral Characteristics of European Portuguese Fricatives",
+            "date": "2000-05-04",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1452069",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "Speech Coding and Synthesis Using Parametric Curves",
+            "date": "1997-09-23",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1452086",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Communicating simply, but not too simply: Reporting of participants and speech and language interventions for aphasia after stroke",
+            "date": "2020-05-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2055079",
+            "doi": "10.1080/17549507.2020.1762000",
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Interventions to Prevent Aspiration Pneumonia in Older Adults: An Updated Systematic Review",
+            "date": "2021-02-17",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2307505",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Protocol for the development of the international population registry for aphasia after stroke (I-PRAISE)",
+            "date": "2022-04-03",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2660857",
+            "doi": "10.1080/02687038.2021.1914813",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Language assessment in awake brain surgery: the Portuguese adaptation of the Dutch linguistic intraoperative protocol (DuLIP)",
+            "date": "2021-11-16",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2730354",
+            "doi": "10.1080/02699206.2020.1868022",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A comparative study of European Portuguese stop consonants and fricatives in whispered speech and normal speech for real-time operation of voice conversion",
+            "date": "2021-12-14",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2749805",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "FC1E-EC5B-BD6B"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Dosage, Intensity, and Frequency of Language Therapy for Aphasia: A Systematic Review–Based, Individual Participant Data Network Meta-Analysis",
+            "date": "2022-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3057167",
+            "doi": "10.1161/strokeaha.121.035216",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An aphasia research agenda – a consensus statement from the collaboration of aphasia trialists",
+            "date": "2022-04-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3102808",
+            "doi": "10.1080/02687038.2021.1957081",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Utilising a systematic review-based approach to create a database of individual participant data for meta- and network meta-analyses: the RELEASE database of aphasia after stroke",
+            "date": "2022-04-02",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3102814",
+            "doi": "10.1080/02687038.2021.1897081",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Oral and Laryngeal Articulation Control of Voicing in Children with and without Speech Sound Disorders",
+            "date": "2022-05-27",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3141172",
+            "doi": "10.3390/children9050649",
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

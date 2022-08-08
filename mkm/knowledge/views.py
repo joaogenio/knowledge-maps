@@ -18,6 +18,17 @@ nltk.download('stopwords')
 
 from difflib import SequenceMatcher
 
+class bcolors:
+    HEADER =	'\033[95m'
+    OKBLUE =	'\033[94m'
+    OKCYAN =	'\033[96m'
+    OKGREEN =	'\033[92m'
+    WARNING =	'\033[93m'
+    FAIL =		'\033[91m'
+    ENDC =		'\033[0m'
+    BOLD =		'\033[1m'
+    UNDERLINE = '\033[4m'
+
 # Create your views here.
 
 # Define important Publication Types for sorting
@@ -78,11 +89,110 @@ def index_view(request):
 
                 authors = Author.objects.all()
 
+                counters_sc = {
+                    'new': 0,
+                    's_sc': 0,
+                        's_sc_d_cv': 0,
+                        's_sc_d_doi': 0,
+                    's_cv': 0,
+                        's_cv_d_sc': 0,
+                        's_cv_d_doi': 0,
+                    's_doi': 0,
+                        's_doi_d_sc': 0,
+                        's_doi_d_cv': 0,
+                    's_abstract': 0,
+                    's_title': 0,
+                    's_title_contained': 0,
+                }
+
+                counters_cv = counters_sc.copy()
+
+                for author in authors:
+
+                    #if author.pk == 15 or author.pk == 7:
+
+                    y = sync_scopus_docs(author.pk)
+                    counters_sc = {k: counters_sc.get(k, 0) + y.get(k, 0) for k in set(counters_sc) & set(y)}
+
+                    y = sync_ciencia(author.pk)
+                    counters_cv = {k: counters_cv.get(k, 0) + y.get(k, 0) for k in set(counters_cv) & set(y)}
+
+                print('')
+                print(f"new                {counters_sc['new']}")
+                print('')
+                print(f"s_sc               {counters_sc['s_sc']}")
+                print(f"|_ s_sc_d_cv       |_ {counters_sc['s_sc_d_cv']}")
+                print(f"|_ s_sc_d_doi      |_ {counters_sc['s_sc_d_doi']}")
+                print('')
+                print(f"s_cv               {counters_sc['s_cv']}")
+                print(f"|_ s_cv_d_sc       |_ {counters_sc['s_cv_d_sc']}")
+                print(f"|_ s_cv_d_doi      |_ {counters_sc['s_cv_d_doi']}")
+                print('')
+                print(f"s_doi              {counters_sc['s_doi']}")
+                print(f"|_ s_doi_d_sc      |_ {counters_sc['s_doi_d_sc']}")
+                print(f"|_ s_doi_d_cv      |_ {counters_sc['s_doi_d_cv']}")
+                print('')
+                print(f"s_abstract         {counters_sc['s_abstract']}")
+                print(f"s_title            {counters_sc['s_title']}")
+                print(f"s_title_contained  {counters_sc['s_title_contained']}")
+                print('')
+                print(f"new                {counters_cv['new']}")
+                print('')
+                print(f"s_sc               {counters_cv['s_sc']}")
+                print(f"|_ s_sc_d_cv       |_ {counters_cv['s_sc_d_cv']}")
+                print(f"|_ s_sc_d_doi      |_ {counters_cv['s_sc_d_doi']}")
+                print('')
+                print(f"s_cv               {counters_cv['s_cv']}")
+                print(f"|_ s_cv_d_sc       |_ {counters_cv['s_cv_d_sc']}")
+                print(f"|_ s_cv_d_doi      |_ {counters_cv['s_cv_d_doi']}")
+                print('')
+                print(f"s_doi              {counters_cv['s_doi']}")
+                print(f"|_ s_doi_d_sc      |_ {counters_cv['s_doi_d_sc']}")
+                print(f"|_ s_doi_d_cv      |_ {counters_cv['s_doi_d_cv']}")
+                print('')
+                print(f"s_abstract         {counters_cv['s_abstract']}")
+                print(f"s_title            {counters_cv['s_title']}")
+                print(f"s_title_contained  {counters_cv['s_title_contained']}")
+
+                publications = Publication.objects.all()
+                author_count = {}
+
+                for publication in publications:
+
+                    count = publication.author_set.all().count()
+                    if not count in author_count:
+                        author_count[count] = 1
+                    else:
+                        author_count[count] += 1
+                
+                for key in author_count:
+                    print(key, author_count[key])
+            
+            if 'test2' in request.POST:
+
+                publications = Publication.objects.all()
+
+                print(publications.count())
+
+                for publication in publications:
+                    if publication.author_set.count() == 8:
+                        print(publication.pretty())
+                        for author in publication.author_set.all():
+                            print(author)
+            
+            if 'test3' in request.POST:
+
+                authors = Author.objects.all()
+                firstdone = False
+
                 for author in authors:
                     pk = author.pk
 
-                    ###
-                    #pk = 62
+                    if firstdone:
+                        break
+                    ### uncomment to debug a specific author
+                    #firstdone = True
+                    #pk = 39
                     #author = Author.objects.get(pk=pk)
 
                     pubs_a = []
@@ -91,18 +201,33 @@ def index_view(request):
                     print("\n")
                     print(author.pk, author.name)
 
-                    if False:
+                    if True:
 
+                        # pubs 'B' CV -> SC
+
+                        publications = Publication.objects.all()
+                        for publication in publications:
+                            publication.delete()
+
+                        sync_ciencia(pk)
+                        sync_scopus_docs(pk)
+                        with open(f'{author.scopus_id}_pubs_b.txt', 'w', encoding="utf-8") as f:
+                            pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
+                            for pub in pubs:
+                                sc_id = pub.scopus_id
+                                pubs_b.append(pub.pretty())
+                                f.write(f"{pub.pretty()}\n")
+                        
+                        # pubs 'A' SC -> CV
+                        
                         publications = Publication.objects.all()
                         for publication in publications:
                             publication.delete()
 
                         sync_scopus_docs(pk)
                         sync_ciencia(pk)
-                        
                         with open(f'{author.scopus_id}_pubs_a.txt', 'w', encoding="utf-8") as f:
                             pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
-                            
                             for pub in pubs:
                                 sc_id = pub.scopus_id
                                 #print("\n" + str(sc_id), end=" ")
@@ -113,24 +238,11 @@ def index_view(request):
                                 #print(pub.pretty())
                                 pubs_a.append(pub.pretty())
                                 f.write(f"{pub.pretty()}\n")
-                        
-                        publications = Publication.objects.all()
-                        for publication in publications:
-                            publication.delete()
-
-                        sync_ciencia(pk)
-                        sync_scopus_docs(pk)
-
-                        with open(f'{author.scopus_id}_pubs_b.txt', 'w', encoding="utf-8") as f:
-                            pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
-                            
-                            for pub in pubs:
-                                sc_id = pub.scopus_id
-                                pubs_b.append(pub.pretty())
-                                f.write(f"{pub.pretty()}\n")
                     
                     #pubs_a = [   1,    3, None,    6,    8]
-                    #pubs_b = [0,    2, 3, 4, 5, 6, 7]
+                    #pubs_b = [0,    2, 3, 4,    5, 6, 7]
+                    pubs_a = []
+                    pubs_b = []
 
                     with open(f'{author.scopus_id}_pubs_a.txt', 'r', encoding="utf-8") as f:
                         for line in f:
@@ -219,9 +331,8 @@ def index_view(request):
                     
                     print(sep)
                     print(len(pubs_a), len(pubs_b))
-
-            
-            if 'test2' in request.POST:
+       
+            if 'test4' in request.POST:
 
                 authors = Author.objects.prefetch_related(
                     'projects__areas',
@@ -248,139 +359,138 @@ def index_view(request):
                 # We want to test A vs B. But then B vs A will be unnecessary
                 iterated_pubs = []
 
+                firstdone = False
+
                 for author in authors:
 
-                    if author.pk == 62:
+                    pk = author.pk
 
-                        publications = author.publications.all()
-                        
-                        for publication in publications:
+                    if firstdone:
+                        break
+                    ### uncomment to debug a specific author
+                    #firstdone = True
+                    #pk = 38#7#15#39#62#47#55
+                    #author = Author.objects.get(pk=pk)
 
-                            if publication.publication_type != erratum_id:
+                    print("\n")
+                    print(author.pk, author.name)
 
-                                iterated_pubs.append(publication.pk)
+                    publications = author.publications.all()
+                    
+                    for publication in publications:
 
-                                #print(publication.pk, end=' ')
-                                #print("\n\nTesting \"" + publication.title + "\"")
+                        if publication.publication_type != erratum_id:
 
-                                # NAME TEST
+                            iterated_pubs.append(publication.pk)
 
-                                # Lower case
-                                name_a = publication.title.lower()
+                            # NAME TEST
+                            a = text_pipeline(publication.title)
 
-                                # Separate words. Example: 'system-on-chip' -> 'system on chip'
-                                name_a = name_a.replace('-', ' ').replace('/', ' ').replace("'", ' ')
+                            for test in publications:
+                                if test.pk not in iterated_pubs and \
+                                    publication.pk != test.pk and \
+                                    test.publication_type != erratum_id and \
+                                    test.publication_type == publication.publication_type and \
+                                    publication.date.year == test.date.year:
+                                    
+                                    # NAME TEST
+                                    b = text_pipeline(test.title)
 
-                                # Tokenize
-                                # Won't exclude '16:9', 'systems-on-chip', 'ua.pt', ...
-                                tokenized_a = word_tokenize(name_a)
+                                    # https://www.educative.io/answers/what-is-sequencematcher-in-python
+                                    match = SequenceMatcher(None, a, b).ratio()
 
-                                # Remove non alphanumeric tokens
-                                new_tokanized_a = []
-                                for token in tokenized_a:
-                                    if token.isalnum():
-                                        new_tokanized_a.append(token)
+                                    abstract_count = 0
+                                    if publication.abstract != "":
+                                        abstract_count += 1
+                                    if test.abstract != "":
+                                        abstract_count += 1
+                                    
+                                    f_same_scopus = False
+                                    f_same_ciencia = False
+                                    f_same_doi = False
+                                    if publication.scopus_id == test.scopus_id and publication.scopus_id != None:
+                                        same_scopus += 1
+                                        f_same_scopus = True
+                                    if publication.ciencia_id == test.ciencia_id and publication.ciencia_id != None:
+                                        same_ciencia += 1
+                                        f_same_ciencia = True
+                                    if publication.doi == test.doi and publication.doi != None:
+                                        same_doi += 1
+                                        f_same_doi = True
 
-                                # Remove stop words
-                                stop_tokanized_a = []
-                                stop_words = set(stopwords.words('english'))
-                                for token in new_tokanized_a:
-                                    if not token in stop_words:
-                                        stop_tokanized_a.append(token)
+                                    if match > 0.7:# and abstract_count == 0:# and match != 1:
 
-                                a = " ".join(stop_tokanized_a)
+                                        sa = publication.pretty()
+                                        sb = test.pretty()
 
-                                for test in publications:
-                                    if test.pk not in iterated_pubs and \
-                                        publication.pk != test.pk and \
-                                        test.publication_type != erratum_id and \
-                                        test.publication_type == publication.publication_type:
+                                        sep = "-"*(103+3+103) + '\n'
+
+                                        sa1 = sep + "{}]  ".format( '] '.join(sa.split('] ')[:-1]) )
+                                        sa2 = "{:<103}  ".format( sa.split('] ')[-1].replace('\n', '')[:103] )
+                                        sa3 = "{:<103}  ".format( a[:103] )
+                                        sa4 = "{:<103}  ".format( publication.abstract[:103] )
+
+                                        sb1 = "{}]  ".format( '] '.join(sb.split('] ')[:-1]) )
+                                        sb2 = "{:<103}  ".format( sb.split('] ')[-1].replace('\n', '')[:103] )
+                                        sb3 = "{:<103}  ".format( b[:103] )
+                                        sb4 = "{:<103}  ".format( test.abstract[:103] )
+
+                                        print(sa1, sb1)
+                                        print(sa2, sb2)
+
+                                        if match == 1:
+                                            color = bcolors.OKGREEN
+                                        elif contained(a, b, dbg=False):#a in b or b in a:
+                                            color = bcolors.OKBLUE
+                                        else:
+                                            color = bcolors.WARNING
+                                        print(f"{color}{sa3} {sb3}{bcolors.ENDC}")
+                                        print("{}{}Match: {:.3f}{}".format(98*' ', color, match, bcolors.ENDC))
                                         
-                                        # NAME TEST
+                                        match = 'N/A'
+                                        color = bcolors.WARNING
+                                        if publication.abstract != '' and test.abstract != '':
+                                            abstract_a = text_pipeline(publication.abstract)
+                                            abstract_b = text_pipeline(test.abstract)
+                                            match = SequenceMatcher(None, abstract_a, abstract_b).ratio()
+                                            color = bcolors.OKGREEN if match > 0.95 else bcolors.FAIL
+                                            match = '{:.3f}'.format( match )
+                                        print(f"{color}{sa4} {sb4}{bcolors.ENDC}")
+                                        print("{}{}Match: {}{}".format(98*' ', color, match, bcolors.ENDC))
 
-                                        # Lower case
-                                        name_b = test.title.lower()
 
-                                        # Separate words. Example: 'system-on-chip' -> 'system on chip', "CAMBADA'2008" -> 'CAMBADA 2008'
-                                        name_b = name_b.replace('-', ' ').replace('/', ' ').replace("'", ' ')
+                                        #print()
+                                        #print(a)
+                                        #print(b)
+                                        ##print(match, publication.pk, test.pk)
+                                        #print()
+                                        #print(publication.publication_type.name + "s")
+                                        #print(publication.pk, "[{}]".format( str(publication.date) ), "("+str(len(publication.author_set.all()))+")", publication.title)
+                                        #print(publication.scopus_id, publication.ciencia_id, publication.doi, publication.from_scopus, publication.from_ciencia)
+                                        #print("vs")
+                                        #print(test.pk, "[{}]".format( str(test.date) ), "("+str(len(test.author_set.all()))+")", test.title)
+                                        #print(test.scopus_id, test.ciencia_id, test.doi, test.from_scopus, test.from_ciencia)
+                                        #print("\nMatch:", match)
+                                        #print("\n" + publication.abstract[:300])
+                                        #print("vs")
+                                        #print(test.abstract[:300])
 
-                                        # Tokenize
-                                        # Won't exclude '16:9', 'systems-on-chip', 'ua.pt', ...
-                                        tokenized_b = word_tokenize(name_b)
-
-                                        # Remove non alphanumeric tokens
-                                        new_tokanized_b = []
-                                        for token in tokenized_b:
-                                            if token.isalnum():
-                                                new_tokanized_b.append(token)
-
-                                        # Remove stop words
-                                        stop_tokanized_b = []
-                                        stop_words = set(stopwords.words('english'))
-                                        for token in new_tokanized_b:
-                                            if not token in stop_words:
-                                                stop_tokanized_b.append(token)
-
-                                        b = " ".join(stop_tokanized_b)
-
-                                        # https://www.educative.io/answers/what-is-sequencematcher-in-python
-                                        match = SequenceMatcher(None, a, b).ratio()
-
-                                        abstract_count = 0
-                                        if publication.abstract != "":
-                                            abstract_count += 1
-                                        if test.abstract != "":
-                                            abstract_count += 1
-                                        
-                                        f_same_scopus = False
-                                        f_same_ciencia = False
-                                        f_same_doi = False
-                                        if publication.scopus_id == test.scopus_id and publication.scopus_id != None:
-                                            same_scopus += 1
-                                            f_same_scopus = True
-                                        if publication.ciencia_id == test.ciencia_id and publication.ciencia_id != None:
-                                            same_ciencia += 1
-                                            f_same_ciencia = True
-                                        if publication.doi == test.doi and publication.doi != None:
-                                            same_doi += 1
-                                            f_same_doi = True
-
-                                        if match > 0.7:# and abstract_count == 0:# and match != 1:
-
-                                            print()
-                                            print(a)
-                                            print(b)
-                                            #print(match, publication.pk, test.pk)
-
-                                            print()
-                                            print(publication.publication_type.name + "s")
-                                            print(publication.pk, "[{}]".format( str(publication.date) ), "("+str(len(publication.author_set.all()))+")", publication.title)
-                                            print(publication.scopus_id, publication.ciencia_id, publication.doi, publication.from_scopus, publication.from_ciencia)
-                                            print("vs")
-                                            print(test.pk, "[{}]".format( str(test.date) ), "("+str(len(test.author_set.all()))+")", test.title)
-                                            print(test.scopus_id, test.ciencia_id, test.doi, test.from_scopus, test.from_ciencia)
-                                            print("\nMatch:", match)
-                                            print("\n" + publication.abstract[:300])
-                                            print("vs")
-                                            print(test.abstract[:300])
-                                            #print("\nSame? [y/n] ")
-                                            #x = None
-                                            #while(x != 'y' and x != 'n'):
-                                            #    x = input()
-                                            #if x == 'y':
-                                            #    matches += 1
-                                            matches += 1
-                                        
-                                        total += 1
+                                        #print("\nSame? [y/n] ")
+                                        #x = None
+                                        #while(x != 'y' and x != 'n'):
+                                        #    x = input()
+                                        #if x == 'y':
+                                        #    matches += 1
+                                        matches += 1
+                                    
+                                    total += 1
                             
                 print("\nmatches: " + str(matches) + " out of " + str(total))
                 print("same_scopus: " + str(same_scopus) + " out of " + str(total))
                 print("same_ciencia: " + str(same_ciencia) + " out of " + str(total))
                 print("same_doi: " + str(same_doi) + " out of " + str(total))
                 print()
-                                        
 
-                                        
 
 
             if 'add-author' in request.POST:
@@ -811,25 +921,88 @@ def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1,
 
     return labels, data
 
+def text_pipeline(text):
+    # Lower case
+    name = text.lower()
+    # Separate words. Example: 'system-on-chip' -> 'system on chip'
+    name = name.replace('-', ' ').replace('/', ' ').replace("'", ' ')
+    # Tokenize
+    # Won't exclude '16:9', 'systems-on-chip', 'ua.pt', ...
+    tokenized = word_tokenize(name)
+    # Remove non alphanumeric tokens
+    new_tokanized = []
+    for token in tokenized:
+        if token.isalnum():
+            new_tokanized.append(token)
+    # Remove stop words
+    stop_tokanized = []
+    stop_words = set( stopwords.words('portuguese') + stopwords.words('english') )
+    for token in new_tokanized:
+        if not token in stop_words:
+            stop_tokanized.append(token)
+    return " ".join(stop_tokanized)
+
+def contained(a, b, dbg=False):
+    # check if A is in B
+    contained = True
+    debug(f'\na {a}', debug=dbg)
+    for word in a.split(' '):
+        debug(f'word {word}', debug=dbg)
+        if not word in b:
+            debug(f'word {word} not in {b}', debug=dbg)
+            # stops when we find a word that's not in B
+            contained = False
+            break
+    
+    # only return if true
+    if contained:
+        return contained
+
+    # if A is not in B, maybe B is in A
+    else:
+        contained = True
+        debug(f'\nb {b}', debug=dbg)
+        for word in b.split(' '):
+            debug(f'word {word}', debug=dbg)
+            if not word in a:
+                debug(f'word {word} not in {a}', debug=dbg)
+                contained = False
+                break
+        debug('', debug=dbg)
+        
+        return contained
+
 def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
     keywords, publication_type, from_scopus, from_ciencia, \
     available, clean_text, abstract, areas):
 
-    debug_text = "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {}".format(
-        scopus_id,
-        ciencia_id,
-        doi,
-        date,
-        title,
-        from_scopus,
-        from_ciencia,
-        available
+    debug(110*'_')
+    color = bcolors.FAIL if from_scopus else bcolors.OKGREEN
+
+    debug_text = "{}FETCH{}: [{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] {}".format(
+        color,
+        bcolors.ENDC,
+        str(scopus_id)[-11:],
+        str(ciencia_id)[-8:],
+        str(doi)[-20:],
+        bcolors.FAIL+'SC'+bcolors.ENDC if from_scopus else '  ',
+        bcolors.OKGREEN+'CV'+bcolors.ENDC if from_ciencia else '  ',
+        publication_type.name[-16:],
+        ' ', # Authors
+        len(keywords),
+        len(areas),
+        'Ab' if abstract != None else '  ',
+        'FT' if available else '  ',
+        str(date),
+        title
     )
     
     merge = False
     reason = ''
 
-    for test in author.publications.all():
+    publications = Publication.objects.all()
+
+    for test in publications.all():
 
         # test -> The publication that we are 'testing' against.
         # if the 'test' publication already has the info that we're trying to add,
@@ -846,6 +1019,7 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                 
                 merge = True
                 reason = 'same scopus'
+                debug_text += f"\nTEST : { test.pretty() }"
 
                 # Verifying that there's no different 'id info' between the 2 publications.
                 # Example: They have the same 'scopus_id', but then specify different "doi"s.
@@ -869,13 +1043,11 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                     if test.ciencia_id != ciencia_id:
                         # They provide different info. There may be no way to handle this merge.
                         # Same 'scopus_id' but different 'ciencia_id'
-                        debug(debug_text)
-                        debug("\n  -1-  I N C O N S I S T E N C Y  --\n")
-                        debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-                        
                         reason += ' different ciencia'
-                        #merge = False
-                        #continue
+
+                        debug(debug_text)
+                        debug_text = ''
+                        #debug("-1-  I N C O N S I S T E N C Y  --")
                     else:
                         # They already provide the same info (!None info).
                         pass
@@ -885,15 +1057,12 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                 elif test.doi != None and doi != None:
                     if test.doi != doi:
                         # Same 'scopus_id' but different 'doi'
-                        debug(debug_text)
-                        debug("\n  -2-  I N C O N S I S T E N C Y  --\n")
-                        debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-                        
                         reason += ' different doi'
-                        #merge = False
-                        #continue
+
+                        debug(debug_text)
+                        debug_text = ''
+                        #debug("-2-  I N C O N S I S T E N C Y  --")
                 
-                debug_text += "\n                    SAME SCOPUS_ID"
                 break
             else:
 
@@ -902,34 +1071,30 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
 
                     merge = True
                     reason = 'same ciencia'
+                    debug_text += f"\nTEST : { test.pretty() }"
 
                     if test.scopus_id == None and scopus_id != None:
                         test.scopus_id = scopus_id
                     elif test.scopus_id != None and scopus_id != None:
                         if test.scopus_id != scopus_id:
                             # Same 'ciencia_id' but different 'scopus_id'
-                            debug(debug_text)
-                            debug("\n  -3-  I N C O N S I S T E N C Y  --\n")
-                            debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-                            
                             reason += ' different scopus'
-                            #merge = False
-                            #continue
+
+                            debug(debug_text)
+                            debug_text = ''
+                            #debug("-3-  I N C O N S I S T E N C Y  --")
 
                     if test.doi == None and doi != None:
                         test.doi = doi
                     elif test.doi != None and doi != None:
                         if test.doi != doi:
                             # Same 'ciencia_id' but different 'doi'
-                            debug(debug_text)
-                            debug("\n  -4-  I N C O N S I S T E N C Y  --\n")
-                            debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-                            
                             reason += ' different doi'
-                            #merge = False
-                            #continue
+
+                            debug(debug_text)
+                            debug_text = ''
+                            #debug("-4-  I N C O N S I S T E N C Y  --")
                     
-                    debug_text += "\n                    SAME CIENCIA_ID"
                     break
                 else:
 
@@ -938,55 +1103,178 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
 
                         merge = True
                         reason = 'same doi'
+                        debug_text += f"\nTEST : { test.pretty() }"
 
                         if test.scopus_id == None and scopus_id != None:
                             test.scopus_id = scopus_id
                         elif test.scopus_id != None and scopus_id != None:
                             if test.scopus_id != scopus_id:
                                 # Same 'doi' but different 'scopus_id'
-                                debug(debug_text)
-                                debug("\n  -5-  I N C O N S I S T E N C Y  --\n")
-                                debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-
                                 reason += ' different scopus'
-                                #merge = False
-                                #continue
+
+                                # This is SC and test is CV -> update SC
+                                if from_scopus and ( test.from_ciencia and not test.from_scopus ):
+                                    test.scopus_id = scopus_id
+
+                                debug(debug_text)
+                                debug_text = ''
+                                #debug("-5-  I N C O N S I S T E N C Y  --")
 
                         if test.ciencia_id == None and ciencia_id != None:
                             test.ciencia_id = ciencia_id
                         elif test.ciencia_id != None and ciencia_id != None:
                             if test.ciencia_id != ciencia_id:
                                 # Same 'doi' but different 'ciencia_id'
-                                debug(debug_text)
-                                debug("\n  -6-  I N C O N S I S T E N C Y  --\n")
-                                debug("SC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk))
-                                
                                 reason += ' different ciencia'
-                                #merge = False
-                                #continue
-                        
-                        debug_text += "\n                    SAME DOI"
-                        break
-                    else:
 
-                        # Title processing
-                        pass
+                                debug(debug_text)
+                                debug_text = ''
+                                #debug("-6-  I N C O N S I S T E N C Y  --")
+                                
+                        break
+
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+                    ##############################################################################################
+
+                    elif False: # else:
+
+                        # Title and date analysis
+
+                        reason = ''
+                        
+                        if date.year == test.date.year:
+
+                            # same abstract aka match 0.95(?)
+                            if abstract != None and test.abstract != '':
+                                a = text_pipeline(abstract)
+                                b = text_pipeline(test.abstract)
+                                abstract_match = SequenceMatcher(None, a, b).ratio()
+
+                                if abstract_match > 0.95:
+                                    merge = True
+                                    reason += 'same abstract '
+                            
+                            abstract_count = 0
+                            if abstract != None:
+                                abstract_count += 1
+                            if test.abstract != '':
+                                abstract_count += 1
+
+                            a = text_pipeline(title)
+                            b = text_pipeline(test.title)
+                            title_match = SequenceMatcher(None, a, b).ratio()
+                            
+                            # same title aka match 1.0
+                            # 0.99 bc one doc had a typo (doing this does not increase false positives)
+                            if not merge and \
+                                title_match > 0.99 and \
+                                abstract_count <= 1:
+
+                                merge = True
+                                reason += 'same title '
+                            
+                            
+
+                            # if doc older and contains other's title
+                            # like old doc (bla bla awaiting review) vs newer doc (bla bla)
+                            # AND abstract only in 1 or none (because if both have an abstract
+                            # and failed the first condition, then they are probably not duplicates)
+                            # if (a in b or b in a) and \
+                            if not merge and \
+                                contained(a, b, dbg=False) and \
+                                abstract_count <= 1:
+
+                                merge = True
+                                reason += 'title contained '
+                        
+
+                            if merge:
+
+                                debug_text += f"\nTEST : { test.pretty() }"
+
+                                debug(debug_text)
+                                debug_text = ''
+
+                                # Update ciencia
+                                if ciencia_id != None and test.ciencia_id == None:
+                                    test.ciencia_id = ciencia_id
+                                    reason += 'update ciencia '
+
+                                # Update scopus id and doi
+                                if from_scopus:
+
+                                    data_count = 0
+                                    if scopus_id != None:
+                                        data_count += 1
+                                    if doi != None:
+                                        data_count += 1
+                                    if abstract != None:
+                                        data_count += 1
+
+                                    test_data_count = 0
+                                    if test.scopus_id != None:
+                                        test_data_count += 1
+                                    if test.doi != None:
+                                        test_data_count += 1
+                                    if test.abstract != '':
+                                        test_data_count += 1
+                                    
+                                    if data_count > test_data_count:
+                                        if scopus_id != None:
+                                            test.scopus_id = scopus_id
+                                            reason += 'update scopus A '
+                                        if doi != None:
+                                            test.doi = doi
+                                            reason += 'update doi A '
+                                    else:
+                                        if scopus_id != None and test.scopus_id == None:
+                                            test.scopus_id = scopus_id
+                                            reason += 'update scopus B '
+                                        if doi != None and test.doi == None:
+                                            test.doi = doi
+                                            reason += 'update doi B '
+                                
+                                break
 
     if merge:
-
-        debug_text += "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk)
-        debug(debug_text)
 
         # The 3 main fields are already taken care of
         # (scopus_id, ciencia_id, doi)
 
-        if from_scopus:
+        # If new doc is more recent, update title and date
+        if ( date.month == test.date.month and date.day > test.date.day ) or \
+            date.month > test.date.month:
+
             test.title = title
             test.date = date
+
+        if from_scopus:
+            #test.title = title
+            #test.date = date
             test.from_scopus = True
-            test.available = available
-            test.clean_text = clean_text
-            test.abstract = abstract
+            if available: # Update without erasing
+                test.available = available
+                test.clean_text = clean_text
+            if abstract != None: # Update without erasing
+                test.abstract = abstract
 
             # Merge areas
             for area in areas:
@@ -1003,11 +1291,17 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
         author.publications.add(test)
         author.save()
 
+        #debug_text += "\nSC {} ;; CV {} ;; DOI {} ;; {} ;; {} ;; SC {} ;; CV {} ;; AB {} ;; [{}]".format(test.scopus_id,test.ciencia_id,test.doi,test.date,test.title,test.from_scopus,test.from_ciencia,test.available,test.pk)
+        
+        if debug_text != '':
+            debug(debug_text)
+        debug(f"{ bcolors.WARNING }MERGE{ bcolors.ENDC }: { test.pretty() }")
+
         return reason
     
     else:
 
-        debug("", end=".")
+        #debug("", end=".")
 
         if from_scopus:
             from_scopus = True
@@ -1047,7 +1341,9 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                 publication.areas.add(area)
         
         publication.save()
-        debug(publication.pretty())
+
+        debug(f"{ color }NEW{ bcolors.ENDC }  : { publication.pretty() }")
+
         author.publications.add(publication)
         author.save()
 
@@ -1056,32 +1352,41 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
 def sync_scopus_docs(pk):
     author = Author.objects.get(pk=pk)
     
-    
     #data = scopus_author_docs(author.scopus_id)
 
     with open(str(author.scopus_id)+'.json', encoding="utf-8") as fh:
         data = json.load(fh)
     
-    new = 0
-    s_sc = 0
-    s_sc_d_cv = 0
-    s_sc_d_doi = 0
-    s_cv = 0
-    s_cv_d_sc = 0
-    s_cv_d_doi = 0
-    s_doi = 0
-    s_doi_d_sc = 0
-    s_doi_d_cv = 0
+    counters = {
+        'new': 0,
+        's_sc': 0,
+            's_sc_d_cv': 0,
+            's_sc_d_doi': 0,
+        's_cv': 0,
+            's_cv_d_sc': 0,
+            's_cv_d_doi': 0,
+        's_doi': 0,
+            's_doi_d_sc': 0,
+            's_doi_d_cv': 0,
+        's_abstract': 0,
+        's_title': 0,
+        's_title_contained': 0,
+    }
 
     for data_pub in data:
 
         # MANDATORY FIELDS
         title = data_pub['doc_title']
+        if 'Erratum' in title:
+            continue
+
         date = datetime.strptime(data_pub['doc_date'], "%Y-%m-%d").date()
         available = data_pub['available']
 
         # TYPE (MANDATORY)
         doc_type = data_pub['doc_type'].title()
+        if doc_type == 'Erratum':
+            continue
         if PublicationType.objects.filter(name=doc_type).exists():
             publication_type = PublicationType.objects.get(name=doc_type)
         else:
@@ -1090,7 +1395,9 @@ def sync_scopus_docs(pk):
 
         # ID'S
         scopus_id = data_pub['doc_scopus_id']
-        doi = data_pub['doc_doi']
+        # make doi's consistent between scopus and ciencia
+        doi = data_pub['doc_doi'].lower() if data_pub['doc_doi'] != None else data_pub['doc_doi']
+        doi = doi.replace('_', '-') if doi != None else doi
 
         # KEYWORDS
         keywords = []
@@ -1151,42 +1458,74 @@ def sync_scopus_docs(pk):
 
         reason_F2 = " ".join( reason.split(' ')[:2] )
         reason_L2 = " ".join( reason.split(' ')[2:] )
-        print(reason, "---", reason_F2, "---", reason_L2)
+        #print(reason, "---", reason_F2, "---", reason_L2)
         if reason == 'new':
-            new += 1
+            counters['new'] += 1
+            debug(reason)
         elif reason_F2 == 'same scopus':
-            s_sc += 1
+            counters['s_sc'] += 1
             if reason_L2 == 'different ciencia':
-                s_sc_d_cv += 1
+                counters['s_sc_d_cv'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
             elif reason_L2 == 'different doi':
-                s_sc_d_doi += 1
+                counters['s_sc_d_doi'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
+            else:
+                debug(bcolors.WARNING + reason + bcolors.ENDC)
         elif reason_F2 == 'same ciencia':
-            s_cv += 1
+            counters['s_cv'] += 1
             if reason_L2 == 'different scopus':
-                s_cv_d_sc += 1
+                counters['s_cv_d_sc'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
             elif reason_L2 == 'different doi':
-                s_cv_d_doi += 1
+                counters['s_cv_d_doi'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
+            else:
+                debug(bcolors.WARNING + reason + bcolors.ENDC)
         elif reason_F2 == 'same doi':
-            s_doi += 1
+            counters['s_doi'] += 1
             if reason_L2 == 'different scopus':
-                s_doi_d_sc += 1
+                counters['s_doi_d_sc'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
             elif reason_L2 == 'different ciencia':
-                s_doi_d_cv += 1
+                counters['s_doi_d_cv'] += 1
+                debug(bcolors.FAIL + reason + bcolors.ENDC)
+            else:
+                debug(bcolors.WARNING + reason + bcolors.ENDC)
+        else:
+            if reason_F2 == 'same abstract':
+                counters['s_abstract'] += 1
+            elif reason_F2 == 'same title':
+                counters['s_title'] += 1
+            elif reason_F2 == 'title contained':
+                counters['s_title_contained'] += 1
+
+            debug(bcolors.OKBLUE, end='')
+            debug(reason)
+            #debug(f'F2 {reason_F2}')
+            #debug(f'L2 {reason_L2}')
+            debug(bcolors.ENDC, end='')
     
-    print()
-    print('new       '  , new)
-    print()
-    print('s_sc      '  , s_sc)
-    print('  s_sc_d_cv ', s_sc_d_cv)
-    print('  s_sc_d_doi', s_sc_d_doi)
-    print()
-    print('s_cv      '  , s_cv)
-    print('  s_cv_d_sc ', s_cv_d_sc)
-    print('  s_cv_d_doi', s_cv_d_doi)
-    print()
-    print('s_doi     '  , s_doi)
-    print('  s_doi_d_sc', s_doi_d_sc)
-    print('  s_doi_d_cv', s_doi_d_cv)
+    debug('')
+    debug(f"new                {counters['new']}")
+    debug('')
+    debug(f"s_sc               {counters['s_sc']}")
+    debug(f"|_ s_sc_d_cv       |_ {counters['s_sc_d_cv']}")
+    debug(f"|_ s_sc_d_doi      |_ {counters['s_sc_d_doi']}")
+    debug('')
+    debug(f"s_cv               {counters['s_cv']}")
+    debug(f"|_ s_cv_d_sc       |_ {counters['s_cv_d_sc']}")
+    debug(f"|_ s_cv_d_doi      |_ {counters['s_cv_d_doi']}")
+    debug('')
+    debug(f"s_doi              {counters['s_doi']}")
+    debug(f"|_ s_doi_d_sc      |_ {counters['s_doi_d_sc']}")
+    debug(f"|_ s_doi_d_cv      |_ {counters['s_doi_d_cv']}")
+    debug('')
+    debug(f"s_abstract         {counters['s_abstract']}")
+    debug(f"s_title            {counters['s_title']}")
+    debug(f"s_title_contained  {counters['s_title_contained']}")
+
+    return counters
 
 def sync_scopus_author(pk):
     author = Author.objects.get(pk=pk)
@@ -1269,172 +1608,36 @@ def sync_scopus_author(pk):
 
 def sync_ciencia(pk):
     author = Author.objects.get(pk=pk)
-    data = ciencia_author(author.ciencia_id)
+    #data = ciencia_author(author.ciencia_id)
 
-    with open(f'{author.scopus_id}_pubs_ciencia.txt', 'w', encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    #with open(f'{author.scopus_id}_pubs_ciencia.txt', 'w', encoding="utf-8") as f:
+    #    json.dump(data, f, ensure_ascii=False, indent=4)
 
-    if data == None:
-        return []
-
-    # DOMAINS
-    for data_domain in data['domains']:
-        code = data_domain['code']
-        name = data_domain['name']
-
-        # Check area
-        if Area.objects.filter(code=code).exists():
-            area = Area.objects.get(code=code)
-        else:
-            area = Area(
-                code = code,
-                name = name
-            )
-            area.save()
-        author.domains.add(area)
+    with open(str(author.scopus_id)+'_pubs_ciencia.txt', encoding="utf-8") as fh:
+        data = json.load(fh)
     
-    # PUBLICATIONS
+    counters = {
+        'new': 0,
+        's_sc': 0,
+            's_sc_d_cv': 0,
+            's_sc_d_doi': 0,
+        's_cv': 0,
+            's_cv_d_sc': 0,
+            's_cv_d_doi': 0,
+        's_doi': 0,
+            's_doi_d_sc': 0,
+            's_doi_d_cv': 0,
+        's_abstract': 0,
+        's_title': 0,
+        's_title_contained': 0,
+    }
 
-    new = 0
-    s_sc = 0
-    s_sc_d_cv = 0
-    s_sc_d_doi = 0
-    s_cv = 0
-    s_cv_d_sc = 0
-    s_cv_d_doi = 0
-    s_doi = 0
-    s_doi_d_sc = 0
-    s_doi_d_cv = 0
+    if data != None:
 
-    for data_publication in data['publications']:
-
-        ciencia_id = data_publication['ciencia_id']
-        scopus_id = str(data_publication['scopus_id']).split('-')[-1]
-        doi = data_publication['doi']
-        title = data_publication['title']
-        date = datetime.strptime(data_publication['date'], "%Y-%m-%d").date()
-
-        # TYPE (MANDATORY)
-        doc_type = data_publication['type'].title()
-        doc_type = 'Article' if doc_type == 'Journal Article' else doc_type
-        if PublicationType.objects.filter(name=doc_type).exists():
-            publication_type = PublicationType.objects.get(name=doc_type)
-        else:
-            publication_type = PublicationType(name=doc_type)
-            publication_type.save()
-
-        available = False
-
-        if scopus_id == 'None':
-            scopus_id = None
-        
-        keywords = []
-
-        for name in data_publication['keywords']:
-            # Example: a-b cd -> A-b Cd
-            name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split())
-            # Example: A-b Cd -> A-B Cd
-            name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split('-'))
-            # Check keyword
-            if Keyword.objects.filter(name=name).exists():
-                keyword = Keyword.objects.get(name=name)
-            else:
-                keyword = Keyword(
-                    name = name
-                )
-                keyword.save()
-            keywords.append(keyword)
-
-        areas = []
-
-        reason = add_publication(
-            author = author,
-            scopus_id = scopus_id,
-            ciencia_id = ciencia_id,
-            doi = doi,
-            title = title,
-            date = date,
-            keywords = keywords,
-            publication_type = publication_type,
-            from_scopus = False,
-            from_ciencia = True, # CIENCIA
-            available = None,
-            clean_text = None,
-            abstract = None,
-            areas = areas
-        )
-
-        reason_F2 = " ".join( reason.split(' ')[:2] )
-        reason_L2 = " ".join( reason.split(' ')[2:] )
-        print(reason, "---", reason_F2, "---", reason_L2)
-        if reason == 'new':
-            new += 1
-        elif reason_F2 == 'same scopus':
-            s_sc += 1
-            if reason_L2 == 'different ciencia':
-                s_sc_d_cv += 1
-            elif reason_L2 == 'different doi':
-                s_sc_d_doi += 1
-        elif reason_F2 == 'same ciencia':
-            s_cv += 1
-            if reason_L2 == 'different scopus':
-                s_cv_d_sc += 1
-            elif reason_L2 == 'different doi':
-                s_cv_d_doi += 1
-        elif reason_F2 == 'same doi':
-            s_doi += 1
-            if reason_L2 == 'different scopus':
-                s_doi_d_sc += 1
-            elif reason_L2 == 'different ciencia':
-                s_doi_d_cv += 1
-
-    print()
-    print('new       '  , new)
-    print()
-    print('s_sc      '  , s_sc)
-    print('  s_sc_d_cv ', s_sc_d_cv)
-    print('  s_sc_d_doi', s_sc_d_doi)
-    print()
-    print('s_cv      '  , s_cv)
-    print('  s_cv_d_sc ', s_cv_d_sc)
-    print('  s_cv_d_doi', s_cv_d_doi)
-    print()
-    print('s_doi     '  , s_doi)
-    print('  s_doi_d_sc', s_doi_d_sc)
-    print('  s_doi_d_cv', s_doi_d_cv)
-
-    # NAME
-    # Some names come uppercased. This can uppercase wrong names but
-    # still, it's better than all uppercase.
-    author.name = data['name'].title()
-    
-    # INFO
-    author.bio = data['bio']
-    author.degrees = json.dumps(data['degrees'])
-    author.distinctions = json.dumps(data['distinctions'])
-
-    # PROJECTS
-    for data_project in data['projects']:
-        name = data_project['name']
-        date = datetime.strptime(data_project['year'], "%Y").date()
-
-        # Check project
-        if Project.objects.filter(name=name).exists():
-            project = Project.objects.get(name=name)
-        else:
-            project = Project(
-                name = name,
-                date = date
-            )
-            project.save()
-        
-        desc = data_project['desc']
-        project.desc = desc if desc != None else ""
-
-        # Project areas
-        for data_area in data_project['areas']:
-            code = data_area['code']
-            name = data_area['name']
+        # DOMAINS
+        for data_domain in data['domains']:
+            code = data_domain['code']
+            name = data_domain['name']
 
             # Check area
             if Area.objects.filter(code=code).exists():
@@ -1445,15 +1648,196 @@ def sync_ciencia(pk):
                     name = name
                 )
                 area.save()
-            project.areas.add(area)
+            author.domains.add(area)
         
-        project.save()
-        author.projects.add(project)
+        # PUBLICATIONS
 
-    author.synced_ciencia = True
-    author.save()
+        for data_publication in data['publications']:
 
-def debug(string, end="\n"):
-    if True:
+            ciencia_id = data_publication['ciencia_id']
+            scopus_id = str(data_publication['scopus_id']).split('-')[-1]
+            # make doi's consistent between scopus and ciencia
+            doi = data_publication['doi'].lower() if data_publication['doi'] != None else data_publication['doi']
+            doi = doi.replace('_', '-') if doi != None else doi
+            title = data_publication['title']
+            if 'Erratum' in title:
+                continue
+            date = datetime.strptime(data_publication['date'], "%Y-%m-%d").date()
+
+            # TYPE (MANDATORY)
+            doc_type = data_publication['type'].title()
+            if doc_type == 'Erratum':
+                continue
+            doc_type = 'Article' if doc_type == 'Journal Article' else doc_type
+            if PublicationType.objects.filter(name=doc_type).exists():
+                publication_type = PublicationType.objects.get(name=doc_type)
+            else:
+                publication_type = PublicationType(name=doc_type)
+                publication_type.save()
+
+            available = False
+
+            if scopus_id == 'None':
+                scopus_id = None
+            
+            keywords = []
+
+            for name in data_publication['keywords']:
+                # Example: a-b cd -> A-b Cd
+                name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split())
+                # Example: A-b Cd -> A-B Cd
+                name = ' '.join(elem[0].upper() + elem[1:] if elem != '' else '' for elem in name.split('-'))
+                # Check keyword
+                if Keyword.objects.filter(name=name).exists():
+                    keyword = Keyword.objects.get(name=name)
+                else:
+                    keyword = Keyword(
+                        name = name
+                    )
+                    keyword.save()
+                keywords.append(keyword)
+
+            areas = []
+
+            reason = add_publication(
+                author = author,
+                scopus_id = scopus_id,
+                ciencia_id = ciencia_id,
+                doi = doi,
+                title = title,
+                date = date,
+                keywords = keywords,
+                publication_type = publication_type,
+                from_scopus = False,
+                from_ciencia = True, # CIENCIA
+                available = None,
+                clean_text = None,
+                abstract = None,
+                areas = areas
+            )
+
+            reason_F2 = " ".join( reason.split(' ')[:2] )
+            reason_L2 = " ".join( reason.split(' ')[2:] )
+            #print(reason, "---", reason_F2, "---", reason_L2)
+            if reason == 'new':
+                counters['new'] += 1
+                debug(reason)
+            elif reason_F2 == 'same scopus':
+                counters['s_sc'] += 1
+                if reason_L2 == 'different ciencia':
+                    counters['s_sc_d_cv'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                elif reason_L2 == 'different doi':
+                    counters['s_sc_d_doi'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                else:
+                    debug(bcolors.WARNING + reason + bcolors.ENDC)
+            elif reason_F2 == 'same ciencia':
+                counters['s_cv'] += 1
+                if reason_L2 == 'different scopus':
+                    counters['s_cv_d_sc'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                elif reason_L2 == 'different doi':
+                    counters['s_cv_d_doi'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                else:
+                    debug(bcolors.WARNING + reason + bcolors.ENDC)
+            elif reason_F2 == 'same doi':
+                counters['s_doi'] += 1
+                if reason_L2 == 'different scopus':
+                    counters['s_doi_d_sc'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                elif reason_L2 == 'different ciencia':
+                    counters['s_doi_d_cv'] += 1
+                    debug(bcolors.FAIL + reason + bcolors.ENDC)
+                else:
+                    debug(bcolors.WARNING + reason + bcolors.ENDC)
+            else:
+                if reason_F2 == 'same abstract':
+                    counters['s_abstract'] += 1
+                elif reason_F2 == 'same title':
+                    counters['s_title'] += 1
+                elif reason_F2 == 'title contained':
+                    counters['s_title_contained'] += 1
+
+                debug(bcolors.OKBLUE, end='')
+                debug(reason)
+                #debug(f'F2 {reason_F2}')
+                #debug(f'L2 {reason_L2}')
+                debug(bcolors.ENDC, end='')
+        
+        debug('')
+        debug(f"new                {counters['new']}")
+        debug('')
+        debug(f"s_sc               {counters['s_sc']}")
+        debug(f"|_ s_sc_d_cv       |_ {counters['s_sc_d_cv']}")
+        debug(f"|_ s_sc_d_doi      |_ {counters['s_sc_d_doi']}")
+        debug('')
+        debug(f"s_cv               {counters['s_cv']}")
+        debug(f"|_ s_cv_d_sc       |_ {counters['s_cv_d_sc']}")
+        debug(f"|_ s_cv_d_doi      |_ {counters['s_cv_d_doi']}")
+        debug('')
+        debug(f"s_doi              {counters['s_doi']}")
+        debug(f"|_ s_doi_d_sc      |_ {counters['s_doi_d_sc']}")
+        debug(f"|_ s_doi_d_cv      |_ {counters['s_doi_d_cv']}")
+        debug('')
+        debug(f"s_abstract         {counters['s_abstract']}")
+        debug(f"s_title            {counters['s_title']}")
+        debug(f"s_title_contained  {counters['s_title_contained']}")
+
+        # NAME
+        # Some names come uppercased. This can uppercase wrong names but
+        # still, it's better than all uppercase.
+        author.name = data['name'].title()
+        
+        # INFO
+        author.bio = data['bio']
+        author.degrees = json.dumps(data['degrees'])
+        author.distinctions = json.dumps(data['distinctions'])
+
+        # PROJECTS
+        for data_project in data['projects']:
+            name = data_project['name']
+            date = datetime.strptime(data_project['year'], "%Y").date()
+
+            # Check project
+            if Project.objects.filter(name=name).exists():
+                project = Project.objects.get(name=name)
+            else:
+                project = Project(
+                    name = name,
+                    date = date
+                )
+                project.save()
+            
+            desc = data_project['desc']
+            project.desc = desc if desc != None else ""
+
+            # Project areas
+            for data_area in data_project['areas']:
+                code = data_area['code']
+                name = data_area['name']
+
+                # Check area
+                if Area.objects.filter(code=code).exists():
+                    area = Area.objects.get(code=code)
+                else:
+                    area = Area(
+                        code = code,
+                        name = name
+                    )
+                    area.save()
+                project.areas.add(area)
+            
+            project.save()
+            author.projects.add(project)
+
+        author.synced_ciencia = True
+        author.save()
+
+    return counters
+
+def debug(string='', debug=False, end="\n"):
+    if debug:
         print(string, end=end)
 

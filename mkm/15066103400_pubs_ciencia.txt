@@ -1,0 +1,4227 @@
+{
+    "ciencia_id": "DF11-FF58-4F18",
+    "name": "Salviano Filipe Silva Pinto Soares",
+    "bio": "Salviano Filipe Silva Pinto Soares. Publicou 12 artigos em revistas especializadas e 3 trabalhos em actas de eventos. Nas suas actividades profissionais interagiu com 15 colaboradores em co-autorias de trabalhos científicos.",
+    "domains": [],
+    "degrees": [
+        "Doutoramento em Eng. Electrotécnica",
+        "Mestrado em Electrónica e Telecomunicações",
+        "Engenharia Electrotécnica"
+    ],
+    "distinctions": [
+        "Jovem Engenheiro 2003 - Membro da equipa que ficou em 2º lugar"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "A Bluetooth Approach to Diabetes Sensing on Ambient Assisted Living systems",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412979",
+            "doi": "10.1016/j.procs.2012.10.021",
+            "scopus_id": "2-s2.0-84881522157",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Impact sound insulation technique using corn cob particleboard",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412980",
+            "doi": "10.1016/j.conbuildmat.2012.07.064",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Low-Cost System to Detect Bunches of Grapes in Natural Environment from Color Images",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412981",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Automatic Detection of White Grapes in Natural Environment Using Image Processing",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412982",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Enhanced VoIP by Signal Reconstruction and Voice Quality Assessment",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412983",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Quality Evaluation Methods to Improve Enterprise VoIP Communications",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412984",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Radiation Tests on a Bluetooth Based Front-End Electronic Device Towards a Subcutaneous Continuous Glucose Monitoring Sensor",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412985",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sun, wind and water flow as energy supply for small stationary data acquisition platforms",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412986",
+            "doi": "10.1016/j.compag.2008.04.005",
+            "scopus_id": "2-s2.0-53749090704",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412987",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Linear combinations of B-splines as generating functions for signal approximation",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412988",
+            "doi": "10.1016/j.dsp.2004.12.003",
+            "scopus_id": "2-s2.0-16644365913",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Methods for Quality Assessment in Enterprise VoIP Communications",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412989",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Signal Processing Interpolation and Problem Conditioning Educational Workbench",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412990",
+            "doi": "10.5539/mas.v7n12p56",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Sociotecnhical Enterprise Informations Systems Design Integration",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412991",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Depth map concealment using inter-view warping vectors from geometric transforms",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412992",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Efficient depth error concealment for 3D video over error-prone channels",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412993",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "FouSE: An Android Tool to Help in the Teaching of Fourier Series Expansions in Undergraduate Education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412994",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Problem Conditioning Interpolation Educational Tool",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412995",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching of Fourier Series Expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412996",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Enhanced MOS in VoIP over priority erasure channels based on optimal packet classification",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412997",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Two-stage depth map error concealment using geometric fitting",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412998",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Bluetooth Based Front-End Electronic Device Towards A Subcutaneous Continuous Glucose Monitoring Sensor",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1412999",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "HarmoSim: A tool for harmonic distortion simulation and assessment of nonlinear loads",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413000",
+            "doi": "10.1002/cae.20559",
+            "scopus_id": "2-s2.0-84899484844",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Coexistence and Interference Tests on a Bluetooth Low Energy Front-End",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413001",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Enhancement Method for Multiple Description Decoding of Depth Maps Subject to Random Loss",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413002",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lightweight concrete masonry units based on processed granulate of corn cob as aggregate",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413003",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching Fourier series expansions in undergraduate education with the help of the FouSE Android application",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413004",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching of Fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413005",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Radiation tests on a bluetooth based front-end electronic device towards a subcutaneous continuous glucose monitoring sensor",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413006",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Problem conditioning interpolation educational tool",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413007",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Methods for quality assessment in enterprise voip communications",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413008",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "FouSE: An android tool to help in the teaching of fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413009",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Signal processing interpolation educational workbench",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413010",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lost block reconstruction in depth maps using color image contours",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413011",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413012",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A bluetooth approach to diabetes sensing on ambient assisted living systems",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413013",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Quality evaluation methods to improve enterprise VoIP communications",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413014",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Glucose monitoring system based on osmotic pressure measurements",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413015",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using information technology based exercises in primary mathematics teaching of children with cerebral palsy and mental retardation: A case study",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413016",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "2007 IEEE Sensors",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413017",
+            "doi": "10.1109/icsens.2007.4388354",
+            "scopus_id": "2-s2.0-48349099052",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "2010 First International Conference on Sensor Device Technologies and Applications",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413018",
+            "doi": "10.1109/sensordevices.2010.40",
+            "scopus_id": "2-s2.0-79951923909",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Coexistence and interference tests on a Bluetooth Low Energy front-end",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413019",
+            "doi": "10.1109/SAI.2014.6918312",
+            "scopus_id": "2-s2.0-84909606779",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching Fourier Series Expansions in Undergraduate Education with the Help of the {FouSE",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413020",
+            "doi": "10.3991/ijim.v8i1.3455",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Signal Reconstruction Techniques Applied to High Frame Rate Sequences",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413021",
+            "doi": "10.1109/ISIE.2007.4374860",
+            "scopus_id": "2-s2.0-50049136230",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching Fourier Series Expansions in Undergraduate Education with the Help of the {FouSE",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413022",
+            "doi": "10.3991/ijim.v8i1.3455",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Impact sound insulation technique using corn cob particleboard",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413023",
+            "doi": "10.1016/j.conbuildmat.2012.07.064",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Enhancing STEM courses through a robotic innovative project",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413024",
+            "doi": "10.1145/2808580.2808668",
+            "scopus_id": "2-s2.0-85014753219",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Digital Sound Processing using Arduino and MatLab",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413025",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quality Evaluation of Depth Map Error Concealment using a Perceptually-Aware Objective Metric",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413026",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Distributed Sensing System Model for Future Internet Agricultural Application",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413027",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ARDUINO RECURSIVE BACKTRACKING IMPLEMENTATION, FOR A ROBOTIC CONTEST",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413028",
+            "doi": "10.1142/9789813231047_0023",
+            "scopus_id": "2-s2.0-85067097807",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching Fourier Series Expansions in Undergraduate Education with the Help of the FouSE Android Application",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413029",
+            "doi": "10.3991/ijim.v8i1.3455",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário",
+            "date": "2016-01-01",
+            "keywords": [
+                "Auditoria energética",
+                "Eficiência energética",
+                "Racionalização de energia",
+                "620.92(043)",
+                "621.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413241",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo do fluxo de uma animação 3D através do som",
+            "date": "2016-01-01",
+            "keywords": [
+                "Animação interativa",
+                "Rastreamento de batidas",
+                "004.03(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413244",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-Enhanced Learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-1413247",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-enhanced_learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-1413245",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks",
+            "date": "2016-01-01",
+            "keywords": [
+                "Vídeo (3D)",
+                "Qualidade",
+                "Avaliação",
+                "Cancelamento de erros",
+                "Mapas de profundidade",
+                "MVD",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413242",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org",
+            "date": "2019-01-01",
+            "keywords": [
+                "Pensamento computacional",
+                "Resolução de problemas",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-1413248",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Kid Grígora - A robotic platform for young ages",
+            "date": "2018-01-01",
+            "keywords": [
+                "Usability",
+                "Educational platforms",
+                "Robotics",
+                "Problem solving",
+                "Computational thinking",
+                "Scratch",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-1413246",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "On-line prognosis of sound Insulation laid out in EN-12354",
+            "date": "2019-01-01",
+            "keywords": [
+                "Isolamento sonoro, , ,",
+                "EN-12354",
+                "Acústica de Edifícios",
+                "Arquitectura cliente/servidor e MVC"
+            ],
+            "ciencia_id": "cv-prod-id-1413243",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse",
+            "date": "2018-01-01",
+            "keywords": [
+                "Micromouse",
+                "Microelectrónica",
+                "Kit Robótico",
+                "STEM’s",
+                "Robótica Educativa",
+                "Ensino"
+            ],
+            "ciencia_id": "cv-prod-id-1413249",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de informação para a gestão integrada de consumos de uma autarquia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Sistemas de informação",
+                "Consumos energéticos",
+                "Consumos de telecomunicações",
+                "Evolução dos consumos",
+                "Controlo dos custos",
+                "004(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413277",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Blue sensor: a bluetooth approached to glucose sensor",
+            "date": "2015-01-01",
+            "keywords": [
+                "Redes sem fios",
+                "Diabetes",
+                "Biosensores de glucose",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413279",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Total productive maintenance (TPM) na Gestão Industrial",
+            "date": "2018-01-01",
+            "keywords": [
+                "Total Productive Maintenance (TPM), , , , Just in time, Lean production e Zero defeitos",
+                "Manutenção preventiva",
+                "Melhoria contínua",
+                "Perdas de produção"
+            ],
+            "ciencia_id": "cv-prod-id-1413281",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal",
+            "date": "2014-01-01",
+            "keywords": [
+                "Wavelets",
+                "HAAR",
+                "Daubechies",
+                "Detecção de altas frequências",
+                "Empirical mode decomposition (EMD)",
+                "Codecs de vídeo",
+                "VP8",
+                "H.264",
+                "Matlab",
+                "Compressão de imagem",
+                "High frequency detection",
+                "Video codecs",
+                "Image compression"
+            ],
+            "ciencia_id": "cv-prod-id-1413278",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Methods for quality enhancement of voice communications over erasure channels",
+            "date": "2015-01-01",
+            "keywords": [
+                "Informática",
+                "Reconstrução de sinal",
+                "Qualidade de voz",
+                "Melhoria MOS",
+                "004.9(043)",
+                "Priorização de pacotes",
+                "621.39(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413280",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Reconstrução de sinal digital",
+                "Ensino",
+                "Algoritmos",
+                "004.03(043)",
+                "519.25(043)",
+                "371.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413283",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Mobilidade eléctrica: metas e sustentabilidade",
+            "date": "2015-01-01",
+            "keywords": [
+                "Veículos elétricos",
+                "Baterias",
+                "Rede de carregamento",
+                "Ponto de carregamento",
+                "Híbrido",
+                "Mobilidade elétrica",
+                "621.31(043)",
+                "629(043)",
+                "620.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413282",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho",
+            "date": "2014-01-01",
+            "keywords": [
+                "Blocos de espiga de milho",
+                "Construção sustentável",
+                "Fogo"
+            ],
+            "ciencia_id": "cv-prod-id-1413284",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413299",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Problem conditioning interpolation educational tool",
+            "date": "2013-01-01",
+            "keywords": [
+                "Signal reconstruction",
+                "Educational tool",
+                "Interpolation",
+                "Over-sampling",
+                "Fast Fourier Transform (FFT)",
+                "Condition number",
+                "Problem conditioning",
+                "Spectral radius"
+            ],
+            "ciencia_id": "cv-prod-id-1413298",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413296",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Predictive maintenance in oil and gas offshore drilling",
+            "date": "2011-01-01",
+            "keywords": [
+                "Sensores",
+                "Sinais",
+                "Inteligência artificial",
+                "Manutenção preditiva",
+                "Sistema especializado",
+                "621.39(043)",
+                "004.8(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413300",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet-based Collaborative E-Exercisebook System for Primary Math Teaching",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413301",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Signal Reconstruction Techniques Applied to Speech Transmission",
+            "date": "2013-01-01",
+            "keywords": [
+                "sobre-amostragem; interpolação; entrelaçamento; transmissões áudio em Ethernet; compressão de sinais áudio; codificação "
+            ],
+            "ciencia_id": "cv-prod-id-1413297",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente",
+            "date": "2010-01-01",
+            "keywords": [
+                "Cirurgia tiroideia",
+                "Balido",
+                "Voz das Cabras",
+                "Praat",
+                "MOS",
+                "Comparison Category Rating (CCR)",
+                "Jitter",
+                "Harmonics to Noise Ratio (HNR)"
+            ],
+            "ciencia_id": "cv-prod-id-1413506",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Previsão e Medição do Comportamento Acústico de Espaços",
+            "date": "2010-01-01",
+            "keywords": [
+                "Sinais",
+                "Acústica",
+                "621.39(043)",
+                "004.7(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413507",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segurança Informática de Redes e Sistemas (Abordagem Open-Source)",
+            "date": "2010-01-01",
+            "keywords": [
+                "Sistema de informação",
+                "Ambiente empresarial",
+                "Vírus",
+                "Ataques informáticos",
+                "Vulnerabilidades",
+                "Ameaças",
+                "Segurança informática",
+                "Redes informáticas",
+                "Babel Enterprise",
+                "Information system",
+                "Business environment",
+                "Cyber attacks",
+                "Vulnerabilities",
+                "Threats",
+                "Network security",
+                "Networks",
+                "Internet"
+            ],
+            "ciencia_id": "cv-prod-id-1413511",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal",
+            "date": "2010-01-01",
+            "keywords": [
+                "Conservação",
+                "Etologia",
+                "Gralha-de-bico-vermelho",
+                "Modelação",
+                "Monitorização",
+                "Ecológica",
+                "Habitat",
+                "591.5(043)",
+                "574(043)"
+            ],
+            "ciencia_id": "cv-prod-id-1413508",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP",
+            "date": "2010-01-01",
+            "keywords": [
+                "E-MODEL",
+                "MOS",
+                "PESQ",
+                "QoE",
+                "QoS",
+                "VoIP",
+                "Métodos de avaliação de qualidade",
+                "Quality Assessment Methods"
+            ],
+            "ciencia_id": "cv-prod-id-1413509",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-1413510",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax",
+            "date": "2008-01-01",
+            "keywords": [
+                "Sistemas de posicionamento",
+                "Captação de imagem",
+                "Comportamento animal",
+                "Impacto ambiental",
+                "621.39: 591.52"
+            ],
+            "ciencia_id": "cv-prod-id-1413519",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)",
+            "date": "2009-01-01",
+            "keywords": [
+                "deficiência visual",
+                "cluster",
+                "cego",
+                "RFID",
+                "Radiofrequência",
+                "Identificação",
+                "Leitor",
+                "Etiqueta"
+            ],
+            "ciencia_id": "cv-prod-id-1413520",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de Home Networks",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão de Redes",
+                "Protocolos de Gestão",
+                "Home Networking"
+            ],
+            "ciencia_id": "cv-prod-id-1413521",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Tecnologia como Auxiliar na Agricultura Biológica em Estufa",
+            "date": "2007-01-01",
+            "keywords": [
+                "Agricultura biológica",
+                "Tecnologia"
+            ],
+            "ciencia_id": "cv-prod-id-1413522",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-1413533",
+            "doi": "10.1016/j.sna.2006.04.011",
+            "scopus_id": "2-s2.0-33751075519",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-1413532",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-1413534",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Dispositivo de baixo peso para estimação de trajectórias aéreas de aves",
+            "date": "2005-01-01",
+            "keywords": [
+                "Tecnologia móvel baseada em satélite, Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Satellite-based mobile technology, Computer graphics, Electrical engineering, Electronic engineering, Information engine",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-1413542",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsytem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-1413541",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsystem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-1413543",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Audio interface for real time navigation",
+            "date": "2003-01-01",
+            "keywords": [
+                "Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-1413545",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Algoritmos de reconstrução de sinal e correcção de erros",
+            "date": "2003-01-01",
+            "keywords": [
+                "Processamento de sinal",
+                "Códigos de correcção de erros",
+                "Algoritmos",
+                "Controlo de erros"
+            ],
+            "ciencia_id": "cv-prod-id-1413547",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Simulação visual de trajectórias aéreas",
+            "date": "2005-01-01",
+            "keywords": [
+                "Computação gráfica, Realidade virtual, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Virtual reality, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-1413546",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gamified platform to aid physiotherapeutic treatment of epicondylitis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601342",
+            "doi": "10.1109/SeGAH49190.2020.9201629",
+            "scopus_id": "2-s2.0-85092747809",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Low-Cost LoRaWAN Node for Agro-Intelligence IoT",
+            "date": "2020-06-12",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121035",
+            "doi": "10.3390/electronics9060987",
+            "scopus_id": "2-s2.0-85086449638",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Developing Computational Thinking in Early Ages: A Review of the code.org Platform",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121036",
+            "doi": null,
+            "scopus_id": "2-s2.0-85091736694",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Classification of Optical Coherence Tomography using Convolutional Neural Networks",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121037",
+            "doi": "10.5220/0009091001680175",
+            "scopus_id": "2-s2.0-85083570766",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Classification of respiratory sounds with convolutional neural network",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121038",
+            "doi": "10.5220/0008965101380144",
+            "scopus_id": "2-s2.0-85083578888",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Chikungunya Virus Inhibitor Study based on Molecular Docking Experiments",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121039",
+            "doi": "10.5220/0009118602000205",
+            "scopus_id": "2-s2.0-85083589792",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Use of convolutional neural networks for detection and segmentation of pulmonary nodules in computed tomography images",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121040",
+            "doi": "10.5220/0009178902920297",
+            "scopus_id": "2-s2.0-85083549222",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Motor rehabilitation and biotelemetry data acquisition with Kinect",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121041",
+            "doi": "10.5220/0009157202420249",
+            "scopus_id": "2-s2.0-85083560873",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Comparison of Embedded Linux Development Tools for the WiiPiiDo Distribution Development",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121042",
+            "doi": "10.1007/978-3-030-52249-0_4",
+            "scopus_id": "2-s2.0-85088538331",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Autonomous driving car competition",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121044",
+            "doi": "10.1007/978-3-030-26945-6_32",
+            "scopus_id": "2-s2.0-85071441398",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Learning computer vision using a humanoid robot",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121045",
+            "doi": "10.1109/EDUCON.2019.8725196",
+            "scopus_id": "2-s2.0-85067506734",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Noise attenuation using genetic algorithm in CT image",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121047",
+            "doi": "10.5220/0007346301400148",
+            "scopus_id": "2-s2.0-85064717349",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Data acquisition from the integration of Kinect quaternions and Myo armband EMG sensors to aid equinus foot treatment",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121048",
+            "doi": "10.5220/0007565902350240",
+            "scopus_id": "2-s2.0-85064636604",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Classification of images of childhood pneumonia using convolutional neural networks",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121049",
+            "doi": "10.5220/0007404301120119",
+            "scopus_id": "2-s2.0-85064672840",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Comparative study of compression techniques applied in different biomedical signals",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121050",
+            "doi": "10.5220/0007350401320138",
+            "scopus_id": "2-s2.0-85064753740",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Models of learning to classify X-ray images for the detection of pneumonia using neural networks",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121051",
+            "doi": "10.5220/0007346600760083",
+            "scopus_id": "2-s2.0-85064655120",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Study of dipeptidil peptidase 4 inhibitors based on molecular docking experiments",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121052",
+            "doi": null,
+            "scopus_id": "2-s2.0-85064662478",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for steM areas",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121055",
+            "doi": "10.5220/0007675102180225",
+            "scopus_id": "2-s2.0-85067101350",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Error Concealment Methods for Multiview Video and Depth",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121057",
+            "doi": "10.1007/978-3-319-77842-6_5",
+            "scopus_id": "2-s2.0-85063149751",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Comparison of evolutionary algorithms for coordination of cooperative bioinspired multirobots",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121058",
+            "doi": "10.1007/978-3-030-16184-2_43",
+            "scopus_id": "2-s2.0-85065066388",
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Development of help and surveillance technologies for dependent elderly people at home",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121059",
+            "doi": "10.1093/eurpub/ckz096.006",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "IoT Applied in the Functional Optimization of Cyclists",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121060",
+            "doi": "10.1109/TISHW.2018.8559519",
+            "scopus_id": "2-s2.0-85060469399",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "FatoXtract a suit that may be useful in rehabilitation",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121061",
+            "doi": "10.1145/3218585.3218599",
+            "scopus_id": "2-s2.0-85061358624",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Optimal voice packet classification for enhanced VoIP over priority-enabled networks",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121062",
+            "doi": "10.1109/JCN.2018.000088",
+            "scopus_id": "2-s2.0-85060595644",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A dynamic programming algorithm to select optimal high-priority voice segments using Arduino",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121063",
+            "doi": "10.1109/eurocon.2017.8011118",
+            "scopus_id": "2-s2.0-85029366430",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spatial error concealment for intra-coded depth maps in multiview video-plus-depth",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121064",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Spatial error concealment for intra-coded depth maps in multiview video-plus-depth",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121065",
+            "doi": "10.1007/s11042-016-3766-7",
+            "scopus_id": "2-s2.0-84979516891",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Morse code translator using the Arduino platform: Crafting the future of microcontrollers",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121066",
+            "doi": "10.1109/SAI.2016.7556055",
+            "scopus_id": "2-s2.0-84988884550",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Robust decoding of MDC depth maps for enhanced 3D video over hybrid broadcasting networks",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121067",
+            "doi": "10.1109/bmsb.2016.7521935",
+            "scopus_id": "2-s2.0-84982105550",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reconstruction of lost depth data in multiview video-plus-depth communications using geometric transforms",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121068",
+            "doi": "10.1016/j.jvcir.2016.07.024",
+            "scopus_id": "2-s2.0-84991702037",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Digital sound processing using arduino and MATLAB",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121069",
+            "doi": "10.1109/SAI.2015.7237295",
+            "scopus_id": "2-s2.0-84957808120",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quality evaluation of depth map error concealment using a perceptually-aware objective metric",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121070",
+            "doi": "10.1109/3dtv.2015.7169373",
+            "scopus_id": "2-s2.0-84954162005",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Lightweight concrete masonry units based on processed granulate of corn cob as aggregate",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121071",
+            "doi": "10.3989/mc.2015.04514",
+            "scopus_id": "2-s2.0-84929643270",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Enhancement method for multiple description decoding of depth maps subject to random loss",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121072",
+            "doi": "10.1109/3DTV.2014.6874725",
+            "scopus_id": "2-s2.0-84906535660",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Radiation tests on a bluetooth based front-end electronic device towards a subcutaneous continuous glucose monitoring sensor",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121073",
+            "doi": null,
+            "scopus_id": "2-s2.0-84892529365",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Teaching of Fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121074",
+            "doi": "10.1109/educon.2013.6530141",
+            "scopus_id": "2-s2.0-84881004414",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Depth map concealment using interview warping vectors from geometric transforms",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121075",
+            "doi": "10.1109/ICIP.2013.6738375",
+            "scopus_id": "2-s2.0-84897746513",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Efficient depth error concealment for 3D video over error-prone channels",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121076",
+            "doi": "10.1109/BMSB.2013.6621706",
+            "scopus_id": "2-s2.0-84887840676",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "FouSE: An android tool to help in the teaching of fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121077",
+            "doi": "10.5220/0004401101660171",
+            "scopus_id": "2-s2.0-84887173826",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Lost block reconstruction in depth maps using color image contours",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121079",
+            "doi": "10.1109/PCS.2012.6213340",
+            "scopus_id": "2-s2.0-84864044299",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121080",
+            "doi": "10.1016/j.jal.2012.07.004",
+            "scopus_id": "2-s2.0-84869501800",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Signal processing interpolation educational workbench",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121081",
+            "doi": "10.1002/cae.20402",
+            "scopus_id": "2-s2.0-84859819508",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Risk management, a open-source approach",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121082",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Error recovery of image-based depth maps using Bézier curve fitting",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121083",
+            "doi": "10.1109/ICIP.2011.6116084",
+            "scopus_id": "2-s2.0-84856246270",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ArQoS: System to monitor QoS/QoE in VoIP",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121085",
+            "doi": "10.1109/EUROCON.2011.5929310",
+            "scopus_id": "2-s2.0-79960619691",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Quality model for monitoring QoE in VoIP services",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121086",
+            "doi": "10.1109/EUROCON.2011.5929300",
+            "scopus_id": "2-s2.0-79960619514",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Risk management, a open-source approach",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121087",
+            "doi": "10.1109/eurocon.2011.5929374",
+            "scopus_id": "2-s2.0-79960627272",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Simulation of a reverberant room",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121088",
+            "doi": null,
+            "scopus_id": "2-s2.0-84866016448",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Glucose monitoring system based on osmotic pressure measurements",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121089",
+            "doi": null,
+            "scopus_id": "2-s2.0-79955039571",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Quality Evaluation Methods to Improve Enterprise VoIP Communications",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121090",
+            "doi": "10.1007/978-3-642-24355-4_12",
+            "scopus_id": "2-s2.0-80054059921",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "A Low-Cost System to Detect Bunches of Grapes in Natural Environment from Color Images",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121091",
+            "doi": "10.1007/978-3-642-23687-7_9",
+            "scopus_id": "2-s2.0-80052163709",
+            "authors": [
+                "DF11-FF58-4F18"
+            ]
+        },
+        {
+            "type": "Other output",
+            "title": "Automatic Detection of White Grapes in Natural Environment Using Image Processing",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121092",
+            "doi": "10.1007/978-3-642-19644-7_3",
+            "scopus_id": "2-s2.0-80052941941",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Enhanced VoIP by Signal Reconstruction and Voice Quality Assessment",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121093",
+            "doi": "10.5772/14042",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Software Tool for Harmonic Distortion Simulation Caused by Non-linear Household Loads",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121094",
+            "doi": "10.1007/978-3-642-13161-5_5",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reconstruction of high frame rate image sequences in biomechanical related areas.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121095",
+            "doi": null,
+            "scopus_id": "2-s2.0-84903859559",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using information technology based exercises in primary mathematics teaching of children with cerebral palsy and mental retardation: A case study",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121096",
+            "doi": null,
+            "scopus_id": "2-s2.0-77957036900",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reconstruction of high frame rate image sequences in biomechanical related areas.",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121097",
+            "doi": "10.1109/iembs.2010.5626368",
+            "scopus_id": "2-s2.0-79953010877",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reconstructed high frame rate sequences quality measurement tool",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121098",
+            "doi": "10.1145/1140123.1140241",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Reconstructed high frame rate sequences quality measurement tool",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121099",
+            "doi": "10.1145/1140124.1140241",
+            "scopus_id": "2-s2.0-34548324540",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Reconstructed high frame rate sequences quality measurement tool",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121100",
+            "doi": null,
+            "scopus_id": "2-s2.0-33748975347",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gamified platform to aid physiotherapeutic treatment of epicondylitis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601342",
+            "doi": "10.1109/SeGAH49190.2020.9201629",
+            "scopus_id": "2-s2.0-85092747809",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Gamified platform to aid physiotherapeutic treatment of epicondylitis",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2121034",
+            "doi": "10.1109/SeGAH49190.2020.9201629",
+            "scopus_id": "2-s2.0-85092747809",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A new approach of developing games for motor rehabilitation using Microsoft Kinect",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601343",
+            "doi": "10.1109/SeGAH.2019.8882457",
+            "scopus_id": "2-s2.0-85075010340",
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse",
+            "date": "2018-01-01",
+            "keywords": [
+                "Micromouse",
+                "Microelectrónica",
+                "Kit Robótico",
+                "STEM’s",
+                "Robótica Educativa",
+                "Ensino"
+            ],
+            "ciencia_id": "cv-prod-id-2601350",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo do fluxo de uma animação 3D através do som",
+            "date": "2016-01-01",
+            "keywords": [
+                "Animação interativa",
+                "Rastreamento de batidas",
+                "004.03(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601352",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Total productive maintenance (TPM) na Gestão Industrial",
+            "date": "2018-01-01",
+            "keywords": [
+                "Total Productive Maintenance (TPM), , , , Just in time, Lean production e Zero defeitos",
+                "Manutenção preventiva",
+                "Melhoria contínua",
+                "Perdas de produção"
+            ],
+            "ciencia_id": "cv-prod-id-2601354",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "On-line prognosis of sound Insulation laid out in EN-12354",
+            "date": "2019-01-01",
+            "keywords": [
+                "Isolamento sonoro, , ,",
+                "EN-12354",
+                "Acústica de Edifícios",
+                "Arquitectura cliente/servidor e MVC"
+            ],
+            "ciencia_id": "cv-prod-id-2601351",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-enhanced_learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2601349",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário",
+            "date": "2016-01-01",
+            "keywords": [
+                "Auditoria energética",
+                "Eficiência energética",
+                "Racionalização de energia",
+                "620.92(043)",
+                "621.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601353",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Kid Grígora - A robotic platform for young ages",
+            "date": "2018-01-01",
+            "keywords": [
+                "Usability",
+                "Educational platforms",
+                "Robotics",
+                "Problem solving",
+                "Computational thinking",
+                "Scratch",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2601355",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Repair of the recurrent laryngeal nerve: Experimental study.",
+            "date": "2020-01-01",
+            "keywords": [
+                "recurrent laryngeal nerve;",
+                "Thyroid surgery",
+                "nervous per operatory lesions",
+                "nervous repair"
+            ],
+            "ciencia_id": "cv-prod-id-2601356",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-Enhanced Learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2601357",
+            "doi": "10.5220/0007675102180225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks",
+            "date": "2016-01-01",
+            "keywords": [
+                "Vídeo (3D)",
+                "Qualidade",
+                "Avaliação",
+                "Cancelamento de erros",
+                "Mapas de profundidade",
+                "MVD",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601358",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Developing computational thinking in early ages: a review of the code.org Platform",
+            "date": "2020-01-01",
+            "keywords": [
+                "Computational thinking",
+                "Technology-enhanced_learning",
+                "early-age",
+                "code.org",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2601359",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org",
+            "date": "2019-01-01",
+            "keywords": [
+                "Pensamento computacional",
+                "Resolução de problemas",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2601360",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Blue sensor: a bluetooth approached to glucose sensor",
+            "date": "2015-01-01",
+            "keywords": [
+                "Redes sem fios",
+                "Diabetes",
+                "Biosensores de glucose",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601363",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The brightness of the X-rays within the scope of the STS approach in Chemistry teaching",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601364",
+            "doi": "10.34624/id.v8i1.14260",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estudo de seguranÃa da RitalinaÂ (Cloridrato de Metilfenidato) em animais adultos: aspectos de neurotoxicidade e nefrotoxicidade",
+            "date": "2015-01-01",
+            "keywords": [
+                "FARMACIA"
+            ],
+            "ciencia_id": "cv-prod-id-2601365",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho",
+            "date": "2014-01-01",
+            "keywords": [
+                "Blocos de espiga de milho",
+                "Construção sustentável",
+                "Fogo"
+            ],
+            "ciencia_id": "cv-prod-id-2601362",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal",
+            "date": "2014-01-01",
+            "keywords": [
+                "Wavelets",
+                "HAAR",
+                "Daubechies",
+                "Detecção de altas frequências",
+                "Empirical mode decomposition (EMD)",
+                "Codecs de vídeo",
+                "VP8",
+                "H.264",
+                "Matlab",
+                "Compressão de imagem",
+                "High frequency detection",
+                "Video codecs",
+                "Image compression"
+            ],
+            "ciencia_id": "cv-prod-id-2601366",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Methods for quality enhancement of voice communications over erasure channels",
+            "date": "2015-01-01",
+            "keywords": [
+                "Informática",
+                "Reconstrução de sinal",
+                "Qualidade de voz",
+                "Melhoria MOS",
+                "Priorização de pacotes",
+                "004.9(043)",
+                "621.39(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601367",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Problem conditioning interpolation educational tool",
+            "date": "2013-01-01",
+            "keywords": [
+                "Signal reconstruction",
+                "Educational tool",
+                "Interpolation",
+                "Over-sampling",
+                "Fast Fourier Transform (FFT)",
+                "Condition number",
+                "Problem conditioning",
+                "Spectral radius"
+            ],
+            "ciencia_id": "cv-prod-id-2601369",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de informação para a gestão integrada de consumos de uma autarquia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Sistemas de informação",
+                "Consumos energéticos",
+                "Consumos de telecomunicações",
+                "Evolução dos consumos",
+                "Controlo dos custos",
+                "004(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601371",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Mobilidade eléctrica: metas e sustentabilidade",
+            "date": "2015-01-01",
+            "keywords": [
+                "Veículos elétricos",
+                "Baterias",
+                "Rede de carregamento",
+                "Ponto de carregamento",
+                "Híbrido",
+                "Mobilidade elétrica",
+                "621.31(043)",
+                "629(043)",
+                "620.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601370",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Resposta produtiva do meloeiro sob diferentes lâminas de água e doses de nitrogênio.",
+            "date": "2016-01-01",
+            "keywords": [
+                "Cucumis melo",
+                "Evapotranspiração",
+                "Irrigação localizada"
+            ],
+            "ciencia_id": "cv-prod-id-2601368",
+            "doi": "http://dx.doi.org/10.15361/1984-5529.2016v44n2p217-225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Reconstrução de sinal digital",
+                "Algoritmos",
+                "Ensino",
+                "004.03(043)",
+                "519.25(043)",
+                "371.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601372",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601378",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Signal Reconstruction Techniques Applied to Speech Transmission",
+            "date": "2013-01-01",
+            "keywords": [
+                "sobre-amostragem; interpolação; entrelaçamento; transmissões áudio em Ethernet; compressão de sinais áudio; codificação "
+            ],
+            "ciencia_id": "cv-prod-id-2601383",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal",
+            "date": "2010-01-01",
+            "keywords": [
+                "Conservação",
+                "Etologia",
+                "Gralha-de-bico-vermelho",
+                "Modelação",
+                "Monitorização",
+                "Ecológica",
+                "Habitat",
+                "591.5(043)",
+                "574(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601379",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Qualidade física de solos em uso agrícola na região Semiárida do Estado da Bahia.",
+            "date": "2015-01-01",
+            "keywords": [
+                "Análise fatorial",
+                "Indicador de qualidade",
+                "Atributos físicos",
+                "Solos arenosos",
+                "Entorno do Lago de Sobradinho",
+                "Solo",
+                "Água",
+                "Soil"
+            ],
+            "ciencia_id": "cv-prod-id-2601376",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segurança Informática de Redes e Sistemas (Abordagem Open-Source)",
+            "date": "2010-01-01",
+            "keywords": [
+                "Sistema de informação",
+                "Ambiente empresarial",
+                "Vírus",
+                "Ataques informáticos",
+                "Vulnerabilidades",
+                "Ameaças",
+                "Segurança informática",
+                "Redes informáticas",
+                "Babel Enterprise",
+                "Information system",
+                "Business environment",
+                "Cyber attacks",
+                "Vulnerabilities",
+                "Threats",
+                "Network security",
+                "Networks",
+                "Internet"
+            ],
+            "ciencia_id": "cv-prod-id-2601381",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Predictive maintenance in oil and gas offshore drilling",
+            "date": "2011-01-01",
+            "keywords": [
+                "Sensores",
+                "Sinais",
+                "Inteligência artificial",
+                "Manutenção preditiva",
+                "Sistema especializado",
+                "621.39(043)",
+                "004.8(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601380",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente",
+            "date": "2010-01-01",
+            "keywords": [
+                "Cirurgia tiroideia",
+                "Balido",
+                "Voz das Cabras",
+                "Praat",
+                "MOS",
+                "Comparison Category Rating (CCR)",
+                "Jitter",
+                "Harmonics to Noise Ratio (HNR)"
+            ],
+            "ciencia_id": "cv-prod-id-2601377",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601384",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Produ??o de hidrolases holocelulol?ticas por fermenta??o em estado s?lido com uso de fungos filamentosos e coprodutos da agroind?stria de ?leos vegetais como fontes de carbono",
+            "date": "2015-01-01",
+            "keywords": [
+                "Celulases",
+                "Xilanases",
+                "Coprodutos",
+                "Fungos filamentosos",
+                "Etanol",
+                "Cellulases",
+                "Xylanase",
+                "Co-products",
+                "Filamentous fungi",
+                "Ethanol"
+            ],
+            "ciencia_id": "cv-prod-id-2601385",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP",
+            "date": "2010-01-01",
+            "keywords": [
+                "E-MODEL",
+                "MOS",
+                "PESQ",
+                "QoE",
+                "QoS",
+                "VoIP",
+                "Métodos de avaliação de qualidade",
+                "Quality Assessment Methods"
+            ],
+            "ciencia_id": "cv-prod-id-2601382",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet-based Collaborative E-Exercisebook System for Primary Math Teaching",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601386",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2601401",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2601403",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de Home Networks",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão de Redes",
+                "Protocolos de Gestão",
+                "Home Networking"
+            ],
+            "ciencia_id": "cv-prod-id-2601400",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)",
+            "date": "2009-01-01",
+            "keywords": [
+                "deficiência visual",
+                "cluster",
+                "cego",
+                "RFID",
+                "Radiofrequência",
+                "Identificação",
+                "Leitor",
+                "Etiqueta"
+            ],
+            "ciencia_id": "cv-prod-id-2601407",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Tecnologia como Auxiliar na Agricultura Biológica em Estufa",
+            "date": "2007-01-01",
+            "keywords": [
+                "Agricultura biológica",
+                "Tecnologia"
+            ],
+            "ciencia_id": "cv-prod-id-2601405",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax",
+            "date": "2008-01-01",
+            "keywords": [
+                "Sistemas de posicionamento",
+                "Captação de imagem",
+                "Comportamento animal",
+                "Impacto ambiental",
+                "621.39: 591.52"
+            ],
+            "ciencia_id": "cv-prod-id-2601402",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Previsão e Medição do Comportamento Acústico de Espaços",
+            "date": "2010-01-01",
+            "keywords": [
+                "Acústica",
+                "Sinais",
+                "621.39(043)",
+                "004.7(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2601404",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2601406",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Audio interface for real time navigation",
+            "date": "2003-01-01",
+            "keywords": [
+                "Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2601415",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsytem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-2601414",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Dispositivo de baixo peso para estimação de trajectórias aéreas de aves",
+            "date": "2005-01-01",
+            "keywords": [
+                "Tecnologia móvel baseada em satélite, Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Satellite-based mobile technology, Computer graphics, Electrical engineering, Electronic engineering, Information engine",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2601410",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Algoritmos de reconstrução de sinal e correcção de erros",
+            "date": "2003-01-01",
+            "keywords": [
+                "Processamento de sinal",
+                "Códigos de correcção de erros",
+                "Controlo de erros",
+                "Algoritmos"
+            ],
+            "ciencia_id": "cv-prod-id-2601413",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2601412",
+            "doi": "10.1016/j.sna.2006.04.011",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsystem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-2601411",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Simulação visual de trajectórias aéreas",
+            "date": "2005-01-01",
+            "keywords": [
+                "Computação gráfica, Realidade virtual, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Virtual reality, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2601416",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Repair of the recurrent laryngeal nerve: Experimental study.",
+            "date": "2020-01-01",
+            "keywords": [
+                "recurrent laryngeal nerve;",
+                "Thyroid surgery",
+                "nervous per operatory lesions",
+                "nervous repair"
+            ],
+            "ciencia_id": "cv-prod-id-2602282",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Developing computational thinking in early ages: a review of the code.org Platform",
+            "date": "2020-01-01",
+            "keywords": [
+                "Computational thinking",
+                "Technology-enhanced_learning",
+                "early-age",
+                "code.org",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602277",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-Enhanced Learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602278",
+            "doi": "10.5220/0007675102180225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Kid Grígora - A robotic platform for young ages",
+            "date": "2018-01-01",
+            "keywords": [
+                "Usability",
+                "Educational platforms",
+                "Robotics",
+                "Problem solving",
+                "Computational thinking",
+                "Scratch",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602279",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Total productive maintenance (TPM) na Gestão Industrial",
+            "date": "2018-01-01",
+            "keywords": [
+                "Total Productive Maintenance (TPM), , , , Just in time, Lean production e Zero defeitos",
+                "Manutenção preventiva",
+                "Melhoria contínua",
+                "Perdas de produção"
+            ],
+            "ciencia_id": "cv-prod-id-2602280",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo do fluxo de uma animação 3D através do som",
+            "date": "2016-01-01",
+            "keywords": [
+                "Animação interativa",
+                "Rastreamento de batidas",
+                "004.03(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602276",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse",
+            "date": "2018-01-01",
+            "keywords": [
+                "Micromouse",
+                "Microelectrónica",
+                "Kit Robótico",
+                "STEM’s",
+                "Robótica Educativa",
+                "Ensino"
+            ],
+            "ciencia_id": "cv-prod-id-2602281",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks",
+            "date": "2016-01-01",
+            "keywords": [
+                "Vídeo (3D)",
+                "Qualidade",
+                "Avaliação",
+                "Cancelamento de erros",
+                "Mapas de profundidade",
+                "MVD",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602283",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "On-line prognosis of sound Insulation laid out in EN-12354",
+            "date": "2019-01-01",
+            "keywords": [
+                "Isolamento sonoro, , ,",
+                "EN-12354",
+                "Acústica de Edifícios",
+                "Arquitectura cliente/servidor e MVC"
+            ],
+            "ciencia_id": "cv-prod-id-2602284",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org",
+            "date": "2019-01-01",
+            "keywords": [
+                "Pensamento computacional",
+                "Resolução de problemas",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602285",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário",
+            "date": "2016-01-01",
+            "keywords": [
+                "Auditoria energética",
+                "Eficiência energética",
+                "Racionalização de energia",
+                "620.92(043)",
+                "621.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602286",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-enhanced_learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602287",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Methods for quality enhancement of voice communications over erasure channels",
+            "date": "2015-01-01",
+            "keywords": [
+                "Informática",
+                "Reconstrução de sinal",
+                "Qualidade de voz",
+                "Melhoria MOS",
+                "Priorização de pacotes",
+                "004.9(043)",
+                "621.39(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602298",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Problem conditioning interpolation educational tool",
+            "date": "2013-01-01",
+            "keywords": [
+                "Signal reconstruction",
+                "Educational tool",
+                "Interpolation",
+                "Over-sampling",
+                "Fast Fourier Transform (FFT)",
+                "Condition number",
+                "Problem conditioning",
+                "Spectral radius"
+            ],
+            "ciencia_id": "cv-prod-id-2602294",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Reconstrução de sinal digital",
+                "Algoritmos",
+                "Ensino",
+                "004.03(043)",
+                "519.25(043)",
+                "371.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602295",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal",
+            "date": "2014-01-01",
+            "keywords": [
+                "Wavelets",
+                "HAAR",
+                "Daubechies",
+                "Detecção de altas frequências",
+                "Empirical mode decomposition (EMD)",
+                "Codecs de vídeo",
+                "VP8",
+                "H.264",
+                "Matlab",
+                "Compressão de imagem",
+                "High frequency detection",
+                "Video codecs",
+                "Image compression"
+            ],
+            "ciencia_id": "cv-prod-id-2602296",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Blue sensor: a bluetooth approached to glucose sensor",
+            "date": "2015-01-01",
+            "keywords": [
+                "Redes sem fios",
+                "Diabetes",
+                "Biosensores de glucose",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602293",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho",
+            "date": "2014-01-01",
+            "keywords": [
+                "Blocos de espiga de milho",
+                "Construção sustentável",
+                "Fogo"
+            ],
+            "ciencia_id": "cv-prod-id-2602299",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de informação para a gestão integrada de consumos de uma autarquia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Sistemas de informação",
+                "Consumos energéticos",
+                "Consumos de telecomunicações",
+                "Evolução dos consumos",
+                "Controlo dos custos",
+                "004(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602300",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Mobilidade eléctrica: metas e sustentabilidade",
+            "date": "2015-01-01",
+            "keywords": [
+                "Veículos elétricos",
+                "Baterias",
+                "Rede de carregamento",
+                "Ponto de carregamento",
+                "Híbrido",
+                "Mobilidade elétrica",
+                "621.31(043)",
+                "629(043)",
+                "620.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602297",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602304",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Signal Reconstruction Techniques Applied to Speech Transmission",
+            "date": "2013-01-01",
+            "keywords": [
+                "sobre-amostragem; interpolação; entrelaçamento; transmissões áudio em Ethernet; compressão de sinais áudio; codificação "
+            ],
+            "ciencia_id": "cv-prod-id-2602309",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente",
+            "date": "2010-01-01",
+            "keywords": [
+                "Cirurgia tiroideia",
+                "Balido",
+                "Voz das Cabras",
+                "Praat",
+                "MOS",
+                "Comparison Category Rating (CCR)",
+                "Jitter",
+                "Harmonics to Noise Ratio (HNR)"
+            ],
+            "ciencia_id": "cv-prod-id-2602305",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Predictive maintenance in oil and gas offshore drilling",
+            "date": "2011-01-01",
+            "keywords": [
+                "Sensores",
+                "Sinais",
+                "Inteligência artificial",
+                "Manutenção preditiva",
+                "Sistema especializado",
+                "621.39(043)",
+                "004.8(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602307",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602306",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet-based Collaborative E-Exercisebook System for Primary Math Teaching",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602308",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602313",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal",
+            "date": "2010-01-01",
+            "keywords": [
+                "Conservação",
+                "Etologia",
+                "Gralha-de-bico-vermelho",
+                "Modelação",
+                "Monitorização",
+                "Ecológica",
+                "Habitat",
+                "591.5(043)",
+                "574(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602311",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Previsão e Medição do Comportamento Acústico de Espaços",
+            "date": "2010-01-01",
+            "keywords": [
+                "Acústica",
+                "Sinais",
+                "621.39(043)",
+                "004.7(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602316",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de Home Networks",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão de Redes",
+                "Protocolos de Gestão",
+                "Home Networking"
+            ],
+            "ciencia_id": "cv-prod-id-2602312",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP",
+            "date": "2010-01-01",
+            "keywords": [
+                "E-MODEL",
+                "MOS",
+                "PESQ",
+                "QoE",
+                "QoS",
+                "VoIP",
+                "Métodos de avaliação de qualidade",
+                "Quality Assessment Methods"
+            ],
+            "ciencia_id": "cv-prod-id-2602314",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segurança Informática de Redes e Sistemas (Abordagem Open-Source)",
+            "date": "2010-01-01",
+            "keywords": [
+                "Sistema de informação",
+                "Ambiente empresarial",
+                "Vírus",
+                "Ataques informáticos",
+                "Vulnerabilidades",
+                "Ameaças",
+                "Segurança informática",
+                "Redes informáticas",
+                "Babel Enterprise",
+                "Information system",
+                "Business environment",
+                "Cyber attacks",
+                "Vulnerabilities",
+                "Threats",
+                "Network security",
+                "Networks",
+                "Internet"
+            ],
+            "ciencia_id": "cv-prod-id-2602315",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Tecnologia como Auxiliar na Agricultura Biológica em Estufa",
+            "date": "2007-01-01",
+            "keywords": [
+                "Agricultura biológica",
+                "Tecnologia"
+            ],
+            "ciencia_id": "cv-prod-id-2602318",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax",
+            "date": "2008-01-01",
+            "keywords": [
+                "Sistemas de posicionamento",
+                "Captação de imagem",
+                "Comportamento animal",
+                "Impacto ambiental",
+                "621.39: 591.52"
+            ],
+            "ciencia_id": "cv-prod-id-2602317",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)",
+            "date": "2009-01-01",
+            "keywords": [
+                "deficiência visual",
+                "cluster",
+                "cego",
+                "RFID",
+                "Radiofrequência",
+                "Identificação",
+                "Leitor",
+                "Etiqueta"
+            ],
+            "ciencia_id": "cv-prod-id-2602319",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Developing computational thinking in early ages: a review of the code.org Platform",
+            "date": "2020-01-01",
+            "keywords": [
+                "Computational thinking",
+                "Technology-enhanced_learning",
+                "early-age",
+                "code.org",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602483",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Kid Grígora - A robotic platform for young ages",
+            "date": "2018-01-01",
+            "keywords": [
+                "Usability",
+                "Educational platforms",
+                "Robotics",
+                "Problem solving",
+                "Computational thinking",
+                "Scratch",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602489",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-enhanced_learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602482",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo do fluxo de uma animação 3D através do som",
+            "date": "2016-01-01",
+            "keywords": [
+                "Animação interativa",
+                "Rastreamento de batidas",
+                "004.03(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602487",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse",
+            "date": "2018-01-01",
+            "keywords": [
+                "Micromouse",
+                "Microelectrónica",
+                "Kit Robótico",
+                "STEM’s",
+                "Robótica Educativa",
+                "Ensino"
+            ],
+            "ciencia_id": "cv-prod-id-2602485",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário",
+            "date": "2016-01-01",
+            "keywords": [
+                "Auditoria energética",
+                "Eficiência energética",
+                "Racionalização de energia",
+                "620.92(043)",
+                "621.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602484",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-Enhanced Learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602488",
+            "doi": "10.5220/0007675102180225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks",
+            "date": "2016-01-01",
+            "keywords": [
+                "Vídeo (3D)",
+                "Qualidade",
+                "Avaliação",
+                "Cancelamento de erros",
+                "Mapas de profundidade",
+                "MVD",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602490",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org",
+            "date": "2019-01-01",
+            "keywords": [
+                "Pensamento computacional",
+                "Resolução de problemas",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-2602491",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Total productive maintenance (TPM) na Gestão Industrial",
+            "date": "2018-01-01",
+            "keywords": [
+                "Total Productive Maintenance (TPM), , , , Just in time, Lean production e Zero defeitos",
+                "Manutenção preventiva",
+                "Melhoria contínua",
+                "Perdas de produção"
+            ],
+            "ciencia_id": "cv-prod-id-2602492",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "On-line prognosis of sound Insulation laid out in EN-12354",
+            "date": "2019-01-01",
+            "keywords": [
+                "Isolamento sonoro, , ,",
+                "EN-12354",
+                "Acústica de Edifícios",
+                "Arquitectura cliente/servidor e MVC"
+            ],
+            "ciencia_id": "cv-prod-id-2602493",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Repair of the recurrent laryngeal nerve: Experimental study.",
+            "date": "2020-01-01",
+            "keywords": [
+                "recurrent laryngeal nerve;",
+                "Thyroid surgery",
+                "nervous per operatory lesions",
+                "nervous repair"
+            ],
+            "ciencia_id": "cv-prod-id-2602486",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Methods for quality enhancement of voice communications over erasure channels",
+            "date": "2015-01-01",
+            "keywords": [
+                "Informática",
+                "Reconstrução de sinal",
+                "Qualidade de voz",
+                "Melhoria MOS",
+                "Priorização de pacotes",
+                "004.9(043)",
+                "621.39(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602499",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Blue sensor: a bluetooth approached to glucose sensor",
+            "date": "2015-01-01",
+            "keywords": [
+                "Redes sem fios",
+                "Diabetes",
+                "Biosensores de glucose",
+                "621.39(043)",
+                "004.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602497",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Problem conditioning interpolation educational tool",
+            "date": "2013-01-01",
+            "keywords": [
+                "Signal reconstruction",
+                "Educational tool",
+                "Interpolation",
+                "Over-sampling",
+                "Fast Fourier Transform (FFT)",
+                "Condition number",
+                "Problem conditioning",
+                "Spectral radius"
+            ],
+            "ciencia_id": "cv-prod-id-2602501",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal",
+            "date": "2014-01-01",
+            "keywords": [
+                "Wavelets",
+                "HAAR",
+                "Daubechies",
+                "Detecção de altas frequências",
+                "Empirical mode decomposition (EMD)",
+                "Codecs de vídeo",
+                "VP8",
+                "H.264",
+                "Matlab",
+                "Compressão de imagem",
+                "High frequency detection",
+                "Video codecs",
+                "Image compression"
+            ],
+            "ciencia_id": "cv-prod-id-2602503",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Reconstrução de sinal digital",
+                "Algoritmos",
+                "Ensino",
+                "004.03(043)",
+                "519.25(043)",
+                "371.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602498",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Sistema de informação para a gestão integrada de consumos de uma autarquia",
+            "date": "2015-01-01",
+            "keywords": [
+                "Sistemas de informação",
+                "Consumos energéticos",
+                "Consumos de telecomunicações",
+                "Evolução dos consumos",
+                "Controlo dos custos",
+                "004(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602500",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Mobilidade eléctrica: metas e sustentabilidade",
+            "date": "2015-01-01",
+            "keywords": [
+                "Veículos elétricos",
+                "Baterias",
+                "Rede de carregamento",
+                "Ponto de carregamento",
+                "Híbrido",
+                "Mobilidade elétrica",
+                "621.31(043)",
+                "629(043)",
+                "620.9(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602504",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho",
+            "date": "2014-01-01",
+            "keywords": [
+                "Blocos de espiga de milho",
+                "Construção sustentável",
+                "Fogo"
+            ],
+            "ciencia_id": "cv-prod-id-2602502",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Predictive maintenance in oil and gas offshore drilling",
+            "date": "2011-01-01",
+            "keywords": [
+                "Sensores",
+                "Sinais",
+                "Inteligência artificial",
+                "Manutenção preditiva",
+                "Sistema especializado",
+                "621.39(043)",
+                "004.8(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602509",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602511",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Signal Reconstruction Techniques Applied to Speech Transmission",
+            "date": "2013-01-01",
+            "keywords": [
+                "sobre-amostragem; interpolação; entrelaçamento; transmissões áudio em Ethernet; compressão de sinais áudio; codificação "
+            ],
+            "ciencia_id": "cv-prod-id-2602513",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente",
+            "date": "2010-01-01",
+            "keywords": [
+                "Cirurgia tiroideia",
+                "Balido",
+                "Voz das Cabras",
+                "Praat",
+                "MOS",
+                "Comparison Category Rating (CCR)",
+                "Jitter",
+                "Harmonics to Noise Ratio (HNR)"
+            ],
+            "ciencia_id": "cv-prod-id-2602510",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet-based Collaborative E-Exercisebook System for Primary Math Teaching",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602512",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602514",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal",
+            "date": "2010-01-01",
+            "keywords": [
+                "Conservação",
+                "Etologia",
+                "Gralha-de-bico-vermelho",
+                "Modelação",
+                "Monitorização",
+                "Ecológica",
+                "Habitat",
+                "591.5(043)",
+                "574(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602538",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Previsão e Medição do Comportamento Acústico de Espaços",
+            "date": "2010-01-01",
+            "keywords": [
+                "Acústica",
+                "Sinais",
+                "621.39(043)",
+                "004.7(043)"
+            ],
+            "ciencia_id": "cv-prod-id-2602536",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Segurança Informática de Redes e Sistemas (Abordagem Open-Source)",
+            "date": "2010-01-01",
+            "keywords": [
+                "Sistema de informação",
+                "Ambiente empresarial",
+                "Vírus",
+                "Ataques informáticos",
+                "Vulnerabilidades",
+                "Ameaças",
+                "Segurança informática",
+                "Redes informáticas",
+                "Babel Enterprise",
+                "Information system",
+                "Business environment",
+                "Cyber attacks",
+                "Vulnerabilities",
+                "Threats",
+                "Network security",
+                "Networks",
+                "Internet"
+            ],
+            "ciencia_id": "cv-prod-id-2602541",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Gestão de Home Networks",
+            "date": "2009-01-01",
+            "keywords": [
+                "Gestão de Redes",
+                "Protocolos de Gestão",
+                "Home Networking"
+            ],
+            "ciencia_id": "cv-prod-id-2602539",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP",
+            "date": "2010-01-01",
+            "keywords": [
+                "E-MODEL",
+                "MOS",
+                "PESQ",
+                "QoE",
+                "QoS",
+                "VoIP",
+                "Métodos de avaliação de qualidade",
+                "Quality Assessment Methods"
+            ],
+            "ciencia_id": "cv-prod-id-2602537",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2602540",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Tecnologia como Auxiliar na Agricultura Biológica em Estufa",
+            "date": "2007-01-01",
+            "keywords": [
+                "Agricultura biológica",
+                "Tecnologia"
+            ],
+            "ciencia_id": "cv-prod-id-2602563",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax",
+            "date": "2008-01-01",
+            "keywords": [
+                "Sistemas de posicionamento",
+                "Captação de imagem",
+                "Comportamento animal",
+                "Impacto ambiental",
+                "621.39: 591.52"
+            ],
+            "ciencia_id": "cv-prod-id-2602562",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2602569",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)",
+            "date": "2009-01-01",
+            "keywords": [
+                "deficiência visual",
+                "cluster",
+                "cego",
+                "RFID",
+                "Radiofrequência",
+                "Identificação",
+                "Leitor",
+                "Etiqueta"
+            ],
+            "ciencia_id": "cv-prod-id-2602567",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2602568",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsytem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-2602571",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management",
+            "date": "2005-01-01",
+            "keywords": [
+                "Microsystem",
+                "Wireless",
+                "Sensor"
+            ],
+            "ciencia_id": "cv-prod-id-2602572",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [
+                "Microsystem",
+                "Electrical resistivity sensor",
+                "Wireless interface",
+                "Estrus prediction"
+            ],
+            "ciencia_id": "cv-prod-id-2602573",
+            "doi": "10.1016/j.sna.2006.04.011",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Dispositivo de baixo peso para estimação de trajectórias aéreas de aves",
+            "date": "2005-01-01",
+            "keywords": [
+                "Tecnologia móvel baseada em satélite, Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Satellite-based mobile technology, Computer graphics, Electrical engineering, Electronic engineering, Information engine",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2602577",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Audio interface for real time navigation",
+            "date": "2003-01-01",
+            "keywords": [
+                "Computação gráfica, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2602576",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Simulação visual de trajectórias aéreas",
+            "date": "2005-01-01",
+            "keywords": [
+                "Computação gráfica, Realidade virtual, Engenharia electrotécnica, electrónica e informática",
+                "Computer graphics, Virtual reality, Electrical engineering, Electronic engineering, Information engineering",
+                "Ciências da engenharia e tecnologias::Engenharia electrotécnica, electrónica e informática",
+                "Engineering and technology::Electrical engineering, Electronic engineering, Information engineering"
+            ],
+            "ciencia_id": "cv-prod-id-2602578",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Algoritmos de reconstrução de sinal e correcção de erros",
+            "date": "2003-01-01",
+            "keywords": [
+                "Processamento de sinal",
+                "Códigos de correcção de erros",
+                "Controlo de erros",
+                "Algoritmos"
+            ],
+            "ciencia_id": "cv-prod-id-2602579",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Qualidade Física de Solos em Uso Agrícola na Região Semiárida do Estado da Bahia",
+            "date": "2015-01-01",
+            "keywords": [
+                "análise fatorial",
+                "indicador de qualidade",
+                "atributos físicos",
+                "solos arenosos"
+            ],
+            "ciencia_id": "cv-prod-id-2602580",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Controlo do fluxo de uma animação 3D através do som",
+            "date": "2016-01-01",
+            "keywords": [
+                "Animação interativa",
+                "Rastreamento de batidas",
+                "004.03(043)"
+            ],
+            "ciencia_id": "cv-prod-id-3108027",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Soil chemical quality in agricultural land uses in the semiarid of Bahia.",
+            "date": "2018-01-01",
+            "keywords": [
+                "Atributo químico",
+                "Lago de Sobradinho",
+                "Manejo do Solo",
+                "Solo Arenoso",
+                "Elemento Químico",
+                "Multivariate analysis",
+                "Soil management",
+                "Sandy soils"
+            ],
+            "ciencia_id": "cv-prod-id-3108030",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The brightness of the X-rays within the scope of the STS approach in Chemistry teaching",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3108031",
+            "doi": "10.34624/id.v8i1.14260",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Identificação das alterações na voz da Caprahircus após cirurgia ao nervo laríngeo recorrente",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3108028",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Resposta produtiva do meloeiro sob diferentes lâminas de água e doses de nitrogênio.",
+            "date": "2016-01-01",
+            "keywords": [
+                "Cucumis melo",
+                "Evapotranspiração",
+                "Irrigação localizada"
+            ],
+            "ciencia_id": "cv-prod-id-3108029",
+            "doi": "http://dx.doi.org/10.15361/1984-5529.2016v44n2p217-225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Serological proteomic screening and evaluation of a recombinant egg antigen for the diagnosis of low-intensity Schistosoma mansoni infections in endemic area in Brazil",
+            "date": "2019-01-01",
+            "keywords": [
+                "Schistosoma mansoni",
+                "Enzyme-Linked Immunosorbent Assay",
+                "Schistosomiasis mansoni",
+                "Immunologic Tests",
+                "Antigens",
+                "Reagent Kits, Diagnostic",
+                "Ensayo de Inmunoadsorción Enzimática",
+                "Esquistosomiasis mansoni",
+                "Pruebas Inmunológicas",
+                "Juego de Reactivos para Diagnóstico",
+                "Ensaio de Imunoadsorção Enzimática",
+                "Esquistossomose mansoni",
+                "Testes Imunológicos",
+                "Antígenos",
+                "Kit de Reagentes para Diagnóstico"
+            ],
+            "ciencia_id": "cv-prod-id-3108032",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-Enhanced Learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-3108033",
+            "doi": "10.5220/0007675102180225",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Kid Grígora - A robotic platform for young ages",
+            "date": "2018-01-01",
+            "keywords": [
+                "Usability",
+                "Educational platforms",
+                "Robotics",
+                "Problem solving",
+                "Computational thinking",
+                "Scratch",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-3108034",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Disfunção e não função primária do enxerto hepático: revisão integrativa.",
+            "date": "2019-01-01",
+            "keywords": [
+                "Disfunção Primária do Enxerto",
+                "Transplante de Fígado",
+                "Fatores de Risco."
+            ],
+            "ciencia_id": "cv-prod-id-3108035",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Predição de estrutura terciária de proteínas com técnicas multiobjetivo no algoritmo de monte carlo",
+            "date": "2016-01-01",
+            "keywords": [
+                "Predição da estrutura terciária de proteínas",
+                "Otimização multiobjetivo",
+                "Monte carlo metropolis",
+                "Monte carlo com dominância",
+                "Protein tertiary structure prediction",
+                "Multi-objective optimization",
+                "Monte carlo with dominance",
+                "CIENCIAS EXATAS E DA TERRA::CIENCIA DA COMPUTACAO"
+            ],
+            "ciencia_id": "cv-prod-id-3108036",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Total productive maintenance (TPM) na Gestão Industrial",
+            "date": "2018-01-01",
+            "keywords": [
+                "Total Productive Maintenance (TPM), , , , Just in time, Lean production e Zero defeitos",
+                "Manutenção preventiva",
+                "Melhoria contínua",
+                "Perdas de produção"
+            ],
+            "ciencia_id": "cv-prod-id-3108037",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Serological proteomic screening and evaluation of a recombinant egg antigen for the diagnosis of low-intensity Schistosoma mansoni infections in endemic area in Brazil",
+            "date": "2019-01-01",
+            "keywords": [
+                "Schistosoma mansoni",
+                "Parasitic diseases",
+                "Schistosomiasis",
+                "Diagnostic medicine",
+                "Enzyme-linked immunoassays",
+                "Recombinant proteins",
+                "Antibodies",
+                "Brazil"
+            ],
+            "ciencia_id": "cv-prod-id-3108038",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário",
+            "date": "2016-01-01",
+            "keywords": [
+                "Auditoria energética",
+                "Eficiência energética",
+                "Racionalização de energia",
+                "620.92(043)",
+                "621.3(043)"
+            ],
+            "ciencia_id": "cv-prod-id-3108039",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "On-line prognosis of sound Insulation laid out in EN-12354",
+            "date": "2019-01-01",
+            "keywords": [
+                "Isolamento sonoro, , ,",
+                "EN-12354",
+                "Acústica de Edifícios",
+                "Arquitectura cliente/servidor e MVC"
+            ],
+            "ciencia_id": "cv-prod-id-3108040",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Repair of the recurrent laryngeal nerve: Experimental study.",
+            "date": "2020-01-01",
+            "keywords": [
+                "recurrent laryngeal nerve;",
+                "Thyroid surgery",
+                "nervous per operatory lesions",
+                "nervous repair"
+            ],
+            "ciencia_id": "cv-prod-id-3108041",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Usability evaluation of an educational robot for STEM areas",
+            "date": "2019-01-01",
+            "keywords": [
+                "Robotics",
+                "Usability",
+                "STEM",
+                "Technology-enhanced_learning",
+                "Scratch",
+                "mBlock",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-3108042",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Working paper",
+            "title": "Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org",
+            "date": "2019-01-01",
+            "keywords": [
+                "Pensamento computacional",
+                "Resolução de problemas",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-3108043",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse",
+            "date": "2018-01-01",
+            "keywords": [
+                "Micromouse",
+                "Microelectrónica",
+                "Kit Robótico",
+                "STEM’s",
+                "Robótica Educativa",
+                "Ensino"
+            ],
+            "ciencia_id": "cv-prod-id-3108044",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Processamento Digital de Sinal: (Conteúdos e métodos de organização científica e de execução pedagógica)",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-3108045",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Developing computational thinking in early ages: a review of the code.org Platform",
+            "date": "2020-01-01",
+            "keywords": [
+                "Computational thinking",
+                "Technology-enhanced_learning",
+                "early-age",
+                "code.org",
+                "Ciências Sociais::Ciências da Educação"
+            ],
+            "ciencia_id": "cv-prod-id-3108046",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        }
+    ]
+}

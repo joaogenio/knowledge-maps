@@ -1,0 +1,23 @@
+{
+    "ciencia_id": "AB1B-6394-8A3D",
+    "name": "AUGUSTO MARQUES FERREIRA DA SILVA",
+    "bio": "",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        },
+        {
+            "name": "Medical and Health Sciences - Clinical Medicine - Radiology, Nuclear Medicine and Medical Imaging",
+            "code": "30201011"
+        },
+        {
+            "name": "Engineering and Technology - Medical Engineering",
+            "code": "20600003"
+        }
+    ],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": []
+}

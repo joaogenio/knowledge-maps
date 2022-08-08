@@ -1,0 +1,10 @@
+{
+    "ciencia_id": "BC15-70A9-F5C9",
+    "name": "Nuno Filipe Correia de Almeida",
+    "bio": "",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": []
+}

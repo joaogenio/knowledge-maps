@@ -1,0 +1,887 @@
+{
+    "ciencia_id": "7313-813E-B322",
+    "name": "Joaquim Manuel Henriques de Sousa Pinto",
+    "bio": "Joaquim Manuel Henriques de Sousa Pinto. Publicou 18 artigos em revistas especializadas. Possui 2 livro(s).",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        }
+    ],
+    "degrees": [
+        "Ciências de Engenharia Eletrónica e Telecomunicações",
+        "Provas de Avaliação da Competência Pedagógico e Técnico Científica",
+        "Engenharia Electrotécnica"
+    ],
+    "distinctions": [
+        "Prémio \"Geriatria 'Dr. José Reis Jr.' do Biénio 1998-2000\""
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Sky Computing: exploring the aggregated Cloud resources",
+            "date": "2017-03-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775496",
+            "doi": "10.1007/s10586-017-0727-5",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Building Blocks of a PaaS",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775497",
+            "doi": "10.1007/s10922-012-9260-2",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Risk factors in e-justice information systems",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775498",
+            "doi": "10.1016/j.giq.2013.02.002",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Health@Home scenario: Creating a new support system for home telerehabilitation",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775499",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861978367",
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Cloud computing enhanced service development architecture for the living usability lab",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775500",
+            "doi": "10.1007/978-3-642-24352-3_31",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A new living lab for usability evaluation of ICT and next generation networks for elderly@home",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775501",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960543375",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Cloud computing: A platform of services for services",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775502",
+            "doi": "10.1007/978-3-642-24355-4_10",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "GlobaliD - Privacy concerns on a Federated Identity Provider associated with the users' national citizen's card",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775503",
+            "doi": "10.1109/CENTRIC.2010.26",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "User provided cloud computing",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775504",
+            "doi": "10.1109/CCGRID.2010.37",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A cloud oriented approach for people-provided services",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775505",
+            "doi": "10.1109/ICIW.2010.54",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "GlobaliD: Federated identity provider associated with national citizen's card",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775506",
+            "doi": null,
+            "scopus_id": "2-s2.0-77957844142",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Web services deployment on P2P networks, based on JXTA",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775507",
+            "doi": null,
+            "scopus_id": "2-s2.0-78649853557",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "SInBAD digital library preservation using irods data grid",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775508",
+            "doi": null,
+            "scopus_id": "2-s2.0-74549164197",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "QGM - A system to improve maths e-learning",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775509",
+            "doi": null,
+            "scopus_id": "2-s2.0-67650556630",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Service oriented P2P networks for digital libraries, based on JXTA",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775510",
+            "doi": null,
+            "scopus_id": "2-s2.0-74549185159",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "QGM - A SYSTEM TO IMPROVE MATHS e-LEARNING",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775511",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "SERVICE ORIENTED P2P NETWORKS FOR DIGITAL LIBRARIES, BASED ON JXTA",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775512",
+            "doi": "10.5220/0002257501410146",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "User profiles in corporate scenarios",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775513",
+            "doi": "10.1109/ICIW.2008.60",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "User profiles in organizational environments",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775514",
+            "doi": "10.1108/10650740810886312",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "SOPPA - Service oriented P2P framework for digital libraries",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-775515",
+            "doi": null,
+            "scopus_id": "2-s2.0-58049139902",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "UNIMARC-XML performance testing",
+            "date": "2008-09-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778058",
+            "doi": "10.1145/1621087.1621118",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "SWIT: An open-source web-based database management system with indexing engine integration",
+            "date": "2008-09-10",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778059",
+            "doi": "10.1145/1621087.1621120",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Applications@DA - Online platform for organizational online submission Applications",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778060",
+            "doi": "10.1109/INFTECH.2008.4621636",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Improving performance of background jobs in digital libraries using grid computing",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778061",
+            "doi": null,
+            "scopus_id": "2-s2.0-58049178479",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Resource aggregation in digital libraries - Static vs dynamic protocols",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778062",
+            "doi": null,
+            "scopus_id": "2-s2.0-55849099291",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Managing scientific production",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778063",
+            "doi": "10.1109/INFTECH.2008.4621581",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Search engines evaluation for P2P based Digital Libraries",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778064",
+            "doi": "10.1145/1621087.1621119",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The new institutional portal of UA methodology of development | O novo portal institucional da UA metodologia de desenvolvimento",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778065",
+            "doi": "10.1145/1352694.1352766",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "TDmat-mathematics diagnosis evaluation test for engineering sciences students",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778066",
+            "doi": "10.1080/00207390601035476",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322",
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "SInBAD - A digital library to aggregate multimedia documents",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778068",
+            "doi": "10.1109/AICT-ICIW.2006.172",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Contact@UA - A profile driven portal",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778069",
+            "doi": "10.1109/AICT-ICIW.2006.69",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "XML family skills used by FLoWPASS",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778071",
+            "doi": null,
+            "scopus_id": "2-s2.0-21944441701",
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Contact@UA - Multi-service web portal",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778072",
+            "doi": null,
+            "scopus_id": "2-s2.0-84859945571",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Web annotation system based on web services",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778073",
+            "doi": "10.1109/NWESP.2005.82",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Portuguese parliamentary records: A multimedia digital library distributed architecture, based on Web Services",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778075",
+            "doi": "10.1109/NWESP.2005.64",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Audiovisual archive with MPEG-7 video description and XML database",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778076",
+            "doi": null,
+            "scopus_id": "2-s2.0-8444240453",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "AbcNet: A literacy tool in developing countries",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778077",
+            "doi": "10.1109/ICALT.2004.1357727",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Design and development of a virtual library and a SOAP/Z39.50 gateway using Java technologies",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778078",
+            "doi": "10.1117/12.433007",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Hypermedia authoring tools based on OLE technology",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778079",
+            "doi": "10.1007/BF01215870",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "HyDE: A hypermedia document editor based on OLE technology",
+            "date": "1994-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778080",
+            "doi": null,
+            "scopus_id": "2-s2.0-0028138073",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "PC workstation for Ethernet monitoring and management",
+            "date": "1991-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-778081",
+            "doi": null,
+            "scopus_id": "2-s2.0-0026403147",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Portuguese parliamentary records digital library",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966305",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "Proposal of a Framework to Workflow Process Automation Systems based on .NET Framework and XML Web Service",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966404",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "FlowPass-based applications suggested to Portuguese parliament and supported by XML web services",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966436",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "A Contribution of Open Source Technologies to Support Distributed Digital Library's Repository and Index Services",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966460",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Web Annotation System Based on Web Services",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966552",
+            "doi": "10.1109/nwesp.2005.82",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Risks, trust and results: The project's methodology underneath Cape Verde's Justice Information System",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2966794",
+            "doi": "10.1109/icedeg.2016.7461695",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Communications in Computer and Information Science",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2967044",
+            "doi": "10.1007/978-3-642-24352-3_31",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "CLOUD INTERCHANGEABILITY - Redefining Expectations",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2967138",
+            "doi": "10.5220/0003393301800183",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "BioDepura: bivalve depuration methodologies adapted to the physiological needs",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2969336",
+            "doi": "10.1145/3401895.3401918",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Dynamic parliamentary management platform with workflow engine integration",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2970478",
+            "doi": "10.1145/3401895.3402079",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "EATIS '20: Proceedings of the 10th Euro-American Conference on Telematics and Information Systems",
+            "date": "2021-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2970559",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "HPC in Weather Forecast",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2970665",
+            "doi": "10.4018/ijcac.2015010102",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Software Application for Data Visualization and Interaction in a Location Routing Problem",
+            "date": "2013-01-01",
+            "keywords": [
+                "data visualization; Location-Routing; analyze data"
+            ],
+            "ciencia_id": "cv-prod-id-2970981",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Natural Language Generation in the context of Multimodal Interaction in Portuguese",
+            "date": "2013-01-01",
+            "keywords": [
+                "natural language generation; NLG; multimodal interfaces; fission; adaptability to users; data to text; portuguese"
+            ],
+            "ciencia_id": "cv-prod-id-2970976",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Exploração Virtual de uma embarcação do sec. XV afundada na ria de Aveiro",
+            "date": "2013-01-01",
+            "keywords": [
+                "cerâmica; embarcações; exploração virtual; ria de Aveiro"
+            ],
+            "ciencia_id": "cv-prod-id-2970978",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sistema de Informação do Processo Penal (SIPP)",
+            "date": "2013-01-01",
+            "keywords": [
+                "Cabo Verde",
+                "Cooperação para o desenvolvimento",
+                "Informatização da justiça",
+                "Cooperação interuniversitária",
+                "e-Government",
+                "i-Governmen",
+                "Cape Verde",
+                "Computerisation of justice",
+                "Development aid",
+                "Inter-university cooperation"
+            ],
+            "ciencia_id": "cv-prod-id-2970979",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "ABC: Arquivo Bibliográfico para publicações Científicas",
+            "date": "2012-01-01",
+            "keywords": [
+                "ABC; arquivo bibliográfico"
+            ],
+            "ciencia_id": "cv-prod-id-2971032",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An Introductory Course on Human Computer Interaction",
+            "date": "2012-01-01",
+            "keywords": [
+                "Human Computer Interaction"
+            ],
+            "ciencia_id": "cv-prod-id-2971026",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Simulator of a Flow Cytometer: A Prototype",
+            "date": "2012-01-01",
+            "keywords": [
+                "simulador; citómetros"
+            ],
+            "ciencia_id": "cv-prod-id-2971031",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Player Cooperativo de Documentos Hipermédia",
+            "date": "2012-01-01",
+            "keywords": [
+                "edição cooperativa; documentos hipermédia; player cooperativo"
+            ],
+            "ciencia_id": "cv-prod-id-2971029",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Videoconferência Multiponto",
+            "date": "2012-01-01",
+            "keywords": [
+                "Videoconferência"
+            ],
+            "ciencia_id": "cv-prod-id-2971027",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Diário da Assembleia da República Electrónico",
+            "date": "2012-01-01",
+            "keywords": [
+                "Diário da Assembleia da República Electrónico"
+            ],
+            "ciencia_id": "cv-prod-id-2971030",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Descrição de vídeo com Multimedia Content Description Interface (MPEG-7)",
+            "date": "2012-01-01",
+            "keywords": [
+                "MPEG-7; Multimedia Content Description Interface; descrição de vídeos"
+            ],
+            "ciencia_id": "cv-prod-id-2971034",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Maintainability assessment of an enhanced object-oriented approach for wrapping stored procedures",
+            "date": "2006-01-01",
+            "keywords": [
+                "Database",
+                "Stored procedures",
+                "Maintainability",
+                "Business tiers",
+                "Wrapping",
+                "Objectoriented",
+                "Performance",
+                "Business tier",
+                "Wrapper",
+                "Business ter",
+                "Layer",
+                "Object-oriented",
+                "Wrap"
+            ],
+            "ciencia_id": "cv-prod-id-2971208",
+            "doi": "10.1109/EURCON.2005.1630037",
+            "scopus_id": "2-s2.0-33847792117",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Object oriented platform to RDBMS stored procedures",
+            "date": "2005-01-01",
+            "keywords": [
+                "Stored procedures",
+                "Database",
+                "Business tier",
+                "Object-oriented programming",
+                "Interface",
+                "Platform"
+            ],
+            "ciencia_id": "cv-prod-id-2971270",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Methodology for Dynamic WEB Pages Assembly",
+            "date": "2005-01-01",
+            "keywords": [
+                "Dynamic web pages",
+                "HTML",
+                "CSS"
+            ],
+            "ciencia_id": "cv-prod-id-2971268",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "abcNet: literacy tool based on entities",
+            "date": "2004-01-01",
+            "keywords": [
+                "E-learning",
+                "AbcNet",
+                "Literacy",
+                "Paulo Freire"
+            ],
+            "ciencia_id": "cv-prod-id-2971273",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "abcNet: a Literacy Tool in Developing Countries",
+            "date": "2004-01-01",
+            "keywords": [
+                "e-learning",
+                "Paulo Freire"
+            ],
+            "ciencia_id": "cv-prod-id-2971274",
+            "doi": "10.1109/ICALT.2004.1357727",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ABC-NET: Literacy Tool for Paulo Freire's Method",
+            "date": "2004-01-01",
+            "keywords": [
+                "Paulo Freire",
+                "AbcNet",
+                "Literacy",
+                "E-learning",
+                "Tool"
+            ],
+            "ciencia_id": "cv-prod-id-2971275",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "eABC: scientific publications bibliografic archive",
+            "date": "2004-01-01",
+            "keywords": [
+                "Bibliographic archive; scientific publications; electronic library"
+            ],
+            "ciencia_id": "cv-prod-id-2971291",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Arquitectura para um sistema colaborativo baseado em ferramentas hipermédia",
+            "date": "1997-01-01",
+            "keywords": [
+                "Engenharia electrotécnica - Teses de doutoramento",
+                "Redes de computadores",
+                "Arquitectura de redes",
+                "Protocolos de redes",
+                "Hipermédia",
+                "Grupos de trabalho"
+            ],
+            "ciencia_id": "cv-prod-id-2971321",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Portuguese Third Version of the Copenhagen Psychosocial Questionnaire: Preliminary Validation Studies of the Middle Version among Municipal and Healthcare Workers",
+            "date": "2022-01-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2971830",
+            "doi": "10.3390/ijerph19031167",
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Book chapter",
+            "title": "E-Learning - Engineering, On-Job Training and Interactive Teaching",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2972421",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7313-813E-B322"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "{Natural Transmission of Information Extraction Results to End-Users - A Proof-of-Concept Using Data-to-Text",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2984335",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "2018-F7DD-79D5",
+                "B613-72EC-1592",
+                "CE1D-F718-25DB",
+                "7313-813E-B322"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "ciencia_id": "8B1E-C1C3-D854",
+    "name": "Samuel de Sousa Silva",
+    "bio": "",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        }
+    ],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": []
+}

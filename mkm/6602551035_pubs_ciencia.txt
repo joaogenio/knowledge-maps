@@ -1,0 +1,181 @@
+{
+    "ciencia_id": "621C-34F2-E147",
+    "name": "Tomás António Mendes Oliveira e Silva",
+    "bio": "",
+    "domains": [],
+    "degrees": [],
+    "distinctions": [],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "Linear combinations of primitive elements of a finite field",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792847",
+            "doi": "10.1016/j.ffa.2018.02.009",
+            "scopus_id": "2-s2.0-85043527772",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On Grosswald's conjecture on primitive roots",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792848",
+            "doi": "10.4064/aa8109-12-2015",
+            "scopus_id": "2-s2.0-84958740980",
+            "authors": []
+        },
+        {
+            "type": "Book",
+            "title": "Massively parallel identification of Privacy-Preserving vehicle rfid tags",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792849",
+            "doi": "10.1007/978-3-319-13066-8_3",
+            "scopus_id": "2-s2.0-84911931231",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A novel dynamical approach to (m, k)-firm scheduling",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792851",
+            "doi": "10.1109/WFCS.2014.6837577",
+            "scopus_id": "2-s2.0-84903979352",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Empirical verification of the even goldbach conjecture and computation of prime gaps up to 4 · 10<sup>18</sup>",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792852",
+            "doi": "10.1090/s0025-5718-2013-02787-1",
+            "scopus_id": "2-s2.0-84910112035",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the application of block transmissions for improving control over lossy networks",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792853",
+            "doi": "10.1109/ETFA.2013.6648009",
+            "scopus_id": "2-s2.0-84890658240",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the control of lossy networks with hold strategy",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792854",
+            "doi": "10.1109/SIES.2013.6601502",
+            "scopus_id": "2-s2.0-84885406245",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A path to oscillation free controller changes",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792855",
+            "doi": "10.1109/WFCS.2012.6242565",
+            "scopus_id": "2-s2.0-84866510035",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the choice of a basis for a linear-in-the-parameters model",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792858",
+            "doi": null,
+            "scopus_id": "2-s2.0-84960867369",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "On the asymptotic eigenvalue distribution of block-Toeplitz matrices related to the generalized orthonormal basis functions model",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792859",
+            "doi": "10.1016/S0005-1098(99)00075-8",
+            "scopus_id": "2-s2.0-0032598750",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Maximum excursion and stopping time record-holders for the 3x+1 problem: Computational results",
+            "date": "1999-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792860",
+            "doi": "10.1090/s0025-5718-99-01031-5",
+            "scopus_id": "2-s2.0-0033480622",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the design of linear-in-the-parameters adaptive filters",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792861",
+            "doi": "10.1109/ICECS.1998.813346",
+            "scopus_id": "2-s2.0-0032260469",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Some results concerning the asymptotic eigenvalue distribution of block-Toeplitz matrices related to the generalized orthonormal basis function model",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792862",
+            "doi": null,
+            "scopus_id": "2-s2.0-0031347663",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Optimality Conditions for Laguerre Lattice Filters",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792863",
+            "doi": "10.1109/97.386289",
+            "scopus_id": "2-s2.0-0029305610",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "On the equivalence between gamma and laguerre filters",
+            "date": "1994-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792864",
+            "doi": "10.1109/ICASSP.1994.389800",
+            "scopus_id": "2-s2.0-27644589218",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Generalized feed-forward filters: Some theoretical results",
+            "date": "1993-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792865",
+            "doi": null,
+            "scopus_id": "2-s2.0-0027153714",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Generalized feedforward filters with complex poles",
+            "date": "1992-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2792866",
+            "doi": "10.1109/NNSP.1992.253662",
+            "scopus_id": "2-s2.0-85019607419",
+            "authors": []
+        }
+    ]
+}

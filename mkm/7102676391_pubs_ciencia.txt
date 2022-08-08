@@ -1,0 +1,1532 @@
+{
+    "ciencia_id": "A414-12C1-ED57",
+    "name": "Manuel José Cabral dos Santos Reis",
+    "bio": "",
+    "domains": [
+        {
+            "name": "Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics",
+            "code": "20200005"
+        },
+        {
+            "name": "Social Sciences - Educational Sciences",
+            "code": "50300008"
+        }
+    ],
+    "degrees": [
+        "Engenharia Electrotécnica, Ramo de Electrónica, Instrumentação e Computação",
+        "Mestrado em Electrónica e Telecomunicações",
+        "Doutoramento em Engenharia Electrotécnica",
+        "Ciências da Engenharia Eletrótecnica e de Computadores"
+    ],
+    "distinctions": [
+        "SigPV, Sistema Integrado de Gestão de Provas de Vinho (1º lugar)",
+        "Smart Shock Absorber (3º lugar), Inov@UTAD",
+        "SmartEnergyHub – Gestor de energias renováveis para redes urbanas inteligentes, Inov@UTAD",
+        "GuardianAngel – sistema de apoio às entidades envolvidas em ações de emergência e recuperação de desastres, utilizando Drones"
+    ],
+    "projects": [],
+    "publications": [
+        {
+            "type": "Journal article",
+            "title": "HarmoSim: A tool for harmonic distortion simulation and assessment of nonlinear loads",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049637",
+            "doi": "10.1002/cae.20559",
+            "scopus_id": "2-s2.0-84899484844",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Double permanent magnet vibration power generator for smart hip prosthesis",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049638",
+            "doi": "10.1016/j.sna.2011.04.001",
+            "scopus_id": "2-s2.0-82755161739",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The use of mobile devices with multi-tag technologies for an overall contextualized vineyard management",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049639",
+            "doi": "10.1016/j.compag.2010.05.007",
+            "scopus_id": "2-s2.0-77955050586",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sensing methodologies to determine automotive damper condition under vehicle normal operation",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049641",
+            "doi": "10.1016/j.sna.2009.03.035",
+            "scopus_id": "2-s2.0-71549166100",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An activation circuit for battery-powered biomedical implantable systems",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049642",
+            "doi": "10.1016/j.sna.2009.06.008",
+            "scopus_id": "2-s2.0-71649113235",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A Windows-based software package to evaluate residual stresses by the incremental hole-drilling technique",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049643",
+            "doi": "10.1002/cae.20225",
+            "scopus_id": "2-s2.0-68849091203",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Sun, wind and water flow as energy supply for small stationary data acquisition platforms",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049644",
+            "doi": "10.1016/j.compag.2008.04.005",
+            "scopus_id": "2-s2.0-53749090704",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A ZigBee multi-powered wireless acquisition device for remote sensing applications in precision viticulture",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049645",
+            "doi": "10.1016/j.compag.2007.12.004",
+            "scopus_id": "2-s2.0-40849126597",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Promoting the educative use of the internet in Portuguese primary schools: a case study",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049646",
+            "doi": "10.1108/00012530810862455",
+            "scopus_id": "2-s2.0-40749112764",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Construction of Aharonov–Berry's superoscillations",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049647",
+            "doi": "10.1088/1751-8113/40/19/013",
+            "scopus_id": "2-s2.0-63049089948",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049648",
+            "doi": "10.1016/j.sna.2006.04.011",
+            "scopus_id": "2-s2.0-33751075519",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Linear combinations of B-splines as generating functions for signal approximation",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049649",
+            "doi": "10.1016/j.dsp.2004.12.003",
+            "scopus_id": "2-s2.0-16644365913",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Signal and image reconstruction in undergraduate education: Tools for assessing and comparing a set of algorithms",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049650",
+            "doi": "10.1002/cae.20021",
+            "scopus_id": "2-s2.0-33750287680",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Fuzzy Information On Discrete And Continuous Domains: Approximation Results",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049651",
+            "doi": "10.1080/03081070410001685763",
+            "scopus_id": "2-s2.0-11144249323",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Contextualized Ubiquity: A new opportunity for rendering business information and services",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049652",
+            "doi": "10.4067/S0718-18762010000300006",
+            "scopus_id": "2-s2.0-79251485697",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Enhancing Tourism through Viticulture Enterprises in Douro Region: The Inov@Douro Model",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049653",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Reconstrução de sinal e imagem: conjunto de programas para teste de diferentes algoritmos",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049654",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Soft Computing Models in Industrial and Environmental Applications, 6th International Conference SOCO 2011",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049655",
+            "doi": "10.1007/978-3-642-19644-7_3",
+            "scopus_id": "2-s2.0-80052941941",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Soft Computing Models in Industrial and Environmental Applications, 5th International Workshop (SOCO 2010)",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049656",
+            "doi": "10.1007/978-3-642-13161-5_5",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Sociedade da Informação: balanço e implicações",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049657",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Sociedade da Informação: balanço e implicações",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049658",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Systematic Organisation of Information in Fuzzy Systems",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049659",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Induction motor response to periodical voltage fluctuations",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049661",
+            "doi": "10.1109/ICELMACH.2010.5607706",
+            "scopus_id": "2-s2.0-78649624411",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Button Heat-Pulse Sensor for Soil Water Content Measurements",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049662",
+            "doi": "10.1109/SENSORDEVICES.2010.40",
+            "scopus_id": "2-s2.0-79951923909",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multiscale recurrent pattern image coding with a flexible partition scheme",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049664",
+            "doi": "10.1109/ICIP.2008.4711711",
+            "scopus_id": "2-s2.0-69949190134",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An embedded system to assess the automotive shock absorber condition under vehicle operation",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049665",
+            "doi": "10.1109/ICSENS.2008.4716660",
+            "scopus_id": "2-s2.0-67649909228",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Compound Image Encoder Based on The Multiscale Recurrent Pattern Algorithm",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049666",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Embedded Monitoring Device for an Automotive Shock Absorber",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049667",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Dual-Link Telemetry System for Loosening Detection in Smart Hip Implants",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049668",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "VoIP reconstruction under a minimum interpolation algorithm",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049669",
+            "doi": "10.1109/ISCE.2008.4559434",
+            "scopus_id": "2-s2.0-51549107583",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A ZigBee Sensor Element for Distributed Monitoring of Soil Parameters in Environmental Monitoring",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049670",
+            "doi": "10.1109/ICSENS.2007.4388354",
+            "scopus_id": "2-s2.0-48349099052",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Methods and Technologies for Learning",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049672",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Biometry: the characterisation of chestnut-tree leaves using computer vision",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049673",
+            "doi": "10.1109/ISIE.1997.648634",
+            "scopus_id": "2-s2.0-0031353773",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Um Estudo de Caso do Ensino da Matemática em Crianças com Paralisia Cerebral e Deficiência Mental no 1º CEB",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049674",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A integração das TI no Ensino da Matemática no 1º Ciclo do Ensino Básico em Portugal",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049675",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet-based collaborative E-exercisebook system for primary math teaching",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049676",
+            "doi": "10.1109/CONATEL.2011.5958665",
+            "scopus_id": "2-s2.0-80052128779",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Using Digital Exercises to Help Children with Cerebral Palsy in Primary Math Teaching: A Case Study",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049677",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Cooperation, Mobility and Bologna: what is being done at the Engineering Department of UTAD University",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049679",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Casamento Aproximado de Padrões Multiescala em Segmentação Flexível e Treino do Dicionário",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049680",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Helping Portuguese Informatics and ICT curricula students at the UTAD University making the transition to the Bologna paradigm",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049681",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Promoting the use of Information Technologies close to General Communities of Northeast Portugal",
+            "date": "2006-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049682",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Simulação visual de Trajectórias Aéreas",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049683",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Dispositivo de Baixo Peso para Estimação de Trajectórias Aéreas de Aves",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049684",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Using Internet in the Portuguese Primary Schools: Elucidating Some Regional Facts",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049685",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "QPYRENAICA – A computer simulator for management of Pyrenean oak Forests",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049686",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The stability of Riesz bases built using linear combinations of B-splines",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049687",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Internet resource centre to use in the Portuguese Primary Schools",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049688",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Internet nas Escolas do 1º Ciclo: Alguns Factores de Utilização Regional",
+            "date": "2005-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049689",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Um Percurso da Utilização Educativa da Internet na Região de Trás-os-Montes e Alto Douro",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049690",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Accompanying of the educational use for the teachers and students of the public elementary schools of Vila Real district",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049691",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Bringing elementary schools of ‘Trás-os-Montes e Alto Douro’ region to the net",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049692",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Centros de Recursos Educativos: o exemplo do ‘Trás-os-Montes Digital",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049693",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet in the elementary schools of «Trás-os-Montes e Alto Douro» region – Part one: the project",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049694",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet as a learning tool in the ‘Trás-os-Montes e Alto Douro’ region",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049696",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Formação de Professores de Trás-os-Montes e Alto Douro na Utilização da Internet – 1ª Fase SCETAD – AEP",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049697",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "BSE – Automatic Detection of Spongiform Change in Histological Samples of the Central Nervous System",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049698",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "BSE – Automatic Detection of Spongiform Change in Histological Samples of the Central Nervous System",
+            "date": "1998-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049699",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Minimum Dimension Image Interpolation: Analytical Results",
+            "date": "1996-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049700",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Caracterização de folhas de castanheiro usando visão por computador",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049701",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Interpretação Automática de Fonocardiogramas",
+            "date": "1995-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049702",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "QPYRENAICA – Aplicativo para Simulação do Crescimento e da Produção de Povoamentos de Carvalho-negral (Quercus pyrenaica Willd)",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049703",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Divulgação de Recursos da Internet junto das Escolas da Região de Trás-os-Montes e Alto Douro",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049704",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Divulgação de Recursos da Internet junto das Escolas da Região de Trás-os-Montes e Alto Douro",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049705",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference abstract",
+            "title": "A utilização da Internet como recurso educativo na região de Trás-os-Montes e Alto Douro",
+            "date": "2001-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049706",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "BSE – Detecção automática de alterações espongiformes em amostras histológicas do sistema nervoso central",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049707",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Caracterização de folhas de castanheiro usando visão por computador",
+            "date": "1997-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049708",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Fundamentos de Sistemas e Sinais – Gráficos de fluência",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049709",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Fundamentos de Sistemas e Sinais – Análise Matricial Nodal e Potência Complexa",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049710",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Introdução à Arquitectura de Computadores",
+            "date": "2004-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049711",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Introdução à Programação",
+            "date": "2003-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049712",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Introdução à Morfologia Matemática Aplicada ao Processamento Digital de Imagem",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049713",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "O B-A Ba da Internet",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049714",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "O Recreio da Informática – Web, e-mail, FrontPage Express",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049715",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Manual",
+            "title": "O B-A Ba da InternetManual de Apoio à utilização da Internet e de alguns dos seus recursos",
+            "date": "2002-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049721",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Permanent magnet vibration power generator as an embedded mechanism for smart hip prosthesis",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049722",
+            "doi": "10.1016/j.proeng.2010.09.221",
+            "scopus_id": "2-s2.0-78650626620",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Characterization and testing of a shock absorber embedded sensor",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049723",
+            "doi": "10.1016/j.proeng.2010.09.112",
+            "scopus_id": "2-s2.0-78650607890",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A novel monolithic silicon sensor for measuring acceleration, pressure and temperature on a shock absorber",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049724",
+            "doi": "10.1016/j.proche.2009.07.022",
+            "scopus_id": "2-s2.0-71549150292",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Bioimplantable impedance and temperature monitor low power micro-system suitable for estrus detection",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049725",
+            "doi": "10.1016/j.proche.2009.07.126",
+            "scopus_id": "2-s2.0-71549134291",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "An autonomous intelligent gateway infrastructure for in-field processing in precision viticulture",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049726",
+            "doi": "10.1016/j.compag.2011.07.005",
+            "scopus_id": "2-s2.0-80052548280",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Java applets for image reconstruction",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049730",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Automatic detection of bunches of grapes in natural environment from color images",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049736",
+            "doi": "10.1016/j.jal.2012.07.004",
+            "scopus_id": "2-s2.0-84869501800",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "An Interactive GUI Tool to Create and Validate IEEE 1451 Smart Sensors TEDS",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049737",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "The Recognition of Web Pages' Hyperlinks by People with Intellectual Disabilities: An Evaluation Study",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049738",
+            "doi": "10.1111/j.1468-3148.2012.00700.x",
+            "scopus_id": "2-s2.0-84867446609",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Nonlinear Modeling of Vibrational Energy Harvesters for Smart Prostheses",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049739",
+            "doi": "10.1016/j.proeng.2012.09.340",
+            "scopus_id": "2-s2.0-84885875525",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Optimized Design of a Piezoresistive Pressure Sensor with Measurement Span of 1MPa",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049740",
+            "doi": "10.1016/j.proeng.2012.09.395",
+            "scopus_id": "2-s2.0-84891674496",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Multi-purpose and Multi-source Energy Management System for Biomedical Implants",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049741",
+            "doi": "10.1016/j.proeng.2012.09.249",
+            "scopus_id": "2-s2.0-84885879867",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "FouSE: An Android tool to help in the teaching of Fourier Series Expansions",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049742",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A HTML 5-based tool to help teachers in the creation of exercises and games for the teaching of mathematical concepts in the primary schools",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049744",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Teaching of Fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049745",
+            "doi": "10.1109/EduCon.2013.6530141",
+            "scopus_id": "2-s2.0-84881004414",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Power management architecture for smart hip prostheses comprising multiple energy harvesting systems",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049746",
+            "doi": "10.1016/j.sna.2013.01.049",
+            "scopus_id": "2-s2.0-84887121525",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Instrumented hip implants: Electric supply systems",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049747",
+            "doi": "10.1016/j.jbiomech.2013.08.002",
+            "scopus_id": "2-s2.0-84884987916",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A framework for wireless sensor networks management for precision viticulture and agriculture based on IEEE 1451 standard",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049748",
+            "doi": "10.1016/j.compag.2013.04.001",
+            "scopus_id": "2-s2.0-84877013801",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using Problem-Based Learning to help Portuguese students make the Bologna transition",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049749",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Biomedical Engineering Systems and Technologies",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049750",
+            "doi": "10.1007/978-3-642-38256-7_6",
+            "scopus_id": "2-s2.0-84884988519",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "As TIC no Ensino – Políticas, Usos e Realidade",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049751",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Desafios Éticos na Sociedade Tecnológica – Respostas às Necessidades Educativas Especiais e Educação para os Média",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049752",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Advanced Concepts for Intelligent Vision Systems – 13th  International Conference (ACIVS 2011) Proceedings, Lecture Notes in Computer Science 6915",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049753",
+            "doi": "10.1007/978-3-642-23687-7_9",
+            "scopus_id": "2-s2.0-80052163709",
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Fundamentos de Sistemas e Sinais – Séries e Transformadas de Fourier",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049754",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "3D Digital Maps for Vineyard Autonomous Robot Navigation",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049756",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Instrumented hip joint replacements, femoral replacements and femoral fracture stabilizers",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049757",
+            "doi": "10.1586/17434440.2014.946695",
+            "scopus_id": "2-s2.0-84911880184",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Teaching Fourier Series Expansions in Undergraduate Education with the Help of the FouSE Android Application",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049758",
+            "doi": "10.3991/ijim.v8i1.3455",
+            "scopus_id": "2-s2.0-84922779483",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "CONTROLO’2014 – Proceedings of the 11th Portuguese Conference on Automatic Control",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049759",
+            "doi": "10.1007/978-3-319-10380-8_59",
+            "scopus_id": "2-s2.0-84907366060",
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Rumo à inclusão educacional e integração das TIC na sala de aula",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049760",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Manual",
+            "title": "Exercícios propostos e resolvidos de fundamentos de electrotecnia e análise de circuitos",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049762",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "Práticas Educativas: Teorização e Formas de Intervenção",
+            "date": "2014-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049763",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A GSM-based System for the Tracking of Birds",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049764",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Web-based System to Manage Primary Students’ Homework: A Case Study for the Teaching of Portuguese",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049765",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Book chapter",
+            "title": "I Seminário Internacional sobre investigação e inovação com TIC: Recursos para a Educação (SintTIC)",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049766",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Morse code translator using the Arduino platform: Crafting the future of microcontrollers",
+            "date": "2016-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049767",
+            "doi": "10.1109/SAI.2016.7556055",
+            "scopus_id": "2-s2.0-84988884550",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Proposal of a Web-based Collaborative System to Support Student's Homework",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049768",
+            "doi": "10.4018/IJWP.2015010103",
+            "scopus_id": "2-s2.0-84973577797",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Bird and Small Animal Tracking Using a GSM-based System",
+            "date": "2015-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049769",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "ARDUINO RECURSIVE BACKTRACKING IMPLEMENTATION, FOR A ROBOTIC CONTEST",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049771",
+            "doi": "10.1142/9789813231047_0023",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Recent advances in image processing techniques for automated harvesting purposes: A review",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049772",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A dynamic programming algorithm to select optimal high-priority voice segments using Arduino",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049773",
+            "doi": "10.1109/EUROCON.2017.8011118",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "PROPOSAL OF A MODEL FOR THE SUCCESSFUL IMPLEMENTATION OF E-LEARNING AT THE UNIVERSITY OF TRÁS-OS-MONTES E ALTO DOURO",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049774",
+            "doi": "10.21125/edulearn.2017.1625",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A integração da plataforma Edmodo no contexto do ensino de TIC: Uma proposta de atividades para os cursos de Educação e Formação de Adultos",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049775",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Conceptual Mapping of the use of Non-Traditional Processes in Engineering’s Higher Education",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049776",
+            "doi": "10.5220/0006311903080314",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Other output",
+            "title": "Desenvolvimento de aplicação para dispositivos móveis para ensino/aprendizagem de grafismos (pré-escrita)",
+            "date": "2017-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049777",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Non-traditional processes in higher education in engineering: a conceptual mapping",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049778",
+            "doi": "10.14488/BJOPM.2018.v15.n1.a16",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Pixel-based leaf segmentation from natural vineyard images using color model and threshold techniques",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049779",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Student concentration evaluation index in an e-learning context using facial emotion analysis",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049780",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Integration of Information and Communication Technology in Special Education: The Use of Educational Software in the “Diogo Cão” School Group",
+            "date": "2018-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2049781",
+            "doi": null,
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Processos e metodologias não-tradicionais no Ensino Superior de Engenharia Elétrica: a percepção de coordenadores de curso em dois países lusófonos",
+            "date": "2020-03-26",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050006",
+            "doi": "10.22347/2175-2753v12i34.2219",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using Android Tablets to develop handwriting skills: A case study",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050007",
+            "doi": "10.1016/j.heliyon.2019.e02970",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Deep Learning Techniques for Grape Plant Species Identification in Natural Images",
+            "date": "2019-11-07",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050008",
+            "doi": "10.3390/s19224850",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "FouSE: An android tool to help in the teaching of fourier series expansions in undergraduate education",
+            "date": "2013-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050010",
+            "doi": null,
+            "scopus_id": "2-s2.0-84887173826",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Multi-source energy harvesting power generators for instrumented implants: Towards the development of a smart hip prosthesis",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050011",
+            "doi": null,
+            "scopus_id": "2-s2.0-84861981186",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A vibration-based energy harvesting system for implantable biomedical telemetry systems",
+            "date": "2011-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050012",
+            "doi": null,
+            "scopus_id": "2-s2.0-79960162445",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "Using information technology based exercises in primary mathematics teaching of children with cerebral palsy and mental retardation: A case study",
+            "date": "2010-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050014",
+            "doi": null,
+            "scopus_id": "2-s2.0-77957036900",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "The inov@douro cooperative network: Shaping collaboration among douro region viticulture companies focusing tourism",
+            "date": "2009-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050015",
+            "doi": null,
+            "scopus_id": "2-s2.0-84905113311",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet and it in the tmad region: A methodology to promote their use by general communities",
+            "date": "2007-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050017",
+            "doi": null,
+            "scopus_id": "2-s2.0-67649960152",
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "A compound image encoder based on the multiscale recurrent pattern algorithm",
+            "date": "2008-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050519",
+            "doi": null,
+            "scopus_id": "2-s2.0-55849128936",
+            "authors": []
+        },
+        {
+            "type": "Journal article",
+            "title": "A full-stack model proposal to willingly implement e-learning at small universities: The University of Trás-os-Montes e Alto Douro Case",
+            "date": "2020-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050523",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "3317-08CD-53FD",
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "ICT Literacy and School PerformanceTurkish Online Journal of Educational Technology",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050524",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "7017-980B-E7DF",
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Journal article",
+            "title": "DESIGN METHODOLOGY FOR THE DEVELOPMENT OF LONG-TERM HIP PROSTHESIS SURVIVAL",
+            "date": "2012-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050558",
+            "doi": "10.1016/s0021-9290(12)70107-0",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "IMPLEMENTATION OF E-LEARNING AT THE UNIVERSITY OF TRÁS-OS-MONTES E ALTO DOURO: STUDENTS' PERSPECTIVES",
+            "date": "2019-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050559",
+            "doi": "10.21125/inted.2019.0449",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Empirical Evaluation of the Potential of Low-cost and Open Source “On-the-Person” ECG for Cardiopathy Pre-screening",
+            "date": "2018-09-21",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050560",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Filtering of Cardiac Signals with Mathematical Morphology for QRS Detection",
+            "date": "2018-05-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050561",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "PROPOSAL OF A MODEL FOR THE SUCCESSFUL IMPLEMENTATION OF E-LEARNING AT THE UNIVERSITY OF TRÁS-OS-MONTES E ALTO DOURO",
+            "date": "2017-07-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050562",
+            "doi": "10.21125/edulearn.2017.1625",
+            "scopus_id": null,
+            "authors": []
+        },
+        {
+            "type": "Conference paper",
+            "title": "Mathematical modeling of cylindrical electromagnetic vibration energy harvesters",
+            "date": "2012-07-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050563",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "BC1B-2D28-5010",
+                "A414-12C1-ED57",
+                "6112-C54C-DA21"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "A Self-Powered Embedded System for Shock Absorber Diagnosis During Vehicle Motion",
+            "date": "2010-06-04",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050564",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "6112-C54C-DA21",
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Conference paper",
+            "title": "Internet in the elementary schools of «Trás-os-Montes e Alto Douro» region – Part two: the method",
+            "date": "2003-06-06",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050565",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57",
+                "7017-980B-E7DF"
+            ]
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Representação multi-resolução de sinais baseada em splines e sobre-amostragem",
+            "date": "2001-05-09",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050566",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Thesis / Dissertation",
+            "title": "Reconstrução de Imagem - Método de dimensão mínima no domínio do tempo",
+            "date": "1996-07-05",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050567",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Conference poster",
+            "title": "An implantable microsystem with wireless capabilities for electrical resistance and temperature measurements in cows, suitable for reproductive management",
+            "date": "2006-05-25",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050793",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "6112-C54C-DA21",
+                "A414-12C1-ED57"
+            ]
+        },
+        {
+            "type": "Conference abstract",
+            "title": "Utilização Educativa da Internet pelos Professores e Alunos das Escolas do 1º Ciclo do Distrito de Vila Real",
+            "date": "2003-07-06",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050794",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57",
+                "7017-980B-E7DF"
+            ]
+        },
+        {
+            "type": "Other output",
+            "title": "Java applets for signal reconstruction",
+            "date": "2000-01-01",
+            "keywords": [],
+            "ciencia_id": "cv-prod-id-2050800",
+            "doi": null,
+            "scopus_id": null,
+            "authors": [
+                "A414-12C1-ED57"
+            ]
+        }
+    ]
+}
