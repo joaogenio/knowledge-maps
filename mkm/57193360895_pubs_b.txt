@@ -1,8 +1,8 @@
 [None       ] [-1365042] [78-1-60750-939-4-101] [   [92mCV[0m] [Article         ] [1  0  0      ] [2003-01-01] A New Concept for an IntegratedHealthcare access model
 [None       ] [-1365036] [10.1117/12.534135   ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2004-01-01] Himage PACS: A new approach to storage, integration and distribution of cardiologie images
 [None       ] [-1365028] [09/icas-icns.2005.14] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] A WBEM based solution for a 4G network integrated management
-[None       ] [-1365019] [10.1007/11567486_12 ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Executable graphics for PBNM
-[None       ] [-1365021] [10.1007/11573067_9  ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Integration of genetic and medical information through a web crawler system
+[None       ] [-1365019] [10.1007/11567486-12 ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Executable graphics for PBNM
+[None       ] [-1365021] [10.1007/11573067-9  ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Integration of genetic and medical information through a web crawler system
 [None       ] [-1365029] [10.1109/aict.2005.74] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Policy-based network management in an integrated mobile network
 [None       ] [-1365013] [10.1117/12.653935   ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] A demanding Web-based PACS supported by Web Services technology
 [None       ] [-1365012] [07/s11548-007-0104-6] [   [92mCV[0m] [Article         ] [1  0  0      ] [2007-01-01] Enhanced PACS to support demanding telemedicine and telework scenarios
@@ -15,12 +15,12 @@
 [None       ] [-1365000] [09/biotechno.2008.18] [   [92mCV[0m] [Article         ] [1  0  0      ] [2008-01-01] Studying the evolution of codon context in conserved gene sequences
 [None       ] [-1364992] [9/icumt.2009.5345411] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] A graphical user interface for policy composition in CIM-SPL
 [None       ] [-1364987] [109/inm.2009.5188859] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] An evaluation of network management protocols
-[None       ] [-1364989] [78-3-642-02481-8_159] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Analysing the evolution of repetitive strands in genomes
-[None       ] [-1364993] [78-3-642-02481-8_167] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] DynamicFlow: A client-side workflow management system
+[None       ] [-1364989] [78-3-642-02481-8-159] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Analysing the evolution of repetitive strands in genomes
+[None       ] [-1364993] [78-3-642-02481-8-167] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] DynamicFlow: A client-side workflow management system
 [None       ] [-1364991] [9/ictel.2009.5158633] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Evaluation of policy-based admission control mechanisms in NGN
-[None       ] [-1364982] [978-3-540-85861-4_10] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Improving literature searches in gene expression studies
+[None       ] [-1364982] [978-3-540-85861-4-10] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Improving literature searches in gene expression studies
 [None       ] [-1364994] [0.1109/icsnc.2009.91] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Managing QoS in a NGN using a PBM approach
-[None       ] [-1364986] [/978-3-642-04686-5_7] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Syntactic parsing for bio-molecular event detection from scientific literature
+[None       ] [-1364986] [/978-3-642-04686-5-7] [   [92mCV[0m] [Article         ] [1  0  0      ] [2009-01-01] Syntactic parsing for bio-molecular event detection from scientific literature
 [None       ] [-1364976] [10.1117/12.843572   ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] A proxy of DICOM services
 [None       ] [-1364971] [09/itab.2010.5687781] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] A tagging system for bioinformatics resources
 [None       ] [-1364974] [09/itab.2010.5687784] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] An extensible platform for variome data integration
@@ -28,18 +28,18 @@
 [None       ] [-1364973] [09/itab.2010.5687653] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] On the exploitation of cloud computing in bioinformatics
 [None       ] [-1364962] [1145/2064747.2064768] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] A semantic web application framework for health systems interoperability
 [None       ] [-1364961] [/lanoms.2011.6102269] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] An IDE for NETCONF management applications
-[None       ] [-1364959] [/978-3-642-25364-5_6] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Challenges storing and representing biomedical data
-[None       ] [-1364951] [978-3-642-19914-1_49] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Prioritizing literature search results using a training set of classified documents
+[None       ] [-1364959] [/978-3-642-25364-5-6] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Challenges storing and representing biomedical data
+[None       ] [-1364951] [978-3-642-19914-1-49] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Prioritizing literature search results using a training set of classified documents
 [None       ] [-1364958] [1145/2063518.2063530] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Towards knowledge federation in biomedical applications
 [None       ] [-1364939] [07/s11548-011-0625-x] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A PACS archive architecture supported on cloud services
-[None       ] [-1364941] [978-3-642-28839-5_20] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A rare disease patient manager
+[None       ] [-1364941] [978-3-642-28839-5-20] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A rare disease patient manager
 [None       ] [-1364937] [1145/2166896.2166915] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] COEUS: A Semantic Web application framework
 [None       ] [-1364934] [78-1-61499-101-4-636] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Concepts for a Personal Health Record
 [None       ] [-1364930] [07/s11548-012-0785-3] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] DICOM relay over the cloud
 [None       ] [-1364921] [78-1-61499-101-4-502] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Dicoogle Mobile: A medical imaging platform for Android
 [None       ] [-1364935] [09/cbms.2012.6266402] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Dicoogle relay - A cloud communications bridge for medical imaging
 [None       ] [-1364920] [78-1-61499-101-4-641] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Enhancing the many-to-many relations across IHE document sharing communities
-[None       ] [-1364942] [/978-3-642-28839-5_5] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Parameter influence in genetic algorithm optimization of support vector machines
+[None       ] [-1364942] [/978-3-642-28839-5-5] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Parameter influence in genetic algorithm optimization of support vector machines
 [None       ] [-1364919] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2013-01-01] Computational Approach to Predict Inter-Species Oral Protein-Protein Interactions
 [None       ] [-1364904] [/1568026611313050005] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] From protein-protein interactions to rational drug design: Are computational methods up to the challenge?
 [None       ] [-1364898] [10.1111/joim.12105  ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Improving data and knowledge management to better integrate health care and research
@@ -61,34 +61,34 @@
 [0033884194 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2000-01-01] Network and desktop management convergence
 [0033900575 ] [-1365056] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2000-01-01] On the use of mobility in distributed network management
 [0033900575 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  2  1 Ab   ] [2000-01-01] On the use of mobility in distributed network management
-[0142187742 ] [-1365041] [978-3-540-39646-8_21] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  2 Ab   ] [2003-01-01] A mobile agent manager
+[0142187742 ] [-1365041] [978-3-540-39646-8-21] [[91mSC[0m [92mCV[0m] [Article         ] [1  2  2 Ab   ] [2003-01-01] A mobile agent manager
 [12144281711] [None    ] [10.1117/12.534135   ] [[91mSC[0m   ] [Conference Paper] [1  5  4 Ab   ] [2004-12-01] Himage PACS: A new approach to storage, integration and distribution of cardiologie images
 [15844412226] [-1365030] [/webmed.2004.1348140] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  1 Ab   ] [2004-12-01] A quality of service framework for tele-medicine applications
 [20344383766] [-1365017] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Grid requirements for the integration of biomedical information resources for health applications
 [20344383766] [None    ] [.1055/s-0038-1633938] [[91mSC[0m   ] [Conference Paper] [1  0  3 Ab   ] [2005-01-01] Grid requirements for the integration of biomedical information resources for health applications
 [24644456982] [-1365018] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Active traffic monitoring for heterogeneous environments
-[24644456982] [None    ] [978-3-540-31956-6_71] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-01-01] Active traffic monitoring for heterogeneous environments
+[24644456982] [None    ] [978-3-540-31956-6-71] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-01-01] Active traffic monitoring for heterogeneous environments
 [28844464043] [-1365026] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] A quality of service approach for managing tele-medicine multimedia applications requirements
 [28844464043] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  4  1 Ab   ] [2005-12-19] A quality of service approach for managing tele-medicine multimedia applications requirements
 [33644889434] [-1365022] [None                ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2005-01-01] Comparative context analysis of codon pairs on an ORFeome scale.
 [33646827361] [-1365014] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] Statistical, computational and visualization methodologies to unveil gene primary structure features
 [33646827361] [None    ] [.1055/s-0038-1634061] [[91mSC[0m   ] [Conference Paper] [1  0  3 Ab   ] [2006-01-01] Statistical, computational and visualization methodologies to unveil gene primary structure features
-[33744787101] [None    ] [10.1007/11567486_12 ] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [2005-12-01] Executable graphics for PBNM
+[33744787101] [None    ] [10.1007/11567486-12 ] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [2005-12-01] Executable graphics for PBNM
 [33745290245] [-1365020] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
 [33745290245] [None    ] [None                ] [[91mSC[0m   ] [Editorial       ] [1  0  2      ] [2005-12-01] Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface
-[33745303774] [None    ] [10.1007/11573067_9  ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-12-01] Integration of genetic and medical information through a web crawler system
+[33745303774] [None    ] [10.1007/11573067-9  ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-12-01] Integration of genetic and medical information through a web crawler system
 [33745324967] [-1365023] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Data management and visualization issues in a fully digital echocardiography laboratory
-[33745324967] [None    ] [10.1007/11573067_2  ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-01-01] Data management and visualization issues in a fully digital echocardiography laboratory
+[33745324967] [None    ] [10.1007/11573067-2  ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2005-01-01] Data management and visualization issues in a fully digital echocardiography laboratory
 [33745410012] [None    ] [10.1117/12.653935   ] [[91mSC[0m   ] [Conference Paper] [1  4  4 Ab   ] [2006-06-30] A demanding Web-based PACS supported by Web Services technology
 [33750972038] [None    ] [10.1109/aict.2005.74] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2005-12-01] Policy-based network management in an integrated mobile network
 [33845321730] [None    ] [09/icas-icns.2005.14] [[91mSC[0m   ] [Conference Paper] [1  3  1 Ab   ] [2005-12-01] A WBEM based solution for a 4G network integrated management
-[34250214449] [-1365008] [/978-3-540-72375-2_5] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2007-06-18] Current perspectives on PACS and a cardiology case study
+[34250214449] [-1365008] [/978-3-540-72375-2-5] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2007-06-18] Current perspectives on PACS and a cardiology case study
 [34547470092] [-1365016] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] A prospective study on the integration of microarray data in HIS/EPR
-[34547470092] [None    ] [10.1007/11946465_21 ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2006-01-01] A prospective study on the integration of microarray data in HIS/EPR
-[35048821027] [-1365034] [978-3-540-30547-7_45] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2004-01-01] NeoScreen: A software application for MS/MS newborn screening analysis
-[35048821032] [-1365035] [978-3-540-30547-7_41] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2004-01-01] Diseasecard: A web-based tool for the collaborative integration of genetic and medical information
-[35248824578] [-1365043] [07/3-540-45068-8_101] [[91mSC[0m [92mCV[0m] [Article         ] [1  3  2 Ab   ] [2003-01-01] Critical information systems authentication based on PKC and biometrics
-[35248872485] [-1365044] [07/3-540-45068-8_102] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  2 Ab   ] [2003-01-01] Electronic patient record virtually unique based on a crypto Smart Card
+[34547470092] [None    ] [10.1007/11946465-21 ] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab   ] [2006-01-01] A prospective study on the integration of microarray data in HIS/EPR
+[35048821027] [-1365034] [978-3-540-30547-7-45] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2004-01-01] NeoScreen: A software application for MS/MS newborn screening analysis
+[35048821032] [-1365035] [978-3-540-30547-7-41] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2004-01-01] Diseasecard: A web-based tool for the collaborative integration of genetic and medical information
+[35248824578] [-1365043] [07/3-540-45068-8-101] [[91mSC[0m [92mCV[0m] [Article         ] [1  3  2 Ab   ] [2003-01-01] Critical information systems authentication based on PKC and biometrics
+[35248872485] [-1365044] [07/3-540-45068-8-102] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  2 Ab   ] [2003-01-01] Electronic patient record virtually unique based on a crypto Smart Card
 [36549060956] [-1365007] [85/1-59745-514-8:449] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  2 Ab   ] [2007-01-11] Computational and statistical methodologies for ORFeome primary structure analysis
 [39049181687] [-1365015] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] Integrating medical and genomic data: A sucessful example for rare diseases
 [39049181687] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  7  3 Ab   ] [2006-01-01] Integrating medical and genomic data: A sucessful example for rare diseases
@@ -100,7 +100,7 @@
 [52249109635] [None    ] [09/biotechno.2008.21] [[91mSC[0m   ] [Conference Paper] [1 12  3 Ab   ] [2008-09-26] Exploiting codon-triplets association for genome primary structure analysis
 [52449127769] [None    ] [09/biotechno.2008.22] [[91mSC[0m   ] [Conference Paper] [1 16  3 Ab   ] [2008-09-30] A microarray information database
 [56349091855] [-1364998] [09/etfa.2008.4638502] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  4 Ab   ] [2008-11-24] Evaluating severe noise interference in IEEE 802.15.4 based location systems
-[58149141893] [None    ] [978-3-540-85861-4_10] [[91mSC[0m   ] [Conference Paper] [1  0  3 Ab   ] [2009-01-07] Improving literature searches in gene expression studies
+[58149141893] [None    ] [978-3-540-85861-4-10] [[91mSC[0m   ] [Conference Paper] [1  0  3 Ab   ] [2009-01-07] Improving literature searches in gene expression studies
 [59149083992] [-1364983] [6/j.cmpb.2008.10.015] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  3 Ab FT] [2009-03-01] Design, development, exploitation and assessment of a Cardiology Web PACS
 [60749130789] [-1365003] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2008-01-01] Alternative lossless compression algorithms in X-ray cardiac images
 [60749130789] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 21  3 Ab   ] [2008-12-01] Alternative lossless compression algorithms in X-ray cardiac images
@@ -113,13 +113,13 @@
 [67650379664] [None    ] [07/978-0-387-35674-7] [[91mSC[0m   ] [Conference Paper] [1  7  3 Ab   ] [2003-01-01] Delegation of expressions for distributed SNMP information processing
 [70349114124] [None    ] [1145/1497308.1497426] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2008-12-01] Dynamic Service integration using web-based workflows
 [70449344247] [None    ] [109/inm.2009.5188859] [[91mSC[0m   ] [Conference Paper] [1 11  2 Ab   ] [2009-11-17] An evaluation of network management protocols
-[71049149316] [None    ] [/978-3-642-04686-5_7] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2009-11-16] Syntactic parsing for bio-molecular event detection from scientific literature
+[71049149316] [None    ] [/978-3-642-04686-5-7] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2009-11-16] Syntactic parsing for bio-molecular event detection from scientific literature
 [72349097792] [None    ] [0.1109/icsnc.2009.91] [[91mSC[0m   ] [Conference Paper] [1 12  3 Ab   ] [2009-12-25] Managing QoS in a NGN using a PBM approach
 [74549142283] [None    ] [9/icumt.2009.5345411] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2009-12-01] A graphical user interface for policy composition in CIM-SPL
 [77950688577] [None    ] [9/ictel.2009.5158633] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2009-12-01] Evaluation of policy-based admission control mechanisms in NGN
 [77951569837] [-1364975] [186/1471-2105-11-212] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  5 Ab   ] [2010-04-28] Concept-based query expansion for retrieving gene related publications from MEDLINE
-[77952571423] [None    ] [78-3-642-02481-8_159] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2009-01-01] Analysing the evolution of repetitive strands in genomes
-[77952575920] [None    ] [78-3-642-02481-8_167] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2009-12-01] DynamicFlow: A client-side workflow management system
+[77952571423] [None    ] [78-3-642-02481-8-159] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2009-01-01] Analysing the evolution of repetitive strands in genomes
+[77952575920] [None    ] [78-3-642-02481-8-167] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2009-12-01] DynamicFlow: A client-side workflow management system
 [77953435038] [None    ] [10.1117/12.843572   ] [[91mSC[0m   ] [Conference Paper] [1 18  4 Ab   ] [2010-06-17] A proxy of DICOM services
 [77953594608] [-1364965] [.1532/hsf98.20091146] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  2 Ab   ] [2010-06-01] Can tricuspid annuloplasty of the donor heart reduce valve insufficiency following cardiac transplantation with bicaval anastomosis?
 [77954675055] [-1364977] [186/1471-2105-11-389] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  5 Ab   ] [2010-07-21] GeneBrowser 2: An application to explore and identify common biological traits in a set of genes
@@ -159,11 +159,11 @@
 [79960192049] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 11  2 Ab   ] [2011-07-15] Hybrid electronic health records
 [80052507826] [-1364946] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] A PACS gateway to the cloud
 [80052507826] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2011-09-12] A PACS gateway to the cloud
-[80052949641] [None    ] [978-3-642-19914-1_49] [[91mSC[0m   ] [Conference Paper] [1 11  1 Ab   ] [2011-09-23] Prioritizing literature search results using a training set of classified documents
+[80052949641] [None    ] [978-3-642-19914-1-49] [[91mSC[0m   ] [Conference Paper] [1 11  1 Ab   ] [2011-09-23] Prioritizing literature search results using a training set of classified documents
 [80055031054] [-1364953] [journal.pone.0026817] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab   ] [2011-11-02] Species-specific codon context rules unveil non-neutrality effects of synonymous mutations
 [80155199311] [-1364964] [.1055/s-0038-1625243] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3      ] [2011-01-01] Discussion of "Biomedical ontologies: Toward scientific debate"
 [82055208502] [None    ] [1145/2063518.2063530] [[91mSC[0m   ] [Conference Paper] [1 18  4 Ab   ] [2011-11-29] Towards knowledge federation in biomedical applications
-[82155197287] [None    ] [/978-3-642-25364-5_6] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2011-11-30] Challenges storing and representing biomedical data
+[82155197287] [None    ] [/978-3-642-25364-5-6] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2011-11-30] Challenges storing and representing biomedical data
 [83255173885] [None    ] [1145/2064747.2064768] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2011-12-15] A semantic web application framework for health systems interoperability
 [8444222741 ] [-1365032] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2004-01-01] A business process model for public health information systems: A governmental perspective
 [8444222741 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  2  1 Ab   ] [2004-11-23] A business process model for public health information systems: A governmental perspective
@@ -174,13 +174,13 @@
 [8444246335 ] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  4  1 Ab   ] [2004-11-23] Solving transactions control in current management frameworks
 [84855546021] [-1364960] [10.1515/jib-2011-178] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2011-01-01] Classification methods for finding articles describing protein-protein interactions in PubMed.
 [84855567679] [-1364952] [07/s10278-010-9347-9] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  3 Ab   ] [2011-10-01] Dicoogle - An open source peer-to-peer PACS
-[84859340827] [None    ] [/978-3-642-28062-7_5] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2012-04-09] A holistic approach for integrating genomic variation information
+[84859340827] [None    ] [/978-3-642-28062-7-5] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2012-04-09] A holistic approach for integrating genomic variation information
 [84859920065] [None    ] [1145/2166896.2166915] [[91mSC[0m   ] [Conference Paper] [1 13  4 Ab   ] [2012-04-24] COEUS: A Semantic Web application framework
 [84860473173] [-1364938] [ioinformatics/bts125] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  6 Ab   ] [2012-05-01] Harmonization of gene/protein annotations: Towards a gold standard medline
 [84860675556] [-1364940] [09/titb.2011.2176497] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  3 Ab   ] [2012-05-11] A RESTful image gateway for multiple medical image repositories
 [84861122386] [-1364936] [journal.pcbi.1002457] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  7 Ab   ] [2012-04-01] Automatic filtering and substantiation of drug safety signals
-[84861212295] [None    ] [978-3-642-28839-5_20] [[91mSC[0m   ] [Conference Paper] [1 15  1 Ab   ] [2012-05-23] A rare disease patient manager
-[84861217450] [None    ] [/978-3-642-28839-5_5] [[91mSC[0m   ] [Conference Paper] [1 12  1 Ab   ] [2012-05-23] Parameter influence in genetic algorithm optimization of support vector machines
+[84861212295] [None    ] [978-3-642-28839-5-20] [[91mSC[0m   ] [Conference Paper] [1 15  1 Ab   ] [2012-05-23] A rare disease patient manager
+[84861217450] [None    ] [/978-3-642-28839-5-5] [[91mSC[0m   ] [Conference Paper] [1 12  1 Ab   ] [2012-05-23] Parameter influence in genetic algorithm optimization of support vector machines
 [84861968982] [-1364945] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A DICOM relay service supported on cloud resources
 [84861968982] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2012-06-13] A DICOM relay service supported on cloud resources
 [84861978859] [-1364943] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] An openehr repository based on a native XML database
@@ -213,15 +213,15 @@
 [84878019584] [None    ] [07/s11548-012-0785-3] [[91mSC[0m   ] [Review          ] [1  0  7 Ab   ] [2013-01-01] DICOM relay over the cloud
 [84878216035] [-1364893] [horalbio.2012.12.012] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  3 Ab FT] [2013-07-01] OralCard: A bioinformatic tool for the study of oral proteome
 [84878589163] [None    ] [/1568026611313050005] [[91mSC[0m   ] [Review          ] [1  0  1 Ab   ] [2013-06-10] From protein-protein interactions to rational drug design: Are computational methods up to the challenge?
-[84880338730] [-1364906] [/978-3-319-00578-2_9] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Quantitative Characterization of Protein Networks of the Oral Cavity
-[84880375780] [-1364905] [978-3-319-00578-2_10] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Analysing Relevant Diseases from Iberian Tweets
+[84880338730] [-1364906] [/978-3-319-00578-2-9] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Quantitative Characterization of Protein Networks of the Oral Cavity
+[84880375780] [-1364905] [978-3-319-00578-2-10] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Analysing Relevant Diseases from Iberian Tweets
 [84880552535] [-1364894] [ioinformatics/btt317] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  6 Ab   ] [2013-08-01] BeCAS: Biomedical concept recognition services and visualization
 [84881477740] [-1364896] [16/j.jss.2013.04.037] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab FT] [2013-09-01] A common API for delivering services over multi-vendor cloud resources
 [84883144641] [-1364895] [journal.pone.0072148] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2013-08-28] Drug-Induced Acute Myocardial Infarction: Identifying 'Prime Suspects' from Electronic Healthcare Records-Based Surveillance System
 [84883742021] [None    ] [10.1111/joim.12105  ] [[91mSC[0m   ] [Editorial       ] [1  0  1      ] [2013-10-01] Improving data and knowledge management to better integrate health care and research
 [84884469671] [-1364897] [186/1471-2105-14-281] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  5 Ab   ] [2013-09-24] A modular framework for biomedical concept recognition
-[84886261384] [-1364918] [978-3-642-38256-7_27] [   [92mCV[0m] [Book            ] [1  0  0      ] [2013-01-01] Data Integration Solution for Organ-Specific Studies: An Application for Oral Biology
-[84886261384] [None    ] [978-3-642-38256-7_27] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2013-01-01] Data Integration Solution for Organ-Specific Studies: An Application for Oral Biology
+[84886261384] [-1364918] [978-3-642-38256-7-27] [   [92mCV[0m] [Book            ] [1  0  0      ] [2013-01-01] Data Integration Solution for Organ-Specific Studies: An Application for Oral Biology
+[84886261384] [None    ] [978-3-642-38256-7-27] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2013-01-01] Data Integration Solution for Organ-Specific Studies: An Application for Oral Biology
 [84886915633] [-1365027] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Architecture evaluation for the implementation of a regional integrated electronic health record
 [84886915633] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1 12  3 Ab   ] [2005-01-01] Architecture evaluation for the implementation of a regional integrated electronic health record
 [84887947734] [-1364908] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Enhanced regional network for medical imaging repositories
@@ -231,7 +231,7 @@
 [84888205095] [-1364907] [16/j.jbi.2013.08.006] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab FT] [2013-12-01] An innovative portal for rare genetic diseases research: The semantic Diseasecard
 [84888996180] [-1364892] [09/cbms.2013.6627770] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2013-12-09] A multi-domain platform for medical imaging
 [84889070590] [-1364890] [09/cbms.2013.6627819] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2013-12-09] Integrating echocardiogram reports with medical imaging
-[84891135595] [-1364913] [978-3-319-00551-5_72] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Structuring and exploring the biomedical literature using latent semantics
+[84891135595] [-1364913] [978-3-319-00551-5-72] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2013-01-01] Structuring and exploring the biomedical literature using latent semantics
 [84891943923] [-1364910] [10.1002/humu.22474  ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  2 Ab   ] [2014-02-01] Variobox: Automatic detection and annotation of human genetic variants
 [84892404109] [-1364916] [journal.pone.0083016] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  1 Ab   ] [2013-12-11] Gathering and exploring scientific knowledge in pharmacovigilance
 [84892661802] [-1364877] [0.1186/1751-0473-9-1] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2014-01-08] TrigNER: Automatically optimized biomedical event trigger recognition on scientific documents
@@ -252,8 +252,8 @@
 [84904108852] [None    ] [10.1155/2014/569632 ] [[91mSC[0m   ] [Review          ] [1 14  2 Ab   ] [2014-01-01] The landscape of protein biomarkers proposed for periodontal disease: Markers with functional meaning
 [84904289764] [-1364870] [09/jbhi.2013.2292776] [[91mSC[0m [92mCV[0m] [Article         ] [1 15  4 Ab   ] [2014-01-01] XDS-I outsourcing proxy: Ensuring confidentiality while preserving interoperability
 [84904751123] [None    ] [.1186/2041-1480-3-11] [[91mSC[0m   ] [Article         ] [1  0  4 Ab   ] [2012-12-17] COEUS: "semantic web in a box" for biomedical applications
-[84906048690] [-1364880] [978-3-319-07593-8_48] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Extracting sentences describing biomolecular events from the biomedical literature
-[84906048690] [None    ] [978-3-319-07593-8_48] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Extracting sentences describing biomolecular events from the biomedical literature
+[84906048690] [-1364880] [978-3-319-07593-8-48] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Extracting sentences describing biomolecular events from the biomedical literature
+[84906048690] [None    ] [978-3-319-07593-8-48] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Extracting sentences describing biomolecular events from the biomedical literature
 [84906883440] [-1364865] [109/bhi.2014.6864305] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2014-01-01] Medical imaging archiving: A comparison between several NoSQL solutions
 [84906920699] [-1364863] [9/memea.2014.6860112] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Normalizing medical imaging archives for dose quality assurance and productivity auditing
 [84908326384] [-1364891] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-01-01] Exploring nanopublishing with COEUS
@@ -263,16 +263,16 @@
 [84910089998] [-1365040] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  1 Ab   ] [2003-01-01] Policies composition through graphical components
 [84910090329] [-1365038] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2003-01-01] Application scenarios for distributed management using SNMP expressions
 [84920001167] [-1364868] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2014-01-01] Genome annotation using nanopublications: An approach to interoperability of genetic data
-[84921741831] [-1364879] [978-3-319-07581-5_18] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Mutation analysis in PARK2 gene uncovers patterns of associated genetic variants
-[84921741831] [None    ] [978-3-319-07581-5_18] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Mutation analysis in PARK2 gene uncovers patterns of associated genetic variants
-[84921765548] [-1364881] [978-3-319-07581-5_33] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] A nanopublishing architecture for biomedical data
-[84921765548] [None    ] [978-3-319-07581-5_33] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] A nanopublishing architecture for biomedical data
+[84921741831] [-1364879] [978-3-319-07581-5-18] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Mutation analysis in PARK2 gene uncovers patterns of associated genetic variants
+[84921741831] [None    ] [978-3-319-07581-5-18] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Mutation analysis in PARK2 gene uncovers patterns of associated genetic variants
+[84921765548] [-1364881] [978-3-319-07581-5-33] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] A nanopublishing architecture for biomedical data
+[84921765548] [None    ] [978-3-319-07581-5-33] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] A nanopublishing architecture for biomedical data
 [84923212005] [-1364854] [10.1111/febs.13181  ] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  3 Ab   ] [2015-01-01] Improving the accuracy of recombinant protein production through integration of bioinformatics, statistical and mass spectrometry methodologies
 [84925258148] [-1364861] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2015-01-01] An event-driven architecture for biomedical data integration and interoperability
-[84925258148] [None    ] [978-3-319-16480-9_17] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] An event-driven architecture for biomedical data integration and interoperability
+[84925258148] [None    ] [978-3-319-16480-9-17] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] An event-driven architecture for biomedical data integration and interoperability
 [84927144569] [-1364858] [10.1155/2015/747156 ] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  2 Ab   ] [2015-01-01] RecRWR: A recursive random walk method for improved identification of diseases
-[84927586031] [-1364866] [978-3-319-03005-0_76] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Weighted gene co-expression network analysis applied to head and neck squamous cell carcinoma data
-[84927658289] [-1364867] [978-3-319-03005-0_79] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] A cytoscape-based web tool for representing protein networks
+[84927586031] [-1364866] [978-3-319-03005-0-76] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] Weighted gene co-expression network analysis applied to head and neck squamous cell carcinoma data
+[84927658289] [-1364867] [978-3-319-03005-0-79] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2014-01-01] A cytoscape-based web tool for representing protein networks
 [84929507627] [-1364882] [78-1-61499-432-9-622] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Screening Radiation Exposure for Quality Assurance
 [84929507627] [None    ] [78-1-61499-432-9-622] [[91mSC[0m   ] [Conference Paper] [1 15  3 Ab   ] [2014-01-01] Screening Radiation Exposure for Quality Assurance
 [84929511107] [-1364883] [78-1-61499-432-9-146] [   [92mCV[0m] [Book            ] [1  0  0      ] [2014-01-01] Multi-provider Architecture for Cloud Outsourcing of Medical Imaging Repositories
@@ -282,9 +282,9 @@
 [84943328616] [-1364845] [9/cisti.2015.7170531] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  3  6 Ab   ] [2015-07-28] Challenges and opportunities for exploring patient-level data: Preliminary results
 [84943339930] [-1364847] [9/cisti.2015.7170546] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  6 Ab   ] [2015-07-28] Towards a knowledge federation of linked patient registries
 [84944460806] [-1364860] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2015-01-01] A semantic layer for unifying and exploring biomedical document curation results
-[84944460806] [None    ] [/978-3-319-16483-0_2] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] A semantic layer for unifying and exploring biomedical document curation results
+[84944460806] [None    ] [/978-3-319-16483-0-2] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] A semantic layer for unifying and exploring biomedical document curation results
 [84944463907] [-1364862] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [2015-01-01] New insights in echocardiography based left-ventricle dynamics assessment
-[84944463907] [None    ] [978-3-319-16483-0_30] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] New insights in echocardiography based left-ventricle dynamics assessment
+[84944463907] [None    ] [978-3-319-16483-0-30] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2015-01-01] New insights in echocardiography based left-ventricle dynamics assessment
 [84945232213] [None    ] [86/s12859-015-0761-3] [[91mSC[0m   ] [Article         ] [1 13  5 Ab   ] [2015-10-13] An automated real-time integration and interoperability framework for bioinformatics
 [84945400618] [-1364852] [10.1155/2015/150435 ] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2015-01-01] Challenges and opportunities for exploring patient-level data
 [84946128141] [-1364853] [86/1758-2946-7-s1-s7] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  4 Ab   ] [2015-01-01] A document processing pipeline for annotating chemical entities in scientific documents
@@ -294,7 +294,7 @@
 [84947447541] [-1364857] [10.1155/2015/571381 ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2015-01-01] An Overview of Biomolecular Event Extraction from Scientific Documents
 [84947447541] [None    ] [10.1155/2015/571381 ] [[91mSC[0m   ] [Review          ] [1 16  4 Ab   ] [2015-01-01] An Overview of Biomolecular Event Extraction from Scientific Documents
 [84947742776] [-1365057] [None                ] [   [92mCV[0m] [Book            ] [1  0  0      ] [1999-01-01] New services on an advanced internet
-[84947742776] [None    ] [007/3-540-48757-3_15] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [1999-01-01] New services on an advanced internet
+[84947742776] [None    ] [007/3-540-48757-3-15] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [1999-01-01] New services on an advanced internet
 [84949924636] [-1364864] [10.1109/ichi.2014.41] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2014-03-02] Semantic search over DICOM Repositories
 [84951822589] [-1364851] [86/s12867-015-0050-8] [[91mSC[0m [92mCV[0m] [Article         ] [1 17  1 Ab   ] [2015-12-22] Conserved and highly expressed tRNA derived fragments in zebrafish
 [84951971617] [-1364859] [78-1-61499-564-7-687] [   [92mCV[0m] [Book            ] [1  0  0      ] [2015-01-01] Architecture to Summarize Patient-Level Data Across Borders and Countries
@@ -304,10 +304,8 @@
 [84953281406] [-1364842] [09/embc.2015.7318626] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  3  4 Ab   ] [2015-11-04] A machine learning methodology for medical imaging anonymization
 [84953319377] [-1364848] [09/embc.2015.7319086] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  4 Ab   ] [2015-11-04] Uncovering microbial duality within human microbiomes: A novel algorithm for the analysis of host-pathogen interactions
 [84955570567] [-1364856] [6/j.cmpb.2015.12.014] [[91mSC[0m [92mCV[0m] [Article         ] [1 15  3 Ab FT] [2016-07-08] Representation learning for mammography mass lesion classification with convolutional neural networks
-[84956899012] [-1364849] [journal.pone.0145593] [   [92mCV[0m] [Article         ] [1  0  0      ] [2015-01-01] Erratum: Species-Specific Codon Context Rules Unveil Non-Neutrality Effects of Synonymous Mutations (PLoS ONE (2011) 6:10 (e26817))
-[84956899012] [None    ] [journal.pone.0145593] [[91mSC[0m   ] [Erratum         ] [1  0  3      ] [2015-12-01] Erratum: Species-Specific Codon Context Rules Unveil Non-Neutrality Effects of Synonymous Mutations (PLoS ONE (2011) 6:10 (e26817))
-[84958746788] [-1365050] [1007/3-540-36086-7_2] [   [92mCV[0m] [Book            ] [1  0  0      ] [2002-01-01] Multi-management schemes for MAF platforms
-[84958746788] [None    ] [1007/3-540-36086-7_2] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2002-01-01] Multi-management schemes for MAF platforms
+[84958746788] [-1365050] [1007/3-540-36086-7-2] [   [92mCV[0m] [Book            ] [1  0  0      ] [2002-01-01] Multi-management schemes for MAF platforms
+[84958746788] [None    ] [1007/3-540-36086-7-2] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2002-01-01] Multi-management schemes for MAF platforms
 [84964330558] [-1365049] [09/ipom.2002.1045761] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  3 Ab   ] [2002-01-01] A uniform resource identifier scheme for SNMP
 [84964345627] [-1365048] [09/ipom.2002.1045759] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  3 Ab   ] [2002-01-01] A multi-protocol architecture for SNMP entities
 [84964852200] [-1364740] [10.1109/soca.2015.16] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2016-02-03] I2x: An Automated Real-Time Integration and Interoperability Platform (Short Paper)
@@ -318,8 +316,6 @@
 [84973862454] [-1365051] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2001-01-01] QOS negotiation based on management delegates
 [84973863957] [-1365053] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2001-01-01] A new mechanism for distributed managers persistence
 [84973866184] [-1365052] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2001-01-01] A trusted brokering service for PKI interoperability and thin-clients integration
-[84976435942] [-1364838] [10.1093/nar/gkw127  ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2016-01-01] Erratum : mRNA secondary structure optimization using a correlated stem-loop prediction (Nucleic Acids Research (2013) 41:6 (e73) DOI: 10.1093/nar/gks1473)
-[84976435942] [None    ] [10.1093/nar/gkw127  ] [[91mSC[0m   ] [Erratum         ] [1  0  1      ] [2016-06-20] Erratum : mRNA secondary structure optimization using a correlated stem-loop prediction (Nucleic Acids Research (2013) 41:6 (e73) DOI: 10.1093/nar/gks1473)
 [84982156746] [-1364737] [9/cisti.2016.7521382] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2016-07-25] Generating Big Data repositories for research in medical imaging
 [84985920440] [-1364743] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2016-01-01] A curation pipeline and web-services for PDF documents
 [84987624074] [-1364739] [10.1109/cbms.2016.68] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2016-08-16] Caching and prefetching images in a web-based DICOM viewer
@@ -338,7 +334,7 @@
 [85042161013] [-1364736] [10.1155/2017/8327980] [[91mSC[0m [92mCV[0m] [Article         ] [1 11  2 Ab   ] [2017-01-01] Linked Registries: Connecting Rare Diseases Patient Registries through a Semantic Web Layer
 [85044949656] [None    ] [6/j.cmpb.2018.03.024] [[91mSC[0m   ] [Article         ] [1 16  3 Ab FT] [2018-07-01] MONTRA: An agile architecture for data publishing and discovery
 [85045083838] [None    ] [49/iet-sen.2016.0325] [[91mSC[0m   ] [Article         ] [1  8  1 Ab   ] [2018-04-01] COEUS 2.0: Automated platform to integrate and publish biomedical data as nanopublications
-[85045894842] [None    ] [978-3-319-78723-7_19] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2018-01-01] Fighting fire with fire: Computational prediction of microbial targets for bacteriocins
+[85045894842] [None    ] [978-3-319-78723-7-19] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2018-01-01] Fighting fire with fire: Computational prediction of microbial targets for bacteriocins
 [85046546740] [None    ] [78-1-61499-852-5-561] [[91mSC[0m   ] [Conference Paper] [1 12  3 Ab   ] [2018-01-01] A methodology for fine-grained access control in exposing biomedical data
 [85046548154] [None    ] [78-1-61499-852-5-406] [[91mSC[0m   ] [Conference Paper] [1 11  3 Ab   ] [2018-01-01] Biomedical informatics - How to choose the best tool for each task
 [85049575717] [None    ] [.2196/medinform.8131] [[91mSC[0m   ] [Review          ] [1  0  2 Ab   ] [2017-10-01] Open-source electronic health record systems for low-resource settings: Systematic review
@@ -354,7 +350,6 @@
 [85058347875] [None    ] [althcom.2018.8531097] [[91mSC[0m   ] [Conference Paper] [1  7  6 Ab   ] [2018-11-09] Simplifying biomedical data sharing through a web portal generator
 [85063028413] [None    ] [ijmedinf.2019.02.006] [[91mSC[0m   ] [Article         ] [1 13  1 Ab FT] [2019-06-01] EMIF Catalogue: A collaborative platform for sharing and reusing biomedical data
 [85063456029] [None    ] [16/j.jbi.2019.103154] [[91mSC[0m   ] [Review          ] [1  9  2 Ab FT] [2019-05-01] Patient data discovery platforms as enablers of biomedical and translational research: A systematic review
-[85063713156] [None    ] [journal.pbio.1002607] [[91mSC[0m   ] [Erratum         ] [1  0  4 Ab   ] [2017-06-01] Erratum: Correction: Phenotypic heterogeneity promotes adaptive evolution (PLoS biology (2017) 15 5 (e2000644))
 [85064597466] [None    ] [220/0007576401590166] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] FAIRness in biomedical data discovery
 [85064615496] [None    ] [220/0007576104660473] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Strategies to access patient clinical data from distributed databases
 [85068543763] [-1364724] [86/s12911-019-0844-6] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  2 Ab   ] [2019-07-02] TASKA: A modular task management system to support health research studies
@@ -362,23 +357,23 @@
 [85070513155] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2019-01-01] UA.Pt bioinformatics at ImageClef 2019: Lifelog moment retrieval based on image annotation and natural language processing
 [85070513742] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  7  1 Ab   ] [2019-01-01] Bioinfo@uAVR at ERiSk 2019: Delving into social media texts for the early detection of mental and food disorders
 [85070981385] [None    ] [1109/cbms.2019.00046] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-06-01] GenericCDSS - A generic clinical decision support system
-[85071693378] [None    ] [978-3-030-29196-9_19] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Exploring the Value of Electronic Health Records from Multiple Datasets
+[85071693378] [None    ] [978-3-030-29196-9-19] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Exploring the Value of Electronic Health Records from Multiple Datasets
 [85074280806] [-1364726] [10.2196/12649       ] [[91mSC[0m [92mCV[0m] [Article         ] [1  5  1 Ab   ] [2019-01-01] Passive sensing of health outcomes through smartphones: Systematic review of current solutions and possible limitations
 [85075179357] [-1364725] [10.1155/2019/8984248] [[91mSC[0m [92mCV[0m] [Article         ] [1  7  2 Ab   ] [2019-01-01] Handling Noise in Protein Interaction Networks
 [85081171286] [None    ] [10.1117/12.2557073  ] [[91mSC[0m   ] [Conference Paper] [1  8  5 Ab   ] [2020-01-01] Image selection based on low level properties for lifelog moment retrieval
 [85083723599] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] A computational platform for heart failure cases research
 [85083738156] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Enhancing decision-making systems with relevant patient information by leveraging clinical notes
-[85084177429] [None    ] [978-3-030-45442-5_50] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Understanding depression from psycholinguistic patterns in social media texts
-[85085047024] [None    ] [978-3-030-46970-2_22] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Towards a More Reproducible Biomedical Research Environment: Endorsement and Adoption of the FAIR Principles
+[85084177429] [None    ] [978-3-030-45442-5-50] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Understanding depression from psycholinguistic patterns in social media texts
+[85085047024] [None    ] [978-3-030-46970-2-22] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Towards a More Reproducible Biomedical Research Environment: Endorsement and Adoption of the FAIR Principles
 [85086630979] [None    ] [/j.softx.2020.100535] [[91mSC[0m   ] [Article         ] [1  5  2 Ab FT] [2020-07-01] GTO: A toolkit to unify pipelines in genomic and proteomic research
 [85086886260] [None    ] [10.3233/shti200353  ] [[91mSC[0m   ] [Conference Paper] [1  9  3 Ab   ] [2020-06-16] A recommender system based on cohorts' similarity
 [85086928624] [None    ] [10.3233/shti200457  ] [[91mSC[0m   ] [Conference Paper] [1 12  3 Ab   ] [2020-06-16] Social Media Mining for Postpartum Depression Prediction
 [85087926456] [None    ] [6/s13040-020-00217-8] [[91mSC[0m   ] [Article         ] [1  0  6 Ab   ] [2020-07-08] Merging microarray studies to identify a common gene expression signature to several structural heart diseases
-[85089220717] [None    ] [978-3-030-54568-0_11] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-01-01] Machine Learning for Depression Screening in Online Communities
+[85089220717] [None    ] [978-3-030-54568-0-11] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-01-01] Machine Learning for Depression Screening in Online Communities
 [85090817490] [None    ] [10.1155/2020/3041498] [[91mSC[0m   ] [Article         ] [1 11  2 Ab   ] [2020-01-01] SCALEUS-FD: A FAIR Data Tool for Biomedical Applications
 [85091140845] [None    ] [cbms49503.2020.00056] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-07-01] Multi-language concept normalisation of clinical cohorts
 [85091187517] [None    ] [cbms49503.2020.00012] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-07-01] A recommender system to help discovering cohorts in rare diseases
-[85092163560] [None    ] [/978-3-030-58219-7_8] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2020-01-01] File Forgery Detection Using a Weighted Rule-Based System
+[85092163560] [None    ] [/978-3-030-58219-7-8] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2020-01-01] File Forgery Detection Using a Weighted Rule-Based System
 [85094158640] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  6  1 Ab   ] [2000-01-01] Network and desktop management convergence
 [85094170877] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  6  1 Ab   ] [2000-01-01] On the use of mobility in distributed network management
 [85098456035] [None    ] [mpbiomed.2020.104180] [[91mSC[0m   ] [Article         ] [1 13  2 Ab FT] [2021-03-01] A semi-automatic methodology for analysing distributed and private biobanks
@@ -387,7 +382,7 @@
 [85101461012] [None    ] [2/9781118617151.ch37] [[91mSC[0m   ] [Book Chapter    ] [1  0  1 Ab   ] [2014-01-01] Current methodologies for biomedical named entity recognition
 [85103846666] [None    ] [None                ] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-01-01] Bilingual emotion analysis on social media throughout the COVID-19 pandemic in Portugal
 [85107238346] [None    ] [10.3233/shti210174  ] [[91mSC[0m   ] [Book Chapter    ] [1  3  1 Ab   ] [2021-07-01] A recommender system to help refining clinical research studies
-[85107294095] [None    ] [978-3-030-72379-8_26] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-01-01] Leveraging Clinical Notes for Enhancing Decision-Making Systems with Relevant Patient Information
+[85107294095] [None    ] [978-3-030-72379-8-26] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-01-01] Leveraging Clinical Notes for Enhancing Decision-Making Systems with Relevant Patient Information
 [85109166153] [None    ] [16/j.jbi.2021.103849] [[91mSC[0m   ] [Article         ] [1 14  2 Ab FT] [2021-08-01] A two-stage workflow to extract and harmonize drug mentions from clinical notes into observational databases
 [85110823741] [None    ] [cbms52027.2021.00068] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-06-01] Improvements in lymphocytes detection using deep learning with a preprocessing stage
 [85110827717] [None    ] [cbms52027.2021.00041] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2021-06-01] A comparative analysis of data platforms for rare diseases

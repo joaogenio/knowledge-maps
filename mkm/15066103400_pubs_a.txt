@@ -1,314 +1,314 @@
-[None       ] [-1413547] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2003-01-01] Algoritmos de reconstrução de sinal e correcção de erros
-[None       ] [-2601413] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2003-01-01] Algoritmos de reconstrução de sinal e correcção de erros
-[None       ] [-2602579] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2003-01-01] Algoritmos de reconstrução de sinal e correcção de erros
-[None       ] [-1413545] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2003-01-01] Audio interface for real time navigation
-[None       ] [-2601415] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2003-01-01] Audio interface for real time navigation
-[None       ] [-2602576] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2003-01-01] Audio interface for real time navigation
-[None       ] [-1413541] [None                ] [   [92mCV[0m] [Article         ] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-2601414] [None                ] [   [92mCV[0m] [Article         ] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-2602571] [None                ] [   [92mCV[0m] [Article         ] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-1413543] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-2601411] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-2602572] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2005-01-01] An implantable microsystem for electrical resistance and temperature measurements in cows with wireless capabilities suitable for reproductive management
-[None       ] [-1413542] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Dispositivo de baixo peso para estimação de trajectórias aéreas de aves
-[None       ] [-2601410] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Dispositivo de baixo peso para estimação de trajectórias aéreas de aves
-[None       ] [-2602577] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Dispositivo de baixo peso para estimação de trajectórias aéreas de aves
-[None       ] [-1413546] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Simulação visual de trajectórias aéreas
-[None       ] [-2601416] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Simulação visual de trajectórias aéreas
-[None       ] [-2602578] [None                ] [   [92mCV[0m] [Book            ] [1  4  0      ] [2005-01-01] Simulação visual de trajectórias aéreas
-[None       ] [-1412987] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-1413532] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-1413534] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-2601401] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-2601406] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-2602569] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-2602568] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2006-01-01] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[None       ] [-2121098] [1145/1140123.1140241] [   [92mCV[0m] [Article         ] [1  0  0      ] [2006-01-01] Reconstructed high frame rate sequences quality measurement tool
-[None       ] [-1413522] [None                ] [   [92mCV[0m] [s / Dissertation] [1  2  0      ] [2007-01-01] A Tecnologia como Auxiliar na Agricultura Biológica em Estufa
-[None       ] [-2601405] [None                ] [   [92mCV[0m] [s / Dissertation] [1  2  0      ] [2007-01-01] A Tecnologia como Auxiliar na Agricultura Biológica em Estufa
-[None       ] [-2602318] [None                ] [   [92mCV[0m] [s / Dissertation] [1  2  0      ] [2007-01-01] A Tecnologia como Auxiliar na Agricultura Biológica em Estufa
-[None       ] [-2602563] [None                ] [   [92mCV[0m] [s / Dissertation] [1  2  0      ] [2007-01-01] A Tecnologia como Auxiliar na Agricultura Biológica em Estufa
-[None       ] [-1413519] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2008-01-01] A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax
-[None       ] [-2601402] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2008-01-01] A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax
-[None       ] [-2602317] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2008-01-01] A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax
-[None       ] [-2602562] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2008-01-01] A Detecção Tecnológica na Conservação da Pyrrhocorax pyrrhocorax
-[None       ] [-1413520] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2009-01-01] Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)
-[None       ] [-2601407] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2009-01-01] Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)
-[None       ] [-2602319] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2009-01-01] Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)
-[None       ] [-2602567] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2009-01-01] Auxílio na Orientação de Invisuais Usando a Tecnologia RFID (SmartVision)
-[None       ] [-1413521] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2009-01-01] Gestão de Home Networks
-[None       ] [-2601400] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2009-01-01] Gestão de Home Networks
-[None       ] [-2602312] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2009-01-01] Gestão de Home Networks
-[None       ] [-2602539] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2009-01-01] Gestão de Home Networks
-[None       ] [-2121094] [/978-3-642-13161-5_5] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2010-01-01] A Software Tool for Harmonic Distortion Simulation Caused by Non-linear Household Loads
-[None       ] [-1413508] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2010-01-01] Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal
-[None       ] [-2601379] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2010-01-01] Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal
-[None       ] [-2602311] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2010-01-01] Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal
-[None       ] [-2602538] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2010-01-01] Avaliação Multifactorial das Variáveis Ambientais que condicionam a Biologia, a Reprodução, o Comportamento e a Disponibilidade de Habitat de uma População Residual de Gralha-de-bico-vermelho (Pyrrhocorax pyrrhocorax) no Noroeste de Portugal
-[None       ] [-1413506] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente
-[None       ] [-2601377] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente
-[None       ] [-2602305] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente
-[None       ] [-2602510] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Identificação das alterações na voz após cirurgia ao nervo laríngeo recorrente
-[None       ] [-1413510] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [2010-01-01] Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos
-[None       ] [-2601403] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [2010-01-01] Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos
-[None       ] [-2602313] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [2010-01-01] Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos
-[None       ] [-2602540] [None                ] [   [92mCV[0m] [s / Dissertation] [1  0  0      ] [2010-01-01] Monitorização em Tempo Real da Temperatura dos Barramentos de Quadros Eléctricos
-[None       ] [-1413509] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP
-[None       ] [-2601382] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP
-[None       ] [-2602314] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP
-[None       ] [-2602537] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2010-01-01] Métodos de Avaliação de QoS em Serviços de Voz sobre Redes IP
-[None       ] [-1413507] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2010-01-01] Previsão e Medição do Comportamento Acústico de Espaços
-[None       ] [-2601404] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2010-01-01] Previsão e Medição do Comportamento Acústico de Espaços
-[None       ] [-2602316] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2010-01-01] Previsão e Medição do Comportamento Acústico de Espaços
-[None       ] [-2602536] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2010-01-01] Previsão e Medição do Comportamento Acústico de Espaços
-[None       ] [-1413511] [None                ] [   [92mCV[0m] [s / Dissertation] [1 17  0      ] [2010-01-01] Segurança Informática de Redes e Sistemas (Abordagem Open-Source)
-[None       ] [-2601381] [None                ] [   [92mCV[0m] [s / Dissertation] [1 17  0      ] [2010-01-01] Segurança Informática de Redes e Sistemas (Abordagem Open-Source)
-[None       ] [-2602315] [None                ] [   [92mCV[0m] [s / Dissertation] [1 17  0      ] [2010-01-01] Segurança Informática de Redes e Sistemas (Abordagem Open-Source)
-[None       ] [-2602541] [None                ] [   [92mCV[0m] [s / Dissertation] [1 17  0      ] [2010-01-01] Segurança Informática de Redes e Sistemas (Abordagem Open-Source)
-[None       ] [-1413016] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] Using information technology based exercises in primary mathematics teaching of children with cerebral palsy and mental retardation: A case study
-[None       ] [-1412981] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] A Low-Cost System to Detect Bunches of Grapes in Natural Environment from Color Images
-[None       ] [-1412982] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Automatic Detection of White Grapes in Natural Environment Using Image Processing
-[None       ] [-1412983] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Enhanced VoIP by Signal Reconstruction and Voice Quality Assessment
-[None       ] [-2121093] [10.5772/14042       ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Enhanced VoIP by Signal Reconstruction and Voice Quality Assessment
-[None       ] [-1413015] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Glucose monitoring system based on osmotic pressure measurements
-[None       ] [-1413301] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Internet-based Collaborative E-Exercisebook System for Primary Math Teaching
-[None       ] [-2601386] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Internet-based Collaborative E-Exercisebook System for Primary Math Teaching
-[None       ] [-2602308] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Internet-based Collaborative E-Exercisebook System for Primary Math Teaching
-[None       ] [-2602512] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Internet-based Collaborative E-Exercisebook System for Primary Math Teaching
-[None       ] [-1413300] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2011-01-01] Predictive maintenance in oil and gas offshore drilling
-[None       ] [-2601380] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2011-01-01] Predictive maintenance in oil and gas offshore drilling
-[None       ] [-2602307] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2011-01-01] Predictive maintenance in oil and gas offshore drilling
-[None       ] [-2602509] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2011-01-01] Predictive maintenance in oil and gas offshore drilling
-[None       ] [-1412984] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Quality Evaluation Methods to Improve Enterprise VoIP Communications
-[None       ] [-1413014] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2011-01-01] Quality evaluation methods to improve enterprise VoIP communications
-[None       ] [-2121082] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2011-01-01] Risk management, a open-source approach
-[None       ] [-1413013] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A bluetooth approach to diabetes sensing on ambient assisted living systems
-[None       ] [-1413296] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2012-01-01] Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor
-[None       ] [-2601378] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2012-01-01] Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor
-[None       ] [-2602304] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2012-01-01] Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor
-[None       ] [-2602514] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2012-01-01] Anechoic Chamber Interference Tests on a Bluetooth Low Energy Front-End Towards a Subcutaneous Glucose Sensor
-[None       ] [-1413012] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[None       ] [-1413299] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[None       ] [-2601384] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[None       ] [-2602306] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[None       ] [-2602511] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[None       ] [-1413011] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Lost block reconstruction in depth maps using color image contours
-[None       ] [-1413010] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Signal processing interpolation educational workbench
-[None       ] [-1412999] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] A Bluetooth Based Front-End Electronic Device Towards A Subcutaneous Continuous Glucose Monitoring Sensor
-[None       ] [-1412992] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Depth map concealment using inter-view warping vectors from geometric transforms
-[None       ] [-1412993] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Efficient depth error concealment for 3D video over error-prone channels
-[None       ] [-1412997] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] Enhanced MOS in VoIP over priority erasure channels based on optimal packet classification
-[None       ] [-1412994] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] FouSE: An Android Tool to Help in the Teaching of Fourier Series Expansions in Undergraduate Education
-[None       ] [-1413009] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] FouSE: An android tool to help in the teaching of fourier series expansions in undergraduate education
-[None       ] [-1412989] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2013-01-01] Methods for Quality Assessment in Enterprise VoIP Communications
-[None       ] [-1413008] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Methods for quality assessment in enterprise voip communications
-[None       ] [-1412995] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Problem Conditioning Interpolation Educational Tool
-[None       ] [-1413007] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Problem conditioning interpolation educational tool
-[None       ] [-1413298] [None                ] [   [92mCV[0m] [Conference Paper] [1  8  0      ] [2013-01-01] Problem conditioning interpolation educational tool
-[None       ] [-2601369] [None                ] [   [92mCV[0m] [Conference Paper] [1  8  0      ] [2013-01-01] Problem conditioning interpolation educational tool
-[None       ] [-2602294] [None                ] [   [92mCV[0m] [Conference Paper] [1  8  0      ] [2013-01-01] Problem conditioning interpolation educational tool
-[None       ] [-2602501] [None                ] [   [92mCV[0m] [Conference Paper] [1  8  0      ] [2013-01-01] Problem conditioning interpolation educational tool
-[None       ] [-1412985] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Radiation Tests on a Bluetooth Based Front-End Electronic Device Towards a Subcutaneous Continuous Glucose Monitoring Sensor
-[None       ] [-1413006] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Radiation tests on a bluetooth based front-end electronic device towards a subcutaneous continuous glucose monitoring sensor
-[None       ] [-1412990] [10.5539/mas.v7n12p56] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Signal Processing Interpolation and Problem Conditioning Educational Workbench
-[None       ] [-1413297] [None                ] [   [92mCV[0m] [s / Dissertation] [1  1  0      ] [2013-01-01] Signal Reconstruction Techniques Applied to Speech Transmission
-[None       ] [-2601383] [None                ] [   [92mCV[0m] [s / Dissertation] [1  1  0      ] [2013-01-01] Signal Reconstruction Techniques Applied to Speech Transmission
-[None       ] [-2602309] [None                ] [   [92mCV[0m] [s / Dissertation] [1  1  0      ] [2013-01-01] Signal Reconstruction Techniques Applied to Speech Transmission
-[None       ] [-2602513] [None                ] [   [92mCV[0m] [s / Dissertation] [1  1  0      ] [2013-01-01] Signal Reconstruction Techniques Applied to Speech Transmission
-[None       ] [-1412991] [None                ] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2013-01-01] Sociotecnhical Enterprise Informations Systems Design Integration
-[None       ] [-1412996] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Teaching of Fourier Series Expansions in undergraduate education
-[None       ] [-1413005] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2013-01-01] Teaching of Fourier series expansions in undergraduate education
-[None       ] [-1412998] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2013-01-01] Two-stage depth map error concealment using geometric fitting
-[None       ] [-1413001] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] Coexistence and Interference Tests on a Bluetooth Low Energy Front-End
-[None       ] [-1413002] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2014-01-01] Enhancement Method for Multiple Description Decoding of Depth Maps Subject to Random Loss
-[None       ] [-1413284] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2014-01-01] Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho
-[None       ] [-2601362] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2014-01-01] Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho
-[None       ] [-2602299] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2014-01-01] Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho
-[None       ] [-2602502] [None                ] [   [92mCV[0m] [Conference Paper] [1  3  0      ] [2014-01-01] Resistência ao fogo de blocos de betão leve à base de caroço de espiga de milho
-[None       ] [-1413278] [None                ] [   [92mCV[0m] [s / Dissertation] [1 13  0      ] [2014-01-01] Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal
-[None       ] [-2601366] [None                ] [   [92mCV[0m] [s / Dissertation] [1 13  0      ] [2014-01-01] Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal
-[None       ] [-2602296] [None                ] [   [92mCV[0m] [s / Dissertation] [1 13  0      ] [2014-01-01] Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal
-[None       ] [-2602503] [None                ] [   [92mCV[0m] [s / Dissertation] [1 13  0      ] [2014-01-01] Segmentação de zonas de alta frequência em sequências de imagem com alta resolução temporal
-[None       ] [-1413004] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2014-01-01] Teaching Fourier series expansions in undergraduate education with the help of the FouSE Android application
-[None       ] [-1413279] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2015-01-01] Blue sensor: a bluetooth approached to glucose sensor
-[None       ] [-2601363] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2015-01-01] Blue sensor: a bluetooth approached to glucose sensor
-[None       ] [-2602293] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2015-01-01] Blue sensor: a bluetooth approached to glucose sensor
-[None       ] [-2602497] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2015-01-01] Blue sensor: a bluetooth approached to glucose sensor
-[None       ] [-1413025] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] Digital Sound Processing using Arduino and MatLab
-[None       ] [-1413027] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] Distributed Sensing System Model for Future Internet Agricultural Application
-[None       ] [-2601365] [None                ] [   [92mCV[0m] [s / Dissertation] [1  1  0      ] [2015-01-01] Estudo de seguranÃa da RitalinaÂ (Cloridrato de Metilfenidato) em animais adultos: aspectos de neurotoxicidade e nefrotoxicidade
-[None       ] [-1413003] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2015-01-01] Lightweight concrete masonry units based on processed granulate of corn cob as aggregate
-[None       ] [-1413280] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2015-01-01] Methods for quality enhancement of voice communications over erasure channels
-[None       ] [-2601367] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2015-01-01] Methods for quality enhancement of voice communications over erasure channels
-[None       ] [-2602298] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2015-01-01] Methods for quality enhancement of voice communications over erasure channels
-[None       ] [-2602499] [None                ] [   [92mCV[0m] [s / Dissertation] [1  7  0      ] [2015-01-01] Methods for quality enhancement of voice communications over erasure channels
-[None       ] [-1413282] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2015-01-01] Mobilidade eléctrica: metas e sustentabilidade
-[None       ] [-2601370] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2015-01-01] Mobilidade eléctrica: metas e sustentabilidade
-[None       ] [-2602297] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2015-01-01] Mobilidade eléctrica: metas e sustentabilidade
-[None       ] [-2602504] [None                ] [   [92mCV[0m] [s / Dissertation] [1  9  0      ] [2015-01-01] Mobilidade eléctrica: metas e sustentabilidade
-[None       ] [-1413283] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia
-[None       ] [-2601372] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia
-[None       ] [-2602295] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia
-[None       ] [-2602498] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Modelo para o ensino de algoritmos de reconstrução de sinal em engenharia
-[None       ] [-2601385] [None                ] [   [92mCV[0m] [s / Dissertation] [1 10  0      ] [2015-01-01] Produ??o de hidrolases holocelulol?ticas por fermenta??o em estado s?lido com uso de fungos filamentosos e coprodutos da agroind?stria de ?leos vegetais como fontes de carbono
-[None       ] [-2602580] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2015-01-01] Qualidade Física de Solos em Uso Agrícola na Região Semiárida do Estado da Bahia
-[None       ] [-2601376] [None                ] [   [92mCV[0m] [Article         ] [1  8  0      ] [2015-01-01] Qualidade física de solos em uso agrícola na região Semiárida do Estado da Bahia.
-[None       ] [-1413026] [None                ] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2015-01-01] Quality Evaluation of Depth Map Error Concealment using a Perceptually-Aware Objective Metric
-[None       ] [-1413277] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Sistema de informação para a gestão integrada de consumos de uma autarquia
-[None       ] [-2601371] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Sistema de informação para a gestão integrada de consumos de uma autarquia
-[None       ] [-2602300] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Sistema de informação para a gestão integrada de consumos de uma autarquia
-[None       ] [-2602500] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2015-01-01] Sistema de informação para a gestão integrada de consumos de uma autarquia
-[None       ] [-1413242] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks
-[None       ] [-2601358] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks
-[None       ] [-2602283] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks
-[None       ] [-2602490] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Adaptação e optimização de qualidade em serviços futuros de vídeo 3D: depth error concealment methods for 3D video over error-prone networks
-[None       ] [-1413244] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2016-01-01] Controlo do fluxo de uma animação 3D através do som
-[None       ] [-2601352] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2016-01-01] Controlo do fluxo de uma animação 3D através do som
-[None       ] [-2602276] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2016-01-01] Controlo do fluxo de uma animação 3D através do som
-[None       ] [-2602487] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2016-01-01] Controlo do fluxo de uma animação 3D através do som
-[None       ] [-3108027] [None                ] [   [92mCV[0m] [s / Dissertation] [1  3  0      ] [2016-01-01] Controlo do fluxo de uma animação 3D através do som
-[None       ] [-1413241] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2016-01-01] Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário
-[None       ] [-2601353] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2016-01-01] Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário
-[None       ] [-2602286] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2016-01-01] Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário
-[None       ] [-2602484] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2016-01-01] Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário
-[None       ] [-3108039] [None                ] [   [92mCV[0m] [s / Dissertation] [1  5  0      ] [2016-01-01] Estratégias de eficiência energética aplicáveis à indústria das madeiras e mobiliário
-[None       ] [-3108036] [None                ] [   [92mCV[0m] [s / Dissertation] [1  8  0      ] [2016-01-01] Predição de estrutura terciária de proteínas com técnicas multiobjetivo no algoritmo de monte carlo
-[None       ] [-2601368] [29.2016v44n2p217-225] [   [92mCV[0m] [Article         ] [1  3  0      ] [2016-01-01] Resposta produtiva do meloeiro sob diferentes lâminas de água e doses de nitrogênio.
-[None       ] [-2601364] [.34624/id.v8i1.14260] [   [92mCV[0m] [Article         ] [1  0  0      ] [2016-01-01] The brightness of the X-rays within the scope of the STS approach in Chemistry teaching
-[None       ] [-2121064] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2017-01-01] Spatial error concealment for intra-coded depth maps in multiview video-plus-depth
-[None       ] [-1413249] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2018-01-01] Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse
-[None       ] [-2601350] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2018-01-01] Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse
-[None       ] [-2602281] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2018-01-01] Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse
-[None       ] [-2602485] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2018-01-01] Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse
-[None       ] [-3108044] [None                ] [   [92mCV[0m] [s / Dissertation] [1  6  0      ] [2018-01-01] Desenvolvimento de um Robô de baixo custo para o concurso de Micromouse
-[None       ] [-1413246] [None                ] [   [92mCV[0m] [Working Paper   ] [1  7  0      ] [2018-01-01] Kid Grígora - A robotic platform for young ages
-[None       ] [-2601355] [None                ] [   [92mCV[0m] [Working Paper   ] [1  7  0      ] [2018-01-01] Kid Grígora - A robotic platform for young ages
-[None       ] [-2602279] [None                ] [   [92mCV[0m] [Working Paper   ] [1  7  0      ] [2018-01-01] Kid Grígora - A robotic platform for young ages
-[None       ] [-2602489] [None                ] [   [92mCV[0m] [Working Paper   ] [1  7  0      ] [2018-01-01] Kid Grígora - A robotic platform for young ages
-[None       ] [-3108034] [None                ] [   [92mCV[0m] [Working Paper   ] [1  7  0      ] [2018-01-01] Kid Grígora - A robotic platform for young ages
-[None       ] [-3108030] [None                ] [   [92mCV[0m] [Article         ] [1  8  0      ] [2018-01-01] Soil chemical quality in agricultural land uses in the semiarid of Bahia.
-[None       ] [-1413281] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2018-01-01] Total productive maintenance (TPM) na Gestão Industrial
-[None       ] [-2601354] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2018-01-01] Total productive maintenance (TPM) na Gestão Industrial
-[None       ] [-2602280] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2018-01-01] Total productive maintenance (TPM) na Gestão Industrial
-[None       ] [-2602492] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2018-01-01] Total productive maintenance (TPM) na Gestão Industrial
-[None       ] [-3108037] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2018-01-01] Total productive maintenance (TPM) na Gestão Industrial
-[None       ] [-1413248] [None                ] [   [92mCV[0m] [Working Paper   ] [1  3  0      ] [2019-01-01] Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org
-[None       ] [-2601360] [None                ] [   [92mCV[0m] [Working Paper   ] [1  3  0      ] [2019-01-01] Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org
-[None       ] [-2602285] [None                ] [   [92mCV[0m] [Working Paper   ] [1  3  0      ] [2019-01-01] Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org
-[None       ] [-2602491] [None                ] [   [92mCV[0m] [Working Paper   ] [1  3  0      ] [2019-01-01] Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org
-[None       ] [-3108043] [None                ] [   [92mCV[0m] [Working Paper   ] [1  3  0      ] [2019-01-01] Desenvolvimento do pensamento computacional em idades precoces usando a plataforma code.org
-[None       ] [-2121059] [93/eurpub/ckz096.006] [   [92mCV[0m] [ference Abstract] [1  0  0      ] [2019-01-01] Development of help and surveillance technologies for dependent elderly people at home
-[None       ] [-3108035] [None                ] [   [92mCV[0m] [Article         ] [1  3  0      ] [2019-01-01] Disfunção e não função primária do enxerto hepático: revisão integrativa.
-[None       ] [-1413243] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2019-01-01] On-line prognosis of sound Insulation laid out in EN-12354
-[None       ] [-2601351] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2019-01-01] On-line prognosis of sound Insulation laid out in EN-12354
-[None       ] [-2602284] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2019-01-01] On-line prognosis of sound Insulation laid out in EN-12354
-[None       ] [-2602493] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2019-01-01] On-line prognosis of sound Insulation laid out in EN-12354
-[None       ] [-3108040] [None                ] [   [92mCV[0m] [s / Dissertation] [1  4  0      ] [2019-01-01] On-line prognosis of sound Insulation laid out in EN-12354
-[None       ] [-3108032] [None                ] [   [92mCV[0m] [Article         ] [1 15  0      ] [2019-01-01] Serological proteomic screening and evaluation of a recombinant egg antigen for the diagnosis of low-intensity Schistosoma mansoni infections in endemic area in Brazil
-[None       ] [-3108038] [None                ] [   [92mCV[0m] [Article         ] [1  8  0      ] [2019-01-01] Serological proteomic screening and evaluation of a recombinant egg antigen for the diagnosis of low-intensity Schistosoma mansoni infections in endemic area in Brazil
-[None       ] [-1413247] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-1413245] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-2601349] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-2602287] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-2602482] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-3108042] [None                ] [   [92mCV[0m] [Conference Paper] [1  7  0      ] [2019-01-01] Usability evaluation of an educational robot for STEM areas
-[None       ] [-2601359] [None                ] [   [92mCV[0m] [Conference Paper] [1  5  0      ] [2020-01-01] Developing computational thinking in early ages: a review of the code.org Platform
-[None       ] [-2602277] [None                ] [   [92mCV[0m] [Conference Paper] [1  5  0      ] [2020-01-01] Developing computational thinking in early ages: a review of the code.org Platform
-[None       ] [-2602483] [None                ] [   [92mCV[0m] [Conference Paper] [1  5  0      ] [2020-01-01] Developing computational thinking in early ages: a review of the code.org Platform
-[None       ] [-3108046] [None                ] [   [92mCV[0m] [Conference Paper] [1  5  0      ] [2020-01-01] Developing computational thinking in early ages: a review of the code.org Platform
-[None       ] [-3108028] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2020-01-01] Identificação das alterações na voz da Caprahircus após cirurgia ao nervo laríngeo recorrente
-[None       ] [-3108045] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2020-01-01] Processamento Digital de Sinal: (Conteúdos e métodos de organização científica e de execução pedagógica)
-[None       ] [-2601356] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2020-01-01] Repair of the recurrent laryngeal nerve: Experimental study.
-[None       ] [-2602282] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2020-01-01] Repair of the recurrent laryngeal nerve: Experimental study.
-[None       ] [-2602486] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2020-01-01] Repair of the recurrent laryngeal nerve: Experimental study.
-[None       ] [-3108041] [None                ] [   [92mCV[0m] [Article         ] [1  4  0      ] [2020-01-01] Repair of the recurrent laryngeal nerve: Experimental study.
-[16644365913] [-1412988] [16/j.dsp.2004.12.003] [   [92mCV[0m] [Article         ] [1  0  0      ] [2005-01-01] Linear combinations of B-splines as generating functions for signal approximation
-[16644365913] [None    ] [16/j.dsp.2004.12.003] [[91mSC[0m   ] [Conference Paper] [1  4  2 Ab FT] [2005-01-01] Linear combinations of B-splines as generating functions for signal approximation
-[33748975347] [-2121100] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  3  1 Ab   ] [2006-09-29] Reconstructed high frame rate sequences quality measurement tool
-[33751075519] [-1413533] [16/j.sna.2006.04.011] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  6 Ab FT] [2006-11-08] Concept study of an implantable microsystem for electrical resistance and temperature measurements in dairy cows, suitable for estrus detection
-[34548324540] [-2121099] [1145/1140124.1140241] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  2  2 Ab   ] [2006-12-01] Reconstructed high frame rate sequences quality measurement tool
-[48349099052] [-1413017] [/icsens.2007.4388354] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2007-01-01] 2007 IEEE Sensors
-[50049136230] [-1413021] [09/isie.2007.4374860] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  1 Ab   ] [2007-12-01] Signal reconstruction techniques applied to high frame rate sequences
-[51549107583] [None    ] [09/isce.2008.4559434] [[91mSC[0m   ] [Conference Paper] [1  4  1 Ab   ] [2008-09-17] VoIP reconstruction under a minimum interpolation algorithm
-[53749090704] [-1412986] [j.compag.2008.04.005] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab FT] [2008-01-01] Sun, wind and water flow as energy supply for small stationary data acquisition platforms
-[77957036900] [-2121096] [None                ] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  1 Ab   ] [2010-07-01] Using information technology based exercises in primary mathematics teaching of children with cerebral palsy and mental retardation: A case study
-[78649624411] [None    ] [celmach.2010.5607706] [[91mSC[0m   ] [Conference Paper] [1  7  2 Ab   ] [2010-12-06] Induction motor response to periodical voltage fluctuations
-[78650819353] [None    ] [9/iembs.2010.5626368] [[91mSC[0m   ] [Conference Paper] [1  9  4 Ab   ] [2010-12-01] Reconstruction of high frame rate image sequences in biomechanical related areas
-[79951923909] [-1413018] [ensordevices.2010.40] [   [92mCV[0m] [Book Chapter    ] [1  0  0      ] [2010-01-01] 2010 First International Conference on Sensor Device Technologies and Applications
-[79951923909] [None    ] [ensordevices.2010.40] [[91mSC[0m   ] [Conference Paper] [1 12  2 Ab   ] [2010-12-01] Button heat-pulse sensor for soil water content measurements
-[79953010877] [-2121097] [9/iembs.2010.5626368] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] Reconstruction of high frame rate image sequences in biomechanical related areas.
-[79955039571] [-2121089] [None                ] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Glucose monitoring system based on osmotic pressure measurements
-[79955039571] [None    ] [None                ] [[91mSC[0m   ] [Article         ] [1 20  2 Ab   ] [2011-02-01] Glucose monitoring system based on osmotic pressure measurements
-[79960619514] [-2121086] [eurocon.2011.5929300] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 13  2 Ab   ] [2011-07-27] Quality model for monitoring QoE in VoIP services
-[79960619691] [-2121085] [eurocon.2011.5929310] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2011-07-27] ArQoS: System to monitor QoS/QoE in VoIP
-[79960627272] [-2121087] [eurocon.2011.5929374] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2011-07-27] Risk management, a open-source approach
-[80052128779] [None    ] [conatel.2011.5958665] [[91mSC[0m   ] [Conference Paper] [1  5  2 Ab   ] [2011-09-01] Internet-based collaborative E-exercisebook system for primary math teaching
-[80052163709] [-2121091] [/978-3-642-23687-7_9] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] A Low-Cost System to Detect Bunches of Grapes in Natural Environment from Color Images
-[80052163709] [None    ] [/978-3-642-23687-7_9] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab   ] [2011-09-02] A low-cost system to detect bunches of grapes in natural environment from color images
-[80052941941] [-2121092] [/978-3-642-19644-7_3] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Automatic Detection of White Grapes in Natural Environment Using Image Processing
-[80052941941] [None    ] [/978-3-642-19644-7_3] [[91mSC[0m   ] [Conference Paper] [1 10  1 Ab   ] [2011-09-23] Automatic detection of white grapes in natural environment using image processing
-[80054059921] [-2121090] [978-3-642-24355-4_12] [   [92mCV[0m] [Other Output    ] [1  0  0      ] [2011-01-01] Quality Evaluation Methods to Improve Enterprise VoIP Communications
-[80054059921] [None    ] [978-3-642-24355-4_12] [[91mSC[0m   ] [Conference Paper] [1 16  2 Ab   ] [2011-10-19] Quality evaluation methods to improve enterprise VoIP communications
-[84856246270] [-2121083] [09/icip.2011.6116084] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  3 Ab   ] [2011-12-01] Error recovery of image-based depth maps using Bézier curve fitting
-[84859819508] [-2121081] [10.1002/cae.20402   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  6  3 Ab   ] [2012-06-01] Signal processing interpolation educational workbench
-[84864044299] [-2121079] [109/pcs.2012.6213340] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 11  1 Ab   ] [2012-07-25] Lost block reconstruction in depth maps using color image contours
-[84865422026] [-1412980] [buildmat.2012.07.064] [[91mSC[0m [92mCV[0m] [Article         ] [1 13  3 Ab FT] [2012-12-01] Impact sound insulation technique using corn cob particleboard
-[84866016448] [-2121088] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  9  1 Ab   ] [2011-12-01] Simulation of a reverberant room
-[84869501800] [-2121080] [16/j.jal.2012.07.004] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] Automatic detection of bunches of grapes in natural environment from color images
-[84869501800] [None    ] [16/j.jal.2012.07.004] [[91mSC[0m   ] [Conference Paper] [1  9  2 Ab FT] [2012-12-01] Automatic detection of bunches of grapes in natural environment from color images
-[84880990852] [None    ] [/educon.2013.6530229] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2013-08-07] Problem conditioning interpolation educational tool
-[84881004414] [-2121074] [/educon.2013.6530141] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  3 Ab   ] [2013-08-07] Teaching of Fourier series expansions in undergraduate education
-[84881522157] [-1412979] [/j.procs.2012.10.021] [   [92mCV[0m] [Article         ] [1  0  0      ] [2012-01-01] A Bluetooth Approach to Diabetes Sensing on Ambient Assisted Living systems
-[84881522157] [None    ] [/j.procs.2012.10.021] [[91mSC[0m   ] [Conference Paper] [1  0  1 Ab FT] [2012-01-01] A bluetooth approach to diabetes sensing on ambient assisted living systems
-[84887173826] [-2121077] [220/0004401101660171] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  5  2 Ab   ] [2013-11-12] FouSE: An android tool to help in the teaching of fourier series expansions in undergraduate education
-[84887840676] [-2121076] [09/bmsb.2013.6621706] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  7 Ab   ] [2013-01-01] Efficient depth error concealment for 3D video over error-prone channels
-[84892529365] [-2121073] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-12-01] Radiation tests on a bluetooth based front-end electronic device towards a subcutaneous continuous glucose monitoring sensor
-[84897746513] [-2121075] [09/icip.2013.6738375] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2013-01-01] Depth map concealment using interview warping vectors from geometric transforms
-[84898297372] [None    ] [-1-4666-3664-4.ch010] [[91mSC[0m   ] [Book Chapter    ] [1  8  3 Ab   ] [2013-03-31] Methods for quality assessment in enterprise VoIP communications
-[84899484844] [-1413000] [10.1002/cae.20559   ] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  3 Ab   ] [2014-01-01] HarmoSim: A tool for harmonic distortion simulation and assessment of nonlinear loads
-[84903859559] [-2121095] [None                ] [   [92mCV[0m] [Article         ] [1  0  0      ] [2010-01-01] Reconstruction of high frame rate image sequences in biomechanical related areas.
-[84906535660] [-2121072] [09/3dtv.2014.6874725] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  5 Ab   ] [2014-01-01] Enhancement method for multiple description decoding of depth maps subject to random loss
-[84909606779] [-1413019] [109/sai.2014.6918312] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  1 Ab   ] [2014-10-07] Coexistence and interference tests on a Bluetooth Low Energy front-end
-[84922779483] [-1413020] [.3991/ijim.v8i1.3455] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  2 Ab   ] [2014-01-01] Teaching Fourier series expansions in undergraduate education with the help of the FouSE android application
-[84929643270] [-2121071] [0.3989/mc.2015.04514] [   [92mCV[0m] [Article         ] [1  0  0      ] [2015-01-01] Lightweight concrete masonry units based on processed granulate of corn cob as aggregate
-[84954162005] [-2121070] [09/3dtv.2015.7169373] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  5 Ab   ] [2015-07-27] Quality evaluation of depth map error concealment using a perceptually-aware objective metric
-[84957808120] [-2121069] [109/sai.2015.7237295] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  7 Ab   ] [2015-09-02] Digital sound processing using arduino and MATLAB
-[84979516891] [-2121065] [07/s11042-016-3766-7] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab   ] [2017-06-01] Spatial error concealment for intra-coded depth maps in multiview video-plus-depth
-[84982105550] [-2121067] [09/bmsb.2016.7521935] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  7 Ab   ] [2016-07-25] Robust decoding of MDC depth maps for enhanced 3D video over hybrid broadcasting networks
-[84988884550] [-2121066] [109/sai.2016.7556055] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  6 Ab   ] [2016-08-29] Morse code translator using the Arduino platform: Crafting the future of microcontrollers
-[84991702037] [-2121068] [/j.jvcir.2016.07.024] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  4 Ab FT] [2016-10-01] Reconstruction of lost depth data in multiview video-plus-depth communications using geometric transforms
-[85014753219] [-1413024] [1145/2808580.2808668] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2015-10-07] Enhancing STEM courses through A Robotic Innovative project
-[85029366430] [-2121063] [eurocon.2017.8011118] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  8 Ab   ] [2017-08-15] A dynamic programming algorithm to select optimal high-priority voice segments using Arduino
-[85060469399] [-2121060] [9/tishw.2018.8559519] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  4 Ab   ] [2018-12-04] IoT Applied in the Functional Optimization of Cyclists
-[85060595644] [-2121062] [1109/jcn.2018.000088] [[91mSC[0m [92mCV[0m] [Article         ] [1  8  2 Ab   ] [2018-12-01] Optimal voice packet classification for enhanced VoIP over priority-enabled networks
-[85061358624] [-2121061] [1145/3218585.3218599] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  4 Ab   ] [2018-06-20] FatoXtract a suit that may be useful in rehabilitation
-[85063149751] [-2121057] [/978-3-319-77842-6_5] [   [92mCV[0m] [Book            ] [1  0  0      ] [2019-01-01] Error Concealment Methods for Multiview Video and Depth
-[85063149751] [None    ] [/978-3-319-77842-6_5] [[91mSC[0m   ] [Book Chapter    ] [1 10  4 Ab   ] [2019-01-01] Error Concealment Methods for Multiview Video and Depth
-[85064636604] [-2121048] [220/0007565902350240] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Data acquisition from the integration of Kinect quaternions and Myo armband EMG sensors to aid equinus foot treatment
-[85064655120] [-2121051] [220/0007346600760083] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2019-01-01] Models of learning to classify X-ray images for the detection of pneumonia using neural networks
-[85064662478] [-2121052] [220/0007692203220330] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Study of dipeptidil peptidase 4 inhibitors based on molecular docking experiments
-[85064672840] [-2121049] [220/0007404301120119] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Classification of images of childhood pneumonia using convolutional neural networks
-[85064717349] [-2121047] [220/0007346301400148] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Noise attenuation using genetic algorithm in CT image
-[85064753740] [-2121050] [220/0007350401320138] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Comparative study of compression techniques applied in different biomedical signals
-[85065066388] [-2121058] [978-3-030-16184-2_43] [   [92mCV[0m] [Book            ] [1  0  0      ] [2019-01-01] Comparison of evolutionary algorithms for coordination of cooperative bioinspired multirobots
-[85065066388] [None    ] [978-3-030-16184-2_43] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Comparison of evolutionary algorithms for coordination of cooperative bioinspired multirobots
-[85067097807] [-1413028] [2/9789813231047_0023] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2018-01-01] Arduino recursive backtracking implementation, for a robotic contest
-[85067101350] [-2121055] [220/0007675102180225] [[91mSC[0m [92mCV[0m] [Conference Paper] [1 12  3 Ab   ] [2019-01-01] Usability evaluation of an educational robot for steM areas
-[85067506734] [-2121045] [/educon.2019.8725196] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  3 Ab   ] [2019-04-01] Learning computer vision using a humanoid robot
-[85069719714] [None    ] [978-3-030-23563-5_40] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2019-01-01] Designing and Evaluating Technology for the Dependent Elderly in Their Homes
-[85071441398] [-2121044] [978-3-030-26945-6_32] [   [92mCV[0m] [Book            ] [1  0  0      ] [2020-01-01] Autonomous driving car competition
-[85071441398] [None    ] [978-3-030-26945-6_32] [[91mSC[0m   ] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Autonomous driving car competition
-[85075010340] [-2601343] [9/segah.2019.8882457] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  5 Ab   ] [2019-08-01] A new approach of developing games for motor rehabilitation using Microsoft Kinect
-[85083549222] [-2121040] [220/0009178902920297] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2020-01-01] Use of convolutional neural networks for detection and segmentation of pulmonary nodules in computed tomography images
-[85083560873] [-2121041] [220/0009157202420249] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Motor rehabilitation and biotelemetry data acquisition with Kinect
-[85083570766] [-2121037] [220/0009091001680175] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  6  2 Ab   ] [2020-01-01] Classification of Optical Coherence Tomography using Convolutional Neural Networks
-[85083578888] [-2121038] [220/0008965101380144] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  8  2 Ab   ] [2020-01-01] Classification of respiratory sounds with convolutional neural network
-[85083589792] [-2121039] [220/0009118602000205] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  7  2 Ab   ] [2020-01-01] Chikungunya Virus Inhibitor Study based on Molecular Docking Experiments
-[85086449638] [-2121035] [0/electronics9060987] [[91mSC[0m [92mCV[0m] [Article         ] [1  0  5 Ab   ] [2020-06-01] Low-cost lorawan node for agro-intelligence iot
-[85088538331] [-2121042] [/978-3-030-52249-0_4] [   [92mCV[0m] [Conference Paper] [1  0  0      ] [2020-01-01] Comparison of Embedded Linux Development Tools for the WiiPiiDo Distribution Development
-[85091736694] [-2121036] [None                ] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  4  3 Ab   ] [2020-01-01] Developing computational thinking in early ages: A review of the code.org platform
-[85092128289] [None    ] [978-3-030-60149-2_34] [[91mSC[0m   ] [Conference Paper] [1  3  2 Ab   ] [2020-01-01] Assisted Caretaking System for Geriatric Home Care
-[85092747809] [-2601342] [ah49190.2020.9201629] [[91mSC[0m [92mCV[0m] [Conference Paper] [1  0  2 Ab   ] [2020-08-01] Gamified platform to aid physiotherapeutic treatment of epicondylitis
-[85104388853] [None    ] [/978-3-030-71061-3_8] [[91mSC[0m   ] [Conference Paper] [1  8  1 Ab   ] [2021-01-01] An Intelligent Predictive Maintenance Approach Based on End-of-Line Test Logfiles in the Automotive Industry
-[85107774063] [None    ] [le50222.2021.9435498] [[91mSC[0m   ] [Conference Paper] [1  8  3 Ab   ] [2021-02-11] Augmented intelligent distributed sensing system model for precision agriculture
-[85118149113] [None    ] [/978-3-030-86439-2_7] [[91mSC[0m   ] [Conference Paper] [1 10  2 Ab   ] [2021-01-01] The Code.org Platform in the Developing of Computational Thinking with Elementary School Students
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s

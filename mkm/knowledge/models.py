@@ -227,7 +227,7 @@ class Publication(models.Model):
         return "[{}] {}".format( str(self.date), self.title )
     
     def pretty(self):
-        return "[{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] {}".format(
+        return "[{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] \n{}".format( ############################################################################################################
             str(self.scopus_id)[-11:],
             str(self.ciencia_id)[-8:],
             str(self.doi)[-20:],

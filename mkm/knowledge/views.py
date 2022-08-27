@@ -85,7 +85,8 @@ def index_view(request):
                 for publication in publications:
                     publication.delete()
             
-            if 'test' in request.POST:
+            # Populate DB (SC -> CV)
+            if 'test1' in request.POST:
 
                 authors = Author.objects.all()
 
@@ -108,6 +109,8 @@ def index_view(request):
                 counters_cv = counters_sc.copy()
 
                 for author in authors:
+
+                    print(f"{author.pk} - {author.name}")
 
                     #if author.pk == 15 or author.pk == 7:
 
@@ -168,19 +171,25 @@ def index_view(request):
                 for key in author_count:
                     print(key, author_count[key])
             
+            # Something
             if 'test2' in request.POST:
 
                 publications = Publication.objects.all()
 
-                print(publications.count())
+                names = {
+                    'manual': 0,
+                    'Manual': 0,
+                    'MANUAL': 0
+                }
 
                 for publication in publications:
-                    if publication.author_set.count() == 8:
-                        print(publication.pretty())
-                        for author in publication.author_set.all():
-                            print(author)
+                    if publication.publication_type.name in names.keys():
+                        names[publication.publication_type.name] += 1
+                
+                print(names)
             
-            if 'test3' in request.POST:
+            # Order Analysis
+            if 'test' in request.POST:
 
                 authors = Author.objects.all()
                 firstdone = False
@@ -191,9 +200,9 @@ def index_view(request):
                     if firstdone:
                         break
                     ### uncomment to debug a specific author
-                    #firstdone = True
-                    #pk = 39
-                    #author = Author.objects.get(pk=pk)
+                    firstdone = True
+                    pk = 62
+                    author = Author.objects.get(pk=pk)
 
                     pubs_a = []
                     pubs_b = []
@@ -215,8 +224,8 @@ def index_view(request):
                             pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
                             for pub in pubs:
                                 sc_id = pub.scopus_id
-                                pubs_b.append(pub.pretty())
-                                f.write(f"{pub.pretty()}\n")
+                                pubs_b.append(pub.pretty().replace('\n', ''))
+                                f.write("{}\n".format(pub.pretty().replace('\n', '')))
                         
                         # pubs 'A' SC -> CV
                         
@@ -236,8 +245,8 @@ def index_view(request):
                                 #else:
                                 #    print("", end="           ")
                                 #print(pub.pretty())
-                                pubs_a.append(pub.pretty())
-                                f.write(f"{pub.pretty()}\n")
+                                pubs_a.append(pub.pretty().replace('\n', ''))
+                                f.write("{}\n".format(pub.pretty().replace('\n', '')))
                     
                     #pubs_a = [   1,    3, None,    6,    8]
                     #pubs_b = [0,    2, 3, 4,    5, 6, 7]
@@ -279,15 +288,15 @@ def index_view(request):
                             else:
                                 bid = None
 
-                        sep = "-"*(128+3+128) + '\n'
+                        sep = "-"*(103+3+103) + '\n'
 
                         sa1 = sep + "{}]  ".format( '] '.join(a.split('] ')[:-1]) ) if aid != None else None
-                        sa2 = "{:<128}  ".format( a.split('] ')[-1][:-1][:128] ) if aid != None else None
+                        sa2 = "{:<103}  ".format( a.split('] ')[-1][:-1][:103] ) if aid != None else None
 
                         sb1 = "{}]  ".format( '] '.join(b.split('] ')[:-1]) ) if bid != None else None
-                        sb2 = "{:<128}  ".format( b.split('] ')[-1][:-1][:128] ) if bid != None else None
+                        sb2 = "{:<103}  ".format( b.split('] ')[-1][:-1][:103] ) if bid != None else None
 
-                        pad = " "*(128+2)
+                        pad = " "*(103+2)
                         
                         if(a in pubs_b):
                             if aid == bid:
@@ -332,6 +341,7 @@ def index_view(request):
                     print(sep)
                     print(len(pubs_a), len(pubs_b))
        
+            # Text Analysis
             if 'test4' in request.POST:
 
                 authors = Author.objects.prefetch_related(
@@ -979,7 +989,7 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
     debug(110*'_')
     color = bcolors.FAIL if from_scopus else bcolors.OKGREEN
 
-    debug_text = "{}FETCH{}: [{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] {}".format(
+    debug_text = "{}FETCH{}: [{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] \n{}".format( ############################################################################################################
         color,
         bcolors.ENDC,
         str(scopus_id)[-11:],
@@ -1059,6 +1069,10 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                         # Same 'scopus_id' but different 'doi'
                         reason += ' different doi'
 
+                        # This is SC and test is CV -> update doi
+                        if from_scopus and ( test.from_ciencia and not test.from_scopus ):
+                            test.doi = doi
+
                         debug(debug_text)
                         debug_text = ''
                         #debug("-2-  I N C O N S I S T E N C Y  --")
@@ -1133,28 +1147,8 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                                 
                         break
 
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-                    ##############################################################################################
-
-                    elif False: # else:
+                    elif False: # No title/abstract analysis (TESTING ONLY)
+                    #else:
 
                         # Title and date analysis
 
@@ -1265,6 +1259,10 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
 
             test.title = title
             test.date = date
+        elif from_scopus:
+
+            test.title = title
+            test.date = date
 
         if from_scopus:
             #test.title = title
@@ -1342,10 +1340,10 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
         
         publication.save()
 
-        debug(f"{ color }NEW{ bcolors.ENDC }  : { publication.pretty() }")
-
         author.publications.add(publication)
         author.save()
+
+        debug(f"{ color }NEW{ bcolors.ENDC }  : { publication.pretty() }")
 
         return 'new'
 
@@ -1666,7 +1664,7 @@ def sync_ciencia(pk):
 
             # TYPE (MANDATORY)
             doc_type = data_publication['type'].title()
-            if doc_type == 'Erratum':
+            if doc_type == 'Erratum' or doc_type == 'Manual':
                 continue
             doc_type = 'Article' if doc_type == 'Journal Article' else doc_type
             if PublicationType.objects.filter(name=doc_type).exists():
@@ -1837,7 +1835,7 @@ def sync_ciencia(pk):
 
     return counters
 
-def debug(string='', debug=False, end="\n"):
+def debug(string='', debug=True, end="\n"):
     if debug:
         print(string, end=end)
 
