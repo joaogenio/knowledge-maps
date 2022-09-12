@@ -146,6 +146,12 @@ class Author(models.Model):
     def __str__(self):
         return self.name if self.name != "" else str(self.id)
     
+    def short_name(self):
+        split = self.name.split(' ')
+        first_name = split[0]
+        last_name = split[-1]
+        return f"{first_name} {last_name}"
+    
     def load_name_list(self):
         return json.loads(self.name_list)
     

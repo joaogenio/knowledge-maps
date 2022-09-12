@@ -25,5 +25,11 @@ urlpatterns = [
     path('', views.index_view, name='index'),
     path('authors/<int:pk>', views.author_detail_view, name='author_detail'),
 
+    path('test1/', views.test1, name='test1'),
+    path('test2/', views.test2, name='test2'),
+    path('test3/', views.test3, name='test3'),
+    path('test4/', views.test4, name='test4'),
+    path('test5/', views.test5, name='test5'),
+
     path('__debug__/', include('debug_toolbar.urls')),
 ]

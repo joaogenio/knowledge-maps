@@ -1,0 +1,2307 @@
+
+{% extends "base.html" %}
+
+{% block title %}<title>Test 1 - Knowledge App</title>{% endblock %}
+{% load static %}
+
+{% block content %}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 823px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Test 1</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+        
+        <div class="container-fluid">
+
+            <!-- Main row -->
+            <div class="row">
+
+                <button onclick="draw()">Re-draw</button>
+
+                <div id="mynetwork"></div>
+
+            </div>
+            <!-- /.row (main row) -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block scripts %}
+
+<!-- Page specific script -->
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+<script type="text/javascript">
+    var nodes = null;
+    var edges = null;
+    var network = null;
+
+    function draw() {
+        // create people.
+        // value corresponds with the age of the person
+
+        aanodes = [
+            
+                {
+                    id: 9,
+                    value: 201,
+                    label: "Ana Tome",
+                    image: "https://www.cienciavitae.pt/fotos/publico/3515-EA0C-24B9.jpg",
+                },
+            
+                {
+                    id: 10,
+                    value: 26,
+                    label: "Ana Rocha",
+                    image: "https://www.cienciavitae.pt/fotos/publico/4E1A-4DE0-103C.jpg",
+                },
+            
+                {
+                    id: 11,
+                    value: 31,
+                    label: "Ana Sebastião",
+                    image: "https://www.cienciavitae.pt/fotos/publico/C51A-5960-CE92.jpg",
+                },
+            
+                {
+                    id: 12,
+                    value: 30,
+                    label: "Ana Valente",
+                    image: "https://www.cienciavitae.pt/fotos/publico/4211-5C6A-E911.jpg",
+                },
+            
+                {
+                    id: 22,
+                    value: 115,
+                    label: "André Zúquete",
+                    image: "https://www.cienciavitae.pt/fotos/publico/6618-2113-6A6F.jpg",
+                },
+            
+                {
+                    id: 14,
+                    value: 37,
+                    label: "António Campos",
+                    image: "https://www.cienciavitae.pt/fotos/publico/351F-A97A-8DA4.jpg",
+                },
+            
+                {
+                    id: 15,
+                    value: 287,
+                    label: "António Teixeira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/9C1F-A99F-F489.jpg",
+                },
+            
+                {
+                    id: 7,
+                    value: 215,
+                    label: "António Neves",
+                    image: "https://www.cienciavitae.pt/fotos/publico/6016-3F49-8427.jpg",
+                },
+            
+                {
+                    id: 16,
+                    value: 168,
+                    label: "Armando Pinho",
+                    image: "https://www.cienciavitae.pt/fotos/publico/6012-FBC9-2C32.jpg",
+                },
+            
+                {
+                    id: 17,
+                    value: 43,
+                    label: "Artur Pereira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/.jpg",
+                },
+            
+                {
+                    id: 18,
+                    value: 70,
+                    label: "Augusto Silva",
+                    image: "https://www.cienciavitae.pt/fotos/publico/AB1B-6394-8A3D.jpg",
+                },
+            
+                {
+                    id: 23,
+                    value: 45,
+                    label: "Carlos Bastos",
+                    image: "https://www.cienciavitae.pt/fotos/publico/8E15-9D3D-C631.jpg",
+                },
+            
+                {
+                    id: 24,
+                    value: 140,
+                    label: "Carlos Costa",
+                    image: "https://www.cienciavitae.pt/fotos/publico/1017-692D-B08A.jpg",
+                },
+            
+                {
+                    id: 25,
+                    value: 94,
+                    label: "Carlos Ferreira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/7E11-82DC-09EC.jpg",
+                },
+            
+                {
+                    id: 26,
+                    value: 54,
+                    label: "Catarina Oliveira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/9C1E-EF56-BC18.jpg",
+                },
+            
+                {
+                    id: 27,
+                    value: 64,
+                    label: "Diogo Pratas",
+                    image: "https://www.cienciavitae.pt/fotos/publico/5A1C-F0F0-7E62.jpg",
+                },
+            
+                {
+                    id: 28,
+                    value: 31,
+                    label: "Eurico Pedrosa",
+                    image: "https://www.cienciavitae.pt/fotos/publico/F416-9D69-9303.jpg",
+                },
+            
+                {
+                    id: 29,
+                    value: 55,
+                    label: "Filipe Silva",
+                    image: "https://www.cienciavitae.pt/fotos/publico/.jpg",
+                },
+            
+                {
+                    id: 30,
+                    value: 31,
+                    label: "Ilídio Oliveira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/.jpg",
+                },
+            
+                {
+                    id: 31,
+                    value: 127,
+                    label: "Iouliia Skliarova",
+                    image: "https://www.cienciavitae.pt/fotos/publico/0012-F3C5-37B1.jpg",
+                },
+            
+                {
+                    id: 33,
+                    value: 104,
+                    label: "Joaquim Pinto",
+                    image: "https://www.cienciavitae.pt/fotos/publico/7313-813E-B322.jpg",
+                },
+            
+                {
+                    id: 62,
+                    value: 395,
+                    label: "José Oliveira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/F716-5261-2F01.jpg",
+                },
+            
+                {
+                    id: 34,
+                    value: 37,
+                    label: "José Azevedo",
+                    image: "https://www.cienciavitae.pt/fotos/publico/A411-8F8D-C94A.jpg",
+                },
+            
+                {
+                    id: 36,
+                    value: 33,
+                    label: "José Moreira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/8C1B-4907-5C4D.jpg",
+                },
+            
+                {
+                    id: 37,
+                    value: 71,
+                    label: "José Fernandes",
+                    image: "https://www.cienciavitae.pt/fotos/publico/5B14-7FA6-5767.jpg",
+                },
+            
+                {
+                    id: 32,
+                    value: 86,
+                    label: "João Rodrigues",
+                    image: "https://www.cienciavitae.pt/fotos/publico/6B1E-7520-BD18.jpg",
+                },
+            
+                {
+                    id: 39,
+                    value: 292,
+                    label: "Leonor Teixeira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/151C-D9F8-8B86.jpg",
+                },
+            
+                {
+                    id: 40,
+                    value: 92,
+                    label: "Luís Lopes",
+                    image: "https://www.cienciavitae.pt/fotos/publico/.jpg",
+                },
+            
+                {
+                    id: 41,
+                    value: 163,
+                    label: "Luís Jesus",
+                    image: "https://www.cienciavitae.pt/fotos/publico/FC1E-EC5B-BD6B.jpg",
+                },
+            
+                {
+                    id: 42,
+                    value: 98,
+                    label: "Manuel Cunha",
+                    image: "https://www.cienciavitae.pt/fotos/publico/611A-38DD-2B56.jpg",
+                },
+            
+                {
+                    id: 43,
+                    value: 167,
+                    label: "Manuel Reis",
+                    image: "https://www.cienciavitae.pt/fotos/publico/A414-12C1-ED57.jpg",
+                },
+            
+                {
+                    id: 44,
+                    value: 176,
+                    label: "Maria Santos",
+                    image: "https://www.cienciavitae.pt/fotos/publico/FD11-1E7F-E236.jpg",
+                },
+            
+                {
+                    id: 46,
+                    value: 83,
+                    label: "Miguel Oliveira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/781E-FF87-F544.jpg",
+                },
+            
+                {
+                    id: 45,
+                    value: 59,
+                    label: "Mário Rodrigues",
+                    image: "https://www.cienciavitae.pt/fotos/publico/B613-72EC-1592.jpg",
+                },
+            
+                {
+                    id: 47,
+                    value: 310,
+                    label: "Nelson Rocha",
+                    image: "https://www.cienciavitae.pt/fotos/publico/9711-6357-81D5.jpg",
+                },
+            
+                {
+                    id: 48,
+                    value: 32,
+                    label: "Nuno Almeida",
+                    image: "https://www.cienciavitae.pt/fotos/publico/BC15-70A9-F5C9.jpg",
+                },
+            
+                {
+                    id: 38,
+                    value: 198,
+                    label: "Nuno Lau",
+                    image: "https://www.cienciavitae.pt/fotos/publico/9C1C-C52C-A1E2.jpg",
+                },
+            
+                {
+                    id: 49,
+                    value: 13,
+                    label: "Olga Oliveira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/9717-5E9C-E002.jpg",
+                },
+            
+                {
+                    id: 50,
+                    value: 103,
+                    label: "Osvaldo Pacheco",
+                    image: "https://www.cienciavitae.pt/fotos/publico/C715-8F7B-CD9D.jpg",
+                },
+            
+                {
+                    id: 53,
+                    value: 184,
+                    label: "Paulo Dias",
+                    image: "https://www.cienciavitae.pt/fotos/publico/5210-FD99-47B7.jpg",
+                },
+            
+                {
+                    id: 52,
+                    value: 117,
+                    label: "Paulo Ferreira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/F612-6014-3735.jpg",
+                },
+            
+                {
+                    id: 51,
+                    value: 140,
+                    label: "Paulo Ferreira",
+                    image: "https://www.cienciavitae.pt/fotos/publico/.jpg",
+                },
+            
+                {
+                    id: 54,
+                    value: 175,
+                    label: "Petia Georgieva",
+                    image: "https://www.cienciavitae.pt/fotos/publico/6D1E-22DA-1F69.jpg",
+                },
+            
+                {
+                    id: 55,
+                    value: 152,
+                    label: "Salviano Soares",
+                    image: "https://www.cienciavitae.pt/fotos/publico/DF11-FF58-4F18.jpg",
+                },
+            
+                {
+                    id: 56,
+                    value: 116,
+                    label: "Samuel Silva",
+                    image: "https://www.cienciavitae.pt/fotos/publico/8B1E-C1C3-D854.jpg",
+                },
+            
+                {
+                    id: 59,
+                    value: 48,
+                    label: "Susana Brás",
+                    image: "https://www.cienciavitae.pt/fotos/publico/AF11-D232-B5B7.jpg",
+                },
+            
+                {
+                    id: 57,
+                    value: 103,
+                    label: "Sérgio Matos",
+                    image: "https://www.cienciavitae.pt/fotos/publico/4F1F-7BD8-AE4E.jpg",
+                },
+            
+                {
+                    id: 58,
+                    value: 63,
+                    label: "Sónia Gouveia",
+                    image: "https://www.cienciavitae.pt/fotos/publico/4D12-5210-C8CE.jpg",
+                },
+            
+                {
+                    id: 60,
+                    value: 31,
+                    label: "Tomás Silva",
+                    image: "https://www.cienciavitae.pt/fotos/publico/621C-34F2-E147.jpg",
+                },
+            
+                {
+                    id: 61,
+                    value: 110,
+                    label: "Vitor Santos",
+                    image: "https://www.cienciavitae.pt/fotos/publico/AC12-D4BA-9580.jpg",
+                },
+            
+        ];
+
+        // create connections between people
+        // value corresponds with the amount of contact between two people
+        aaedges = [
+            
+                {
+                    from: 9,
+                    to: 15,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 16,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 25,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 28,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 29,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 34,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 32,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 40,
+                    value: 17,
+                    label: "17",
+                    title: "17 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 44,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 46,
+                    value: 11,
+                    label: "11",
+                    title: "11 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 38,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 50,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 51,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 54,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 9,
+                    to: 61,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 10,
+                    to: 15,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 10,
+                    to: 30,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 10,
+                    to: 37,
+                    value: 16,
+                    label: "16",
+                    title: "16 publications together",
+                },
+            
+                {
+                    from: 10,
+                    to: 48,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 10,
+                    to: 56,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 11,
+                    to: 30,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 11,
+                    to: 37,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 11,
+                    to: 59,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 12,
+                    to: 15,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 12,
+                    to: 26,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 12,
+                    to: 41,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 12,
+                    to: 56,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 22,
+                    to: 24,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 22,
+                    to: 31,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 22,
+                    to: 47,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 22,
+                    to: 60,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 14,
+                    to: 32,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 14,
+                    to: 44,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 14,
+                    to: 53,
+                    value: 9,
+                    label: "9",
+                    title: "9 publications together",
+                },
+            
+                {
+                    from: 14,
+                    to: 61,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 17,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 18,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 26,
+                    value: 34,
+                    label: "34",
+                    title: "34 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 27,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 28,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 30,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 33,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 62,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 34,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 37,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 39,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 40,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 41,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 42,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 44,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 45,
+                    value: 10,
+                    label: "10",
+                    title: "10 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 47,
+                    value: 11,
+                    label: "11",
+                    title: "11 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 48,
+                    value: 32,
+                    label: "32",
+                    title: "32 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 38,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 50,
+                    value: 6,
+                    label: "6",
+                    title: "6 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 53,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 54,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 56,
+                    value: 66,
+                    label: "66",
+                    title: "66 publications together",
+                },
+            
+                {
+                    from: 15,
+                    to: 59,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 15,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 16,
+                    value: 33,
+                    label: "33",
+                    title: "33 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 17,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 23,
+                    value: 5,
+                    label: "5",
+                    title: "5 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 24,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 26,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 27,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 28,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 33,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 62,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 34,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 32,
+                    value: 5,
+                    label: "5",
+                    title: "5 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 40,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 42,
+                    value: 15,
+                    label: "15",
+                    title: "15 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 47,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 48,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 38,
+                    value: 14,
+                    label: "14",
+                    title: "14 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 50,
+                    value: 5,
+                    label: "5",
+                    title: "5 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 53,
+                    value: 5,
+                    label: "5",
+                    title: "5 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 51,
+                    value: 6,
+                    label: "6",
+                    title: "6 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 54,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 7,
+                    to: 56,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 23,
+                    value: 21,
+                    label: "21",
+                    title: "21 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 27,
+                    value: 50,
+                    label: "50",
+                    title: "50 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 62,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 32,
+                    value: 13,
+                    label: "13",
+                    title: "13 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 40,
+                    value: 9,
+                    label: "9",
+                    title: "9 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 42,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 45,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 49,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 52,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 51,
+                    value: 39,
+                    label: "39",
+                    title: "39 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 59,
+                    value: 9,
+                    label: "9",
+                    title: "9 publications together",
+                },
+            
+                {
+                    from: 16,
+                    to: 57,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 28,
+                    value: 18,
+                    label: "18",
+                    title: "18 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 34,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 42,
+                    value: 14,
+                    label: "14",
+                    title: "14 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 38,
+                    value: 36,
+                    label: "36",
+                    title: "36 publications together",
+                },
+            
+                {
+                    from: 17,
+                    to: 53,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 24,
+                    value: 18,
+                    label: "18",
+                    title: "18 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 25,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 26,
+                    value: 6,
+                    label: "6",
+                    title: "6 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 62,
+                    value: 11,
+                    label: "11",
+                    title: "11 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 40,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 44,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 47,
+                    value: 11,
+                    label: "11",
+                    title: "11 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 56,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 18,
+                    to: 59,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 23,
+                    to: 27,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 23,
+                    to: 32,
+                    value: 18,
+                    label: "18",
+                    title: "18 publications together",
+                },
+            
+                {
+                    from: 23,
+                    to: 51,
+                    value: 16,
+                    label: "16",
+                    title: "16 publications together",
+                },
+            
+                {
+                    from: 24,
+                    to: 62,
+                    value: 64,
+                    label: "64",
+                    title: "64 publications together",
+                },
+            
+                {
+                    from: 24,
+                    to: 47,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 24,
+                    to: 53,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 24,
+                    to: 57,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 39,
+                    value: 30,
+                    label: "30",
+                    title: "30 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 44,
+                    value: 67,
+                    label: "67",
+                    title: "67 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 46,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 38,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 53,
+                    value: 18,
+                    label: "18",
+                    title: "18 publications together",
+                },
+            
+                {
+                    from: 25,
+                    to: 56,
+                    value: 14,
+                    label: "14",
+                    title: "14 publications together",
+                },
+            
+                {
+                    from: 26,
+                    to: 33,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 26,
+                    to: 47,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 26,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 26,
+                    to: 50,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 26,
+                    to: 56,
+                    value: 13,
+                    label: "13",
+                    title: "13 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 62,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 32,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 49,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 51,
+                    value: 11,
+                    label: "11",
+                    title: "11 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 56,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 59,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 27,
+                    to: 57,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 34,
+                    value: 10,
+                    label: "10",
+                    title: "10 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 42,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 46,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 48,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 38,
+                    value: 20,
+                    label: "20",
+                    title: "20 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 53,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 28,
+                    to: 61,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 29,
+                    to: 40,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 29,
+                    to: 42,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 29,
+                    to: 54,
+                    value: 15,
+                    label: "15",
+                    title: "15 publications together",
+                },
+            
+                {
+                    from: 29,
+                    to: 61,
+                    value: 23,
+                    label: "23",
+                    title: "23 publications together",
+                },
+            
+                {
+                    from: 30,
+                    to: 62,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 30,
+                    to: 37,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 30,
+                    to: 56,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 30,
+                    to: 59,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 31,
+                    to: 38,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 62,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 44,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 45,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 47,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 33,
+                    to: 50,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 34,
+                    to: 40,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 34,
+                    to: 42,
+                    value: 22,
+                    label: "22",
+                    title: "22 publications together",
+                },
+            
+                {
+                    from: 34,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 34,
+                    to: 38,
+                    value: 19,
+                    label: "19",
+                    title: "19 publications together",
+                },
+            
+                {
+                    from: 34,
+                    to: 53,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 36,
+                    to: 41,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 36,
+                    to: 53,
+                    value: 10,
+                    label: "10",
+                    title: "10 publications together",
+                },
+            
+                {
+                    from: 37,
+                    to: 42,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 37,
+                    to: 53,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 37,
+                    to: 56,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 37,
+                    to: 59,
+                    value: 5,
+                    label: "5",
+                    title: "5 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 34,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 36,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 41,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 42,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 38,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 51,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 32,
+                    to: 55,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 39,
+                    to: 44,
+                    value: 31,
+                    label: "31",
+                    title: "31 publications together",
+                },
+            
+                {
+                    from: 39,
+                    to: 53,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 39,
+                    to: 56,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 40,
+                    to: 42,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 40,
+                    to: 46,
+                    value: 12,
+                    label: "12",
+                    title: "12 publications together",
+                },
+            
+                {
+                    from: 40,
+                    to: 45,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 42,
+                    to: 47,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 42,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 42,
+                    to: 53,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 42,
+                    to: 59,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 42,
+                    to: 60,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 43,
+                    to: 51,
+                    value: 18,
+                    label: "18",
+                    title: "18 publications together",
+                },
+            
+                {
+                    from: 43,
+                    to: 55,
+                    value: 20,
+                    label: "20",
+                    title: "20 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 46,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 47,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 53,
+                    value: 63,
+                    label: "63",
+                    title: "63 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 56,
+                    value: 39,
+                    label: "39",
+                    title: "39 publications together",
+                },
+            
+                {
+                    from: 44,
+                    to: 61,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 46,
+                    to: 53,
+                    value: 15,
+                    label: "15",
+                    title: "15 publications together",
+                },
+            
+                {
+                    from: 46,
+                    to: 61,
+                    value: 24,
+                    label: "24",
+                    title: "24 publications together",
+                },
+            
+                {
+                    from: 45,
+                    to: 47,
+                    value: 15,
+                    label: "15",
+                    title: "15 publications together",
+                },
+            
+                {
+                    from: 45,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 45,
+                    to: 56,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 47,
+                    to: 62,
+                    value: 4,
+                    label: "4",
+                    title: "4 publications together",
+                },
+            
+                {
+                    from: 47,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 47,
+                    to: 50,
+                    value: 3,
+                    label: "3",
+                    title: "3 publications together",
+                },
+            
+                {
+                    from: 48,
+                    to: 50,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 48,
+                    to: 56,
+                    value: 22,
+                    label: "22",
+                    title: "22 publications together",
+                },
+            
+                {
+                    from: 48,
+                    to: 59,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 40,
+                    value: 7,
+                    label: "7",
+                    title: "7 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 42,
+                    value: 21,
+                    label: "21",
+                    title: "21 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 43,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 44,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 46,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 48,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 53,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 51,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 38,
+                    to: 61,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 49,
+                    to: 62,
+                    value: 9,
+                    label: "9",
+                    title: "9 publications together",
+                },
+            
+                {
+                    from: 49,
+                    to: 57,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 53,
+                    to: 56,
+                    value: 13,
+                    label: "13",
+                    title: "13 publications together",
+                },
+            
+                {
+                    from: 53,
+                    to: 61,
+                    value: 16,
+                    label: "16",
+                    title: "16 publications together",
+                },
+            
+                {
+                    from: 52,
+                    to: 62,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 51,
+                    to: 55,
+                    value: 8,
+                    label: "8",
+                    title: "8 publications together",
+                },
+            
+                {
+                    from: 51,
+                    to: 58,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 56,
+                    to: 59,
+                    value: 2,
+                    label: "2",
+                    title: "2 publications together",
+                },
+            
+                {
+                    from: 59,
+                    to: 62,
+                    value: 1,
+                    label: "1",
+                    title: "1 publications together",
+                },
+            
+                {
+                    from: 57,
+                    to: 62,
+                    value: 39,
+                    label: "39",
+                    title: "39 publications together",
+                },
+            
+                {
+                    from: 58,
+                    to: 59,
+                    value: 6,
+                    label: "6",
+                    title: "6 publications together",
+                },
+            
+        ];
+
+        nodes = [
+            {% for node in nodes %}
+                {
+                    id: {{ node.pk | safe }},
+                    value: {{ node.publications.all.count | safe }},
+                    label: "{{ node.short_name | safe }}",
+                    image: "https://www.cienciavitae.pt/fotos/publico/{{ node.ciencia_id | safe }}.jpg",
+                },
+            {% endfor %}
+        ];
+
+        // create connections between people
+        // value corresponds with the amount of contact between two people
+        edges = [
+            {% for edge in edges %}
+                {
+                    from: {{ edge.0 | safe }},
+                    to: {{ edge.1 | safe }},
+                    value: {{ edge.2 | safe }},
+                    label: "{{ edge.2 | safe }}",
+                    title: "{{ edge.2 | safe }} publications together",
+                },
+            {% endfor %}
+        ];
+
+        // Instantiate our network object.
+        var container = document.getElementById("mynetwork");
+        var data = {
+            nodes: nodes,
+            edges: edges,
+        };
+        var options = {
+            interaction: { hover: true },
+            nodes: {
+                shape: "circularImage",
+
+                borderWidth: 2,
+                borderWidthSelected: 6,
+
+                color: {
+                    border: "rgba(23, 162, 184, 1)",
+                    background: "rgba(105, 195, 209, 1)",
+
+                    highlight: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(220, 53, 69, 1)",
+                    },
+                    hover: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(232, 124, 135, 1)",
+                    },
+                },
+                font: { face: "segoe ui", color: "rgba(255, 255, 255, 1)", strokeWidth: 3, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 10,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                },
+            },
+            edges: {
+                color: {
+                    color: "rgba(23, 162, 184, 0.7)",
+                    highlight: "rgba(220, 53, 69, 0.7)",
+                    hover: "rgba(232, 124, 135, 0.7)",
+                },
+                font: { face: "segoe ui", color: "rgba(255, 255, 255, 1)", strokeWidth: 3, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 1,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                }
+            },
+            physics: {
+                barnesHut: {
+                    springLength: 100,
+                }
+            }
+        };
+        network = new vis.Network(container, data, options);
+    }
+
+    draw();
+</script>
+
+{% endblock %}

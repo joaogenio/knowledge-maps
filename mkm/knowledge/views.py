@@ -72,7 +72,114 @@ def login_view(request):
                 return redirect('login')
 
         return redirect('index')
+
+def test1(request):
+
+    authors = Author.objects.all()
+
+    nodes = []
+    edges = []
+
+    author = authors.get(pk=7)
+    nodes.append(author)
+
+    for colleague in authors:
+        count = 0 # number of publications together
+
+        if author.pk != colleague.pk:#author.pk < colleague.pk:
+            for publication in author.publications.all():
+                if colleague in publication.author_set.all():
+                    count += 1
+
+        if count != 0:
+            edges.append([author.pk, colleague.pk, count])
+
+            if colleague not in nodes:
+                nodes.append(colleague)
     
+    for colleague in nodes:
+
+        for other in nodes:
+            count = 0
+
+            if colleague.pk < other.pk and colleague.pk != author.pk and other.pk != author.pk:
+                for publication in colleague.publications.all():
+                    if other in publication.author_set.all():
+                        count += 1
+            
+            if count != 0:
+                edges.append([colleague.pk, other.pk, count])
+    
+    context = {
+        "nodes": nodes,
+        "edges": edges,
+    }
+
+    return render(request, 'test1.html', context)
+
+def test2(request):
+
+    dump = ''
+    nodes = []
+    
+    #query = 'Artificial Intelligence'
+    query = 'Robot'
+
+    publications = Publication.objects.all()
+    keywords = Keyword.objects.all()
+
+    for publication in publications:
+
+        title = 'N'
+        score = 0
+
+        if query in publication.title:
+
+            title = 'Y'
+            score += 1
+
+            #dump += str(publication)
+            #for keyword in publication.keywords.all():
+            #    dump += '____' + str(keyword)
+            #dump += '<br>'
+
+        keywords_cnt = 0
+
+        for keyword in publication.keywords.all():
+
+            if query in keyword.name:
+
+                keywords_cnt += 1
+
+                #dump += str(publication)
+                #for keyword_2 in publication.keywords.all():
+                #    dump += '____' + str(keyword_2)
+                #dump += '<br>'
+        
+        score += keywords_cnt
+
+        if title == 'Y' or keywords_cnt > 0:
+            
+            dump += f"[{title}] [{keywords_cnt}] {publication} <br>"
+
+            nodes.append([publication, score])
+
+    context = {
+        'dump': dump,
+        'nodes': nodes,
+    }
+
+    return render(request, 'test2.html', context)
+
+def test3(request):
+    return render(request, 'test3.html', context)
+
+def test4(request):
+    return render(request, 'test4.html', context)
+
+def test5(request):
+    return render(request, 'test5.html', context)
+
 def index_view(request):
 
     if request.user.is_authenticated:

@@ -55,3 +55,9 @@ td.ciencia {
 .blue {
     color: blue;
 }
+
+#mynetwork {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid lightgray;
+}

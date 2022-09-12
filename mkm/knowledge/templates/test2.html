@@ -1,0 +1,166 @@
+
+{% extends "base.html" %}
+
+{% block title %}<title>Test 2 - Knowledge App</title>{% endblock %}
+{% load static %}
+
+{% block content %}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 823px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Test 2</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+        
+        <div class="container-fluid">
+
+            <!-- Main row -->
+            <div class="row">
+
+                {{ dump | safe }}
+
+                <button onclick="draw()">Re-draw</button>
+
+                <div id="mynetwork"></div>
+
+            </div>
+            <!-- /.row (main row) -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block scripts %}
+
+<!-- Page specific script -->
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+<script type="text/javascript">
+    var nodes = null;
+    var edges = null;
+    var network = null;
+
+    function draw() {
+        // create people.
+        // value corresponds with the age of the person
+
+        nodes = [
+            {% for node in nodes %}
+                {
+                    id: {{ node.0.pk }},
+                    value: {{ node.1 | safe }},
+                    label: "[{{ node.0.date | safe }}] {{ node.0.title | safe }}",
+
+                    
+                    heightConstraint: {
+                        minimum: 50 + 50*{{ node.1 | safe }},
+                        maximum: 50 + 50*{{ node.1 | safe }},
+                    },
+                    widthConstraint: {
+                        minimum: 50 + 50*{{ node.1 | safe }},
+                        maximum: 50 + 50*{{ node.1 | safe }},
+                    },
+                },
+            {% endfor %}
+        ];
+
+        // create connections between people
+        // value corresponds with the amount of contact between two people
+        edges = [
+            
+        ];
+
+        // Instantiate our network object.
+        var container = document.getElementById("mynetwork");
+        var data = {
+            nodes: nodes,
+            edges: edges,
+        };
+        var options = {
+            interaction: { hover: true },
+            nodes: {
+                shape: "circle",
+
+                borderWidth: 2,
+                borderWidthSelected: 6,
+
+                color: {
+                    border: "rgba(23, 162, 184, 1)",
+                    background: "rgba(105, 195, 209, 1)",
+
+                    highlight: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(220, 53, 69, 1)",
+                    },
+                    hover: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(232, 124, 135, 1)",
+                    },
+                },
+                font: { face: "segoe ui", color: "rgba(0, 0, 0, 1)", strokeWidth: 0, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 10,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                },
+            },
+            edges: {
+                color: {
+                    color: "rgba(23, 162, 184, 0.7)",
+                    highlight: "rgba(220, 53, 69, 0.7)",
+                    hover: "rgba(232, 124, 135, 0.7)",
+                },
+                font: { face: "segoe ui", color: "rgba(255, 255, 255, 1)", strokeWidth: 3, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 1,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                }
+            },
+            physics: {
+                barnesHut: {
+                    springLength: 100,
+                }
+            }
+        };
+        network = new vis.Network(container, data, options);
+    }
+
+    draw();
+</script>
+
+{% endblock %}
