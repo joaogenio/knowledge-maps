@@ -3,7 +3,6 @@ from django.contrib.auth import authenticate, login, logout
 from .api_utils.tt_simple_api import *
 from .api_utils.h_index import *
 from knowledge.forms import *
-from django.core import serializers
 from pprint import pprint
 from datetime import datetime, date
 import time
@@ -18,6 +17,8 @@ nltk.download('stopwords')
 
 from difflib import SequenceMatcher
 
+from rest_framework import serializers
+
 class bcolors:
     HEADER =	'\033[95m'
     OKBLUE =	'\033[94m'
@@ -28,6 +29,52 @@ class bcolors:
     ENDC =		'\033[0m'
     BOLD =		'\033[1m'
     UNDERLINE = '\033[4m'
+
+class PublicationTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PublicationType
+        fields = "__all__"
+
+class AuthorSmallSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Author
+        fields = ['id', 'name']
+
+class AreaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Area
+        fields = "__all__"
+
+class PublicationSerializer(serializers.ModelSerializer):
+    publication_type = PublicationTypeSerializer()
+    areas = AreaSerializer(many=True)
+    author_set = AuthorSmallSerializer(many=True)
+
+    class Meta:
+        model = Publication
+        fields = "__all__"
+
+#class PublicationNormalSerializer(serializers.ModelSerializer):
+#    publication_type = PublicationTypeSerializer()
+#    areas = AreaSerializer(many=True)
+#    author_set = AuthorSmallSerializer(many=True)
+
+#    class Meta:
+#        model = Publication
+#        fields = "__all__"
+
+class AuthorSerializer(serializers.ModelSerializer):
+    publications = PublicationSerializer(many=True)
+
+    class Meta:
+        model = Author
+        fields = "__all__"
+
+class AuthorSmallSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Author
+        fields = ['id', 'name']
 
 # Create your views here.
 
@@ -75,27 +122,120 @@ def login_view(request):
 
 def test1(request):
 
-    authors = Author.objects.all()
+    keyword = Keyword.objects.get(name='Histogram Packing')
+
+    graph = author_map(
+        pk=7,
+        keyword=None,
+        doctype=None,
+        start_year=date(1980, 1, 1),
+        end_year=date.today()
+    )
+
+    context = {
+        'nodes': graph['nodes'],
+        'edges': graph['edges'],
+    }
+
+    return render(request, 'test1.html', context)
+
+def author_map(pk, keywords=None, doctype=None, start_year=date(1980, 1, 1), end_year=date.today()):
+
+    # TEST
+    #keyword = Keyword.objects.get(name='Histogram Packing')
+    ######
+
+    authors = Author.objects.prefetch_related(
+        'projects__areas',
+        'publications__author_set',
+        'publications__keywords',
+        'publications__areas',
+        'publications__publication_type',
+        'domains',
+        'current_affiliations',
+        'previous_affiliations'
+    ).all()
 
     nodes = []
     edges = []
 
-    author = authors.get(pk=7)
+    edges_publications = {}
+
+    author = authors.get(pk=pk)
     nodes.append(author)
+
+    nodes_authors = {
+        f'{author.pk}': dict(AuthorSmallSerializer(author).data)
+    }
+
+    ##################################################
+    nodes_authors[f'{author.pk}']['publications'] = []
+    for publication in author.publications.all():
+        if keywords == None:
+            nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+        else:
+            for keyword in keywords:
+                keyword = Keyword.objects.get(name=keyword)
+
+                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+
+                    nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+                    break
 
     for colleague in authors:
         count = 0 # number of publications together
 
         if author.pk != colleague.pk:#author.pk < colleague.pk:
             for publication in author.publications.all():
-                if colleague in publication.author_set.all():
-                    count += 1
+                
+                if keywords == None:
+
+                    if colleague in publication.author_set.all():
+                        count += 1
+                        
+                        key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
+                        if not key in edges_publications:
+                            edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+
+                            #pprint(dict(PublicationSerializer(publication).data))
+                        else:
+                            edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+
+                else:
+
+                    if colleague in publication.author_set.all():
+
+                        for keyword in keywords:
+
+                            keyword = Keyword.objects.get(name=keyword)
+
+                            if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+
+                                #print(keyword, '____', publication.keywords.all())
+
+                                count += 1
+                                
+                                key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
+                                if not key in edges_publications:
+                                    edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+
+                                    #pprint(dict(PublicationSerializer(publication).data))
+                                else:
+                                    edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+                            
+                                break
 
         if count != 0:
             edges.append([author.pk, colleague.pk, count])
 
             if colleague not in nodes:
                 nodes.append(colleague)
+
+                nodes_authors[f'{colleague.pk}'] = dict(AuthorSmallSerializer(colleague).data)
+
+                #####################################################
+                #nodes_authors[f'{colleague.pk}']['publications'] = []
+                #append(publications)
     
     for colleague in nodes:
 
@@ -104,18 +244,52 @@ def test1(request):
 
             if colleague.pk < other.pk and colleague.pk != author.pk and other.pk != author.pk:
                 for publication in colleague.publications.all():
-                    if other in publication.author_set.all():
-                        count += 1
-            
+
+                    if keywords == None:
+
+                        if other in publication.author_set.all():
+                            count += 1
+
+                            key = f"{min(colleague.pk, other.pk)}-{max(colleague.pk, other.pk)}"
+                            if not key in edges_publications:
+                                edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+                            else:
+                                edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+
+                    else:
+
+                        if other in publication.author_set.all():
+
+                            for keyword in keywords:
+
+                                keyword = Keyword.objects.get(name=keyword)
+
+                                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+
+                                    count += 1
+
+                                    key = f"{min(colleague.pk, other.pk)}-{max(colleague.pk, other.pk)}"
+                                    if not key in edges_publications:
+                                        edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+                                    else:
+                                        edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+                                    
+                                    break
+
             if count != 0:
                 edges.append([colleague.pk, other.pk, count])
     
-    context = {
-        "nodes": nodes,
-        "edges": edges,
-    }
-
-    return render(request, 'test1.html', context)
+    #for key in nodes_authors:
+        #print(nodes_authors[key]['name'])
+        #pprint(nodes_authors[key])
+    
+    #for key in edges_publications:
+    #    print(key + ' (' + str(len(edges_publications[key])) + ')')
+        #for publication in edges_publications[key]:
+        #    print(publication['title'])
+    
+    return {'nodes': nodes, 'edges': edges, 'nodes_authors': nodes_authors, 'edges_publications': edges_publications}
+    
 
 def test2(request):
 
@@ -179,6 +353,10 @@ def test4(request):
 
 def test5(request):
     return render(request, 'test5.html', context)
+
+#############################################################
+###   revert doi saving. we need to keep the underscore   ###
+#############################################################
 
 def index_view(request):
 
@@ -296,7 +474,7 @@ def index_view(request):
                 print(names)
             
             # Order Analysis
-            if 'test' in request.POST:
+            if 'test3' in request.POST:
 
                 authors = Author.objects.all()
                 firstdone = False
@@ -449,7 +627,7 @@ def index_view(request):
                     print(len(pubs_a), len(pubs_b))
        
             # Text Analysis
-            if 'test4' in request.POST:
+            if 'test' in request.POST:
 
                 authors = Author.objects.prefetch_related(
                     'projects__areas',
@@ -485,9 +663,9 @@ def index_view(request):
                     if firstdone:
                         break
                     ### uncomment to debug a specific author
-                    #firstdone = True
-                    #pk = 38#7#15#39#62#47#55
-                    #author = Author.objects.get(pk=pk)
+                    firstdone = True
+                    pk = 62#7#15#39#38#47#55
+                    author = Author.objects.get(pk=pk)
 
                     print("\n")
                     print(author.pk, author.name)
@@ -552,28 +730,69 @@ def index_view(request):
                                         sb3 = "{:<103}  ".format( b[:103] )
                                         sb4 = "{:<103}  ".format( test.abstract[:103] )
 
-                                        print(sa1, sb1)
-                                        print(sa2, sb2)
+                                        if False: # Use false for screenshots
 
-                                        if match == 1:
-                                            color = bcolors.OKGREEN
-                                        elif contained(a, b, dbg=False):#a in b or b in a:
-                                            color = bcolors.OKBLUE
-                                        else:
+                                            print(sa1, sb1)
+                                            print(sa2, sb2)
+
+                                            if match == 1:
+                                                color = bcolors.OKGREEN
+                                            elif contained(a, b, dbg=False):#a in b or b in a:
+                                                color = bcolors.OKBLUE
+                                            else:
+                                                color = bcolors.WARNING
+                                            print(f"{color}{sa3} {sb3}{bcolors.ENDC}")
+                                            print("{}{}Title: {:.3f}{}".format(98*' ', color, match, bcolors.ENDC))
+                                            
+                                            match = 'N/A'
                                             color = bcolors.WARNING
-                                        print(f"{color}{sa3} {sb3}{bcolors.ENDC}")
-                                        print("{}{}Match: {:.3f}{}".format(98*' ', color, match, bcolors.ENDC))
+                                            if publication.abstract != '' and test.abstract != '':
+                                                abstract_a = text_pipeline(publication.abstract)
+                                                abstract_b = text_pipeline(test.abstract)
+                                                match = SequenceMatcher(None, abstract_a, abstract_b).ratio()
+                                                color = bcolors.OKGREEN if match > 0.95 else bcolors.FAIL
+                                                match = '{:.3f}'.format( match )
+                                            print(f"{color}{sa4} {sb4}{bcolors.ENDC}")
+                                            print("{}{}Abstract: {}{}".format(95*' ', color, match, bcolors.ENDC))
                                         
-                                        match = 'N/A'
-                                        color = bcolors.WARNING
-                                        if publication.abstract != '' and test.abstract != '':
-                                            abstract_a = text_pipeline(publication.abstract)
-                                            abstract_b = text_pipeline(test.abstract)
-                                            match = SequenceMatcher(None, abstract_a, abstract_b).ratio()
-                                            color = bcolors.OKGREEN if match > 0.95 else bcolors.FAIL
-                                            match = '{:.3f}'.format( match )
-                                        print(f"{color}{sa4} {sb4}{bcolors.ENDC}")
-                                        print("{}{}Match: {}{}".format(98*' ', color, match, bcolors.ENDC))
+                                        else:
+
+                                            print(sa1)
+                                            print(sa2)
+                                            print("vs")
+                                            print(sb1)
+                                            print(sb2)
+                                            print()
+
+                                            if match == 1:
+                                                color = bcolors.OKGREEN
+                                            elif contained(a, b, dbg=False):#a in b or b in a:
+                                                color = bcolors.OKBLUE
+                                            else:
+                                                color = bcolors.WARNING
+
+                                            print(f"{color}{sa3}{bcolors.ENDC}")
+                                            print("vs")
+                                            print(f"{color}{sb3}{bcolors.ENDC}")
+                                            print("Title: {:.3f}{}".format(match, bcolors.ENDC))
+                                            print()
+
+                                            match = 'N/A'
+                                            color = bcolors.WARNING
+                                            if publication.abstract != '' and test.abstract != '':
+                                                abstract_a = text_pipeline(publication.abstract)
+                                                abstract_b = text_pipeline(test.abstract)
+                                                match = SequenceMatcher(None, abstract_a, abstract_b).ratio()
+                                                color = bcolors.OKGREEN if match > 0.95 else bcolors.FAIL
+                                                match = '{:.3f}'.format( match )
+
+                                            sa4 = 'N/A' if publication.abstract == '' else sa4
+                                            sb4 = 'N/A' if test.abstract == '' else sb4
+
+                                            print(f"{color}{sa4}{bcolors.ENDC}")
+                                            print("vs")
+                                            print(f"{color}{sb4}{bcolors.ENDC}")
+                                            print("Abstract: {}{}".format(match, bcolors.ENDC))
 
 
                                         #print()
@@ -802,6 +1021,23 @@ def author_detail_view(request, pk):
                 request.session['project-start'] = int(request.POST['project-start'])
             elif 'project-end' in request.POST:
                 request.session['project-end'] = int(request.POST['project-end'])
+            
+            # Map
+            elif 'reset-keyword' in request.POST:
+                request.session.pop('keyword-search', None)
+            elif 'keyword-search' in request.POST:
+                query = request.POST['keyword-search']
+                request.session['keyword-search'] = []
+
+                a = text_pipeline(query)
+                for keyword in Keyword.objects.all():
+                    b = text_pipeline(keyword.name)
+                    keyword_match = SequenceMatcher(None, a, b).ratio()
+                    if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
+                        #print()
+                        #print(query, '____', keyword.name)
+                        #print(contained(a, b), a, '____', keyword_match, '____', b,)
+                        request.session['keyword-search'].append(keyword.name)
 
 
         # Publications Chart
@@ -926,6 +1162,23 @@ def author_detail_view(request, pk):
         for key, value in sorted_collaborators.items():
             collaborator = Author.objects.get(pk=key)
             x[collaborator] = value
+        
+
+
+        # Build collaboration map
+        if 'keyword-search' in request.session:
+            search_keywords = request.session['keyword-search']
+        else:
+            search_keywords = None
+
+        graph = author_map(
+            pk = author.pk,
+            keywords = search_keywords
+        )
+
+        search_keyword = request.POST['keyword-search'] if 'keyword-search' in request.POST else None
+
+        # Context build
 
         context = {
             'user': request.user,
@@ -961,6 +1214,14 @@ def author_detail_view(request, pk):
             'labels_projects': labels_projects,
             'data_projects': data_projects,
             'total_data_projects': sum(data_projects),
+
+            # Collaboration map
+            'nodes': graph['nodes'],
+            'edges': graph['edges'],
+            'nodes_authors': graph['nodes_authors'],
+            'edges_publications': graph['edges_publications'],
+            'search_keyword': search_keyword,
+            'search_keywords': search_keywords,
         }
 
         return render(request, 'author_detail.html', context)
@@ -1039,6 +1300,13 @@ def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1,
     return labels, data
 
 def text_pipeline(text):
+
+    # https://www.ibm.com/cloud/learn/natural-language-processing
+    # https://www.analyticsvidhya.com/blog/2020/05/what-is-tokenization-nlp/
+
+    # https://docs.python.org/3/library/difflib.html
+    # https://www.nltk.org/
+
     # Lower case
     name = text.lower()
     # Separate words. Example: 'system-on-chip' -> 'system on chip'
@@ -1254,8 +1522,8 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                                 
                         break
 
-                    elif False: # No title/abstract analysis (TESTING ONLY)
-                    #else:
+                    #elif False: # No title/abstract analysis (TESTING ONLY)
+                    else:
 
                         # Title and date analysis
 
@@ -1314,10 +1582,18 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
                                 debug(debug_text)
                                 debug_text = ''
 
+                                # Update scopus
+                                if scopus_id != None and test.scopus_id == None:
+                                    test.scopus_id = scopus_id
+                                    reason += 'update scopus '
                                 # Update ciencia
                                 if ciencia_id != None and test.ciencia_id == None:
                                     test.ciencia_id = ciencia_id
                                     reason += 'update ciencia '
+                                # Update doi
+                                if doi != None and test.doi == None:
+                                    test.doi = doi
+                                    reason += 'update doi '
 
                                 # Update scopus id and doi
                                 if from_scopus:

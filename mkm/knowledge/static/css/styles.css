@@ -8,9 +8,11 @@
     width: 100%;
     background-color: white;
 }
+
 .selected {
     box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.1);
 }
+
 input:hover {
     box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.2);
 }
@@ -19,14 +21,15 @@ input:hover {
 table.author td {
     border: 1px solid;
 }
+
 table.noborder td {
     border: 10px solid transparent;
 }
 
-
 td.scopus {
     background-color: rgba(255, 0, 0, 0.300);
 }
+
 td.ciencia {
     background-color: rgba(0, 255, 0, 0.300);
 }
@@ -40,24 +43,49 @@ td.ciencia {
 .bold {
     font-weight: bold;
 }
+
 .red {
     color: red;
 }
+
 .orange {
     color: orange;
 }
+
 .green {
     color: green;
 }
+
 .cyan {
     color: cyan;
 }
+
 .blue {
     color: blue;
 }
 
 #mynetwork {
-    width: 100%;
-    height: 80vh;
-    border: 1px solid lightgray;
+    height: 100%;
+}
+
+#map,
+#viewer {
+    height: 70vh;
+    /*background-color: lightgray;*/
+}
+
+.centered
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.viewer_author,
+.viewer_publications
+{
+    font-size: 10px;
+}
+
+.dropdown-menu-keywords {
+    width: 280px;
 }

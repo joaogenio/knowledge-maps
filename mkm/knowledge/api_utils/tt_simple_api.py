@@ -553,7 +553,7 @@ def scopus_author(author_id):
 		#		break
 		#	i += 1
 		
-		my_auth.write()
+		#my_auth.write()
 
 		author_dict = {
 			'author_name': author_name,
@@ -667,7 +667,7 @@ def scopus_author_docs(author_id):
 
 				#print( doc_abstract )
 
-				scp_doc.write()
+				#scp_doc.write()
 
 			# Assume true until error
 			available = True
@@ -718,7 +718,7 @@ def scopus_author_docs(author_id):
 						#input()
 
 						#print(vars(doi_doc))
-						doi_doc.write()
+						#doi_doc.write()
 
 					else:
 						available = False

@@ -30,7 +30,7 @@
         
         <div class="container-fluid">
 
-            {% comment %}
+            
 
             <!-- Small boxes (Stat box) -->
             <div class="row">
@@ -101,12 +101,12 @@
             </div>
             <!-- /.row -->
 
-            {% endcomment %}
+            
 
             <!-- Main row -->
             <div class="row">
 
-                {% comment %}
+                
 
                 <!-- Left col -->
                 <section class="col-lg-7 connectedSortable ui-sortable">
@@ -347,7 +347,7 @@
                     Hello <b>{{ user }}</b>!
                     <input type="submit" name="logout" value="Log out" />
                 </form>
-                {% endcomment %}
+                
                 <h1>Add Author</h1>
                 <form method="post">
                     {% csrf_token %}
@@ -670,17 +670,20 @@
                                                                 {{publication.publication_type.name}}
                                                             </p>
                                                         </td>
+
+                                                        <td class="">
+                                                            <p
+                                                                title="{% for author in publication.author_set.all %}{{author.name}}     {% endfor %}"
+                                                                class="inline">
+                                                                ({{publication.author_set.all|length}})
+                                                            </p>
+                                                        </td>
                                                         {% if publication.author_set.all|length != 1 %}
-                                                            <td class="">
-                                                                <p
-                                                                    title="{% for author in publication.author_set.all %}{{author.name}}     {% endfor %}"
-                                                                    class="inline">
-                                                                    ({{publication.author_set.all|length}})
-                                                                </p>
-                                                            </td>
+                                                            
                                                         {% else %}
-                                                            <td></td>
+                                                            <!--<td></td>-->
                                                         {% endif %}
+
                                                         {% if publication.keywords.all|length != 0 %}
                                                             <td class="orange">
                                                                 <p

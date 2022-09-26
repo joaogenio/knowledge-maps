@@ -252,7 +252,7 @@ class Publication(models.Model):
             str(self.date),
             self.title
         )
-    
+
     #def load_keywords(self):
     #    return json.loads(self.keywords) if self.keywords != None else None
 

@@ -30,6 +30,396 @@
         
         <div class="container-fluid">
 
+            <!-- Main row -->
+            <div class="row">
+                <!-- Left col -->
+                <section class="col-lg-6 connectedSortable ui-sortable">
+
+                    <div class="card card-info">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                Collaboration Map
+                                {% if search_keyword %}
+                                    ({{ search_keywords|length }}
+                                    {% if search_keywords|length == 1 %} keyword
+                                    {% else %} keywords {% endif %}
+                                    related with "{{ search_keyword }}")
+                                {% endif %}
+                            </h3>
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div id="map" class="card-body p-0">
+                            <div id="mynetwork"></div>
+                        </div>
+                        <!-- /.card-body -->
+
+                        <div class="card-footer bg-info">
+                            
+                            <div class="btn-group">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info" onclick="draw()">
+                                        Re-draw
+                                    </button>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="disabled btn btn-info" onclick="draw()">
+                                        Save seed
+                                    </button>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Keywords &nbsp
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-keywords">
+
+                                        <form method="post">
+                                            {% csrf_token %}
+                                            <div class="input-group input-group-sm" style="padding: 7px 14px 7px">
+                                                
+                                                <input type="text" name="keyword-search" class="form-control" placeholder="Search keywords">
+                                                <div class="input-group-append">
+                                                    <button type="submit" class="btn btn-default">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                        {% if search_keywords %}
+                                            <form method="post" style="padding: 14px 0px 14px;">
+                                                {% csrf_token %}
+                                                <input class="btn btn-info btn-flat" name="reset-keyword" type="submit" value="Update keywords" style="width: 100%;">
+                                            </form>
+                                        {% endif %}
+
+                                        {% for i in search_keywords %}
+                                            <div class="form-check" style="padding: 0px 40px 0px">
+                                                <input class="form-check-input bg-info" type="checkbox" checked="">
+                                                <label class="form-check-label">{{ i }}</label>
+                                            </div>
+                                            
+                                            <!--<form method="post">
+                                                {% csrf_token %}
+                                                <input class="
+                                                    {% if i == selected_keyword %} selected {% endif %}
+                                                " name="keyword" type="submit" value="{{ i }}">
+                                            </form>-->
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+
+                                <div class="btn-group">
+                                    <form method="post">
+                                        {% csrf_token %}
+                                        <input name="reset-keyword" type="submit" class="btn btn-info btn-flat {% if search_keywords %}{% else %}disabled{% endif %}" value="Reset keywords">
+                                    </form>
+                                </div>
+                                
+
+                            </div>
+
+                            
+
+                        </div>
+                        <!-- /.card-footer -->
+                    </div>
+
+                </section>
+                <!-- /.Left col -->
+
+                <!-- right col (We are only adding the ID to make the widgets sortable)-->
+                <section class="col-lg-6 connectedSortable ui-sortable">
+
+
+                    <div class="card card-warning">
+                        <div class="card-header">
+                            <h3 class="card-title">Viewer</h3>
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right"
+                                        placeholder="Search">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div id="viewer" class="card-body p-0 table-responsive">
+
+                            <span id="eventSpanContent" hidden></span>
+
+                            {% for key, author in nodes_authors.items %}
+
+                                <span class="viewer_author" id="{{ key }}" hidden>
+
+                                    <table class="table table-head-fixed table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th class="centered">#</th>
+                                                <th class="centered" colspan="2">APIs</th>
+                                                <th class="centered">Publication&nbsptype</th>
+                                                <th class="centered">Authors</th>
+                                                <th class="centered">Keywords</th>
+                                                <th class="centered">Areas</th>
+                                                <th class="centered">Abstract</th>
+                                                <th class="centered">Full&nbsptext</th>
+                                                <th class="centered">Date</th>
+                                                <th class="centered">Title</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for publication in author.publications %}
+                                            <tr>
+                                                <td class="centered bold">
+                                                    <p
+                                                        class="inline">
+                                                        {{ forloop.counter }}
+                                                    </p>
+                                                </td>
+                                                <td class="centered red bold">
+                                                    <p
+                                                        class="inline">
+                                                        {% if publication.from_scopus %}
+                                                            <span class="badge bg-danger">SC</span>
+                                                        {% endif %}
+                                                    </p>
+                                                </td>
+                                                <td class="centered green bold">
+                                                    <p
+                                                        class="inline">
+                                                        {% if publication.from_ciencia %}
+                                                        <span class="badge bg-success">CV</span>
+                                                        {% endif %}
+                                                    </p>
+                                                </td>
+                                                <!--<td class="">
+                                                    <p
+                                                        class="inline">
+                                                        {{publication.id}}
+                                                    </p>
+                                                </td>-->
+                                                <td class="centered">
+                                                    <p
+                                                        class="inline">
+                                                        {{publication.publication_type.name}}
+                                                    </p>
+                                                </td>
+
+                                                <td class="centered bold">
+                                                    <p
+                                                        title="{% for author in publication.author_set %}{{author.name}}     {% endfor %}"
+                                                        class="inline">
+                                                        {{publication.author_set|length}}
+                                                    </p>
+                                                </td>
+                                                {% if publication.author_set|length != 1 %}
+                                                    
+                                                {% else %}
+                                                    <!--<td></td>-->
+                                                {% endif %}
+
+                                                {% if publication.keywords|length != 0 %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{% for keyword in publication.keywords %}{{keyword}}     {% endfor %}"
+                                                            class="inline">
+                                                            {{publication.keywords|length}}
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.areas|length != 0 %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{% for area in publication.areas %}{{area.name}}     {% endfor %}"
+                                                            class="inline">
+                                                            {{publication.areas|length}}
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.abstract != "" %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{{publication.abstract}}"
+                                                            class="inline">
+                                                            <span class="badge bg-success">✓</span>
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.available %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            class="inline">
+                                                            <span class="badge bg-success">✓</span>
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                <td><p class="centered inline">{{publication.date}}</p></td>
+                                                <td class="centered bold">
+                                                    <p title="{{publication.scopus_id}}  --  {{publication.ciencia_id}} -- {{publication.doi}}">
+                                                        {{publication.title}}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </span>
+
+                            {% endfor %}
+
+                            {% for key, value in edges_publications.items %}
+                                <span class="viewer_publications" id="{{ key }}" hidden>
+                                    <table class="table table-head-fixed table-hover table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th class="centered">#</th>
+                                                <th class="centered" colspan="2">APIs</th>
+                                                <th class="centered">Publication&nbsptype</th>
+                                                <th class="centered">Authors</th>
+                                                <th class="centered">Keywords</th>
+                                                <th class="centered">Areas</th>
+                                                <th class="centered">Abstract</th>
+                                                <th class="centered">Full&nbsptext</th>
+                                                <th class="centered">Date</th>
+                                                <th class="centered">Title</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for publication in value %}
+                                            <tr>
+                                                <td class="centered bold">
+                                                    <p
+                                                        class="inline">
+                                                        {{ forloop.counter }}
+                                                    </p>
+                                                </td>
+                                                <td class="centered red bold">
+                                                    <p
+                                                        class="inline">
+                                                        {% if publication.from_scopus %}
+                                                            <span class="badge bg-danger">SC</span>
+                                                        {% endif %}
+                                                    </p>
+                                                </td>
+                                                <td class="centered green bold">
+                                                    <p
+                                                        class="inline">
+                                                        {% if publication.from_ciencia %}
+                                                        <span class="badge bg-success">CV</span>
+                                                        {% endif %}
+                                                    </p>
+                                                </td>
+                                                <!--<td class="">
+                                                    <p
+                                                        class="inline">
+                                                        {{publication.id}}
+                                                    </p>
+                                                </td>-->
+                                                <td class="centered">
+                                                    <p
+                                                        class="inline">
+                                                        {{publication.publication_type.name}}
+                                                    </p>
+                                                </td>
+
+                                                <td class="centered bold">
+                                                    <p
+                                                        title="{% for author in publication.author_set %}{{author.name}}     {% endfor %}"
+                                                        class="inline">
+                                                        {{publication.author_set|length}}
+                                                    </p>
+                                                </td>
+                                                {% if publication.author_set|length != 1 %}
+                                                    
+                                                {% else %}
+                                                    <!--<td></td>-->
+                                                {% endif %}
+
+                                                {% if publication.keywords|length != 0 %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{% for keyword in publication.keywords %}{{keyword}}     {% endfor %}"
+                                                            class="inline">
+                                                            {{publication.keywords|length}}
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.areas|length != 0 %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{% for area in publication.areas %}{{area.name}}     {% endfor %}"
+                                                            class="inline">
+                                                            {{publication.areas|length}}
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.abstract != "" %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            title="{{publication.abstract}}"
+                                                            class="inline">
+                                                            <span class="badge bg-success">✓</span>
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                {% if publication.available %}
+                                                    <td class="centered bold">
+                                                        <p
+                                                            class="inline">
+                                                            <span class="badge bg-success">✓</span>
+                                                        </p>
+                                                    </td>
+                                                {% else %}
+                                                    <td></td>
+                                                {% endif %}
+                                                <td><p class="centered inline">{{publication.date}}</p></td>
+                                                <td class="centered bold">
+                                                    <p title="{{publication.scopus_id}}  --  {{publication.ciencia_id}} -- {{publication.doi}}">
+                                                        {{publication.title}}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                    <br>
+                                </span>
+                            {% endfor %}
+
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+
+                </section>
+                <!-- right col -->
+
+            </div>
+            <!-- /.row (main row) -->
+
             <!-- Small boxes (Stat box) -->
             <div class="row">
                 <div class="col-lg-3 col-6">
@@ -425,7 +815,255 @@
 {% block scripts %}
 
 <!-- Page specific script -->
+
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
 <script>
+    var nodes = null;
+    var edges = null;
+    var network = null;
+
+    function draw() {
+        // create people.
+        // value corresponds with the age of the person
+
+        nodes = [
+            {% for node in nodes %}
+                {
+                    id: {{ node.pk | safe }},
+                    value: {{ node.publications.all.count | safe }},
+                    label: "{{ node.short_name | safe }}",
+                    image: "https://www.cienciavitae.pt/fotos/publico/{{ node.ciencia_id | safe }}.jpg",
+                    title: "{{ node.publications.all.count | safe }} publications (total)",
+                },
+            {% endfor %}
+        ];
+
+        // create connections between people
+        // value corresponds with the amount of contact between two people
+        edges = [
+            {% for edge in edges %}
+                {
+                    from: {{ edge.0 | safe }},
+                    to: {{ edge.1 | safe }},
+                    value: {{ edge.2 | safe }},
+                    label: "{{ edge.2 | safe }}",
+                    title: "{{ edge.2 | safe }} publications together",
+                },
+            {% endfor %}
+        ];
+
+        // Instantiate our network object.
+        var container = document.getElementById("mynetwork");
+        var data = {
+            nodes: nodes,
+            edges: edges,
+        };
+        var options = {
+            interaction: { hover: true },
+            nodes: {
+                shape: "circularImage",
+
+                borderWidth: 2,
+                borderWidthSelected: 6,
+
+                color: {
+                    border: "rgba(23, 162, 184, 1)",
+                    background: "rgba(105, 195, 209, 1)",
+
+                    highlight: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(220, 53, 69, 1)",
+                    },
+                    hover: {
+                        border: "rgba(220, 53, 69, 1)",
+                        background: "rgba(232, 124, 135, 1)",
+                    },
+                },
+                font: { face: "segoe ui", color: "rgba(255, 255, 255, 1)", strokeWidth: 3, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 10,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                },
+            },
+            edges: {
+                color: {
+                    color: "rgba(23, 162, 184, 0.7)",
+                    highlight: "rgba(220, 53, 69, 0.7)",
+                    hover: "rgba(232, 124, 135, 0.7)",
+                },
+                font: { face: "segoe ui", color: "rgba(255, 255, 255, 1)", strokeWidth: 3, strokeColor: "rgba(0, 0, 0, 1)" },
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        //console.log(min, max, total, value, value / total)
+                        return value / total;
+                    },
+                    min: 1,
+                    max: 100,
+                    label: {
+                        min: 8,
+                        max: 20,
+                    },
+                }
+            },
+            physics: {
+                enabled: true,
+                barnesHut: {
+                    gravitationalConstant: -100,
+                    centralGravity: 0,
+                    springConstant: 0.001,
+                    springLength: 100,
+                }
+            }
+        };
+        network = new vis.Network(container, data, options);
+
+        network.selectNodes([{{ author.pk | safe }}]);
+        showNode();
+
+        network.on("click", function (params) {
+            update_viewer(params);
+        });
+
+        network.on("dragStart", function (params) {
+            update_viewer(params);
+        });
+
+        function showNode() {
+
+            //console.log('\n\n')
+            var author = nodes[0];
+            for (const node of nodes) {
+                console.log(node.id + '\nvs\n' + network.getSelection().nodes[0]);
+                if (node.id == network.getSelection().nodes[0]) {
+                    var author = node;
+                    break;
+                };
+            };
+
+            document.getElementById("eventSpanContent").innerText += '\n' + author.id + ' - ' + author.label;
+
+            document.getElementById("eventSpanContent").innerText += '\nConnected to'
+
+            document.getElementById(author.id).hidden = false;
+
+            for (const selected_edge of network.getSelection().edges) {
+
+                //document.getElementById("eventSpanContent").innerText += '\n' + selected_edge;
+
+                var connection = edges[0];
+                for (const edge of edges) {
+                    console.log(edge.id + '\nvs\n' + selected_edge);
+                    if (edge.id === selected_edge) {
+                        var connection = edge;
+                        break;
+                    };
+                };
+
+                var colleague_id = -1;
+                if (connection.from == author.id) {
+                    colleague_id = connection.to
+                } else if (connection.to == author.id) {
+                    colleague_id = connection.from
+                }
+
+                // Look up colleague
+                var colleague = nodes[0];
+                for (const node of nodes) {
+                    console.log(node.id + '\nvs\n' + colleague_id);
+                    if (node.id == colleague_id) {
+                        var colleague = node;
+                        break;
+                    };
+                };
+
+                document.getElementById("eventSpanContent").innerText += '\n' + colleague.id + ' - ' + colleague.label;
+
+                //document.getElementById(colleague.id).hidden = false;
+
+            };
+
+        };
+
+        function update_viewer(params) {
+
+            // Clear Viewer
+            const viewer_authors = document.getElementsByClassName('viewer_author');
+            for (let i = 0; i < viewer_authors.length; i++) {
+                viewer_authors[i].hidden = true;
+            };
+
+            const viewer_publication_lists = document.getElementsByClassName('viewer_publications');
+            for (let i = 0; i < viewer_publication_lists.length; i++) {
+                viewer_publication_lists[i].hidden = true;
+            };
+
+            // Override debug div (we dont want to hide this, during debug ofc)
+            // document.getElementById("eventSpanContent").hidden = false;
+
+            //document.getElementById("eventSpanContent").innerText = network.getSelection().nodes;
+            document.getElementById("eventSpanContent").innerText = '';
+
+            ////////////////////////////////////////////
+            //  NODE SELECTED
+            ////////////////////////////////////////////
+            if (network.getSelection().nodes.length == 1) {
+                
+                showNode();
+            
+            ///////////////////////////////////////////////////
+            //  EDGE SELECTED
+            ///////////////////////////////////////////////////
+            } else if (network.getSelection().edges.length == 1) {
+                //console.log('\n\n')
+                var connection = edges[0];
+                for (const edge of edges) {
+                    console.log(edge.id + '\nvs\n' + network.getSelection().edges[0]);
+                    if (edge.id === network.getSelection().edges[0]) {
+                        var connection = edge;
+                        break;
+                    };
+                };
+
+                // Look up author 1
+                var author_1 = nodes[0];
+                for (const node of nodes) {
+                    console.log(node.id + '\nvs\n' + connection.from);
+                    if (node.id == connection.from) {
+                        var author_1 = node;
+                        break;
+                    };
+                };
+                // Look up author 2
+                var author_2 = nodes[0];
+                for (const node of nodes) {
+                    console.log(node.id + '\nvs\n' + connection.to);
+                    if (node.id == connection.to) {
+                        var author_2 = node;
+                        break;
+                    };
+                };
+
+                document.getElementById("eventSpanContent").innerText += '\n' + author_1.id + ' - ' + author_1.label + '\nConnected to\n' + author_2.id + ' - ' + author_2.label;
+
+                var key = '' + author_1.id + '-' + author_2.id
+                if (author_2.id < author_1.id)
+                    var key = '' + author_2.id + '-' + author_1.id
+                document.getElementById(key).hidden = false;
+            }
+
+            document.getElementById("eventSpanContent").innerText += '\n \n \n'
+        };
+    }
+
     $(function () {
         /* ChartJS
             * -------
@@ -526,6 +1164,10 @@
             data: barChartData,
             options: barChartOptions
         })
+
+        
+
+        draw();
     })
 </script>
 
