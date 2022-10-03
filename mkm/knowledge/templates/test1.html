@@ -36,7 +36,7 @@
 
                 <button onclick="draw()">Re-draw</button>
 
-                <div id="mynetwork"></div>
+                <div id="mynetwork" style="height: 100vh;"></div>
 
             </div>
             <!-- /.row (main row) -->
@@ -2212,7 +2212,7 @@
                     id: {{ node.pk | safe }},
                     value: {{ node.publications.all.count | safe }},
                     label: "{{ node.short_name | safe }}",
-                    image: "https://www.cienciavitae.pt/fotos/publico/{{ node.ciencia_id | safe }}.jpg",
+                    image: "https://www.cienciavitae.pt/fotos/publico/{% if node.pk == 7 %}{{ node.ciencia_id | safe }}{% endif %}.jpg",
                 },
             {% endfor %}
         ];

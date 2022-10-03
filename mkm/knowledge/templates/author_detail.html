@@ -38,13 +38,8 @@
                     <div class="card card-info">
                         <div class="card-header">
                             <h3 class="card-title">
-                                Collaboration Map
-                                {% if search_keyword %}
-                                    ({{ search_keywords|length }}
-                                    {% if search_keywords|length == 1 %} keyword
-                                    {% else %} keywords {% endif %}
-                                    related with "{{ search_keyword }}")
-                                {% endif %}
+                                Collaboration map{% if search_keywords %}, related with "<b>{{ search_keyword }}</b>"{% endif %},
+                                from {{ map_publication_start }} to {{ map_publication_end }}
                             </h3>
                         </div>
                         <!-- /.card-header -->
@@ -88,38 +83,68 @@
                                             </div>
                                         </form>
 
-                                        {% if search_keywords %}
-                                            <form method="post" style="padding: 14px 0px 14px;">
-                                                {% csrf_token %}
-                                                <input class="btn btn-info btn-flat" name="reset-keyword" type="submit" value="Update keywords" style="width: 100%;">
-                                            </form>
-                                        {% endif %}
+                                        <form method="post" style="padding: 7px 0px 0px;">
+                                            {% csrf_token %}
+                                            <input class="btn btn-info btn-flat {% if search_keywords %}{% else %}disabled{% endif %}" name="reset-keyword" type="submit" value="Reset keywords" style="width: 100%;">
+                                        </form>
 
-                                        {% for i in search_keywords %}
-                                            <div class="form-check" style="padding: 0px 40px 0px">
-                                                <input class="form-check-input bg-info" type="checkbox" checked="">
-                                                <label class="form-check-label">{{ i }}</label>
+                                        <form method="post" style="padding: 14px 0px 0px;">
+                                            {% csrf_token %}
+                                            <div style="padding: 0px 0px 14px;">
+                                                <input class="btn btn-info btn-flat {% if search_keywords %}{% else %}disabled{% endif %}" name="keyword-update" type="submit" value="Update keywords" style="width: 100%;">
                                             </div>
-                                            
-                                            <!--<form method="post">
-                                                {% csrf_token %}
-                                                <input class="
-                                                    {% if i == selected_keyword %} selected {% endif %}
-                                                " name="keyword" type="submit" value="{{ i }}">
-                                            </form>-->
-                                        {% endfor %}
+                                            {% if search_keywords %}
+                                                {% for i in search_keywords %}
+                                                    <div class="form-check" style="padding: 0px 40px 0px">
+                                                        <input class="form-check-input bg-info" type="checkbox" {% if i.1 %}checked="" {% endif %}name="{{ forloop.counter0 }}" value="{{ i.1 }}">
+                                                        <label class="form-check-label">{{ i.0 }}</label>
+                                                    </div>
+                                                    
+                                                    <!--<form method="post">
+                                                        {% csrf_token %}
+                                                        <input class="
+                                                            {% if i == selected_keyword %} selected {% endif %}
+                                                        " name="keyword" type="submit" value="{{ i }}">
+                                                    </form>-->
+                                                {% endfor %}
+                                            {% endif %}
+                                        </form>
+                                        
 
                                     </div>
                                 </div>
 
                                 <div class="btn-group">
-                                    <form method="post">
-                                        {% csrf_token %}
-                                        <input name="reset-keyword" type="submit" class="btn btn-info btn-flat {% if search_keywords %}{% else %}disabled{% endif %}" value="Reset keywords">
-                                    </form>
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Start year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        {% for i in map_start_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="chartinput
+                                                    {% if i == map_publication_start %} selected {% endif %}
+                                                " name="map_publication_start" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+                                    </div>
                                 </div>
-                                
 
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        End year &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        {% for i in map_end_range %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="chartinput
+                                                    {% if i == map_publication_end %} selected {% endif %}
+                                                " name="map_publication_end" type="submit" value="{{ i }}">
+                                            </form>
+                                        {% endfor %}
+                                    </div>
+                                </div>
                             </div>
 
                             
@@ -134,21 +159,49 @@
                 <!-- right col (We are only adding the ID to make the widgets sortable)-->
                 <section class="col-lg-6 connectedSortable ui-sortable">
 
-
                     <div class="card card-warning">
                         <div class="card-header">
-                            <h3 class="card-title">Viewer</h3>
+                            <h3 class="card-title">
+                                <span class="viewer_title" id="viewer" hidden>Viewer</span>
+                                {% for key, author in nodes_authors.items %}
+                                    <span class="viewer_title" id="viewer-{{ key }}" hidden>
+                                        {{ author.publications|length }}
+                                        <b>
+                                            {% if map_publication_type == 'All' %}
+                                                Publication{% if author.publications|length != 1 %}s{% endif %}
+                                            {% elif map_publication_type == 'Other' %}
+                                                Other Publication{% if author.publications|length != 1 %}s{% endif %}
+                                            {% else %}
+                                                {% if author.publications|length == 1 %} {{ map_publication_type }}
+                                                {% else %} {{ map_publication_type }}s {% endif %}
+                                            {% endif %}
+                                        </b>
+                                        from
+                                        <a href="/authors/{{ key }}"><u>{{ author.name }}</u></a>
+                                    </span>
+                                {% endfor %}
+                                {% for key, value in edges_publications.items %}
+                                    <span class="viewer_title" id="viewer-{{ key }}" hidden>
+                                        {{ value.publications|length }}
+                                        <b>
+                                            {% if map_publication_type == 'All' %}
+                                                Publication{% if value.publications|length != 1 %}s{% endif %}
+                                            {% elif map_publication_type == 'Other' %}
+                                                Other Publication{% if value.publications|length != 1 %}s{% endif %}
+                                            {% else %}
+                                                {% if value.publications|length == 1 %} {{ map_publication_type }}
+                                                {% else %} {{ map_publication_type }}s {% endif %}
+                                            {% endif %}
+                                        </b>
+                                        between
+                                        <a href="/authors/{{ value.author_1.id }}"><u>{{ value.author_1.short_name }}</u></a>
+                                        and
+                                        <a href="/authors/{{ value.author_2.id }}"><u>{{ value.author_2.short_name }}</u></a>
+                                    </span>
+                                {% endfor %}
+                            </h3>
                             <div class="card-tools">
-                                <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control float-right"
-                                        placeholder="Search">
-
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-default">
-                                            <i class="fas fa-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- /.card-header -->
@@ -302,7 +355,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            {% for publication in value %}
+                                            {% for publication in value.publications %}
                                             <tr>
                                                 <td class="centered bold">
                                                     <p
@@ -411,6 +464,31 @@
 
                         </div>
                         <!-- /.card-body -->
+
+                        <div class="card-footer bg-warning">
+
+                            <div class="btn-group">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-warning dropdown-toggle dropdown-icon" data-toggle="dropdown">
+                                        Publication type &nbsp
+                                    </button>
+                                    <div class="dropdown-menu">
+
+                                        {% for pub_type in publication_types %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input class="chartinput
+                                                    {% if pub_type == map_publication_type %} selected {% endif %}
+                                                " name="map_publication_type" type="submit" value="{{ pub_type }}">
+                                            </form>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                     <!-- /.card -->
 
@@ -834,7 +912,7 @@
                     value: {{ node.publications.all.count | safe }},
                     label: "{{ node.short_name | safe }}",
                     image: "https://www.cienciavitae.pt/fotos/publico/{{ node.ciencia_id | safe }}.jpg",
-                    title: "{{ node.publications.all.count | safe }} publications (total)",
+                    title: "{{ node.publications.all.count | safe }} publication{% if node.publications.all.count != 1 %}s{% endif %} (total)",
                 },
             {% endfor %}
         ];
@@ -848,7 +926,7 @@
                     to: {{ edge.1 | safe }},
                     value: {{ edge.2 | safe }},
                     label: "{{ edge.2 | safe }}",
-                    title: "{{ edge.2 | safe }} publications together",
+                    title: "{{ edge.2 | safe }} publication{% if edge.2 != 1 %}s{% endif %} together",
                 },
             {% endfor %}
         ];
@@ -907,7 +985,7 @@
                         return value / total;
                     },
                     min: 1,
-                    max: 100,
+                    max: 80,
                     label: {
                         min: 8,
                         max: 20,
@@ -942,7 +1020,7 @@
             //console.log('\n\n')
             var author = nodes[0];
             for (const node of nodes) {
-                console.log(node.id + '\nvs\n' + network.getSelection().nodes[0]);
+                //console.log(node.id + '\nvs\n' + network.getSelection().nodes[0]);
                 if (node.id == network.getSelection().nodes[0]) {
                     var author = node;
                     break;
@@ -955,13 +1033,16 @@
 
             document.getElementById(author.id).hidden = false;
 
+            document.getElementById('viewer').hidden = true;
+            document.getElementById('viewer-'+author.id).hidden = false;
+
             for (const selected_edge of network.getSelection().edges) {
 
                 //document.getElementById("eventSpanContent").innerText += '\n' + selected_edge;
 
                 var connection = edges[0];
                 for (const edge of edges) {
-                    console.log(edge.id + '\nvs\n' + selected_edge);
+                    //console.log(edge.id + '\nvs\n' + selected_edge);
                     if (edge.id === selected_edge) {
                         var connection = edge;
                         break;
@@ -978,7 +1059,7 @@
                 // Look up colleague
                 var colleague = nodes[0];
                 for (const node of nodes) {
-                    console.log(node.id + '\nvs\n' + colleague_id);
+                    //console.log(node.id + '\nvs\n' + colleague_id);
                     if (node.id == colleague_id) {
                         var colleague = node;
                         break;
@@ -1006,6 +1087,13 @@
                 viewer_publication_lists[i].hidden = true;
             };
 
+            const viewer_titles = document.getElementsByClassName('viewer_title');
+            for (let i = 0; i < viewer_titles.length; i++) {
+                viewer_titles[i].hidden = true;
+            };
+
+            document.getElementById('viewer').hidden = false;
+
             // Override debug div (we dont want to hide this, during debug ofc)
             // document.getElementById("eventSpanContent").hidden = false;
 
@@ -1023,10 +1111,13 @@
             //  EDGE SELECTED
             ///////////////////////////////////////////////////
             } else if (network.getSelection().edges.length == 1) {
+
+                document.getElementById('viewer').hidden = true;
+
                 //console.log('\n\n')
                 var connection = edges[0];
                 for (const edge of edges) {
-                    console.log(edge.id + '\nvs\n' + network.getSelection().edges[0]);
+                    //console.log(edge.id + '\nvs\n' + network.getSelection().edges[0]);
                     if (edge.id === network.getSelection().edges[0]) {
                         var connection = edge;
                         break;
@@ -1036,7 +1127,7 @@
                 // Look up author 1
                 var author_1 = nodes[0];
                 for (const node of nodes) {
-                    console.log(node.id + '\nvs\n' + connection.from);
+                    //console.log(node.id + '\nvs\n' + connection.from);
                     if (node.id == connection.from) {
                         var author_1 = node;
                         break;
@@ -1045,7 +1136,7 @@
                 // Look up author 2
                 var author_2 = nodes[0];
                 for (const node of nodes) {
-                    console.log(node.id + '\nvs\n' + connection.to);
+                    //console.log(node.id + '\nvs\n' + connection.to);
                     if (node.id == connection.to) {
                         var author_2 = node;
                         break;
@@ -1057,7 +1148,11 @@
                 var key = '' + author_1.id + '-' + author_2.id
                 if (author_2.id < author_1.id)
                     var key = '' + author_2.id + '-' + author_1.id
+                
                 document.getElementById(key).hidden = false;
+                    
+                document.getElementById('viewer-'+key).hidden = false;
+
             }
 
             document.getElementById("eventSpanContent").innerText += '\n \n \n'

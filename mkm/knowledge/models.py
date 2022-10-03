@@ -146,6 +146,7 @@ class Author(models.Model):
     def __str__(self):
         return self.name if self.name != "" else str(self.id)
     
+    @property
     def short_name(self):
         split = self.name.split(' ')
         first_name = split[0]

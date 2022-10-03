@@ -14,10 +14,10 @@ from nltk.corpus import stopwords
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-
 from difflib import SequenceMatcher
 
 from rest_framework import serializers
+from django.http import Http404
 
 class bcolors:
     HEADER =	'\033[95m'
@@ -54,15 +54,6 @@ class PublicationSerializer(serializers.ModelSerializer):
         model = Publication
         fields = "__all__"
 
-#class PublicationNormalSerializer(serializers.ModelSerializer):
-#    publication_type = PublicationTypeSerializer()
-#    areas = AreaSerializer(many=True)
-#    author_set = AuthorSmallSerializer(many=True)
-
-#    class Meta:
-#        model = Publication
-#        fields = "__all__"
-
 class AuthorSerializer(serializers.ModelSerializer):
     publications = PublicationSerializer(many=True)
 
@@ -71,10 +62,11 @@ class AuthorSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 class AuthorSmallSerializer(serializers.ModelSerializer):
+    short_name = serializers.ReadOnlyField()
 
     class Meta:
         model = Author
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'short_name']
 
 # Create your views here.
 
@@ -122,14 +114,12 @@ def login_view(request):
 
 def test1(request):
 
-    keyword = Keyword.objects.get(name='Histogram Packing')
-
     graph = author_map(
         pk=7,
-        keyword=None,
-        doctype=None,
-        start_year=date(1980, 1, 1),
-        end_year=date.today()
+        #keywords=None,
+        #doctype='All',
+        #start_year=1980,
+        #end_year=2022
     )
 
     context = {
@@ -139,11 +129,56 @@ def test1(request):
 
     return render(request, 'test1.html', context)
 
-def author_map(pk, keywords=None, doctype=None, start_year=date(1980, 1, 1), end_year=date.today()):
+def test2(request):
 
-    # TEST
-    #keyword = Keyword.objects.get(name='Histogram Packing')
-    ######
+    keywords = []
+    query = ''
+    a = text_pipeline(query)
+    for keyword in Keyword.objects.all():
+        b = text_pipeline(keyword.name)
+        keyword_match = SequenceMatcher(None, a, b).ratio()
+        if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
+            keywords.append([keyword.name, True])
+    
+    #print(keywords)
+
+    graph = global_map(
+        keywords=keywords,
+        doctype='All',
+        start_year=1980,
+        end_year=2022
+    )
+
+    context = {
+        'nodes': graph['nodes'],
+        'edges': graph['edges'],
+    }
+
+    return render(request, 'test2.html', context)
+
+def test3(request):
+
+    keywords = []
+    query = 'robotic soccer'
+    a = text_pipeline(query)
+    for keyword in Keyword.objects.all():
+        b = text_pipeline(keyword.name)
+        keyword_match = SequenceMatcher(None, a, b).ratio()
+        if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
+            keywords.append([keyword.name, True])
+
+    global_map(
+        keywords=keywords,
+        doctype='All',
+    )
+
+    context = {}
+    return render(request, 'test3.html', context)
+
+def author_map(pk, keywords=None, doctype='All', start_year=date(1980, 1, 1).year, end_year=date.today().year):
+
+    # keywords = [ ['robotics', True], ['health', False], ... ]
+    # Use only 'True' ones, aka 'keywords[index][1]'
 
     authors = Author.objects.prefetch_related(
         'projects__areas',
@@ -156,126 +191,259 @@ def author_map(pk, keywords=None, doctype=None, start_year=date(1980, 1, 1), end
         'previous_affiliations'
     ).all()
 
-    nodes = []
-    edges = []
+    # Graph data
+    nodes = [] # contains authors ids, names, and total number of publications
+    edges = [] # tells which authors are connected by how many publications
 
+    # Contains the actual publications from the 'edges' list
     edges_publications = {}
 
+    ###########################
+    # Add author              #
+    ###########################
     author = authors.get(pk=pk)
     nodes.append(author)
-
+    # Contains the actual publications from the 'nodes' list
     nodes_authors = {
         f'{author.pk}': dict(AuthorSmallSerializer(author).data)
     }
 
     ##################################################
+    # Add author publications                        #
+    ##################################################
     nodes_authors[f'{author.pk}']['publications'] = []
     for publication in author.publications.all():
+
+        # Check if date is out of range
+        if publication.date.year < start_year or publication.date.year > end_year:
+            continue
+
+        if doctype == 'Other':
+            if publication.publication_type.name in publication_types_options:
+                continue
+        elif doctype != 'All': # types from the selection
+            if publication.publication_type.name != doctype:
+                continue
+        
         if keywords == None:
             nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
         else:
             for keyword in keywords:
-                keyword = Keyword.objects.get(name=keyword)
 
-                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+                if keyword[1]:
 
-                    nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
-                    break
+                    keyword = Keyword.objects.get(name=keyword[0])
 
+                    if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+
+                        nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+                        break
+
+    ###########################################################################
+    # Iterate every author                                                    #
+    # We want to find which authors have publications in common with this one #
+    ###########################################################################
     for colleague in authors:
         count = 0 # number of publications together
 
-        if author.pk != colleague.pk:#author.pk < colleague.pk:
+        if author.pk != colleague.pk: # author.pk < colleague.pk:
+
+            #############################################
+            # Iterate this author's publications        #
+            #############################################
             for publication in author.publications.all():
+
+                # Check if date is out of range
+                if publication.date.year < start_year or publication.date.year > end_year:
+                    continue
+
+                if doctype == 'Other':
+                    if publication.publication_type.name in publication_types_options:
+                        continue
+                elif doctype != 'All': # types from the selection
+                    if publication.publication_type.name != doctype:
+                        continue
                 
+                ####################
+                # No keywords      #
+                ####################
                 if keywords == None:
 
                     if colleague in publication.author_set.all():
-                        count += 1
+
+                        count += 1 # increase number of publications that both authors have in common
                         
                         key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
                         if not key in edges_publications:
-                            edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+                            edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
 
                             #pprint(dict(PublicationSerializer(publication).data))
                         else:
-                            edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+                            edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                        
+                        edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(author).data)
+                        edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(colleague).data)
 
+                #################
+                # With keywords #
+                #################
                 else:
 
                     if colleague in publication.author_set.all():
 
+                        ########################
+                        # Iterate keywords     #
+                        ########################
                         for keyword in keywords:
 
-                            keyword = Keyword.objects.get(name=keyword)
+                            if keyword[1]:
 
-                            if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+                                keyword = Keyword.objects.get(name=keyword[0])
 
-                                #print(keyword, '____', publication.keywords.all())
+                                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
 
-                                count += 1
-                                
-                                key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
-                                if not key in edges_publications:
-                                    edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+                                    count += 1 # increase number of publications that both authors have in common
+                                    
+                                    key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
+                                    if not key in edges_publications:
+                                        edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
+                                        #pprint(dict(PublicationSerializer(publication).data))
+                                    else:
+                                        edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                                    
+                                    edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(author).data)
+                                    edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(colleague).data)
 
-                                    #pprint(dict(PublicationSerializer(publication).data))
-                                else:
-                                    edges_publications[key].append( dict(PublicationSerializer(publication).data) )
-                            
-                                break
+                                    # This publication contains at least one keyword from our selection
+                                    # No need to check the other keywords in our selection
+                                    break
 
+        #################################################################
+        # Colleague has at least one publication in common              #
+        # It's a collaborator. Add it and its publications to the graph #
+        #################################################################
         if count != 0:
             edges.append([author.pk, colleague.pk, count])
 
             if colleague not in nodes:
+
                 nodes.append(colleague)
 
                 nodes_authors[f'{colleague.pk}'] = dict(AuthorSmallSerializer(colleague).data)
+                nodes_authors[f'{colleague.pk}']['publications'] = []
 
-                #####################################################
-                #nodes_authors[f'{colleague.pk}']['publications'] = []
-                #append(publications)
+                for publication in colleague.publications.all():
+
+                    # Check if date is out of range
+                    if publication.date.year < start_year or publication.date.year > end_year:
+                        continue
+
+                    if doctype == 'Other':
+                        if publication.publication_type.name in publication_types_options:
+                            continue
+                    elif doctype != 'All': # types from the selection
+                        if publication.publication_type.name != doctype:
+                            continue
+
+                    if keywords == None:
+                        nodes_authors[f'{colleague.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+                    else:
+                        for keyword in keywords:
+
+                            if keyword[1]:
+
+                                keyword = Keyword.objects.get(name=keyword[0])
+
+                                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+
+                                    nodes_authors[f'{colleague.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+                                    
+                                    # This publication contains at least one keyword from our selection
+                                    # No need to check the other keywords in our selection
+                                    break
     
+    #############################################################################
+    # Same process but only between the author's colleagues                     #
+    # This prevents the graph from expanding to a global level                  #
+    # Data is confined to the connections between the author and his colleagues #
+    # and between the colleagues in that same set.                              #
+    #############################################################################
     for colleague in nodes:
 
         for other in nodes:
-            count = 0
+            count = 0 # number of publications together
 
             if colleague.pk < other.pk and colleague.pk != author.pk and other.pk != author.pk:
+
+                #############################################
+                # Iterate this colleague's publications     #
+                #############################################
                 for publication in colleague.publications.all():
 
+                    # Check if date is out of range
+                    if publication.date.year < start_year or publication.date.year > end_year:
+                        continue
+
+                    if doctype == 'Other':
+                        if publication.publication_type.name in publication_types_options:
+                            continue
+                    elif doctype != 'All': # types from the selection
+                        if publication.publication_type.name != doctype:
+                            continue
+
+                    ####################
+                    # No keywords      #
+                    ####################
                     if keywords == None:
 
                         if other in publication.author_set.all():
-                            count += 1
+                            count += 1 # increase number of publications that both authors have in common
 
                             key = f"{min(colleague.pk, other.pk)}-{max(colleague.pk, other.pk)}"
                             if not key in edges_publications:
-                                edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
+                                edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
                             else:
-                                edges_publications[key].append( dict(PublicationSerializer(publication).data) )
+                                edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                            
+                            edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(colleague).data)
+                            edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(other).data)
 
+                    #################
+                    # With keywords #
+                    #################
                     else:
 
                         if other in publication.author_set.all():
 
+                            ########################
+                            # Iterate keywords     #
+                            ########################
                             for keyword in keywords:
 
-                                keyword = Keyword.objects.get(name=keyword)
+                                if keyword[1]:
 
-                                if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
+                                    keyword = Keyword.objects.get(name=keyword[0])
 
-                                    count += 1
+                                    if len(publication.keywords.all()) != 0 and keyword in publication.keywords.all():
 
-                                    key = f"{min(colleague.pk, other.pk)}-{max(colleague.pk, other.pk)}"
-                                    if not key in edges_publications:
-                                        edges_publications[key] = [ dict(PublicationSerializer(publication).data) ]
-                                    else:
-                                        edges_publications[key].append( dict(PublicationSerializer(publication).data) )
-                                    
-                                    break
+                                        count += 1 # increase number of publications that both authors have in common
 
+                                        key = f"{min(colleague.pk, other.pk)}-{max(colleague.pk, other.pk)}"
+                                        if not key in edges_publications:
+                                            edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
+                                        else:
+                                            edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                                        
+                                        edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(colleague).data)
+                                        edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(other).data)
+                                        
+                                        break
+
+            ##############################################################################################
+            # These colleagues have at least one publication in common                                   #
+            # They're collaborators. Add it and its publications to the graph                            #
+            # Difference is that they have already been added to the graph along with their publications #
+            ##############################################################################################
             if count != 0:
                 edges.append([colleague.pk, other.pk, count])
     
@@ -289,64 +457,149 @@ def author_map(pk, keywords=None, doctype=None, start_year=date(1980, 1, 1), end
         #    print(publication['title'])
     
     return {'nodes': nodes, 'edges': edges, 'nodes_authors': nodes_authors, 'edges_publications': edges_publications}
+
+def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end_year=date.today().year):
+
+    # Graph data
+    nodes = [] # contains authors ids, names, and total number of publications
+    edges = [] # tells which authors are connected by how many publications
+
+    # Contains the actual publications from the 'edges' list
+    edges_publications = {}
+    # Contains the actual publications from the 'nodes' list
+    nodes_authors = {}
+
+    ###############################
+    # Fetch relevant publications #
+    ###############################
+    true_keywords = []
+    for keyword in keywords:
+        if keyword[1]:
+            true_keywords.append(keyword[0])
+
+    #print(true_keywords)
+
+    if doctype == 'Other': # exclude types from the selection (Examples: "Book Chapter", "Report")
+
+        valid_types = PublicationType.objects.exclude(
+            name__in = publication_types_options
+        ).values('name')
+        #print(valid_types)
+
+        if true_keywords == []:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                ),
+                publication_type__name__in = valid_types
+            ).distinct()
+        else:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                ),
+                publication_type__name__in = valid_types,
+                keywords__name__in = true_keywords
+            ).distinct()
+
+        #for x in publications:
+        #    print(x.pretty())
+
+        #print(publications.count())
+
+    elif doctype != 'All': # types from the selection (Examples: "Conference Paper", "Article", "Book")
+
+        publication_type = PublicationType.objects.get(name=doctype)
+
+        if true_keywords == []:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                ),
+                publication_type = publication_type
+            ).distinct()
+        else:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                ),
+                publication_type = publication_type,
+                keywords__name__in = true_keywords
+            ).distinct()
+
+        #print(publications.count())
+
+    else: # All types
+
+        if true_keywords == []:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                )
+            ).distinct()
+        else:
+            publications = Publication.objects.filter(
+                date__range = (
+                    date(start_year, 1, 1),
+                    date(end_year, 12, 31)
+                ),
+                keywords__name__in = true_keywords
+            ).distinct()
+
+        #print(publications.count())
     
-
-def test2(request):
-
-    dump = ''
-    nodes = []
-    
-    #query = 'Artificial Intelligence'
-    query = 'Robot'
-
-    publications = Publication.objects.all()
-    keywords = Keyword.objects.all()
-
+    ################################
+    # Iterate all publications     #
+    ################################
     for publication in publications:
 
-        title = 'N'
-        score = 0
+        author_set = publication.author_set.all()
 
-        if query in publication.title:
+        for author in author_set:
 
-            title = 'Y'
-            score += 1
+            # Add author
+            if not author in nodes:
+                nodes.append(author)
+            if not f'{author.pk}' in nodes_authors:
+                nodes_authors[f'{author.pk}'] = dict(AuthorSmallSerializer(author).data)
+                nodes_authors[f'{author.pk}']['publications'] = []
 
-            #dump += str(publication)
-            #for keyword in publication.keywords.all():
-            #    dump += '____' + str(keyword)
-            #dump += '<br>'
+            # Add to author's publications
+            nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
 
-        keywords_cnt = 0
+            # Iterate pairs
+            for colleague in author_set:
 
-        for keyword in publication.keywords.all():
+                # Easy way to iterate every pair of authors, without
+                # repeating the same pair in the reverse order and,
+                # of course, without testing the an author against himself
+                if colleague.pk >= author.pk:
+                    continue
+                
+                # Add publication to edges
+                key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
 
-            if query in keyword.name:
+                if not key in edges_publications:
+                    edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
+                else:
+                    edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                
+                edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(author).data)
+                edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(colleague).data)
 
-                keywords_cnt += 1
+    # Build edges
+    for key in edges_publications:
+        s = key.split('-')
+        author_1 = s[0]
+        author_2 = s[1]
+        edges.append([ int(author_1), int(author_2), len(edges_publications[key]['publications']) ])
 
-                #dump += str(publication)
-                #for keyword_2 in publication.keywords.all():
-                #    dump += '____' + str(keyword_2)
-                #dump += '<br>'
-        
-        score += keywords_cnt
-
-        if title == 'Y' or keywords_cnt > 0:
-            
-            dump += f"[{title}] [{keywords_cnt}] {publication} <br>"
-
-            nodes.append([publication, score])
-
-    context = {
-        'dump': dump,
-        'nodes': nodes,
-    }
-
-    return render(request, 'test2.html', context)
-
-def test3(request):
-    return render(request, 'test3.html', context)
+    return {'nodes': nodes, 'edges': edges, 'nodes_authors': nodes_authors, 'edges_publications': edges_publications}
 
 def test4(request):
     return render(request, 'test4.html', context)
@@ -874,15 +1127,56 @@ def index_view(request):
             elif 'project-end' in request.POST:
                 request.session['index-project-end'] = int(request.POST['project-end'])
         
+            # Map
+            elif 'reset-keyword' in request.POST:
+                request.session.pop('index-keyword-search', None)
+                request.session.pop('index-keywords-list', None)
+            elif 'keyword-search' in request.POST:
+                query = request.POST['keyword-search']
+                if query != '':
+                    request.session['index-keyword-search'] = query
+                    request.session['index-keywords-list'] = []
 
-        # Publications Chart
-        # Moved to top of file
-        #publication_types_options = ['All', 'Conference Paper', 'Book', 'Other']
+                    a = text_pipeline(query)
+                    for keyword in Keyword.objects.all():
+                        b = text_pipeline(keyword.name)
+                        keyword_match = SequenceMatcher(None, a, b).ratio()
+                        if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
+                            #print()
+                            #print(query, '____', keyword.name)
+                            #print(contained(a, b), a, '____', keyword_match, '____', b,)
+                            request.session['index-keywords-list'].append([keyword.name, True])
+                else:
+                    request.session.pop('index-keyword-search', None)
+                    request.session.pop('index-keywords-list', None)
+            elif 'keyword-update' in request.POST and 'index-keywords-list' in request.session:
+                for keyword in request.session['index-keywords-list']:
+                    keyword[1] = False
+                for index in request.POST:
+                    if index.isnumeric():
+                        if int(index) >= 0 and int(index) < len(request.session['keywords-list']):
+                            request.session['index-keywords-list'][int(index)][1] = True
+            elif 'map_publication_type' in request.POST:
+                request.session['index_map_publication_type'] = request.POST['map_publication_type']
+            elif 'map_publication_start' in request.POST:
+                request.session['index_map_publication_start'] = int(request.POST['map_publication_start'])
+            elif 'map_publication_end' in request.POST:
+                request.session['index_map_publication_end'] = int(request.POST['map_publication_end'])
+
+        # Session initialization
+
+        if not 'index-keyword-search' in request.session:
+            request.session['index-keyword-search'] = ''
+        if not 'index-keywords-list' in request.session:
+            request.session['index-keywords-list'] = []
+
+        # Publication types and dates
 
         try:
             earliest_publication = Publication.objects.earliest('date')
             latest_publication = Publication.objects.latest('date')
 
+            # Publications Chart
             if not 'index-publication-type' in request.session:
                 request.session['index-publication-type'] = "Conference Paper"
             if not 'index-publication-start' in request.session:
@@ -893,13 +1187,28 @@ def index_view(request):
             publication_start_range = list(reversed(range(earliest_publication.date.year, request.session['index-publication-end'] + 1)))
             publication_end_range = list(reversed(range(request.session['index-publication-start'], latest_publication.date.year + 1)))
 
+            # Map
+            if not 'index_map_publication_type' in request.session:
+                request.session['index_map_publication_type'] = "All"
+            if not 'index_map_publication_start' in request.session:
+                request.session['index_map_publication_start'] = earliest_publication.date.year
+            if not 'index_map_publication_end' in request.session:
+                request.session['index_map_publication_end'] = latest_publication.date.year
+            
+            map_start_range = list(reversed(range(earliest_publication.date.year, request.session['index_map_publication_end'] + 1)))
+            map_end_range = list(reversed(range(request.session['index_map_publication_start'], latest_publication.date.year + 1)))
+
         except Publication.DoesNotExist:
             earliest_publication = None
             latest_publication = None
+
             publication_start_range = None
             publication_end_range = None
+
+            map_start_range = None
+            map_end_range = None
         
-        # Projects Chart
+        # Projects Chart dates
         try:
             earliest_project = Project.objects.earliest('date')
             latest_project = Project.objects.latest('date')
@@ -952,6 +1261,28 @@ def index_view(request):
         cnt_keywords = Keyword.objects.all().count()
         cnt_areas = Area.objects.all().count()
 
+        # Build collaboration map
+        if 'index-keywords-list' in request.session:
+            search_keywords = request.session['index-keywords-list']
+            valid_keywords = 0
+            for keyword in search_keywords:
+                if keyword[1]:
+                    valid_keywords += 1
+        else:
+            search_keywords = None
+            valid_keywords = 0
+
+        graph = global_map(
+            keywords = search_keywords,
+            doctype = request.session['index_map_publication_type'],
+            start_year = request.session['index_map_publication_start'],
+            end_year = request.session['index_map_publication_end'],
+        )
+
+        search_keyword = request.session['index-keyword-search'] if 'index-keyword-search' in request.session else None
+
+        # Context build
+
         context = {
             'user': request.user,
 
@@ -987,6 +1318,22 @@ def index_view(request):
             'labels_projects': labels_projects,
             'data_projects': data_projects,
             'total_data_projects': sum(data_projects),
+
+            # Collaboration map
+            'nodes': graph['nodes'],
+            'edges': graph['edges'],
+            'nodes_authors': graph['nodes_authors'],
+            'edges_publications': graph['edges_publications'],
+
+            'search_keyword': search_keyword,
+            'search_keywords': search_keywords,
+            'valid_keywords': valid_keywords,
+            'map_publication_type': request.session['index_map_publication_type'],
+
+            'map_publication_start': request.session['index_map_publication_start'],
+            'map_publication_end': request.session['index_map_publication_end'],
+            'map_start_range': map_start_range,
+            'map_end_range': map_end_range,
         }
         
         return render(request, 'index.html', context)
@@ -1000,9 +1347,12 @@ def author_detail_view(request, pk):
         #del request.session['publication-type']
         #del request.session['publication-start']
         #del request.session['publication-end']
+        
+        #del request.session['keyword-search']
+        #del request.session['keywords-list']
 
         try:
-            author = Author.objects.get(pk = pk)
+            this_author = Author.objects.get(pk = pk)
         except Author.DoesNotExist:
             raise Http404('Author does not exist')
 
@@ -1025,48 +1375,86 @@ def author_detail_view(request, pk):
             # Map
             elif 'reset-keyword' in request.POST:
                 request.session.pop('keyword-search', None)
+                request.session.pop('keywords-list', None)
             elif 'keyword-search' in request.POST:
                 query = request.POST['keyword-search']
-                request.session['keyword-search'] = []
+                if query != '':
+                    request.session['keyword-search'] = query
+                    request.session['keywords-list'] = []
 
-                a = text_pipeline(query)
-                for keyword in Keyword.objects.all():
-                    b = text_pipeline(keyword.name)
-                    keyword_match = SequenceMatcher(None, a, b).ratio()
-                    if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
-                        #print()
-                        #print(query, '____', keyword.name)
-                        #print(contained(a, b), a, '____', keyword_match, '____', b,)
-                        request.session['keyword-search'].append(keyword.name)
+                    a = text_pipeline(query)
+                    for keyword in Keyword.objects.all():
+                        b = text_pipeline(keyword.name)
+                        keyword_match = SequenceMatcher(None, a, b).ratio()
+                        if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
+                            #print()
+                            #print(query, '____', keyword.name)
+                            #print(contained(a, b), a, '____', keyword_match, '____', b,)
+                            request.session['keywords-list'].append([keyword.name, True])
+                else:
+                    request.session.pop('keyword-search', None)
+                    request.session.pop('keywords-list', None)
+            elif 'keyword-update' in request.POST and 'keywords-list' in request.session:
+                for keyword in request.session['keywords-list']:
+                    keyword[1] = False
+                for index in request.POST:
+                    if index.isnumeric():
+                        if int(index) >= 0 and int(index) < len(request.session['keywords-list']):
+                            request.session['keywords-list'][int(index)][1] = True
+            elif 'map_publication_type' in request.POST:
+                request.session['map_publication_type'] = request.POST['map_publication_type']
+            elif 'map_publication_start' in request.POST:
+                request.session['map_publication_start'] = int(request.POST['map_publication_start'])
+            elif 'map_publication_end' in request.POST:
+                request.session['map_publication_end'] = int(request.POST['map_publication_end'])
 
+        # Session initialization
 
-        # Publications Chart
-        # Moved to top of file
-        #publication_types_options = ['All', 'Conference Paper', 'Book', 'Other']
-        
+        #if not 'keyword-search' in request.session:
+        #    request.session['keyword-search'] = ''
+        #if not 'keywords-list' in request.session:
+        #    request.session['keywords-list'] = None
+
+        # Publication types and dates
+
         try:
             earliest_publication = Publication.objects.earliest('date')
             latest_publication = Publication.objects.latest('date')
 
+            # Publications Chart
             if not 'publication-type' in request.session:
                 request.session['publication-type'] = "Conference Paper"
             if not 'publication-start' in request.session:
                 request.session['publication-start'] = earliest_publication.date.year
             if not 'publication-end' in request.session:
                 request.session['publication-end'] = latest_publication.date.year
-            
+
             publication_start_range = list(reversed(range(earliest_publication.date.year, request.session['publication-end'] + 1)))
             publication_end_range = list(reversed(range(request.session['publication-start'], latest_publication.date.year + 1)))
+            
+            # Map
+            if not 'map_publication_type' in request.session:
+                request.session['map_publication_type'] = "All"
+            if not 'map_publication_start' in request.session:
+                request.session['map_publication_start'] = earliest_publication.date.year
+            if not 'map_publication_end' in request.session:
+                request.session['map_publication_end'] = latest_publication.date.year
+            
+            map_start_range = list(reversed(range(earliest_publication.date.year, request.session['map_publication_end'] + 1)))
+            map_end_range = list(reversed(range(request.session['map_publication_start'], latest_publication.date.year + 1)))
 
         except Publication.DoesNotExist:
             earliest_publication = None
             latest_publication = None
+
             publication_start_range = None
             publication_end_range = None
 
+            map_start_range = None
+            map_end_range = None
+
         
-        # Projects Chart
-        
+        # Projects Chart dates
         try:
             earliest_project = Project.objects.earliest('date')
             latest_project = Project.objects.latest('date')
@@ -1166,29 +1554,38 @@ def author_detail_view(request, pk):
 
 
         # Build collaboration map
-        if 'keyword-search' in request.session:
-            search_keywords = request.session['keyword-search']
+        if 'keywords-list' in request.session:
+            search_keywords = request.session['keywords-list']
+            valid_keywords = 0
+            for keyword in search_keywords:
+                if keyword[1]:
+                    valid_keywords += 1
         else:
             search_keywords = None
+            valid_keywords = 0
 
         graph = author_map(
-            pk = author.pk,
-            keywords = search_keywords
+            pk = pk,
+            keywords = search_keywords,
+            doctype = request.session['map_publication_type'],
+            start_year = request.session['map_publication_start'],
+            end_year = request.session['map_publication_end'],
         )
 
-        search_keyword = request.POST['keyword-search'] if 'keyword-search' in request.POST else None
+        search_keyword = request.session['keyword-search'] if 'keyword-search' in request.session else None
 
         # Context build
 
         context = {
             'user': request.user,
 
-            'author': author,
+            'author': this_author,
             'publications': publications,
             'projects': projects,
 
-            # Publications Chart
             'publication_types': publication_types_options,
+
+            # Publications Chart
             'publication_type': request.session['publication-type'],
             'publication_start': request.session['publication-start'],
             'publication_end': request.session['publication-end'],
@@ -1220,8 +1617,16 @@ def author_detail_view(request, pk):
             'edges': graph['edges'],
             'nodes_authors': graph['nodes_authors'],
             'edges_publications': graph['edges_publications'],
+
             'search_keyword': search_keyword,
             'search_keywords': search_keywords,
+            'valid_keywords': valid_keywords,
+            'map_publication_type': request.session['map_publication_type'],
+
+            'map_publication_start': request.session['map_publication_start'],
+            'map_publication_end': request.session['map_publication_end'],
+            'map_start_range': map_start_range,
+            'map_end_range': map_end_range,
         }
 
         return render(request, 'author_detail.html', context)
@@ -2218,7 +2623,7 @@ def sync_ciencia(pk):
 
     return counters
 
-def debug(string='', debug=True, end="\n"):
+def debug(string='', debug=False, end="\n"):
     if debug:
         print(string, end=end)
 
