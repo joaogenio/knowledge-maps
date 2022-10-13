@@ -71,7 +71,7 @@ class AuthorSmallSerializer(serializers.ModelSerializer):
 # Create your views here.
 
 # Define important Publication Types for sorting
-publication_types_options = ['Conference Paper', 'Book', 'Article', 'Review']
+publication_types_options = ['Conference Paper', 'Book', 'Article']#, 'Review']
 publication_types_options = sorted(publication_types_options)
 publication_types_options.insert(0, 'All')
 publication_types_options.append('Other')
@@ -158,19 +158,20 @@ def test2(request):
 
 def test3(request):
 
-    keywords = []
-    query = 'robotic soccer'
-    a = text_pipeline(query)
-    for keyword in Keyword.objects.all():
-        b = text_pipeline(keyword.name)
-        keyword_match = SequenceMatcher(None, a, b).ratio()
-        if (keyword_match > 0.7 or contained(a, b)) and (a != '' and b != ''):
-            keywords.append([keyword.name, True])
+    publications = Publication.objects.all()
 
-    global_map(
-        keywords=keywords,
-        doctype='All',
-    )
+    counters = {}
+
+    for publication in publications:
+
+        publication_type_name = publication.publication_type.name
+
+        if not publication_type_name in counters:
+            counters[publication_type_name] = 1
+        else:
+            counters[publication_type_name] += 1
+    
+    pprint(counters)
 
     context = {}
     return render(request, 'test3.html', context)

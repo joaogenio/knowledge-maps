@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
     'knowledge.apps.KnowledgeConfig',
 
-    #'django_extensions', # python manage.py graph_models --pydot -a -g -I Author,Publication,PublicationType,Project,Area,Affiliation -o my_project_visualized.png
+    #'django_extensions', # python manage.py graph_models --pydot -a -g -I Author,Publication,PublicationType,Project,Area,Affiliation,Keyword -o my_project_visualized.png
 
     'debug_toolbar', # https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
 ]
