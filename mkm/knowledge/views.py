@@ -1163,7 +1163,11 @@ def index_view(request):
                 request.session['index_map_publication_start'] = int(request.POST['map_publication_start'])
             elif 'map_publication_end' in request.POST:
                 request.session['index_map_publication_end'] = int(request.POST['map_publication_end'])
-
+        
+        #####################
+        # END POST HANDLING #
+        #####################
+        """
         # Session initialization
 
         if not 'index-keyword-search' in request.session:
@@ -1172,7 +1176,7 @@ def index_view(request):
             request.session['index-keywords-list'] = []
 
         # Publication types and dates
-
+        
         try:
             earliest_publication = Publication.objects.earliest('date')
             latest_publication = Publication.objects.latest('date')
@@ -1243,19 +1247,6 @@ def index_view(request):
             request.session['index-project-start'],
             request.session['index-project-end'],
         )
-        
-        authorform = AuthorForm()
-        
-        authors = Author.objects.prefetch_related(  
-            'projects__areas',
-            'publications__author_set',
-            'publications__keywords',
-            'publications__areas',
-            'publications__publication_type',
-            'domains',
-            'current_affiliations',
-            'previous_affiliations'
-        ).annotate(num_publications=Count('publications')).order_by('-num_publications')#[:20]
 
         cnt_publications = Publication.objects.all().count()
         cnt_projects = Project.objects.all().count()
@@ -1281,6 +1272,20 @@ def index_view(request):
         )
 
         search_keyword = request.session['index-keyword-search'] if 'index-keyword-search' in request.session else None
+        """
+
+        authorform = AuthorForm()
+        
+        authors = Author.objects.prefetch_related(  
+            #'projects__areas',
+            #'publications__author_set',
+            #'publications__keywords',
+            #'publications__areas',
+            #'publications__publication_type',
+            #'domains',
+            #'current_affiliations',
+            #'previous_affiliations'
+        ).annotate(num_publications=Count('publications')).order_by('num_publications')[:5]
 
         # Context build
 
@@ -1290,52 +1295,54 @@ def index_view(request):
             'authorform': authorform,
 
             'authors': authors,
-
-            # Publications Chart
-            'publication_types': publication_types_options,
-            'publication_type': request.session['index-publication-type'],
-            'publication_start': request.session['index-publication-start'],
-            'publication_end': request.session['index-publication-end'],
-            'publication_start_range': publication_start_range,
-            'publication_end_range': publication_end_range,
-
-            # Projects Chart
-            'project_start': request.session['index-project-start'],
-            'project_end': request.session['index-project-end'],
-            'project_start_range': project_start_range,
-            'project_end_range': project_end_range,
-
-            # Stats
-            'cnt_publications': cnt_publications,
-            'cnt_projects': cnt_projects,
-            'cnt_keywords': cnt_keywords,
-            'cnt_areas': cnt_areas,
-
-            # Charts data
-            'labels_publications': labels_publications,
-            'data_publications': data_publications,
-            'total_data_publications': sum(data_publications),
-
-            'labels_projects': labels_projects,
-            'data_projects': data_projects,
-            'total_data_projects': sum(data_projects),
-
-            # Collaboration map
-            'nodes': graph['nodes'],
-            'edges': graph['edges'],
-            'nodes_authors': graph['nodes_authors'],
-            'edges_publications': graph['edges_publications'],
-
-            'search_keyword': search_keyword,
-            'search_keywords': search_keywords,
-            'valid_keywords': valid_keywords,
-            'map_publication_type': request.session['index_map_publication_type'],
-
-            'map_publication_start': request.session['index_map_publication_start'],
-            'map_publication_end': request.session['index_map_publication_end'],
-            'map_start_range': map_start_range,
-            'map_end_range': map_end_range,
         }
+        """
+        # Publications Chart
+        'publication_types': publication_types_options,
+        'publication_type': request.session['index-publication-type'],
+        'publication_start': request.session['index-publication-start'],
+        'publication_end': request.session['index-publication-end'],
+        'publication_start_range': publication_start_range,
+        'publication_end_range': publication_end_range,
+
+        # Projects Chart
+        'project_start': request.session['index-project-start'],
+        'project_end': request.session['index-project-end'],
+        'project_start_range': project_start_range,
+        'project_end_range': project_end_range,
+
+        # Stats
+        'cnt_publications': cnt_publications,
+        'cnt_projects': cnt_projects,
+        'cnt_keywords': cnt_keywords,
+        'cnt_areas': cnt_areas,
+
+        # Charts data
+        'labels_publications': labels_publications,
+        'data_publications': data_publications,
+        'total_data_publications': sum(data_publications),
+
+        'labels_projects': labels_projects,
+        'data_projects': data_projects,
+        'total_data_projects': sum(data_projects),
+
+        # Collaboration map
+        'nodes': graph['nodes'],
+        'edges': graph['edges'],
+        'nodes_authors': graph['nodes_authors'],
+        'edges_publications': graph['edges_publications'],
+
+        'search_keyword': search_keyword,
+        'search_keywords': search_keywords,
+        'valid_keywords': valid_keywords,
+        'map_publication_type': request.session['index_map_publication_type'],
+
+        'map_publication_start': request.session['index_map_publication_start'],
+        'map_publication_end': request.session['index_map_publication_end'],
+        'map_start_range': map_start_range,
+        'map_end_range': map_end_range,
+        """
+        #}
         
         return render(request, 'index.html', context)
 

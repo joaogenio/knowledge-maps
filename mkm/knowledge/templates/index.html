@@ -30,6 +30,7 @@
         
         <div class="container-fluid">
 
+            {% comment %}
             
             <!-- Main row -->
             <div class="row">
@@ -570,12 +571,12 @@
             </div>
             <!-- /.row -->
 
-            
+            {% endcomment %}
 
             <!-- Main row -->
             <div class="row">
 
-                
+                {% comment %}
 
                 <!-- Left col -->
                 <section class="col-lg-7 connectedSortable ui-sortable">
@@ -809,7 +810,7 @@
                 </section>
                 <!-- right col -->
 
-                
+                {% endcomment %}
 
                 <form method="post" action="{% url 'login' %}">
                     {% csrf_token %}
