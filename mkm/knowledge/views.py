@@ -36,9 +36,11 @@ class PublicationTypeSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 class AuthorSmallSerializer(serializers.ModelSerializer):
+    short_name = serializers.ReadOnlyField()
+
     class Meta:
         model = Author
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'short_name']
 
 class AreaSerializer(serializers.ModelSerializer):
     class Meta:
@@ -54,19 +56,7 @@ class PublicationSerializer(serializers.ModelSerializer):
         model = Publication
         fields = "__all__"
 
-class AuthorSerializer(serializers.ModelSerializer):
-    publications = PublicationSerializer(many=True)
 
-    class Meta:
-        model = Author
-        fields = "__all__"
-
-class AuthorSmallSerializer(serializers.ModelSerializer):
-    short_name = serializers.ReadOnlyField()
-
-    class Meta:
-        model = Author
-        fields = ['id', 'name', 'short_name']
 
 # Create your views here.
 
@@ -459,7 +449,7 @@ def author_map(pk, keywords=None, doctype='All', start_year=date(1980, 1, 1).yea
     
     return {'nodes': nodes, 'edges': edges, 'nodes_authors': nodes_authors, 'edges_publications': edges_publications}
 
-def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end_year=date.today().year):
+def global_map(queryset=Publication.objects.all(), keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end_year=date.today().year):
 
     # Graph data
     nodes = [] # contains authors ids, names, and total number of publications
@@ -488,7 +478,7 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
         #print(valid_types)
 
         if true_keywords == []:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
@@ -496,7 +486,7 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
                 publication_type__name__in = valid_types
             ).distinct()
         else:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
@@ -515,7 +505,7 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
         publication_type = PublicationType.objects.get(name=doctype)
 
         if true_keywords == []:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
@@ -523,7 +513,7 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
                 publication_type = publication_type
             ).distinct()
         else:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
@@ -537,14 +527,14 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
     else: # All types
 
         if true_keywords == []:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
                 )
             ).distinct()
         else:
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range = (
                     date(start_year, 1, 1),
                     date(end_year, 12, 31)
@@ -571,7 +561,7 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
                 nodes_authors[f'{author.pk}']['publications'] = []
 
             # Add to author's publications
-            nodes_authors[f'{author.pk}']['publications'].append(dict(PublicationSerializer(publication).data))
+            nodes_authors[f'{author.pk}']['publications'].append(publication.serialized)
 
             # Iterate pairs
             for colleague in author_set:
@@ -586,9 +576,9 @@ def global_map(keywords=[], doctype='All', start_year=date(1980, 1, 1).year, end
                 key = f"{min(author.pk, colleague.pk)}-{max(author.pk, colleague.pk)}"
 
                 if not key in edges_publications:
-                    edges_publications[key] = {'publications': [ dict(PublicationSerializer(publication).data) ] }
+                    edges_publications[key] = {'publications': [ publication.serialized ] }
                 else:
-                    edges_publications[key]['publications'].append( dict(PublicationSerializer(publication).data) )
+                    edges_publications[key]['publications'].append( publication.serialized )
                 
                 edges_publications[key]['author_1'] = dict(AuthorSmallSerializer(author).data)
                 edges_publications[key]['author_2'] = dict(AuthorSmallSerializer(colleague).data)
@@ -1167,7 +1157,17 @@ def index_view(request):
         #####################
         # END POST HANDLING #
         #####################
-        """
+
+        # Load publications and projects
+        publications = Publication.objects.prefetch_related(
+            'keywords',
+            'publication_type',
+            'areas',
+        )
+        projects = Project.objects.prefetch_related(
+            'areas',
+        )
+        
         # Session initialization
 
         if not 'index-keyword-search' in request.session:
@@ -1178,8 +1178,8 @@ def index_view(request):
         # Publication types and dates
         
         try:
-            earliest_publication = Publication.objects.earliest('date')
-            latest_publication = Publication.objects.latest('date')
+            earliest_publication = publications.earliest('date')
+            latest_publication = publications.latest('date')
 
             # Publications Chart
             if not 'index-publication-type' in request.session:
@@ -1215,8 +1215,8 @@ def index_view(request):
         
         # Projects Chart dates
         try:
-            earliest_project = Project.objects.earliest('date')
-            latest_project = Project.objects.latest('date')
+            earliest_project = projects.earliest('date')
+            latest_project = projects.latest('date')
 
             if not 'index-project-start' in request.session:
                 request.session['index-project-start'] = earliest_project.date.year
@@ -1237,6 +1237,7 @@ def index_view(request):
     
         labels_publications, data_publications = documents_from_year_interval(
             'Publication',
+            publications,
             request.session['index-publication-start'],
             request.session['index-publication-end'],
             pub_type=request.session['index-publication-type'],
@@ -1244,12 +1245,13 @@ def index_view(request):
         )
         labels_projects, data_projects = documents_from_year_interval(
             'Project',
+            projects,
             request.session['index-project-start'],
             request.session['index-project-end'],
         )
 
-        cnt_publications = Publication.objects.all().count()
-        cnt_projects = Project.objects.all().count()
+        cnt_publications = publications.count()
+        cnt_projects = projects.count()
         cnt_keywords = Keyword.objects.all().count()
         cnt_areas = Area.objects.all().count()
 
@@ -1265,6 +1267,7 @@ def index_view(request):
             valid_keywords = 0
 
         graph = global_map(
+            queryset = publications,
             keywords = search_keywords,
             doctype = request.session['index_map_publication_type'],
             start_year = request.session['index_map_publication_start'],
@@ -1272,20 +1275,20 @@ def index_view(request):
         )
 
         search_keyword = request.session['index-keyword-search'] if 'index-keyword-search' in request.session else None
-        """
+        
 
         authorform = AuthorForm()
         
         authors = Author.objects.prefetch_related(  
-            #'projects__areas',
-            #'publications__author_set',
-            #'publications__keywords',
-            #'publications__areas',
-            #'publications__publication_type',
-            #'domains',
-            #'current_affiliations',
-            #'previous_affiliations'
-        ).annotate(num_publications=Count('publications')).order_by('num_publications')[:5]
+            'projects__areas',
+            'publications__author_set',
+            'publications__keywords',
+            'publications__areas',
+            'publications__publication_type',
+            'domains',
+            'current_affiliations',
+            'previous_affiliations'
+        ).annotate(num_publications=Count('publications')).order_by('num_publications')#[:5]
 
         # Context build
 
@@ -1295,54 +1298,52 @@ def index_view(request):
             'authorform': authorform,
 
             'authors': authors,
+            
+            # Publications Chart
+            'publication_types': publication_types_options,
+            'publication_type': request.session['index-publication-type'],
+            'publication_start': request.session['index-publication-start'],
+            'publication_end': request.session['index-publication-end'],
+            'publication_start_range': publication_start_range,
+            'publication_end_range': publication_end_range,
+
+            # Projects Chart
+            'project_start': request.session['index-project-start'],
+            'project_end': request.session['index-project-end'],
+            'project_start_range': project_start_range,
+            'project_end_range': project_end_range,
+
+            # Stats
+            'cnt_publications': cnt_publications,
+            'cnt_projects': cnt_projects,
+            'cnt_keywords': cnt_keywords,
+            'cnt_areas': cnt_areas,
+
+            # Charts data
+            'labels_publications': labels_publications,
+            'data_publications': data_publications,
+            'total_data_publications': sum(data_publications),
+
+            'labels_projects': labels_projects,
+            'data_projects': data_projects,
+            'total_data_projects': sum(data_projects),
+
+            # Collaboration map
+            'nodes': graph['nodes'],
+            'edges': graph['edges'],
+            'nodes_authors': graph['nodes_authors'],
+            'edges_publications': graph['edges_publications'],
+
+            'search_keyword': search_keyword,
+            'search_keywords': search_keywords,
+            'valid_keywords': valid_keywords,
+            'map_publication_type': request.session['index_map_publication_type'],
+
+            'map_publication_start': request.session['index_map_publication_start'],
+            'map_publication_end': request.session['index_map_publication_end'],
+            'map_start_range': map_start_range,
+            'map_end_range': map_end_range,
         }
-        """
-        # Publications Chart
-        'publication_types': publication_types_options,
-        'publication_type': request.session['index-publication-type'],
-        'publication_start': request.session['index-publication-start'],
-        'publication_end': request.session['index-publication-end'],
-        'publication_start_range': publication_start_range,
-        'publication_end_range': publication_end_range,
-
-        # Projects Chart
-        'project_start': request.session['index-project-start'],
-        'project_end': request.session['index-project-end'],
-        'project_start_range': project_start_range,
-        'project_end_range': project_end_range,
-
-        # Stats
-        'cnt_publications': cnt_publications,
-        'cnt_projects': cnt_projects,
-        'cnt_keywords': cnt_keywords,
-        'cnt_areas': cnt_areas,
-
-        # Charts data
-        'labels_publications': labels_publications,
-        'data_publications': data_publications,
-        'total_data_publications': sum(data_publications),
-
-        'labels_projects': labels_projects,
-        'data_projects': data_projects,
-        'total_data_projects': sum(data_projects),
-
-        # Collaboration map
-        'nodes': graph['nodes'],
-        'edges': graph['edges'],
-        'nodes_authors': graph['nodes_authors'],
-        'edges_publications': graph['edges_publications'],
-
-        'search_keyword': search_keyword,
-        'search_keywords': search_keywords,
-        'valid_keywords': valid_keywords,
-        'map_publication_type': request.session['index_map_publication_type'],
-
-        'map_publication_start': request.session['index_map_publication_start'],
-        'map_publication_end': request.session['index_map_publication_end'],
-        'map_start_range': map_start_range,
-        'map_end_range': map_end_range,
-        """
-        #}
         
         return render(request, 'index.html', context)
 
@@ -1416,6 +1417,16 @@ def author_detail_view(request, pk):
             elif 'map_publication_end' in request.POST:
                 request.session['map_publication_end'] = int(request.POST['map_publication_end'])
 
+        # Load publications and projects
+        publications = Publication.objects.prefetch_related(
+            'keywords',
+            'publication_type',
+            'areas',
+        )
+        projects = Project.objects.prefetch_related(
+            'areas',
+        )
+
         # Session initialization
 
         #if not 'keyword-search' in request.session:
@@ -1485,6 +1496,7 @@ def author_detail_view(request, pk):
     
         labels_publications, data_publications = documents_from_year_interval(
             'Publication',
+            publications,
             request.session['publication-start'],
             request.session['publication-end'],
             author=pk,
@@ -1493,6 +1505,7 @@ def author_detail_view(request, pk):
         )
         labels_projects, data_projects = documents_from_year_interval(
             'Project',
+            projects,
             request.session['project-start'],
             request.session['project-end'],
             author=pk
@@ -1641,7 +1654,7 @@ def author_detail_view(request, pk):
 
     return redirect('login')
 
-def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1, 1), end_year=date.today(), author=None, pub_type='All', pub_types=[]):
+def documents_from_year_interval(doctype='Publication', queryset=Publication.objects.all(), start_year=1980, end_year=date.today().year, author=None, pub_type='All', pub_types=[]):
     labels = []
     data = []
     cnt_year = start_year
@@ -1657,7 +1670,7 @@ def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1,
         )
 
         if doctype == 'Publication':
-            publications = Publication.objects.filter(
+            publications = queryset.filter(
                 date__range=(
                     date(cnt_year, 1, 1),
                     date(cnt_year, 12, 31)
@@ -1697,7 +1710,7 @@ def documents_from_year_interval(doctype='Publication', start_year=date(1980, 1,
                 
 
         elif doctype == 'Project':
-            projects = Project.objects.filter(
+            projects = queryset.filter(
                 date__range=(
                     date(cnt_year, 1, 1),
                     date(cnt_year, 12, 31)

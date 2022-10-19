@@ -1,5 +1,6 @@
 from django.db import models
 import json
+from rest_framework import serializers
 
 class bcolors:
     HEADER =	'\033[95m'
@@ -233,6 +234,10 @@ class Publication(models.Model):
     def __str__(self):
         return "[{}] {}".format( str(self.date), self.title )
     
+    @property
+    def serialized(self):
+        return dict(PublicationSerializer(self).data)
+    
     def pretty(self):
         return "[{:<11}] [{:<8}] [{:<20}] [{} {}] [{:<16}] [{} {:2d} {:2d} {} {}] [{}] \n{}".format( ############################################################################################################
             str(self.scopus_id)[-11:],
@@ -299,3 +304,30 @@ class Keyword(models.Model):
     
     def __str__(self):
         return self.name
+
+class AreaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Area
+        fields = "__all__"
+
+class AuthorSmallSerializer(serializers.ModelSerializer):
+    short_name = serializers.ReadOnlyField()
+
+    class Meta:
+        model = Author
+        fields = ['id', 'name', 'short_name']
+
+class PublicationTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PublicationType
+        fields = "__all__"
+
+class PublicationSerializer(serializers.ModelSerializer):
+    publication_type = PublicationTypeSerializer()
+    areas = AreaSerializer(many=True)
+    author_set = AuthorSmallSerializer(many=True)
+
+    class Meta:
+        model = Publication
+        fields = "__all__"
+
