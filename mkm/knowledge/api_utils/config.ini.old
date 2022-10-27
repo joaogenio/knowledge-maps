@@ -1,0 +1,16 @@
+[Directories]
+AbstractRetrieval = 
+AffiliationRetrieval = 
+AffiliationSearch = 
+AuthorRetrieval = 
+AuthorSearch = 
+CitationOverview = 
+ScopusSearch = 
+SerialSearch = 
+SerialTitle = 
+PlumXMetrics = 
+SubjectClassifications = 
+
+[Authentication]
+APIKey = scopus_key_without_quotes
+

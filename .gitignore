@@ -6,6 +6,7 @@ mkm/ENHANCED/
 
 mkm/knowledge/api_utils/config.json
 mkm/knowledge/api_utils/dump.json
+mkm/knowledge/api_utils/info.csv
 mkm/knowledge/api_utils/data/*
 mkm/knowledge/api_utils/logs/*
 

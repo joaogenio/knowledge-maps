@@ -1,0 +1,9 @@
+{
+    "apikey": "scopus_key",
+    "insttoken": "",
+
+    "qa-authorization": "ciencia_vitae_test_key",
+    "authorization":    "ciencia_vitae_production_key",
+
+    "django-secret": "Get a secret key from https://djecrety.ir/"
+}
