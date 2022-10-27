@@ -9,4 +9,6 @@ mkm/knowledge/api_utils/dump.json
 mkm/knowledge/api_utils/data/*
 mkm/knowledge/api_utils/logs/*
 
+difflists
+
 *.pyc

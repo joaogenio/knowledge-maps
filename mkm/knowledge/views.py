@@ -1288,7 +1288,7 @@ def index_view(request):
             'domains',
             'current_affiliations',
             'previous_affiliations'
-        ).annotate(num_publications=Count('publications')).order_by('num_publications')#[:5]
+        ).order_by('id')#.annotate(num_publications=Count('publications')).order_by('num_publications')#[:5]
 
         # Context build
 
