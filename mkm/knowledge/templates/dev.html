@@ -1,0 +1,472 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Authors - Knowledge App</title>{% endblock %}
+{% load static %}
+
+{% block dev %}active{% endblock %}
+
+{% block content %}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 823px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Authors</h1>
+                </div><!-- /.col -->
+                {% comment %}
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div><!-- /.col -->
+                {% endcomment %}
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+        
+        <div class="container-fluid">
+
+            <!-- Main row -->
+            <div class="row">
+
+                {% comment %}
+                <form method="post" action="{% url 'login' %}">
+                    {% csrf_token %}
+                    Hello <b>{{ user }}</b>!
+                    <input type="submit" name="logout" value="Log out" />
+                </form>
+                {% endcomment %}
+                
+                <h5>Add Author</h5>
+                <form method="post">
+                    {% csrf_token %}
+                    {{ authorform }}
+                    <input name="add-author" type="submit" value="Submit">
+                </form>
+                
+                
+                {% comment %}
+                <h1>All Authors</h1>
+                
+                <table>
+                    <tr>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="test" type="submit" value="Test">
+                            </form>
+                            <br><br>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input style="background-color: red;" name="delpubs" type="submit" value="Delete All Publications">
+                            </form>
+                            <br><br>
+                        </td>
+                    </tr>
+                </table>
+                {% endcomment %}
+                
+                {% for author in authors %}
+
+                <p><br>&nbsp</p>
+                
+                <!-- FORMS -->
+                <table>
+                    <tr>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-scopus-author" type="submit" value="Sync Scopus Author Data">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-scopus-docs" type="submit" value="Sync Scopus Documents">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="sync-ciencia" type="submit" value="Sync Ciência">
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post">
+                                {% csrf_token %}
+                                <input name="author_pk" type="hidden" value="{{ author.id }}" />
+                                <input name="delete_author" type="submit" value="Delete Author">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table class="author">
+                
+                    <tr>
+                        <td class="bold">
+                            Photo
+                        </td>
+                        <td>
+                            <a href="{% url 'author_detail' author.pk %}">
+                                <img src="https://www.cienciavitae.pt/fotos/publico/{{author.ciencia_id}}.jpg">
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr><td class="bold
+                        {% if author.name == "" %}
+                            ">Name</td><td class=""><a href="{% url 'author_detail' author.pk %}">N/A</a>
+                        {% elif author.synced_ciencia %}
+                            ciencia">Name</td><td class="ciencia"><a href="{% url 'author_detail' author.pk %}">{{author.name}}</a>
+                        {% else %}
+                            scopus">Name</td><td class="scopus"><a href="{% url 'author_detail' author.pk %}">{{author.name}}</a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">Scopus ID</td><td>
+                        {% if author.scopus_id != None %}
+                            <a href="https://www.scopus.com/authid/detail.uri?authorId={{author.scopus_id}}">
+                                {{author.scopus_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">Ciência ID</td><td>
+                        {% if author.ciencia_id != None %}
+                            <a href="https://www.cienciavitae.pt//{{author.ciencia_id}}">
+                                {{author.ciencia_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="bold">ORCID ID</td><td>
+                        {% if author.orcid_id != None %}
+                            <a href="https://orcid.org/{{author.orcid_id}}">
+                                {{author.orcid_id}}
+                            </a>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Name List</td><td class="scopus">
+                        {% if author.load_name_list|length == 0 %}
+                            
+                        {% else %}
+                            {{author.load_name_list}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">H-index</td><td class="scopus">
+                        {% if author.h_index == None %}
+                            
+                        {% else %}
+                            {{author.h_index}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Citation Count</td><td class="scopus">
+                        {% if author.citation_count == 0 %}
+                            
+                        {% else %}
+                            {{author.citation_count}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Cited-by Count</td><td class="scopus">
+                        {% if author.cited_by_count == 0 %}
+                            
+                        {% else %}
+                            {{author.cited_by_count}}
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Current Affiliations</td><td class="scopus">
+                        {% for affiliation in author.current_affiliations.all %}
+                            {{affiliation.name}}<br>
+                        {% endfor %}
+                    </td></tr>
+                
+                    <tr><td class="scopus bold">Previous Affiliations</td><td class="scopus">
+                        {% if author.previous_affiliations.all|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.previous_affiliations.all|length}} Affiliations
+                                </summary>
+                                <p>
+                                    {% for affiliation in author.previous_affiliations.all %}
+                                        {{affiliation.name}}<br>
+                                    {% endfor %}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                    
+                    <tr><td class="ciencia bold">Bio</td><td class="ciencia">
+                        {% if author.bio == "" %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    Available
+                                </summary>
+                                <p>
+                                    {{author.bio}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                
+                    <tr><td class="ciencia bold">Degrees</td><td class="ciencia">
+                        {% if author.load_degrees|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.load_degrees|length}} Degrees
+                                </summary>
+                                <p>
+                                    {{author.load_degrees}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </td></tr>
+                    
+                    <tr><td class="ciencia bold">Distinctions</td><td class="ciencia">
+                        {% if author.load_distinctions|length == 0 %}
+                            
+                        {% else %}
+                            <details>
+                                <summary>
+                                    {{author.load_distinctions|length}} Distinctions
+                                </summary>
+                                <p>
+                                    {{author.load_distinctions}}
+                                </p>
+                            </details>
+                        {% endif %}
+                    </tr>
+                    
+                    <tr><td class="ciencia bold">Projects</td>
+                        <td class="ciencia">
+                            {% if author.projects.all|length == 0 %}
+                                
+                            {% else %}
+                                <details>
+                                    <summary>
+                                        {{author.projects.all|length}} Projects
+                                    </summary>
+                                    <p>
+                                        <table class="noborder">
+                                            {% for project in author.projects.all %}
+                                                <tr>
+                                                    {% if project.areas.all|length != 0 %}
+                                                        <td class="bold">
+                                                            <p
+                                                                title="{% for area in project.areas.all %}{{area.name}}     {% endfor %}"
+                                                                class="inline">
+                                                                {{project.areas.all|length}} Areas
+                                                            </p>
+                                                        </td>
+                                                    {% else %}
+                                                        <td></td>
+                                                    {% endif %}
+                                                    {% if project.desc != "" %}
+                                                        <td class="bold">
+                                                            <p
+                                                                title="{{project.desc}}"
+                                                                class="inline">
+                                                                Description
+                                                            </p>
+                                                        </td>
+                                                    {% else %}
+                                                        <td></td>
+                                                    {% endif %}
+                                                    <td><p class="inline">{{project.date}}</p></td>
+                                                    <td class="bold"><p>{{project.name}}</p></td>
+                                                </tr>
+                                            {% endfor %}
+                                        </table>
+                                    </p>
+                                </details>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    
+                    <tr><td class="bold">Domains</td>
+                        <td>
+                            {% with domains=author.domains.all %}
+                                {% if domains|length == 0 %}
+                                    
+                                {% else %}
+                                    <details>
+                                        <summary>
+                                            {{domains|length}} Domains
+                                        </summary>
+                                        <p>
+                                            {% for area in domains %}
+                                                {{area.name}}<br>
+                                            {% endfor %}
+                                        </p>
+                                    </details>
+                                {% endif %}
+                            {% endwith %}
+                        </td>
+                    </tr>
+                
+                    <tr><td class="bold">Publications</td>
+                        <td>
+                            {% with publications=author.publications.all %}
+                                {% if publications|length == 0 %}
+                                    
+                                {% else %}
+                                    <details>
+                                        <summary>
+                                            {{publications|length}} Publications
+                                        </summary>
+                                        <p>
+                                            <table class="noborder">
+                                                {% for publication in publications %}
+                                                    <tr>
+                                                        <td class="red bold">
+                                                            <p
+                                                                class="inline">
+                                                                {% if publication.from_scopus %}
+                                                                    SC
+                                                                {% endif %}
+                                                            </p>
+                                                        </td>
+                                                        <td class="green bold">
+                                                            <p
+                                                                class="inline">
+                                                                {% if publication.from_ciencia %}
+                                                                    CV
+                                                                {% endif %}
+                                                            </p>
+                                                        </td>
+                                                        <td class="">
+                                                            <p
+                                                                class="inline">
+                                                                {{publication.id}}
+                                                            </p>
+                                                        </td>
+                                                        <td class="">
+                                                            <p
+                                                                class="inline">
+                                                                {{publication.publication_type.name}}
+                                                            </p>
+                                                        </td>
+
+                                                        <td class="">
+                                                            <p
+                                                                title="{% for author in publication.author_set.all %}{{author.name}}     {% endfor %}"
+                                                                class="inline">
+                                                                ({{publication.author_set.all|length}})
+                                                            </p>
+                                                        </td>
+                                                        {% if publication.author_set.all|length != 1 %}
+                                                            
+                                                        {% else %}
+                                                            <!--<td></td>-->
+                                                        {% endif %}
+
+                                                        {% if publication.keywords.all|length != 0 %}
+                                                            <td class="orange">
+                                                                <p
+                                                                    title="{% for keyword in publication.keywords.all %}{{keyword.name}}     {% endfor %}"
+                                                                    class="inline">
+                                                                    {{publication.keywords.all|length}} Ky
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.areas.all|length != 0 %}
+                                                            <td class="red">
+                                                                <p
+                                                                    title="{% for area in publication.areas.all %}{{area.name}}     {% endfor %}"
+                                                                    class="inline">
+                                                                    {{publication.areas.all|length}} Ar
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.abstract != "" %}
+                                                            <td class="red">
+                                                                <p
+                                                                    title="{{publication.abstract}}"
+                                                                    class="inline">
+                                                                    Ab
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        {% if publication.available %}
+                                                            <td class="red">
+                                                                <p
+                                                                    class="inline">
+                                                                    FT
+                                                                </p>
+                                                            </td>
+                                                        {% else %}
+                                                            <td></td>
+                                                        {% endif %}
+                                                        <td><p class="inline">{{publication.date}}</p></td>
+                                                        <td class="bold">
+                                                            <p title="{{publication.scopus_id}}  --  {{publication.ciencia_id}} -- {{publication.doi}}">
+                                                                {{publication.title}}
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                {% endfor %}
+                                            </table>
+                                        </p>
+                                    </details>
+                                {% endif %}
+                            {% endwith %}
+                        </td>
+                    </tr>
+                
+                </table>
+                <br>
+                {% endfor %}
+
+
+                
+
+
+            </div>
+            <!-- /.row (main row) -->
+
+            
+
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}

@@ -19,6 +19,9 @@ from difflib import SequenceMatcher
 from rest_framework import serializers
 from django.http import Http404
 
+from contextlib import contextmanager
+import sys
+
 class bcolors:
     HEADER =	'\033[95m'
     OKBLUE =	'\033[94m'
@@ -56,7 +59,9 @@ class PublicationSerializer(serializers.ModelSerializer):
         model = Publication
         fields = "__all__"
 
-
+class DevNull:
+    def write(self, msg):
+        pass
 
 # Create your views here.
 
@@ -749,7 +754,7 @@ def index_view(request):
 
                         sync_ciencia(pk)
                         sync_scopus_docs(pk)
-                        with open(f'{author.scopus_id}_pubs_b.txt', 'w', encoding="utf-8") as f:
+                        with open(f'difflists/{author.pk}_pubs_b.txt', 'w', encoding="utf-8") as f:
                             pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
                             for pub in pubs:
                                 sc_id = pub.scopus_id
@@ -764,7 +769,7 @@ def index_view(request):
 
                         sync_scopus_docs(pk)
                         sync_ciencia(pk)
-                        with open(f'{author.scopus_id}_pubs_a.txt', 'w', encoding="utf-8") as f:
+                        with open(f'difflists/{author.pk}_pubs_a.txt', 'w', encoding="utf-8") as f:
                             pubs = author.publications.order_by('scopus_id', 'date', 'title', 'publication_type')
                             for pub in pubs:
                                 sc_id = pub.scopus_id
@@ -782,10 +787,10 @@ def index_view(request):
                     pubs_a = []
                     pubs_b = []
 
-                    with open(f'{author.scopus_id}_pubs_a.txt', 'r', encoding="utf-8") as f:
+                    with open(f'difflists/{author.pk}_pubs_a.txt', 'r', encoding="utf-8") as f:
                         for line in f:
                             pubs_a.append(line)
-                    with open(f'{author.scopus_id}_pubs_b.txt', 'r', encoding="utf-8") as f:
+                    with open(f'difflists/{author.pk}_pubs_b.txt', 'r', encoding="utf-8") as f:
                         for line in f:
                             pubs_b.append(line)
 
@@ -1288,7 +1293,7 @@ def index_view(request):
             'domains',
             'current_affiliations',
             'previous_affiliations'
-        ).order_by('id')#.annotate(num_publications=Count('publications')).order_by('num_publications')#[:5]
+        ).annotate(num_publications=Count('publications')).order_by('-num_publications')#[:5]#.order_by('id')
 
         # Context build
 
@@ -1298,6 +1303,8 @@ def index_view(request):
             'authorform': authorform,
 
             'authors': authors,
+
+            'author_list': Author.objects.all(),
             
             # Publications Chart
             'publication_types': publication_types_options,
@@ -1346,6 +1353,81 @@ def index_view(request):
         }
         
         return render(request, 'index.html', context)
+
+    return redirect('login')
+
+def dev_view(request):
+
+    if request.user.is_authenticated:
+        
+        if request.method == 'POST':
+
+            if 'delpubs' in request.POST:
+
+                publications = Publication.objects.all()
+                for publication in publications:
+                    publication.delete()
+
+            if 'add-author' in request.POST:
+                authorform = AuthorForm(request.POST)
+                if authorform.is_valid():
+                    clean = authorform.cleaned_data
+                    author = Author(
+                        scopus_id = clean['scopus_id'],
+                        ciencia_id = clean['ciencia_id'],
+                        orcid_id = clean['orcid_id']
+                    )
+                    author.save()
+            
+            if 'delete_author' in request.POST:
+                pk = request.POST['author_pk']
+                author = Author.objects.get(pk=pk)
+                author.delete()
+
+
+            # Sync operations
+            elif 'sync-scopus-docs' in request.POST:
+                pk = request.POST['author_pk']
+                sync_scopus_docs(pk)
+
+            elif 'sync-scopus-author' in request.POST:
+                pk = request.POST['author_pk']
+                sync_scopus_author(pk)
+                
+            elif 'sync-ciencia' in request.POST:
+                pk = request.POST['author_pk']
+                sync_ciencia(pk)
+        
+        #####################
+        # END POST HANDLING #
+        #####################
+        
+        authorform = AuthorForm()
+        
+        authors = Author.objects.prefetch_related(  
+            'projects__areas',
+            'publications__author_set',
+            'publications__keywords',
+            'publications__areas',
+            'publications__publication_type',
+            'domains',
+            'current_affiliations',
+            'previous_affiliations'
+        )#.annotate(num_publications=Count('publications')).order_by('-num_publications')#[:5]#.order_by('id')
+
+        # Context build
+
+        context = {
+            'user': request.user,
+
+            'authorform': authorform,
+
+            'authors': authors,
+
+            'author_list': Author.objects.all(),
+        }
+        
+        return render(request, 'dev.html', context)
 
     return redirect('login')
 
@@ -1603,6 +1685,8 @@ def author_detail_view(request, pk):
             'author': this_author,
             'publications': publications,
             'projects': projects,
+
+            'author_list': Author.objects.all(),
 
             'publication_types': publication_types_options,
 
@@ -2158,10 +2242,14 @@ def add_publication(author, scopus_id, ciencia_id, doi, title, date, \
 
 def sync_scopus_docs(pk):
     author = Author.objects.get(pk=pk)
-    
-    #data = scopus_author_docs(author.scopus_id)
 
-    with open(str(author.scopus_id)+'.json', encoding="utf-8") as fh:
+    # Supress error output
+    tmp = sys.stderr
+    sys.stderr = DevNull()
+    data = scopus_author_docs(author.scopus_id, pk)
+    sys.stderr = tmp
+
+    with open('difflists/'+str(author.pk)+'.json', encoding="utf-8") as fh:
         data = json.load(fh)
     
     counters = {
@@ -2415,12 +2503,12 @@ def sync_scopus_author(pk):
 
 def sync_ciencia(pk):
     author = Author.objects.get(pk=pk)
-    #data = ciencia_author(author.ciencia_id)
+    data = ciencia_author(author.ciencia_id)
 
-    #with open(f'{author.scopus_id}_pubs_ciencia.txt', 'w', encoding="utf-8") as f:
-    #    json.dump(data, f, ensure_ascii=False, indent=4)
+    with open(f'difflists/{author.pk}_pubs_ciencia.txt', 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
-    with open(str(author.scopus_id)+'_pubs_ciencia.txt', encoding="utf-8") as fh:
+    with open('difflists/'+str(author.pk)+'_pubs_ciencia.txt', encoding="utf-8") as fh:
         data = json.load(fh)
     
     counters = {
@@ -2644,7 +2732,7 @@ def sync_ciencia(pk):
 
     return counters
 
-def debug(string='', debug=False, end="\n"):
+def debug(string='', debug=True, end="\n"):
     if debug:
         print(string, end=end)
 

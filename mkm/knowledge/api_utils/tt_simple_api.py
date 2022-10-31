@@ -570,7 +570,7 @@ def scopus_author(author_id):
 
 		return author_dict
 
-def scopus_author_docs(author_id):
+def scopus_author_docs(author_id, author_pk):
 	config = load_config()
 	## Initialize client
 	client = ElsClient(config['apikey'])
@@ -730,7 +730,6 @@ def scopus_author_docs(author_id):
 				#print(bcolors.FAIL + "    No 'DOI' available" + bcolors.ENDC)
 				#print('doc_eid', doc_eid)
 				available = False
-
 			
 			#print()
 
@@ -750,7 +749,7 @@ def scopus_author_docs(author_id):
 
 			docs.append(doc_dict)
 
-	with open(str(author_id)+'.json', 'w', encoding='utf-8') as f:
+	with open('difflists/'+str(author_pk)+'.json', 'w', encoding='utf-8') as f:
 		json.dump(docs, f, ensure_ascii=False, indent=4)
 	return docs
 
