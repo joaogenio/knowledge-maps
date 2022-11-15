@@ -106,13 +106,6 @@
                             <form method="post">
                                 {% csrf_token %}
                                 <div class="form-group row">
-                                    <input class="btn btn-default" name="sync_all_cv" type="submit" value="Sync Ciência Vitae for everyone">
-                                </div>
-                            </form>
-
-                            <form method="post">
-                                {% csrf_token %}
-                                <div class="form-group row">
                                     <input class="btn btn-default" name="sync_all_sc_author" type="submit" value="Sync Scopus author data for everyone">
                                 </div>
                             </form>
@@ -121,6 +114,13 @@
                                 {% csrf_token %}
                                 <div class="form-group row">
                                     <input class="btn btn-default" name="sync_all_sc_docs" type="submit" value="Sync Scopus documents for everyone">
+                                </div>
+                            </form>
+
+                            <form method="post">
+                                {% csrf_token %}
+                                <div class="form-group row">
+                                    <input class="btn btn-default" name="sync_all_cv" type="submit" value="Sync Ciência Vitae for everyone">
                                 </div>
                             </form>
 

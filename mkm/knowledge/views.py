@@ -1465,16 +1465,14 @@ def dev_view(request):
                         orcid_id = clean['orcid_id']
                     )
                     author.save()
+
+
+            # Sync operations
             
             elif 'delete_author' in request.POST:
                 pk = request.POST['author_pk']
                 author = Author.objects.get(pk=pk)
                 author.delete()
-            
-            elif 'sync_all_cv' in request.POST:
-                authors = Author.objects.all()
-                for author in authors:
-                    sync_ciencia(author.pk)
             
             elif 'sync_all_sc_author' in request.POST:
                 authors = Author.objects.all()
@@ -1486,11 +1484,14 @@ def dev_view(request):
                 for author in authors:
                     sync_scopus_docs(author.pk)
             
+            elif 'sync_all_cv' in request.POST:
+                authors = Author.objects.all()
+                for author in authors:
+                    sync_ciencia(author.pk)
+            
             elif 'sync_all' in request.POST:
                 sync_all()
-
-
-            # Sync operations
+            
             elif 'sync-scopus-docs' in request.POST:
                 pk = request.POST['author_pk']
                 sync_scopus_docs(pk)
