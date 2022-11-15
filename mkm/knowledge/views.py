@@ -22,6 +22,8 @@ from django.http import Http404
 from contextlib import contextmanager
 import sys
 
+from apscheduler.schedulers.background import BackgroundScheduler
+
 class bcolors:
     HEADER =	'\033[95m'
     OKBLUE =	'\033[94m'
@@ -602,6 +604,91 @@ def test4(request):
 
 def test5(request):
     return render(request, 'test5.html', context)
+
+def sync_all():
+
+    authors = Author.objects.all()
+
+    counters_sc = {
+        'new': 0,
+        's_sc': 0,
+            's_sc_d_cv': 0,
+            's_sc_d_doi': 0,
+        's_cv': 0,
+            's_cv_d_sc': 0,
+            's_cv_d_doi': 0,
+        's_doi': 0,
+            's_doi_d_sc': 0,
+            's_doi_d_cv': 0,
+        's_abstract': 0,
+        's_title': 0,
+        's_title_contained': 0,
+    }
+
+    counters_cv = counters_sc.copy()
+
+    for author in authors:
+
+        print(f"{author.pk} - {author.name}")
+
+        #if author.pk == 15 or author.pk == 7:
+
+        y = sync_scopus_docs(author.pk)
+        counters_sc = {k: counters_sc.get(k, 0) + y.get(k, 0) for k in set(counters_sc) & set(y)}
+
+        y = sync_ciencia(author.pk)
+        counters_cv = {k: counters_cv.get(k, 0) + y.get(k, 0) for k in set(counters_cv) & set(y)}
+
+    print('')
+    print(f"new                {counters_sc['new']}")
+    print('')
+    print(f"s_sc               {counters_sc['s_sc']}")
+    print(f"|_ s_sc_d_cv       |_ {counters_sc['s_sc_d_cv']}")
+    print(f"|_ s_sc_d_doi      |_ {counters_sc['s_sc_d_doi']}")
+    print('')
+    print(f"s_cv               {counters_sc['s_cv']}")
+    print(f"|_ s_cv_d_sc       |_ {counters_sc['s_cv_d_sc']}")
+    print(f"|_ s_cv_d_doi      |_ {counters_sc['s_cv_d_doi']}")
+    print('')
+    print(f"s_doi              {counters_sc['s_doi']}")
+    print(f"|_ s_doi_d_sc      |_ {counters_sc['s_doi_d_sc']}")
+    print(f"|_ s_doi_d_cv      |_ {counters_sc['s_doi_d_cv']}")
+    print('')
+    print(f"s_abstract         {counters_sc['s_abstract']}")
+    print(f"s_title            {counters_sc['s_title']}")
+    print(f"s_title_contained  {counters_sc['s_title_contained']}")
+    print('')
+    print(f"new                {counters_cv['new']}")
+    print('')
+    print(f"s_sc               {counters_cv['s_sc']}")
+    print(f"|_ s_sc_d_cv       |_ {counters_cv['s_sc_d_cv']}")
+    print(f"|_ s_sc_d_doi      |_ {counters_cv['s_sc_d_doi']}")
+    print('')
+    print(f"s_cv               {counters_cv['s_cv']}")
+    print(f"|_ s_cv_d_sc       |_ {counters_cv['s_cv_d_sc']}")
+    print(f"|_ s_cv_d_doi      |_ {counters_cv['s_cv_d_doi']}")
+    print('')
+    print(f"s_doi              {counters_cv['s_doi']}")
+    print(f"|_ s_doi_d_sc      |_ {counters_cv['s_doi_d_sc']}")
+    print(f"|_ s_doi_d_cv      |_ {counters_cv['s_doi_d_cv']}")
+    print('')
+    print(f"s_abstract         {counters_cv['s_abstract']}")
+    print(f"s_title            {counters_cv['s_title']}")
+    print(f"s_title_contained  {counters_cv['s_title_contained']}")
+
+    publications = Publication.objects.all()
+    author_count = {}
+
+    for publication in publications:
+
+        count = publication.author_set.all().count()
+        if not count in author_count:
+            author_count[count] = 1
+        else:
+            author_count[count] += 1
+    
+    for key in author_count:
+        print(key, author_count[key])
 
 #############################################################
 ###   revert doi saving. we need to keep the underscore   ###
@@ -1368,7 +1455,7 @@ def dev_view(request):
                 for publication in publications:
                     publication.delete()
 
-            if 'add-author' in request.POST:
+            elif 'add-author' in request.POST:
                 authorform = AuthorForm(request.POST)
                 if authorform.is_valid():
                     clean = authorform.cleaned_data
@@ -1379,10 +1466,28 @@ def dev_view(request):
                     )
                     author.save()
             
-            if 'delete_author' in request.POST:
+            elif 'delete_author' in request.POST:
                 pk = request.POST['author_pk']
                 author = Author.objects.get(pk=pk)
                 author.delete()
+            
+            elif 'sync_all_cv' in request.POST:
+                authors = Author.objects.all()
+                for author in authors:
+                    sync_ciencia(author.pk)
+            
+            elif 'sync_all_sc_author' in request.POST:
+                authors = Author.objects.all()
+                for author in authors:
+                    sync_scopus_author(author.pk)
+            
+            elif 'sync_all_sc_docs' in request.POST:
+                authors = Author.objects.all()
+                for author in authors:
+                    sync_scopus_docs(author.pk)
+            
+            elif 'sync_all' in request.POST:
+                sync_all()
 
 
             # Sync operations
@@ -2736,3 +2841,7 @@ def debug(string='', debug=True, end="\n"):
     if debug:
         print(string, end=end)
 
+# Scheduled task
+scheduler = BackgroundScheduler()
+scheduler.add_job(sync_all, 'cron', hour=2, minute=0, second=0)
+scheduler.start()

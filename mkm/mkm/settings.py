@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 
     #'django_extensions', # python manage.py graph_models --pydot -a -g -I Author,Publication,PublicationType,Project,Area,Affiliation,Keyword -o my_project_visualized.png
 
-    'debug_toolbar', # https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+    #'debug_toolbar', # https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
 ]
 
 INTERNAL_IPS = [
@@ -57,7 +57,7 @@ INTERNAL_IPS = [
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    #'debug_toolbar.middleware.DebugToolbarMiddleware',
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
