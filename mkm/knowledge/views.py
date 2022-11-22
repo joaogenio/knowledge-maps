@@ -24,6 +24,8 @@ import sys
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
+from pathlib import Path
+
 class bcolors:
     HEADER =	'\033[95m'
     OKBLUE =	'\033[94m'
@@ -72,6 +74,8 @@ publication_types_options = ['Conference Paper', 'Book', 'Article']#, 'Review']
 publication_types_options = sorted(publication_types_options)
 publication_types_options.insert(0, 'All')
 publication_types_options.append('Other')
+
+Path("difflists").mkdir(parents=True, exist_ok=True)
 
 def login_view(request):
 
@@ -2354,6 +2358,8 @@ def sync_scopus_docs(pk):
     sys.stderr = DevNull()
     data = scopus_author_docs(author.scopus_id, pk)
     sys.stderr = tmp
+
+
 
     with open('difflists/'+str(author.pk)+'.json', encoding="utf-8") as fh:
         data = json.load(fh)
