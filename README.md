@@ -28,11 +28,15 @@ config.json
 config.ini
 ```
 
-4. (Optional) Add API keys to the following files:
+4. Add API keys to the following files:
 ```
 .../knowledge-maps/mkm/knowledge/api_utils/config.json
 .../knowledge-maps/mkm/knowledge/api_utils/config.ini
 ```
+
+**(IMPORTANT)** Scopus API synchronization only works when executing the program from within an authorized organization (e.g. University), or through a VPN. Get your API key [here](https://dev.elsevier.com/).
+
+Contact the [Ciência Vitae](https://www.cienciavitae.pt/servicos/) team for an API key.
 
 5. Apply Django's models to the database.
 
@@ -43,13 +47,16 @@ python3 manage.py migrate
 ```
 
 6. Create a super user.
+
 ```sh
 cd .../knowledge-maps/mkm
 python3 manage.py createsuperuser
 ```
 
 ## Usage
+
 Run server.
+
 ```sh
 cd .../knowledge-maps/mkm/
 python3 manage.py runserver
