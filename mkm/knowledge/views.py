@@ -1314,7 +1314,7 @@ def index_view(request):
             map_start_range = list(reversed(range(earliest_publication.date.year, request.session['index_map_publication_end'] + 1)))
             map_end_range = list(reversed(range(request.session['index_map_publication_start'], latest_publication.date.year + 1)))
 
-        except Publication.DoesNotExist:
+        except: #Publication.DoesNotExist:
             earliest_publication = None
             latest_publication = None
 
@@ -1337,7 +1337,7 @@ def index_view(request):
             project_start_range = list(reversed(range(earliest_project.date.year, request.session['index-project-end'] + 1)))
             project_end_range = list(reversed(range(request.session['index-project-start'], latest_project.date.year + 1)))
 
-        except Publication.DoesNotExist:
+        except: #Publication.DoesNotExist:
             earliest_project = None
             latest_project = None
             project_start_range = None
@@ -1669,7 +1669,7 @@ def author_detail_view(request, pk):
             map_start_range = list(reversed(range(earliest_publication.date.year, request.session['map_publication_end'] + 1)))
             map_end_range = list(reversed(range(request.session['map_publication_start'], latest_publication.date.year + 1)))
 
-        except Publication.DoesNotExist:
+        except: #Publication.DoesNotExist:
             earliest_publication = None
             latest_publication = None
 
@@ -1693,7 +1693,7 @@ def author_detail_view(request, pk):
             project_start_range = list(reversed(range(earliest_project.date.year, request.session['project-end'] + 1)))
             project_end_range = list(reversed(range(request.session['project-start'], latest_project.date.year + 1)))
 
-        except Publication.DoesNotExist:
+        except: #Publication.DoesNotExist:
             earliest_project = None
             latest_project = None
             project_start_range = None
