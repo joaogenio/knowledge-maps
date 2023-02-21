@@ -115,17 +115,32 @@ def login_view(request):
 
 def test1(request):
 
-    graph = author_map(
-        pk=7,
-        #keywords=None,
-        #doctype='All',
-        #start_year=1980,
-        #end_year=2022
-    )
+    authors = Author.objects.prefetch_related(
+        'projects__areas',
+        'publications__author_set',
+        'publications__keywords',
+        'publications__areas',
+        'publications__publication_type',
+        'domains',
+        'current_affiliations',
+        'previous_affiliations'
+    ).annotate(num_publications=Count('publications')).order_by('-num_publications')[:10]
+
+    pubs = []
+
+    i = 0
+    for author in authors:
+        print(f"{i} - {len(author.publications.all())} - {author.name}")
+        i += 1
+
+        for publication in author.publications.all():
+            if publication not in pubs:
+                pubs.append(publication)
+
+    print(f"{len(pubs)} / {len(Publication.objects.all())} = {100 * len(pubs) / len(Publication.objects.all())} %")
 
     context = {
-        'nodes': graph['nodes'],
-        'edges': graph['edges'],
+
     }
 
     return render(request, 'test1.html', context)
@@ -1523,7 +1538,7 @@ def dev_view(request):
             'domains',
             'current_affiliations',
             'previous_affiliations'
-        )#.annotate(num_publications=Count('publications')).order_by('-num_publications')#[:5]#.order_by('id')
+        ).annotate(num_publications=Count('publications')).order_by('-num_publications')#[:5]#.order_by('id')
 
         # Context build
 
