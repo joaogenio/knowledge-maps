@@ -1294,7 +1294,7 @@ def index_view(request):
 
             # Publications Chart
             if not 'index-publication-type' in request.session:
-                request.session['index-publication-type'] = "Conference Paper"
+                request.session['index-publication-type'] = "All"
             if not 'index-publication-start' in request.session:
                 request.session['index-publication-start'] = earliest_publication.date.year
             if not 'index-publication-end' in request.session:
@@ -1323,6 +1323,13 @@ def index_view(request):
 
             map_start_range = None
             map_end_range = None
+
+            request.session['index-publication-type'] = "All"
+            request.session['index-publication-start'] = 2010
+            request.session['index-publication-end'] = 2020
+            request.session['index_map_publication_type'] = "All"
+            request.session['index_map_publication_start'] = 2010
+            request.session['index_map_publication_end'] = 2020
         
         # Projects Chart dates
         try:
@@ -1342,6 +1349,9 @@ def index_view(request):
             latest_project = None
             project_start_range = None
             project_end_range = None
+            
+            request.session['index-project-start'] = 2010
+            request.session['index-project-end'] = 2020
 
 
         # Charts
@@ -1679,6 +1689,13 @@ def author_detail_view(request, pk):
             map_start_range = None
             map_end_range = None
 
+            request.session['publication-type'] = "All"
+            request.session['publication-start'] = 2010
+            request.session['publication-end'] = 2020
+            request.session['map_publication_type'] = "All"
+            request.session['map_publication_start'] = 2010
+            request.session['map_publication_end'] = 2020
+
         
         # Projects Chart dates
         try:
@@ -1698,6 +1715,9 @@ def author_detail_view(request, pk):
             latest_project = None
             project_start_range = None
             project_end_range = None
+            
+            request.session['project-start'] = 2010
+            request.session['project-end'] = 2020
 
         # Charts
     
