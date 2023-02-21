@@ -19,7 +19,7 @@ or
 https://virtualenvwrapper.readthedocs.io/en/latest/
 ```
 
-2. Rename these files:
+2. Rename the following files:
 ```
 .../knowledge-maps/mkm/knowledge/api_utils/config.json.old
 .../knowledge-maps/mkm/knowledge/api_utils/config.ini.old
