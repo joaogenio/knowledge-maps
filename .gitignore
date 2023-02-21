@@ -16,4 +16,4 @@ difflists
 
 *.pyc
 
-*.sqlite3
+mkm/*.sqlite3
