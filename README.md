@@ -1,3 +1,20 @@
+# Knowledge Maps as support tool for managing scientific competences
+
+- [Master's thesis](https://ria.ua.pt/bitstream/10773/38423/1/Documento_Joao_Genio.pdf)
+- [Thesis defence presentation](https://docs.google.com/presentation/d/1MJslC3x_UZSyaVDdEgvXpSZNwnNSty6E/edit?usp=sharing&ouid=107393300356632046436&rtpof=true&sd=true)
+- [Scientific article](https://doi.org/10.3390/publications11010019)
+
+## Main features
+
+- Fetch academic data like publications, conference papers and projects from Scopus and Ciência Vitae APIs.
+- Automatic conflict resolution between the two sources.
+- Visualize in-house competences through interactive knowledge maps and graphs.
+- Ability to filter data by author, year, type of publication, etc.
+
+Example of one of the main views of the application:
+
+![concept/screenshothome.png](concept/screenshothome.png)
+
 # Getting Started
 
 ## Setup
